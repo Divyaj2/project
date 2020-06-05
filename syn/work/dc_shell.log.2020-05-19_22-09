@@ -1,0 +1,640 @@
+setting auto_restore_mw_cel_lib_setup true
+Initializing gui preferences from file  /u/divyaj2/.synopsys_dv_prefs.tcl
+dc_shell> fs
+setting top_design to: 
+fifo1_sram
+dc_shell> source ../scripts/dc.tcl
+set lib_dir /pkgs/synopsys/2020/32_28nm/SAED32_EDK
+/pkgs/synopsys/2020/32_28nm/SAED32_EDK
+# Decoder ring for the libraries
+# You will need to follow another example or look in the library directories to understand.
+# lib_types is used for the dc/dct linking variables and ICC2 NDM lcoations.
+# /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm
+# /          $lib_dir                   /lib/ $lib_type /db_nldm
+# link_library, Target_library use the sub_lib_types and corner variables. 
+# For sub_lib_types and corner:
+# Example:
+#     saed32hvt_ss0p75v125c.db
+#     |sub_lib  corner    .db
+# The current flow tries to find all sub_lib and all corners in all the search paths.  Any match will be put in the library list.
+# Wild cards can be used, but be careful.  Multiple matches can occur in ways you don't want.
+# For the target library, the same method is used as the link library except only HVT and RVT lib_types are used.
+# ICC2 NDM choosing also uses the sub_lib_types so that only the required libraries and extras are not loaded.
+# fifo1
+#set top_design fifo1
+set add_ios 1
+1
+set pad_design 1
+1
+set design_size { 580 580  } 
+ 580 580  
+set design_io_border 310
+310
+set dc_floorplanning 1
+1
+set rtl_list [list ../rtl/$top_design.sv ]
+../rtl/fifo1_sram.sv
+set slow_corner "ss0p75v125c ss0p95v125c_2p25v ss0p95v125c"
+ss0p75v125c ss0p95v125c_2p25v ss0p95v125c
+set fast_corner "ff0p95vn40c ff1p16vn40c_2p75v ff1p16vn40c"
+ff0p95vn40c ff1p16vn40c_2p75v ff1p16vn40c
+set synth_corners $slow_corner
+ss0p75v125c ss0p95v125c_2p25v ss0p95v125c
+set slow_metal Cmax_125
+Cmax_125
+set fast_metal Cmax_125
+Cmax_125
+set lib_types "stdcell_hvt stdcell_rvt stdcell_lvt io_std sram"
+stdcell_hvt stdcell_rvt stdcell_lvt io_std sram
+# Get just the main standard cells, srams and IOs
+set sub_lib_type "saed32?vt_ saed32sram_ saed32io_wb_"
+saed32?vt_ saed32sram_ saed32io_wb_
+#set topdir /u/$env(USER)/PSU_RTL2GDS
+set topdir [ lindex [ regexp -inline "(.*)\(syn\|pt\|apr\)" [pwd] ] 1 ]
+/u/divyaj2/ECE510-2020-SPRING/orcaproj/
+Warning: No designs to list. (UID-275)
+== ANALYZE autoread all files ==
+
+Starting ANALYZE autoread mode...
+Warning: Defining design library 'WORK' at directory '/u/divyaj2/ECE510-2020-SPRING/orcaproj/syn/work/WORK_autoread'. (AUTOREAD-107)
+Information: Adding '/u/divyaj2/ECE510-2020-SPRING/orcaproj/syn/rtl/fifo1_sram.sv'.  (AUTOREAD-100)
+Information: Scanning file { fifo1_sram.sv }. (AUTOREAD-303)
+Compiling source file /u/divyaj2/ECE510-2020-SPRING/orcaproj/syn/rtl/fifo1_sram.sv
+Presto compilation completed successfully.
+Autoread command completed successfully.
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p95v125c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ss0p95v125c_2p25v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95v125c.db'
+Loading db file '/pkgs/synopsys/2019_06/syn/P-2019.03-SP1-1/libraries/syn/dw_foundation.sldb'
+Loading db file '/pkgs/synopsys/2019_06/syn/P-2019.03-SP1-1/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2019_06/syn/P-2019.03-SP1-1/libraries/syn/standard.sldb'
+  Loading link library 'saed32hvt_ss0p75v125c'
+  Loading link library 'saed32hvt_ss0p95v125c'
+  Loading link library 'saed32rvt_ss0p75v125c'
+  Loading link library 'saed32rvt_ss0p95v125c'
+  Loading link library 'saed32lvt_ss0p75v125c'
+  Loading link library 'saed32lvt_ss0p95v125c'
+  Loading link library 'saed32io_wb_ss0p95v125c_2p25v'
+  Loading link library 'saed32sram_ss0p95v125c'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Error:  DSIZE is not a parameter in module fifo1 (VER-216)
+Error:  ASIZE is not a parameter in module fifo1 (VER-216)
+*** Presto compilation terminated with 3 errors. ***
+#####################################################
+proc insert_io { port side} {
+  set this_io io_${side}_${port}
+  if {  $side == "t"   } {
+   if { [get_attribute [get_ports $port ] direction ] == "in" } {
+    create_cell $this_io saed32io_wb_ss0p95v125c_2p25v/I1025_NS
+   } else {
+    create_cell $this_io saed32io_wb_ss0p95v125c_2p25v/D8I1025_NS
+   }
+  }
+  if { $side == "b"  } {
+   if { [get_attribute [get_ports $port ] direction ] == "in" } {
+    create_cell $this_io saed32io_wb_ss0p95v125c_2p25v/I1025_NS
+   } else {
+    create_cell $this_io saed32io_wb_ss0p95v125c_2p25v/D8I1025_NS
+   }
+  }
+  if {  $side == "r"  } {
+   if { [get_attribute [get_ports $port ] direction ] == "in" } {
+    create_cell $this_io saed32io_wb_ss0p95v125c_2p25v/I1025_NS
+   } else {
+    create_cell $this_io saed32io_wb_ss0p95v125c_2p25v/D8I1025_NS
+   }
+  }
+  if { $side == "l"  } {
+   if { [get_attribute [get_ports $port ] direction ] == "in" } {
+    create_cell $this_io saed32io_wb_ss0p95v125c_2p25v/I1025_NS
+   } else {
+    create_cell $this_io saed32io_wb_ss0p95v125c_2p25v/D8I1025_NS
+   }
+  }
+  set pins [ get_pins -of_obj [ get_net $port ] ]
+  foreach_in i $pins { disconnect_net [get_net $port ] $i }
+  set port_net [get_nets -quiet $port ]
+
+  # If only a port is created, the related net is not created and connected to the port.  Do that here.
+  if { [sizeof_collection $port_net ] == 0 } { 
+      create_net $port 
+      connect_net $port [get_ports $port ]
+  }
+
+  connect_net [get_net $port ]  $this_io/PADIO
+  create_net ${this_io}_net
+  foreach_in i $pins { connect_net ${this_io}_net $i }
+  #DIN is input to IO_PAD
+  #DOUT is output of IO_PAD
+  #EN is the IO_PAD enable to output
+  if { [get_attribute [get_ports $port ] direction ] == "in" } {
+     #connect_net [get_nets  *Logic0* ] ${this_io}/EN 
+     connect_net [get_nets  *Logic1* ] ${this_io}/R_EN 
+     connect_net ${this_io}_net ${this_io}/DOUT
+  } else {
+     connect_net [get_nets  *Logic1* ] $this_io/EN 
+     #connect_net [get_nets  *Logic0* ] $this_io/R_EN 
+     connect_net ${this_io}_net $this_io/DIN
+  }
+}
+####################################################
+Error: Current design is not defined. (UID-4)
+Error: Can't find ports matching 'rdata*'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find ports matching 'wdata*'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'rempty'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'rempty'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'rempty'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'rempty'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'rempty'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_t_rempty/PADIO'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'rempty'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find nets matching '*Logic1*'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_t_rempty/EN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'io_t_rempty_net'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_t_rempty/DIN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'wfull'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'wfull'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'wfull'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'wfull'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'wfull'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_t_wfull/PADIO'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'wfull'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find nets matching '*Logic1*'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_t_wfull/EN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'io_t_wfull_net'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_t_wfull/DIN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'rrst_n'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'rrst_n'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'rrst_n'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'rrst_n'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'rrst_n'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_rrst_n/PADIO'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'rrst_n'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find nets matching '*Logic1*'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_rrst_n/EN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'io_b_rrst_n_net'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_rrst_n/DIN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'rclk'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'rclk'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'rclk'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'rclk'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'rclk'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_rclk/PADIO'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'rclk'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find nets matching '*Logic1*'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_rclk/EN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'io_b_rclk_net'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_rclk/DIN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'rinc'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'rinc'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'rinc'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'rinc'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'rinc'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_rinc/PADIO'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'rinc'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find nets matching '*Logic1*'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_rinc/EN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'io_b_rinc_net'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_rinc/DIN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'wrst_n'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'wrst_n'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'wrst_n'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'wrst_n'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'wrst_n'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_wrst_n/PADIO'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'wrst_n'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find nets matching '*Logic1*'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_wrst_n/EN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'io_b_wrst_n_net'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_wrst_n/DIN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'wclk2x'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'wclk2x'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'wclk2x'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'wclk2x'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'wclk2x'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_wclk2x/PADIO'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'wclk2x'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find nets matching '*Logic1*'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_wclk2x/EN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'io_b_wclk2x_net'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_wclk2x/DIN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'wclk'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'wclk'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'wclk'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'wclk'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'wclk'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_wclk/PADIO'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'wclk'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find nets matching '*Logic1*'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_wclk/EN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'io_b_wclk_net'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_wclk/DIN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'winc'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'winc'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'winc'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'winc'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'winc'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_winc/PADIO'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find port 'winc'. (UID-109)
+Error: Current design is not defined. (UID-4)
+Error: Can't find nets matching '*Logic1*'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_winc/EN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find net 'io_b_winc_net'. (UID-109)
+Error: Value for list 'net' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'io_b_winc/DIN'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+if { [info exists synopsys_program_name ] && ($synopsys_program_name == "icc2_shell") } {
+    puts " Creating ICC2 MCMM "
+    create_mode func
+    create_corner slow
+    create_scenario -mode func -corner slow -name func_slow
+    current_scenario func_slow
+    set_operating_conditions ss0p75v125c
+    read_parasitic_tech -tlup $tlu_dir/saed32nm_1p9m_Cmax.tluplus -layermap $tlu_dir/saed32nm_tf_itf_tluplus.map -name Cmax
+    read_parasitic_tech -tlup $tlu_dir/saed32nm_1p9m_Cmin.tluplus -layermap $tlu_dir/saed32nm_tf_itf_tluplus.map -name Cmin
+    set_parasitic_parameters -early_spec Cmax -early_temperature 125
+    set_parasitic_parameters -late_spec Cmax -late_temperature 125
+    #set_parasitic_parameters -early_spec 1p9m_Cmax -early_temperature 125 -corner default
+    #set_parasitic_parameters -late_spec 1p9m_Cmax -late_temperature 125 -corner default
+
+    #set_scenario_status  default -active false
+    set_scenario_status func_slow -active true -hold true -setup true
+}
+create_clock -name "wclk" -period 6.0 -waveform {0.0 3.0} wclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'wclk'. (UID-109)
+Error: Value for list 'source_objects' must have 1 elements. (CMD-036)
+0
+create_clock -name "wclk2x" -period 3.0 -waveform {0.0 1.5} wclk2x
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'wclk2x'. (UID-109)
+Error: Value for list 'source_objects' must have 1 elements. (CMD-036)
+0
+create_clock -name "rclk" -period 3.0 -waveform {0.0 1.5} rclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'rclk'. (UID-109)
+Error: Value for list 'source_objects' must have 1 elements. (CMD-036)
+0
+#group_path -name INTERNAL -from [all_clocks] -to [all_clocks ]
+group_path -name INPUTS -from [ get_ports -filter "direction==in&&full_name!~*clk*" ]
+Error: Value for list '-from' must have 1 elements. (CMD-036)
+0
+group_path -name OUTPUTS -to [ get_ports -filter "direction==out" ]
+Error: Value for list '-to' must have 1 elements. (CMD-036)
+0
+#set_operating_condition ss0p75vn40c -library saed32lvt_ss0p75vn40c
+set_operating_condition ss0p75v125c -library saed32lvt_ss0p75v125c
+Error: Current design is not defined. (UID-4)
+0
+set_clock_uncertainty -setup 0.07 wclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'wclk'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+set_clock_uncertainty -hold 0.01 wclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'wclk'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+set_clock_transition 0.1 wclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'wclk'. (UID-109)
+Error: Value for list 'clock_list' must have 1 elements. (CMD-036)
+0
+set_clock_uncertainty -setup 0.07 rclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'rclk'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+set_clock_uncertainty -hold 0.01 rclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'rclk'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+set_clock_transition 0.1 rclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'rclk'. (UID-109)
+Error: Value for list 'clock_list' must have 1 elements. (CMD-036)
+0
+set_clock_uncertainty 0.07 -setup wclk2x
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'wclk2x'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+set_clock_uncertainty 0.01 -hold wclk2x
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'wclk2x'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+set_clock_transition 0.1 wclk2x
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'wclk2x'. (UID-109)
+Error: Value for list 'clock_list' must have 1 elements. (CMD-036)
+0
+set_input_delay 0.011 wdata_in* -clock wclk2x
+Error: Current design is not defined. (UID-4)
+Error: Can't find objects matching 'wdata_in*'. (UID-109)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'wclk2x'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+0
+set_input_delay 0.012 winc -clock wclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'winc'. (UID-109)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'wclk'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+0
+set_input_delay 0.012 rinc -clock rclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'rinc'. (UID-109)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'rclk'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+0
+set_output_delay 0.013 rdata* -clock rclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find objects matching 'rdata*'. (UID-109)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'rclk'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+0
+set_output_delay 0.014 {rempty } -clock rclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'rempty'. (UID-109)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'rclk'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+0
+set_output_delay 0.015 { wfull } -clock wclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'wfull'. (UID-109)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'wclk'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+0
+set_input_delay 0.16 rrst_n -clock rclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'rrst_n'. (UID-109)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'rclk'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+0
+set_input_delay 0.16 rrst_n -clock wclk -add_delay
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'rrst_n'. (UID-109)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'wclk'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+0
+set_drive 0.001 [all_inputs ]
+Error: Current design is not defined. (UID-4)
+Error: Value for list 'port_list' must have 1 elements. (CMD-036)
+0
+set_load 0.5 [all_outputs]
+Error: Current design is not defined. (UID-4)
+Error: Value for list 'objects' must have 1 elements. (CMD-036)
+0
+set_clock_latency 0.02 wclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'wclk'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+set_clock_latency 0.01 wclk2x
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'wclk2x'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+set_clock_latency 0.01 rclk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'rclk'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+0
+#set_false_path -from wclk -to rclk
+#set_false_path -from rclk -to wclk
+#set_multicycle_path -from wclk -to wclk2x -setup 2
+Error: Current design is not defined. (UID-4)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: No files or designs were specified. (UID-22)
+Error: Current design is not defined. (UID-4)
+0
+dc_shell> 
+dc_shell> exit
+
+Thank you...
+

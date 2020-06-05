@@ -1,0 +1,26 @@
+
+Input DRC Error Database.......... /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/signoff_check_drc_run
+Limit to Cell..................... route2
+Maximum Errors/Command............ 1000
+
+SIGNOFF AUTOFIX DRC SUMMARY:
+
+        DRC NAME        :   TOTAL DRC   : PROCESSED DRC :  TARGETED DRC : REMAINING TARGETED DRC :   FIX RATE   : COMMENT
+CO.B.1: CO must be full :           40  :           40  :            0  :               0        :          --  : 40 ignored: <#2>
+CO.E.12: CONT is not en :           40  :           40  :            0  :               0        :          --  : 40 ignored: <#2>
+CO.E.9: Minimum enclosu :         2135  :         1000  :            0  :               0        :          --  : 1000 ignored: <#1>
+M1.S.1: Minimum M1 spac :          300  :          300  :            0  :               0        :          --  : 300 ignored: <#3>
+M1.S.9: Minimum spacing :         1026  :         1000  :            0  :               0        :          --  : 1000 ignored: <#1>
+M1.W.1: Minimum M1 widt :         1957  :         1000  :            0  :               0        :          --  : 1000 ignored: <#1>
+M1.W.2.1: Minimum width :           15  :           15  :            0  :               0        :          --  : 15 ignored: <#3>
+M2.S.2: Minimum spacing :           60  :           60  :            0  :               0        :          --  : 60 ignored: <#3>
+M3.S.2: Minimum spacing :            9  :            9  :            0  :               0        :          --  : 9 ignored: <#3>
+M4.S.2: Minimum spacing :            3  :            3  :            0  :               0        :          --  : 3 ignored: <#3>
+M6.S.2: Minimum spacing :            4  :            4  :            0  :               0        :          --  : 4 ignored: <#3>
+VIA6.B.1: When Mx or MX :         3214  :         1000  :            0  :               0        :          --  : 1000 ignored: <#1>
+
+NOTE:
+Reasons : Detail Info
+     #1 : the amount of errors exceed the limitation of maximum errors per rule
+     #2 : size of error shapes greater than threshold
+     #3 : shapes associated with error are not in selected region for ADR

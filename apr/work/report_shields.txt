@@ -1,0 +1,17 @@
+
+**********************************
+Report : Zroute Shielding Ratio
+       : -nets all shielded
+       : -per_layer true
+**********************************
+
+Shielded 51% side-wall of (I_BLENDER_0/n766)
+    Layer: M2  ratio: 46%
+    Layer: M3  ratio: 39%
+    Layer: M4  ratio: 72%
+Shielded 1 nets with average ratio as follows.
+	1) 51.00%		(total shield ratio/number of shielded nets)
+	2) 51.00%		(total shield length/total shielded net length)
+
+**********************************
+

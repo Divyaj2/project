@@ -1,0 +1,361 @@
+Error: Library Compiler executable path is not set. (PT-063)
+setting auto_restore_mw_cel_lib_setup true
+pt_shell> fs
+setting top_design to: 
+fifo1_sram
+pt_shell> source ../scripts/pt_min.tcl
+Information: current_design won't return any data before link (DES-071)
+Loading verilog file '/u/divyaj2/ECE510-2020-SPRING/lab1-divyarolla/apr/outputs/fifo1_sram.route2.vg'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ff0p95vn40c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ff1p16vn40c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff0p95vn40c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16vn40c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ff0p95vn40c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ff1p16vn40c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ff1p16vn40c_2p75v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/db_nldm/saed32sram_ff1p16vn40c.db'
+Linking design fifo1_sram...
+Removed 18453 unconnected cells and blackboxes.
+Information: Removing 5 unneeded designs..... (LNK-034)
+Information: 279 (94.90%) library cells are unused in library saed32hvt_ff0p95vn40c..... (LNK-045)
+Information: 294 (100.00%) library cells are unused in library saed32hvt_ff1p16vn40c..... (LNK-045)
+Information: 265 (90.14%) library cells are unused in library saed32rvt_ff0p95vn40c..... (LNK-045)
+Information: 294 (100.00%) library cells are unused in library saed32rvt_ff1p16vn40c..... (LNK-045)
+Information: 256 (87.07%) library cells are unused in library saed32lvt_ff0p95vn40c..... (LNK-045)
+Information: 294 (100.00%) library cells are unused in library saed32lvt_ff1p16vn40c..... (LNK-045)
+Information: 60 (96.77%) library cells are unused in library saed32io_wb_ff1p16vn40c_2p75v..... (LNK-045)
+Information: 34 (97.14%) library cells are unused in library saed32sram_ff1p16vn40c..... (LNK-045)
+Information: total 1776 library cells are unused (LNK-046)
+Design 'fifo1_sram' was successfully linked.
+Information: There are 469 leaf cells, ports, hiers and 796 nets in the design (LNK-047)
+Information: Checked out license 'PrimeTime-SI' (PT-019)
+Information: Log for 'read_parasitics command' will be generated in 'parasitics_command.log'. (PARA-107)
+if { [info exists synopsys_program_name ] && ($synopsys_program_name == "icc2_shell") } {
+    puts " Creating ICC2 MCMM "
+    create_mode func
+    create_corner slow
+    create_scenario -mode func -corner slow -name func_slow
+    current_scenario func_slow
+    set_operating_conditions ss0p75v125c
+    read_parasitic_tech -tlup $tlu_dir/saed32nm_1p9m_Cmax.tluplus -layermap $tlu_dir/saed32nm_tf_itf_tluplus.map -name Cmax
+    read_parasitic_tech -tlup $tlu_dir/saed32nm_1p9m_Cmin.tluplus -layermap $tlu_dir/saed32nm_tf_itf_tluplus.map -name Cmin
+    set_parasitic_parameters -early_spec Cmax -early_temperature 125
+    set_parasitic_parameters -late_spec Cmax -late_temperature 125
+    #set_parasitic_parameters -early_spec 1p9m_Cmax -early_temperature 125 -corner default
+    #set_parasitic_parameters -late_spec 1p9m_Cmax -late_temperature 125 -corner default
+
+    #set_scenario_status  default -active false
+    set_scenario_status func_slow -active true -hold true -setup true
+}
+create_clock -name "wclk" -period 6.0 -waveform {0.0 3.0} wclk
+1
+create_clock -name "wclk2x" -period 3.0 -waveform {0.0 1.5} wclk2x
+1
+create_clock -name "rclk" -period 3.0 -waveform {0.0 1.5} rclk
+1
+#group_path -name INTERNAL -from [all_clocks] -to [all_clocks ]
+group_path -name INPUTS -from [ get_ports -filter "direction==in&&full_name!~*clk*" ]
+1
+group_path -name OUTPUTS -to [ get_ports -filter "direction==out" ]
+1
+#set_operating_condition ss0p75vn40c -library saed32lvt_ss0p75vn40c
+set_operating_condition ss0p75v125c -library saed32lvt_ss0p75v125c
+Warning: Nothing implicitly matched 'saed32lvt_ss0p75v125c' (SEL-003)
+Error: Nothing matched for lib (SEL-005)
+0
+set_clock_uncertainty -setup 0.07 wclk
+1
+set_clock_uncertainty -hold 0.01 wclk
+1
+set_clock_transition 0.1 wclk
+1
+set_clock_uncertainty -setup 0.07 rclk
+1
+set_clock_uncertainty -hold 0.01 rclk
+1
+set_clock_transition 0.1 rclk
+1
+set_clock_uncertainty 0.07 -setup wclk2x
+1
+set_clock_uncertainty 0.01 -hold wclk2x
+1
+set_clock_transition 0.1 wclk2x
+1
+set_input_delay 0.011 wdata_in* -clock wclk2x
+1
+set_input_delay 0.012 winc -clock wclk
+1
+set_input_delay 0.012 rinc -clock rclk
+1
+set_output_delay 0.013 rdata* -clock rclk
+1
+set_output_delay 0.014 {rempty } -clock rclk
+1
+set_output_delay 0.015 { wfull } -clock wclk
+1
+set_input_delay 0.16 rrst_n -clock rclk
+1
+set_input_delay 0.16 rrst_n -clock wclk -add_delay
+1
+set_drive 0.001 [all_inputs ]
+1
+set_load 0.5 [all_outputs]
+1
+set_clock_latency 0.02 wclk
+1
+set_clock_latency 0.01 wclk2x
+1
+set_clock_latency 0.01 rclk
+1
+#set_false_path -from wclk -to rclk
+#set_false_path -from rclk -to wclk
+#set_multicycle_path -from wclk -to wclk2x -setup 2
+Warning: Converting clock object 'wclk' from ideal to propagated. (UITE-315)
+Warning: Converting clock object 'wclk2x' from ideal to propagated. (UITE-315)
+Warning: Converting clock object 'rclk' from ideal to propagated. (UITE-315)
+Warning: Setting this variable to a lower value can cause a significant performance degradation during a timing update. (PTE-067)
+Information: Setting rc_cache_min_max_rise_fall_ceff to TRUE. (XTALK-015)
+Information: Using automatic max wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Warning: Some timing arcs have been disabled for breaking timing loops or because of constant propagation. Use the 'report_disable_timing' command to get the list of these disabled timing arcs. (PTE-003)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff0p95vn40c/NBUFFX32_HVT) HFSBUF_682_56/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff0p95vn40c/NBUFFX32_HVT) HFSBUF_682_56/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32lvt_ff0p95vn40c/NBUFFX32_LVT) HFSBUF_499_51/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32lvt_ff0p95vn40c/NBUFFX32_LVT) HFSBUF_499_51/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32lvt_ff0p95vn40c/NBUFFX32_LVT) HFSBUF_693_60/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32lvt_ff0p95vn40c/NBUFFX32_LVT) HFSBUF_693_60/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32lvt_ff0p95vn40c/NBUFFX32_LVT) HFSBUF_603_59/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32lvt_ff0p95vn40c/NBUFFX32_LVT) HFSBUF_537_62/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32lvt_ff0p95vn40c/NBUFFX32_LVT) HFSBUF_603_59/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32lvt_ff0p95vn40c/NBUFFX32_LVT) HFSBUF_537_62/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32lvt_ff0p95vn40c/NBUFFX32_LVT) HFSBUF_684_63/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32lvt_ff0p95vn40c/NBUFFX32_LVT) HFSBUF_684_63/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff0p95vn40c/NBUFFX32_HVT) fifomem/HFSBUF_338_7/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff0p95vn40c/NBUFFX32_HVT) fifomem/HFSBUF_338_7/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff0p95vn40c/NBUFFX32_HVT) fifomem/HFSBUF_337_2/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff0p95vn40c/NBUFFX32_HVT) fifomem/HFSBUF_337_2/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: Failed to compute the rising RC network delay from the pin 'U67/Y' to the pin 'io_r_wdata_in_7_/PADIO' in the network 'n19'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U63/Y' to the pin 'io_r_wdata_in_3_/PADIO' in the network 'n15'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U63/Y' to the pin 'io_r_wdata_in_3_/PADIO' in the network 'n15'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U63/Y' to the pin 'io_r_wdata_in_3_/PADIO' in the network 'n15'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U63/Y' to the pin 'io_r_wdata_in_3_/PADIO' in the network 'n15'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U67/Y' to the pin 'io_r_wdata_in_7_/PADIO' in the network 'n19'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U67/Y' to the pin 'io_r_wdata_in_7_/PADIO' in the network 'n19'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U67/Y' to the pin 'io_r_wdata_in_7_/PADIO' in the network 'n19'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U65/Y' to the pin 'io_r_wdata_in_5_/PADIO' in the network 'n17'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U68/Y' to the pin 'io_r_wdata_in_2_/PADIO' in the network 'n20'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U68/Y' to the pin 'io_r_wdata_in_2_/PADIO' in the network 'n20'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U68/Y' to the pin 'io_r_wdata_in_2_/PADIO' in the network 'n20'. (RC-005)
+Warning: The type of RC delay calculation problems that have occurred prevents the min and max results from bounding the correct values. (RC-008)
+Warning: The type of RC delay calculation problems that have occurred prevents the min and max results from bounding the correct values. (RC-008)
+Warning: Failed to compute the falling RC network delay from the pin 'U65/Y' to the pin 'io_r_wdata_in_5_/PADIO' in the network 'n17'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U65/Y' to the pin 'io_r_wdata_in_5_/PADIO' in the network 'n17'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U65/Y' to the pin 'io_r_wdata_in_5_/PADIO' in the network 'n17'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U68/Y' to the pin 'io_r_wdata_in_2_/PADIO' in the network 'n20'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U69/Y' to the pin 'io_r_wdata_in_1_/PADIO' in the network 'n21'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U70/Y' to the pin 'io_r_wdata_in_0_/PADIO' in the network 'n22'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U70/Y' to the pin 'io_r_wdata_in_0_/PADIO' in the network 'n22'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U70/Y' to the pin 'io_r_wdata_in_0_/PADIO' in the network 'n22'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U70/Y' to the pin 'io_r_wdata_in_0_/PADIO' in the network 'n22'. (RC-005)
+Warning: The type of RC delay calculation problems that have occurred prevents the min and max results from bounding the correct values. (RC-008)
+Warning: The type of RC delay calculation problems that have occurred prevents the min and max results from bounding the correct values. (RC-008)
+Warning: Failed to compute the falling RC network delay from the pin 'U69/Y' to the pin 'io_r_wdata_in_1_/PADIO' in the network 'n21'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U69/Y' to the pin 'io_r_wdata_in_1_/PADIO' in the network 'n21'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U69/Y' to the pin 'io_r_wdata_in_1_/PADIO' in the network 'n21'. (RC-005)
+Warning: The type of RC delay calculation problems that have occurred prevents the min and max results from bounding the correct values. (RC-008)
+Warning: The type of RC delay calculation problems that have occurred prevents the min and max results from bounding the correct values. (RC-008)
+Warning: Failed to compute the rising RC network delay from the pin 'U58/Y' to the pin 'io_b_rrst_n/PADIO' in the network 'n10'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U58/Y' to the pin 'io_b_rrst_n/PADIO' in the network 'n10'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U72/Y' to the pin 'io_b_rinc/PADIO' in the network 'n27'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U71/Y' to the pin 'io_b_winc/PADIO' in the network 'n23'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U72/Y' to the pin 'io_b_rinc/PADIO' in the network 'n27'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U72/Y' to the pin 'io_b_rinc/PADIO' in the network 'n27'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U71/Y' to the pin 'io_b_winc/PADIO' in the network 'n23'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U58/Y' to the pin 'io_b_rrst_n/PADIO' in the network 'n10'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U58/Y' to the pin 'io_b_rrst_n/PADIO' in the network 'n10'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U71/Y' to the pin 'io_b_winc/PADIO' in the network 'n23'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U72/Y' to the pin 'io_b_rinc/PADIO' in the network 'n27'. (RC-005)
+Warning: The type of RC delay calculation problems that have occurred prevents the min and max results from bounding the correct values. (RC-008)
+Warning: Failed to compute the falling RC network delay from the pin 'U71/Y' to the pin 'io_b_winc/PADIO' in the network 'n23'. (RC-005)
+Warning: The type of RC delay calculation problems that have occurred prevents the min and max results from bounding the correct values. (RC-008)
+Warning: The type of RC delay calculation problems that have occurred prevents the min and max results from bounding the correct values. (RC-008)
+Warning: Failed to compute the rising RC network delay from the pin 'U66/Y' to the pin 'io_r_wdata_in_6_/PADIO' in the network 'n18'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U66/Y' to the pin 'io_r_wdata_in_6_/PADIO' in the network 'n18'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U66/Y' to the pin 'io_r_wdata_in_6_/PADIO' in the network 'n18'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U66/Y' to the pin 'io_r_wdata_in_6_/PADIO' in the network 'n18'. (RC-005)
+Warning: The type of RC delay calculation problems that have occurred prevents the min and max results from bounding the correct values. (RC-008)
+Warning: Failed to compute the rising RC network delay from the pin 'U64/Y' to the pin 'io_r_wdata_in_4_/PADIO' in the network 'n16'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U64/Y' to the pin 'io_r_wdata_in_4_/PADIO' in the network 'n16'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'U64/Y' to the pin 'io_r_wdata_in_4_/PADIO' in the network 'n16'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'U64/Y' to the pin 'io_r_wdata_in_4_/PADIO' in the network 'n16'. (RC-005)
+Warning: The type of RC delay calculation problems that have occurred prevents the min and max results from bounding the correct values. (RC-008)
+Warning: Failed to compute the rising RC network delay from the pin 'ropt_mt_inst_1747/Y' to the pin 'io_b_wrst_n/PADIO' in the network 'ropt_net_27'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'ropt_mt_inst_1747/Y' to the pin 'io_b_wrst_n/PADIO' in the network 'ropt_net_27'. (RC-005)
+Warning: Failed to compute the rising RC network delay from the pin 'ropt_mt_inst_1747/Y' to the pin 'io_b_wrst_n/PADIO' in the network 'ropt_net_27'. (RC-005)
+Warning: Failed to compute the falling RC network delay from the pin 'ropt_mt_inst_1747/Y' to the pin 'io_b_wrst_n/PADIO' in the network 'ropt_net_27'. (RC-005)
+Warning: The type of RC delay calculation problems that have occurred prevents the min and max results from bounding the correct values. (RC-008)
+Information: Starting crosstalk aware timing iteration 1. (XTALK-001)
+Information: Starting crosstalk aware timing iteration 2. (XTALK-001)
+Information: Expanding clock 'rclk' to base period of 6.000 (old period was 3.000, added 2 edges). (PTE-016)
+Information: Expanding clock 'wclk2x' to base period of 6.000 (old period was 3.000, added 2 edges). (PTE-016)
+Information: Number of nets evaluated in the previous iteration: 522. (XTALK-105)
+pt_shell> set power_enable_analysis "true"
+Information: Checked out license 'PrimePower' (PT-019)
+true
+pt_shell> report_power
+Warning: Neither event file or switching activity data present for power estimation. The command will propagate switching activity values for power calculation.  (PWR-246)
+Information: Running switching activity propagation with 4 threads!
+Information: Running averaged power analysis... (PWR-601)
+Information: Running power calculation with 4 threads. (PWR-602)
+****************************************
+Report : Averaged Power
+Design : fifo1_sram
+Version: O-2018.06
+Date   : Thu Apr  9 11:37:14 2020
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network           -2.437e-04
+                                  4.120e-05 5.134e-04 3.109e-04 ( 2.23%)  i
+register                -3.451e-05
+                                  1.037e-06 4.878e-04 4.543e-04 ( 3.26%)  
+combinational           -2.424e-05
+                                  4.236e-04 3.772e-03 4.171e-03 (29.89%)  
+sequential                 0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+memory                  6.094e-03 2.407e-05    0.0000 6.118e-03 (43.83%)  
+io_pad                  2.343e-03 1.020e-04 4.581e-04 2.903e-03 (20.80%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 5.919e-04   ( 4.24%)
+  Cell Internal Power  = 8.134e-03   (58.28%)
+  Cell Leakage Power   = 5.231e-03   (37.48%)
+                         ---------
+Total Power            =    0.0140  (100.00%)
+
+1
+pt_shell> report_qor
+****************************************
+Report : qor
+Design : fifo1_sram
+Version: O-2018.06
+Date   : Thu Apr  9 11:38:07 2020
+****************************************
+
+  Timing Path Group 'INPUTS' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            3
+  Critical Path Length:                   0.258
+  Critical Path Slack:                   -3.334
+  Total Negative Slack:                -259.744
+  No. of Violating Paths:                    96
+  ---------------------------------------------
+
+  Timing Path Group 'OUTPUTS' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            4
+  Critical Path Length:                   3.873
+  Critical Path Slack:                    3.878
+  Total Negative Slack:                   0.000
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'rclk' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            2
+  Critical Path Length:                   3.215
+  Critical Path Slack:                    0.034
+  Total Negative Slack:                   0.000
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'wclk' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            1
+  Critical Path Length:                   3.134
+  Critical Path Slack:                    0.076
+  Total Negative Slack:                   0.000
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Cell Count
+  ---------------------------------------------
+  Hierarchical Cell Count:                    5
+  Hierarchical Port Count:                  190
+  Leaf Cell Count:                          438
+  ---------------------------------------------
+
+
+  Area
+  ---------------------------------------------
+  Net Interconnect area:                616.044
+  Total cell area:                   371392.781
+  Design Area:                       372008.812
+  ---------------------------------------------
+
+
+  Design Rule Violations
+  ---------------------------------------------
+  Total No. of Pins in Design:             2001
+  max_capacitance Count:                     47
+  min_capacitance Count:                     64
+  max_transition Count:                       3
+  max_capacitance Cost:              -25449.232
+  min_capacitance Cost:                  -5.696
+  max_transition Cost:                   -7.846
+  Total DRC Cost:                    -25462.773
+  ---------------------------------------------
+
+1
+pt_shell> report_power
+****************************************
+Report : Averaged Power
+Design : fifo1_sram
+Version: O-2018.06
+Date   : Thu Apr  9 11:38:43 2020
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network           -2.437e-04
+                                  4.120e-05 5.134e-04 3.109e-04 ( 2.23%)  i
+register                -3.451e-05
+                                  1.037e-06 4.878e-04 4.543e-04 ( 3.26%)  
+combinational           -2.424e-05
+                                  4.236e-04 3.772e-03 4.171e-03 (29.89%)  
+sequential                 0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+memory                  6.094e-03 2.407e-05    0.0000 6.118e-03 (43.83%)  
+io_pad                  2.343e-03 1.020e-04 4.581e-04 2.903e-03 (20.80%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 5.919e-04   ( 4.24%)
+  Cell Internal Power  = 8.134e-03   (58.28%)
+  Cell Leakage Power   = 5.231e-03   (37.48%)
+                         ---------
+Total Power            =    0.0140  (100.00%)
+
+1
+pt_shell> exit
+Maximum memory usage for this session: 914.81 MB
+CPU usage for this session: 10 seconds 
+Elapsed time for this session: 575 seconds
+Diagnostics summary: 2 errors, 84 warnings, 25 informationals
+
+Thank you for using pt_shell!
+

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<errorData typeCount="14" majorVersion="1" minorVersion="8" name="__private_meta_data_:signoff_check_drc.err" designName="ORCA_TOP" info="IC Validator runset file /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs" checker="IC Validator" checkerVersion="RHEL64 Q-2019.12-SP2-4.5500898 2020/04/25" created="1591246456" createdDate="06:03:2020:21:54:16:PDT" modified="1591246465" modifiedDate="06:03:2020:21:54:25:PDT" interactive="false" internal="false" metaData="true" numTypes="14" numInsts="5015"/>

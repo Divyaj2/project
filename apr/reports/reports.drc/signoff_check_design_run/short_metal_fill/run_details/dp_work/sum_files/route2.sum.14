@@ -1,0 +1,145 @@
+Thu May 21 19:35:36 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+
+Runset file ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs
+Current Directory ................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill
+Hostname .........................  mo.ece.pdx.edu
+Platform type ....................  LINUX.64
+NDM input library path ...........  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/
+NDM input library name ...........  ORCA_TOP_lib
+NDM block name ...................  route2
+Run details ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/run_details
+Group file directory .............  /dev/shm/31773
+Check reference structures .......  yes
+
+   Read Library Time=0:00:00  User=0.01 Sys=0.11 Mem=0.006 GB
+
+Thu May 21 19:35:39 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Thu May 21 19:35:40 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.16 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:58:Layer creation
+VIA4_fill = assign({ { 18 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA4_fill.polygonlayer.0017, VIA4_fill.polygonlayer.0017
+  Outputs: VIA4_fill.polygonlayer.0018, 
+No output written.
+Layer "VIA4_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:31:Layer creation
+M5_metal = assign({ { 19 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M5_metal_blockage.polygonlayer.0001
+  Outputs: M5_metal.polygonlayer.0021, M5_metal.polygonlayer.0022
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M5_metal.polygonlayer.0021" is empty.
+1270 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.08 Mem=0.013 GB
+
+assign() at metalFillShortFinder.rs:58:Layer creation
+VIA4_fill = assign({ { 18 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA4_fill_blockage.polygonlayer.0001
+  Outputs: VIA4_fill.polygonlayer.0021, VIA4_fill.polygonlayer.0022
+No output written.
+Layer "VIA4_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "VIA4_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.06 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:44:Layer creation
+M8_fill = assign({ { 25 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M8_fill_assign.polygonlayer.0001
+  Outputs: M8_fill.polygonlayer.0019, M8_fill.polygonlayer.0020
+No output written.
+Layer "M8_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "M8_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.07 Mem=0.012 GB
+
+Thu May 21 19:36:04 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+for(loop 5 out of 10, i=4) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M5_fill.polygonlayer.0018, temp.associated.0003, M5_metal.polygonlayer.0018, temp.associated.0004
+Input layer "M5_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+for(loop 5 out of 10, i=4) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M5_fill.polygonlayer.0020, M5_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+ Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+

@@ -1,0 +1,644 @@
+#
+# runset is /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs
+#
+runset_csum = 11679
+num_hosts = 999
+events {
+S 24.0.0 50 0
+# mo.ece.pdx.edu(0):      1653  1 _prescan_library
+F 24.0.0 50 0
+S 26.0.0 57 0
+# mo.ece.pdx.edu(0):      1273  1 _scan_hierarchy
+F 26.0.0 57 0
+S 58.0.0 166 1
+# mo.ece.pdx.edu(1):      4571  1 _read_library_segment
+S 56.0.0 159 2
+# mo.ece.pdx.edu(2):      4571  1 _read_library_segment
+S 54.0.0 152 3
+# mo.ece.pdx.edu(3):      4571  1 _read_library_segment
+S 52.0.0 145 4
+# mo.ece.pdx.edu(4):      4571  1 _read_library_segment
+S 50.0.0 138 5
+# mo.ece.pdx.edu(5):      4571  1 _read_library_segment
+S 48.0.0 131 6
+# mo.ece.pdx.edu(6):      4571  1 _read_library_segment
+S 46.0.0 124 7
+# mo.ece.pdx.edu(7):      4571  1 _read_library_segment
+S 44.0.0 117 8
+# mo.ece.pdx.edu(8):      4571  1 _read_library_segment
+S 42.0.0 110 9
+# mo.ece.pdx.edu(9):      4571  1 _read_library_segment
+S 40.0.0 103 10
+# mo.ece.pdx.edu(10):      4571  1 _read_library_segment
+S 38.0.0 96 11
+# mo.ece.pdx.edu(11):      4572  1 _read_library_segment
+S 36.0.0 89 12
+# mo.ece.pdx.edu(12):      4572  1 _read_library_segment
+S 34.0.0 82 13
+# mo.ece.pdx.edu(13):      4572  1 _read_library_segment
+S 32.0.0 75 14
+# mo.ece.pdx.edu(14):      4572  1 _read_library_segment
+S 30.0.0 68 15
+# mo.ece.pdx.edu(15):      4572  1 _read_library_segment
+S 28.0.0 61 0
+# mo.ece.pdx.edu(0):      4572  1 _read_library_segment
+F 46.0.0 124 7
+F 38.0.0 96 11
+F 30.0.0 68 15
+F 44.0.0 117 8
+F 32.0.0 75 14
+F 36.0.0 89 12
+F 48.0.0 131 6
+F 40.0.0 103 10
+F 42.0.0 110 9
+F 34.0.0 82 13
+F 50.0.0 138 5
+F 28.0.0 61 0
+F 0 0 15
+F 0 0 11
+F 0 0 14
+F 0 0 12
+F 0 0 0
+F 0 0 6
+F 0 0 9
+F 0 0 13
+F 0 0 10
+F 0 0 8
+F 0 0 7
+F 0 0 5
+F 58.0.0 166 1
+F 52.0.0 145 4
+F 56.0.0 159 2
+F 0 0 4
+F 0 0 2
+F 0 0 1
+F 54.0.0 152 3
+S 60.0.0 174 0
+# mo.ece.pdx.edu(0):     27600  1 _create_hierarchy_tree
+F 0 0 3
+F 60.0.0 174 0
+S 70.0.0 204 0
+# mo.ece.pdx.edu(0):      1603  1 _optimize_hierarchy_tree
+S 69.0.0 200 17
+# mo.ece.pdx.edu(17):       760  1 _generate_sibling_refref
+S 104.0.0 368 18
+# mo.ece.pdx.edu(18):      4809  1 _create_layer_dp
+S 94.0.0 326 19
+# mo.ece.pdx.edu(19):      4809  1 _create_layer_dp
+S 84.0.0 284 20
+# mo.ece.pdx.edu(20):      4809  1 _create_layer_dp
+S 74.0.0 235 21
+# mo.ece.pdx.edu(21):      4809  1 _create_layer_dp
+S 164.0.0 620 22
+# mo.ece.pdx.edu(22):      4855  1 _create_layer_dp
+S 154.0.0 578 23
+# mo.ece.pdx.edu(23):      4809  1 _create_layer_dp
+S 144.0.0 536 24
+# mo.ece.pdx.edu(24):      4809  1 _create_layer_dp
+S 134.0.0 494 25
+# mo.ece.pdx.edu(25):      4809  1 _create_layer_dp
+S 124.0.0 452 26
+# mo.ece.pdx.edu(26):      4809  1 _create_layer_dp
+S 114.0.0 410 27
+# mo.ece.pdx.edu(27):      4809  1 _create_layer_dp
+S 214.0.0 830 28
+# mo.ece.pdx.edu(28):      4922  1 _create_layer_dp
+S 209.0.0 809 29
+# mo.ece.pdx.edu(29):      4876  1 _create_layer_dp
+S 204.0.0 788 30
+# mo.ece.pdx.edu(30):      4876  1 _create_layer_dp
+S 199.0.0 767 31
+# mo.ece.pdx.edu(31):      4876  1 _create_layer_dp
+F 214.0.0 830 28
+S 194.0.0 746 28
+# mo.ece.pdx.edu(28):      4876  1 _create_layer_dp
+F 199.0.0 767 31
+S 189.0.0 725 31
+# mo.ece.pdx.edu(31):      4876  1 _create_layer_dp
+F 204.0.0 788 30
+S 184.0.0 704 30
+# mo.ece.pdx.edu(30):      4876  1 _create_layer_dp
+F 164.0.0 620 22
+S 179.0.0 683 22
+# mo.ece.pdx.edu(22):      4876  1 _create_layer_dp
+F 154.0.0 578 23
+S 174.0.0 662 23
+# mo.ece.pdx.edu(23):      4876  1 _create_layer_dp
+F 209.0.0 809 29
+S 169.0.0 641 29
+# mo.ece.pdx.edu(29):      4876  1 _create_layer_dp
+F 184.0.0 704 30
+S 159.0.0 599 30
+# mo.ece.pdx.edu(30):      4830  1 _create_layer_dp
+F 179.0.0 683 22
+S 149.0.0 557 22
+# mo.ece.pdx.edu(22):      4830  1 _create_layer_dp
+F 194.0.0 746 28
+S 139.0.0 515 28
+# mo.ece.pdx.edu(28):      4830  1 _create_layer_dp
+F 174.0.0 662 23
+S 129.0.0 473 23
+# mo.ece.pdx.edu(23):      4830  1 _create_layer_dp
+F 159.0.0 599 30
+S 119.0.0 431 30
+# mo.ece.pdx.edu(30):      4830  1 _create_layer_dp
+F 149.0.0 557 22
+S 109.0.0 389 22
+# mo.ece.pdx.edu(22):      4830  1 _create_layer_dp
+F 139.0.0 515 28
+S 99.0.0 347 28
+# mo.ece.pdx.edu(28):      4830  1 _create_layer_dp
+F 189.0.0 725 31
+S 89.0.0 305 31
+# mo.ece.pdx.edu(31):      4830  1 _create_layer_dp
+F 169.0.0 641 29
+S 79.0.0 263 29
+# mo.ece.pdx.edu(29):      4830  1 _create_layer_dp
+F 134.0.0 494 25
+F 144.0.0 536 24
+F 129.0.0 473 23
+F 109.0.0 389 22
+F 99.0.0 347 28
+F 119.0.0 431 30
+F 79.0.0 263 29
+F 89.0.0 305 31
+F 0 0 24
+F 124.0.0 452 26
+F 0 0 23
+F 0 0 25
+F 0 0 28
+F 0 0 22
+F 0 0 30
+F 0 0 31
+F 0 0 29
+F 0 0 26
+F 69.0.0 200 17
+F 114.0.0 410 27
+F 0 0 27
+F 0 0 17
+F 104.0.0 368 18
+F 0 0 18
+F 74.0.0 235 21
+F 0 0 21
+F 70.0.0 204 0
+S 71.0.0 213 0
+# mo.ece.pdx.edu(0):       994  1 _hierarchy_cleanup
+S 125.0.0 457 1
+# mo.ece.pdx.edu(1):      3875  1 _optimize_layer_dp
+S 115.0.0 415 2
+# mo.ece.pdx.edu(2):      3875  1 _optimize_layer_dp
+S 105.0.0 373 3
+# mo.ece.pdx.edu(3):      3875  1 _optimize_layer_dp
+S 75.0.0 247 4
+# mo.ece.pdx.edu(4):      3875  1 _optimize_layer_dp
+S 135.0.0 499 5
+# mo.ece.pdx.edu(5):      3875  1 _optimize_layer_dp
+S 165.0.0 625 6
+# mo.ece.pdx.edu(6):      3883  1 _optimize_layer_dp
+S 155.0.0 583 7
+# mo.ece.pdx.edu(7):      3875  1 _optimize_layer_dp
+S 145.0.0 541 8
+# mo.ece.pdx.edu(8):      3875  1 _optimize_layer_dp
+S 215.0.0 835 9
+# mo.ece.pdx.edu(9):      3931  1 _optimize_layer_dp
+S 210.0.0 814 10
+# mo.ece.pdx.edu(10):      3923  1 _optimize_layer_dp
+S 205.0.0 793 11
+# mo.ece.pdx.edu(11):      3923  1 _optimize_layer_dp
+S 200.0.0 772 12
+# mo.ece.pdx.edu(12):      3923  1 _optimize_layer_dp
+S 195.0.0 751 13
+# mo.ece.pdx.edu(13):      3923  1 _optimize_layer_dp
+S 190.0.0 730 14
+# mo.ece.pdx.edu(14):      3923  1 _optimize_layer_dp
+S 185.0.0 709 15
+# mo.ece.pdx.edu(15):      3923  1 _optimize_layer_dp
+S 180.0.0 688 16
+# mo.ece.pdx.edu(16):      3923  1 _optimize_layer_dp
+S 175.0.0 667 17
+# mo.ece.pdx.edu(17):      3923  1 _optimize_layer_dp
+S 170.0.0 646 18
+# mo.ece.pdx.edu(18):      3923  1 _optimize_layer_dp
+S 160.0.0 604 21
+# mo.ece.pdx.edu(21):      3915  1 _optimize_layer_dp
+S 150.0.0 562 22
+# mo.ece.pdx.edu(22):      3915  1 _optimize_layer_dp
+S 140.0.0 520 23
+# mo.ece.pdx.edu(23):      3915  1 _optimize_layer_dp
+S 130.0.0 478 24
+# mo.ece.pdx.edu(24):      3915  1 _optimize_layer_dp
+S 120.0.0 436 25
+# mo.ece.pdx.edu(25):      3915  1 _optimize_layer_dp
+S 110.0.0 394 26
+# mo.ece.pdx.edu(26):      3915  1 _optimize_layer_dp
+S 100.0.0 352 27
+# mo.ece.pdx.edu(27):      3915  1 _optimize_layer_dp
+S 90.0.0 310 28
+# mo.ece.pdx.edu(28):      3915  1 _optimize_layer_dp
+S 80.0.0 268 29
+# mo.ece.pdx.edu(29):      3915  1 _optimize_layer_dp
+S 76.0.0 252 30
+# mo.ece.pdx.edu(30):      3980  1 _optimize_unmerged_layer_dp
+S 106.0.0 378 31
+# mo.ece.pdx.edu(31):      3980  1 _optimize_unmerged_layer_dp
+F 210.0.0 814 10
+S 116.0.0 420 10
+# mo.ece.pdx.edu(10):      3980  1 _optimize_unmerged_layer_dp
+F 205.0.0 793 11
+S 126.0.0 462 11
+# mo.ece.pdx.edu(11):      3980  1 _optimize_unmerged_layer_dp
+F 170.0.0 646 18
+S 136.0.0 504 18
+# mo.ece.pdx.edu(18):      3980  1 _optimize_unmerged_layer_dp
+F 155.0.0 583 7
+S 146.0.0 546 7
+# mo.ece.pdx.edu(7):      3980  1 _optimize_unmerged_layer_dp
+F 190.0.0 730 14
+S 117.0.0 425 14
+# mo.ece.pdx.edu(14):      3984  1 _optimize_unmerged_layer_dp
+F 140.0.0 520 23
+S 77.0.0 257 23
+# mo.ece.pdx.edu(23):      3984  1 _optimize_unmerged_layer_dp
+F 150.0.0 562 22
+S 107.0.0 383 22
+# mo.ece.pdx.edu(22):      3984  1 _optimize_unmerged_layer_dp
+F 200.0.0 772 12
+S 217.0.0 845 12
+# mo.ece.pdx.edu(12):      4046  1 _optimize_unmerged_layer_dp
+F 80.0.0 268 29
+S 216.0.0 840 29
+# mo.ece.pdx.edu(29):      4042  1 _optimize_unmerged_layer_dp
+F 160.0.0 604 21
+S 212.0.0 824 21
+# mo.ece.pdx.edu(21):      4034  1 _optimize_unmerged_layer_dp
+F 175.0.0 667 17
+S 211.0.0 819 17
+# mo.ece.pdx.edu(17):      4030  1 _optimize_unmerged_layer_dp
+F 110.0.0 394 26
+S 207.0.0 803 26
+# mo.ece.pdx.edu(26):      4034  1 _optimize_unmerged_layer_dp
+F 120.0.0 436 25
+S 206.0.0 798 25
+# mo.ece.pdx.edu(25):      4030  1 _optimize_unmerged_layer_dp
+F 136.0.0 504 18
+S 202.0.0 782 18
+# mo.ece.pdx.edu(18):      4034  1 _optimize_unmerged_layer_dp
+F 130.0.0 478 24
+S 201.0.0 777 24
+# mo.ece.pdx.edu(24):      4030  1 _optimize_unmerged_layer_dp
+F 146.0.0 546 7
+S 197.0.0 761 7
+# mo.ece.pdx.edu(7):      4034  1 _optimize_unmerged_layer_dp
+F 185.0.0 709 15
+S 196.0.0 756 15
+# mo.ece.pdx.edu(15):      4030  1 _optimize_unmerged_layer_dp
+F 117.0.0 425 14
+S 192.0.0 740 14
+# mo.ece.pdx.edu(14):      4034  1 _optimize_unmerged_layer_dp
+F 100.0.0 352 27
+S 191.0.0 735 27
+# mo.ece.pdx.edu(27):      4030  1 _optimize_unmerged_layer_dp
+F 90.0.0 310 28
+S 187.0.0 719 28
+# mo.ece.pdx.edu(28):      4034  1 _optimize_unmerged_layer_dp
+F 180.0.0 688 16
+S 186.0.0 714 16
+# mo.ece.pdx.edu(16):      4030  1 _optimize_unmerged_layer_dp
+F 107.0.0 383 22
+S 182.0.0 698 22
+# mo.ece.pdx.edu(22):      4034  1 _optimize_unmerged_layer_dp
+F 165.0.0 625 6
+S 181.0.0 693 6
+# mo.ece.pdx.edu(6):      4030  1 _optimize_unmerged_layer_dp
+F 195.0.0 751 13
+S 177.0.0 677 13
+# mo.ece.pdx.edu(13):      4034  1 _optimize_unmerged_layer_dp
+F 215.0.0 835 9
+S 176.0.0 672 9
+# mo.ece.pdx.edu(9):      4030  1 _optimize_unmerged_layer_dp
+F 126.0.0 462 11
+S 172.0.0 656 11
+# mo.ece.pdx.edu(11):      4034  1 _optimize_unmerged_layer_dp
+F 212.0.0 824 21
+S 171.0.0 651 21
+# mo.ece.pdx.edu(21):      4030  1 _optimize_unmerged_layer_dp
+F 216.0.0 840 29
+S 167.0.0 635 29
+# mo.ece.pdx.edu(29):      3996  1 _optimize_unmerged_layer_dp
+F 217.0.0 845 12
+F 77.0.0 257 23
+S 166.0.0 630 12
+# mo.ece.pdx.edu(12):      3992  1 _optimize_unmerged_layer_dp
+S 162.0.0 614 23
+# mo.ece.pdx.edu(23):      4022  1 _optimize_unmerged_layer_dp
+F 71.0.0 213 0
+F 211.0.0 819 17
+F 207.0.0 803 26
+S 72.0.0 216 17
+# mo.ece.pdx.edu(17):      1018  1 _update_and_pushdown_refref
+S 317.0.0 1127 26
+# mo.ece.pdx.edu(26):      1040  1 _boolean_or
+F 201.0.0 777 24
+F 206.0.0 798 25
+S 161.0.0 609 24
+# mo.ece.pdx.edu(24):      4018  1 _optimize_unmerged_layer_dp
+S 157.0.0 593 25
+# mo.ece.pdx.edu(25):      3984  1 _optimize_unmerged_layer_dp
+F 145.0.0 541 8
+S 311.0.0 1110 8
+# mo.ece.pdx.edu(8):      1034  1 _boolean_or
+F 317.0.0 1127 26
+F 191.0.0 735 27
+S 156.0.0 588 26
+# mo.ece.pdx.edu(26):      3980  1 _optimize_unmerged_layer_dp
+S 152.0.0 572 27
+# mo.ece.pdx.edu(27):      4022  1 _optimize_unmerged_layer_dp
+F 192.0.0 740 14
+S 151.0.0 567 14
+# mo.ece.pdx.edu(14):      4018  1 _optimize_unmerged_layer_dp
+F 202.0.0 782 18
+S 147.0.0 551 18
+# mo.ece.pdx.edu(18):      3984  1 _optimize_unmerged_layer_dp
+F 94.0.0 326 19
+S 95.0.0 331 19
+# mo.ece.pdx.edu(19):      3875  1 _optimize_layer_dp
+F 311.0.0 1110 8
+F 182.0.0 698 22
+S 96.0.0 336 8
+# mo.ece.pdx.edu(8):      3980  1 _optimize_unmerged_layer_dp
+S 97.0.0 341 22
+# mo.ece.pdx.edu(22):      3984  1 _optimize_unmerged_layer_dp
+F 171.0.0 651 21
+S 142.0.0 530 21
+# mo.ece.pdx.edu(21):      4022  1 _optimize_unmerged_layer_dp
+F 197.0.0 761 7
+S 141.0.0 525 7
+# mo.ece.pdx.edu(7):      4018  1 _optimize_unmerged_layer_dp
+F 161.0.0 609 24
+S 137.0.0 509 24
+# mo.ece.pdx.edu(24):      3984  1 _optimize_unmerged_layer_dp
+F 135.0.0 499 5
+S 305.0.0 1093 5
+# mo.ece.pdx.edu(5):      1034  1 _boolean_or
+F 116.0.0 420 10
+S 132.0.0 488 10
+# mo.ece.pdx.edu(10):      4022  1 _optimize_unmerged_layer_dp
+F 181.0.0 693 6
+S 131.0.0 483 6
+# mo.ece.pdx.edu(6):      4018  1 _optimize_unmerged_layer_dp
+F 196.0.0 756 15
+S 127.0.0 467 15
+# mo.ece.pdx.edu(15):      3984  1 _optimize_unmerged_layer_dp
+F 162.0.0 614 23
+S 122.0.0 446 23
+# mo.ece.pdx.edu(23):      4022  1 _optimize_unmerged_layer_dp
+F 167.0.0 635 29
+S 121.0.0 441 29
+# mo.ece.pdx.edu(29):      4018  1 _optimize_unmerged_layer_dp
+F 305.0.0 1093 5
+S 112.0.0 404 5
+# mo.ece.pdx.edu(5):      4022  1 _optimize_unmerged_layer_dp
+F 156.0.0 588 26
+S 111.0.0 399 26
+# mo.ece.pdx.edu(26):      4018  1 _optimize_unmerged_layer_dp
+F 187.0.0 719 28
+S 102.0.0 362 28
+# mo.ece.pdx.edu(28):      4022  1 _optimize_unmerged_layer_dp
+F 141.0.0 525 7
+F 176.0.0 672 9
+F 166.0.0 630 12
+S 101.0.0 357 7
+# mo.ece.pdx.edu(7):      4018  1 _optimize_unmerged_layer_dp
+S 92.0.0 320 9
+# mo.ece.pdx.edu(9):      4022  1 _optimize_unmerged_layer_dp
+S 91.0.0 315 12
+# mo.ece.pdx.edu(12):      4018  1 _optimize_unmerged_layer_dp
+F 157.0.0 593 25
+S 82.0.0 278 25
+# mo.ece.pdx.edu(25):      4022  1 _optimize_unmerged_layer_dp
+F 125.0.0 457 1
+S 299.0.0 1076 1
+# mo.ece.pdx.edu(1):      1034  1 _boolean_or
+F 186.0.0 714 16
+S 81.0.0 273 16
+# mo.ece.pdx.edu(16):      4018  1 _optimize_unmerged_layer_dp
+F 152.0.0 572 27
+F 115.0.0 415 2
+S 293.0.0 1059 2
+# mo.ece.pdx.edu(2):      1034  1 _boolean_or
+F 131.0.0 483 6
+F 151.0.0 567 14
+F 97.0.0 341 22
+F 111.0.0 399 26
+F 147.0.0 551 18
+F 121.0.0 441 29
+F 142.0.0 530 21
+F 91.0.0 315 12
+F 137.0.0 509 24
+F 122.0.0 446 23
+F 102.0.0 362 28
+F 101.0.0 357 7
+F 177.0.0 677 13
+F 82.0.0 278 25
+F 172.0.0 656 11
+F 81.0.0 273 16
+F 127.0.0 467 15
+F 0 0 27
+F 299.0.0 1076 1
+F 0 0 1
+F 92.0.0 320 9
+F 132.0.0 488 10
+F 112.0.0 404 5
+F 0 0 26
+F 0 0 29
+F 0 0 14
+F 0 0 12
+F 0 0 6
+F 0 0 22
+F 106.0.0 378 31
+F 0 0 23
+F 0 0 21
+F 0 0 24
+F 0 0 25
+F 293.0.0 1059 2
+F 0 0 2
+F 0 0 13
+F 0 0 18
+F 0 0 16
+F 0 0 28
+F 0 0 0
+F 0 0 15
+F 0 0 7
+F 0 0 11
+F 0 0 9
+F 0 0 10
+F 105.0.0 373 3
+S 287.0.0 1042 1
+# mo.ece.pdx.edu(1):      1034  1 _boolean_or
+F 0 0 5
+F 72.0.0 216 17
+S 320.0.0 1134 2
+# mo.ece.pdx.edu(2):      3562  1 _select_q
+S 314.0.0 1117 17
+# mo.ece.pdx.edu(17):      3556  1 _select_q
+F 76.0.0 252 30
+F 0 0 31
+S 266.0.0 981 30
+# mo.ece.pdx.edu(30):      3734  1 _select_q
+F 0 0 3
+F 320.0.0 1134 2
+S 261.0.0 967 2
+# mo.ece.pdx.edu(2):      3729  1 _select_q
+F 314.0.0 1117 17
+S 256.0.0 953 17
+# mo.ece.pdx.edu(17):      3729  1 _select_q
+F 266.0.0 981 30
+S 251.0.0 939 30
+# mo.ece.pdx.edu(30):      3729  1 _select_q
+F 261.0.0 967 2
+S 308.0.0 1100 2
+# mo.ece.pdx.edu(2):      3556  1 _select_q
+S 302.0.0 1083 12
+# mo.ece.pdx.edu(12):      3556  1 _select_q
+F 256.0.0 953 17
+S 296.0.0 1066 17
+# mo.ece.pdx.edu(17):      3556  1 _select_q
+S 246.0.0 925 0
+# mo.ece.pdx.edu(0):      3729  1 _select_q
+F 251.0.0 939 30
+S 241.0.0 911 14
+# mo.ece.pdx.edu(14):      3729  1 _select_q
+S 236.0.0 897 30
+# mo.ece.pdx.edu(30):      3729  1 _select_q
+F 308.0.0 1100 2
+S 310.0.0 1108 2
+# mo.ece.pdx.edu(2):      2184  1 _tag_violation
+F 296.0.0 1066 17
+S 298.0.0 1074 17
+# mo.ece.pdx.edu(17):      2184  1 _tag_violation
+F 236.0.0 897 30
+S 238.0.0 905 30
+# mo.ece.pdx.edu(30):      2205  1 _tag_violation
+F 302.0.0 1083 12
+S 304.0.0 1091 12
+# mo.ece.pdx.edu(12):      2184  1 _tag_violation
+F 246.0.0 925 0
+S 248.0.0 933 0
+# mo.ece.pdx.edu(0):      2205  1 _tag_violation
+F 310.0.0 1108 2
+F 298.0.0 1074 17
+F 238.0.0 905 30
+S 253.0.0 947 2
+# mo.ece.pdx.edu(2):      2205  1 _tag_violation
+S 258.0.0 961 17
+# mo.ece.pdx.edu(17):      2205  1 _tag_violation
+S 316.0.0 1125 30
+# mo.ece.pdx.edu(30):      2184  1 _tag_violation
+F 248.0.0 933 0
+F 304.0.0 1091 12
+S 263.0.0 975 0
+# mo.ece.pdx.edu(0):      2205  1 _tag_violation
+S 268.0.0 989 12
+# mo.ece.pdx.edu(12):      2214  1 _tag_violation
+F 253.0.0 947 2
+S 322.0.0 1142 2
+# mo.ece.pdx.edu(2):      2196  1 _tag_violation
+F 241.0.0 911 14
+S 243.0.0 919 14
+# mo.ece.pdx.edu(14):      2205  1 _tag_violation
+F 258.0.0 961 17
+F 322.0.0 1142 2
+F 268.0.0 989 12
+F 243.0.0 919 14
+F 316.0.0 1125 30
+F 263.0.0 975 0
+F 0 0 17
+F 0 0 2
+F 0 0 12
+F 0 0 14
+F 0 0 30
+F 0 0 0
+F 75.0.0 247 4
+S 221.0.0 855 0
+# mo.ece.pdx.edu(0):      3729  1 _select_q
+F 221.0.0 855 0
+S 223.0.0 863 0
+# mo.ece.pdx.edu(0):      2205  1 _tag_violation
+F 223.0.0 863 0
+F 0 0 0
+F 84.0.0 284 20
+S 85.0.0 289 0
+# mo.ece.pdx.edu(0):      3875  1 _optimize_layer_dp
+S 86.0.0 294 2
+# mo.ece.pdx.edu(2):      3980  1 _optimize_unmerged_layer_dp
+S 87.0.0 299 12
+# mo.ece.pdx.edu(12):      3984  1 _optimize_unmerged_layer_dp
+F 0 0 4
+F 287.0.0 1042 1
+S 290.0.0 1049 1
+# mo.ece.pdx.edu(1):      3556  1 _select_q
+F 290.0.0 1049 1
+S 292.0.0 1057 1
+# mo.ece.pdx.edu(1):      2184  1 _tag_violation
+F 292.0.0 1057 1
+F 0 0 1
+F 87.0.0 299 12
+F 0 0 20
+F 96.0.0 336 8
+F 95.0.0 331 19
+S 231.0.0 883 1
+# mo.ece.pdx.edu(1):      3729  1 _select_q
+S 281.0.0 1025 3
+# mo.ece.pdx.edu(3):      1034  1 _boolean_or
+F 231.0.0 883 1
+S 233.0.0 891 1
+# mo.ece.pdx.edu(1):      2205  1 _tag_violation
+F 233.0.0 891 1
+F 0 0 1
+F 0 0 12
+F 0 0 8
+F 0 0 19
+F 86.0.0 294 2
+F 85.0.0 289 0
+S 226.0.0 869 0
+# mo.ece.pdx.edu(0):      3729  1 _select_q
+S 275.0.0 1008 1
+# mo.ece.pdx.edu(1):      1034  1 _boolean_or
+S 269.0.0 991 4
+# mo.ece.pdx.edu(4):      1034  1 _boolean_or
+F 281.0.0 1025 3
+S 284.0.0 1032 3
+# mo.ece.pdx.edu(3):      3556  1 _select_q
+F 226.0.0 869 0
+S 228.0.0 877 0
+# mo.ece.pdx.edu(0):      2205  1 _tag_violation
+F 284.0.0 1032 3
+S 286.0.0 1040 3
+# mo.ece.pdx.edu(3):      2184  1 _tag_violation
+F 0 0 2
+F 228.0.0 877 0
+F 286.0.0 1040 3
+F 0 0 0
+F 0 0 3
+F 269.0.0 991 4
+S 272.0.0 998 0
+# mo.ece.pdx.edu(0):      3556  1 _select_q
+F 0 0 4
+F 272.0.0 998 0
+S 274.0.0 1006 0
+# mo.ece.pdx.edu(0):      2184  1 _tag_violation
+F 274.0.0 1006 0
+F 0 0 0
+F 275.0.0 1008 1
+S 278.0.0 1015 0
+# mo.ece.pdx.edu(0):      3556  1 _select_q
+F 0 0 1
+F 278.0.0 1015 0
+S 280.0.0 1023 0
+# mo.ece.pdx.edu(0):      2184  1 _tag_violation
+F 280.0.0 1023 0
+S 324.0.0 1145 0
+# mo.ece.pdx.edu(0):       372  1 _accumulate_results
+F 0 0 21
+F 324.0.0 1145 0
+}

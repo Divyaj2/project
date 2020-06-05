@@ -1,0 +1,302 @@
+
+                                  PYDB_Server 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 2007 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Listening for connections on port 7894
+PYDB_Server Started on host mo.ece.pdx.edu, Wed 06/03/2020 22:14:48
+Client mo.ece.pdx.edu(31423):29 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.24.0
+Client mo.ece.pdx.edu(31797):39 connected (2 total clients)
+Client mo.ece.pdx.edu(31790):40 connected (3 total clients)
+Client mo.ece.pdx.edu(31787):41 connected (4 total clients)
+Client mo.ece.pdx.edu(31779):42 connected (5 total clients)
+Client mo.ece.pdx.edu(31786):43 connected (6 total clients)
+Client mo.ece.pdx.edu(31811):44 connected (7 total clients)
+Client mo.ece.pdx.edu(31778):45 connected (8 total clients)
+Client mo.ece.pdx.edu(31796):46 connected (9 total clients)
+Client mo.ece.pdx.edu(31798):47 connected (10 total clients)
+Client mo.ece.pdx.edu(31804):48 connected (11 total clients)
+Client mo.ece.pdx.edu(31810):49 connected (12 total clients)
+Client mo.ece.pdx.edu(31801):50 connected (13 total clients)
+Client mo.ece.pdx.edu(31805):51 connected (14 total clients)
+Client mo.ece.pdx.edu(31781):52 connected (15 total clients)
+Client mo.ece.pdx.edu(31808):53 connected (16 total clients)
+Client mo.ece.pdx.edu(31793):54 connected (17 total clients)
+Client mo.ece.pdx.edu(31788):55 connected (18 total clients)
+Client mo.ece.pdx.edu(31795):56 connected (19 total clients)
+Client mo.ece.pdx.edu(31806):57 connected (20 total clients)
+Client mo.ece.pdx.edu(31802):58 connected (21 total clients)
+Client mo.ece.pdx.edu(31792):59 connected (22 total clients)
+Client mo.ece.pdx.edu(31803):60 connected (23 total clients)
+Client mo.ece.pdx.edu(31807):61 connected (24 total clients)
+Client mo.ece.pdx.edu(31782):62 connected (25 total clients)
+Client mo.ece.pdx.edu(31791):63 connected (26 total clients)
+Client mo.ece.pdx.edu(31799):64 connected (27 total clients)
+Client mo.ece.pdx.edu(31800):65 connected (28 total clients)
+Client mo.ece.pdx.edu(31794):66 connected (29 total clients)
+Client mo.ece.pdx.edu(31784):67 connected (30 total clients)
+Client mo.ece.pdx.edu(31789):68 connected (31 total clients)
+Client mo.ece.pdx.edu(31809):69 connected (32 total clients)
+Client mo.ece.pdx.edu(31783):70 connected (33 total clients)
+Client mo.ece.pdx.edu(31779):42 connection closed
+Client mo.ece.pdx.edu(31779):42 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(31779):42 connected (33 total clients)
+Client mo.ece.pdx.edu(31788):55 connection closed
+Client mo.ece.pdx.edu(31788):55 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(31795):56 connection closed
+Client mo.ece.pdx.edu(31795):56 disconnected (31 clients remain)
+Client mo.ece.pdx.edu(31792):59 connection closed
+Client mo.ece.pdx.edu(31792):59 disconnected (30 clients remain)
+Client mo.ece.pdx.edu(31802):58 connection closed
+Client mo.ece.pdx.edu(31802):58 disconnected (29 clients remain)
+Client mo.ece.pdx.edu(31782):62 connection closed
+Client mo.ece.pdx.edu(31782):62 disconnected (28 clients remain)
+Client mo.ece.pdx.edu(31807):61 connection closed
+Client mo.ece.pdx.edu(31807):61 disconnected (27 clients remain)
+Client mo.ece.pdx.edu(31781):52 connection closed
+Client mo.ece.pdx.edu(31803):60 connection closed
+Client mo.ece.pdx.edu(31781):52 disconnected (26 clients remain)
+Client mo.ece.pdx.edu(31803):60 disconnected (25 clients remain)
+Client mo.ece.pdx.edu(31793):54 connection closed
+Client mo.ece.pdx.edu(31793):54 disconnected (24 clients remain)
+Client mo.ece.pdx.edu(31806):57 connection closed
+Client mo.ece.pdx.edu(31806):57 disconnected (23 clients remain)
+Client mo.ece.pdx.edu(31811):44 connection closed
+Client mo.ece.pdx.edu(31811):44 disconnected (22 clients remain)
+Client mo.ece.pdx.edu(31779):42 connection closed
+Client mo.ece.pdx.edu(31779):42 disconnected (21 clients remain)
+Client mo.ece.pdx.edu(31788):42 connected (22 total clients)
+Client mo.ece.pdx.edu(31807):44 connected (23 total clients)
+Client mo.ece.pdx.edu(31795):52 connected (24 total clients)
+Client mo.ece.pdx.edu(31782):54 connected (25 total clients)
+Client mo.ece.pdx.edu(31802):55 connected (26 total clients)
+Client mo.ece.pdx.edu(31806):56 connected (27 total clients)
+Client mo.ece.pdx.edu(31779):57 connected (28 total clients)
+Client mo.ece.pdx.edu(31781):58 connected (29 total clients)
+Client mo.ece.pdx.edu(31788):42 connection closed
+Client mo.ece.pdx.edu(31788):42 disconnected (28 clients remain)
+Client mo.ece.pdx.edu(31792):42 connected (29 total clients)
+Client mo.ece.pdx.edu(31811):59 connected (30 total clients)
+Client mo.ece.pdx.edu(31807):44 connection closed
+Client mo.ece.pdx.edu(31795):52 connection closed
+Client mo.ece.pdx.edu(31807):44 disconnected (29 clients remain)
+Client mo.ece.pdx.edu(31795):52 disconnected (28 clients remain)
+Client mo.ece.pdx.edu(31803):44 connected (29 total clients)
+Client mo.ece.pdx.edu(31802):55 connection closed
+Client mo.ece.pdx.edu(31802):55 disconnected (28 clients remain)
+Client mo.ece.pdx.edu(31779):57 connection closed
+Client mo.ece.pdx.edu(31779):57 disconnected (27 clients remain)
+Client mo.ece.pdx.edu(31782):54 connection closed
+Client mo.ece.pdx.edu(31782):54 disconnected (26 clients remain)
+Client mo.ece.pdx.edu(31806):56 connection closed
+Client mo.ece.pdx.edu(31806):56 disconnected (25 clients remain)
+Client mo.ece.pdx.edu(31781):58 connection closed
+Client mo.ece.pdx.edu(31811):59 connection closed
+Client mo.ece.pdx.edu(31781):58 disconnected (24 clients remain)
+Client mo.ece.pdx.edu(31811):59 disconnected (23 clients remain)
+Client mo.ece.pdx.edu(31792):42 connection closed
+Client mo.ece.pdx.edu(31792):42 disconnected (22 clients remain)
+Client mo.ece.pdx.edu(31793):42 connected (23 total clients)
+Client mo.ece.pdx.edu(31803):44 connection closed
+Client mo.ece.pdx.edu(31803):44 disconnected (22 clients remain)
+Client mo.ece.pdx.edu(31793):42 connection closed
+Client mo.ece.pdx.edu(31793):42 disconnected (21 clients remain)
+Client mo.ece.pdx.edu(31788):42 connected (22 total clients)
+Client mo.ece.pdx.edu(31795):44 connected (23 total clients)
+Client mo.ece.pdx.edu(31807):52 connected (24 total clients)
+Client mo.ece.pdx.edu(31802):54 connected (25 total clients)
+Client mo.ece.pdx.edu(31782):55 connected (26 total clients)
+Client mo.ece.pdx.edu(31781):56 connected (27 total clients)
+Client mo.ece.pdx.edu(31806):57 connected (28 total clients)
+Client mo.ece.pdx.edu(31792):58 connected (29 total clients)
+Client mo.ece.pdx.edu(31811):59 connected (30 total clients)
+Client mo.ece.pdx.edu(31803):60 connected (31 total clients)
+Client mo.ece.pdx.edu(31779):61 connected (32 total clients)
+Client mo.ece.pdx.edu(31793):62 connected (33 total clients)
+Client mo.ece.pdx.edu(31805):51 connection closed
+Client mo.ece.pdx.edu(31805):51 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(31808):53 connection closed
+Client mo.ece.pdx.edu(31808):53 disconnected (31 clients remain)
+Client mo.ece.pdx.edu(31808):51 connected (32 total clients)
+Client mo.ece.pdx.edu(31805):53 connected (33 total clients)
+Client mo.ece.pdx.edu(31808):51 connection closed
+Client mo.ece.pdx.edu(31808):51 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(31805):53 connection closed
+Client mo.ece.pdx.edu(31805):53 disconnected (31 clients remain)
+Client mo.ece.pdx.edu(31810):49 connection closed
+Client mo.ece.pdx.edu(31810):49 disconnected (30 clients remain)
+Client mo.ece.pdx.edu(31808):49 connected (31 total clients)
+Client mo.ece.pdx.edu(31805):51 connected (32 total clients)
+Client mo.ece.pdx.edu(31810):53 connected (33 total clients)
+Client mo.ece.pdx.edu(31810):53 connection closed
+Client mo.ece.pdx.edu(31810):53 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(31810):53 connected (33 total clients)
+Client mo.ece.pdx.edu(31801):50 connection closed
+Client mo.ece.pdx.edu(31801):50 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(31801):50 connected (33 total clients)
+Client mo.ece.pdx.edu(31801):50 connection closed
+Client mo.ece.pdx.edu(31801):50 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(31801):50 connected (33 total clients)
+Client mo.ece.pdx.edu(31779):61 connection closed
+Client mo.ece.pdx.edu(31779):61 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(31810):53 connection closed
+Client mo.ece.pdx.edu(31810):53 disconnected (31 clients remain)
+Client mo.ece.pdx.edu(31801):50 connection closed
+Client mo.ece.pdx.edu(31801):50 disconnected (30 clients remain)
+Client mo.ece.pdx.edu(31807):52 connection closed
+Client mo.ece.pdx.edu(31795):44 connection closed
+Client mo.ece.pdx.edu(31795):44 disconnected (29 clients remain)
+Client mo.ece.pdx.edu(31807):52 disconnected (28 clients remain)
+Client mo.ece.pdx.edu(31804):48 connection closed
+Client mo.ece.pdx.edu(31804):48 disconnected (27 clients remain)
+Client mo.ece.pdx.edu(31811):59 connection closed
+Client mo.ece.pdx.edu(31811):59 disconnected (26 clients remain)
+Client mo.ece.pdx.edu(31783):70 connection closed
+Client mo.ece.pdx.edu(31783):70 disconnected (25 clients remain)
+Client mo.ece.pdx.edu(31779):44 connected (26 total clients)
+Client mo.ece.pdx.edu(31801):48 connected (27 total clients)
+Client mo.ece.pdx.edu(31810):50 connected (28 total clients)
+Client mo.ece.pdx.edu(31811):52 connected (29 total clients)
+Client mo.ece.pdx.edu(31795):53 connected (30 total clients)
+Client mo.ece.pdx.edu(31807):59 connected (31 total clients)
+Client mo.ece.pdx.edu(31783):61 connected (32 total clients)
+Client mo.ece.pdx.edu(31804):70 connected (33 total clients)
+Begin error insertion: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:2959:not
+Error insertion complete: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:2959:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:2129:external2
+Error insertion complete: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:2129:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:1587:external2
+Error insertion complete: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:1587:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:1391:external2
+Error insertion complete: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:1391:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:1128:external1
+Error insertion complete: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:1128:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:2994:not
+Error insertion complete: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:2994:not
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.006 GB Unpooled=0.000 GB
+Begin error insertion: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:1257:or
+Error insertion complete: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:1257:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.007 GB Unpooled=0.000 GB
+Client mo.ece.pdx.edu(31783):61 connection closed
+Client mo.ece.pdx.edu(31783):61 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(31795):53 connection closed
+Client mo.ece.pdx.edu(31795):53 disconnected (31 clients remain)
+Client mo.ece.pdx.edu(31783):53 connected (32 total clients)
+Client mo.ece.pdx.edu(31795):61 connected (33 total clients)
+Client mo.ece.pdx.edu(31808):49 connection closed
+Client mo.ece.pdx.edu(31808):49 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(31806):57 connection closed
+Client mo.ece.pdx.edu(31810):50 connection closed
+Client mo.ece.pdx.edu(31781):56 connection closed
+Client mo.ece.pdx.edu(31801):48 connection closed
+Client mo.ece.pdx.edu(31802):54 connection closed
+Client mo.ece.pdx.edu(31802):54 disconnected (31 clients remain)
+Client mo.ece.pdx.edu(31781):56 disconnected (30 clients remain)
+Client mo.ece.pdx.edu(31806):57 disconnected (29 clients remain)
+Client mo.ece.pdx.edu(31801):48 disconnected (28 clients remain)
+Client mo.ece.pdx.edu(31810):50 disconnected (27 clients remain)
+Client mo.ece.pdx.edu(31795):61 connection closed
+Client mo.ece.pdx.edu(31788):42 connection closed
+Client mo.ece.pdx.edu(31792):58 connection closed
+Client mo.ece.pdx.edu(31811):52 connection closed
+Client mo.ece.pdx.edu(31805):51 connection closed
+Client mo.ece.pdx.edu(31788):42 disconnected (26 clients remain)
+Client mo.ece.pdx.edu(31792):58 disconnected (25 clients remain)
+Client mo.ece.pdx.edu(31805):51 disconnected (24 clients remain)
+Client mo.ece.pdx.edu(31811):52 disconnected (23 clients remain)
+Client mo.ece.pdx.edu(31795):61 disconnected (22 clients remain)
+Client mo.ece.pdx.edu(31793):62 connection closed
+Client mo.ece.pdx.edu(31793):62 disconnected (21 clients remain)
+Client mo.ece.pdx.edu(31797):39 connection closed
+Client mo.ece.pdx.edu(31791):63 connection closed
+Client mo.ece.pdx.edu(31799):64 connection closed
+Client mo.ece.pdx.edu(31787):41 connection closed
+Client mo.ece.pdx.edu(31803):60 connection closed
+Client mo.ece.pdx.edu(31797):39 disconnected (20 clients remain)
+Client mo.ece.pdx.edu(31787):41 disconnected (19 clients remain)
+Client mo.ece.pdx.edu(31791):63 disconnected (18 clients remain)
+Client mo.ece.pdx.edu(31799):64 disconnected (17 clients remain)
+Client mo.ece.pdx.edu(31803):60 disconnected (16 clients remain)
+Client mo.ece.pdx.edu(31807):59 connection closed
+Client mo.ece.pdx.edu(31807):59 disconnected (15 clients remain)
+Client mo.ece.pdx.edu(31782):55 connection closed
+Client mo.ece.pdx.edu(31782):55 disconnected (14 clients remain)
+Client mo.ece.pdx.edu(31786):43 connection closed
+Client mo.ece.pdx.edu(31778):45 connection closed
+Client mo.ece.pdx.edu(31798):47 connection closed
+Client mo.ece.pdx.edu(31794):66 connection closed
+Client mo.ece.pdx.edu(31789):68 connection closed
+Client mo.ece.pdx.edu(31809):69 connection closed
+Client mo.ece.pdx.edu(31779):44 connection closed
+Client mo.ece.pdx.edu(31804):70 connection closed
+Client mo.ece.pdx.edu(31783):53 connection closed
+Client mo.ece.pdx.edu(31786):43 disconnected (13 clients remain)
+Client mo.ece.pdx.edu(31778):45 disconnected (12 clients remain)
+Client mo.ece.pdx.edu(31798):47 disconnected (11 clients remain)
+Client mo.ece.pdx.edu(31794):66 disconnected (10 clients remain)
+Client mo.ece.pdx.edu(31789):68 disconnected (9 clients remain)
+Client mo.ece.pdx.edu(31809):69 disconnected (8 clients remain)
+Client mo.ece.pdx.edu(31779):44 disconnected (7 clients remain)
+Client mo.ece.pdx.edu(31784):67 connection closed
+Client mo.ece.pdx.edu(31800):65 connection closed
+Client mo.ece.pdx.edu(31790):40 connection closed
+Client mo.ece.pdx.edu(31784):67 disconnected (6 clients remain)
+Client mo.ece.pdx.edu(31804):70 disconnected (5 clients remain)
+Client mo.ece.pdx.edu(31783):53 disconnected (4 clients remain)
+Client mo.ece.pdx.edu(31796):46 connection closed
+Client mo.ece.pdx.edu(31790):40 disconnected (3 clients remain)
+Client mo.ece.pdx.edu(31796):46 disconnected (2 clients remain)
+Client mo.ece.pdx.edu(31800):65 disconnected (1 client remains)
+ Total error insertion Time=0:00:28  User=0.00 Sys=0.02 Mem=0.001 GB SQLite=0.007 GB Unpooled=0.000 GB
+  Total Commands: 7
+  Total Errors: 64
+  Avg Time/Cmd: Wall=0 User=0.00 Sys=0.00 Mem=0.001 GB MySQL Mem=0.000 GB
+Generating /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/ORCA_TOP_ADR/ORCA_TOP_ADR.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.01 Sys=0.00 Mem=0.001 GB
+Shutdown requested by client mo.ece.pdx.edu(31423):29
+0 clients remain connected
+Client mo.ece.pdx.edu(31423):29 connection closed
+Overall server Time=0:00:58  User=0.10 Sys=0.14 Mem=0.001 GB SQLite=0.007 GB Unpooled=0.000 GB
+
+                                  PYDB_Server 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 2007 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Listening for connections on port 8166
+PYDB_Server Started on host mo.ece.pdx.edu, Wed 06/03/2020 22:15:52
+Client mo.ece.pdx.edu(1986):11 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.24.0
+Shutdown requested by client mo.ece.pdx.edu(1986):11
+0 clients remain connected
+Client mo.ece.pdx.edu(1986):11 connection closed
+Overall server Time=0:00:00  User=0.01 Sys=0.01 Mem=0.000 GB SQLite=0.002 GB Unpooled=0.000 GB

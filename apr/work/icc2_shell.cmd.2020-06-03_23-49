@@ -1,0 +1,652 @@
+#@ # 
+#@ # Running icc2_shell Version P-2019.03-SP1-VAL for linux64 -- Mar 31, 2019
+#@ # Date:   Wed Jun  3 23:49:29 2020
+#@ # Run by: divyaj2@mo.ece.pdx.edu
+#@ 
+
+source /u/divyaj2/ECE510-2020-SPRING/project/apr/work/.synopsys_icc2.setup
+open_block ORCA_TOP_lib:ORCA_TOP.design
+start_gui
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+win_set_filter -visible -class cell -filter {hard_macro_margin hard_margin route_blockage_margin soft_margin}
+win_set_filter -visible -class placement_blockage -filter {wiring} -layer {0-82}
+win_set_filter -expand_cell_types {soft_macro  }
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region pin_blockage block_shielding topology_node topology_edge topology_repeater core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_filter -class cell -filter {cell_array hard_macro_margin hard_margin route_blockage_margin soft_margin}
+win_set_filter -class placement_blockage -filter {wiring} -layer {0-82}
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region pin_blockage topology_node topology_edge topology_repeater edit_group shape via placement_blockage }
+link_block
+change_selection [get_nets          I_BLENDER_0/n416]
+change_selection [get_nets I_BLENDER_0/n416]
+change_selection 
+change_selection [get_nets I_BLENDER_0/n416]
+gui_change_highlight -add -collection global
+gui_zoom -window [gui_get_current_window -view] -selection
+check_lvs -nets {I_BLENDER_0/n416}
+remove_physical_objects
+undo
+remove_physical_objects
+check_lvs -nets {I_BLENDER_0/n416}
+gui_zoom -window [gui_get_current_window -view] -factor 2.0
+gui_scroll -window [gui_get_current_window -view] -vrel .2
+gui_scroll -window [gui_get_current_window -view] -vrel .2
+gui_scroll -window [gui_get_current_window -view] -vrel .2
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_NWELL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PODMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_CO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA1 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA2 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA3 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA4 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA5 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA6 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA7 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA8 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIARDL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_MRDL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_BJTDMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DDMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_18 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_25 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_FM -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIOD -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM1EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM2EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM3EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM4EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM5EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM6EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM7EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM8EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM9EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DNW -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_ESD_25 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_HOTNWL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_HVTIMP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_IP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_LOGO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_LVTIMP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_MRDL9PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_NIMP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PAD -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PIMP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PO_FM -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM1 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM2 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM3 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM4 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM5 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM6 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM7 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM8 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM9 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RMARK -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RNW -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_SBLK -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_prBoundary -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_UNASSIGNED -value false
+win_set_filter -visible -class routing_blockage -layer {0-82}
+win_set_filter -visible -class shape -filter {} -layer {0-82}
+win_set_filter -visible -class via -filter {} -layer {0-82}
+win_set_filter -visible -class terminal -filter {}  -layer {0-82}
+win_set_filter -class routing_blockage -layer {0-82}
+win_set_filter -class shape -filter {} -layer {0-82}
+win_set_filter -class via -filter {} -layer {0-82}
+gui_zoom -window [gui_get_current_window -view] -factor 2.0
+gui_zoom -window [gui_get_current_window -view] -factor 2.0
+gui_scroll -window [gui_get_current_window -view] -vrel .2
+gui_scroll -window [gui_get_current_window -view] -vrel .2
+gui_scroll -window [gui_get_current_window -view] -vrel .2
+gui_scroll -window [gui_get_current_window -view] -hrel -.2
+gui_scroll -window [gui_get_current_window -view] -hrel -.2
+gui_scroll -window [gui_get_current_window -view] -vrel .2
+gui_scroll -window [gui_get_current_window -view] -vrel .2
+gui_zoom -window [gui_get_current_window -view] -factor 2.0
+gui_zoom -window [gui_get_current_window -view] -factor 0.5
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1 -value true
+win_set_filter -visible -class routing_blockage -layer {0-3 5-82}
+win_set_filter -visible -class shape -filter {} -layer {0-3 5-82}
+win_set_filter -visible -class via -filter {} -layer {0-3 5-82}
+win_set_filter -visible -class terminal -filter {}  -layer {0-3 5-82}
+win_set_filter -class routing_blockage -layer {0-3 5-82}
+win_set_filter -class shape -filter {} -layer {0-3 5-82}
+win_set_filter -class via -filter {} -layer {0-3 5-82}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {371.688 119.767}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {371.705 119.773}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {371.704 119.777}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {373.188 119.957}
+gui_zoom -window [gui_get_current_window -view] -factor 0.5
+gui_zoom -window [gui_get_current_window -view] -factor 0.5
+gui_zoom -window [gui_get_current_window -view] -factor 0.5
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -start CreateRouteTool
+gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalWidth} -value {0.05}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalPitch} -value {0.152}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalWidth} -value {0.056}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalPitch} -value {0.152}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {BundleOrNetNames} -value {I_BLENDER_0/n416}
+gui_zoom -window [gui_get_current_window -view] -factor 2.0
+gui_zoom -window [gui_get_current_window -view] -factor 2.0
+gui_scroll -window [gui_get_current_window -view] -hrel .2
+gui_scroll -window [gui_get_current_window -view] -hrel .2
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {376.279 119.189}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {376.171 119.182}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {386.896 114.348}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {386.959 114.656}
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 0.5 -at_point {386.961 114.686}
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6 -value true
+win_set_filter -visible -class routing_blockage -layer {0-3 5-18 20-82}
+win_set_filter -visible -class shape -filter {} -layer {0-3 5-18 20-82}
+win_set_filter -visible -class via -filter {} -layer {0-3 5-18 20-82}
+win_set_filter -visible -class terminal -filter {}  -layer {0-3 5-18 20-82}
+win_set_filter -class routing_blockage -layer {0-3 5-18 20-82}
+win_set_filter -class shape -filter {} -layer {0-3 5-18 20-82}
+win_set_filter -class via -filter {} -layer {0-3 5-18 20-82}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {BundleOrNetNames} -value {I_CONTEXT_MEM/HFSNET_468}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalLayer} -value {M6}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalPitch} -value {0.608}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalLayer} -value {M5}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalWidth} -value {0.056}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalPitch} -value {0.608}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {MarkAs} -value {detail_route}
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -drag {{373.071 120.033} {385.380 118.966}} -scale 0.0178
+undo
+undo
+redo
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {377.482 120.051} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -reset
+gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalLayer} -value {M1}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalWidth} -value {0.05}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalPitch} -value {0.152}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {AutoLayer} -value {false}
+gui_zoom -window [gui_get_current_window -view] -factor 0.5
+gui_zoom -window [gui_get_current_window -view] -factor 2.0
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -drag {{372.920 119.923} {374.376 119.994}} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -reset
+gui_set_mouse_tool_option -tool CreateRouteTool -option {AutoNet} -value {false}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {BundleOrNetNames} -value {I_BLENDER_0/n416}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {BundleOrNetNames} -value {}
+gui_set_mouse_tool_option -tool CreateRouteTool -option {BundleOrNetNames} -value {I_BLENDER_0/n416}
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -drag {{373.098 119.835} {385.080 118.752}} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {384.725 119.906} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -drag {{384.725 119.906} {385.097 116.888}} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {385.115 116.604} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {385.115 116.604} -scale 0.0178
+undo
+redo
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -reset
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -drag {{373.009 120.136} {384.778 120.101}} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {384.742 120.154} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {384.831 120.119} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {384.831 120.119} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -drag {{384.849 120.101} {385.097 113.693}} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {385.080 113.693} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {385.080 113.693} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -reset
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {373.027 119.870} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -reset
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {373.027 120.154} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {384.174 120.065} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {384.334 120.172} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {384.103 120.172} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {384.334 120.083} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {383.873 118.077} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {385.435 118.148} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {385.594 118.148} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {385.843 114.722} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {387.849 114.687} -scale 0.0178
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -apply
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA1 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA2 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA3 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA4 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA5 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinShapeLayer_M1 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinShapeLayer_VIA1 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinShapeLayer_M2 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinShapeLayer_VIA2 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinShapeLayer_M3 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinShapeLayer_VIA3 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinShapeLayer_M4 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinShapeLayer_VIA4 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinShapeLayer_M5 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinShapeLayer_VIA5 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinShapeLayer_M6 -value true
+win_set_filter -visible -class routing_blockage -layer {0-3 5 8 11 14 17 20-82}
+win_set_filter -visible -class shape -filter {} -layer {0-3 5 8 11 14 17 20-82}
+win_set_filter -visible -class via -filter {} -layer {0-3 5 8 11 14 17 20-82}
+win_set_filter -visible -class terminal -filter {}  -layer {0-3 5 8 11 14 17 20-82}
+win_set_filter -class routing_blockage -layer {0-3 5 8 11 14 17 20-82}
+win_set_filter -class shape -filter {} -layer {0-3 5 8 11 14 17 20-82}
+win_set_filter -class via -filter {} -layer {0-3 5 8 11 14 17 20-82}
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -reset
+undo
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_NWELL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PO -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PODMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_CO -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA6 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA7 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA8 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIARDL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_MRDL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_BJTDMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DDMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_18 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_25 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_FM -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIOD -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM1EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM2EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM3EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM4EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM5EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM6EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM7EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM8EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM9EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DNW -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_ESD_25 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_HOTNWL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_HVTIMP -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_IP -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_LOGO -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_LVTIMP -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_MRDL9PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_NIMP -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PAD -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PIMP -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PO_FM -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM1 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM2 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM3 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM4 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM5 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM6 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM7 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM8 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM9 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RMARK -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RNW -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_SBLK -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_prBoundary -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_UNASSIGNED -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_NWELL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PODMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_CO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA1 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA2 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA3 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA4 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA5 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA6 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA7 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA8 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIARDL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_MRDL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_BJTDMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DDMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_18 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_25 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_FM -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIOD -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM1EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM2EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM3EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM4EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM5EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM6EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM7EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM8EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM9EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DNW -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_ESD_25 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_HOTNWL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_HVTIMP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_IP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_LOGO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_LVTIMP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_MRDL9PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_NIMP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PAD -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PIMP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PO_FM -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM1 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM2 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM3 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM4 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM5 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM6 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM7 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM8 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM9 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RMARK -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RNW -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_SBLK -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_prBoundary -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_UNASSIGNED -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_NWELL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PO -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PODMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_CO -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA1 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA2 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA3 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA4 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA5 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA6 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA7 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA8 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9DMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIARDL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_MRDL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_BJTDMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DDMY -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_18 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_25 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_FM -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIOD -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM1EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM2EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM3EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM4EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM5EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM6EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM7EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM8EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM9EXCL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DNW -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_ESD_25 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_HOTNWL -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_HVTIMP -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_IP -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_LOGO -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_LVTIMP -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_MRDL9PIN -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_NIMP -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PAD -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PIMP -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PO_FM -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM1 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM2 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM3 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM4 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM5 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM6 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM7 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM8 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM9 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RMARK -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RNW -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_SBLK -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_prBoundary -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_UNASSIGNED -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_NWELL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PODMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_CO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA1 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA2 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA3 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA4 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA5 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA6 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA7 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA8 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9DMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIARDL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_MRDL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_BJTDMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DDMY -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_18 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_25 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIFF_FM -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DIOD -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM1EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM2EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM3EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM4EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM5EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM6EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM7EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM8EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DM9EXCL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_DNW -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_ESD_25 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_HOTNWL -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_HVTIMP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_IP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_LOGO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_LVTIMP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M7PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M8PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M9PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_MRDL9PIN -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_NIMP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PAD -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PIMP -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_PO_FM -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM1 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM2 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM3 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM4 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM5 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM6 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM7 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM8 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RM9 -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RMARK -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_RNW -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_SBLK -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_prBoundary -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_UNASSIGNED -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M1 -value true
+win_set_filter -visible -class routing_blockage -layer {0-3 5-82}
+win_set_filter -visible -class shape -filter {} -layer {0-3 5-82}
+win_set_filter -visible -class via -filter {} -layer {0-3 5-82}
+win_set_filter -visible -class terminal -filter {}  -layer {0-3 5-82}
+win_set_filter -class routing_blockage -layer {0-3 5-82}
+win_set_filter -class shape -filter {} -layer {0-3 5-82}
+win_set_filter -class via -filter {} -layer {0-3 5-82}
+gui_zoom -window [gui_get_current_window -view] -factor 0.5
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -start CreateRouteTool
+gui_zoom -window [gui_get_current_window -types Layout -view] -factor 2 -at_point {372.485 120.429}
+gui_zoom -window [gui_get_current_window -view] -factor 2.0
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -drag {{92.606 494.176} {374.829 119.461}} -scale 0.0088
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {372.998 120.152} -scale 0.0088
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -reset
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {373.015 120.134} -scale 0.0088
+gui_scroll -window [gui_get_current_window -view] -hrel .2
+gui_zoom -window [gui_get_current_window -view] -factor 0.5
+gui_zoom -window [gui_get_current_window -view] -factor 0.5
+gui_zoom -window [gui_get_current_window -view] -factor 2.0
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {384.665 120.158} -scale 0.0176
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M6 -value true
+win_set_filter -visible -class routing_blockage -layer {0-3 5-18 20-82}
+win_set_filter -visible -class shape -filter {} -layer {0-3 5-18 20-82}
+win_set_filter -visible -class via -filter {} -layer {0-3 5-18 20-82}
+win_set_filter -visible -class terminal -filter {}  -layer {0-3 5-18 20-82}
+win_set_filter -class routing_blockage -layer {0-3 5-18 20-82}
+win_set_filter -class shape -filter {} -layer {0-3 5-18 20-82}
+win_set_filter -class via -filter {} -layer {0-3 5-18 20-82}
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {383.783 120.193} -scale 0.0176
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {384.153 120.123} -scale 0.0176
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {384.136 118.041} -scale 0.0176
+gui_scroll -window [gui_get_current_window -view] -hrel .2
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {385.477 117.952} -scale 0.0176
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {386.606 118.182} -scale 0.0176
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {387.276 118.111} -scale 0.0176
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {386.535 118.023} -scale 0.0176
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {385.406 118.041} -scale 0.0176
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {385.847 118.076} -scale 0.0176
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {385.794 114.723} -scale 0.0176
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {387.912 114.723} -scale 0.0176
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -apply
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA1 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M2 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA2 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M3 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA3 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M4 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA4 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_M5 -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showLayer_VIA5 -value true
+win_set_filter -visible -class routing_blockage -layer {0-3 5 8 11 14 17 20-82}
+win_set_filter -visible -class shape -filter {} -layer {0-3 5 8 11 14 17 20-82}
+win_set_filter -visible -class via -filter {} -layer {0-3 5 8 11 14 17 20-82}
+win_set_filter -visible -class terminal -filter {}  -layer {0-3 5 8 11 14 17 20-82}
+win_set_filter -class routing_blockage -layer {0-3 5 8 11 14 17 20-82}
+win_set_filter -class shape -filter {} -layer {0-3 5 8 11 14 17 20-82}
+win_set_filter -class via -filter {} -layer {0-3 5 8 11 14 17 20-82}
+gui_zoom -window [gui_get_current_window -view] -factor 0.5
+check_lvs -nets {I_BLENDER_0/n416}
+route_detail -incremental true
+gui_zoom -window [gui_get_current_window -view] -factor 2.0
+gui_scroll -window [gui_get_current_window -view] -vrel .2
+gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -reset
+gui_scroll -window [gui_get_current_window -view] -hrel -.2
+gui_zoom -window [gui_get_current_window -view] -factor 0.5
+win_select_objects -slct_targets global -at {385.214 123.603} -radius 0.0352
+gui_set_highlight_options -current_color red
+gui_change_highlight -add -collection global
+win_select_objects -slct_targets global -at {366.885 124.060} -radius 0.0352
+check_lvs -nets {I_BLENDER_0/n416}
+gui_zoom -window [gui_get_current_window -view] -factor 0.5
+gui_zoom -window [gui_get_current_window -view] -factor 0.5
+exit

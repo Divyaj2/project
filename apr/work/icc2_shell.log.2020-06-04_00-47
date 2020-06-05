@@ -1,0 +1,2335 @@
+setting auto_restore_mw_cel_lib_setup true
+icc2_shell> open_block ORCA_TOP_lib:ORCA_TOP.design
+Information: User units loaded from library 'saed32hvt_c' (LNK-040)
+Opening block 'ORCA_TOP_lib:ORCA_TOP.design' in edit mode
+Information: loading PG routing via master rules, patterns, strategies and strategy via rules.
+{ORCA_TOP_lib:ORCA_TOP.design}
+icc2_shell> start_gui
+Begin building search trees for block ORCA_TOP_lib:ORCA_TOP.design
+Done building search trees for block ORCA_TOP_lib:ORCA_TOP.design (time 0s)
+icc2_shell> link_block
+Using libraries: ORCA_TOP_lib saed32hvt_c saed32hvt_ulvl_v saed32hvt_dlvl_v saed32rvt_c saed32rvt_ulvl_v saed32rvt_dlvl_v saed32lvt_c saed32lvt_ulvl_v saed32lvt_dlvl_v saed32sram_c
+Visiting block ORCA_TOP_lib:ORCA_TOP.design
+Information: The lower_domain_boundary design attribute will be made obsolete in future. Consider using -applies_to_boundary option of set_isolation/set_level_shifter/set_repeater strategy commands. (UPF-355)
+Design 'ORCA_TOP' was successfully linked.
+1
+icc2_shell> remove_physical_objects
+icc2_shell> remove_physical_objects
+icc2_shell> remove_physical_objects
+icc2_shell> gui_change_highlight -remove -all_colors
+icc2_shell> remove_physical_objects
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -start CreateRouteTool
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalWidth} -value {0.05}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalPitch} -value {0.152}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalWidth} -value {0.056}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalPitch} -value {0.152}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {BundleOrNetNames} -value {VDD}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalLayer} -value {M7}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalWidth} -value {0.056}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalPitch} -value {1.216}
+icc2_shell> 
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalLayer} -value {M8}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalPitch} -value {1.216}
+icc2_shell> 
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {MarkAs} -value {stripe}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {AutoNet} -value {false}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {BundleOrNetNames} -value {I_BLENDER_0/n416 }
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalLayer} -value {M1}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalWidth} -value {0.05}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalPitch} -value {0.152}
+icc2_shell> 
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {AutoLayer} -value {false}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalLayer} -value {M6}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalPitch} -value {0.608}
+icc2_shell> 
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {372.949 120.167} -scale 0.0138
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {384.064 120.098} -scale 0.0138
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {383.871 118.294} -scale 0.0138
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {387.205 118.198} -scale 0.0138
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {387.301 118.253} -scale 0.0138
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {387.893 118.211} -scale 0.0138
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {388.017 118.239} -scale 0.0138
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {388.513 118.294} -scale 0.0138
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {388.541 118.294} -scale 0.0138
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {388.472 118.233} -scale 0.0069
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {385.548 118.233} -scale 0.0069
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {385.768 114.779} -scale 0.0069
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {387.866 114.745} -scale 0.0069
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -apply
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -abort
+icc2_shell> gui_zoom -window [gui_get_current_window -types Layout -mru] -selection
+icc2_shell> remove_physical_objects
+icc2_shell> gui_change_highlight -remove -all_colors
+icc2_shell> remove_physical_objects
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -start CreateRouteTool
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {BundleOrNetNames} -value {I_BLENDER_0/n256}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalLayer} -value {M1}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalWidth} -value {0.05}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalPitch} -value {0.152}
+icc2_shell> 
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {373.763 129.951} -scale 0.0069
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {373.343 129.944} -scale 0.0069
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalLayer} -value {M3}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalWidth} -value {0.056}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalPitch} -value {0.304}
+icc2_shell> 
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {376.996 129.985} -scale 0.0069
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {377.003 128.850} -scale 0.0069
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalLayer} -value {M1}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalWidth} -value {0.05}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {HorizontalPitch} -value {0.152}
+icc2_shell> 
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {377.024 128.891} -scale 0.0069
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -apply
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalLayer} -value {M6}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalWidth} -value {0.056}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalPitch} -value {0.608}
+icc2_shell> 
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {377.088 128.904} -scale 0.0137
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {378.776 128.973} -scale 0.0137
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {379.132 128.973} -scale 0.0137
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalLayer} -value {M1}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalWidth} -value {0.05}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalPitch} -value {0.152}
+icc2_shell> 
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {379.077 130.057} -scale 0.0137
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {387.499 129.823} -scale 0.0137
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalLayer} -value {M6}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalWidth} -value {0.056}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalPitch} -value {0.608}
+icc2_shell> 
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {387.499 134.967} -scale 0.0137
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalLayer} -value {M1}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalWidth} -value {0.05}
+icc2_shell> gui_set_mouse_tool_option -tool CreateRouteTool -option {VerticalPitch} -value {0.152}
+icc2_shell> 
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {388.775 135.022} -scale 0.0137
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {388.775 134.638} -scale 0.0137
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -apply
+icc2_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -abort
+icc2_shell> check_lvs -nets {I_BLENDER_0/n416 I_BLENDER_0/n256}
+Information: Using 1 threads for LVS
+[Check Short] Stage 1   Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 1-2 Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 2   Elapsed =    0:00:01, CPU =    0:00:01
+Detected more than 20 short violations. Skip checking short violations
+[Check Short] Stage 3   Elapsed =    0:00:04, CPU =    0:00:04
+[Check Short] End       Elapsed =    0:00:04, CPU =    0:00:04
+[Check Net] Init        Elapsed =    0:00:04, CPU =    0:00:04
+[Check Net] All nets are submitted.
+[Check Net] 10%         Elapsed =    0:00:04, CPU =    0:00:04
+[Check Net] 100%        Elapsed =    0:00:04, CPU =    0:00:04
+Information: Detected short violation. Net1: I_BLENDER_0/n3742. Net2: I_BLENDER_0/n416. BBox: (373.7110 120.1750)(374.3690 120.2250). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7640 118.1990)(385.7690 118.2490). Layer: VIA3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.6890 118.1940)(385.7990 118.2540). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7640 118.1990)(385.7690 118.2490). Layer: VIA2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7140 118.1690)(385.7740 118.2790). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: I_BLENDER_0/n562. BBox: (385.7160 114.6980)(385.7720 114.7580). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: I_BLENDER_0/n562. BBox: (385.7160 114.6730)(385.7720 114.7830). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.6890 114.6980)(385.7990 114.7580). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7140 114.6730)(385.7740 114.7830). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VDD. BBox: (376.9030 120.1750)(376.9530 120.2250). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: I_BLENDER_0/n628. BBox: (376.7510 120.1750)(377.1050 120.2250). Layer: M1. (RT-586)
+
+===============================================================
+    Maximum number of violations is set to 20
+    Abort checking when more than 20 violations are found
+    All violations might not be found.
+===============================================================
+Total number of input nets is 2.
+Total number of short violations is 20.
+Total number of open nets is 0.
+Total number of floating route violations is 0.
+
+Elapsed =    0:00:04, CPU =    0:00:04
+1
+icc2_shell> route_detail -incremental true
+Turn off antenna since no rule is specified
+Cell Min-Routing-Layer = M2
+Cell Max-Routing-Layer = M7
+Warning: Cannot find a default contact code for layer CO. (ZRT-022)
+Warning: Ignore 3 top cell ports with no pins. (ZRT-027)
+Skipping 5 internal pins that are not physical. Set route.common.verbose_level to > 0 and run routing command to get skipped pin names.
+Info: number of net_type_blockage: 0 
+Found 1 voltage-areas.
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Printing options for 'route.common.*'
+common.debug_remove_extension_floating_shapes           :        false               
+common.verbose_level                                    :        0                   
+
+Printing options for 'route.detail.*'
+detail.eco_route_use_soft_spacing_for_timing_optimization:       true                
+detail.force_end_on_preferred_grid                      :        true                
+
+Printing options for 'route.auto_via_ladder.*'
+
+
+Begin full DRC check ...
+
+Information: Using 1 threads for routing. (ZRT-444)
+Checked 1/130 Partitions, Violations =  2
+Checked 5/130 Partitions, Violations =  15
+Checked 10/130 Partitions, Violations = 44
+Checked 15/130 Partitions, Violations = 47
+Checked 20/130 Partitions, Violations = 92
+Checked 25/130 Partitions, Violations = 145
+Checked 30/130 Partitions, Violations = 146
+Checked 35/130 Partitions, Violations = 163
+Checked 40/130 Partitions, Violations = 165
+Checked 45/130 Partitions, Violations = 173
+Checked 50/130 Partitions, Violations = 184
+Checked 55/130 Partitions, Violations = 197
+Checked 60/130 Partitions, Violations = 266
+Checked 65/130 Partitions, Violations = 312
+Checked 70/130 Partitions, Violations = 323
+Checked 75/130 Partitions, Violations = 394
+Checked 80/130 Partitions, Violations = 427
+Checked 85/130 Partitions, Violations = 461
+Checked 90/130 Partitions, Violations = 518
+Checked 95/130 Partitions, Violations = 550
+Checked 100/130 Partitions, Violations =        586
+Checked 105/130 Partitions, Violations =        625
+Checked 110/130 Partitions, Violations =        652
+Checked 115/130 Partitions, Violations =        699
+Checked 120/130 Partitions, Violations =        699
+Checked 125/130 Partitions, Violations =        700
+Checked 130/130 Partitions, Violations =        702
+[DRC CHECK] Elapsed real time: 0:00:48 
+[DRC CHECK] Elapsed cpu  time: sys=0:00:00 usr=0:00:48 total=0:00:48
+[DRC CHECK] Stage (MB): Used    0  Alloctr    1  Proc  135 
+[DRC CHECK] Total (MB): Used  246  Alloctr  248  Proc 2272 
+Loading parastics information to the router ...
+parastics information loaded to the router.
+Printing options for 'route.common.*'
+common.debug_remove_extension_floating_shapes           :        false               
+common.verbose_level                                    :        0                   
+
+Printing options for 'route.detail.*'
+detail.eco_route_use_soft_spacing_for_timing_optimization:       true                
+detail.force_end_on_preferred_grid                      :        true                
+
+Printing options for 'route.auto_via_ladder.*'
+
+Information: RC layer preference is turned off for this design. (ZRT-613)
+[Dr init] Elapsed real time: 0:01:00 
+[Dr init] Elapsed cpu  time: sys=0:00:00 usr=0:00:59 total=0:00:59
+[Dr init] Stage (MB): Used  229  Alloctr  230  Proc  309 
+[Dr init] Total (MB): Used  230  Alloctr  231  Proc 2272 
+Total number of nets = 49142, of which 0 are not extracted
+Total number of open nets = 3, of which 0 are frozen
+Information: Using 1 threads for routing. (ZRT-444)
+Routing in incremental mode, starting from iteration 21
+
+Start DR iteration 21: non-uniform partition
+Routed  1/346 Partitions, Violations =  676
+Routed  2/346 Partitions, Violations =  664
+Routed  3/346 Partitions, Violations =  658
+Routed  4/346 Partitions, Violations =  658
+Routed  5/346 Partitions, Violations =  654
+Routed  6/346 Partitions, Violations =  650
+Routed  7/346 Partitions, Violations =  647
+Routed  8/346 Partitions, Violations =  643
+Routed  9/346 Partitions, Violations =  639
+Routed  10/346 Partitions, Violations = 633
+Routed  11/346 Partitions, Violations = 629
+Routed  12/346 Partitions, Violations = 625
+Routed  13/346 Partitions, Violations = 621
+Routed  14/346 Partitions, Violations = 615
+Routed  15/346 Partitions, Violations = 611
+Routed  16/346 Partitions, Violations = 607
+Routed  17/346 Partitions, Violations = 598
+Routed  18/346 Partitions, Violations = 595
+Routed  19/346 Partitions, Violations = 591
+Routed  20/346 Partitions, Violations = 588
+Routed  21/346 Partitions, Violations = 585
+Routed  22/346 Partitions, Violations = 582
+Routed  23/346 Partitions, Violations = 579
+Routed  24/346 Partitions, Violations = 575
+Routed  25/346 Partitions, Violations = 570
+Routed  26/346 Partitions, Violations = 567
+Routed  27/346 Partitions, Violations = 564
+Routed  28/346 Partitions, Violations = 558
+Routed  29/346 Partitions, Violations = 554
+Routed  30/346 Partitions, Violations = 548
+Routed  31/346 Partitions, Violations = 545
+Routed  32/346 Partitions, Violations = 541
+Routed  33/346 Partitions, Violations = 538
+Routed  34/346 Partitions, Violations = 533
+Routed  35/346 Partitions, Violations = 527
+Routed  36/346 Partitions, Violations = 525
+Routed  37/346 Partitions, Violations = 523
+Routed  38/346 Partitions, Violations = 519
+Routed  39/346 Partitions, Violations = 516
+Routed  40/346 Partitions, Violations = 513
+Routed  41/346 Partitions, Violations = 511
+Routed  42/346 Partitions, Violations = 509
+Routed  43/346 Partitions, Violations = 507
+Routed  44/346 Partitions, Violations = 505
+Routed  45/346 Partitions, Violations = 502
+Routed  46/346 Partitions, Violations = 500
+Routed  47/346 Partitions, Violations = 496
+Routed  48/346 Partitions, Violations = 494
+Routed  49/346 Partitions, Violations = 492
+Routed  50/346 Partitions, Violations = 490
+Routed  51/346 Partitions, Violations = 488
+Routed  52/346 Partitions, Violations = 486
+Routed  53/346 Partitions, Violations = 484
+Routed  54/346 Partitions, Violations = 482
+Routed  55/346 Partitions, Violations = 477
+Routed  56/346 Partitions, Violations = 474
+Routed  57/346 Partitions, Violations = 471
+Routed  58/346 Partitions, Violations = 469
+Routed  59/346 Partitions, Violations = 467
+Routed  60/346 Partitions, Violations = 465
+Routed  61/346 Partitions, Violations = 463
+Routed  62/346 Partitions, Violations = 461
+Routed  63/346 Partitions, Violations = 459
+Routed  64/346 Partitions, Violations = 456
+Routed  65/346 Partitions, Violations = 453
+Routed  66/346 Partitions, Violations = 453
+Routed  67/346 Partitions, Violations = 450
+Routed  68/346 Partitions, Violations = 448
+Routed  69/346 Partitions, Violations = 446
+Routed  70/346 Partitions, Violations = 441
+Routed  71/346 Partitions, Violations = 437
+Routed  72/346 Partitions, Violations = 435
+Routed  73/346 Partitions, Violations = 432
+Routed  74/346 Partitions, Violations = 430
+Routed  75/346 Partitions, Violations = 428
+Routed  76/346 Partitions, Violations = 426
+Routed  77/346 Partitions, Violations = 424
+Routed  78/346 Partitions, Violations = 422
+Routed  79/346 Partitions, Violations = 420
+Routed  80/346 Partitions, Violations = 418
+Routed  81/346 Partitions, Violations = 416
+Routed  82/346 Partitions, Violations = 414
+Routed  83/346 Partitions, Violations = 412
+Routed  84/346 Partitions, Violations = 410
+Routed  85/346 Partitions, Violations = 408
+Routed  86/346 Partitions, Violations = 406
+Routed  87/346 Partitions, Violations = 404
+Routed  88/346 Partitions, Violations = 402
+Routed  89/346 Partitions, Violations = 400
+Routed  90/346 Partitions, Violations = 397
+Routed  91/346 Partitions, Violations = 387
+Routed  92/346 Partitions, Violations = 385
+Routed  93/346 Partitions, Violations = 383
+Routed  94/346 Partitions, Violations = 381
+Routed  95/346 Partitions, Violations = 379
+Routed  96/346 Partitions, Violations = 377
+Routed  97/346 Partitions, Violations = 372
+Routed  98/346 Partitions, Violations = 368
+Routed  99/346 Partitions, Violations = 366
+Routed  100/346 Partitions, Violations =        361
+Routed  101/346 Partitions, Violations =        357
+Routed  102/346 Partitions, Violations =        352
+Routed  103/346 Partitions, Violations =        349
+Routed  104/346 Partitions, Violations =        345
+Routed  105/346 Partitions, Violations =        341
+Routed  106/346 Partitions, Violations =        339
+Routed  107/346 Partitions, Violations =        337
+Routed  108/346 Partitions, Violations =        335
+Routed  109/346 Partitions, Violations =        329
+Routed  110/346 Partitions, Violations =        327
+Routed  111/346 Partitions, Violations =        324
+Routed  112/346 Partitions, Violations =        320
+Routed  113/346 Partitions, Violations =        317
+Routed  114/346 Partitions, Violations =        315
+Routed  115/346 Partitions, Violations =        311
+Routed  116/346 Partitions, Violations =        305
+Routed  117/346 Partitions, Violations =        300
+Routed  118/346 Partitions, Violations =        300
+Routed  119/346 Partitions, Violations =        298
+Routed  120/346 Partitions, Violations =        290
+Routed  121/346 Partitions, Violations =        288
+Routed  122/346 Partitions, Violations =        286
+Routed  123/346 Partitions, Violations =        280
+Routed  124/346 Partitions, Violations =        280
+Routed  125/346 Partitions, Violations =        281
+Routed  126/346 Partitions, Violations =        281
+Routed  127/346 Partitions, Violations =        281
+Routed  128/346 Partitions, Violations =        279
+Routed  129/346 Partitions, Violations =        277
+Routed  130/346 Partitions, Violations =        275
+Routed  131/346 Partitions, Violations =        273
+Routed  132/346 Partitions, Violations =        270
+Routed  133/346 Partitions, Violations =        267
+Routed  134/346 Partitions, Violations =        264
+Routed  135/346 Partitions, Violations =        262
+Routed  136/346 Partitions, Violations =        261
+Routed  137/346 Partitions, Violations =        260
+Routed  138/346 Partitions, Violations =        259
+Routed  139/346 Partitions, Violations =        258
+Routed  140/346 Partitions, Violations =        257
+Routed  141/346 Partitions, Violations =        255
+Routed  142/346 Partitions, Violations =        253
+Routed  143/346 Partitions, Violations =        252
+Routed  144/346 Partitions, Violations =        251
+Routed  145/346 Partitions, Violations =        250
+Routed  146/346 Partitions, Violations =        249
+Routed  147/346 Partitions, Violations =        248
+Routed  148/346 Partitions, Violations =        247
+Routed  149/346 Partitions, Violations =        246
+Routed  150/346 Partitions, Violations =        245
+Routed  151/346 Partitions, Violations =        244
+Routed  152/346 Partitions, Violations =        243
+Routed  153/346 Partitions, Violations =        242
+Routed  154/346 Partitions, Violations =        241
+Routed  155/346 Partitions, Violations =        239
+Routed  156/346 Partitions, Violations =        238
+Routed  157/346 Partitions, Violations =        236
+Routed  158/346 Partitions, Violations =        235
+Routed  159/346 Partitions, Violations =        232
+Routed  160/346 Partitions, Violations =        231
+Routed  161/346 Partitions, Violations =        230
+Routed  162/346 Partitions, Violations =        228
+Routed  163/346 Partitions, Violations =        227
+Routed  164/346 Partitions, Violations =        226
+Routed  165/346 Partitions, Violations =        225
+Routed  166/346 Partitions, Violations =        224
+Routed  167/346 Partitions, Violations =        223
+Routed  168/346 Partitions, Violations =        222
+Routed  169/346 Partitions, Violations =        221
+Routed  170/346 Partitions, Violations =        220
+Routed  171/346 Partitions, Violations =        219
+Routed  172/346 Partitions, Violations =        218
+Routed  173/346 Partitions, Violations =        217
+Routed  174/346 Partitions, Violations =        216
+Routed  175/346 Partitions, Violations =        215
+Routed  176/346 Partitions, Violations =        214
+Routed  177/346 Partitions, Violations =        213
+Routed  178/346 Partitions, Violations =        211
+Routed  179/346 Partitions, Violations =        210
+Routed  180/346 Partitions, Violations =        209
+Routed  181/346 Partitions, Violations =        205
+Routed  182/346 Partitions, Violations =        204
+Routed  183/346 Partitions, Violations =        203
+Routed  184/346 Partitions, Violations =        202
+Routed  185/346 Partitions, Violations =        200
+Routed  186/346 Partitions, Violations =        199
+Routed  187/346 Partitions, Violations =        197
+Routed  188/346 Partitions, Violations =        195
+Routed  189/346 Partitions, Violations =        194
+Routed  190/346 Partitions, Violations =        193
+Routed  191/346 Partitions, Violations =        192
+Routed  192/346 Partitions, Violations =        191
+Routed  193/346 Partitions, Violations =        190
+Routed  194/346 Partitions, Violations =        189
+Routed  195/346 Partitions, Violations =        188
+Routed  196/346 Partitions, Violations =        187
+Routed  197/346 Partitions, Violations =        186
+Routed  198/346 Partitions, Violations =        185
+Routed  199/346 Partitions, Violations =        184
+Routed  200/346 Partitions, Violations =        183
+Routed  201/346 Partitions, Violations =        182
+Routed  202/346 Partitions, Violations =        181
+Routed  203/346 Partitions, Violations =        180
+Routed  204/346 Partitions, Violations =        179
+Routed  205/346 Partitions, Violations =        178
+Routed  206/346 Partitions, Violations =        177
+Routed  207/346 Partitions, Violations =        176
+Routed  208/346 Partitions, Violations =        175
+Routed  209/346 Partitions, Violations =        174
+Routed  210/346 Partitions, Violations =        173
+Routed  211/346 Partitions, Violations =        171
+Routed  212/346 Partitions, Violations =        170
+Routed  213/346 Partitions, Violations =        169
+Routed  214/346 Partitions, Violations =        168
+Routed  215/346 Partitions, Violations =        167
+Routed  216/346 Partitions, Violations =        165
+Routed  217/346 Partitions, Violations =        164
+Routed  218/346 Partitions, Violations =        163
+Routed  219/346 Partitions, Violations =        162
+Routed  220/346 Partitions, Violations =        159
+Routed  221/346 Partitions, Violations =        158
+Routed  222/346 Partitions, Violations =        157
+Routed  223/346 Partitions, Violations =        156
+Routed  224/346 Partitions, Violations =        153
+Routed  225/346 Partitions, Violations =        152
+Routed  226/346 Partitions, Violations =        151
+Routed  227/346 Partitions, Violations =        149
+Routed  228/346 Partitions, Violations =        148
+Routed  229/346 Partitions, Violations =        147
+Routed  230/346 Partitions, Violations =        146
+Routed  231/346 Partitions, Violations =        145
+Routed  232/346 Partitions, Violations =        144
+Routed  233/346 Partitions, Violations =        143
+Routed  234/346 Partitions, Violations =        142
+Routed  235/346 Partitions, Violations =        140
+Routed  236/346 Partitions, Violations =        139
+Routed  237/346 Partitions, Violations =        138
+Routed  238/346 Partitions, Violations =        136
+Routed  239/346 Partitions, Violations =        135
+Routed  240/346 Partitions, Violations =        134
+Routed  241/346 Partitions, Violations =        133
+Routed  242/346 Partitions, Violations =        132
+Routed  243/346 Partitions, Violations =        131
+Routed  244/346 Partitions, Violations =        130
+Routed  245/346 Partitions, Violations =        129
+Routed  246/346 Partitions, Violations =        128
+Routed  247/346 Partitions, Violations =        127
+Routed  248/346 Partitions, Violations =        126
+Routed  249/346 Partitions, Violations =        125
+Routed  250/346 Partitions, Violations =        124
+Routed  251/346 Partitions, Violations =        123
+Routed  252/346 Partitions, Violations =        122
+Routed  253/346 Partitions, Violations =        121
+Routed  254/346 Partitions, Violations =        120
+Routed  255/346 Partitions, Violations =        119
+Routed  256/346 Partitions, Violations =        118
+Routed  257/346 Partitions, Violations =        117
+Routed  258/346 Partitions, Violations =        116
+Routed  259/346 Partitions, Violations =        115
+Routed  260/346 Partitions, Violations =        111
+Routed  261/346 Partitions, Violations =        110
+Routed  262/346 Partitions, Violations =        110
+Routed  263/346 Partitions, Violations =        110
+Routed  264/346 Partitions, Violations =        108
+Routed  265/346 Partitions, Violations =        107
+Routed  266/346 Partitions, Violations =        106
+Routed  267/346 Partitions, Violations =        105
+Routed  268/346 Partitions, Violations =        103
+Routed  269/346 Partitions, Violations =        102
+Routed  270/346 Partitions, Violations =        101
+Routed  271/346 Partitions, Violations =        100
+Routed  272/346 Partitions, Violations =        99
+Routed  273/346 Partitions, Violations =        98
+Routed  274/346 Partitions, Violations =        97
+Routed  275/346 Partitions, Violations =        96
+Routed  276/346 Partitions, Violations =        95
+Routed  277/346 Partitions, Violations =        94
+Routed  278/346 Partitions, Violations =        93
+Routed  279/346 Partitions, Violations =        92
+Routed  280/346 Partitions, Violations =        91
+Routed  281/346 Partitions, Violations =        90
+Routed  282/346 Partitions, Violations =        89
+Routed  283/346 Partitions, Violations =        88
+Routed  284/346 Partitions, Violations =        87
+Routed  285/346 Partitions, Violations =        86
+Routed  286/346 Partitions, Violations =        85
+Routed  287/346 Partitions, Violations =        84
+Routed  288/346 Partitions, Violations =        83
+Routed  289/346 Partitions, Violations =        82
+Routed  290/346 Partitions, Violations =        81
+Routed  291/346 Partitions, Violations =        80
+Routed  292/346 Partitions, Violations =        79
+Routed  293/346 Partitions, Violations =        78
+Routed  294/346 Partitions, Violations =        77
+Routed  295/346 Partitions, Violations =        76
+Routed  296/346 Partitions, Violations =        75
+Routed  297/346 Partitions, Violations =        73
+Routed  298/346 Partitions, Violations =        72
+Routed  299/346 Partitions, Violations =        71
+Routed  300/346 Partitions, Violations =        70
+Routed  301/346 Partitions, Violations =        67
+Routed  302/346 Partitions, Violations =        66
+Routed  303/346 Partitions, Violations =        64
+Routed  304/346 Partitions, Violations =        63
+Routed  305/346 Partitions, Violations =        62
+Routed  306/346 Partitions, Violations =        61
+Routed  307/346 Partitions, Violations =        60
+Routed  308/346 Partitions, Violations =        59
+Routed  309/346 Partitions, Violations =        58
+Routed  310/346 Partitions, Violations =        57
+Routed  311/346 Partitions, Violations =        56
+Routed  312/346 Partitions, Violations =        55
+Routed  313/346 Partitions, Violations =        54
+Routed  314/346 Partitions, Violations =        53
+Routed  315/346 Partitions, Violations =        51
+Routed  316/346 Partitions, Violations =        50
+Routed  317/346 Partitions, Violations =        49
+Routed  318/346 Partitions, Violations =        48
+Routed  319/346 Partitions, Violations =        47
+Routed  320/346 Partitions, Violations =        45
+Routed  321/346 Partitions, Violations =        44
+Routed  322/346 Partitions, Violations =        43
+Routed  323/346 Partitions, Violations =        41
+Routed  324/346 Partitions, Violations =        40
+Routed  325/346 Partitions, Violations =        39
+Routed  326/346 Partitions, Violations =        38
+Routed  327/346 Partitions, Violations =        37
+Routed  328/346 Partitions, Violations =        36
+Routed  329/346 Partitions, Violations =        35
+Routed  330/346 Partitions, Violations =        32
+Routed  331/346 Partitions, Violations =        31
+Routed  332/346 Partitions, Violations =        30
+Routed  333/346 Partitions, Violations =        29
+Routed  334/346 Partitions, Violations =        28
+Routed  335/346 Partitions, Violations =        27
+Routed  336/346 Partitions, Violations =        27
+Routed  337/346 Partitions, Violations =        26
+Routed  338/346 Partitions, Violations =        25
+Routed  339/346 Partitions, Violations =        24
+Routed  340/346 Partitions, Violations =        23
+Routed  341/346 Partitions, Violations =        22
+Routed  342/346 Partitions, Violations =        21
+Routed  343/346 Partitions, Violations =        22
+Routed  344/346 Partitions, Violations =        21
+Routed  345/346 Partitions, Violations =        20
+Routed  346/346 Partitions, Violations =        21
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      21
+        Diff net spacing : 6
+        Less than minimum area : 3
+        Short : 10
+        Internal-only types : 2
+
+[Iter 21] Elapsed real time: 0:01:12 
+[Iter 21] Elapsed cpu  time: sys=0:00:00 usr=0:01:12 total=0:01:12
+[Iter 21] Stage (MB): Used  246  Alloctr  247  Proc  309 
+[Iter 21] Total (MB): Used  247  Alloctr  249  Proc 2272 
+
+End DR iteration 21 with 346 parts
+
+Start DR iteration 22: non-uniform partition
+Routed  1/10 Partitions, Violations =   21
+Routed  2/10 Partitions, Violations =   21
+Routed  3/10 Partitions, Violations =   23
+Routed  4/10 Partitions, Violations =   22
+Routed  5/10 Partitions, Violations =   22
+Routed  6/10 Partitions, Violations =   21
+Routed  7/10 Partitions, Violations =   21
+Routed  8/10 Partitions, Violations =   21
+Routed  9/10 Partitions, Violations =   21
+Routed  10/10 Partitions, Violations =  20
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      20
+        Diff net spacing : 7
+        Less than minimum area : 2
+        Short : 9
+        Internal-only types : 2
+
+[Iter 22] Elapsed real time: 0:01:13 
+[Iter 22] Elapsed cpu  time: sys=0:00:00 usr=0:01:13 total=0:01:13
+[Iter 22] Stage (MB): Used  246  Alloctr  247  Proc  309 
+[Iter 22] Total (MB): Used  247  Alloctr  249  Proc 2272 
+
+End DR iteration 22 with 10 parts
+
+Start DR iteration 23: non-uniform partition
+Routed  1/9 Partitions, Violations =    17
+Routed  2/9 Partitions, Violations =    17
+Routed  3/9 Partitions, Violations =    17
+Routed  4/9 Partitions, Violations =    17
+Routed  5/9 Partitions, Violations =    17
+Routed  6/9 Partitions, Violations =    17
+Routed  7/9 Partitions, Violations =    18
+Routed  8/9 Partitions, Violations =    16
+Routed  9/9 Partitions, Violations =    16
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      16
+        Diff net spacing : 4
+        Less than minimum area : 2
+        Short : 9
+        Internal-only types : 1
+
+[Iter 23] Elapsed real time: 0:01:14 
+[Iter 23] Elapsed cpu  time: sys=0:00:00 usr=0:01:13 total=0:01:13
+[Iter 23] Stage (MB): Used  246  Alloctr  247  Proc  309 
+[Iter 23] Total (MB): Used  247  Alloctr  249  Proc 2272 
+
+End DR iteration 23 with 9 parts
+
+Start DR iteration 24: non-uniform partition
+Routed  1/9 Partitions, Violations =    16
+Routed  2/9 Partitions, Violations =    16
+Routed  3/9 Partitions, Violations =    16
+Routed  4/9 Partitions, Violations =    16
+Routed  5/9 Partitions, Violations =    17
+Routed  6/9 Partitions, Violations =    17
+Routed  7/9 Partitions, Violations =    18
+Routed  8/9 Partitions, Violations =    19
+Routed  9/9 Partitions, Violations =    18
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      18
+        Diff net spacing : 4
+        Less than minimum area : 2
+        Short : 10
+        Internal-only types : 2
+
+[Iter 24] Elapsed real time: 0:01:14 
+[Iter 24] Elapsed cpu  time: sys=0:00:00 usr=0:01:14 total=0:01:14
+[Iter 24] Stage (MB): Used  246  Alloctr  247  Proc  309 
+[Iter 24] Total (MB): Used  247  Alloctr  249  Proc 2272 
+
+End DR iteration 24 with 9 parts
+
+Start DR iteration 25: non-uniform partition
+Routed  1/9 Partitions, Violations =    18
+Routed  2/9 Partitions, Violations =    18
+Routed  3/9 Partitions, Violations =    19
+Routed  4/9 Partitions, Violations =    19
+Routed  5/9 Partitions, Violations =    19
+Routed  6/9 Partitions, Violations =    19
+Routed  7/9 Partitions, Violations =    19
+Routed  8/9 Partitions, Violations =    18
+Routed  9/9 Partitions, Violations =    19
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      19
+        Diff net spacing : 5
+        Less than minimum area : 2
+        Short : 10
+        Internal-only types : 2
+
+[Iter 25] Elapsed real time: 0:01:15 
+[Iter 25] Elapsed cpu  time: sys=0:00:00 usr=0:01:15 total=0:01:15
+[Iter 25] Stage (MB): Used  246  Alloctr  247  Proc  309 
+[Iter 25] Total (MB): Used  247  Alloctr  249  Proc 2272 
+
+End DR iteration 25 with 9 parts
+
+Start DR iteration 26: non-uniform partition
+Routed  1/8 Partitions, Violations =    19
+Routed  2/8 Partitions, Violations =    19
+Routed  3/8 Partitions, Violations =    18
+Routed  4/8 Partitions, Violations =    18
+Routed  5/8 Partitions, Violations =    18
+Routed  6/8 Partitions, Violations =    18
+Routed  7/8 Partitions, Violations =    18
+Routed  8/8 Partitions, Violations =    18
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      18
+        Diff net spacing : 4
+        Less than minimum area : 2
+        Short : 10
+        Internal-only types : 2
+
+[Iter 26] Elapsed real time: 0:01:16 
+[Iter 26] Elapsed cpu  time: sys=0:00:00 usr=0:01:16 total=0:01:16
+[Iter 26] Stage (MB): Used  246  Alloctr  247  Proc  309 
+[Iter 26] Total (MB): Used  247  Alloctr  249  Proc 2272 
+
+End DR iteration 26 with 8 parts
+
+Start DR iteration 27: non-uniform partition
+Routed  1/10 Partitions, Violations =   18
+Routed  2/10 Partitions, Violations =   18
+Routed  3/10 Partitions, Violations =   18
+Routed  4/10 Partitions, Violations =   18
+Routed  5/10 Partitions, Violations =   18
+Routed  6/10 Partitions, Violations =   18
+Routed  7/10 Partitions, Violations =   19
+Routed  8/10 Partitions, Violations =   17
+Routed  9/10 Partitions, Violations =   16
+Routed  10/10 Partitions, Violations =  17
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      17
+        Diff net spacing : 4
+        Less than minimum area : 2
+        Short : 10
+        Internal-only types : 1
+
+[Iter 27] Elapsed real time: 0:01:17 
+[Iter 27] Elapsed cpu  time: sys=0:00:00 usr=0:01:17 total=0:01:17
+[Iter 27] Stage (MB): Used  246  Alloctr  247  Proc  309 
+[Iter 27] Total (MB): Used  247  Alloctr  249  Proc 2272 
+
+End DR iteration 27 with 10 parts
+
+Start DR iteration 28: non-uniform partition
+Routed  1/8 Partitions, Violations =    17
+Routed  2/8 Partitions, Violations =    17
+Routed  3/8 Partitions, Violations =    17
+Routed  4/8 Partitions, Violations =    17
+Routed  5/8 Partitions, Violations =    17
+Routed  6/8 Partitions, Violations =    17
+Routed  7/8 Partitions, Violations =    18
+Routed  8/8 Partitions, Violations =    18
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      18
+        Diff net spacing : 4
+        Less than minimum area : 2
+        Short : 10
+        Internal-only types : 2
+
+[Iter 28] Elapsed real time: 0:01:18 
+[Iter 28] Elapsed cpu  time: sys=0:00:00 usr=0:01:18 total=0:01:18
+[Iter 28] Stage (MB): Used  246  Alloctr  247  Proc  309 
+[Iter 28] Total (MB): Used  247  Alloctr  249  Proc 2272 
+
+End DR iteration 28 with 8 parts
+
+Stop DR since not converging
+
+Information: Discarded 2 drcs of internal-only type. (ZRT-306)
+[DR] Elapsed real time: 0:01:18 
+[DR] Elapsed cpu  time: sys=0:00:00 usr=0:01:18 total=0:01:18
+[DR] Stage (MB): Used  222  Alloctr  223  Proc  309 
+[DR] Total (MB): Used  223  Alloctr  224  Proc 2272 
+[DR: Done] Elapsed real time: 0:01:18 
+[DR: Done] Elapsed cpu  time: sys=0:00:00 usr=0:01:18 total=0:01:18
+[DR: Done] Stage (MB): Used  222  Alloctr  223  Proc  309 
+[DR: Done] Total (MB): Used  223  Alloctr  224  Proc 2272 
+
+DR finished with 3 open nets, of which 0 are frozen
+Information: Merged away 7 aligned/redundant DRCs. (ZRT-305)
+
+DR finished with 9 violations
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      9
+        Diff net spacing : 1
+        Less than minimum area : 2
+        Short : 6
+
+
+
+Total Wire Length =                    1493559 micron
+Total Number of Contacts =             474821
+Total Number of Wires =                482966
+Total Number of PtConns =              64561
+Total Number of Routed Wires =       482897
+Total Routed Wire Length =           1485500 micron
+Total Number of Routed Contacts =       474790
+        Layer                 M1 :       7620 micron
+        Layer                 M2 :     338763 micron
+        Layer                 M3 :     386281 micron
+        Layer                 M4 :     287666 micron
+        Layer                 M5 :     173297 micron
+        Layer                 M6 :     254705 micron
+        Layer                 M7 :      45226 micron
+        Layer                 M8 :          0 micron
+        Layer                 M9 :          0 micron
+        Layer               MRDL :          0 micron
+        Via       VIA67SQ_C(rot) :       3202
+        Via   VIA67SQ_C(rot)_1x2 :         11
+        Via            VIA56SQ_C :      11260
+        Via            VIA45SQ_C :         63
+        Via       VIA45SQ_C(rot) :      28419
+        Via            VIA34SQ_C :      72282
+        Via       VIA34SQ_C(rot) :        412
+        Via        VIA34SQ_C_2x1 :          2
+        Via            VIA23SQ_C :       2822
+        Via       VIA23SQ_C(rot) :     179862
+        Via              VIA23SQ :          2
+        Via            VIA12SQ_C :     154253
+        Via       VIA12SQ_C(rot) :      17412
+        Via           VIA12BAR_C :       3830
+        Via      VIA12BAR_C(rot) :         29
+        Via             VIA12BAR :         21
+        Via        VIA12BAR(rot) :        142
+        Via        VIA12SQ_C_2x1 :        792
+        Via   VIA12SQ_C(rot)_1x2 :          1
+        Via   VIA12SQ_C(rot)_2x1 :          1
+        Via          VIA12SQ_2x1 :          2
+        Via     VIA12SQ(rot)_1x2 :          1
+
+ 
+Redundant via conversion report:
+--------------------------------
+
+  Total optimized via conversion rate =  0.17% (810 / 474821 vias)
+ 
+    Layer VIA1       =  0.45% (797    / 176484  vias)
+        Weight 1     =  0.45% (797     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.55% (175687  vias)
+    Layer VIA2       =  0.00% (0      / 182686  vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (182686  vias)
+    Layer VIA3       =  0.00% (2      / 72696   vias)
+        Weight 1     =  0.00% (2       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (72694   vias)
+    Layer VIA4       =  0.00% (0      / 28482   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (28482   vias)
+    Layer VIA5       =  0.00% (0      / 11260   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (11260   vias)
+    Layer VIA6       =  0.34% (11     / 3213    vias)
+        Weight 1     =  0.34% (11      vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.66% (3202    vias)
+ 
+  Total double via conversion rate    =  0.17% (810 / 474821 vias)
+ 
+    Layer VIA1       =  0.45% (797    / 176484  vias)
+    Layer VIA2       =  0.00% (0      / 182686  vias)
+    Layer VIA3       =  0.00% (2      / 72696   vias)
+    Layer VIA4       =  0.00% (0      / 28482   vias)
+    Layer VIA5       =  0.00% (0      / 11260   vias)
+    Layer VIA6       =  0.34% (11     / 3213    vias)
+ 
+  The optimized via conversion rate based on total routed via count =  0.17% (810 / 474790 vias)
+ 
+    Layer VIA1       =  0.45% (797    / 176476  vias)
+        Weight 1     =  0.45% (797     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.55% (175679  vias)
+    Layer VIA2       =  0.00% (0      / 182678  vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (182678  vias)
+    Layer VIA3       =  0.00% (2      / 72690   vias)
+        Weight 1     =  0.00% (2       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (72688   vias)
+    Layer VIA4       =  0.00% (0      / 28476   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (28476   vias)
+    Layer VIA5       =  0.00% (0      / 11257   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (11257   vias)
+    Layer VIA6       =  0.34% (11     / 3213    vias)
+        Weight 1     =  0.34% (11      vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.66% (3202    vias)
+ 
+
+Total number of nets = 49142
+3 open nets, of which 0 are frozen
+Total number of excluded ports = 0 ports of 0 unplaced cells connected to 0 nets
+                                 0 ports without pins of 0 cells connected to 0 nets
+                                 0 ports of 0 cover cells connected to 0 non-pg nets
+Total number of DRCs = 9
+Total number of antenna violations = antenna checking not active
+Information: Routes in non-preferred voltage areas = 0 (ZRT-559)
+
+Topology ECO not run, no qualifying violations or in frozen nets.
+Updating the database ...
+icc2_shell> 
+Begin building search trees for block ORCA_TOP_lib:ORCA_TOP.design
+Done building search trees for block ORCA_TOP_lib:ORCA_TOP.design (time 0s)
+icc2_shell> check_lvs -nets {I_BLENDER_0/n416 I_BLENDER_0/n256}
+Information: Using 1 threads for LVS
+[Check Short] Stage 1   Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 1-2 Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 2   Elapsed =    0:00:01, CPU =    0:00:01
+Detected more than 20 short violations. Skip checking short violations
+[Check Short] Stage 3   Elapsed =    0:00:03, CPU =    0:00:03
+[Check Short] End       Elapsed =    0:00:03, CPU =    0:00:03
+[Check Net] Init        Elapsed =    0:00:04, CPU =    0:00:04
+[Check Net] All nets are submitted.
+[Check Net] 10%         Elapsed =    0:00:04, CPU =    0:00:04
+[Check Net] 100%        Elapsed =    0:00:04, CPU =    0:00:04
+Information: Detected short violation. Net1: I_BLENDER_0/n3742. Net2: I_BLENDER_0/n416. BBox: (373.7110 120.1750)(374.3690 120.2250). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M5. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7640 118.1990)(385.7690 118.2490). Layer: VIA4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M5. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7640 118.1990)(385.7690 118.2490). Layer: VIA3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.6890 118.1940)(385.7990 118.2540). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7640 118.1990)(385.7690 118.2490). Layer: VIA2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7140 118.1690)(385.7740 118.2790). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.6890 114.6980)(385.7990 114.7580). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7140 114.6730)(385.7740 114.7830). Layer: M2. (RT-586)
+
+===============================================================
+    Maximum number of violations is set to 20
+    Abort checking when more than 20 violations are found
+    All violations might not be found.
+===============================================================
+Total number of input nets is 2.
+Total number of short violations is 20.
+Total number of open nets is 0.
+Total number of floating route violations is 0.
+
+Elapsed =    0:00:04, CPU =    0:00:04
+1
+icc2_shell> check_lvs -nets {I_BLENDER_0/n416 I_BLENDER_0/n256}
+Information: Using 1 threads for LVS
+[Check Short] Stage 1   Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 1-2 Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 2   Elapsed =    0:00:01, CPU =    0:00:01
+Detected more than 20 short violations. Skip checking short violations
+[Check Short] Stage 3   Elapsed =    0:00:04, CPU =    0:00:04
+[Check Short] End       Elapsed =    0:00:04, CPU =    0:00:04
+[Check Net] Init        Elapsed =    0:00:04, CPU =    0:00:04
+[Check Net] All nets are submitted.
+[Check Net] 10%         Elapsed =    0:00:04, CPU =    0:00:04
+[Check Net] 100%        Elapsed =    0:00:04, CPU =    0:00:04
+Information: Detected short violation. Net1: I_BLENDER_0/n3742. Net2: I_BLENDER_0/n416. BBox: (373.7110 120.1750)(374.3690 120.2250). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M5. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7640 118.1990)(385.7690 118.2490). Layer: VIA4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M5. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7640 118.1990)(385.7690 118.2490). Layer: VIA3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.6890 118.1940)(385.7990 118.2540). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7640 118.1990)(385.7690 118.2490). Layer: VIA2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7140 118.1690)(385.7740 118.2790). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.6890 114.6980)(385.7990 114.7580). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7140 114.6730)(385.7740 114.7830). Layer: M2. (RT-586)
+
+===============================================================
+    Maximum number of violations is set to 20
+    Abort checking when more than 20 violations are found
+    All violations might not be found.
+===============================================================
+Total number of input nets is 2.
+Total number of short violations is 20.
+Total number of open nets is 0.
+Total number of floating route violations is 0.
+
+Elapsed =    0:00:04, CPU =    0:00:04
+1
+icc2_shell> route_detail -incremental true
+Turn off antenna since no rule is specified
+Cell Min-Routing-Layer = M2
+Cell Max-Routing-Layer = M7
+Warning: Cannot find a default contact code for layer CO. (ZRT-022)
+Warning: Ignore 3 top cell ports with no pins. (ZRT-027)
+Skipping 5 internal pins that are not physical. Set route.common.verbose_level to > 0 and run routing command to get skipped pin names.
+Info: number of net_type_blockage: 0 
+Found 1 voltage-areas.
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n256. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Information: PG preroute in signal net I_BLENDER_0/n416. (ZRT-521)
+Printing options for 'route.common.*'
+common.debug_remove_extension_floating_shapes           :        false               
+common.verbose_level                                    :        0                   
+
+Printing options for 'route.detail.*'
+detail.eco_route_use_soft_spacing_for_timing_optimization:       true                
+detail.force_end_on_preferred_grid                      :        true                
+
+Printing options for 'route.auto_via_ladder.*'
+
+
+Begin full DRC check ...
+
+Information: Using 1 threads for routing. (ZRT-444)
+Checked 1/130 Partitions, Violations =  2
+Checked 5/130 Partitions, Violations =  6
+Checked 10/130 Partitions, Violations = 8
+Checked 15/130 Partitions, Violations = 8
+Checked 20/130 Partitions, Violations = 8
+Checked 25/130 Partitions, Violations = 8
+Checked 30/130 Partitions, Violations = 8
+Checked 35/130 Partitions, Violations = 8
+Checked 40/130 Partitions, Violations = 8
+Checked 45/130 Partitions, Violations = 9
+Checked 50/130 Partitions, Violations = 9
+Checked 55/130 Partitions, Violations = 9
+Checked 60/130 Partitions, Violations = 9
+Checked 65/130 Partitions, Violations = 9
+Checked 70/130 Partitions, Violations = 9
+Checked 75/130 Partitions, Violations = 10
+Checked 80/130 Partitions, Violations = 15
+Checked 85/130 Partitions, Violations = 15
+Checked 90/130 Partitions, Violations = 15
+Checked 95/130 Partitions, Violations = 15
+Checked 100/130 Partitions, Violations =        15
+Checked 105/130 Partitions, Violations =        16
+Checked 110/130 Partitions, Violations =        16
+Checked 115/130 Partitions, Violations =        16
+Checked 120/130 Partitions, Violations =        16
+Checked 125/130 Partitions, Violations =        16
+Checked 130/130 Partitions, Violations =        16
+[DRC CHECK] Elapsed real time: 0:00:40 
+[DRC CHECK] Elapsed cpu  time: sys=0:00:00 usr=0:00:40 total=0:00:40
+[DRC CHECK] Stage (MB): Used    0  Alloctr    0  Proc   11 
+[DRC CHECK] Total (MB): Used  246  Alloctr  248  Proc 2283 
+Loading parastics information to the router ...
+parastics information loaded to the router.
+Printing options for 'route.common.*'
+common.debug_remove_extension_floating_shapes           :        false               
+common.verbose_level                                    :        0                   
+
+Printing options for 'route.detail.*'
+detail.eco_route_use_soft_spacing_for_timing_optimization:       true                
+detail.force_end_on_preferred_grid                      :        true                
+
+Printing options for 'route.auto_via_ladder.*'
+
+Information: RC layer preference is turned off for this design. (ZRT-613)
+[Dr init] Elapsed real time: 0:00:50 
+[Dr init] Elapsed cpu  time: sys=0:00:00 usr=0:00:50 total=0:00:50
+[Dr init] Stage (MB): Used  228  Alloctr  229  Proc   11 
+[Dr init] Total (MB): Used  230  Alloctr  231  Proc 2283 
+Total number of nets = 49142, of which 0 are not extracted
+Total number of open nets = 3, of which 0 are frozen
+Information: Using 1 threads for routing. (ZRT-444)
+Routing in incremental mode, starting from iteration 29
+
+Start DR iteration 29: non-uniform partition
+Routed  1/8 Partitions, Violations =    16
+Routed  2/8 Partitions, Violations =    16
+Routed  3/8 Partitions, Violations =    16
+Routed  4/8 Partitions, Violations =    16
+Routed  5/8 Partitions, Violations =    16
+Routed  6/8 Partitions, Violations =    16
+Routed  7/8 Partitions, Violations =    17
+Routed  8/8 Partitions, Violations =    18
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      18
+        Diff net spacing : 4
+        Less than minimum area : 2
+        Short : 10
+        Internal-only types : 2
+
+[Iter 29] Elapsed real time: 0:00:51 
+[Iter 29] Elapsed cpu  time: sys=0:00:00 usr=0:00:51 total=0:00:51
+[Iter 29] Stage (MB): Used  245  Alloctr  246  Proc   11 
+[Iter 29] Total (MB): Used  246  Alloctr  248  Proc 2283 
+
+End DR iteration 29 with 8 parts
+
+Start DR iteration 30: non-uniform partition
+Routed  1/8 Partitions, Violations =    18
+Routed  2/8 Partitions, Violations =    18
+Routed  3/8 Partitions, Violations =    18
+Routed  4/8 Partitions, Violations =    18
+Routed  5/8 Partitions, Violations =    18
+Routed  6/8 Partitions, Violations =    18
+Routed  7/8 Partitions, Violations =    18
+Routed  8/8 Partitions, Violations =    18
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      18
+        Diff net spacing : 4
+        Less than minimum area : 2
+        Short : 10
+        Internal-only types : 2
+
+[Iter 30] Elapsed real time: 0:00:51 
+[Iter 30] Elapsed cpu  time: sys=0:00:00 usr=0:00:51 total=0:00:51
+[Iter 30] Stage (MB): Used  245  Alloctr  246  Proc   11 
+[Iter 30] Total (MB): Used  246  Alloctr  248  Proc 2283 
+
+End DR iteration 30 with 8 parts
+
+Start DR iteration 31: non-uniform partition
+Routed  1/9 Partitions, Violations =    18
+Routed  2/9 Partitions, Violations =    18
+Routed  3/9 Partitions, Violations =    18
+Routed  4/9 Partitions, Violations =    18
+Routed  5/9 Partitions, Violations =    18
+Routed  6/9 Partitions, Violations =    18
+Routed  7/9 Partitions, Violations =    19
+Routed  8/9 Partitions, Violations =    17
+Routed  9/9 Partitions, Violations =    17
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      17
+        Diff net spacing : 4
+        Less than minimum area : 2
+        Short : 10
+        Internal-only types : 1
+
+[Iter 31] Elapsed real time: 0:00:52 
+[Iter 31] Elapsed cpu  time: sys=0:00:00 usr=0:00:52 total=0:00:52
+[Iter 31] Stage (MB): Used  245  Alloctr  246  Proc   11 
+[Iter 31] Total (MB): Used  246  Alloctr  248  Proc 2283 
+
+End DR iteration 31 with 9 parts
+
+Start DR iteration 32: non-uniform partition
+Routed  1/9 Partitions, Violations =    17
+Routed  2/9 Partitions, Violations =    17
+Routed  3/9 Partitions, Violations =    17
+Routed  4/9 Partitions, Violations =    17
+Routed  5/9 Partitions, Violations =    17
+Routed  6/9 Partitions, Violations =    17
+Routed  7/9 Partitions, Violations =    18
+Routed  8/9 Partitions, Violations =    17
+Routed  9/9 Partitions, Violations =    18
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      18
+        Diff net spacing : 4
+        Less than minimum area : 2
+        Short : 10
+        Internal-only types : 2
+
+[Iter 32] Elapsed real time: 0:00:53 
+[Iter 32] Elapsed cpu  time: sys=0:00:00 usr=0:00:53 total=0:00:53
+[Iter 32] Stage (MB): Used  245  Alloctr  246  Proc   11 
+[Iter 32] Total (MB): Used  246  Alloctr  248  Proc 2283 
+
+End DR iteration 32 with 9 parts
+
+Start DR iteration 33: non-uniform partition
+Routed  1/9 Partitions, Violations =    18
+Routed  2/9 Partitions, Violations =    18
+Routed  3/9 Partitions, Violations =    18
+Routed  4/9 Partitions, Violations =    18
+Routed  5/9 Partitions, Violations =    18
+Routed  6/9 Partitions, Violations =    18
+Routed  7/9 Partitions, Violations =    18
+Routed  8/9 Partitions, Violations =    19
+Routed  9/9 Partitions, Violations =    17
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      17
+        Diff net spacing : 4
+        Less than minimum area : 2
+        Short : 10
+        Internal-only types : 1
+
+[Iter 33] Elapsed real time: 0:00:54 
+[Iter 33] Elapsed cpu  time: sys=0:00:00 usr=0:00:54 total=0:00:54
+[Iter 33] Stage (MB): Used  245  Alloctr  246  Proc   11 
+[Iter 33] Total (MB): Used  246  Alloctr  248  Proc 2283 
+
+End DR iteration 33 with 9 parts
+
+Stop DR since not converging
+
+Information: Discarded 1 drcs of internal-only type. (ZRT-306)
+[DR] Elapsed real time: 0:00:54 
+[DR] Elapsed cpu  time: sys=0:00:00 usr=0:00:54 total=0:00:54
+[DR] Stage (MB): Used  221  Alloctr  222  Proc   11 
+[DR] Total (MB): Used  222  Alloctr  224  Proc 2283 
+[DR: Done] Elapsed real time: 0:00:54 
+[DR: Done] Elapsed cpu  time: sys=0:00:00 usr=0:00:54 total=0:00:54
+[DR: Done] Stage (MB): Used  221  Alloctr  222  Proc   11 
+[DR: Done] Total (MB): Used  222  Alloctr  224  Proc 2283 
+
+DR finished with 3 open nets, of which 0 are frozen
+Information: Merged away 7 aligned/redundant DRCs. (ZRT-305)
+
+DR finished with 9 violations
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      9
+        Diff net spacing : 1
+        Less than minimum area : 2
+        Short : 6
+
+
+
+Total Wire Length =                    1493556 micron
+Total Number of Contacts =             474821
+Total Number of Wires =                482954
+Total Number of PtConns =              64563
+Total Number of Routed Wires =       482885
+Total Routed Wire Length =           1485497 micron
+Total Number of Routed Contacts =       474790
+        Layer                 M1 :       7620 micron
+        Layer                 M2 :     338762 micron
+        Layer                 M3 :     386279 micron
+        Layer                 M4 :     287667 micron
+        Layer                 M5 :     173297 micron
+        Layer                 M6 :     254705 micron
+        Layer                 M7 :      45226 micron
+        Layer                 M8 :          0 micron
+        Layer                 M9 :          0 micron
+        Layer               MRDL :          0 micron
+        Via       VIA67SQ_C(rot) :       3202
+        Via   VIA67SQ_C(rot)_1x2 :         11
+        Via            VIA56SQ_C :      11260
+        Via            VIA45SQ_C :         63
+        Via       VIA45SQ_C(rot) :      28419
+        Via            VIA34SQ_C :      72284
+        Via       VIA34SQ_C(rot) :        412
+        Via        VIA34SQ_C_2x1 :          2
+        Via            VIA23SQ_C :       2823
+        Via       VIA23SQ_C(rot) :     179859
+        Via              VIA23SQ :          2
+        Via            VIA12SQ_C :     154251
+        Via       VIA12SQ_C(rot) :      17414
+        Via           VIA12BAR_C :       3830
+        Via      VIA12BAR_C(rot) :         29
+        Via             VIA12BAR :         21
+        Via        VIA12BAR(rot) :        142
+        Via        VIA12SQ_C_2x1 :        792
+        Via   VIA12SQ_C(rot)_1x2 :          1
+        Via   VIA12SQ_C(rot)_2x1 :          1
+        Via          VIA12SQ_2x1 :          2
+        Via     VIA12SQ(rot)_1x2 :          1
+
+ 
+Redundant via conversion report:
+--------------------------------
+
+  Total optimized via conversion rate =  0.17% (810 / 474821 vias)
+ 
+    Layer VIA1       =  0.45% (797    / 176484  vias)
+        Weight 1     =  0.45% (797     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.55% (175687  vias)
+    Layer VIA2       =  0.00% (0      / 182684  vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (182684  vias)
+    Layer VIA3       =  0.00% (2      / 72698   vias)
+        Weight 1     =  0.00% (2       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (72696   vias)
+    Layer VIA4       =  0.00% (0      / 28482   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (28482   vias)
+    Layer VIA5       =  0.00% (0      / 11260   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (11260   vias)
+    Layer VIA6       =  0.34% (11     / 3213    vias)
+        Weight 1     =  0.34% (11      vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.66% (3202    vias)
+ 
+  Total double via conversion rate    =  0.17% (810 / 474821 vias)
+ 
+    Layer VIA1       =  0.45% (797    / 176484  vias)
+    Layer VIA2       =  0.00% (0      / 182684  vias)
+    Layer VIA3       =  0.00% (2      / 72698   vias)
+    Layer VIA4       =  0.00% (0      / 28482   vias)
+    Layer VIA5       =  0.00% (0      / 11260   vias)
+    Layer VIA6       =  0.34% (11     / 3213    vias)
+ 
+  The optimized via conversion rate based on total routed via count =  0.17% (810 / 474790 vias)
+ 
+    Layer VIA1       =  0.45% (797    / 176476  vias)
+        Weight 1     =  0.45% (797     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.55% (175679  vias)
+    Layer VIA2       =  0.00% (0      / 182676  vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (182676  vias)
+    Layer VIA3       =  0.00% (2      / 72692   vias)
+        Weight 1     =  0.00% (2       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (72690   vias)
+    Layer VIA4       =  0.00% (0      / 28476   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (28476   vias)
+    Layer VIA5       =  0.00% (0      / 11257   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (11257   vias)
+    Layer VIA6       =  0.34% (11     / 3213    vias)
+        Weight 1     =  0.34% (11      vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.66% (3202    vias)
+ 
+
+Total number of nets = 49142
+3 open nets, of which 0 are frozen
+Total number of excluded ports = 0 ports of 0 unplaced cells connected to 0 nets
+                                 0 ports without pins of 0 cells connected to 0 nets
+                                 0 ports of 0 cover cells connected to 0 non-pg nets
+Total number of DRCs = 9
+Total number of antenna violations = antenna checking not active
+Information: Routes in non-preferred voltage areas = 0 (ZRT-559)
+
+Topology ECO not run, no qualifying violations or in frozen nets.
+Updating the database ...
+icc2_shell> 
+Begin building search trees for block ORCA_TOP_lib:ORCA_TOP.design
+Done building search trees for block ORCA_TOP_lib:ORCA_TOP.design (time 0s)
+icc2_shell> check_lvs -nets {I_BLENDER_0/n416 I_BLENDER_0/n256}
+Information: Using 1 threads for LVS
+[Check Short] Stage 1   Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 1-2 Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 2   Elapsed =    0:00:01, CPU =    0:00:01
+Detected more than 20 short violations. Skip checking short violations
+[Check Short] Stage 3   Elapsed =    0:00:04, CPU =    0:00:04
+[Check Short] End       Elapsed =    0:00:04, CPU =    0:00:04
+[Check Net] Init        Elapsed =    0:00:04, CPU =    0:00:04
+[Check Net] All nets are submitted.
+[Check Net] 10%         Elapsed =    0:00:04, CPU =    0:00:04
+[Check Net] 100%        Elapsed =    0:00:04, CPU =    0:00:04
+Information: Detected short violation. Net1: I_BLENDER_0/n3742. Net2: I_BLENDER_0/n416. BBox: (373.7110 120.1750)(374.3690 120.2250). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M5. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7640 118.1990)(385.7690 118.2490). Layer: VIA4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M5. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7640 118.1990)(385.7690 118.2490). Layer: VIA3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.6890 118.1940)(385.7990 118.2540). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7640 118.1990)(385.7690 118.2490). Layer: VIA2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7140 118.1690)(385.7740 118.2790). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.6890 114.6980)(385.7990 114.7580). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7140 114.6730)(385.7740 114.7830). Layer: M2. (RT-586)
+
+===============================================================
+    Maximum number of violations is set to 20
+    Abort checking when more than 20 violations are found
+    All violations might not be found.
+===============================================================
+Total number of input nets is 2.
+Total number of short violations is 20.
+Total number of open nets is 0.
+Total number of floating route violations is 0.
+
+Elapsed =    0:00:04, CPU =    0:00:04
+1
+icc2_shell> report_timing -nets
+Warning: Corner slow:  0 process number, 0 process label, 2 voltage, and 0 temperature mismatches. (PVT-030)
+Warning: 36 cells affected for early, 36 for late. (PVT-031)
+Warning: 0 port driving_cells affected for early, 0 for late. (PVT-034)
+Information: The stitching and editing of coupling caps is turned ON for design 'ORCA_TOP_lib:ORCA_TOP.design'. (TIM-125)
+Information: Design ORCA_TOP has 48715 nets, 0 global routed, 48711 detail routed. (NEX-024)
+Information: The RC mode used is DR for design 'ORCA_TOP'. (NEX-022)
+---extraction options---
+Corner: slow
+ late_cap_scale                : 1
+ late_res_scale                : 1
+ late_ccap_scale               : 1
+ early_cap_scale               : 1
+ early_res_scale               : 1
+ early_ccap_scale              : 1
+Global options:
+ late_ccap_threshold       : 31fF
+ late_ccap_ratio           : 0.03
+ reference_direction       : use_from_tluplus
+ real_metalfill_extraction : none
+ virtual_shield_extraction : true
+---app options---
+ host.max_cores                   : 1
+ extract.connect_open           : true
+ extract.incremental_extraction : true
+ extract.enable_coupling_cap    : true
+Extracting design: ORCA_TOP 
+Information: coupling capacitance is created explicitly. (NEX-029)
+Information: 48711 nets are successfully extracted. (NEX-028)
+Information: Design Average RC for design ORCA_TOP  (NEX-011)
+Information: r = 1.785714 ohm/um, via_r = 0.500000 ohm/cut, c = 0.095041 ff/um, cc = 0.000000 ff/um (X dir) (NEX-017)
+Information: r = 1.785714 ohm/um, via_r = 0.500000 ohm/cut, c = 0.116867 ff/um, cc = 0.000000 ff/um (Y dir) (NEX-017)
+Warning: Advanced receiver model has not been enabled for detailed routed design. (TIM-204)
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 48712, routed nets = 48711, across physical hierarchy nets = 0, parasitics cached nets = 48712, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 663. (TIM-112)
+************************************************************
+Timer Settings:
+Delay Calculation Style:                   auto
+Signal Integrity Analysis:                 enabled
+Timing Window Analysis:                    enabled
+Advanced Waveform Propagation:             disabled
+Variation Type:                            fixed_derate
+Clock Reconvergence Pessimism Removal:     enabled
+Advanced Receiver Model:                   disabled
+************************************************************
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+        -nets
+Design : ORCA_TOP
+Version: P-2019.03-SP1-VAL
+Date   : Thu Jun  4 01:13:07 2020
+****************************************
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+
+  Startpoint: I_BLENDER_0/R_82_IP (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Endpoint: I_BLENDER_0/R_384 (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Mode: func
+  Corner: slow
+  Scenario: func_slow
+  Path Group: SYS_CLK
+  Path Type: max
+
+  Point                                          Fanout    Incr      Path  
+  --------------------------------------------------------------------------------
+  clock SYS_CLK (rise edge)                                0.00      0.00
+  clock network delay (propagated)                         1.44      1.44
+
+  I_BLENDER_0/R_82_IP/CLK (SDFFX2_LVT)                     0.00      1.44 r
+  I_BLENDER_0/R_82_IP/QN (SDFFX2_LVT)                      0.28      1.72 f
+  I_BLENDER_0/n3021 (net)                           1
+  I_BLENDER_0/ZINV_inst_3475/Y (INVX4_LVT)                 0.08      1.80 r
+  I_BLENDER_0/ZINV_934 (net)                        1
+  I_BLENDER_0/ZINV_inst_3474/Y (INVX8_LVT)                 0.05      1.85 f
+  I_BLENDER_0/ZINV_933 (net)                       22
+  I_BLENDER_0/U1468/Y (NAND4X0_LVT)                        0.11      1.96 r
+  I_BLENDER_0/n320 (net)                            1
+  I_BLENDER_0/SGI142_17737/Y (NAND2X0_LVT)                 0.10      2.06 f
+  I_BLENDER_0/copt_net_278 (net)                    1
+  I_BLENDER_0/SGI143_17738/Y (NAND2X4_LVT)                 0.18      2.23 r
+  I_BLENDER_0/n699 (net)                            3
+  I_BLENDER_0/U3199/Y (NAND3X2_LVT)                        0.14      2.38 f
+  I_BLENDER_0/n536 (net)                            2
+  I_BLENDER_0/U3200/Y (NAND4X0_LVT)                        0.11      2.48 r
+  I_BLENDER_0/n617 (net)                            1
+  I_BLENDER_0/U3227/Y (NAND3X0_LVT)                        0.14      2.62 f
+  I_BLENDER_0/n555 (net)                            1
+  I_BLENDER_0/U3225/Y (NAND4X0_LVT)                        0.23      2.85 r
+  I_BLENDER_0/n725 (net)                            3
+  I_BLENDER_0/U1356/Y (NAND3X0_LVT)                        0.13      2.98 f
+  I_BLENDER_0/n418 (net)                            2
+  I_BLENDER_0/U1354/Y (NAND2X4_LVT)                        0.18      3.17 r
+  I_BLENDER_0/n3742 (net)                           3
+  I_BLENDER_0/U3229/Y (AND3X1_LVT)                         0.13      3.30 r
+  I_BLENDER_0/n769 (net)                            4
+  I_BLENDER_0/U3653/Y (INVX0_LVT)                          0.04      3.34 f
+  I_BLENDER_0/n770 (net)                            1
+  I_BLENDER_0/U3654/Y (NAND2X0_LVT)                        0.11      3.45 r
+  I_BLENDER_0/n771 (net)                            2
+  I_BLENDER_0/U1937/Y (NAND3X0_HVT)                        0.61      4.06 f
+  I_BLENDER_0/n687 (net)                            1
+  I_BLENDER_0/U3405/Y (NAND3X0_LVT)                        0.66      4.72 r
+  I_BLENDER_0/n697 (net)                            1
+  I_BLENDER_0/U3237/Y (OA21X1_LVT)                         0.19      4.90 r
+  I_BLENDER_0/n779 (net)                            4
+  I_BLENDER_0/U3657/Y (NAND3X0_RVT)                        0.17      5.07 f
+  I_BLENDER_0/n784 (net)                            1
+  I_BLENDER_0/U3661/Y (NAND4X0_LVT)                        0.16      5.23 r
+  I_BLENDER_0/n823 (net)                            2
+  I_BLENDER_0/U3662/Y (AOI22X1_LVT)                        0.16      5.39 f
+  I_BLENDER_0/n832 (net)                            5
+  I_BLENDER_0/U3676/Y (AND2X1_LVT)                         0.09      5.49 f
+  I_BLENDER_0/n814 (net)                            1
+  I_BLENDER_0/U3677/Y (OA22X1_LVT)                         0.13      5.62 f
+  I_BLENDER_0/n827 (net)                            3
+  I_BLENDER_0/U3679/Y (OA22X2_LVT)                         0.15      5.76 f
+  I_BLENDER_0/n816 (net)                            1
+  I_BLENDER_0/U3680/Y (NAND2X0_LVT)                        0.13      5.90 r
+  I_BLENDER_0/n818 (net)                            1
+  I_BLENDER_0/U3681/Y (AO22X1_RVT)                         0.24      6.14 r
+  I_BLENDER_0/n820 (net)                            1
+  I_BLENDER_0/U3130/Y (AO22X2_LVT)                         0.15      6.29 r
+  I_BLENDER_0/n851 (net)                            3
+  I_BLENDER_0/U3682/Y (OR2X1_LVT)                          0.10      6.39 r
+  I_BLENDER_0/n838 (net)                            2
+  I_BLENDER_0/U1350/Y (AND2X1_LVT)                         0.10      6.49 r
+  I_BLENDER_0/n283 (net)                            1
+  I_BLENDER_0/SGI75_18156/Y (AND2X1_LVT)                   0.10      6.59 r
+  I_BLENDER_0/copt_net_360 (net)                    1
+  I_BLENDER_0/SGI53_17956/Y (NAND3X0_LVT)                  0.10      6.69 f
+  I_BLENDER_0/n556 (net)                            2
+  I_BLENDER_0/SGI128_17708/Y (AND2X2_LVT)                  0.19      6.87 f
+  I_BLENDER_0/n857 (net)                           10
+  I_BLENDER_0/U294/Y (OR2X1_LVT)                           0.11      6.98 f
+  I_BLENDER_0/n663 (net)                            1
+  I_BLENDER_0/U3386/Y (NAND2X0_LVT)                        0.12      7.10 r
+  I_BLENDER_0/n3357 (net)                           2
+  I_BLENDER_0/SGI90_18265/Y (AND2X1_LVT)                   0.12      7.23 r
+  I_BLENDER_0/copt_net_481 (net)                    1
+  I_BLENDER_0/SGI91_18266/Y (NAND2X0_LVT)                  0.05      7.27 f
+  I_BLENDER_0/copt_net_285 (net)                    1
+  I_BLENDER_0/SGI145_17753/Y (NAND2X0_LVT)                 0.09      7.37 r
+  I_BLENDER_0/n3093 (net)                           1
+  I_BLENDER_0/R_384/D (SDFFX1_LVT)                         0.00      7.37 r
+  data arrival time                                                  7.37
+
+  clock SYS_CLK (rise edge)                                4.80      4.80
+  clock network delay (propagated)                         1.21      6.01
+  clock reconvergence pessimism                            0.14      6.15
+  I_BLENDER_0/R_384/CLK (SDFFX1_LVT)                       0.00      6.15 r
+  clock uncertainty                                       -0.06      6.09
+  library setup time                                      -0.18      5.90
+  data required time                                                 5.90
+  --------------------------------------------------------------------------------
+  data required time                                                 5.90
+  data arrival time                                                 -7.37
+  --------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.47
+
+
+1
+icc2_shell> check_lvs -nets {I_BLENDER_0/n416}
+Information: Using 1 threads for LVS
+[Check Short] Stage 1   Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 1-2 Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 2   Elapsed =    0:00:01, CPU =    0:00:01
+Detected more than 20 short violations. Skip checking short violations
+[Check Short] Stage 3   Elapsed =    0:00:04, CPU =    0:00:04
+[Check Short] End       Elapsed =    0:00:04, CPU =    0:00:04
+[Check Net] Init        Elapsed =    0:00:04, CPU =    0:00:04
+[Check Net] All nets are submitted.
+[Check Net] 100%        Elapsed =    0:00:04, CPU =    0:00:04
+Information: Detected short violation. Net1: I_BLENDER_0/n3742. Net2: I_BLENDER_0/n416. BBox: (373.7110 120.1750)(374.3690 120.2250). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M5. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7640 118.1990)(385.7690 118.2490). Layer: VIA4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M5. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7640 118.1990)(385.7690 118.2490). Layer: VIA3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M4. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.6890 118.1940)(385.7990 118.2540). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1940)(385.7990 118.2540). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7640 118.1990)(385.7690 118.2490). Layer: VIA2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M3. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7140 118.1690)(385.7740 118.2790). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7340 118.1690)(385.7740 118.2790). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.6890 114.6980)(385.7990 114.7580). Layer: M2. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n416. Net2: VSS. BBox: (385.7140 114.6730)(385.7740 114.7830). Layer: M2. (RT-586)
+
+===============================================================
+    Maximum number of violations is set to 20
+    Abort checking when more than 20 violations are found
+    All violations might not be found.
+===============================================================
+Total number of input nets is 1.
+Total number of short violations is 20.
+Total number of open nets is 0.
+Total number of floating route violations is 0.
+
+Elapsed =    0:00:04, CPU =    0:00:04
+1
+icc2_shell> check_lvs -nets { I_BLENDER_0/n256}
+Information: Using 1 threads for LVS
+[Check Short] Stage 1   Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 1-2 Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 2   Elapsed =    0:00:01, CPU =    0:00:01
+Detected more than 20 short violations. Skip checking short violations
+[Check Short] Stage 3   Elapsed =    0:00:03, CPU =    0:00:03
+[Check Short] End       Elapsed =    0:00:03, CPU =    0:00:03
+[Check Net] Init        Elapsed =    0:00:04, CPU =    0:00:04
+[Check Net] All nets are submitted.
+[Check Net] 100%        Elapsed =    0:00:04, CPU =    0:00:04
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: VDD. BBox: (373.4410 129.8980)(373.4570 129.9580). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: VSS. BBox: (378.4230 128.8390)(378.4730 128.8890). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/ZBUF_1316. Net2: I_BLENDER_0/n256. BBox: (378.7270 128.8390)(378.7770 128.8890). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: VSS. BBox: (378.8790 128.8390)(378.9290 128.8890). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/ZBUF_1316. Net2: I_BLENDER_0/n256. BBox: (378.7270 128.8390)(379.0810 128.8890). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/ZBUF_1316. Net2: I_BLENDER_0/n256. BBox: (379.0310 128.8390)(379.0810 130.1050). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/ZBUF_1218. Net2: I_BLENDER_0/n256. BBox: (387.0870 130.0550)(387.4410 130.1050). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: VSS. BBox: (386.5190 130.0550)(386.5690 130.1050). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: VDD. BBox: (382.2230 130.0550)(387.2890 130.1050). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/ZBUF_1316. Net2: I_BLENDER_0/n256. BBox: (379.0310 130.0550)(379.0810 130.1050). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: VDD. BBox: (379.6390 130.0550)(380.6010 130.1050). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: I_BLENDER_0/n751. BBox: (380.3990 130.0550)(380.4490 130.1050). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: VDD. BBox: (381.1590 130.0550)(381.5130 130.1050). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: I_BLENDER_0/n535. BBox: (381.3110 130.0550)(381.6650 130.1050). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: VSS. BBox: (387.6950 134.9210)(387.7450 134.9690). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: VSS. BBox: (388.3030 134.9210)(388.3530 134.9690). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: I_BLENDER_0/n752. BBox: (388.7590 134.9190)(388.8090 134.9690). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: I_BLENDER_0/n752. BBox: (388.7590 134.7450)(388.8090 134.9690). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: VSS. BBox: (377.2070 128.8390)(377.2570 128.8890). Layer: M1. (RT-586)
+Information: Detected short violation. Net1: I_BLENDER_0/n256. Net2: VDD. BBox: (373.4070 129.9030)(373.4570 129.9530). Layer: M1. (RT-586)
+
+===============================================================
+    Maximum number of violations is set to 20
+    Abort checking when more than 20 violations are found
+    All violations might not be found.
+===============================================================
+Total number of input nets is 1.
+Total number of short violations is 20.
+Total number of open nets is 0.
+Total number of floating route violations is 0.
+
+Elapsed =    0:00:04, CPU =    0:00:04
+1
+icc2_shell> report_timing -nets -cap
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+        -nets
+        -capacitance
+Design : ORCA_TOP
+Version: P-2019.03-SP1-VAL
+Date   : Thu Jun  4 01:14:14 2020
+****************************************
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+
+  Startpoint: I_BLENDER_0/R_82_IP (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Endpoint: I_BLENDER_0/R_384 (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Mode: func
+  Corner: slow
+  Scenario: func_slow
+  Path Group: SYS_CLK
+  Path Type: max
+
+  Point                                          Fanout    Cap       Incr      Path  
+  ------------------------------------------------------------------------------------------
+  clock SYS_CLK (rise edge)                                          0.00      0.00
+  clock network delay (propagated)                                   1.44      1.44
+
+  I_BLENDER_0/R_82_IP/CLK (SDFFX2_LVT)                               0.00      1.44 r
+  I_BLENDER_0/R_82_IP/QN (SDFFX2_LVT)                                0.28      1.72 f
+  I_BLENDER_0/n3021 (net)                           1      3.06
+  I_BLENDER_0/ZINV_inst_3475/Y (INVX4_LVT)                           0.08      1.80 r
+  I_BLENDER_0/ZINV_934 (net)                        1      5.63
+  I_BLENDER_0/ZINV_inst_3474/Y (INVX8_LVT)                           0.05      1.85 f
+  I_BLENDER_0/ZINV_933 (net)                       22     25.16
+  I_BLENDER_0/U1468/Y (NAND4X0_LVT)                                  0.11      1.96 r
+  I_BLENDER_0/n320 (net)                            1      2.05
+  I_BLENDER_0/SGI142_17737/Y (NAND2X0_LVT)                           0.10      2.06 f
+  I_BLENDER_0/copt_net_278 (net)                    1      2.15
+  I_BLENDER_0/SGI143_17738/Y (NAND2X4_LVT)                           0.18      2.23 r
+  I_BLENDER_0/n699 (net)                            3      4.10
+  I_BLENDER_0/U3199/Y (NAND3X2_LVT)                                  0.14      2.38 f
+  I_BLENDER_0/n536 (net)                            2      3.88
+  I_BLENDER_0/U3200/Y (NAND4X0_LVT)                                  0.11      2.48 r
+  I_BLENDER_0/n617 (net)                            1      2.28
+  I_BLENDER_0/U3227/Y (NAND3X0_LVT)                                  0.14      2.62 f
+  I_BLENDER_0/n555 (net)                            1      2.59
+  I_BLENDER_0/U3225/Y (NAND4X0_LVT)                                  0.23      2.85 r
+  I_BLENDER_0/n725 (net)                            3      5.01
+  I_BLENDER_0/U1356/Y (NAND3X0_LVT)                                  0.13      2.98 f
+  I_BLENDER_0/n418 (net)                            2      1.41
+  I_BLENDER_0/U1354/Y (NAND2X4_LVT)                                  0.18      3.17 r
+  I_BLENDER_0/n3742 (net)                           3      4.40
+  I_BLENDER_0/U3229/Y (AND3X1_LVT)                                   0.13      3.30 r
+  I_BLENDER_0/n769 (net)                            4      5.36
+  I_BLENDER_0/U3653/Y (INVX0_LVT)                                    0.04      3.34 f
+  I_BLENDER_0/n770 (net)                            1      0.91
+  I_BLENDER_0/U3654/Y (NAND2X0_LVT)                                  0.11      3.45 r
+  I_BLENDER_0/n771 (net)                            2      2.27
+  I_BLENDER_0/U1937/Y (NAND3X0_HVT)                                  0.61      4.06 f
+  I_BLENDER_0/n687 (net)                            1      2.23
+  I_BLENDER_0/U3405/Y (NAND3X0_LVT)                                  0.66      4.72 r
+  I_BLENDER_0/n697 (net)                            1      2.44
+  I_BLENDER_0/U3237/Y (OA21X1_LVT)                                   0.19      4.90 r
+  I_BLENDER_0/n779 (net)                            4      2.93
+  I_BLENDER_0/U3657/Y (NAND3X0_RVT)                                  0.17      5.07 f
+  I_BLENDER_0/n784 (net)                            1      0.96
+  I_BLENDER_0/U3661/Y (NAND4X0_LVT)                                  0.16      5.23 r
+  I_BLENDER_0/n823 (net)                            2      1.77
+  I_BLENDER_0/U3662/Y (AOI22X1_LVT)                                  0.16      5.39 f
+  I_BLENDER_0/n832 (net)                            5      4.12
+  I_BLENDER_0/U3676/Y (AND2X1_LVT)                                   0.09      5.49 f
+  I_BLENDER_0/n814 (net)                            1      1.18
+  I_BLENDER_0/U3677/Y (OA22X1_LVT)                                   0.13      5.62 f
+  I_BLENDER_0/n827 (net)                            3      2.94
+  I_BLENDER_0/U3679/Y (OA22X2_LVT)                                   0.15      5.76 f
+  I_BLENDER_0/n816 (net)                            1      1.33
+  I_BLENDER_0/U3680/Y (NAND2X0_LVT)                                  0.13      5.90 r
+  I_BLENDER_0/n818 (net)                            1      1.95
+  I_BLENDER_0/U3681/Y (AO22X1_RVT)                                   0.24      6.14 r
+  I_BLENDER_0/n820 (net)                            1      1.19
+  I_BLENDER_0/U3130/Y (AO22X2_LVT)                                   0.15      6.29 r
+  I_BLENDER_0/n851 (net)                            3      4.94
+  I_BLENDER_0/U3682/Y (OR2X1_LVT)                                    0.10      6.39 r
+  I_BLENDER_0/n838 (net)                            2      3.02
+  I_BLENDER_0/U1350/Y (AND2X1_LVT)                                   0.10      6.49 r
+  I_BLENDER_0/n283 (net)                            1      2.24
+  I_BLENDER_0/SGI75_18156/Y (AND2X1_LVT)                             0.10      6.59 r
+  I_BLENDER_0/copt_net_360 (net)                    1      2.87
+  I_BLENDER_0/SGI53_17956/Y (NAND3X0_LVT)                            0.10      6.69 f
+  I_BLENDER_0/n556 (net)                            2      2.24
+  I_BLENDER_0/SGI128_17708/Y (AND2X2_LVT)                            0.19      6.87 f
+  I_BLENDER_0/n857 (net)                           10     10.97
+  I_BLENDER_0/U294/Y (OR2X1_LVT)                                     0.11      6.98 f
+  I_BLENDER_0/n663 (net)                            1      1.33
+  I_BLENDER_0/U3386/Y (NAND2X0_LVT)                                  0.12      7.10 r
+  I_BLENDER_0/n3357 (net)                           2      2.87
+  I_BLENDER_0/SGI90_18265/Y (AND2X1_LVT)                             0.12      7.23 r
+  I_BLENDER_0/copt_net_481 (net)                    1      1.09
+  I_BLENDER_0/SGI91_18266/Y (NAND2X0_LVT)                            0.05      7.27 f
+  I_BLENDER_0/copt_net_285 (net)                    1      1.00
+  I_BLENDER_0/SGI145_17753/Y (NAND2X0_LVT)                           0.09      7.37 r
+  I_BLENDER_0/n3093 (net)                           1      0.95
+  I_BLENDER_0/R_384/D (SDFFX1_LVT)                                   0.00      7.37 r
+  data arrival time                                                            7.37
+
+  clock SYS_CLK (rise edge)                                          4.80      4.80
+  clock network delay (propagated)                                   1.21      6.01
+  clock reconvergence pessimism                                      0.14      6.15
+  I_BLENDER_0/R_384/CLK (SDFFX1_LVT)                                 0.00      6.15 r
+  clock uncertainty                                                 -0.06      6.09
+  library setup time                                                -0.18      5.90
+  data required time                                                           5.90
+  ------------------------------------------------------------------------------------------
+  data required time                                                           5.90
+  data arrival time                                                           -7.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -1.47
+
+
+1
+icc2_shell> report_timing -nets -cap -through
+Error: value not specified for option '-through' (CMD-008)
+icc2_shell> report_timing -nets -cap -through I_BLENDER_0/n256
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+        -nets
+        -capacitance
+Design : ORCA_TOP
+Version: P-2019.03-SP1-VAL
+Date   : Thu Jun  4 01:15:23 2020
+****************************************
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+
+  Startpoint: I_BLENDER_0/R_97 (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Endpoint: I_BLENDER_0/R_384 (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Mode: func
+  Corner: slow
+  Scenario: func_slow
+  Path Group: SYS_CLK
+  Path Type: max
+
+  Point                                          Fanout    Cap       Incr      Path  
+  ------------------------------------------------------------------------------------------
+  clock SYS_CLK (rise edge)                                          0.00      0.00
+  clock network delay (propagated)                                   1.44      1.44
+
+  I_BLENDER_0/R_97/CLK (SDFFX2_LVT)                                  0.00      1.44 r
+  I_BLENDER_0/R_97/Q (SDFFX2_LVT)                                    0.44      1.88 r
+  I_BLENDER_0/n443 (net)                           12     13.12
+  I_BLENDER_0/U1468/Y (NAND4X0_LVT)                                  0.11      1.99 f
+  I_BLENDER_0/n320 (net)                            1      2.01
+  I_BLENDER_0/SGI142_17737/Y (NAND2X0_LVT)                           0.18      2.17 r
+  I_BLENDER_0/copt_net_278 (net)                    1      2.19
+  I_BLENDER_0/SGI143_17738/Y (NAND2X4_LVT)                           0.15      2.33 f
+  I_BLENDER_0/n699 (net)                            3      3.99
+  I_BLENDER_0/U3199/Y (NAND3X2_LVT)                                  0.18      2.51 r
+  I_BLENDER_0/n536 (net)                            2      3.96
+  I_BLENDER_0/U3200/Y (NAND4X0_LVT)                                  0.12      2.63 f
+  I_BLENDER_0/n617 (net)                            1      2.25
+  I_BLENDER_0/U3227/Y (NAND3X0_LVT)                                  0.18      2.80 r
+  I_BLENDER_0/n555 (net)                            1      2.64
+  I_BLENDER_0/U3225/Y (NAND4X0_LVT)                                  0.22      3.02 f
+  I_BLENDER_0/n725 (net)                            3      4.92
+  I_BLENDER_0/U760/Y (XOR2X1_LVT)                                    0.28      3.30 r
+  I_BLENDER_0/n722 (net)                            2      2.10
+  I_BLENDER_0/U3118/Y (NAND2X0_LVT)                                  0.08      3.38 f
+  I_BLENDER_0/n483 (net)                            1      2.14
+  I_BLENDER_0/U3117/Y (NAND2X0_LVT)                                  0.14      3.52 r
+  I_BLENDER_0/n736 (net)                            2      1.99
+  I_BLENDER_0/U3116/Y (NAND2X0_LVT)                                  0.08      3.60 f
+  I_BLENDER_0/n524 (net)                            2      1.77
+  I_BLENDER_0/U1741/Y (OA21X1_LVT)                                   0.14      3.74 f
+  I_BLENDER_0/n762 (net)                            2      1.90
+  I_BLENDER_0/U1690/Y (NAND3X1_LVT)                                  0.15      3.89 r
+  I_BLENDER_0/n393 (net)                            1      1.20
+  I_BLENDER_0/U226/Y (NAND3X0_LVT)                                   0.08      3.97 f
+  I_BLENDER_0/n3738 (net)                           1      1.50
+  I_BLENDER_0/ZINV_inst_18651/Y (INVX2_LVT)                          0.09      4.06 r
+  I_BLENDER_0/ZINV_1311 (net)                       2      6.94
+  I_BLENDER_0/U198/Y (INVX4_LVT)                                     0.03      4.09 f
+  I_BLENDER_0/n81 (net)                             1      2.35
+  I_BLENDER_0/U1267/Y (NAND2X4_LVT) <-                               0.13      4.22 r
+  I_BLENDER_0/n256 (net)                            2      3.84
+  I_BLENDER_0/U1266/Y (NAND3X0_LVT)                                  0.08      4.30 f
+  I_BLENDER_0/n752 (net)                            2      2.07
+  I_BLENDER_0/U3379/Y (NAND4X0_LVT)                                  0.13      4.43 r
+  I_BLENDER_0/n799 (net)                            2      1.51
+  I_BLENDER_0/U3239/Y (AO22X2_LVT)                                   0.19      4.62 r
+  I_BLENDER_0/n791 (net)                            5      8.10
+  I_BLENDER_0/U3657/Y (NAND3X0_RVT)                                  0.15      4.77 f
+  I_BLENDER_0/n784 (net)                            1      0.96
+  I_BLENDER_0/U3661/Y (NAND4X0_LVT)                                  0.16      4.92 r
+  I_BLENDER_0/n823 (net)                            2      1.77
+  I_BLENDER_0/U3662/Y (AOI22X1_LVT)                                  0.16      5.09 f
+  I_BLENDER_0/n832 (net)                            5      4.12
+  I_BLENDER_0/U3676/Y (AND2X1_LVT)                                   0.09      5.18 f
+  I_BLENDER_0/n814 (net)                            1      1.18
+  I_BLENDER_0/U3677/Y (OA22X1_LVT)                                   0.13      5.31 f
+  I_BLENDER_0/n827 (net)                            3      2.94
+  I_BLENDER_0/U3679/Y (OA22X2_LVT)                                   0.15      5.45 f
+  I_BLENDER_0/n816 (net)                            1      1.33
+  I_BLENDER_0/U3680/Y (NAND2X0_LVT)                                  0.13      5.59 r
+  I_BLENDER_0/n818 (net)                            1      1.95
+  I_BLENDER_0/U3681/Y (AO22X1_RVT)                                   0.24      5.83 r
+  I_BLENDER_0/n820 (net)                            1      1.19
+  I_BLENDER_0/U3130/Y (AO22X2_LVT)                                   0.15      5.98 r
+  I_BLENDER_0/n851 (net)                            3      4.94
+  I_BLENDER_0/U3682/Y (OR2X1_LVT)                                    0.10      6.08 r
+  I_BLENDER_0/n838 (net)                            2      3.02
+  I_BLENDER_0/U1350/Y (AND2X1_LVT)                                   0.10      6.18 r
+  I_BLENDER_0/n283 (net)                            1      2.24
+  I_BLENDER_0/SGI75_18156/Y (AND2X1_LVT)                             0.10      6.28 r
+  I_BLENDER_0/copt_net_360 (net)                    1      2.87
+  I_BLENDER_0/SGI53_17956/Y (NAND3X0_LVT)                            0.10      6.38 f
+  I_BLENDER_0/n556 (net)                            2      2.24
+  I_BLENDER_0/SGI128_17708/Y (AND2X2_LVT)                            0.19      6.57 f
+  I_BLENDER_0/n857 (net)                           10     10.97
+  I_BLENDER_0/U294/Y (OR2X1_LVT)                                     0.11      6.67 f
+  I_BLENDER_0/n663 (net)                            1      1.33
+  I_BLENDER_0/U3386/Y (NAND2X0_LVT)                                  0.12      6.79 r
+  I_BLENDER_0/n3357 (net)                           2      2.87
+  I_BLENDER_0/SGI90_18265/Y (AND2X1_LVT)                             0.12      6.92 r
+  I_BLENDER_0/copt_net_481 (net)                    1      1.09
+  I_BLENDER_0/SGI91_18266/Y (NAND2X0_LVT)                            0.05      6.97 f
+  I_BLENDER_0/copt_net_285 (net)                    1      1.00
+  I_BLENDER_0/SGI145_17753/Y (NAND2X0_LVT)                           0.09      7.06 r
+  I_BLENDER_0/n3093 (net)                           1      0.95
+  I_BLENDER_0/R_384/D (SDFFX1_LVT)                                   0.00      7.06 r
+  data arrival time                                                            7.06
+
+  clock SYS_CLK (rise edge)                                          4.80      4.80
+  clock network delay (propagated)                                   1.21      6.01
+  clock reconvergence pessimism                                      0.14      6.15
+  I_BLENDER_0/R_384/CLK (SDFFX1_LVT)                                 0.00      6.15 r
+  clock uncertainty                                                 -0.06      6.09
+  library setup time                                                -0.18      5.90
+  data required time                                                           5.90
+  ------------------------------------------------------------------------------------------
+  data required time                                                           5.90
+  data arrival time                                                           -7.06
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -1.16
+
+
+1
+icc2_shell> report_timing -nets -cap -through I_BLENDER_0/n416
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+        -nets
+        -capacitance
+Design : ORCA_TOP
+Version: P-2019.03-SP1-VAL
+Date   : Thu Jun  4 01:17:13 2020
+****************************************
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+
+  Startpoint: I_BLENDER_0/R_97 (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Endpoint: I_BLENDER_0/R_384 (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Mode: func
+  Corner: slow
+  Scenario: func_slow
+  Path Group: SYS_CLK
+  Path Type: max
+
+  Point                                          Fanout    Cap       Incr      Path  
+  ------------------------------------------------------------------------------------------
+  clock SYS_CLK (rise edge)                                          0.00      0.00
+  clock network delay (propagated)                                   1.44      1.44
+
+  I_BLENDER_0/R_97/CLK (SDFFX2_LVT)                                  0.00      1.44 r
+  I_BLENDER_0/R_97/Q (SDFFX2_LVT)                                    0.44      1.88 r
+  I_BLENDER_0/n443 (net)                           12     13.12
+  I_BLENDER_0/U1468/Y (NAND4X0_LVT)                                  0.11      1.99 f
+  I_BLENDER_0/n320 (net)                            1      2.01
+  I_BLENDER_0/SGI142_17737/Y (NAND2X0_LVT)                           0.18      2.17 r
+  I_BLENDER_0/copt_net_278 (net)                    1      2.19
+  I_BLENDER_0/SGI143_17738/Y (NAND2X4_LVT)                           0.15      2.33 f
+  I_BLENDER_0/n699 (net)                            3      3.99
+  I_BLENDER_0/U3199/Y (NAND3X2_LVT)                                  0.18      2.51 r
+  I_BLENDER_0/n536 (net)                            2      3.96
+  I_BLENDER_0/U3200/Y (NAND4X0_LVT)                                  0.12      2.63 f
+  I_BLENDER_0/n617 (net)                            1      2.25
+  I_BLENDER_0/U3227/Y (NAND3X0_LVT)                                  0.18      2.80 r
+  I_BLENDER_0/n555 (net)                            1      2.64
+  I_BLENDER_0/U3225/Y (NAND4X0_LVT)                                  0.22      3.02 f
+  I_BLENDER_0/n725 (net)                            3      4.92
+  I_BLENDER_0/U1356/Y (NAND3X0_LVT)                                  0.20      3.22 r
+  I_BLENDER_0/n418 (net)                            2      1.52
+  I_BLENDER_0/U1742/Y (NAND4X1_LVT) <-                               0.18      3.40 f
+  I_BLENDER_0/n416 (net)                            1      4.21
+  I_BLENDER_0/U717/Y (XNOR2X2_LVT)                                   0.16      3.55 f
+  I_BLENDER_0/n766 (net)                            4      5.50
+  I_BLENDER_0/U1741/Y (OA21X1_LVT)                                   0.14      3.69 f
+  I_BLENDER_0/n762 (net)                            2      1.90
+  I_BLENDER_0/U1690/Y (NAND3X1_LVT)                                  0.15      3.84 r
+  I_BLENDER_0/n393 (net)                            1      1.20
+  I_BLENDER_0/U226/Y (NAND3X0_LVT)                                   0.08      3.92 f
+  I_BLENDER_0/n3738 (net)                           1      1.50
+  I_BLENDER_0/ZINV_inst_18651/Y (INVX2_LVT)                          0.09      4.01 r
+  I_BLENDER_0/ZINV_1311 (net)                       2      6.94
+  I_BLENDER_0/U199/Y (INVX4_LVT)                                     0.05      4.06 f
+  I_BLENDER_0/n82 (net)                            10     10.00
+  I_BLENDER_0/U3242/Y (NAND2X0_LVT)                                  0.12      4.18 r
+  I_BLENDER_0/n764 (net)                            2      2.61
+  I_BLENDER_0/SGI150_17736/Y (NAND2X2_LVT)                           0.16      4.34 f
+  I_BLENDER_0/n768 (net)                            3      4.01
+  I_BLENDER_0/U3407/Y (OR2X1_LVT)                                    0.09      4.43 f
+  I_BLENDER_0/n691 (net)                            1      1.07
+  I_BLENDER_0/U3405/Y (NAND3X0_LVT)                                  0.09      4.52 r
+  I_BLENDER_0/n697 (net)                            1      2.44
+  I_BLENDER_0/U3237/Y (OA21X1_LVT)                                   0.19      4.70 r
+  I_BLENDER_0/n779 (net)                            4      2.93
+  I_BLENDER_0/U3657/Y (NAND3X0_RVT)                                  0.17      4.87 f
+  I_BLENDER_0/n784 (net)                            1      0.96
+  I_BLENDER_0/U3661/Y (NAND4X0_LVT)                                  0.16      5.03 r
+  I_BLENDER_0/n823 (net)                            2      1.77
+  I_BLENDER_0/U3662/Y (AOI22X1_LVT)                                  0.16      5.19 f
+  I_BLENDER_0/n832 (net)                            5      4.12
+  I_BLENDER_0/U3676/Y (AND2X1_LVT)                                   0.09      5.29 f
+  I_BLENDER_0/n814 (net)                            1      1.18
+  I_BLENDER_0/U3677/Y (OA22X1_LVT)                                   0.13      5.42 f
+  I_BLENDER_0/n827 (net)                            3      2.94
+  I_BLENDER_0/U3679/Y (OA22X2_LVT)                                   0.15      5.56 f
+  I_BLENDER_0/n816 (net)                            1      1.33
+  I_BLENDER_0/U3680/Y (NAND2X0_LVT)                                  0.13      5.70 r
+  I_BLENDER_0/n818 (net)                            1      1.95
+  I_BLENDER_0/U3681/Y (AO22X1_RVT)                                   0.24      5.94 r
+  I_BLENDER_0/n820 (net)                            1      1.19
+  I_BLENDER_0/U3130/Y (AO22X2_LVT)                                   0.15      6.09 r
+  I_BLENDER_0/n851 (net)                            3      4.94
+  I_BLENDER_0/U3682/Y (OR2X1_LVT)                                    0.10      6.19 r
+  I_BLENDER_0/n838 (net)                            2      3.02
+  I_BLENDER_0/U1350/Y (AND2X1_LVT)                                   0.10      6.29 r
+  I_BLENDER_0/n283 (net)                            1      2.24
+  I_BLENDER_0/SGI75_18156/Y (AND2X1_LVT)                             0.10      6.39 r
+  I_BLENDER_0/copt_net_360 (net)                    1      2.87
+  I_BLENDER_0/SGI53_17956/Y (NAND3X0_LVT)                            0.10      6.49 f
+  I_BLENDER_0/n556 (net)                            2      2.24
+  I_BLENDER_0/SGI128_17708/Y (AND2X2_LVT)                            0.19      6.67 f
+  I_BLENDER_0/n857 (net)                           10     10.97
+  I_BLENDER_0/U294/Y (OR2X1_LVT)                                     0.11      6.78 f
+  I_BLENDER_0/n663 (net)                            1      1.33
+  I_BLENDER_0/U3386/Y (NAND2X0_LVT)                                  0.12      6.90 r
+  I_BLENDER_0/n3357 (net)                           2      2.87
+  I_BLENDER_0/SGI90_18265/Y (AND2X1_LVT)                             0.12      7.03 r
+  I_BLENDER_0/copt_net_481 (net)                    1      1.09
+  I_BLENDER_0/SGI91_18266/Y (NAND2X0_LVT)                            0.05      7.07 f
+  I_BLENDER_0/copt_net_285 (net)                    1      1.00
+  I_BLENDER_0/SGI145_17753/Y (NAND2X0_LVT)                           0.09      7.17 r
+  I_BLENDER_0/n3093 (net)                           1      0.95
+  I_BLENDER_0/R_384/D (SDFFX1_LVT)                                   0.00      7.17 r
+  data arrival time                                                            7.17
+
+  clock SYS_CLK (rise edge)                                          4.80      4.80
+  clock network delay (propagated)                                   1.21      6.01
+  clock reconvergence pessimism                                      0.14      6.15
+  I_BLENDER_0/R_384/CLK (SDFFX1_LVT)                                 0.00      6.15 r
+  clock uncertainty                                                 -0.06      6.09
+  library setup time                                                -0.18      5.90
+  data required time                                                           5.90
+  ------------------------------------------------------------------------------------------
+  data required time                                                           5.90
+  data arrival time                                                           -7.17
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -1.27
+
+
+1
+icc2_shell> report_timing -nets -cap
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+        -nets
+        -capacitance
+Design : ORCA_TOP
+Version: P-2019.03-SP1-VAL
+Date   : Thu Jun  4 01:18:33 2020
+****************************************
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+
+  Startpoint: I_BLENDER_0/R_82_IP (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Endpoint: I_BLENDER_0/R_384 (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Mode: func
+  Corner: slow
+  Scenario: func_slow
+  Path Group: SYS_CLK
+  Path Type: max
+
+  Point                                          Fanout    Cap       Incr      Path  
+  ------------------------------------------------------------------------------------------
+  clock SYS_CLK (rise edge)                                          0.00      0.00
+  clock network delay (propagated)                                   1.44      1.44
+
+  I_BLENDER_0/R_82_IP/CLK (SDFFX2_LVT)                               0.00      1.44 r
+  I_BLENDER_0/R_82_IP/QN (SDFFX2_LVT)                                0.28      1.72 f
+  I_BLENDER_0/n3021 (net)                           1      3.06
+  I_BLENDER_0/ZINV_inst_3475/Y (INVX4_LVT)                           0.08      1.80 r
+  I_BLENDER_0/ZINV_934 (net)                        1      5.63
+  I_BLENDER_0/ZINV_inst_3474/Y (INVX8_LVT)                           0.05      1.85 f
+  I_BLENDER_0/ZINV_933 (net)                       22     25.16
+  I_BLENDER_0/U1468/Y (NAND4X0_LVT)                                  0.11      1.96 r
+  I_BLENDER_0/n320 (net)                            1      2.05
+  I_BLENDER_0/SGI142_17737/Y (NAND2X0_LVT)                           0.10      2.06 f
+  I_BLENDER_0/copt_net_278 (net)                    1      2.15
+  I_BLENDER_0/SGI143_17738/Y (NAND2X4_LVT)                           0.18      2.23 r
+  I_BLENDER_0/n699 (net)                            3      4.10
+  I_BLENDER_0/U3199/Y (NAND3X2_LVT)                                  0.14      2.38 f
+  I_BLENDER_0/n536 (net)                            2      3.88
+  I_BLENDER_0/U3200/Y (NAND4X0_LVT)                                  0.11      2.48 r
+  I_BLENDER_0/n617 (net)                            1      2.28
+  I_BLENDER_0/U3227/Y (NAND3X0_LVT)                                  0.14      2.62 f
+  I_BLENDER_0/n555 (net)                            1      2.59
+  I_BLENDER_0/U3225/Y (NAND4X0_LVT)                                  0.23      2.85 r
+  I_BLENDER_0/n725 (net)                            3      5.01
+  I_BLENDER_0/U1356/Y (NAND3X0_LVT)                                  0.13      2.98 f
+  I_BLENDER_0/n418 (net)                            2      1.41
+  I_BLENDER_0/U1354/Y (NAND2X4_LVT)                                  0.18      3.17 r
+  I_BLENDER_0/n3742 (net)                           3      4.40
+  I_BLENDER_0/U3229/Y (AND3X1_LVT)                                   0.13      3.30 r
+  I_BLENDER_0/n769 (net)                            4      5.36
+  I_BLENDER_0/U3653/Y (INVX0_LVT)                                    0.04      3.34 f
+  I_BLENDER_0/n770 (net)                            1      0.91
+  I_BLENDER_0/U3654/Y (NAND2X0_LVT)                                  0.11      3.45 r
+  I_BLENDER_0/n771 (net)                            2      2.27
+  I_BLENDER_0/U1937/Y (NAND3X0_HVT)                                  0.61      4.06 f
+  I_BLENDER_0/n687 (net)                            1      2.23
+  I_BLENDER_0/U3405/Y (NAND3X0_LVT)                                  0.66      4.72 r
+  I_BLENDER_0/n697 (net)                            1      2.44
+  I_BLENDER_0/U3237/Y (OA21X1_LVT)                                   0.19      4.90 r
+  I_BLENDER_0/n779 (net)                            4      2.93
+  I_BLENDER_0/U3657/Y (NAND3X0_RVT)                                  0.17      5.07 f
+  I_BLENDER_0/n784 (net)                            1      0.96
+  I_BLENDER_0/U3661/Y (NAND4X0_LVT)                                  0.16      5.23 r
+  I_BLENDER_0/n823 (net)                            2      1.77
+  I_BLENDER_0/U3662/Y (AOI22X1_LVT)                                  0.16      5.39 f
+  I_BLENDER_0/n832 (net)                            5      4.12
+  I_BLENDER_0/U3676/Y (AND2X1_LVT)                                   0.09      5.49 f
+  I_BLENDER_0/n814 (net)                            1      1.18
+  I_BLENDER_0/U3677/Y (OA22X1_LVT)                                   0.13      5.62 f
+  I_BLENDER_0/n827 (net)                            3      2.94
+  I_BLENDER_0/U3679/Y (OA22X2_LVT)                                   0.15      5.76 f
+  I_BLENDER_0/n816 (net)                            1      1.33
+  I_BLENDER_0/U3680/Y (NAND2X0_LVT)                                  0.13      5.90 r
+  I_BLENDER_0/n818 (net)                            1      1.95
+  I_BLENDER_0/U3681/Y (AO22X1_RVT)                                   0.24      6.14 r
+  I_BLENDER_0/n820 (net)                            1      1.19
+  I_BLENDER_0/U3130/Y (AO22X2_LVT)                                   0.15      6.29 r
+  I_BLENDER_0/n851 (net)                            3      4.94
+  I_BLENDER_0/U3682/Y (OR2X1_LVT)                                    0.10      6.39 r
+  I_BLENDER_0/n838 (net)                            2      3.02
+  I_BLENDER_0/U1350/Y (AND2X1_LVT)                                   0.10      6.49 r
+  I_BLENDER_0/n283 (net)                            1      2.24
+  I_BLENDER_0/SGI75_18156/Y (AND2X1_LVT)                             0.10      6.59 r
+  I_BLENDER_0/copt_net_360 (net)                    1      2.87
+  I_BLENDER_0/SGI53_17956/Y (NAND3X0_LVT)                            0.10      6.69 f
+  I_BLENDER_0/n556 (net)                            2      2.24
+  I_BLENDER_0/SGI128_17708/Y (AND2X2_LVT)                            0.19      6.87 f
+  I_BLENDER_0/n857 (net)                           10     10.97
+  I_BLENDER_0/U294/Y (OR2X1_LVT)                                     0.11      6.98 f
+  I_BLENDER_0/n663 (net)                            1      1.33
+  I_BLENDER_0/U3386/Y (NAND2X0_LVT)                                  0.12      7.10 r
+  I_BLENDER_0/n3357 (net)                           2      2.87
+  I_BLENDER_0/SGI90_18265/Y (AND2X1_LVT)                             0.12      7.23 r
+  I_BLENDER_0/copt_net_481 (net)                    1      1.09
+  I_BLENDER_0/SGI91_18266/Y (NAND2X0_LVT)                            0.05      7.27 f
+  I_BLENDER_0/copt_net_285 (net)                    1      1.00
+  I_BLENDER_0/SGI145_17753/Y (NAND2X0_LVT)                           0.09      7.37 r
+  I_BLENDER_0/n3093 (net)                           1      0.95
+  I_BLENDER_0/R_384/D (SDFFX1_LVT)                                   0.00      7.37 r
+  data arrival time                                                            7.37
+
+  clock SYS_CLK (rise edge)                                          4.80      4.80
+  clock network delay (propagated)                                   1.21      6.01
+  clock reconvergence pessimism                                      0.14      6.15
+  I_BLENDER_0/R_384/CLK (SDFFX1_LVT)                                 0.00      6.15 r
+  clock uncertainty                                                 -0.06      6.09
+  library setup time                                                -0.18      5.90
+  data required time                                                           5.90
+  ------------------------------------------------------------------------------------------
+  data required time                                                           5.90
+  data arrival time                                                           -7.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -1.47
+
+
+1
+icc2_shell> report_timing -nets -cap   >  ../reports/reports.routing/timing.rpt
+icc2_shell> hist
+     1  open_block ORCA_TOP_lib:ORCA_TOP.design
+     2  start_gui
+     3  link_block
+     4  remove_physical_objects
+     5  remove_physical_objects
+     6  remove_physical_objects
+     7  gui_change_highlight -remove -all_colors
+     8  remove_physical_objects
+     9  gui_zoom -window [gui_get_current_window -types Layout -mru] -selection
+    10  remove_physical_objects
+    11  gui_change_highlight -remove -all_colors
+    12  remove_physical_objects
+    13  check_lvs -nets {I_BLENDER_0/n416 I_BLENDER_0/n256}
+    14  route_detail -incremental true
+    15  check_lvs -nets {I_BLENDER_0/n416 I_BLENDER_0/n256}
+    16  check_lvs -nets {I_BLENDER_0/n416 I_BLENDER_0/n256}
+    17  route_detail -incremental true
+    18  check_lvs -nets {I_BLENDER_0/n416 I_BLENDER_0/n256}
+    19  report_timing -nets
+    20  check_lvs -nets {I_BLENDER_0/n416}
+    21  check_lvs -nets { I_BLENDER_0/n256}
+    22  report_timing -nets -cap
+    23  report_timing -nets -cap -through
+    24  report_timing -nets -cap -through I_BLENDER_0/n256
+    25  report_timing -nets -cap -through I_BLENDER_0/n416
+    26  report_timing -nets -cap
+    27  report_timing -nets -cap   >  ../reports/reports.routing/timing.rpt
+    28  hist
+icc2_shell> report_timing -nets -cap  -through I_BLENDER_0/n256 >  ../reports/reports.routing/timing.rpt
+icc2_shell> report_timing -nets -cap  -through I_BLENDER_0/n416  >  ../reports/reports.routing/timing416.rpt
+icc2_shell> report_timing -nets -cap  -through I_BLENDER_0/n256 >  ../reports/reports.routing/timing256.rpt
+icc2_shell> report_timing -nets -cap   >  ../reports/reports.routing/timing.rpt
+icc2_shell> eexit
+Error: unknown command 'eexit' (CMD-005)
+icc2_shell> exit
+Maximum memory usage for this session: 1397.35 MB
+CPU usage for this session:    353 seconds (  0.10 hours)
+Elapsed time for this session:   2113 seconds (  0.59 hours)
+Thank you for using IC Compiler II.
+

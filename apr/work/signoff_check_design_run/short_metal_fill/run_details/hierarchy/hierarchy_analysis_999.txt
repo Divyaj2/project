@@ -1,0 +1,333 @@
+* Description of frequently used terms in hierarchy_analysis files*
+M indicates that the value of that column is in millions
+Hier Plc Count(Hierarchical Placement Count) : Number of unique instances of the cell in another cell (Parent)
+Flat Plc Count(Flat Placement Count)         : Total number of instances of the cell in the layout
+
+Example : 
+                               A                     
+                              / \                   Cell  Hier Plc Count Flat Plc Count 
+                             /   \                     A               1              1 
+                            B     B                    B               2              2 
+                           / \  /  \                   C               2              4 
+                          C   C C   C                
+------------------------------------------------------------------------------------------------------ 
+
+
+* Cells with flat area > 0.01 of top cell *
+Reports cells with flat area > 0.01 of top cell
+
+Flat A(Flat Area) : Total area covered by this cell in the layout(cell area * flat placement count)
+Cell A(Cell Area) : Area of this cell
+Percent of top    : Percentage of area of this cell w.r.t area of top cell
+This table contains 16 entries
+
+ Name                                          | Flat A (M um^2), Cell A (M um^2), Flat Plc Count, Hier Plc Count, Percent of top
+-----------------------------------------------
+ route2                                        |           0.505,           0.505,              1,              1,       100.00 %
+ SRAM2RW64x8                                   |           0.086,           0.005,             16,             16,        17.11 %
+ SRAM2RW64x32                                  |           0.050,           0.012,              4,              4,         9.89 %
+ SRAM2RW32x4                                   |           0.048,           0.003,             16,             16,         9.51 %
+ SRAM2RW128x16                                 |           0.048,           0.012,              4,              4,         9.43 %
+ AO22X1_HVT                                    |           0.021,           0.000,           8163,           6057,         4.26 %
+ SHFILL128_RVT                                 |           0.020,           0.000,            599,            209,         4.00 %
+ VCELLR2                                       |           0.013,           0.000,            196,            196,         2.62 %
+ SDFFARX1_RVT                                  |           0.010,           0.000,           1047,           1047,         1.97 %
+ SHFILL64_RVT                                  |           0.007,           0.000,            441,            441,         1.47 %
+ SDFFNARX1_HVT                                 |           0.007,           0.000,            717,            717,         1.35 %
+ SDFFARX1_LVT                                  |           0.006,           0.000,            655,            655,         1.23 %
+ DCAP_HVT                                      |           0.006,           0.000,           4576,            406,         1.19 %
+ FADDX1_LVT                                    |           0.006,           0.000,           1192,           1192,         1.18 %
+ VCELLA5                                       |           0.006,           0.000,           1054,           1054,         1.10 %
+ OR2X1_HVT                                     |           0.005,           0.000,           2487,           2487,         1.04 %
+===============================================
+
+* Large-Area cells and child area ratio *
+This table reports cells with large areas and ratio of its area with total area covered by its children
+
+Num Inst(Number of instances) : Total Number of instances of the cell
+Child A(Child Area)           : Total area covered by all the children of the cell
+Pct of parent(Percent of area): Percentage of total area covered by its childern w.r.t area of this cell
+This table contains 16 entries
+
+ Name                                          | Flat A (M um^2), Cell A (M um^2), Num Inst (M), Child A (M um^2), Pct of parent
+-----------------------------------------------
+ route2                                        |           0.505,           0.505,        0.105,           0.480,       95.07 %
+ SRAM2RW64x8                                   |           0.086,           0.005,        0.000,           0.000,        0.00 %
+ SRAM2RW64x32                                  |           0.050,           0.012,        0.000,           0.000,        0.00 %
+ SRAM2RW32x4                                   |           0.048,           0.003,        0.000,           0.000,        0.00 %
+ SRAM2RW128x16                                 |           0.048,           0.012,        0.000,           0.000,        0.00 %
+ AO22X1_HVT                                    |           0.021,           0.000,        0.000,           0.000,        0.00 %
+ SHFILL128_RVT                                 |           0.020,           0.000,        0.000,           0.000,        0.00 %
+ VCELLR2                                       |           0.013,           0.000,        0.000,           0.000,      100.00 %
+ SDFFARX1_RVT                                  |           0.010,           0.000,        0.000,           0.000,        0.00 %
+ SHFILL64_RVT                                  |           0.007,           0.000,        0.000,           0.000,        0.00 %
+ SDFFNARX1_HVT                                 |           0.007,           0.000,        0.000,           0.000,        0.00 %
+ SDFFARX1_LVT                                  |           0.006,           0.000,        0.000,           0.000,        0.00 %
+ DCAP_HVT                                      |           0.006,           0.000,        0.000,           0.000,        0.00 %
+ FADDX1_LVT                                    |           0.006,           0.000,        0.000,           0.000,        0.00 %
+ VCELLA5                                       |           0.006,           0.000,        0.000,           0.000,      100.00 %
+ OR2X1_HVT                                     |           0.005,           0.000,        0.000,           0.000,        0.00 %
+===============================================
+
+* Region Report *
+Reports information about different regions present in the layout
+Area      : Total area of the cell
+Num Reg   : Number of regions
+MaxR MinR : Area of maximum and minimum region
+Est Trap  : Average number of trapezoids present in a single region
+Est Plc   : Average number of instances present in a single region 
+Large inst wrt Region: Number of instances with area larger than Max Region Area
+Min/Avg/Max ratio : Minimum, average and maximum ratio of child cell area to Max Region Area for large instances
+This table contains a single entry
+
+ Name                                          | Area (M um^2), Num Reg, MaxR (M um^2), MinR (M um^2), Est Trap (M), Est Plc (M), Large inst wrt Region: Num, Min ratio, Avg ratio, Max ratio
+-----------------------------------------------
+ route2                                        |         0.505,      16,         0.032,         0.032,        0.206,       0.007,                          0,      0.00,      0.00,      0.00
+===============================================
+
+* Layer Report with Estimated Data *
+Reports information of layers present in the layout
+
+Trap        : Number of hierarchical trapezoids in the layer
+Poly        : Number of hierarchical polygons in the layer
+Text        : Number of hierarchical text primitives in the layer
+Flat Trap   : Number of flat trapezoids 
+Flat Poly   : Number of flat polygons
+Flat Text   : Number of flat text primitives 
+Trap F/H    : Ratio of flat and hierarchical placements of the trapezoids
+Base, Metal, Via, Fill, Colored : Indicates layer intent
+This table contains 9 entries
+
+ Name                                          | Trap (M), Poly (M), Text (M), Flat Trap (M), Flat Poly (M), Flat Text (M), Trap F/H, Base, Metal, Via, Fill, Colored
+-----------------------------------------------
+ M2_metal                                      |    0.639,    0.639,    0.000,         0.645,         0.645,         0.000,     1.01,    0,     0,   0,    0,       0
+ M3_metal                                      |    0.435,    0.435,    0.000,         0.441,         0.441,         0.000,     1.01,    0,     0,   0,    0,       0
+ M1_metal                                      |    0.227,    0.215,    0.000,         1.872,         0.670,         0.000,     8.24,    0,     0,   0,    0,       0
+ M4_metal                                      |    0.173,    0.173,    0.000,         0.179,         0.179,         0.000,     1.04,    0,     0,   0,    0,       0
+ M5_metal                                      |    0.076,    0.076,    0.000,         0.092,         0.092,         0.000,     1.21,    0,     0,   0,    0,       0
+ M6_metal                                      |    0.034,    0.034,    0.000,         0.034,         0.034,         0.000,     1.00,    0,     0,   0,    0,       0
+ M7_metal                                      |    0.018,    0.018,    0.000,         0.018,         0.018,         0.000,     1.00,    0,     0,   0,    0,       0
+ M8_metal                                      |    0.007,    0.007,    0.000,         0.007,         0.007,         0.000,     1.00,    0,     0,   0,    0,       0
+ M9_metal                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+===============================================
+
+* Top cells pushing ref->ref data *
+Reports cells sorted on count of pushed references
+Cell Snum           : Indicates an unique structure number to identify the cell
+Reference Count     : Indicates the number of references pushed by the cell
+This table contains 100 entries
+
+ Name                                          |    Reference Count,     Cell Snum
+-----------------------------------------------
+ SHFILL3_RVT                                   |              14505,           130
+ VCELLR1                                       |              11931,           320
+ SHFILL2_RVT                                   |               5946,           297
+ SHFILL1_RVT                                   |               5719,           218
+ AO22X1_HVT                                    |               4627,            13
+ SDFFARX1_LVT                                  |               3417,            81
+ NAND2X0_LVT                                   |               3355,           104
+ SDFFARX1_RVT                                  |               3261,             5
+ INVX0_HVT                                     |               3203,           171
+ FADDX1_LVT                                    |               3035,           123
+ AND2X1_HVT                                    |               2925,            12
+ SDFFNARX1_HVT                                 |               2847,           244
+ SDFFX1_LVT                                    |               2810,            89
+ OR2X1_HVT                                     |               2696,           251
+ NAND2X0_HVT                                   |               2427,           174
+ AND2X1_LVT                                    |               2374,           259
+ AO22X1_RVT                                    |               2327,             8
+ SDFFARX1_HVT                                  |               2194,           160
+ SHFILL64_RVT                                  |               2169,           239
+ SHFILL128_RVT                                 |               2102,            75
+ AO22X1_LVT                                    |               2019,           168
+ VCELLA5                                       |               1979,           324
+ XOR2X1_LVT                                    |               1809,           111
+ SDFFARX2_RVT                                  |               1758,           163
+ XOR3X1_LVT                                    |               1758,           278
+ OR2X1_LVT                                     |               1695,           252
+ INVX0_LVT                                     |               1678,           101
+ FADDX1_HVT                                    |               1592,           212
+ FADDX1_RVT                                    |               1564,           201
+ SDFFNARX1_RVT                                 |               1557,             4
+ VCELLR2                                       |               1541,           321
+ OA22X1_HVT                                    |               1468,            19
+ NAND3X0_LVT                                   |               1407,           105
+ NBUFFX4_RVT                                   |               1399,           254
+ NBUFFX2_HVT                                   |               1398,           255
+ DCAP_HVT                                      |               1373,           228
+ INVX1_LVT                                     |               1353,           115
+ NBUFFX2_RVT                                   |               1341,             9
+ AND2X1_RVT                                    |               1307,           253
+ XOR2X2_LVT                                    |               1290,           202
+ NBUFFX8_RVT                                   |               1273,           250
+ AO21X1_LVT                                    |               1261,           175
+ INVX2_LVT                                     |               1241,            24
+ INVX4_LVT                                     |               1224,           186
+ OA21X1_LVT                                    |               1214,           107
+ XOR3X2_LVT                                    |               1212,           102
+ OR2X1_RVT                                     |               1185,            11
+ XOR3X1_RVT                                    |               1100,            40
+ SDFFARX2_HVT                                  |               1067,            80
+ SDFFNARX2_HVT                                 |               1014,           164
+ NAND2X0_RVT                                   |                999,            21
+ SDFFNARX2_RVT                                 |                989,            84
+ SDFFX1_HVT                                    |                986,           246
+ NAND2X4_LVT                                   |                975,            22
+ XNOR2X2_LVT                                   |                959,           203
+ NAND2X2_LVT                                   |                958,           260
+ INVX1_HVT                                     |                920,           100
+ INVX0_RVT                                     |                905,            15
+ INVX8_LVT                                     |                882,           185
+ INVX4_HVT                                     |                837,            95
+ XOR2X1_HVT                                    |                811,           271
+ SDFFARX2_LVT                                  |                745,             3
+ NAND4X0_LVT                                   |                744,           266
+ XOR2X1_RVT                                    |                721,            92
+ VCELLR3                                       |                711,           322
+ INVX2_HVT                                     |                646,            98
+ OA22X1_LVT                                    |                632,           265
+ SDFFX2_LVT                                    |                630,            90
+ AND3X1_LVT                                    |                625,            32
+ NOR2X0_LVT                                    |                623,           181
+ OA22X1_RVT                                    |                596,            14
+ AOI22X1_HVT                                   |                581,            20
+ NBUFFX8_HVT                                   |                538,            93
+ AO21X1_HVT                                    |                521,            10
+ NBUFFX2_LVT                                   |                497,           275
+ OR2X2_LVT                                     |                470,           176
+ NBUFFX32_HVT                                  |                459,           114
+ SDFFNARX1_LVT                                 |                457,            85
+ DFFARX1_HVT                                   |                456,           282
+ NAND3X2_LVT                                   |                448,            38
+ INVX1_RVT                                     |                432,           190
+ NBUFFX8_LVT                                   |                425,           257
+ OA21X1_HVT                                    |                407,           108
+ INVX32_HVT                                    |                406,            96
+ INVX8_HVT                                     |                406,           173
+ AO222X1_HVT                                   |                402,           183
+ NBUFFX4_HVT                                   |                401,            99
+ OA21X1_RVT                                    |                399,            94
+ AO22X2_LVT                                    |                399,           249
+ OAI21X1_LVT                                   |                396,            37
+ XNOR2X1_LVT                                   |                395,           286
+ DFFARX1_RVT                                   |                375,           283
+ NBUFFX32_LVT                                  |                364,           116
+ NOR2X1_HVT                                    |                360,            47
+ DFFX1_LVT                                     |                360,           169
+ AND2X2_LVT                                    |                352,           262
+ INVX16_LVT                                    |                349,            16
+ AOI22X1_LVT                                   |                349,           207
+ NBUFFX16_HVT                                  |                341,            17
+ AO21X1_RVT                                    |                340,           261
+===============================================
+
+* Top cells accepting ref->ref data *
+Reports cells sorted on count of accepted references
+Cell Snum           : Indicates an unique structure number to identify the cell
+Reference Count     : Indicates the number of references accepted by the cell
+This table contains 100 entries
+
+ Name                                          |    Reference Count,     Cell Snum
+-----------------------------------------------
+ VCELLR1                                       |              11939,           320
+ SHFILL3_RVT                                   |               7206,           130
+ SHFILL2_RVT                                   |               6012,           297
+ SHFILL1_RVT                                   |               5780,           218
+ AO22X1_HVT                                    |               4251,            13
+ SDFFARX1_LVT                                  |               3458,            81
+ NAND2X0_LVT                                   |               3378,           104
+ SDFFARX1_RVT                                  |               3280,             5
+ INVX0_HVT                                     |               3227,           171
+ FADDX1_LVT                                    |               3057,           123
+ AND2X1_HVT                                    |               2981,            12
+ SDFFNARX1_HVT                                 |               2859,           244
+ SDFFX1_LVT                                    |               2844,            89
+ OR2X1_HVT                                     |               2720,           251
+ NAND2X0_HVT                                   |               2457,           174
+ AND2X1_LVT                                    |               2394,           259
+ AO22X1_RVT                                    |               2333,             8
+ SHFILL64_RVT                                  |               2234,           239
+ SDFFARX1_HVT                                  |               2214,           160
+ VCELLR2                                       |               2164,           321
+ AO22X1_LVT                                    |               2040,           168
+ VCELLA5                                       |               1979,           324
+ XOR2X1_LVT                                    |               1841,           111
+ SDFFARX2_RVT                                  |               1804,           163
+ XOR3X1_LVT                                    |               1785,           278
+ OR2X1_LVT                                     |               1713,           252
+ INVX0_LVT                                     |               1700,           101
+ FADDX1_HVT                                    |               1613,           212
+ SDFFNARX1_RVT                                 |               1605,             4
+ FADDX1_RVT                                    |               1581,           201
+ OA22X1_HVT                                    |               1469,            19
+ NBUFFX4_RVT                                   |               1421,           254
+ NBUFFX2_HVT                                   |               1421,           255
+ NAND3X0_LVT                                   |               1415,           105
+ INVX1_LVT                                     |               1379,           115
+ SHFILL128_RVT                                 |               1377,            75
+ NBUFFX2_RVT                                   |               1370,             9
+ AND2X1_RVT                                    |               1328,           253
+ XOR2X2_LVT                                    |               1321,           202
+ NBUFFX8_RVT                                   |               1306,           250
+ AO21X1_LVT                                    |               1275,           175
+ XOR3X2_LVT                                    |               1269,           102
+ INVX2_LVT                                     |               1263,            24
+ INVX4_LVT                                     |               1244,           186
+ OA21X1_LVT                                    |               1237,           107
+ OR2X1_RVT                                     |               1194,            11
+ XOR3X1_RVT                                    |               1156,            40
+ SDFFARX2_HVT                                  |               1138,            80
+ SDFFX1_HVT                                    |               1105,           246
+ SDFFNARX2_HVT                                 |               1084,           164
+ SDFFNARX2_RVT                                 |               1059,            84
+ NAND2X0_RVT                                   |               1018,            21
+ NAND2X4_LVT                                   |                997,            22
+ XNOR2X2_LVT                                   |                992,           203
+ NAND2X2_LVT                                   |                985,           260
+ INVX0_RVT                                     |                935,            15
+ INVX1_HVT                                     |                935,           100
+ INVX8_LVT                                     |                924,           185
+ INVX4_HVT                                     |                873,            95
+ XOR2X1_HVT                                    |                869,           271
+ SDFFARX2_LVT                                  |                850,             3
+ NAND4X0_LVT                                   |                767,           266
+ XOR2X1_RVT                                    |                762,            92
+ SDFFX2_LVT                                    |                744,            90
+ VCELLR3                                       |                724,           322
+ INVX2_HVT                                     |                675,            98
+ OA22X1_LVT                                    |                655,           265
+ AND3X1_LVT                                    |                651,            32
+ NOR2X0_LVT                                    |                647,           181
+ AOI22X1_HVT                                   |                619,            20
+ OA22X1_RVT                                    |                612,            14
+ NBUFFX8_HVT                                   |                581,            93
+ NBUFFX32_HVT                                  |                572,           114
+ AO21X1_HVT                                    |                561,            10
+ NBUFFX2_LVT                                   |                534,           275
+ SDFFNARX1_LVT                                 |                529,            85
+ DFFARX1_HVT                                   |                501,           282
+ OR2X2_LVT                                     |                492,           176
+ NAND3X2_LVT                                   |                483,            38
+ NBUFFX32_LVT                                  |                481,           116
+ INVX32_HVT                                    |                473,            96
+ NBUFFX8_LVT                                   |                463,           257
+ INVX1_RVT                                     |                459,           190
+ INVX8_HVT                                     |                458,           173
+ NBUFFX4_HVT                                   |                447,            99
+ XNOR2X1_LVT                                   |                445,           286
+ DFFARX1_RVT                                   |                443,           283
+ AO222X1_HVT                                   |                442,           183
+ AO22X2_LVT                                    |                436,           249
+ OA21X1_HVT                                    |                434,           108
+ OA21X1_RVT                                    |                428,            94
+ NBUFFX16_HVT                                  |                427,            17
+ INVX16_LVT                                    |                425,            16
+ XOR3X2_RVT                                    |                425,           285
+ OAI21X1_LVT                                   |                421,            37
+ DFFX1_LVT                                     |                419,           169
+ SDFFX2_HVT                                    |                417,            88
+ NOR2X1_HVT                                    |                397,            47
+ AOI22X1_LVT                                   |                391,           207
+ NBUFFX16_LVT                                  |                386,            27
+===============================================
+

@@ -1,0 +1,13 @@
+#@ # 
+#@ # Running icc2_shell Version P-2019.03-SP1-VAL for linux64 -- Mar 31, 2019
+#@ # Date:   Wed Jun  3 20:22:49 2020
+#@ # Run by: divyaj2@mo.ece.pdx.edu
+#@ 
+
+source /u/divyaj2/ECE510-2020-SPRING/project/apr/work/.synopsys_icc2.setup
+open_block ORCA_TOP_lib:ORCA_TOP.design
+# tell where is the runset or drc rules are:
+set_app_options  -name signoff.check_drc.runset -value  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs
+signoff_chec_drc
+signoff_check_drc
+exit

@@ -1,0 +1,135 @@
+                             RESULTS: NOT CLEAN
+
+         #   #   ###   #####      ####  #      #####   ###   #   #
+         ##  #  #   #    #       #      #      #      #   #  ##  #
+         # # #  #   #    #       #      #      ####   #####  # # #
+         #  ##  #   #    #       #      #      #      #   #  #  ##
+         #   #   ###     #        ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -host_init mo.ece.pdx.edu -icc2 -f NDM -i ORCA_TOP_lib -p /u/divyaj2/ECE510-2020-SPRING/project/apr/work -c route2 -clf /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/slnFile.txt -icc_density_blockage -icc2_error_categories -I /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run -icc2_error_browser INST -icc2_error_cell signoff_check_drc.err -rc /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/signoff_check_drc.rc -g /dev/shm/5094 -host_disk /dev/shm/5094_dp_cache -norscache -I /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+User name:        divyaj2
+Layout format:    NDM
+Input file name:  ORCA_TOP_lib
+Top cell name:    route2
+Time started:     2020/06/01 10:46:05AM
+Time ended:       2020/06/01 10:48:13AM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+267 total rules were run.
+137 rules NOT EXECUTED.
+10 rules have violations.
+There are 679 total violations.
+Refer to route2.LAYOUT_ERRORS
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 22
+ Empty Utilized Assign Layers = 5
+ Non-Empty Utilized Assign Layers = 17
+Pruned Assign Layers = 64
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 1000
+ match_errors = { }
+ match_errors_processing_mode = CELL_LEVEL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables
+
+HOME = "/u/divyaj2"
+ICV_HOME_DIR = "/pkgs/synopsys/2020/icv/icvalidator/Q-2019.12-SP2-4"
+ICV_REVERT = "NDM_DESIGN_ATTACHED_ERROR_DATA"
+LM_LICENSE_FILE = "27000@synopsys-lic.cat.pdx.edu:27000@synopsys-lic.cat.pdx.edu"
+PATH = "/pkgs/synopsys/2020/icv/icvalidator/Q-2019.12-SP2-4/bin/LINUX64_L31el:/opt/rh/rh-git29/root/usr/bin:/opt/rh/httpd24/root/usr/bin:/opt/rh/httpd24/root/usr/sbin:/pkgs/mentor/questa/2019.2_1/questasim/bin:/usr/local/bin:/usr/bin:/pkgs/cadence/2019-03/GENUS171/bin:/pkgs/cadence/2019-03/SSV171/bin:/pkgs/cadence/2019-03/INNOVUS171/bin:/pkgs/synopsys/pts_vO-2018.06/pts/O-2018.06/bin:/pkgs/synopsys/2019_06/customcompiler/O-2018.09-SP1-4/bin:/pkgs/synopsys/2019_06/starrc/P-2019.03-SP1/bin:/pkgs/synopsys/2019_06/syn/P-2019.03-SP1-1/bin:/pkgs/synopsys/2020/icv/icvalidator/Q-2019.12-SP2-4/bin:/lib64/openmpi/bin"
+SNPSLMD_LICENSE_FILE = "27000@synopsys-lic.cat.pdx.edu"
+USER = "divyaj2"
+
+7 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables
+
+ICV_RSH_COMMAND = "/usr/bin/ssh"
+icv_WRITE_TECH_FILE_WITH_UPDATES = "/u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/tech.tf"
+
+2 debug environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 32
+
+ mo.ece.pdx.edu (32/32)
+   Commands: 32 in parallel, maximum
+   Model: Intel Xeon E312xx (Sandy Bridge)
+   CPU:   32 cpu 2599 MHz
+   Cores: 32 
+   RAM:   83.422 GB
+   Swap:  0.000 GB
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:02:08
+Peak Single Command Memory = 0.791 GB
+Peak Disk Usage = 0.203 GB
+
+Distributed Host Memory Usage
+ mo.ece.pdx.edu (32/32)  ....  Average=5.025 GB, Peak=5.823 GB / 83.422 GB
+
+Overall Distributed Utilization: not available
+IC Validator is done.

@@ -1,0 +1,26 @@
+****************************************
+Report : annotated_parasitics
+	-check
+	-internal_nets
+	-boundary_nets
+Design : fifo1_sram
+Version: O-2018.06
+Date   : Thu Apr  9 11:48:52 2020
+****************************************
+
+                    |         |         |         |   RC    | Coupled |   Not   |
+Net Type            |  Total  | Lumped  |  RC pi  | network | network |Annotated|
+--------------------+---------+---------+---------+---------+---------+---------+
+Internal nets       |         |         |         |         |         |         |
+  - Pin to pin nets |     497 |       0 |       0 |      88 |     409 |       0 |
+  - Driverless nets |      21 |       0 |       0 |       0 |       0 |      21 |
+  - Loadless nets   |      64 |       0 |       0 |       0 |       0 |      64 |
+--------------------+---------+---------+---------+---------+---------+---------+
+Boundary/port nets  |         |         |         |         |         |         |
+  - Pin to pin nets |      25 |       0 |       0 |      19 |       6 |       0 |
+  - Driverless nets |       0 |       0 |       0 |       0 |       0 |       0 |
+  - Loadless nets   |       0 |       0 |       0 |       0 |       0 |       0 |
+--------------------+---------+---------+---------+---------+---------+---------+
+                    |     607 |       0 |       0 |     107 |     415 |      85 |
+
+1

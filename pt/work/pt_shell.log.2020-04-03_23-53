@@ -1,0 +1,60 @@
+Error: Library Compiler executable path is not set. (PT-063)
+setting auto_restore_mw_cel_lib_setup true
+pt_shell> fs
+setting top_design to: 
+fifo1_sram
+pt_shell> source ../scripts/dmsa.tcl
+Launching 2 Distributed Worker(s)
+   1] Launched : ssh mo /pkgs/synopsys/pts_vO-2018.06/pts/O-2018.06/bin/pt_shell \
+                  -slv_type dmsa_slv -max_cores 4
+
+   2] Launched : ssh mo /pkgs/synopsys/pts_vO-2018.06/pts/O-2018.06/bin/pt_shell \
+                  -slv_type dmsa_slv -max_cores 4
+
+  Warning: Unable to launch workers using submit command 'ssh'. Error code: Internal error (see log file)
+  ---------------------------------------------------------------------------
+Error: Failed to start worker processes: errors detected while launching workers (see system logs) (CMCR-015)
+  ---------------------------------------------------------------------------
+
+****************************************
+Report : host_usage
+Version: O-2018.06
+Date   : Fri Apr  3 23:54:44 2020
+****************************************
+
+  Options Name          Host Name    Num Processes           Protocol
+  --------------------------------------------------------------------
+  my_opts1              mo           2                       auto
+
+  Usage limits (cores)
+
+  Options Name     #                                         Effective
+  --------------------------------------------------------------------
+  (local process)  -                                         4
+  my_opts1         -                                         -
+                   -                                         -
+  --------------------------------------------------------------------
+  Total                                                      4
+
+Error: Insufficient hosts online for command 'current_session' ('0' online, '1' required) (PA-003)
+Error: Cannot set the current session. (UIMS-020)
+Information: script '../scripts/dmsa.tcl'
+        stopped at line 16 due to error. (CMD-081)
+Extended error info:
+
+    while executing
+"current_session {func_max func_min}"
+ -- End Extended Error Info
+pt_shell> ssh-keygen -t rsa
+Error: unknown command 'ssh-keygen' (CMD-005)
+pt_shell> exit
+Maximum memory usage for distributed processes:
+CPU time usage for distributed processes:
+Elapsed time for distributed processes:
+Maximum memory usage for this session: 829.65 MB
+CPU usage for this session: 2 seconds 
+Elapsed time for this session: 134 seconds
+Diagnostics summary: 5 errors, 2 informationals
+
+Thank you for using pt_shell!
+

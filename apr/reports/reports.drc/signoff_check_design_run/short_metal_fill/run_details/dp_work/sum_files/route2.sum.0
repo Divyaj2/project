@@ -1,0 +1,683 @@
+Thu May 21 19:35:32 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+
+Runset file ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs
+Current Directory ................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill
+Hostname .........................  mo.ece.pdx.edu
+Platform type ....................  LINUX.64
+NDM input library path ...........  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/
+NDM input library name ...........  ORCA_TOP_lib
+NDM block name ...................  route2
+Run details ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/run_details
+Group file directory .............  /dev/shm/31773
+Check reference structures .......  yes
+
+error_options() at /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs:5
+error_options(error_limit_per_check = 2147483647)
+
+[Generated Command]
+run_options()
+
+[Generated Command]
+library(library_name = ".empty.gds", format = GDSII, cell = "BLOCK")
+
+[Generated Command]
+drc_black_box_options()
+
+[Generated Command]
+resolution_options()
+
+[Generated Command]
+incremental_options()
+
+[Generated Command]
+layout_drawn_options()
+
+[Generated Command]
+layout_grid_options()
+
+[Generated Command]
+layout_integrity_options()
+
+[Generated Command]
+hierarchy_options()
+
+[Generated Command]
+prototype_options()
+
+[Generated Command]
+hierarchy_auto_options()
+
+[Generated Command]
+text_options()
+
+[Generated Command]
+compatibility_options()
+
+   Prescan Library Time=0:00:00  User=0.00 Sys=0.01 Mem=0.005 GB
+
+NDM: Information: Loading library file '/u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/ORCA_TOP_lib' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/ndm/saed32sram_c.ndm' (FILE-007)
+WARNING: Could not open CGLNPRX8_LVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_LVT.design, using frame view instead.
+WARNING: Could not open SDFFARX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFNX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFARX2_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX2_LVT.design, using frame view instead.
+WARNING: Could not open SDFFX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFX2_LVT.design, using frame view instead.
+WARNING: Could not open TIEH_HVT.design, using frame view instead.
+WARNING: Could not open TIEL_HVT.design, using frame view instead.
+WARNING: Could not open DFFNARX1_HVT.design, using frame view instead.
+WARNING: Could not open DFFX1_HVT.design, using frame view instead.
+WARNING: Could not open DFFX2_HVT.design, using frame view instead.
+WARNING: Could not open DFFX1_RVT.design, using frame view instead.
+WARNING: Could not open DFFARX1_LVT.design, using frame view instead.
+WARNING: Could not open AO22X1_LVT.design, using frame view instead.
+WARNING: Could not open AO22X1_RVT.design, using frame view instead.
+WARNING: Could not open AO22X2_LVT.design, using frame view instead.
+WARNING: Could not open DFFX1_LVT.design, using frame view instead.
+WARNING: Could not open XOR2X1_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX8_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX8_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX2_RVT.design, using frame view instead.
+WARNING: Could not open AO21X1_HVT.design, using frame view instead.
+WARNING: Could not open OA21X1_RVT.design, using frame view instead.
+WARNING: Could not open OR2X1_RVT.design, using frame view instead.
+WARNING: Could not open AND2X1_HVT.design, using frame view instead.
+WARNING: Could not open OR2X1_HVT.design, using frame view instead.
+WARNING: Could not open OR2X1_LVT.design, using frame view instead.
+WARNING: Could not open OR2X2_RVT.design, using frame view instead.
+WARNING: Could not open AND2X1_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX4_RVT.design, using frame view instead.
+WARNING: Could not open INVX4_HVT.design, using frame view instead.
+WARNING: Could not open AO22X1_HVT.design, using frame view instead.
+WARNING: Could not open OA22X1_RVT.design, using frame view instead.
+WARNING: Could not open INVX0_HVT.design, using frame view instead.
+WARNING: Could not open INVX0_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX2_HVT.design, using frame view instead.
+WARNING: Could not open NAND2X4_HVT.design, using frame view instead.
+WARNING: Could not open INVX32_HVT.design, using frame view instead.
+WARNING: Could not open AO22X2_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX8_LVT.design, using frame view instead.
+WARNING: Could not open INVX16_LVT.design, using frame view instead.
+WARNING: Could not open NBUFFX16_RVT.design, using frame view instead.
+WARNING: Could not open INVX8_HVT.design, using frame view instead.
+WARNING: Could not open INVX2_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX4_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX16_HVT.design, using frame view instead.
+WARNING: Could not open INVX1_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX4_LVT.design, using frame view instead.
+WARNING: Could not open OA22X1_HVT.design, using frame view instead.
+WARNING: Could not open AOI22X1_HVT.design, using frame view instead.
+WARNING: Could not open INVX0_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X0_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X0_HVT.design, using frame view instead.
+WARNING: Could not open NAND2X0_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X0_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X0_LVT.design, using frame view instead.
+WARNING: Could not open INVX16_HVT.design, using frame view instead.
+WARNING: Could not open INVX4_RVT.design, using frame view instead.
+WARNING: Could not open AO21X1_LVT.design, using frame view instead.
+WARNING: Could not open AND2X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X4_LVT.design, using frame view instead.
+WARNING: Could not open AO21X1_RVT.design, using frame view instead.
+WARNING: Could not open AND2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X1_RVT.design, using frame view instead.
+WARNING: Could not open OR2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X1_LVT.design, using frame view instead.
+WARNING: Could not open OR2X4_LVT.design, using frame view instead.
+WARNING: Could not open OA22X1_LVT.design, using frame view instead.
+WARNING: Could not open OA21X1_LVT.design, using frame view instead.
+WARNING: Could not open OA21X1_HVT.design, using frame view instead.
+WARNING: Could not open NAND4X0_LVT.design, using frame view instead.
+WARNING: Could not open NAND4X0_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X2_HVT.design, using frame view instead.
+WARNING: Could not open NAND2X1_RVT.design, using frame view instead.
+WARNING: Could not open NAND4X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND4X1_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X2_LVT.design, using frame view instead.
+WARNING: Could not open INVX2_LVT.design, using frame view instead.
+WARNING: Could not open OA21X2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X0_LVT.design, using frame view instead.
+WARNING: Could not open INVX2_RVT.design, using frame view instead.
+WARNING: Could not open AO222X1_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX32_RVT.design, using frame view instead.
+WARNING: Could not open INVX32_RVT.design, using frame view instead.
+WARNING: Could not open XOR2X1_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X0_RVT.design, using frame view instead.
+WARNING: Could not open XOR2X1_HVT.design, using frame view instead.
+WARNING: Could not open XOR2X2_HVT.design, using frame view instead.
+WARNING: Could not open MUX21X1_LVT.design, using frame view instead.
+WARNING: Could not open AO222X1_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX32_HVT.design, using frame view instead.
+WARNING: Could not open INVX1_LVT.design, using frame view instead.
+WARNING: Could not open NBUFFX32_LVT.design, using frame view instead.
+WARNING: Could not open XOR2X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X2_RVT.design, using frame view instead.
+WARNING: Could not open INVX16_RVT.design, using frame view instead.
+WARNING: Could not open AND2X4_LVT.design, using frame view instead.
+WARNING: Could not open NBUFFX16_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X4_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX2_LVT.design, using frame view instead.
+WARNING: Could not open INVX8_LVT.design, using frame view instead.
+WARNING: Could not open INVX4_LVT.design, using frame view instead.
+WARNING: Could not open AND2X2_RVT.design, using frame view instead.
+WARNING: Could not open OR2X4_HVT.design, using frame view instead.
+WARNING: Could not open OR2X4_RVT.design, using frame view instead.
+WARNING: Could not open AO22X2_HVT.design, using frame view instead.
+WARNING: Could not open AND2X4_HVT.design, using frame view instead.
+WARNING: Could not open OA22X2_RVT.design, using frame view instead.
+WARNING: Could not open SRAM2RW64x32.design, using frame view instead.
+WARNING: Could not open NOR2X4_LVT.design, using frame view instead.
+WARNING: Could not open INVX1_RVT.design, using frame view instead.
+WARNING: Could not open XNOR2X1_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X1_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X1_LVT.design, using frame view instead.
+WARNING: Could not open NOR4X1_LVT.design, using frame view instead.
+WARNING: Could not open MUX21X1_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X1_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X1_HVT.design, using frame view instead.
+WARNING: Could not open MUX21X2_RVT.design, using frame view instead.
+WARNING: Could not open OA221X1_RVT.design, using frame view instead.
+WARNING: Could not open OA21X2_RVT.design, using frame view instead.
+WARNING: Could not open MUX21X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X1_LVT.design, using frame view instead.
+WARNING: Could not open OA221X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X4_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X0_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X2_LVT.design, using frame view instead.
+WARNING: Could not open OAI22X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X1_RVT.design, using frame view instead.
+WARNING: Could not open HADDX1_LVT.design, using frame view instead.
+WARNING: Could not open NOR4X0_LVT.design, using frame view instead.
+WARNING: Could not open AND4X1_LVT.design, using frame view instead.
+WARNING: Could not open OR3X1_LVT.design, using frame view instead.
+WARNING: Could not open DFFARX1_HVT.design, using frame view instead.
+WARNING: Could not open DFFARX1_RVT.design, using frame view instead.
+WARNING: Could not open FADDX1_LVT.design, using frame view instead.
+WARNING: Could not open FADDX2_LVT.design, using frame view instead.
+WARNING: Could not open FADDX1_RVT.design, using frame view instead.
+WARNING: Could not open DFFSSRX1_LVT.design, using frame view instead.
+WARNING: Could not open XOR2X2_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X2_RVT.design, using frame view instead.
+WARNING: Could not open XOR3X2_HVT.design, using frame view instead.
+WARNING: Could not open OAI21X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X2_LVT.design, using frame view instead.
+WARNING: Could not open XNOR2X2_LVT.design, using frame view instead.
+WARNING: Could not open AO21X2_LVT.design, using frame view instead.
+WARNING: Could not open MUX21X2_LVT.design, using frame view instead.
+WARNING: Could not open XNOR2X1_LVT.design, using frame view instead.
+WARNING: Could not open AOI21X2_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X1_RVT.design, using frame view instead.
+WARNING: Could not open OAI21X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X1_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX2_HVT.design, using frame view instead.
+WARNING: Could not open AOI22X1_LVT.design, using frame view instead.
+WARNING: Could not open NOR3X0_LVT.design, using frame view instead.
+WARNING: Could not open OAI21X1_RVT.design, using frame view instead.
+WARNING: Could not open AND3X2_LVT.design, using frame view instead.
+WARNING: Could not open AO222X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X1_HVT.design, using frame view instead.
+WARNING: Could not open DELLN2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X4_LVT.design, using frame view instead.
+WARNING: Could not open AOI22X2_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX16_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX2_RVT.design, using frame view instead.
+WARNING: Could not open AND3X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI21X1_LVT.design, using frame view instead.
+WARNING: Could not open XNOR3X1_LVT.design, using frame view instead.
+WARNING: Could not open DELLN2X2_RVT.design, using frame view instead.
+WARNING: Could not open XNOR3X2_LVT.design, using frame view instead.
+WARNING: Could not open FADDX1_HVT.design, using frame view instead.
+WARNING: Could not open DELLN1X2_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X1_RVT.design, using frame view instead.
+WARNING: Could not open INVX8_RVT.design, using frame view instead.
+WARNING: Could not open NAND4X0_HVT.design, using frame view instead.
+WARNING: Could not open FADDX2_HVT.design, using frame view instead.
+WARNING: Could not open NOR2X1_HVT.design, using frame view instead.
+WARNING: Could not open AND2X4_RVT.design, using frame view instead.
+WARNING: Could not open DELLN1X2_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X1_LVT.design, using frame view instead.
+WARNING: Could not open SHFILL3_RVT.design, using frame view instead.
+WARNING: Could not open AO21X2_RVT.design, using frame view instead.
+WARNING: Could not open AND3X1_RVT.design, using frame view instead.
+WARNING: Could not open AO222X2_HVT.design, using frame view instead.
+WARNING: Could not open AND4X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI222X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI222X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI222X2_LVT.design, using frame view instead.
+WARNING: Could not open OA22X2_LVT.design, using frame view instead.
+WARNING: Could not open OAI22X2_RVT.design, using frame view instead.
+WARNING: Could not open DELLN1X2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X2_RVT.design, using frame view instead.
+WARNING: Could not open SHFILL1_RVT.design, using frame view instead.
+WARNING: Could not open OR3X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X2_HVT.design, using frame view instead.
+WARNING: Could not open OR2X2_HVT.design, using frame view instead.
+WARNING: Could not open NOR3X2_LVT.design, using frame view instead.
+WARNING: Could not open XNOR2X1_HVT.design, using frame view instead.
+WARNING: Could not open NAND3X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI22X1_RVT.design, using frame view instead.
+WARNING: Could not open AOI22X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI222X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI222X1_LVT.design, using frame view instead.
+WARNING: Could not open AOI22X2_RVT.design, using frame view instead.
+WARNING: Could not open SHFILL2_RVT.design, using frame view instead.
+WARNING: Could not open AND2X2_HVT.design, using frame view instead.
+WARNING: Could not open FADDX2_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X4_RVT.design, using frame view instead.
+WARNING: Could not open OR3X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI21X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X2_RVT.design, using frame view instead.
+WARNING: Could not open OAI21X2_RVT.design, using frame view instead.
+WARNING: Could not open NAND4X1_HVT.design, using frame view instead.
+WARNING: Could not open MUX21X2_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X2_HVT.design, using frame view instead.
+WARNING: Could not open XNOR2X2_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X4_HVT.design, using frame view instead.
+WARNING: Could not open OAI221X2_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX4_RVT.design, using frame view instead.
+WARNING: Could not open OAI221X1_LVT.design, using frame view instead.
+WARNING: Could not open AO222X2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X2_HVT.design, using frame view instead.
+WARNING: Could not open DELLN2X2_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX4_HVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_RVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX2_HVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX2_RVT.design, using frame view instead.
+WARNING: Could not open SRAM2RW128x16.design, using frame view instead.
+WARNING: Could not open DCAP_HVT.design, using frame view instead.
+WARNING: Could not open LSUPX8_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX2_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX4_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX1_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX2_RVT.design, using frame view instead.
+WARNING: Could not open XOR3X1_HVT.design, using frame view instead.
+WARNING: Could not open NOR2X0_HVT.design, using frame view instead.
+WARNING: Could not open AND3X4_HVT.design, using frame view instead.
+WARNING: Could not open AO221X1_HVT.design, using frame view instead.
+WARNING: Could not open NOR4X1_RVT.design, using frame view instead.
+WARNING: Could not open OA221X2_HVT.design, using frame view instead.
+WARNING: Could not open OA222X2_HVT.design, using frame view instead.
+WARNING: Could not open AO221X1_RVT.design, using frame view instead.
+WARNING: Could not open NOR3X0_HVT.design, using frame view instead.
+WARNING: Could not open OR4X1_HVT.design, using frame view instead.
+WARNING: Could not open AND4X4_HVT.design, using frame view instead.
+WARNING: Could not open AND4X1_RVT.design, using frame view instead.
+WARNING: Could not open AND4X2_HVT.design, using frame view instead.
+WARNING: Could not open OA222X1_HVT.design, using frame view instead.
+WARNING: Could not open AO21X2_HVT.design, using frame view instead.
+WARNING: Could not open OA222X1_RVT.design, using frame view instead.
+WARNING: Could not open NAND3X4_HVT.design, using frame view instead.
+WARNING: Could not open OA21X2_HVT.design, using frame view instead.
+WARNING: Could not open SRAM2RW64x8.design, using frame view instead.
+WARNING: Could not open OR3X2_RVT.design, using frame view instead.
+WARNING: Could not open NAND3X4_RVT.design, using frame view instead.
+WARNING: Could not open OR3X1_RVT.design, using frame view instead.
+WARNING: Could not open SRAM2RW32x4.design, using frame view instead.
+WARNING: Could not open OA22X2_HVT.design, using frame view instead.
+WARNING: Could not open XNOR3X2_RVT.design, using frame view instead.
+WARNING: Could not open AND4X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI221X1_HVT.design, using frame view instead.
+WARNING: Could not open OA221X1_LVT.design, using frame view instead.
+WARNING: Could not open HADDX1_RVT.design, using frame view instead.
+WARNING: Could not open AO221X1_LVT.design, using frame view instead.
+WARNING: Could not open HADDX1_HVT.design, using frame view instead.
+WARNING: Could not open AND4X4_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX2_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX4_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX4_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX1_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX4_HVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX1_HVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX2_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX1_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX8_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX8_HVT.design, using frame view instead.
+WARNING: Could not open NOR3X4_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX32_HVT.design, using frame view instead.
+WARNING: Could not open INVX32_LVT.design, using frame view instead.
+WARNING: Could not open SHFILL128_RVT.design, using frame view instead.
+WARNING: Could not open SHFILL64_RVT.design, using frame view instead.
+WARNING: Could not open IBUFFX4_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX32_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX8_RVT.design, using frame view instead.
+WARNING: Could not open IBUFFX8_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX8_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX16_RVT.design, using frame view instead.
+WARNING: Could not open DELLN3X2_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX16_HVT.design, using frame view instead.
+
+ NDM memory usage: 46.158M
+   Scan Hierarchy Time=0:00:05  User=3.18 Sys=1.91 Mem=0.067 GB
+
+Thu May 21 19:35:39 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+   Read Library Time=0:00:00  User=0.02 Sys=0.04 Mem=0.006 GB
+
+Thu May 21 19:35:39 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Thu May 21 19:35:40 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+     Find Top Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+[HA] Hierarchy : Cell Area =        0.539 M : Cell Flat Area =        0.984 M : Child Area Factor =  0.89 x
+    Create Hierarchy Tree Phase: 0 Time=0:00:01  User=1.10 Sys=0.71 Mem=0.032 GB
+
+Prototype Placement Pass 1
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.00 Sys=0.01 Mem=0.022 GB
+
+Find duplicate placements in cells
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.06 Sys=0.02 Mem=0.028 GB
+
+     Determine Region Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+      Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+      Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+      Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+      write_verbose_text Time=0:00:00  User=0.09 Sys=0.01 Mem=0.021 GB
+
+     Create Layer Setup Time=0:00:00  User=0.09 Sys=0.01 Mem=0.021 GB
+
+0 Total errors found.
+    Create Hierarchy Tree Phase: 2 Time=0:00:00  User=0.17 Sys=0.05 Mem=0.023 GB
+
+   Create Hierarchy Tree Time=0:00:02  User=1.38 Sys=0.86 Mem=0.032 GB
+
+      Pairing Iteration 1 Time=0:00:00  User=1.30 Sys=0.42 Mem=0.064 GB
+
+      Pairing Iteration 2 Time=0:00:00  User=0.88 Sys=0.11 Mem=0.052 GB
+
+     Pairing Time=0:00:00  User=2.18 Sys=0.53 Mem=0.064 GB
+
+    Combined VCELL Time=0:00:00  User=2.41 Sys=0.62 Mem=0.064 GB
+
+Preprocess Step 12 : Post-VCell Explodes
+    Post VCell Time=0:00:00  User=0.04 Sys=0.01 Mem=0.027 GB
+
+[HA] Hierarchy : Cell Area =        0.539 M : Cell Flat Area =        1.050 M : Child Area Factor =  0.89 x
+Top Cell Area =        0.505 M | Num_regions =    16 | Avg Region Area =        0.032 M | {(       25520,            0) (    16337420,     12371520)}
+     Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+     Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+     Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+     Update inums Time=0:00:00  User=0.17 Sys=0.04 Mem=0.030 GB
+
+write_inst_name_data(): verbose_is_necessary
+     Write Instance Name Time=0:00:00  User=0.19 Sys=0.00 Mem=0.026 GB
+
+     End uniquify verbose names Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+     write_verbose_text Time=0:00:00  User=0.08 Sys=0.02 Mem=0.026 GB
+
+    Create Layer Setup Time=0:00:00  User=0.44 Sys=0.06 Mem=0.030 GB
+
+    
+Hierarchy Cleanup Time=0:00:00  User=0.13 Sys=0.04 Mem=0.026 GB
+
+   Optimize Hierarchy Tree Time=0:00:05  User=4.39 Sys=2.36 Mem=0.064 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.04 Sys=0.07 Mem=0.012 GB
+
+Hierarchy Cleanup
+   Check Time=0:00:00  User=0.03 Sys=0.08 Mem=0.011 GB
+
+Thu May 21 19:36:04 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Thu May 21 19:36:05 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+for(loop 6 out of 10, i=5) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M6_fill.polygonlayer.0018, temp.associated.0005, M6_metal.polygonlayer.0018, temp.associated.0006
+Input layer "M6_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+for(loop 6 out of 10, i=5) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M6_fill.polygonlayer.0020, M6_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+for(loop 9 out of 10, i=8) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M9_fill.polygonlayer.0020, M9_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+for(loop 1 out of 10, i=0) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M1_fill.polygonlayer.0018, temp.associated.0025, M1_metal.polygonlayer.0018, temp.associated.0026
+Input layer "M1_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+for(loop 1 out of 10, i=0) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M1_fill.polygonlayer.0020, M1_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.03 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:19:Layer creation
+M2_metal = assign({ { 13 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M2_metal.polygonlayer.0017, M2_metal.polygonlayer.0017
+  Outputs: M2_metal.polygonlayer.0018, 
+0 non-45 violations found.
+0 non-90 violations found.
+175333 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:02  User=1.65 Sys=0.67 Mem=0.020 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+for(loop 2 out of 10, i=1) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M2_fill.polygonlayer.0018, temp.associated.0031, M2_metal.polygonlayer.0018, temp.associated.0032
+Input layer "M2_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+for(loop 2 out of 10, i=1) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M2_fill.polygonlayer.0020, M2_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+interacting() at metalFillShortFinder.rs:70
+interacting(VIA1_fill, or(M1_metal, M2_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIA1_fill.polygonlayer.0018, temp.associated.0035, temp.polygonlayer.0008, temp.associated.0036
+Input layer "VIA1_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+interacting() at metalFillShortFinder.rs:70
+interacting(VIA1_fill, or(M1_metal, M2_metal))
+  Function: interacting
+  Inputs: VIA1_fill.polygonlayer.0020, M1_metal.polygonlayer.0020, M2_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+interacting() at metalFillShortFinder.rs:73
+interacting(VIA2_fill, or(M2_metal, M3_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIA2_fill.polygonlayer.0018, temp.associated.0037, temp.polygonlayer.0009, temp.associated.0038
+Input layer "VIA2_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+interacting() at metalFillShortFinder.rs:73
+interacting(VIA2_fill, or(M2_metal, M3_metal))
+  Function: interacting
+  Inputs: VIA2_fill.polygonlayer.0020, M2_metal.polygonlayer.0020, M3_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Reading error hierarchy error._hier.0001 ...
+ Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Writing NDM Error View route2_short_fill
+
+NDM: Information: Loading library file '/u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/ORCA_TOP_lib' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/ndm/saed32sram_c.ndm' (FILE-007)
+  Error Output Time=0:00:05  User=3.17 Sys=0.49 Mem=0.693 GB
+
+
+ NDM memory usage: 702.137M
+  File Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.682 GB
+

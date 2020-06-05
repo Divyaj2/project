@@ -1,0 +1,58 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : ORCA_TOP
+Version: P-2019.03-SP1-1
+Date   : Tue May 19 16:00:38 2020
+****************************************
+
+
+Library(s) Used:
+
+    saed32hvt_ss0p75vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75vn40c.db)
+    saed32lvt_ss0p75vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75vn40c.db)
+    saed32hvt_dlvl_ss0p75vn40c_i0p95v (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_dlvl_ss0p75vn40c_i0p95v.db)
+    saed32lvt_dlvl_ss0p75vn40c_i0p95v (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_dlvl_ss0p75vn40c_i0p95v.db)
+    saed32sram_ss0p95vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95vn40c.db)
+    saed32hvt_ss0p95vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95vn40c.db)
+    saed32lvt_ss0p95vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p95vn40c.db)
+    saed32lvt_ulvl_ss0p95vn40c_i0p75v (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ulvl_ss0p95vn40c_i0p75v.db)
+    saed32hvt_ulvl_ss0p95vn40c_i0p75v (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ulvl_ss0p95vn40c_i0p75v.db)
+
+
+Global Operating Voltage = 0.75 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 867.4362 uW   (65%)
+  Net Switching Power  = 474.1893 uW   (35%)
+                         ---------
+Total Dynamic Power    =   1.3416 mW  (100%)
+
+Cell Leakage Power     = 195.5808 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory         -1.4694e+03            4.8693            0.0000        -1.4645e+03
+                                                                                 ( -95.27%)
+black_box          0.0000            0.0000        7.0377e+06            7.0377  (   0.46%)
+clock_network     41.6896          289.5274        5.5902e+05          331.7761  (  21.58%)
+register       2.1186e+03           26.8651        3.2438e+07        2.1779e+03  ( 141.68%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational    176.5047          152.9271        1.5555e+08          484.9796  (  31.55%)
+--------------------------------------------------------------------------------------------------
+Total            867.4365 uW       474.1889 uW     1.9558e+08 pW     1.5372e+03 uW
+1

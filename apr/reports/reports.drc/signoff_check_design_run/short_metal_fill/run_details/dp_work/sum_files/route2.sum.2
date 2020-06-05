@@ -1,0 +1,179 @@
+Thu May 21 19:35:33 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+
+Runset file ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs
+Current Directory ................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill
+Hostname .........................  mo.ece.pdx.edu
+Platform type ....................  LINUX.64
+NDM input library path ...........  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/
+NDM input library name ...........  ORCA_TOP_lib
+NDM block name ...................  route2
+Run details ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/run_details
+Group file directory .............  /dev/shm/31773
+Check reference structures .......  yes
+
+NDM: Information: Loading library file '/u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/ORCA_TOP_lib' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/ndm/saed32sram_c.ndm' (FILE-007)
+
+ NDM memory usage: 231.496M
+   Read Library Time=0:00:05  User=4.56 Sys=1.23 Mem=0.247 GB
+
+Thu May 21 19:35:44 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Thu May 21 19:35:44 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.07 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:31:Layer creation
+M5_metal = assign({ { 19 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M5_metal.polygonlayer.0017, M5_metal.polygonlayer.0017
+  Outputs: M5_metal.polygonlayer.0018, 
+0 non-45 violations found.
+0 non-90 violations found.
+26306 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.39 Sys=0.20 Mem=0.014 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+or() at metalFillShortFinder.rs:82
+interacting(VIA5_fill, or(M5_metal, M6_metal))
+  Function: or
+  Inputs: M5_metal.polygonlayer.0018, M6_metal.polygonlayer.0018
+  Outputs: temp.polygonlayer.0005
+11318 unique polygons written.
+   Check Time=0:00:00  User=0.35 Sys=0.11 Mem=0.010 GB
+
+interacting() at metalFillShortFinder.rs:94
+interacting(VIARDL_fill, or(M9_metal, MRDL_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIARDL_fill.polygonlayer.0018, temp.associated.0023, temp.polygonlayer.0001, temp.associated.0024
+Input layer "VIARDL_fill.polygonlayer.0018" is empty.
+Input layer "temp.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+for(loop 9 out of 10, i=8) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M9_fill.polygonlayer.0018, temp.associated.0011, M9_metal.polygonlayer.0018, temp.associated.0012
+Input layer "M9_fill.polygonlayer.0018" is empty.
+Input layer "M9_metal.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.007 GB
+
+interacting() at metalFillShortFinder.rs:88
+interacting(VIA7_fill, or(M7_metal, M8_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIA7_fill.polygonlayer.0018, temp.associated.0019, temp.polygonlayer.0003, temp.associated.0020
+Input layer "VIA7_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+interacting() at metalFillShortFinder.rs:88
+interacting(VIA7_fill, or(M7_metal, M8_metal))
+  Function: interacting
+  Inputs: VIA7_fill.polygonlayer.0020, M7_metal.polygonlayer.0020, M8_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+for(loop 7 out of 10, i=6) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M7_fill.polygonlayer.0020, M7_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+interacting() at metalFillShortFinder.rs:94
+interacting(VIARDL_fill, or(M9_metal, MRDL_metal))
+  Function: interacting
+  Inputs: VIARDL_fill.polygonlayer.0020, M9_metal.polygonlayer.0020, MRDL_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.04 Sys=0.02 Mem=0.013 GB
+
+assign() at metalFillShortFinder.rs:19:Layer creation
+M2_metal = assign({ { 13 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M2_metal_assign.polygonlayer.0001
+  Outputs: M2_metal.polygonlayer.0019, M2_metal.polygonlayer.0020
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M2_metal.polygonlayer.0019" is empty.
+648438 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:02  User=1.49 Sys=0.74 Mem=0.042 GB
+
+Thu May 21 19:36:08 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+ Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.005 GB
+

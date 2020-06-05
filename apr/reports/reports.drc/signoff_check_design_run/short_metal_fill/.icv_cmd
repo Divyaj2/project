@@ -1,0 +1,4 @@
+smfscd.rc route2_short_fill route2 mo.ece.pdx.edu icv ORCA_TOP_lib NDM INST /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work /dev/shm/31773_dp_cache /dev/shm/31773 -rc -p -norscache -level1_no_explode -icc_density_blockage -icc2_error_cell -icc2_error_categories -icc2_error_browser -icc2 -i -host_init -host_disk -g -f -c -I 
+schematic=UNSPECIFIED
+ICV_HOME_DIR=/pkgs/synopsys/2020/icv/icvalidator/Q-2019.12-SP2-4
+ICV_INCLUDES=UNSET

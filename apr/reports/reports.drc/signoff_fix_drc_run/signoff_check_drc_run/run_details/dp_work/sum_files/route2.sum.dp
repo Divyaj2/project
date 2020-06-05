@@ -1,0 +1,20 @@
+enclose() at saed32nm_1p9m_drc_rules.rs:674: Command replaced with an internal function.
+enclose(pad, mrdl, distance < 1, extension = RADIAL, relational = INSIDE, intersecting = TOUCH)
+  Comment: "PAD.E.1 Minimum enclosure by MRDL 2um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+external2() at saed32nm_1p9m_drc_rules.rs:687: Command replaced with an internal function.
+external2(padmet, mtout, distance < 2, extension = RADIAL, relational = OVERLAP, look_thru = COINCIDENT)
+  Comment: "PAD.S.2 PAD metal minimum space to unrelated MRDL must be 2um"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+Completing error storage...
+  Overall error storage time: User=0.07 Sys=0.00 Mem=0.001 GB
+
+Generating route2.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.02 Sys=0.00 Mem=0.001 GB
+

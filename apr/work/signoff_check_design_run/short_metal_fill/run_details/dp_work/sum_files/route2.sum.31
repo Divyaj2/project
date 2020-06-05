@@ -1,0 +1,120 @@
+Thu May 21 19:35:32 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+
+Runset file ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs
+Current Directory ................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill
+Hostname .........................  mo.ece.pdx.edu
+Platform type ....................  LINUX.64
+NDM input library path ...........  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/
+NDM input library name ...........  ORCA_TOP_lib
+NDM block name ...................  route2
+Run details ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/run_details
+Group file directory .............  /dev/shm/31773
+Check reference structures .......  yes
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.09 Sys=0.16 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:60:Layer creation
+VIA6_fill = assign({ { 22 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA6_fill.polygonlayer.0016, VIA6_fill.polygonlayer.0015, VIA6_fill.polygonlayer.0014, VIA6_fill.polygonlayer.0013, VIA6_fill.polygonlayer.0012, VIA6_fill.polygonlayer.0011, VIA6_fill.polygonlayer.0010, VIA6_fill.polygonlayer.0009, VIA6_fill.polygonlayer.0008, VIA6_fill.polygonlayer.0007, VIA6_fill.polygonlayer.0006, VIA6_fill.polygonlayer.0005, VIA6_fill.polygonlayer.0004, VIA6_fill.polygonlayer.0003, VIA6_fill.polygonlayer.0002, VIA6_fill.polygonlayer.0001, VIA6_fill.polygonlayer.0016, VIA6_fill.polygonlayer.0015, VIA6_fill.polygonlayer.0014, VIA6_fill.polygonlayer.0013, VIA6_fill.polygonlayer.0012, VIA6_fill.polygonlayer.0011, VIA6_fill.polygonlayer.0010, VIA6_fill.polygonlayer.0009, VIA6_fill.polygonlayer.0008, VIA6_fill.polygonlayer.0007, VIA6_fill.polygonlayer.0006, VIA6_fill.polygonlayer.0005, VIA6_fill.polygonlayer.0004, VIA6_fill.polygonlayer.0003, VIA6_fill.polygonlayer.0002, VIA6_fill.polygonlayer.0001
+  Outputs: VIA6_fill.polygonlayer.0017, VIA6_fill_assign.polygonlayer.0001, VIA6_fill_blockage.polygonlayer.0001
+No output written.
+Layer "VIA6_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "VIA6_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "VIA6_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.03 Mem=0.014 GB
+
+assign() at metalFillShortFinder.rs:58:Layer creation
+VIA4_fill = assign({ { 18 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA4_fill.polygonlayer.0016, VIA4_fill.polygonlayer.0015, VIA4_fill.polygonlayer.0014, VIA4_fill.polygonlayer.0013, VIA4_fill.polygonlayer.0012, VIA4_fill.polygonlayer.0011, VIA4_fill.polygonlayer.0010, VIA4_fill.polygonlayer.0009, VIA4_fill.polygonlayer.0008, VIA4_fill.polygonlayer.0007, VIA4_fill.polygonlayer.0006, VIA4_fill.polygonlayer.0005, VIA4_fill.polygonlayer.0004, VIA4_fill.polygonlayer.0003, VIA4_fill.polygonlayer.0002, VIA4_fill.polygonlayer.0001, VIA4_fill.polygonlayer.0016, VIA4_fill.polygonlayer.0015, VIA4_fill.polygonlayer.0014, VIA4_fill.polygonlayer.0013, VIA4_fill.polygonlayer.0012, VIA4_fill.polygonlayer.0011, VIA4_fill.polygonlayer.0010, VIA4_fill.polygonlayer.0009, VIA4_fill.polygonlayer.0008, VIA4_fill.polygonlayer.0007, VIA4_fill.polygonlayer.0006, VIA4_fill.polygonlayer.0005, VIA4_fill.polygonlayer.0004, VIA4_fill.polygonlayer.0003, VIA4_fill.polygonlayer.0002, VIA4_fill.polygonlayer.0001
+  Outputs: VIA4_fill.polygonlayer.0017, VIA4_fill_assign.polygonlayer.0001, VIA4_fill_blockage.polygonlayer.0001
+No output written.
+Layer "VIA4_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "VIA4_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "VIA4_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.04 Mem=0.014 GB
+
+assign() at metalFillShortFinder.rs:20:Layer creation
+M2_fill = assign({ { 13 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M2_fill.polygonlayer.0016, M2_fill.polygonlayer.0015, M2_fill.polygonlayer.0014, M2_fill.polygonlayer.0013, M2_fill.polygonlayer.0012, M2_fill.polygonlayer.0011, M2_fill.polygonlayer.0010, M2_fill.polygonlayer.0009, M2_fill.polygonlayer.0008, M2_fill.polygonlayer.0007, M2_fill.polygonlayer.0006, M2_fill.polygonlayer.0005, M2_fill.polygonlayer.0004, M2_fill.polygonlayer.0003, M2_fill.polygonlayer.0002, M2_fill.polygonlayer.0001, M2_fill.polygonlayer.0016, M2_fill.polygonlayer.0015, M2_fill.polygonlayer.0014, M2_fill.polygonlayer.0013, M2_fill.polygonlayer.0012, M2_fill.polygonlayer.0011, M2_fill.polygonlayer.0010, M2_fill.polygonlayer.0009, M2_fill.polygonlayer.0008, M2_fill.polygonlayer.0007, M2_fill.polygonlayer.0006, M2_fill.polygonlayer.0005, M2_fill.polygonlayer.0004, M2_fill.polygonlayer.0003, M2_fill.polygonlayer.0002, M2_fill.polygonlayer.0001
+  Outputs: M2_fill.polygonlayer.0017, M2_fill_assign.polygonlayer.0001, M2_fill_blockage.polygonlayer.0001
+No output written.
+Layer "M2_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "M2_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "M2_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.014 GB
+
+Thu May 21 19:35:59 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.07 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:27:Layer creation
+M4_metal = assign({ { 17 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M4_metal_assign.polygonlayer.0001
+  Outputs: M4_metal.polygonlayer.0019, M4_metal.polygonlayer.0020
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M4_metal.polygonlayer.0019" is empty.
+180241 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:01  User=0.65 Sys=0.39 Mem=0.021 GB
+
+Thu May 21 19:36:06 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+

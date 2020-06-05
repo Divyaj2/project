@@ -1,0 +1,354 @@
+
+                                  PYDB_Server 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 2007 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Listening for connections on port 8941
+PYDB_Server Started on host mo.ece.pdx.edu, Thu 05/21/2020 19:35:30
+Client mo.ece.pdx.edu(7786):29 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.24.0
+Client mo.ece.pdx.edu(8278):35 connected (2 total clients)
+Client mo.ece.pdx.edu(8271):36 connected (3 total clients)
+Client mo.ece.pdx.edu(8259):37 connected (4 total clients)
+Client mo.ece.pdx.edu(8268):38 connected (5 total clients)
+Client mo.ece.pdx.edu(8284):39 connected (6 total clients)
+Client mo.ece.pdx.edu(8260):40 connected (7 total clients)
+Client mo.ece.pdx.edu(8299):41 connected (8 total clients)
+Client mo.ece.pdx.edu(8297):42 connected (9 total clients)
+Client mo.ece.pdx.edu(8267):43 connected (10 total clients)
+Client mo.ece.pdx.edu(8282):44 connected (11 total clients)
+Client mo.ece.pdx.edu(8280):45 connected (12 total clients)
+Client mo.ece.pdx.edu(8264):46 connected (13 total clients)
+Client mo.ece.pdx.edu(8281):47 connected (14 total clients)
+Client mo.ece.pdx.edu(8263):48 connected (15 total clients)
+Client mo.ece.pdx.edu(8272):49 connected (16 total clients)
+Client mo.ece.pdx.edu(8279):50 connected (17 total clients)
+Client mo.ece.pdx.edu(8296):51 connected (18 total clients)
+Client mo.ece.pdx.edu(8262):52 connected (19 total clients)
+Client mo.ece.pdx.edu(8292):53 connected (20 total clients)
+Client mo.ece.pdx.edu(8261):54 connected (21 total clients)
+Client mo.ece.pdx.edu(8265):55 connected (22 total clients)
+Client mo.ece.pdx.edu(8275):56 connected (23 total clients)
+Client mo.ece.pdx.edu(8270):57 connected (24 total clients)
+Client mo.ece.pdx.edu(8276):58 connected (25 total clients)
+Client mo.ece.pdx.edu(8301):59 connected (26 total clients)
+Client mo.ece.pdx.edu(8291):60 connected (27 total clients)
+Client mo.ece.pdx.edu(8266):61 connected (28 total clients)
+Client mo.ece.pdx.edu(8285):62 connected (29 total clients)
+Client mo.ece.pdx.edu(8258):63 connected (30 total clients)
+Client mo.ece.pdx.edu(8294):64 connected (31 total clients)
+Client mo.ece.pdx.edu(8295):65 connected (32 total clients)
+Client mo.ece.pdx.edu(8290):66 connected (33 total clients)
+Client mo.ece.pdx.edu(8267):43 connection closed
+Client mo.ece.pdx.edu(8267):43 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(8279):50 connection closed
+Client mo.ece.pdx.edu(8265):55 connection closed
+Client mo.ece.pdx.edu(8270):57 connection closed
+Client mo.ece.pdx.edu(8301):59 connection closed
+Client mo.ece.pdx.edu(8279):50 disconnected (31 clients remain)
+Client mo.ece.pdx.edu(8265):55 disconnected (30 clients remain)
+Client mo.ece.pdx.edu(8270):57 disconnected (29 clients remain)
+Client mo.ece.pdx.edu(8301):59 disconnected (28 clients remain)
+Client mo.ece.pdx.edu(8272):49 connection closed
+Client mo.ece.pdx.edu(8272):49 disconnected (27 clients remain)
+Client mo.ece.pdx.edu(8261):54 connection closed
+Client mo.ece.pdx.edu(8261):54 disconnected (26 clients remain)
+Client mo.ece.pdx.edu(8262):52 connection closed
+Client mo.ece.pdx.edu(8262):52 disconnected (25 clients remain)
+Client mo.ece.pdx.edu(8296):51 connection closed
+Client mo.ece.pdx.edu(8296):51 disconnected (24 clients remain)
+Client mo.ece.pdx.edu(8276):58 connection closed
+Client mo.ece.pdx.edu(8276):58 disconnected (23 clients remain)
+Client mo.ece.pdx.edu(8292):53 connection closed
+Client mo.ece.pdx.edu(8292):53 disconnected (22 clients remain)
+Client mo.ece.pdx.edu(8275):56 connection closed
+Client mo.ece.pdx.edu(8275):56 disconnected (21 clients remain)
+Client mo.ece.pdx.edu(8267):43 connected (22 total clients)
+Client mo.ece.pdx.edu(8267):43 connection closed
+Client mo.ece.pdx.edu(8267):43 disconnected (21 clients remain)
+Client mo.ece.pdx.edu(8270):43 connected (22 total clients)
+Client mo.ece.pdx.edu(8276):49 connected (23 total clients)
+Client mo.ece.pdx.edu(8301):50 connected (24 total clients)
+Client mo.ece.pdx.edu(8296):51 connected (25 total clients)
+Client mo.ece.pdx.edu(8261):52 connected (26 total clients)
+Client mo.ece.pdx.edu(8265):53 connected (27 total clients)
+Client mo.ece.pdx.edu(8279):54 connected (28 total clients)
+Client mo.ece.pdx.edu(8292):55 connected (29 total clients)
+Client mo.ece.pdx.edu(8262):56 connected (30 total clients)
+Client mo.ece.pdx.edu(8275):57 connected (31 total clients)
+Client mo.ece.pdx.edu(8270):43 connection closed
+Client mo.ece.pdx.edu(8270):43 disconnected (30 clients remain)
+Client mo.ece.pdx.edu(8301):50 connection closed
+Client mo.ece.pdx.edu(8301):50 disconnected (29 clients remain)
+Client mo.ece.pdx.edu(8276):49 connection closed
+Client mo.ece.pdx.edu(8276):49 disconnected (28 clients remain)
+Client mo.ece.pdx.edu(8267):43 connected (29 total clients)
+Client mo.ece.pdx.edu(8267):43 connection closed
+Client mo.ece.pdx.edu(8267):43 disconnected (28 clients remain)
+Client mo.ece.pdx.edu(8265):53 connection closed
+Client mo.ece.pdx.edu(8265):53 disconnected (27 clients remain)
+Client mo.ece.pdx.edu(8296):51 connection closed
+Client mo.ece.pdx.edu(8296):51 disconnected (26 clients remain)
+Client mo.ece.pdx.edu(8262):56 connection closed
+Client mo.ece.pdx.edu(8261):52 connection closed
+Client mo.ece.pdx.edu(8261):52 disconnected (25 clients remain)
+Client mo.ece.pdx.edu(8262):56 disconnected (24 clients remain)
+Client mo.ece.pdx.edu(8275):57 connection closed
+Client mo.ece.pdx.edu(8275):57 disconnected (23 clients remain)
+Client mo.ece.pdx.edu(8279):54 connection closed
+Client mo.ece.pdx.edu(8279):54 disconnected (22 clients remain)
+Client mo.ece.pdx.edu(8292):55 connection closed
+Client mo.ece.pdx.edu(8292):55 disconnected (21 clients remain)
+Client mo.ece.pdx.edu(8272):43 connected (22 total clients)
+Client mo.ece.pdx.edu(8272):43 connection closed
+Client mo.ece.pdx.edu(8272):43 disconnected (21 clients remain)
+Client mo.ece.pdx.edu(8301):43 connected (22 total clients)
+Client mo.ece.pdx.edu(8270):49 connected (23 total clients)
+Client mo.ece.pdx.edu(8276):50 connected (24 total clients)
+Client mo.ece.pdx.edu(8265):51 connected (25 total clients)
+Client mo.ece.pdx.edu(8296):52 connected (26 total clients)
+Client mo.ece.pdx.edu(8275):53 connected (27 total clients)
+Client mo.ece.pdx.edu(8267):54 connected (28 total clients)
+Client mo.ece.pdx.edu(8262):55 connected (29 total clients)
+Client mo.ece.pdx.edu(8279):56 connected (30 total clients)
+Client mo.ece.pdx.edu(8292):57 connected (31 total clients)
+Client mo.ece.pdx.edu(8261):58 connected (32 total clients)
+Client mo.ece.pdx.edu(8272):59 connected (33 total clients)
+Client mo.ece.pdx.edu(8280):45 connection closed
+Client mo.ece.pdx.edu(8280):45 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(8281):47 connection closed
+Client mo.ece.pdx.edu(8281):47 disconnected (31 clients remain)
+Client mo.ece.pdx.edu(8263):48 connection closed
+Client mo.ece.pdx.edu(8263):48 disconnected (30 clients remain)
+Client mo.ece.pdx.edu(8281):45 connected (31 total clients)
+Client mo.ece.pdx.edu(8280):47 connected (32 total clients)
+Client mo.ece.pdx.edu(8263):48 connected (33 total clients)
+Client mo.ece.pdx.edu(8281):45 connection closed
+Client mo.ece.pdx.edu(8281):45 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(8280):47 connection closed
+Client mo.ece.pdx.edu(8280):47 disconnected (31 clients remain)
+Client mo.ece.pdx.edu(8263):48 connection closed
+Client mo.ece.pdx.edu(8263):48 disconnected (30 clients remain)
+Client mo.ece.pdx.edu(8263):45 connected (31 total clients)
+Client mo.ece.pdx.edu(8280):47 connected (32 total clients)
+Client mo.ece.pdx.edu(8281):48 connected (33 total clients)
+Client mo.ece.pdx.edu(8264):46 connection closed
+Client mo.ece.pdx.edu(8264):46 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(8264):46 connected (33 total clients)
+Client mo.ece.pdx.edu(8264):46 connection closed
+Client mo.ece.pdx.edu(8264):46 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(8264):46 connected (33 total clients)
+Client mo.ece.pdx.edu(8282):44 connection closed
+Client mo.ece.pdx.edu(8282):44 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(8260):40 connection closed
+Client mo.ece.pdx.edu(8260):40 disconnected (31 clients remain)
+Client mo.ece.pdx.edu(8284):39 connection closed
+Client mo.ece.pdx.edu(8284):39 disconnected (30 clients remain)
+Client mo.ece.pdx.edu(8271):36 connection closed
+Client mo.ece.pdx.edu(8271):36 disconnected (29 clients remain)
+Client mo.ece.pdx.edu(8299):41 connection closed
+Client mo.ece.pdx.edu(8299):41 disconnected (28 clients remain)
+Client mo.ece.pdx.edu(8285):62 connection closed
+Client mo.ece.pdx.edu(8285):62 disconnected (27 clients remain)
+Client mo.ece.pdx.edu(8278):35 connection closed
+Client mo.ece.pdx.edu(8268):38 connection closed
+Client mo.ece.pdx.edu(8278):35 disconnected (26 clients remain)
+Client mo.ece.pdx.edu(8268):38 disconnected (25 clients remain)
+Client mo.ece.pdx.edu(8297):42 connection closed
+Client mo.ece.pdx.edu(8297):42 disconnected (24 clients remain)
+Client mo.ece.pdx.edu(8282):35 connected (25 total clients)
+Client mo.ece.pdx.edu(8284):36 connected (26 total clients)
+Client mo.ece.pdx.edu(8259):37 connection closed
+Client mo.ece.pdx.edu(8259):37 disconnected (25 clients remain)
+Client mo.ece.pdx.edu(8271):37 connected (26 total clients)
+Client mo.ece.pdx.edu(8266):61 connection closed
+Client mo.ece.pdx.edu(8266):61 disconnected (25 clients remain)
+Client mo.ece.pdx.edu(8278):38 connected (26 total clients)
+Client mo.ece.pdx.edu(8268):39 connected (27 total clients)
+Client mo.ece.pdx.edu(8285):40 connected (28 total clients)
+Client mo.ece.pdx.edu(8260):41 connected (29 total clients)
+Client mo.ece.pdx.edu(8299):42 connected (30 total clients)
+Client mo.ece.pdx.edu(8297):44 connected (31 total clients)
+Client mo.ece.pdx.edu(8259):61 connected (32 total clients)
+Client mo.ece.pdx.edu(8266):62 connected (33 total clients)
+Client mo.ece.pdx.edu(8290):66 connection closed
+Client mo.ece.pdx.edu(8290):66 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(8294):64 connection closed
+Client mo.ece.pdx.edu(8294):64 disconnected (31 clients remain)
+Client mo.ece.pdx.edu(8290):64 connected (32 total clients)
+Client mo.ece.pdx.edu(8294):66 connected (33 total clients)
+Client mo.ece.pdx.edu(8267):54 connection closed
+Client mo.ece.pdx.edu(8267):54 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(8267):54 connected (33 total clients)
+Client mo.ece.pdx.edu(8259):61 connection closed
+Client mo.ece.pdx.edu(8259):61 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(8276):50 connection closed
+Client mo.ece.pdx.edu(8262):55 connection closed
+Client mo.ece.pdx.edu(8297):44 connection closed
+Client mo.ece.pdx.edu(8276):50 disconnected (31 clients remain)
+Client mo.ece.pdx.edu(8262):55 disconnected (30 clients remain)
+Client mo.ece.pdx.edu(8297):44 disconnected (29 clients remain)
+Client mo.ece.pdx.edu(8268):39 connection closed
+Client mo.ece.pdx.edu(8268):39 disconnected (28 clients remain)
+Client mo.ece.pdx.edu(8285):40 connection closed
+Client mo.ece.pdx.edu(8285):40 disconnected (27 clients remain)
+Client mo.ece.pdx.edu(8294):66 connection closed
+Client mo.ece.pdx.edu(8265):51 connection closed
+Client mo.ece.pdx.edu(8265):51 disconnected (26 clients remain)
+Client mo.ece.pdx.edu(8294):66 disconnected (25 clients remain)
+Client mo.ece.pdx.edu(8284):36 connection closed
+Client mo.ece.pdx.edu(8284):36 disconnected (24 clients remain)
+Client mo.ece.pdx.edu(8290):64 connection closed
+Client mo.ece.pdx.edu(8290):64 disconnected (23 clients remain)
+Client mo.ece.pdx.edu(8282):35 connection closed
+Client mo.ece.pdx.edu(8282):35 disconnected (22 clients remain)
+Client mo.ece.pdx.edu(8267):54 connection closed
+Client mo.ece.pdx.edu(8267):54 disconnected (21 clients remain)
+Client mo.ece.pdx.edu(8261):58 connection closed
+Client mo.ece.pdx.edu(8261):58 disconnected (20 clients remain)
+Client mo.ece.pdx.edu(8271):37 connection closed
+Client mo.ece.pdx.edu(8271):37 disconnected (19 clients remain)
+Client mo.ece.pdx.edu(8260):41 connection closed
+Client mo.ece.pdx.edu(8260):41 disconnected (18 clients remain)
+Client mo.ece.pdx.edu(8275):53 connection closed
+Client mo.ece.pdx.edu(8275):53 disconnected (17 clients remain)
+Client mo.ece.pdx.edu(8270):49 connection closed
+Client mo.ece.pdx.edu(8270):49 disconnected (16 clients remain)
+Client mo.ece.pdx.edu(8301):43 connection closed
+Client mo.ece.pdx.edu(8301):43 disconnected (15 clients remain)
+Client mo.ece.pdx.edu(8291):60 connection closed
+Client mo.ece.pdx.edu(8291):60 disconnected (14 clients remain)
+Client mo.ece.pdx.edu(8296):52 connection closed
+Client mo.ece.pdx.edu(8296):52 disconnected (13 clients remain)
+Client mo.ece.pdx.edu(8292):57 connection closed
+Client mo.ece.pdx.edu(8292):57 disconnected (12 clients remain)
+Client mo.ece.pdx.edu(8272):59 connection closed
+Client mo.ece.pdx.edu(8272):59 disconnected (11 clients remain)
+Client mo.ece.pdx.edu(8278):38 connection closed
+Client mo.ece.pdx.edu(8278):38 disconnected (10 clients remain)
+Client mo.ece.pdx.edu(8264):46 connection closed
+Client mo.ece.pdx.edu(8264):46 disconnected (9 clients remain)
+Client mo.ece.pdx.edu(8259):35 connected (10 total clients)
+Client mo.ece.pdx.edu(8297):36 connected (11 total clients)
+Client mo.ece.pdx.edu(8284):37 connected (12 total clients)
+Client mo.ece.pdx.edu(8276):38 connected (13 total clients)
+Client mo.ece.pdx.edu(8265):39 connected (14 total clients)
+Client mo.ece.pdx.edu(8285):40 connected (15 total clients)
+Client mo.ece.pdx.edu(8294):41 connected (16 total clients)
+Client mo.ece.pdx.edu(8268):43 connected (17 total clients)
+Client mo.ece.pdx.edu(8267):44 connected (18 total clients)
+Client mo.ece.pdx.edu(8282):46 connected (19 total clients)
+Client mo.ece.pdx.edu(8296):49 connected (20 total clients)
+Client mo.ece.pdx.edu(8262):50 connected (21 total clients)
+Client mo.ece.pdx.edu(8263):45 connection closed
+Client mo.ece.pdx.edu(8263):45 disconnected (20 clients remain)
+Client mo.ece.pdx.edu(8264):45 connected (21 total clients)
+Client mo.ece.pdx.edu(8261):51 connected (22 total clients)
+Client mo.ece.pdx.edu(8272):52 connected (23 total clients)
+Client mo.ece.pdx.edu(8292):53 connected (24 total clients)
+Client mo.ece.pdx.edu(8258):63 connection closed
+Client mo.ece.pdx.edu(8258):63 disconnected (23 clients remain)
+Client mo.ece.pdx.edu(8270):54 connected (24 total clients)
+Client mo.ece.pdx.edu(8291):55 connected (25 total clients)
+Client mo.ece.pdx.edu(8265):39 connection closed
+Client mo.ece.pdx.edu(8265):39 disconnected (24 clients remain)
+Client mo.ece.pdx.edu(8279):56 connection closed
+Client mo.ece.pdx.edu(8279):56 disconnected (23 clients remain)
+Client mo.ece.pdx.edu(8295):65 connection closed
+Client mo.ece.pdx.edu(8295):65 disconnected (22 clients remain)
+Client mo.ece.pdx.edu(8290):39 connected (23 total clients)
+Client mo.ece.pdx.edu(8301):56 connected (24 total clients)
+Client mo.ece.pdx.edu(8263):57 connected (25 total clients)
+Client mo.ece.pdx.edu(8275):58 connected (26 total clients)
+Client mo.ece.pdx.edu(8278):59 connected (27 total clients)
+Client mo.ece.pdx.edu(8258):60 connected (28 total clients)
+Client mo.ece.pdx.edu(8271):61 connected (29 total clients)
+Client mo.ece.pdx.edu(8260):63 connected (30 total clients)
+Client mo.ece.pdx.edu(8265):64 connected (31 total clients)
+Client mo.ece.pdx.edu(8279):65 connected (32 total clients)
+Client mo.ece.pdx.edu(8295):66 connected (33 total clients)
+Client mo.ece.pdx.edu(8281):48 connection closed
+Client mo.ece.pdx.edu(8281):48 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(8281):48 connected (33 total clients)
+Client mo.ece.pdx.edu(8267):44 connection closed
+Client mo.ece.pdx.edu(8267):44 disconnected (32 clients remain)
+Client mo.ece.pdx.edu(8281):48 connection closed
+Client mo.ece.pdx.edu(8281):48 disconnected (31 clients remain)
+Client mo.ece.pdx.edu(8301):56 connection closed
+Client mo.ece.pdx.edu(8263):57 connection closed
+Client mo.ece.pdx.edu(8266):62 connection closed
+Client mo.ece.pdx.edu(8297):36 connection closed
+Client mo.ece.pdx.edu(8294):41 connection closed
+Client mo.ece.pdx.edu(8268):43 connection closed
+Client mo.ece.pdx.edu(8275):58 connection closed
+Client mo.ece.pdx.edu(8258):60 connection closed
+Client mo.ece.pdx.edu(8271):61 connection closed
+Client mo.ece.pdx.edu(8259):35 connection closed
+Client mo.ece.pdx.edu(8266):62 disconnected (30 clients remain)
+Client mo.ece.pdx.edu(8259):35 disconnected (29 clients remain)
+Client mo.ece.pdx.edu(8297):36 disconnected (28 clients remain)
+Client mo.ece.pdx.edu(8294):41 disconnected (27 clients remain)
+Client mo.ece.pdx.edu(8268):43 disconnected (26 clients remain)
+Client mo.ece.pdx.edu(8301):56 disconnected (25 clients remain)
+Client mo.ece.pdx.edu(8263):57 disconnected (24 clients remain)
+Client mo.ece.pdx.edu(8275):58 disconnected (23 clients remain)
+Client mo.ece.pdx.edu(8258):60 disconnected (22 clients remain)
+Client mo.ece.pdx.edu(8271):61 disconnected (21 clients remain)
+Client mo.ece.pdx.edu(8280):47 connection closed
+Client mo.ece.pdx.edu(8299):42 connection closed
+Client mo.ece.pdx.edu(8284):37 connection closed
+Client mo.ece.pdx.edu(8276):38 connection closed
+Client mo.ece.pdx.edu(8285):40 connection closed
+Client mo.ece.pdx.edu(8282):46 connection closed
+Client mo.ece.pdx.edu(8296):49 connection closed
+Client mo.ece.pdx.edu(8262):50 connection closed
+Client mo.ece.pdx.edu(8264):45 connection closed
+Client mo.ece.pdx.edu(8261):51 connection closed
+Client mo.ece.pdx.edu(8272):52 connection closed
+Client mo.ece.pdx.edu(8292):53 connection closed
+Client mo.ece.pdx.edu(8270):54 connection closed
+Client mo.ece.pdx.edu(8291):55 connection closed
+Client mo.ece.pdx.edu(8290):39 connection closed
+Client mo.ece.pdx.edu(8278):59 connection closed
+Client mo.ece.pdx.edu(8260):63 connection closed
+Client mo.ece.pdx.edu(8265):64 connection closed
+Client mo.ece.pdx.edu(8279):65 connection closed
+Client mo.ece.pdx.edu(8295):66 connection closed
+Client mo.ece.pdx.edu(8280):47 disconnected (20 clients remain)
+Client mo.ece.pdx.edu(8299):42 disconnected (19 clients remain)
+Client mo.ece.pdx.edu(8284):37 disconnected (18 clients remain)
+Client mo.ece.pdx.edu(8276):38 disconnected (17 clients remain)
+Client mo.ece.pdx.edu(8285):40 disconnected (16 clients remain)
+Client mo.ece.pdx.edu(8282):46 disconnected (15 clients remain)
+Client mo.ece.pdx.edu(8296):49 disconnected (14 clients remain)
+Client mo.ece.pdx.edu(8262):50 disconnected (13 clients remain)
+Client mo.ece.pdx.edu(8264):45 disconnected (12 clients remain)
+Client mo.ece.pdx.edu(8261):51 disconnected (11 clients remain)
+Client mo.ece.pdx.edu(8272):52 disconnected (10 clients remain)
+Client mo.ece.pdx.edu(8292):53 disconnected (9 clients remain)
+Client mo.ece.pdx.edu(8270):54 disconnected (8 clients remain)
+Client mo.ece.pdx.edu(8291):55 disconnected (7 clients remain)
+Client mo.ece.pdx.edu(8290):39 disconnected (6 clients remain)
+Client mo.ece.pdx.edu(8278):59 disconnected (5 clients remain)
+Client mo.ece.pdx.edu(8260):63 disconnected (4 clients remain)
+Client mo.ece.pdx.edu(8265):64 disconnected (3 clients remain)
+Client mo.ece.pdx.edu(8279):65 disconnected (2 clients remain)
+Client mo.ece.pdx.edu(8295):66 disconnected (1 client remains)
+Generating /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/route2.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+Shutdown requested by client mo.ece.pdx.edu(7786):29
+0 clients remain connected
+Client mo.ece.pdx.edu(7786):29 connection closed
+Overall server Time=0:00:48  User=0.07 Sys=0.12 Mem=0.001 GB SQLite=0.005 GB Unpooled=0.000 GB

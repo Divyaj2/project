@@ -1,0 +1,261 @@
+Wed Jun  3 22:01:25 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+
+Runset file ......................  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs
+Current Directory ................  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/signoff_check_drc_run
+Hostname .........................  mo.ece.pdx.edu
+Platform type ....................  LINUX.64
+NDM input library path ...........  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/
+NDM input library name ...........  ORCA_TOP_lib
+NDM block name ...................  ORCA_TOP
+Run details ......................  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/signoff_check_drc_run/run_details
+Group file directory .............  /dev/shm/8564
+Check reference structures .......  yes
+
+   Read Library Time=0:00:00  User=0.00 Sys=0.07 Mem=0.006 GB
+
+Wed Jun  3 22:01:26 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+Wed Jun  3 22:01:27 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+assign() at saed32nm_1p9m_drc_rules.rs:47
+PADi = assign({ { 7, 0 } })
+  Function: assign
+  Outputs: PADi.polygonlayer.0017
+No output written.
+Layer "PADi.polygonlayer.0017" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.07 Sys=0.06 Mem=0.007 GB
+
+assign() at saed32nm_1p9m_drc_rules.rs:40
+NWELLi = assign({ { 1, 0 } })
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Wed Jun  3 22:01:46 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1320
+m2_w_15_3 = m2_w_15 not m2_w_3
+  Function: not
+  Inputs: m2_w_15.polygonlayer.0001, empty_layer.associated.0001, m2_w_3.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: m2_w_15_3.polygonlayer.0001
+Input layer "m2_w_15.polygonlayer.0001" is empty.
+Input layer "m2_w_3.polygonlayer.0001" is empty.
+No output written.
+Layer "m2_w_15_3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:2573
+thin3 = thin not thin2
+  Function: not
+  Inputs: thin.polygonlayer.0009, empty_layer.associated.0001, thin2.polygonlayer.0009, empty_layer.associated.0001
+  Outputs: thin3.polygonlayer.0003, thin3.associated.0003
+Input layer "thin.polygonlayer.0009" is empty.
+Input layer "thin2.polygonlayer.0009" is empty.
+No output written.
+Layer "thin3.polygonlayer.0003" is empty.
+No output written.
+Layer "thin3.associated.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:2080
+mLAYER_46 = external1(m6_w_15_3, distance < 0.6, extension = NONE, projection_length >= 1.5, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Function: external1
+  Inputs: m6_w_15_3.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: mLAYER_46.polygonlayer.0001
+Input layer "m6_w_15_3.polygonlayer.0001" is empty.
+0 spacing violations found.
+Layer "mLAYER_46.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+external2() at saed32nm_1p9m_drc_rules.rs:2450
+mLAYER_63 = external2(m8_w_3, m8, distance < 0.7, extension = NONE, projection_length >= 3, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Function: external2
+  Inputs: m8_w_3.polygonlayer.0001, empty_layer.associated.0001, M8i.polygonlayer.0018, empty_layer.associated.0001
+  Outputs: mLAYER_63.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+    Large Cell Time=0:00:00  User=0.02 Sys=0.00 Mem=0.010 GB
+0 spacing violations found.
+Layer "mLAYER_63.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.02 Sys=0.02 Mem=0.010 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1957
+m5_not_fat_2 = not(m5, m5_fat_wire2)
+  Function: not
+  Inputs: M5i.polygonlayer.0018, empty_layer.associated.0001, m5_fat_wire2.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: m5_not_fat_2.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.06 Sys=0.02 Mem=0.011 GB
+28671 unique polygons written.
+   Check Time=0:00:00  User=0.06 Sys=0.03 Mem=0.011 GB
+
+donut_holes() at saed32nm_1p9m_drc_rules.rs:1935
+m5_hole = donut_holes(m5, INNER, area > 0.2)
+  Function: donut_holes
+  Inputs: M5i.polygonlayer.0018, empty_layer.associated.0001
+  Outputs: m5_hole.polygonlayer.0001
+33289 unique polygons written.
+   Check Time=0:00:00  User=0.09 Sys=0.03 Mem=0.009 GB
+
+interacting_edge() at saed32nm_1p9m_drc_rules.rs:1782
+thin_edge = interacting_edge(m4_not_fat, m4_fat_wire_1)
+  Function: interacting_edge
+  Inputs: m4_not_fat.polygonlayer.0001, empty_layer.associated.0001, m4_fat_wire_1.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: thin_edge.edgelayer.0024
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.53 Sys=0.09 Mem=0.022 GB
+394 unique edge sets written.
+   Check Time=0:00:00  User=0.53 Sys=0.10 Mem=0.022 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:3227:Boolean merge optimization replaced or commands with or_list
+not(via3, (via3sq or via3lg or via3bar))
+  Function: or
+  Inputs: via3sq.polygonlayer.0004, via3lg.polygonlayer.0001, via3bar.polygonlayer.0001
+  Outputs: temp.polygonlayer.0094
+Input layer "via3bar.polygonlayer.0001" is empty.
+181230 unique polygons written.
+   Check Time=0:00:00  User=0.14 Sys=0.04 Mem=0.012 GB
+
+edge_size() at saed32nm_1p9m_drc_rules.rs:2166
+sizeedge = edge_size(thin_edge, outside = 0.001)
+  Function: edge_size
+  Inputs: thin_edge.edgelayer.0015, empty_layer.associated.0001
+  Outputs: sizeedge.polygonlayer.0020
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+612 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+
+and() at saed32nm_1p9m_drc_rules.rs:2350
+andedge = and(sizeedge1, sizeedge)
+  Function: and
+  Inputs: sizeedge1.polygonlayer.0007, empty_layer.associated.0001, sizeedge.polygonlayer.0014, empty_layer.associated.0001
+  Outputs: andedge.polygonlayer.0003
+Input layer "sizeedge1.polygonlayer.0007" is empty.
+Input layer "sizeedge.polygonlayer.0014" is empty.
+No output written.
+Layer "andedge.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:2554
+thinlength = interacting(thin, adjacent_edge(thin3, length < 0.15, angle1 > 30, angle2 > 30, adjacent_length1 < 0.7, adjacent_length2 < 0.7))
+  Function: interacting
+  Inputs: thin.polygonlayer.0010, empty_layer.associated.0001, thinlength.edgelayer.0011, empty_layer.associated.0001
+  Outputs: thinlength.polygonlayer.0002
+Input layer "thin.polygonlayer.0010" is empty.
+Input layer "thinlength.edgelayer.0011" is empty.
+No output written.
+Layer "thinlength.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+length_edge() at saed32nm_1p9m_drc_rules.rs:2514
+minlength = interacting(thin, length_edge(forlength, distance < 0.1, corners = CONNECT))
+  Function: length_edge
+  Inputs: forlength.edgelayer.0001, empty_layer.associated.0001
+  Outputs: minlength.edgelayer.0004
+Input layer "forlength.edgelayer.0001" is empty.
+No output written.
+Layer "minlength.edgelayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:2514
+minlength = interacting(thin, length_edge(forlength, distance < 0.1, corners = CONNECT))
+  Function: interacting
+  Inputs: thin.polygonlayer.0006, empty_layer.associated.0001, minlength.edgelayer.0004, empty_layer.associated.0001
+  Outputs: minlength.polygonlayer.0002, minlength.associated.0002
+Input layer "thin.polygonlayer.0006" is empty.
+Input layer "minlength.edgelayer.0004" is empty.
+No output written.
+Layer "minlength.associated.0002" is empty.
+No output written.
+Layer "minlength.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.007 GB
+
+internal1() at saed32nm_1p9m_drc_rules.rs:2353
+minwidth = internal1(minlength, distance < 0.07, extension = SQUARE)
+  Function: internal1
+  Inputs: minlength.polygonlayer.0004, minlength.associated.0004
+  Outputs: minwidth.polygonlayer.0002
+Input layer "minlength.polygonlayer.0004" is empty.
+0 width violations found.
+Layer "minwidth.polygonlayer.0002" is empty.
+    Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+internal1() at saed32nm_1p9m_drc_rules.rs:1131
+m1_s_10_1 = internal1(m1, distance <= 0.1, extension = RADIAL, relational = POINT_TOUCH)
+  Function: internal1
+  Inputs: M1i.polygonlayer.0018, empty_layer.associated.0001
+  Outputs: m1_s_10_1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:35  User=36.96 Sys=2.47 Mem=0.130 GB
+808562 width violations found.
+   Check Time=0:00:35  User=36.96 Sys=2.47 Mem=0.130 GB
+
+ Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+

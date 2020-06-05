@@ -1,0 +1,17 @@
+# Cadence Genus(TM) Synthesis Solution, Version 17.14-s037_1, built Apr 18 2018
+
+# Date: Sat Apr 04 21:10:23 2020
+# Host: mo.ece.pdx.edu (x86_64 w/Linux 3.10.0-1062.18.1.el7.x86_64) (1core*32cpus*32physical cpus*Intel Xeon E312xx (Sandy Bridge) 4096KB)
+# OS:   CentOS Linux release 7.7.1908 (Core)
+
+# Cadence Genus(TM) Synthesis Solution, Version 17.14-s037_1, built Apr 18 2018
+
+# Date: Sat Apr 04 21:10:50 2020
+# Host: mo.ece.pdx.edu (x86_64 w/Linux 3.10.0-1062.18.1.el7.x86_64) (1core*32cpus*32physical cpus*Intel Xeon E312xx (Sandy Bridge) 4096KB)
+# OS:   CentOS Linux release 7.7.1908 (Core)
+
+fs
+source ../scripts/genus.tcl
+report_area
+report_power
+exit

@@ -1,0 +1,82 @@
+****************************************
+Report : power
+        -significant_digits 2
+Design : ORCA_TOP
+Version: P-2019.03-SP1-VAL
+Date   : Sat May 30 14:54:46 2020
+****************************************
+Information: Doing activity propagation for mode 'func' and corner 'slow' with effort level 'medium'. (POW-024)
+Information: Timer-derived activity data is cached on scenario func_slow (POW-052)
+Infomation: Fast mode activity propagation power.rtl_activity_annotation setup is ignored. Always use accurate mode.
+Scenario func_slow, iteration 1: expecting at least 5
+Scenario func_slow, iteration 2: expecting at least 6
+Scenario func_slow, iteration 3: expecting at least 6
+Scenario func_slow, iteration 4: expecting at least 6
+Scenario func_slow, iteration 5: expecting at least 6
+Scenario func_slow, iteration 6: expecting at least 6
+Mode: func
+Corner: slow
+Scenario: func_slow
+Voltage: 0.75
+Temperature: -40.00
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1fF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1pW
+Leakage Power Unit   : 1pW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VSS (ground) probability 1.00 (default)
+VDD (power) probability 1.00 (default)
+VDDH (power) probability 1.00 (default)
+Warning: Power table extrapolation (extrapolation mode) for port CLK on cell I_SDRAM_TOP/I_SDRAM_IF/clk_gate_mega_shift_1_reg_0_/latch for parameter Tinp. Lowest table value = inf, highest table value = inf, value = 0.200000 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port GCLK on cell I_SDRAM_TOP/I_SDRAM_IF/clk_gate_mega_shift_1_reg_0_/latch for parameter Cout. Lowest table value = 0.000100, highest table value = 0.016000, value = 1000.000000 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CLK on cell I_SDRAM_TOP/I_SDRAM_IF/clk_gate_mega_shift_0_reg_0_/latch for parameter Tinp. Lowest table value = inf, highest table value = inf, value = 0.200000 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port GCLK on cell I_SDRAM_TOP/I_SDRAM_IF/clk_gate_mega_shift_0_reg_0_/latch for parameter Cout. Lowest table value = 0.000100, highest table value = 0.016000, value = 1000.000000 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port D on cell I_SDRAM_TOP/I_SDRAM_IF/R_29 for parameter Tinp. Lowest table value = inf, highest table value = inf, value = 0.057716 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CLK on cell I_SDRAM_TOP/I_SDRAM_IF/R_29 for parameter Tinp. Lowest table value = inf, highest table value = inf, value = 0.200000 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port QN on cell I_SDRAM_TOP/I_SDRAM_IF/R_29 for parameter Cout. Lowest table value = 0.000100, highest table value = 0.008000, value = 0.000000 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port D on cell I_SDRAM_TOP/I_SDRAM_IF/R_25 for parameter Tinp. Lowest table value = inf, highest table value = inf, value = 0.130997 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CLK on cell I_SDRAM_TOP/I_SDRAM_IF/R_25 for parameter Tinp. Lowest table value = inf, highest table value = inf, value = 0.200000 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port QN on cell I_SDRAM_TOP/I_SDRAM_IF/R_25 for parameter Cout. Lowest table value = 0.000100, highest table value = 0.008000, value = 0.000000 (POW-046)
+Note - message 'POW-046' limit (10) exceeded. Remainder will be suppressed.
+Warning: Fall toggles on pin I_SDRAM_TOP/I_SDRAM_IF/sync_control_bus_reg_2_/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin I_SDRAM_TOP/I_SDRAM_IF/sync_control_bus_reg_14_/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin I_SDRAM_TOP/I_SDRAM_IF/control_bus_reg_14_/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin I_SDRAM_TOP/I_SDRAM_IF/control_bus_reg_2_/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin I_RISC_CORE/I_STACK_TOP_I2_STACK_MEM_PopDataOut_reg_3_/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin I_RISC_CORE/I_STACK_TOP_I2_STACK_MEM_PopDataOut_reg_2_/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin I_RISC_CORE/I_STACK_TOP_I2_STACK_MEM_PopDataOut_reg_1_/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin I_RISC_CORE/I_STACK_TOP_I2_STACK_MEM_PopDataOut_reg_0_/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin I_RISC_CORE/I_STACK_TOP_I1_STACK_MEM_PopDataOut_reg_2_/QN are impossible given input states; converted to rise toggles. (POW-069)
+Warning: Fall toggles on pin I_RISC_CORE/I_STACK_TOP_I2_STACK_MEM_Stack_Mem_reg_7__3_/QN are impossible given input states; converted to rise toggles. (POW-069)
+Note - message 'POW-069' limit (10) exceeded. Remainder will be suppressed.
+
+  Cell Internal Power    = 4.35e+09 pW (  1.6%)
+  Net Switching Power    = 2.74e+11 pW ( 98.4%)
+Total Dynamic Power      = 2.79e+11 pW (100.0%)
+
+Cell Leakage Power       = 6.53e+08 pW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                    0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)      
+memory                    1.63e+09               2.08e+08               0.00e+00               1.84e+09    (  0.7%)      
+black_box                 0.00e+00               0.00e+00               7.97e+07               7.97e+07    (  0.0%)      
+clock_network             2.31e+09               2.73e+11               6.53e+05               2.76e+11    ( 98.7%)      
+register                  1.07e+08               4.58e+07               3.81e+08               5.34e+08    (  0.2%)      
+sequential                0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)      
+combinational             3.04e+08               5.93e+08               1.92e+08               1.09e+09    (  0.4%)      
+-----------------------------------------------------------------------------------------------------------------------------
+Total                     4.35e+09 pW            2.74e+11 pW            6.53e+08 pW            2.79e+11 pW
+1

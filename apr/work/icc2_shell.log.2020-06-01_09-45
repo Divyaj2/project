@@ -1,0 +1,133 @@
+setting auto_restore_mw_cel_lib_setup true
+icc2_shell> source ../scripts/drc.tcl
+Information: Loading library file '/u/divyaj2/ECE510-2020-SPRING/project/apr/work/ORCA_TOP_lib/' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_c.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_ulvl_v.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_dlvl_v.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_ulvl_v.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_dlvl_v.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_c.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_ulvl_v.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_dlvl_v.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/ndm/saed32sram_c.ndm' (FILE-007)
+Lib ORCA_TOP_lib /u/divyaj2/ECE510-2020-SPRING/project/apr/work/ORCA_TOP_lib tech current
+  ->  0 ORCA_TOP.design May-30-15:48
+  ->  0 floorplan.design May-30-14:25
+  ->  0 place2.design May-30-14:55
+  ->  0 postcts2.design May-30-15:24
+  ->  0 route2.design May-30-15:48
+Information: User units loaded from library 'saed32hvt_c' (LNK-040)
+Opening block 'ORCA_TOP_lib:route2.design' in edit mode
+Information: loading PG routing via master rules, patterns, strategies and strategy via rules.
+Using libraries: ORCA_TOP_lib saed32hvt_c saed32hvt_ulvl_v saed32hvt_dlvl_v saed32rvt_c saed32rvt_ulvl_v saed32rvt_dlvl_v saed32lvt_c saed32lvt_ulvl_v saed32lvt_dlvl_v saed32sram_c
+Visiting block ORCA_TOP_lib:route2.design
+Information: The lower_domain_boundary design attribute will be made obsolete in future. Consider using -applies_to_boundary option of set_isolation/set_level_shifter/set_repeater strategy commands. (UPF-355)
+Design 'ORCA_TOP' was successfully linked.
+Begin building search trees for block ORCA_TOP_lib:route2.design
+Done building search trees for block ORCA_TOP_lib:route2.design (time 1s)
+
+Start to run ICV ...
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+........................................Updated tech file has been written at: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/tech.tf
+
+ICV is done!
+ICV messages:
+WARNING: Could not open CGLNPRX8_LVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_RVT.design, using frame view instead.
+For more details see /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/signoff_check_drc.log
+Overall engine Time=0:07:03 Highest command Mem=6.738 GB
+
+-------------------------------------------------------------------------------
+Rule: CO.B.1: CO must be fully covered by M1, and by PO widened by 0.006                     40 errors
+Rule:              CO.E.12: CONT is not enclosed by M1               40 errors
+Rule: CO.E.9: Minimum enclosure of any contact by M1 must be 0.002um               1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:          M1.S.1: Minimum M1 spacing must be 0.05              305 errors
+Rule: M1.S.9: Minimum spacing when either metal line is wider than 0.15 must be 0.055              1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:            M1.W.1: Minimum M1 width must be 0.05             1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule: M1.W.2.1: Minimum width of thin wire with length less than 0.1, connected to fat wire with width larges than 0.15, must be 0.06               278 errors
+Rule: M2.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                228 errors
+Rule: M3.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                 90 errors
+Rule: M4.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                 21 errors
+Rule: M5.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  8 errors
+Rule: M6.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  4 errors
+Rule: M6.S.3.2: Minimum spacing depending on metal width of one of lines and their parallel run length must be 0.11                   1 error
+Rule: VIA6.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)                  1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+-------------------------------------------------------------------------------
+
+signoff_check_drc is finished.
+
+Create error data signoff_check_drc.err ...
+icc2_shell> start_gui
+icc2_shell> gui_show_error_data
+icc2_shell> copy_lib -no_designs -from ORCA_TOP_lib -to drc; save_block -as drc:drccheck.design
+Information: Copying from library "ORCA_TOP_lib" to "drc".
+Information: Saving 'ORCA_TOP_lib:route2.design' to 'drc:drccheck.design'. (DES-028)
+icc2_shell> list_blocks
+Lib ORCA_TOP_lib /u/divyaj2/ECE510-2020-SPRING/project/apr/work/ORCA_TOP_lib tech current
+  ->  0 ORCA_TOP.design May-30-15:48
+  ->  0 floorplan.design May-30-14:25
+  ->  0 place2.design May-30-14:55
+  ->  0 postcts2.design May-30-15:24
+  +>  0 route2.design Jun-01-10:00 current
+Lib drc /u/divyaj2/ECE510-2020-SPRING/project/apr/work/drc tech
+  -   0 drccheck.design Jun-01-10:08
+6
+icc2_shell> open_lib drc
+Information: Incrementing open_count of library 'drc' to 2. (LIB-017)
+{drc}
+icc2_shell> open_lib drc
+Information: Incrementing open_count of library 'drc' to 3. (LIB-017)
+{drc}
+icc2_shell> start_gui
+icc2_shell> open_block /u/divyaj2/ECE510-2020-SPRING/project/apr/work/drc:drccheck.design
+Opening block 'drc:drccheck.design' in edit mode
+Information: loading PG routing via master rules, patterns, strategies and strategy via rules.
+Begin building search trees for block drc:drccheck.design
+Done building search trees for block drc:drccheck.design (time 0s)
+icc2_shell> link_block
+Using libraries: drc saed32hvt_c saed32hvt_ulvl_v saed32hvt_dlvl_v saed32rvt_c saed32rvt_ulvl_v saed32rvt_dlvl_v saed32lvt_c saed32lvt_ulvl_v saed32lvt_dlvl_v saed32sram_c
+Visiting block drc:drccheck.design
+Information: The lower_domain_boundary design attribute will be made obsolete in future. Consider using -applies_to_boundary option of set_isolation/set_level_shifter/set_repeater strategy commands. (UPF-355)
+Information: Clearing abstracted power annotation ... 
+Design 'ORCA_TOP' was successfully linked.
+1
+icc2_shell> exit
+Maximum memory usage for this session: 867.90 MB
+CPU usage for this session:     93 seconds (  0.03 hours)
+Elapsed time for this session:   2170 seconds (  0.60 hours)
+Thank you for using IC Compiler II.
+

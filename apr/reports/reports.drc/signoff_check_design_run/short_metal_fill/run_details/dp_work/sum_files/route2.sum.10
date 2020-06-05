@@ -1,0 +1,113 @@
+Thu May 21 19:35:35 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+
+Runset file ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs
+Current Directory ................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill
+Hostname .........................  mo.ece.pdx.edu
+Platform type ....................  LINUX.64
+NDM input library path ...........  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/
+NDM input library name ...........  ORCA_TOP_lib
+NDM block name ...................  route2
+Run details ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/run_details
+Group file directory .............  /dev/shm/31773
+Check reference structures .......  yes
+
+   Read Library Time=0:00:00  User=0.01 Sys=0.11 Mem=0.006 GB
+
+Thu May 21 19:35:39 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Thu May 21 19:35:40 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.03 Sys=0.11 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:62:Layer creation
+VIA8_fill = assign({ { 26 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA8_fill.polygonlayer.0017, VIA8_fill.polygonlayer.0017
+  Outputs: VIA8_fill.polygonlayer.0018, 
+No output written.
+Layer "VIA8_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:31:Layer creation
+M5_metal = assign({ { 19 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M5_metal_assign.polygonlayer.0001
+  Outputs: M5_metal.polygonlayer.0019, M5_metal.polygonlayer.0020
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M5_metal.polygonlayer.0019" is empty.
+75298 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.29 Sys=0.22 Mem=0.017 GB
+
+assign() at metalFillShortFinder.rs:36:Layer creation
+M6_fill = assign({ { 21 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M6_fill_blockage.polygonlayer.0001
+  Outputs: M6_fill.polygonlayer.0021, M6_fill.polygonlayer.0022
+No output written.
+Layer "M6_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "M6_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.10 Sys=0.09 Mem=0.012 GB
+
+Thu May 21 19:36:05 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+

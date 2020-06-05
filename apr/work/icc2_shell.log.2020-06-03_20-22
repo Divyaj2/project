@@ -1,0 +1,33 @@
+setting auto_restore_mw_cel_lib_setup true
+icc2_shell> open_block ORCA_TOP_lib:ORCA_TOP.design
+Information: User units loaded from library 'saed32hvt_c' (LNK-040)
+Opening block 'ORCA_TOP_lib:ORCA_TOP.design' in edit mode
+Information: loading PG routing via master rules, patterns, strategies and strategy via rules.
+{ORCA_TOP_lib:ORCA_TOP.design}
+icc2_shell> 
+icc2_shell> # tell where is the runset or drc rules are:
+icc2_shell> set_app_options  -name signoff.check_drc.runset -value  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs
+signoff.check_drc.runset /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs
+icc2_shell> signoff_chec_drc
+Error: unknown command 'signoff_chec_drc' (CMD-005)
+icc2_shell> signoff_check_drc
+Using libraries: ORCA_TOP_lib saed32hvt_c saed32hvt_ulvl_v saed32hvt_dlvl_v saed32rvt_c saed32rvt_ulvl_v saed32rvt_dlvl_v saed32lvt_c saed32lvt_ulvl_v saed32lvt_dlvl_v saed32sram_c
+Visiting block ORCA_TOP_lib:ORCA_TOP.design
+Information: The lower_domain_boundary design attribute will be made obsolete in future. Consider using -applies_to_boundary option of set_isolation/set_level_shifter/set_repeater strategy commands. (UPF-355)
+Design 'ORCA_TOP' was successfully linked.
+Begin building search trees for block ORCA_TOP_lib:ORCA_TOP.design
+Done building search trees for block ORCA_TOP_lib:ORCA_TOP.design (time 1s)
+
+Start to run ICV ...
+.Return code from ICV is 33.
+Error: ICV run failed (). (IND-003)
+See /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/signoff_check_drc.log for details.
+Error: signoff_check_drc Command Failed. (IND-030)
+Error: 1
+        Use error_info for more info. (CMD-013)
+icc2_shell> exit
+Maximum memory usage for this session: 561.06 MB
+CPU usage for this session:     16 seconds (  0.00 hours)
+Elapsed time for this session:   2197 seconds (  0.61 hours)
+Thank you for using IC Compiler II.
+

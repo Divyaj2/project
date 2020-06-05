@@ -1,0 +1,199 @@
+Thu May 21 19:35:37 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+
+Runset file ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs
+Current Directory ................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill
+Hostname .........................  mo.ece.pdx.edu
+Platform type ....................  LINUX.64
+NDM input library path ...........  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/
+NDM input library name ...........  ORCA_TOP_lib
+NDM block name ...................  route2
+Run details ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/run_details
+Group file directory .............  /dev/shm/31773
+Check reference structures .......  yes
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:01  User=0.09 Sys=0.24 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:15:Layer creation
+M1_metal = assign({ { 11 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M1_metal.polygonlayer.0016, M1_metal.polygonlayer.0015, M1_metal.polygonlayer.0014, M1_metal.polygonlayer.0013, M1_metal.polygonlayer.0012, M1_metal.polygonlayer.0011, M1_metal.polygonlayer.0010, M1_metal.polygonlayer.0009, M1_metal.polygonlayer.0008, M1_metal.polygonlayer.0007, M1_metal.polygonlayer.0006, M1_metal.polygonlayer.0005, M1_metal.polygonlayer.0004, M1_metal.polygonlayer.0003, M1_metal.polygonlayer.0002, M1_metal.polygonlayer.0001, M1_metal.polygonlayer.0016, M1_metal.polygonlayer.0015, M1_metal.polygonlayer.0014, M1_metal.polygonlayer.0013, M1_metal.polygonlayer.0012, M1_metal.polygonlayer.0011, M1_metal.polygonlayer.0010, M1_metal.polygonlayer.0009, M1_metal.polygonlayer.0008, M1_metal.polygonlayer.0007, M1_metal.polygonlayer.0006, M1_metal.polygonlayer.0005, M1_metal.polygonlayer.0004, M1_metal.polygonlayer.0003, M1_metal.polygonlayer.0002, M1_metal.polygonlayer.0001
+  Outputs: M1_metal.polygonlayer.0017, M1_metal_assign.polygonlayer.0001, M1_metal_blockage.polygonlayer.0001
+0 non-45 violations found.
+0 non-90 violations found.
+180512 unique polygons written.
+215002 unique polygons written.
+716 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:02  User=1.59 Sys=0.61 Mem=0.076 GB
+
+Thu May 21 19:36:01 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.09 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:48:Layer creation
+M9_fill = assign({ { 27 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M9_fill.polygonlayer.0017, M9_fill.polygonlayer.0017
+  Outputs: M9_fill.polygonlayer.0018, 
+No output written.
+Layer "M9_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:62:Layer creation
+VIA8_fill = assign({ { 26 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA8_fill_blockage.polygonlayer.0001
+  Outputs: VIA8_fill.polygonlayer.0021, VIA8_fill.polygonlayer.0022
+No output written.
+Layer "VIA8_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "VIA8_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.05 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:52:Layer creation
+MRDL_fill = assign({ { 41 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: MRDL_fill_assign.polygonlayer.0001
+  Outputs: MRDL_fill.polygonlayer.0019, MRDL_fill.polygonlayer.0020
+No output written.
+Layer "MRDL_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "MRDL_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.08 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:40:Layer creation
+M7_fill = assign({ { 23 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M7_fill_blockage.polygonlayer.0001
+  Outputs: M7_fill.polygonlayer.0021, M7_fill.polygonlayer.0022
+No output written.
+Layer "M7_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "M7_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.06 Mem=0.012 GB
+
+Thu May 21 19:36:05 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0001
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0002
+ Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0003
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0004
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0005
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0006
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0007
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0008
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0009
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0010
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0011
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0012
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0013
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0014
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0015
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _dHrchy.0016
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY _hrchy2_part0hrchy.0001
+ Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.005 GB
+
+[Generated Command]
+REMOVE_HIERARCHY hrchy1.0001
+ Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+[Generated Command]
+REMOVE
+ Check Time=0:00:00  User=0.06 Sys=0.26 Mem=0.005 GB
+
+ Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.005 GB
+

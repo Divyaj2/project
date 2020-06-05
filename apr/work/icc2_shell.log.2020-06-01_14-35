@@ -1,0 +1,27 @@
+setting auto_restore_mw_cel_lib_setup true
+icc2_shell> source ../scripts/ndr.tcl
+Information: User units loaded from library 'saed32hvt_c' (LNK-040)
+Opening block 'ORCA_TOP_lib:ORCA_TOP.design' in edit mode
+Information: loading PG routing via master rules, patterns, strategies and strategy via rules.
+Using libraries: ORCA_TOP_lib saed32hvt_c saed32hvt_ulvl_v saed32hvt_dlvl_v saed32rvt_c saed32rvt_ulvl_v saed32rvt_dlvl_v saed32lvt_c saed32lvt_ulvl_v saed32lvt_dlvl_v saed32sram_c
+Visiting block ORCA_TOP_lib:ORCA_TOP.design
+Information: The lower_domain_boundary design attribute will be made obsolete in future. Consider using -applies_to_boundary option of set_isolation/set_level_shifter/set_repeater strategy commands. (UPF-355)
+Design 'ORCA_TOP' was successfully linked.
+Error: extra positional option 'new' (CMD-012)
+Information: script '/u/divyaj2/ECE510-2020-SPRING/project/apr/scripts/ndr.tcl'
+                stopped at line 9 due to error. (CMD-081)
+Extended error info:
+
+    while executing
+"set_routing_rule I_BLENDER_0/n725-rule new"
+ -- End Extended Error Info
+icc2_shell> create_routing_rule {new} -default_reference_rule  -multiplier_width 2
+Error: Non-default rule 'new' already exists in the design. (DES-110)
+icc2_shell> set_routing_rule I_BLENDER_0/n617 -rule new
+1
+icc2_shell> exit
+Maximum memory usage for this session: 504.76 MB
+CPU usage for this session:     13 seconds (  0.00 hours)
+Elapsed time for this session:     95 seconds (  0.03 hours)
+Thank you for using IC Compiler II.
+

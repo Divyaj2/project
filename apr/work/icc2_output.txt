@@ -1,0 +1,9 @@
+
+Loading user preference file /u/divyaj2/.synopsys_icc2_gui/preferences.tcl
+Warning: No message with tag 'UID-401' exists (MSG-2134)
+Warning: No message with tag 'PSYN-256' exists (MSG-2134)
+Warning: No message with tag 'MWDC-023' exists (MSG-2134)
+Warning: No message with tag 'PSYN-040' exists (MSG-2134)
+Warning: No message with tag 'PSYN-087' exists (MSG-2134)
+Warning: No message with tag 'PSYN-088' exists (MSG-2134)
+

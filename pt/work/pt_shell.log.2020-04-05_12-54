@@ -1,0 +1,225 @@
+Error: Library Compiler executable path is not set. (PT-063)
+setting auto_restore_mw_cel_lib_setup true
+pt_shell> fs
+setting top_design to: 
+fifo1_sram
+pt_shell> source ../scripts/dmsa.tcl
+Launching 2 Distributed Worker(s)
+   1] Launched : ssh mo /pkgs/synopsys/pts_vO-2018.06/pts/O-2018.06/bin/pt_shell \
+                  -slv_type dmsa_slv -max_cores 4
+
+   2] Launched : ssh mo /pkgs/synopsys/pts_vO-2018.06/pts/O-2018.06/bin/pt_shell \
+                  -slv_type dmsa_slv -max_cores 4
+
+  ---------------------------------------------------------------------------
+  Distributed farm creation timeout   : 21600 seconds
+  Waiting for   2 (of   2) workers    : Sun Apr  5 12:54:41 2020
+  Waiting for   0 (of   2) workers    : Sun Apr  5 12:54:51 2020
+  ---------------------------------------------------------------------------
+
+****************************************
+Report : host_usage
+Version: O-2018.06
+Date   : Sun Apr  5 12:54:51 2020
+****************************************
+
+  Options Name          Host Name    Num Processes           Protocol
+  --------------------------------------------------------------------
+  my_opts1              mo           2                       auto
+
+  Options Name     #    Host Name    Job ID    Process ID    Status
+  --------------------------------------------------------------------
+  my_opts1         1    mo           -         27427         ONLINE
+                   2    mo           -         27426         ONLINE
+
+  Usage limits (cores)
+
+  Options Name     #                                         Effective
+  --------------------------------------------------------------------
+  (local process)  -                                         4
+  my_opts1         1                                         4
+                   2                                         4
+  --------------------------------------------------------------------
+  Total                                                      8
+
+pt_shell> report_area
+Error: unknown command 'report_area' (CMD-005)
+pt_shell> report_qor
+****************************************
+Report : qor
+Design : multi-scenario design
+Version: O-2018.06
+Date   : Sun Apr  5 12:55:08 2020
+****************************************
+
+
+Start of Master/Slave Task Processing
+-------------------------------------
+Started    : Command execution in scenario 'func_max'
+Started    : Command execution in scenario 'func_min'
+Succeeded  : Command execution in scenario 'func_min'
+Succeeded  : Command execution in scenario 'func_max'
+-----------------------------------
+End of Master/Slave Task Processing
+
+  Timing Path Group 'INPUTS' (max_delay/setup)
+  ---------------------------------------------
+  Levels of Logic:                           21 (func_max)
+  Critical Path Length:                    7.56 (func_max)
+  Critical Path Slack:                     0.44 (func_max)
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'OUTPUTS' (max_delay/setup)
+  ---------------------------------------------
+  Levels of Logic:                            7 (func_max)
+  Critical Path Length:                    7.59 (func_max)
+  Critical Path Slack:                    -4.68 (func_max)
+  Total Negative Slack:                  -30.01
+  No. of Violating Paths:                     9
+  ---------------------------------------------
+
+  Timing Path Group 'rclk' (max_delay/setup)
+  ---------------------------------------------
+  Levels of Logic:                           14 (func_max)
+  Critical Path Length:                    5.20 (func_max)
+  Critical Path Slack:                    -0.03 (func_max)
+  Total Negative Slack:                   -0.03
+  No. of Violating Paths:                     1
+  ---------------------------------------------
+
+  Timing Path Group 'wclk' (max_delay/setup)
+  ---------------------------------------------
+  Levels of Logic:                           20 (func_max)
+  Critical Path Length:                    7.95 (func_max)
+  Critical Path Slack:                     0.06 (func_max)
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'INPUTS' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            1 (func_min)
+  Critical Path Length:                    2.01 (func_min)
+  Critical Path Slack:                    -0.02 (func_min)
+  Total Negative Slack:                   -0.30
+  No. of Violating Paths:                    19
+  ---------------------------------------------
+
+  Timing Path Group 'OUTPUTS' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            3 (func_min)
+  Critical Path Length:                    2.69 (func_min)
+  Critical Path Slack:                     2.70 (func_min)
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'rclk' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            2 (func_min)
+  Critical Path Length:                    2.00 (func_min)
+  Critical Path Slack:                    -0.01 (func_min)
+  Total Negative Slack:                   -0.01
+  No. of Violating Paths:                     3
+  ---------------------------------------------
+
+  Timing Path Group 'wclk' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            2 (func_min)
+  Critical Path Length:                    2.00 (func_min)
+  Critical Path Slack:                     0.08 (func_min)
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Cell Count
+  ---------------------------------------------
+  Hierarchical Cell Count:                    5 (func_min, func_max)
+  Hierarchical Port Count:                  186 (func_min, func_max)
+  Leaf Cell Count:                          382 (func_min, func_max)
+  ---------------------------------------------
+
+
+  Area
+  ---------------------------------------------
+  Net Interconnect Area:                 652.36 (func_min, func_max)
+  Total Cell Area:                    371138.12 (func_min, func_max)
+  Design Area:                        371790.50 (func_min, func_max)
+  ---------------------------------------------
+
+
+  Design Rule Violations
+  ---------------------------------------------
+  Total No. of Pins in Design:             1874
+  max_capacitance Count:                     27
+  min_capacitance Count:                     64
+  max_transition Count:                      15
+  max_capacitance Cost:                  223.60
+  min_capacitance Cost:                    5.70
+  max_transition Cost:                     5.53
+  Total DRC Cost:                        234.82
+  ---------------------------------------------
+1
+pt_shell> report_area -groups
+Error: unknown command 'report_area' (CMD-005)
+pt_shell> report_area -detail
+Error: unknown command 'report_area' (CMD-005)
+pt_shell> report_power
+Error: Power analysis is disabled. (PWR-001)
+pt_shell> report_power -groups
+Error: value not specified for option '-groups' (CMD-008)
+pt_shell> set_app_var power_enable_analysis true
+Information: Checked out license 'PrimePower' (PT-019)
+true
+pt_shell> report_power -groups {register combinational sequential}
+
+Start of Master/Slave Task Processing
+-------------------------------------
+Started    : Command execution in scenario 'func_min'
+Started    : Command execution in scenario 'func_max'
+Succeeded  : Command execution in scenario 'func_min'
+Succeeded  : Command execution in scenario 'func_max'
+-----------------------------------
+End of Master/Slave Task Processing
+
+1
+
+
+1
+pt_shell> report_power
+
+Start of Master/Slave Task Processing
+-------------------------------------
+Started    : Command execution in scenario 'func_min'
+Started    : Command execution in scenario 'func_max'
+Succeeded  : Command execution in scenario 'func_min'
+Succeeded  : Command execution in scenario 'func_max'
+-----------------------------------
+End of Master/Slave Task Processing
+
+1
+
+
+1
+pt_shell> exit
+Maximum memory usage for distributed processes:
+my_opts1        1   mo                 599.16 MB
+                2   mo                 599.13 MB
+CPU time usage for distributed processes:
+my_opts1        1   mo                 7 seconds
+                2   mo                 6 seconds
+Elapsed time for distributed processes:
+my_opts1        1   mo                 113 seconds
+                2   mo                 113 seconds
+Maximum memory usage for this session: 859.20 MB
+CPU usage for this session: 2 seconds 
+Elapsed time for this session: 133 seconds
+Shutting down worker processes ...
+ Shutdown Process 1
+ Shutdown Process 2
+Diagnostics summary: 6 errors, 5 informationals
+
+Thank you for using pt_shell!
+

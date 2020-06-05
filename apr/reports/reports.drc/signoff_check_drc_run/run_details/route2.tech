@@ -1,0 +1,365 @@
+Hierarchy Optimizations
+-----------------------
+ALLOW_EXPLODE_WITH_TEXT=TRUE
+EXPLODE_AREFS=FALSE
+EXPLODE_1XN_AREFS=FALSE
+EXPLODE_SINGLE_PLACEMENT=FALSE
+PROTECT_FILL_ARRAYS=FALSE
+EXPLODE_CELL_SIZE_PERCENT=70
+EXPLODE_CELL_SIZE_PERCENT_OF_TOP=70
+EXPLODE_BIG_SPARSE_CELL=TRUE
+EXPLODE_SPARSE_MEGA_CELL=TRUE
+POST_VCELL_EXPLODE_CELL_SIZE <= 0
+FLATTEN_TRAP_LIMIT = 4
+INCLUDE_TECHNOLOGY_DEFAULTS=TRUE
+BAR_AUTO_EXPLODE=TRUE
+POST_VCELL_EXPLODE_LOW_MEMORY=TRUE
+VIA_AUTO_EXPLODE=TRUE
+SUBLEAF_AUTO_EXPLODE=6
+CELL_SIZE_AUTO_EXPLODE <= 0
+EXPLODE_DATA_CELL_LIMIT = 4
+POST_VCELL_EXPLODE_DATA_CELL_LIMIT = 12
+POST_VCELL_EXPLODE_HIER_SPARSE_CELL=TRUE
+EXPLODE_HOLDING_CELL_LIMIT = 1
+EXPLODE_PLACEMENT_LIMIT = 1
+VCELL PASS
+	STYLE = PAIRS
+	ITERATE_MAX = 15
+	ARRAY_ID=TRUE
+	EXPLODE_INTO_VCELL=SMART
+	MIN_COUNT = 20
+	TOP_PERCENT_OF_VALUE = 40
+
+Cell Optimizations
+------------------
+EXPLODE_ALL CELLS
+  "NOR4X0_LVT"
+  "SDFFNX2_HVT"
+  "SDFFNX1_RVT"
+  "SDFFNX1_LVT"
+FLATTEN CELLS
+  "OR4X1_HVT" (Flattened by runset)
+  "INVX16_HVT" (Flattened by runset)
+  "NBUFFX2_HVT"
+  "XOR2X1_RVT"
+  "NBUFFX32_RVT"
+  "INVX8_LVT" (Flattened by runset)
+  "OAI22X1_HVT"
+  "AOI21X1_RVT"
+  "SDFFX1_LVT"
+  "SRAM2RW64x32" (Flattened by runset)
+  "CGLPPRX2_HVT" (Flattened by runset)
+  "XOR3X2_RVT" (Flattened by runset)
+  "NAND2X0_RVT"
+  "AOI22X2_RVT" (Flattened by runset)
+  "AND2X4_RVT" (Flattened by runset)
+  "AO221X1_HVT" (Flattened by runset)
+  "INVX1_HVT"
+  "SDFFNARX2_HVT"
+  "LSUPX2_LVT" (Flattened by runset)
+  "NAND3X1_RVT" (Flattened by runset)
+  "AO222X2_HVT" (Flattened by runset)
+  "SDFFASX1_LVT" (Flattened by runset)
+  "NOR2X4_LVT"
+  "AND4X1_RVT" (Flattened by runset)
+  "OA221X1_LVT" (Flattened by runset)
+  "AO21X1_LVT"
+  "NOR3X0_LVT" (Flattened by runset)
+  "NAND2X2_LVT" (Flattened by runset)
+  "AND2X1_LVT"
+  "AO22X2_LVT" (Flattened by runset)
+  "XNOR2X2_LVT" (Flattened by runset)
+  "NOR4X1_LVT"
+  "NOR2X2_HVT" (Flattened by runset)
+  "XOR2X1_HVT"
+  "AND3X2_LVT" (Flattened by runset)
+  "NBUFFX32_HVT"
+  "DELLN3X2_LVT" (Flattened by runset)
+  "DFFARX1_RVT" (Flattened by runset)
+  "AOI21X1_HVT"
+  "INVX0_RVT"
+  "SDFFNARX1_RVT"
+  "NAND2X0_HVT"
+  "XOR3X2_HVT" (Flattened by runset)
+  "LSDNSSX8_HVT" (Flattened by runset)
+  "AND2X4_HVT" (Flattened by runset)
+  "IBUFFX2_LVT" (Flattened by runset)
+  "OR3X1_LVT"
+  "AOI22X2_HVT" (Flattened by runset)
+  "AO222X1_RVT" (Flattened by runset)
+  "NAND3X1_HVT" (Flattened by runset)
+  "OAI21X1_LVT" (Flattened by runset)
+  "AND4X1_HVT" (Flattened by runset)
+  "NBUFFX8_LVT" (Flattened by runset)
+  "OAI22X2_LVT"
+  "SDFFARX2_RVT"
+  "OA22X1_LVT" (Flattened by runset)
+  "CGLPPRX8_LVT" (Flattened by runset)
+  "SHFILL3_RVT"
+  "NOR2X1_RVT" (Flattened by runset)
+  "INVX2_LVT"
+  "DELLN1X2_RVT" (Flattened by runset)
+  "SDFFNX2_RVT"
+  "IBUFFX16_LVT"
+  "LSDNSSX2_RVT" (Flattened by runset)
+  "XOR3X1_RVT" (Flattened by runset)
+  "NAND2X4_RVT" (Flattened by runset)
+  "DFFARX1_HVT" (Flattened by runset)
+  "SDFFNARX1_HVT"
+  "HADDX1_RVT" (Flattened by runset)
+  "MUX21X2_RVT"
+  "INVX0_HVT"
+  "AOI22X1_RVT" (Flattened by runset)
+  "LSUPX1_LVT" (Flattened by runset)
+  "NAND3X0_RVT"
+  "AOI221X1_HVT" (Flattened by runset)
+  "AO222X1_HVT" (Flattened by runset)
+  "CGLNPRX8_LVT" (Flattened by runset)
+  "NAND4X1_RVT" (Flattened by runset)
+  "OR2X2_RVT" (Flattened by runset)
+  "XOR2X2_LVT" (Flattened by runset)
+  "FADDX2_RVT" (Flattened by runset)
+  "AOI222X2_HVT" (Flattened by runset)
+  "LSDNSSX4_LVT" (Flattened by runset)
+  "IBUFFX4_RVT" (Flattened by runset)
+  "AOI21X2_LVT" (Flattened by runset)
+  "SDFFARX2_HVT"
+  "XNOR2X1_LVT" (Flattened by runset)
+  "NAND2X1_LVT" (Flattened by runset)
+  "AO22X1_LVT"
+  "OA21X2_RVT"
+  "NOR2X1_HVT" (Flattened by runset)
+  "SHFILL64_RVT"
+  "NAND3X2_LVT" (Flattened by runset)
+  "XNOR3X2_LVT" (Flattened by runset)
+  "AND3X1_LVT"
+  "DELLN1X2_HVT" (Flattened by runset)
+  "DFFX2_HVT" (Flattened by runset)
+  "OR2X4_LVT" (Flattened by runset)
+  "INVX4_RVT"
+  "XOR3X1_HVT" (Flattened by runset)
+  "MUX21X2_HVT" (Flattened by runset)
+  "NAND2X4_HVT" (Flattened by runset)
+  "HADDX1_HVT" (Flattened by runset)
+  "AOI22X1_HVT"
+  "NAND3X0_HVT"
+  "SDFFX2_RVT"
+  "AND3X4_HVT" (Flattened by runset)
+  "NBUFFX2_LVT" (Flattened by runset)
+  "INVX16_LVT" (Flattened by runset)
+  "NAND4X1_HVT" (Flattened by runset)
+  "OR2X2_HVT" (Flattened by runset)
+  "SDFFARX1_RVT"
+  "OAI22X1_LVT" (Flattened by runset)
+  "FADDX2_HVT" (Flattened by runset)
+  "SHFILL2_RVT"
+  "NOR2X0_RVT" (Flattened by runset)
+  "AO221X1_LVT" (Flattened by runset)
+  "INVX1_LVT"
+  "SDFFNARX2_LVT" (Flattened by runset)
+  "IBUFFX4_HVT" (Flattened by runset)
+  "SDFFASX2_RVT" (Flattened by runset)
+  "NBUFFX16_RVT" (Flattened by runset)
+  "OA21X2_HVT" (Flattened by runset)
+  "AO222X2_LVT" (Flattened by runset)
+  "route2" (Flattened by runset)
+  "DFFSSRX1_LVT" (Flattened by runset)
+  "AO21X2_RVT" (Flattened by runset)
+  "DFFX1_RVT" (Flattened by runset)
+  "LSDNSSX1_RVT" (Flattened by runset)
+  "OAI221X2_LVT" (Flattened by runset)
+  "AND2X2_RVT" (Flattened by runset)
+  "DELLN2X2_RVT" (Flattened by runset)
+  "MUX21X1_RVT"
+  "INVX4_HVT"
+  "NAND3X4_RVT" (Flattened by runset)
+  "IBUFFX32_HVT" (Flattened by runset)
+  "NOR2X2_LVT"
+  "NAND4X0_RVT"
+  "OR2X1_RVT"
+  "SDFFX2_HVT"
+  "AND4X4_RVT" (Flattened by runset)
+  "AOI222X1_HVT" (Flattened by runset)
+  "FADDX1_RVT" (Flattened by runset)
+  "NBUFFX32_LVT"
+  "XOR2X1_LVT"
+  "AOI21X1_LVT" (Flattened by runset)
+  "OR3X2_RVT" (Flattened by runset)
+  "SDFFARX1_HVT"
+  "OAI21X2_RVT" (Flattened by runset)
+  "DFFNARX1_HVT" (Flattened by runset)
+  "IBUFFX8_RVT" (Flattened by runset)
+  "NAND2X0_LVT"
+  "XOR3X2_LVT" (Flattened by runset)
+  "LSDNSSX8_LVT" (Flattened by runset)
+  "NBUFFX4_RVT"
+  "AOI22X2_LVT" (Flattened by runset)
+  "AND2X4_LVT" (Flattened by runset)
+  "NOR2X0_HVT" (Flattened by runset)
+  "OA21X1_RVT"
+  "INVX32_RVT"
+  "OA221X2_HVT" (Flattened by runset)
+  "NAND3X1_LVT" (Flattened by runset)
+  "NBUFFX16_HVT"
+  "XNOR3X1_LVT" (Flattened by runset)
+  "LSDNSSX1_HVT" (Flattened by runset)
+  "OA22X2_RVT" (Flattened by runset)
+  "SDFFNX1_HVT"
+  "AO21X2_HVT" (Flattened by runset)
+  "DFFX1_HVT" (Flattened by runset)
+  "AND4X1_LVT"
+  "INVX8_RVT"
+  "DELLN2X2_HVT" (Flattened by runset)
+  "MUX21X1_HVT"
+  "AND2X2_HVT" (Flattened by runset)
+  "SRAM2RW32x4" (Flattened by runset)
+  "SDFFX1_RVT"
+  "SRAM2RW64x8" (Flattened by runset)
+  "NAND3X4_HVT" (Flattened by runset)
+  "NAND4X0_HVT" (Flattened by runset)
+  "OR2X1_HVT"
+  "LSUPX2_RVT" (Flattened by runset)
+  "AND4X4_HVT" (Flattened by runset)
+  "FADDX1_HVT" (Flattened by runset)
+  "SDFFASX1_RVT" (Flattened by runset)
+  "SHFILL1_RVT"
+  "INVX0_LVT"
+  "SDFFNARX1_LVT"
+  "DFFARX1_LVT" (Flattened by runset)
+  "IBUFFX8_HVT" (Flattened by runset)
+  "OA221X1_RVT"
+  "NOR2X4_RVT" (Flattened by runset)
+  "AO21X1_RVT"
+  "INVX32_HVT"
+  "AO222X1_LVT" (Flattened by runset)
+  "NBUFFX4_HVT"
+  "OA21X1_HVT"
+  "OAI221X1_LVT" (Flattened by runset)
+  "AND2X1_RVT"
+  "OA22X2_HVT" (Flattened by runset)
+  "XNOR2X2_RVT" (Flattened by runset)
+  "NOR4X1_RVT" (Flattened by runset)
+  "NAND2X2_RVT" (Flattened by runset)
+  "AO22X2_RVT" (Flattened by runset)
+  "SDFFARX2_LVT"
+  "LSUPX4_LVT" (Flattened by runset)
+  "OAI222X2_LVT" (Flattened by runset)
+  "AND3X2_RVT" (Flattened by runset)
+  "INVX8_HVT"
+  "SDFFX1_HVT"
+  "NOR2X1_LVT"
+  "IBUFFX2_RVT" (Flattened by runset)
+  "DELLN1X2_LVT" (Flattened by runset)
+  "NOR3X2_LVT" (Flattened by runset)
+  "OR3X1_RVT" (Flattened by runset)
+  "LSDNSSX2_LVT" (Flattened by runset)
+  "XOR3X1_LVT"
+  "OAI21X1_RVT" (Flattened by runset)
+  "HADDX1_LVT"
+  "AOI22X1_LVT" (Flattened by runset)
+  "SDFFASX1_HVT" (Flattened by runset)
+  "NAND2X4_LVT"
+  "MUX21X2_LVT" (Flattened by runset)
+  "NBUFFX8_RVT"
+  "NOR2X4_HVT" (Flattened by runset)
+  "OA221X1_HVT"
+  "OAI22X2_RVT" (Flattened by runset)
+  "NAND3X0_LVT"
+  "AND3X4_LVT"
+  "NOR3X0_HVT" (Flattened by runset)
+  "OA22X1_RVT"
+  "CGLPPRX8_RVT" (Flattened by runset)
+  "AO21X1_HVT"
+  "INVX2_RVT" (Flattened by runset)
+  "NAND4X1_LVT" (Flattened by runset)
+  "OA222X2_HVT" (Flattened by runset)
+  "OR2X2_LVT" (Flattened by runset)
+  "FADDX2_LVT" (Flattened by runset)
+  "NAND2X2_HVT" (Flattened by runset)
+  "AO22X2_HVT" (Flattened by runset)
+  "AND2X1_HVT" (Flattened by runset)
+  "IBUFFX4_LVT" (Flattened by runset)
+  "TIEH_HVT"
+  "IBUFFX16_RVT" (Flattened by runset)
+  "AND3X2_HVT" (Flattened by runset)
+  "SHFILL128_RVT" (Flattened by runset)
+  "OA21X2_LVT" (Flattened by runset)
+  "DCAP_HVT"
+  "IBUFFX2_HVT"
+  "OR3X1_HVT" (Flattened by runset)
+  "INVX4_LVT"
+  "OAI21X1_HVT" (Flattened by runset)
+  "XOR2X2_RVT"
+  "AOI21X2_RVT" (Flattened by runset)
+  "LSDNSSX4_RVT" (Flattened by runset)
+  "NBUFFX8_HVT"
+  "OAI22X2_HVT" (Flattened by runset)
+  "OA222X1_RVT" (Flattened by runset)
+  "IBUFFX32_LVT" (Flattened by runset)
+  "SDFFX2_LVT"
+  "AOI222X1_LVT" (Flattened by runset)
+  "OA22X1_HVT"
+  "NAND2X1_RVT" (Flattened by runset)
+  "AO22X1_RVT"
+  "XNOR2X1_RVT"
+  "SDFFARX1_LVT"
+  "INVX2_HVT"
+  "LSUPX8_LVT" (Flattened by runset)
+  "OAI222X1_LVT" (Flattened by runset)
+  "AND3X1_RVT" (Flattened by runset)
+  "NAND3X2_RVT" (Flattened by runset)
+  "XNOR3X2_RVT" (Flattened by runset)
+  "SDFFASX2_LVT" (Flattened by runset)
+  "IBUFFX16_HVT" (Flattened by runset)
+  "NOR2X0_LVT"
+  "AND4X2_RVT" (Flattened by runset)
+  "OR2X4_RVT"
+  "NBUFFX16_LVT"
+  "LSDNSSX1_LVT" (Flattened by runset)
+  "AO21X2_LVT" (Flattened by runset)
+  "DFFX1_LVT" (Flattened by runset)
+  "DELLN2X2_LVT" (Flattened by runset)
+  "AND2X2_LVT" (Flattened by runset)
+  "NBUFFX2_RVT"
+  "MUX21X1_LVT"
+  "INVX16_RVT" (Flattened by runset)
+  "CGLPPRX2_RVT" (Flattened by runset)
+  "OAI22X1_RVT"
+  "XOR2X2_HVT" (Flattened by runset)
+  "NAND3X4_LVT" (Flattened by runset)
+  "NAND4X0_LVT"
+  "OR2X1_LVT"
+  "NOR3X4_HVT" (Flattened by runset)
+  "AO221X1_RVT" (Flattened by runset)
+  "INVX1_RVT" (Flattened by runset)
+  "OA222X1_HVT" (Flattened by runset)
+  "AOI21X2_HVT" (Flattened by runset)
+  "LSDNSSX4_HVT" (Flattened by runset)
+  "SDFFNARX2_RVT"
+  "XNOR2X1_HVT" (Flattened by runset)
+  "NAND2X1_HVT" (Flattened by runset)
+  "AO22X1_HVT"
+  "FADDX1_LVT" (Flattened by runset)
+  "SRAM2RW128x16" (Flattened by runset)
+  "OR3X2_LVT" (Flattened by runset)
+  "IBUFFX8_LVT" (Flattened by runset)
+  "NAND3X2_HVT" (Flattened by runset)
+  "TIEL_HVT"
+  "AND3X1_HVT" (Flattened by runset)
+  "OAI21X2_LVT" (Flattened by runset)
+  "INVX32_LVT" (Flattened by runset)
+  "NBUFFX4_LVT"
+  "OA21X1_LVT" (Flattened by runset)
+  "AND4X2_HVT" (Flattened by runset)
+  "OR2X4_HVT"
+  "OA22X2_LVT" (Flattened by runset)
+  "NOR2X2_RVT" (Flattened by runset)
+
+/*******************************************************
+
+Placement Explodes
+
+Cell Name: original, remaining
+------------------------------
+
+*******************************************************/

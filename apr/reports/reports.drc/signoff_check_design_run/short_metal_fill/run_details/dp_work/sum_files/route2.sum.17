@@ -1,0 +1,126 @@
+Thu May 21 19:35:37 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+
+Runset file ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs
+Current Directory ................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill
+Hostname .........................  mo.ece.pdx.edu
+Platform type ....................  LINUX.64
+NDM input library path ...........  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/
+NDM input library name ...........  ORCA_TOP_lib
+NDM block name ...................  route2
+Run details ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/run_details
+Group file directory .............  /dev/shm/31773
+Check reference structures .......  yes
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.11 Sys=0.17 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:15
+M1_metal = assign({ { 11 } }, ndm = { read_from = { VIEWS } })
+  Value of SPACE GRID is 16.42 micron
+A total of 233175 relations are recorded
+   Check Time=0:00:01  User=0.82 Sys=0.37 Mem=0.028 GB
+
+Thu May 21 19:35:59 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.07 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:55:Layer creation
+VIA1_fill = assign({ { 12 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA1_fill.polygonlayer.0017, VIA1_fill.polygonlayer.0017
+  Outputs: VIA1_fill.polygonlayer.0018, 
+No output written.
+Layer "VIA1_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:62:Layer creation
+VIA8_fill = assign({ { 26 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA8_fill_assign.polygonlayer.0001
+  Outputs: VIA8_fill.polygonlayer.0019, VIA8_fill.polygonlayer.0020
+No output written.
+Layer "VIA8_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "VIA8_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.12 Sys=0.06 Mem=0.012 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+assign() at metalFillShortFinder.rs:15
+M1_metal = assign({ { 11 } }, ndm = { read_from = { VIEWS } })
+A total of 174826 relations are recorded
+   Check Time=0:00:01  User=0.63 Sys=0.11 Mem=0.026 GB
+
+interacting() at metalFillShortFinder.rs:91
+interacting(VIA8_fill, or(M8_metal, M9_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIA8_fill.polygonlayer.0018, temp.associated.0021, temp.polygonlayer.0002, temp.associated.0022
+Input layer "VIA8_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.006 GB
+
+for(loop 8 out of 10, i=7) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M8_fill.polygonlayer.0018, temp.associated.0009, M8_metal.polygonlayer.0018, temp.associated.0010
+Input layer "M8_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+interacting() at metalFillShortFinder.rs:82
+interacting(VIA5_fill, or(M5_metal, M6_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIA5_fill.polygonlayer.0018, temp.associated.0015, temp.polygonlayer.0005, temp.associated.0016
+Input layer "VIA5_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+interacting() at metalFillShortFinder.rs:82
+interacting(VIA5_fill, or(M5_metal, M6_metal))
+  Function: interacting
+  Inputs: VIA5_fill.polygonlayer.0020, M5_metal.polygonlayer.0020, M6_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+for(loop 8 out of 10, i=7) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M8_fill.polygonlayer.0020, M8_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.01 Sys=0.00 Mem=0.006 GB
+
+ Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.006 GB
+

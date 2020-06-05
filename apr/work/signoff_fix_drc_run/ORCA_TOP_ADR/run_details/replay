@@ -1,0 +1,5782 @@
+#
+# runset is /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs
+#
+runset_csum = 34839
+num_hosts = 999
+events {
+S 24.0.0 50 0
+# mo.ece.pdx.edu(0):      1623  1 _prescan_library
+F 24.0.0 50 0
+S 26.0.0 57 0
+# mo.ece.pdx.edu(0):      1243  1 _scan_hierarchy
+F 26.0.0 57 0
+S 58.0.0 166 1
+# mo.ece.pdx.edu(1):      6040  1 _read_library_segment
+S 56.0.0 159 2
+# mo.ece.pdx.edu(2):      6040  1 _read_library_segment
+S 54.0.0 152 3
+# mo.ece.pdx.edu(3):      6040  1 _read_library_segment
+S 52.0.0 145 4
+# mo.ece.pdx.edu(4):      6040  1 _read_library_segment
+S 50.0.0 138 5
+# mo.ece.pdx.edu(5):      6040  1 _read_library_segment
+S 48.0.0 131 6
+# mo.ece.pdx.edu(6):      6040  1 _read_library_segment
+S 46.0.0 124 7
+# mo.ece.pdx.edu(7):      6040  1 _read_library_segment
+S 44.0.0 117 8
+# mo.ece.pdx.edu(8):      6040  1 _read_library_segment
+S 42.0.0 110 9
+# mo.ece.pdx.edu(9):      6040  1 _read_library_segment
+S 40.0.0 103 10
+# mo.ece.pdx.edu(10):      6040  1 _read_library_segment
+S 38.0.0 96 11
+# mo.ece.pdx.edu(11):      6041  1 _read_library_segment
+S 36.0.0 89 12
+# mo.ece.pdx.edu(12):      6041  1 _read_library_segment
+S 34.0.0 82 13
+# mo.ece.pdx.edu(13):      6041  1 _read_library_segment
+S 32.0.0 75 14
+# mo.ece.pdx.edu(14):      6041  1 _read_library_segment
+S 30.0.0 68 15
+# mo.ece.pdx.edu(15):      6041  1 _read_library_segment
+S 28.0.0 61 0
+# mo.ece.pdx.edu(0):      6041  1 _read_library_segment
+F 48.0.0 131 6
+F 42.0.0 110 9
+F 40.0.0 103 10
+F 34.0.0 82 13
+F 38.0.0 96 11
+F 50.0.0 138 5
+F 30.0.0 68 15
+F 46.0.0 124 7
+F 32.0.0 75 14
+F 44.0.0 117 8
+F 36.0.0 89 12
+F 28.0.0 61 0
+F 0 0 6
+F 0 0 10
+F 0 0 13
+F 0 0 9
+F 0 0 15
+F 0 0 5
+F 0 0 7
+F 0 0 11
+F 0 0 14
+F 0 0 0
+F 0 0 12
+F 0 0 8
+F 52.0.0 145 4
+F 56.0.0 159 2
+F 0 0 4
+F 0 0 2
+F 54.0.0 152 3
+F 0 0 3
+F 58.0.0 166 1
+S 60.0.0 174 0
+# mo.ece.pdx.edu(0):     45986  1 _create_hierarchy_tree
+F 0 0 1
+F 60.0.0 174 0
+S 68.0.0 199 0
+# mo.ece.pdx.edu(0):       477  1 _empty_layer
+F 68.0.0 199 0
+S 72.0.0 210 0
+# mo.ece.pdx.edu(0):      1573  1 _optimize_hierarchy_tree
+S 71.0.0 208 17
+# mo.ece.pdx.edu(17):       730  1 _generate_sibling_refref
+S 114.0.0 398 19
+# mo.ece.pdx.edu(19):      4679  1 _create_layer_dp
+S 104.0.0 356 20
+# mo.ece.pdx.edu(20):      4679  1 _create_layer_dp
+S 94.0.0 314 21
+# mo.ece.pdx.edu(21):      4679  1 _create_layer_dp
+S 84.0.0 272 22
+# mo.ece.pdx.edu(22):      4679  1 _create_layer_dp
+S 164.0.0 608 23
+# mo.ece.pdx.edu(23):      4679  1 _create_layer_dp
+S 154.0.0 566 24
+# mo.ece.pdx.edu(24):      4679  1 _create_layer_dp
+S 144.0.0 524 25
+# mo.ece.pdx.edu(25):      4679  1 _create_layer_dp
+S 134.0.0 482 26
+# mo.ece.pdx.edu(26):      4679  1 _create_layer_dp
+S 124.0.0 440 28
+# mo.ece.pdx.edu(28):      4679  1 _create_layer_dp
+S 149.0.0 545 30
+# mo.ece.pdx.edu(30):      4725  1 _create_layer_dp
+S 109.0.0 377 31
+# mo.ece.pdx.edu(31):      4725  1 _create_layer_dp
+F 71.0.0 208 17
+S 99.0.0 335 17
+# mo.ece.pdx.edu(17):      4725  1 _create_layer_dp
+F 164.0.0 608 23
+S 89.0.0 293 23
+# mo.ece.pdx.edu(23):      4725  1 _create_layer_dp
+F 144.0.0 524 25
+S 129.0.0 461 25
+# mo.ece.pdx.edu(25):      4725  1 _create_layer_dp
+F 154.0.0 566 24
+S 119.0.0 419 24
+# mo.ece.pdx.edu(24):      4725  1 _create_layer_dp
+F 134.0.0 482 26
+S 159.0.0 587 26
+# mo.ece.pdx.edu(26):      4725  1 _create_layer_dp
+F 159.0.0 587 26
+S 139.0.0 503 26
+# mo.ece.pdx.edu(26):      4725  1 _create_layer_dp
+S 79.0.0 246 18
+# mo.ece.pdx.edu(18):      4679  1 _create_layer_dp
+S 169.0.0 629 27
+# mo.ece.pdx.edu(27):      4679  1 _create_layer_dp
+S 179.0.0 671 29
+# mo.ece.pdx.edu(29):      4771  1 _create_layer_dp
+F 124.0.0 440 28
+S 174.0.0 650 28
+# mo.ece.pdx.edu(28):      4725  1 _create_layer_dp
+F 72.0.0 210 0
+S 73.0.0 219 0
+# mo.ece.pdx.edu(0):       964  1 _hierarchy_cleanup
+S 77.0.0 243 1
+# mo.ece.pdx.edu(1):      2533  1 _empty_layer
+S 76.0.0 241 2
+# mo.ece.pdx.edu(2):      2531  1 _empty_layer
+S 165.0.0 613 3
+# mo.ece.pdx.edu(3):      3840  1 _optimize_layer_dp
+S 155.0.0 571 4
+# mo.ece.pdx.edu(4):      3840  1 _optimize_layer_dp
+S 145.0.0 529 5
+# mo.ece.pdx.edu(5):      3840  1 _optimize_layer_dp
+S 135.0.0 487 6
+# mo.ece.pdx.edu(6):      3840  1 _optimize_layer_dp
+S 125.0.0 445 7
+# mo.ece.pdx.edu(7):      3840  1 _optimize_layer_dp
+S 160.0.0 592 8
+# mo.ece.pdx.edu(8):      3848  1 _optimize_layer_dp
+S 126.0.0 450 9
+# mo.ece.pdx.edu(9):      3935  1 _optimize_unmerged_layer_dp
+S 136.0.0 492 10
+# mo.ece.pdx.edu(10):      3935  1 _optimize_unmerged_layer_dp
+S 156.0.0 576 11
+# mo.ece.pdx.edu(11):      3935  1 _optimize_unmerged_layer_dp
+S 146.0.0 534 12
+# mo.ece.pdx.edu(12):      3935  1 _optimize_unmerged_layer_dp
+S 127.0.0 455 13
+# mo.ece.pdx.edu(13):      3939  1 _optimize_unmerged_layer_dp
+S 167.0.0 623 14
+# mo.ece.pdx.edu(14):      3939  1 _optimize_unmerged_layer_dp
+S 166.0.0 618 15
+# mo.ece.pdx.edu(15):      3935  1 _optimize_unmerged_layer_dp
+S 162.0.0 602 16
+# mo.ece.pdx.edu(16):      3951  1 _optimize_unmerged_layer_dp
+F 174.0.0 650 28
+F 109.0.0 377 31
+S 110.0.0 382 28
+# mo.ece.pdx.edu(28):      3848  1 _optimize_layer_dp
+S 175.0.0 655 31
+# mo.ece.pdx.edu(31):      3848  1 _optimize_layer_dp
+F 77.0.0 243 1
+F 76.0.0 241 2
+S 111.0.0 387 1
+# mo.ece.pdx.edu(1):      3947  1 _optimize_unmerged_layer_dp
+S 112.0.0 392 2
+# mo.ece.pdx.edu(2):      3951  1 _optimize_unmerged_layer_dp
+F 129.0.0 461 25
+S 130.0.0 466 25
+# mo.ece.pdx.edu(25):      3848  1 _optimize_layer_dp
+F 119.0.0 419 24
+S 120.0.0 424 24
+# mo.ece.pdx.edu(24):      3848  1 _optimize_layer_dp
+F 179.0.0 671 29
+S 180.0.0 676 29
+# mo.ece.pdx.edu(29):      3856  1 _optimize_layer_dp
+F 175.0.0 655 31
+S 121.0.0 429 31
+# mo.ece.pdx.edu(31):      3947  1 _optimize_unmerged_layer_dp
+F 139.0.0 503 26
+S 140.0.0 508 26
+# mo.ece.pdx.edu(26):      3848  1 _optimize_layer_dp
+F 160.0.0 592 8
+S 131.0.0 471 8
+# mo.ece.pdx.edu(8):      3947  1 _optimize_unmerged_layer_dp
+F 165.0.0 613 3
+S 141.0.0 513 3
+# mo.ece.pdx.edu(3):      3947  1 _optimize_unmerged_layer_dp
+F 114.0.0 398 19
+S 115.0.0 403 19
+# mo.ece.pdx.edu(19):      3840  1 _optimize_layer_dp
+F 145.0.0 529 5
+F 180.0.0 676 29
+S 116.0.0 408 5
+# mo.ece.pdx.edu(5):      3935  1 _optimize_unmerged_layer_dp
+S 117.0.0 413 29
+# mo.ece.pdx.edu(29):      3939  1 _optimize_unmerged_layer_dp
+F 130.0.0 466 25
+S 122.0.0 434 25
+# mo.ece.pdx.edu(25):      3951  1 _optimize_unmerged_layer_dp
+F 110.0.0 382 28
+S 132.0.0 476 28
+# mo.ece.pdx.edu(28):      3951  1 _optimize_unmerged_layer_dp
+F 120.0.0 424 24
+S 142.0.0 518 24
+# mo.ece.pdx.edu(24):      3951  1 _optimize_unmerged_layer_dp
+F 125.0.0 445 7
+S 182.0.0 686 7
+# mo.ece.pdx.edu(7):      3963  1 _optimize_unmerged_layer_dp
+F 135.0.0 487 6
+S 181.0.0 681 6
+# mo.ece.pdx.edu(6):      3959  1 _optimize_unmerged_layer_dp
+F 155.0.0 571 4
+S 177.0.0 665 4
+# mo.ece.pdx.edu(4):      3951  1 _optimize_unmerged_layer_dp
+F 166.0.0 618 15
+S 176.0.0 660 15
+# mo.ece.pdx.edu(15):      3947  1 _optimize_unmerged_layer_dp
+F 73.0.0 219 0
+F 126.0.0 450 9
+F 136.0.0 492 10
+F 156.0.0 576 11
+F 146.0.0 534 12
+F 115.0.0 403 19
+F 140.0.0 508 26
+F 121.0.0 429 31
+S 74.0.0 222 9
+# mo.ece.pdx.edu(9):       986  1 _update_and_pushdown_refref
+S 1569.0.0 6632 10
+# mo.ece.pdx.edu(10):      3125  1 _copy
+S 2260.0.0 9397 11
+# mo.ece.pdx.edu(11):      6315  1 _enclose
+S 161.0.0 597 12
+# mo.ece.pdx.edu(12):      3947  1 _optimize_unmerged_layer_dp
+S 157.0.0 581 19
+# mo.ece.pdx.edu(19):      3939  1 _optimize_unmerged_layer_dp
+S 147.0.0 539 26
+# mo.ece.pdx.edu(26):      3939  1 _optimize_unmerged_layer_dp
+S 137.0.0 497 31
+# mo.ece.pdx.edu(31):      3939  1 _optimize_unmerged_layer_dp
+F 162.0.0 602 16
+F 117.0.0 413 29
+S 70.0.0 203 16
+# mo.ece.pdx.edu(16):       755  1 _grid_check_hierarchy
+F 141.0.0 513 3
+F 127.0.0 455 13
+F 1569.0.0 6632 10
+F 111.0.0 387 1
+F 2260.0.0 9397 11
+F 167.0.0 623 14
+F 0 0 11
+F 122.0.0 434 25
+F 99.0.0 335 17
+S 100.0.0 340 11
+# mo.ece.pdx.edu(11):      3848  1 _optimize_layer_dp
+S 101.0.0 345 17
+# mo.ece.pdx.edu(17):      3947  1 _optimize_unmerged_layer_dp
+F 112.0.0 392 2
+F 181.0.0 681 6
+F 131.0.0 471 8
+F 74.0.0 222 9
+F 142.0.0 518 24
+S 1432.0.0 6055 2
+# mo.ece.pdx.edu(2):      5197  1 _internal_q
+S 1278.0.0 5390 6
+# mo.ece.pdx.edu(6):      5197  1 _internal_q
+S 1125.0.0 4730 8
+# mo.ece.pdx.edu(8):      5197  1 _internal_q
+S 971.0.0 4066 9
+# mo.ece.pdx.edu(9):      5197  1 _internal_q
+S 817.0.0 3402 24
+# mo.ece.pdx.edu(24):      5197  1 _internal_q
+F 0 0 1
+F 0 0 3
+F 177.0.0 665 4
+F 116.0.0 408 5
+F 182.0.0 686 7
+F 0 0 10
+F 161.0.0 597 12
+F 0 0 13
+F 0 0 14
+F 176.0.0 660 15
+F 70.0.0 203 16
+F 101.0.0 345 17
+F 79.0.0 246 18
+F 157.0.0 581 19
+F 104.0.0 356 20
+F 94.0.0 314 21
+F 84.0.0 272 22
+F 89.0.0 293 23
+F 0 0 25
+F 147.0.0 539 26
+F 169.0.0 629 27
+F 132.0.0 476 28
+F 0 0 29
+F 137.0.0 497 31
+S 85.0.0 277 4
+# mo.ece.pdx.edu(4):      3840  1 _optimize_layer_dp
+S 95.0.0 319 5
+# mo.ece.pdx.edu(5):      3840  1 _optimize_layer_dp
+S 105.0.0 361 7
+# mo.ece.pdx.edu(7):      3840  1 _optimize_layer_dp
+S 80.0.0 256 12
+# mo.ece.pdx.edu(12):      3840  1 _optimize_layer_dp
+S 170.0.0 634 15
+# mo.ece.pdx.edu(15):      3840  1 _optimize_layer_dp
+S 90.0.0 298 16
+# mo.ece.pdx.edu(16):      3848  1 _optimize_layer_dp
+S 663.0.0 2738 17
+# mo.ece.pdx.edu(17):      5197  1 _internal_q
+S 1394.0.0 5900 18
+# mo.ece.pdx.edu(18):      3237  1 _find_wide_q
+S 1241.0.0 5239 19
+# mo.ece.pdx.edu(19):      3037  1 _find_wide_q
+S 1087.0.0 4575 20
+# mo.ece.pdx.edu(20):      2837  1 _find_wide_q
+S 933.0.0 3911 21
+# mo.ece.pdx.edu(21):      2837  1 _find_wide_q
+S 779.0.0 3247 22
+# mo.ece.pdx.edu(22):      2837  1 _find_wide_q
+S 625.0.0 2583 23
+# mo.ece.pdx.edu(23):      2837  1 _find_wide_q
+S 1977.0.0 8282 26
+# mo.ece.pdx.edu(26):      2127  1 _boolean_not_q
+S 1896.0.0 7943 27
+# mo.ece.pdx.edu(27):      2127  1 _boolean_not_q
+S 1893.0.0 7935 28
+# mo.ece.pdx.edu(28):      2127  1 _boolean_not_q
+S 1809.0.0 7588 31
+# mo.ece.pdx.edu(31):      2127  1 _boolean_not_q
+F 1432.0.0 6055 2
+F 1278.0.0 5390 6
+F 1125.0.0 4730 8
+F 971.0.0 4066 9
+F 100.0.0 340 11
+S 1693.0.0 7119 2
+# mo.ece.pdx.edu(2):      1833  1 _rectangles_q
+S 683.0.0 2813 6
+# mo.ece.pdx.edu(6):      2581  1 _level_one_q
+S 1945.0.0 8160 8
+# mo.ece.pdx.edu(8):      1833  1 _rectangles_q
+S 1861.0.0 7813 9
+# mo.ece.pdx.edu(9):      1833  1 _rectangles_q
+S 1777.0.0 7466 11
+# mo.ece.pdx.edu(11):      1833  1 _rectangles_q
+F 1394.0.0 5900 18
+F 817.0.0 3402 24
+F 1977.0.0 8282 26
+F 1896.0.0 7943 27
+F 1893.0.0 7935 28
+S 1433.0.0 6062 0
+# mo.ece.pdx.edu(0):      1312  1 _copy
+S 1404.0.0 5932 18
+# mo.ece.pdx.edu(18):      1254  1 _copy
+S 1403.0.0 5929 24
+# mo.ece.pdx.edu(24):      1258  1 _copy
+S 1464.0.0 6169 26
+# mo.ece.pdx.edu(26):      1267  1 _copy
+S 1463.0.0 6166 27
+# mo.ece.pdx.edu(27):      1268  1 _copy
+S 2239.0.0 9326 28
+# mo.ece.pdx.edu(28):      1259  1 _copy
+F 1693.0.0 7119 2
+F 85.0.0 277 4
+F 95.0.0 319 5
+F 683.0.0 2813 6
+F 105.0.0 361 7
+F 1945.0.0 8160 8
+F 80.0.0 256 12
+F 170.0.0 634 15
+F 90.0.0 298 16
+F 663.0.0 2738 17
+F 1087.0.0 4575 20
+F 933.0.0 3911 21
+F 779.0.0 3247 22
+F 625.0.0 2583 23
+F 1809.0.0 7588 31
+S 664.0.0 2745 2
+# mo.ece.pdx.edu(2):      1312  1 _copy
+S 818.0.0 3409 4
+# mo.ece.pdx.edu(4):      1312  1 _copy
+S 972.0.0 4073 5
+# mo.ece.pdx.edu(5):      1312  1 _copy
+S 1126.0.0 4737 6
+# mo.ece.pdx.edu(6):      1312  1 _copy
+S 635.0.0 2615 7
+# mo.ece.pdx.edu(7):      1254  1 _copy
+S 634.0.0 2612 8
+# mo.ece.pdx.edu(8):      1258  1 _copy
+S 789.0.0 3279 12
+# mo.ece.pdx.edu(12):      1254  1 _copy
+S 788.0.0 3276 15
+# mo.ece.pdx.edu(15):      1258  1 _copy
+S 943.0.0 3943 16
+# mo.ece.pdx.edu(16):      1254  1 _copy
+S 942.0.0 3940 17
+# mo.ece.pdx.edu(17):      1258  1 _copy
+S 1097.0.0 4607 20
+# mo.ece.pdx.edu(20):      1254  1 _copy
+S 1096.0.0 4604 21
+# mo.ece.pdx.edu(21):      1258  1 _copy
+S 695.0.0 2852 22
+# mo.ece.pdx.edu(22):      1267  1 _copy
+S 694.0.0 2849 23
+# mo.ece.pdx.edu(23):      1268  1 _copy
+S 849.0.0 3516 31
+# mo.ece.pdx.edu(31):      1267  1 _copy
+F 1433.0.0 6062 0
+F 1861.0.0 7813 9
+F 1777.0.0 7466 11
+F 1404.0.0 5932 18
+F 1241.0.0 5239 19
+F 1403.0.0 5929 24
+F 1464.0.0 6169 26
+F 1463.0.0 6166 27
+F 2239.0.0 9326 28
+F 149.0.0 545 30
+S 150.0.0 550 0
+# mo.ece.pdx.edu(0):      3848  1 _optimize_layer_dp
+S 1279.0.0 5397 9
+# mo.ece.pdx.edu(9):      1312  1 _copy
+S 1251.0.0 5271 11
+# mo.ece.pdx.edu(11):      1254  1 _copy
+S 1250.0.0 5268 18
+# mo.ece.pdx.edu(18):      1258  1 _copy
+S 1465.0.0 6172 19
+# mo.ece.pdx.edu(19):      1076  1 _copy
+S 1310.0.0 5504 24
+# mo.ece.pdx.edu(24):      1267  1 _copy
+S 1309.0.0 5501 26
+# mo.ece.pdx.edu(26):      1268  1 _copy
+S 848.0.0 3513 27
+# mo.ece.pdx.edu(27):      1268  1 _copy
+S 1003.0.0 4180 28
+# mo.ece.pdx.edu(28):      1267  1 _copy
+S 1002.0.0 4177 30
+# mo.ece.pdx.edu(30):      1268  1 _copy
+F 664.0.0 2745 2
+F 818.0.0 3409 4
+F 972.0.0 4073 5
+F 1126.0.0 4737 6
+F 635.0.0 2615 7
+F 634.0.0 2612 8
+F 789.0.0 3279 12
+F 788.0.0 3276 15
+F 943.0.0 3943 16
+F 942.0.0 3940 17
+F 1097.0.0 4607 20
+F 1096.0.0 4604 21
+F 695.0.0 2852 22
+F 694.0.0 2849 23
+F 849.0.0 3516 31
+S 1158.0.0 4847 2
+# mo.ece.pdx.edu(2):      1076  1 _copy
+S 1004.0.0 4183 4
+# mo.ece.pdx.edu(4):      1076  1 _copy
+S 850.0.0 3519 5
+# mo.ece.pdx.edu(5):      1076  1 _copy
+S 696.0.0 2855 6
+# mo.ece.pdx.edu(6):      1076  1 _copy
+S 1157.0.0 4844 7
+# mo.ece.pdx.edu(7):      1267  1 _copy
+S 1156.0.0 4841 8
+# mo.ece.pdx.edu(8):      1268  1 _copy
+S 1218.0.0 5134 12
+# mo.ece.pdx.edu(12):      1073  1 _copy
+S 1064.0.0 4470 15
+# mo.ece.pdx.edu(15):      1073  1 _copy
+S 910.0.0 3806 16
+# mo.ece.pdx.edu(16):      1073  1 _copy
+S 756.0.0 3142 17
+# mo.ece.pdx.edu(17):      1073  1 _copy
+S 1525.0.0 6459 20
+# mo.ece.pdx.edu(20):      1073  1 _copy
+S 1779.0.0 7475 21
+# mo.ece.pdx.edu(21):      1278  1 _copy
+S 1778.0.0 7472 22
+# mo.ece.pdx.edu(22):      1278  1 _copy
+S 1863.0.0 7822 23
+# mo.ece.pdx.edu(23):      1278  1 _copy
+S 1862.0.0 7819 31
+# mo.ece.pdx.edu(31):      1278  1 _copy
+F 1279.0.0 5397 9
+F 1251.0.0 5271 11
+F 1250.0.0 5268 18
+F 1465.0.0 6172 19
+F 1310.0.0 5504 24
+F 1309.0.0 5501 26
+F 848.0.0 3513 27
+F 1003.0.0 4180 28
+S 1311.0.0 5507 9
+# mo.ece.pdx.edu(9):      1076  1 _copy
+S 1371.0.0 5794 11
+# mo.ece.pdx.edu(11):      1073  1 _copy
+S 1947.0.0 8169 18
+# mo.ece.pdx.edu(18):      1278  1 _copy
+S 1946.0.0 8166 19
+# mo.ece.pdx.edu(19):      1278  1 _copy
+S 1695.0.0 7128 24
+# mo.ece.pdx.edu(24):      1278  1 _copy
+S 1694.0.0 7125 26
+# mo.ece.pdx.edu(26):      1278  1 _copy
+S 1833.0.0 7662 27
+# mo.ece.pdx.edu(27):      1246  1 _copy
+S 1917.0.0 8009 28
+# mo.ece.pdx.edu(28):      1246  1 _copy
+F 150.0.0 550 0
+F 1158.0.0 4847 2
+F 850.0.0 3519 5
+F 696.0.0 2855 6
+F 1157.0.0 4844 7
+F 1156.0.0 4841 8
+F 1218.0.0 5134 12
+F 1064.0.0 4470 15
+F 910.0.0 3806 16
+F 756.0.0 3142 17
+F 1525.0.0 6459 20
+F 1779.0.0 7475 21
+F 1778.0.0 7472 22
+F 1002.0.0 4177 30
+S 2228.0.0 9277 0
+# mo.ece.pdx.edu(0):      1259  1 _copy
+S 2001.0.0 8356 2
+# mo.ece.pdx.edu(2):      1246  1 _copy
+S 2137.0.0 8881 5
+# mo.ece.pdx.edu(5):      1246  1 _copy
+S 1249.0.0 5265 6
+# mo.ece.pdx.edu(6):      1258  1 _copy
+S 1248.0.0 5262 7
+# mo.ece.pdx.edu(7):      1261  1 _copy
+S 1780.0.0 7478 8
+# mo.ece.pdx.edu(8):      1280  1 _copy
+S 1864.0.0 7825 12
+# mo.ece.pdx.edu(12):      1280  1 _copy
+S 633.0.0 2609 15
+# mo.ece.pdx.edu(15):      1258  1 _copy
+S 632.0.0 2606 16
+# mo.ece.pdx.edu(16):      1261  1 _copy
+S 787.0.0 3273 17
+# mo.ece.pdx.edu(17):      1258  1 _copy
+S 786.0.0 3270 20
+# mo.ece.pdx.edu(20):      1261  1 _copy
+S 941.0.0 3937 21
+# mo.ece.pdx.edu(21):      1258  1 _copy
+S 940.0.0 3934 22
+# mo.ece.pdx.edu(22):      1261  1 _copy
+S 1095.0.0 4601 30
+# mo.ece.pdx.edu(30):      1258  1 _copy
+F 1004.0.0 4183 4
+F 1311.0.0 5507 9
+F 1371.0.0 5794 11
+F 1947.0.0 8169 18
+F 1946.0.0 8166 19
+F 1863.0.0 7822 23
+F 1695.0.0 7128 24
+F 1694.0.0 7125 26
+F 1833.0.0 7662 27
+F 1862.0.0 7819 31
+S 1915.0.0 8000 4
+# mo.ece.pdx.edu(4):      1051  1 _copy
+S 1094.0.0 4598 9
+# mo.ece.pdx.edu(9):      1261  1 _copy
+S 1948.0.0 8172 11
+# mo.ece.pdx.edu(11):      1280  1 _copy
+S 1696.0.0 7131 18
+# mo.ece.pdx.edu(18):      1280  1 _copy
+S 1402.0.0 5926 19
+# mo.ece.pdx.edu(19):      1258  1 _copy
+S 1401.0.0 5923 23
+# mo.ece.pdx.edu(23):      1261  1 _copy
+S 2199.0.0 9155 24
+# mo.ece.pdx.edu(24):      1263  1 _copy
+S 2196.0.0 9141 26
+# mo.ece.pdx.edu(26):      1263  1 _copy
+S 2214.0.0 9223 27
+# mo.ece.pdx.edu(27):      1248  1 _copy
+S 2213.0.0 9220 31
+# mo.ece.pdx.edu(31):      1248  1 _copy
+F 2228.0.0 9277 0
+F 2001.0.0 8356 2
+F 2137.0.0 8881 5
+F 1249.0.0 5265 6
+F 1248.0.0 5262 7
+F 1780.0.0 7478 8
+F 1864.0.0 7825 12
+F 633.0.0 2609 15
+F 632.0.0 2606 16
+F 787.0.0 3273 17
+F 786.0.0 3270 20
+F 941.0.0 3937 21
+F 940.0.0 3934 22
+F 1917.0.0 8009 28
+S 1999.0.0 8347 0
+# mo.ece.pdx.edu(0):      1051  1 _copy
+S 1565.0.0 6617 2
+# mo.ece.pdx.edu(2):      1257  1 _copy
+S 1242.0.0 5243 5
+# mo.ece.pdx.edu(5):      1566  1 _copy
+S 626.0.0 2587 6
+# mo.ece.pdx.edu(6):      1566  1 _copy
+S 780.0.0 3251 7
+# mo.ece.pdx.edu(7):      1566  1 _copy
+S 934.0.0 3915 8
+# mo.ece.pdx.edu(8):      1566  1 _copy
+S 1088.0.0 4579 12
+# mo.ece.pdx.edu(12):      1566  1 _copy
+S 1548.0.0 6564 15
+# mo.ece.pdx.edu(15):      1569  1 _copy
+S 1395.0.0 5904 16
+# mo.ece.pdx.edu(16):      1566  1 _copy
+S 665.0.0 2748 17
+# mo.ece.pdx.edu(17):      1915  1 _boolean_and_q
+S 1280.0.0 5400 20
+# mo.ece.pdx.edu(20):      1915  1 _boolean_and_q
+S 1127.0.0 4740 21
+# mo.ece.pdx.edu(21):      1915  1 _boolean_and_q
+S 973.0.0 4076 22
+# mo.ece.pdx.edu(22):      1915  1 _boolean_and_q
+S 819.0.0 3412 28
+# mo.ece.pdx.edu(28):      1915  1 _boolean_and_q
+F 1915.0.0 8000 4
+F 1094.0.0 4598 9
+F 1948.0.0 8172 11
+F 1696.0.0 7131 18
+F 1402.0.0 5926 19
+F 1401.0.0 5923 23
+F 2199.0.0 9155 24
+F 2214.0.0 9223 27
+F 1095.0.0 4601 30
+S 1434.0.0 6065 4
+# mo.ece.pdx.edu(4):      1915  1 _boolean_and_q
+S 509.0.0 2074 9
+# mo.ece.pdx.edu(9):      5197  1 _internal_q
+S 355.0.0 1410 11
+# mo.ece.pdx.edu(11):      5197  1 _internal_q
+S 231.0.0 881 18
+# mo.ece.pdx.edu(18):      5197  1 _internal_q
+S 471.0.0 1919 19
+# mo.ece.pdx.edu(19):      2837  1 _find_wide_q
+S 317.0.0 1255 23
+# mo.ece.pdx.edu(23):      2837  1 _find_wide_q
+S 190.0.0 712 24
+# mo.ece.pdx.edu(24):      2837  1 _find_wide_q
+S 657.0.0 2711 27
+# mo.ece.pdx.edu(27):      1882  1 _boolean_not_q
+S 701.0.0 2874 30
+# mo.ece.pdx.edu(30):      1914  1 _boolean_not_q
+F 1565.0.0 6617 2
+F 1242.0.0 5243 5
+F 626.0.0 2587 6
+F 780.0.0 3251 7
+F 934.0.0 3915 8
+F 1088.0.0 4579 12
+F 1548.0.0 6564 15
+F 1395.0.0 5904 16
+F 665.0.0 2748 17
+F 1280.0.0 5400 20
+F 1127.0.0 4740 21
+F 2196.0.0 9141 26
+F 819.0.0 3412 28
+F 2213.0.0 9220 31
+S 821.0.0 3420 2
+# mo.ece.pdx.edu(2):      3927  1 _connect_q
+S 1282.0.0 5408 5
+# mo.ece.pdx.edu(5):      3927  1 _connect_q
+S 667.0.0 2756 6
+# mo.ece.pdx.edu(6):      3927  1 _connect_q
+S 699.0.0 2866 7
+# mo.ece.pdx.edu(7):      1908  1 _boolean_not_q
+S 700.0.0 2870 8
+# mo.ece.pdx.edu(8):      1912  1 _boolean_not_q
+S 820.0.0 3416 12
+# mo.ece.pdx.edu(12):      1932  1 _boolean_not_q
+S 686.0.0 2822 15
+# mo.ece.pdx.edu(15):      1611  1 _select_donut_hole
+S 684.0.0 2817 16
+# mo.ece.pdx.edu(16):      1622  1 _select_donut_hole
+S 1697.0.0 7134 17
+# mo.ece.pdx.edu(17):      1140  1 _boolean_or_list
+S 1949.0.0 8175 20
+# mo.ece.pdx.edu(20):      1140  1 _boolean_or_list
+S 1865.0.0 7828 21
+# mo.ece.pdx.edu(21):      1140  1 _boolean_or_list
+S 1781.0.0 7481 26
+# mo.ece.pdx.edu(26):      1140  1 _boolean_or_list
+S 1119.0.0 4703 28
+# mo.ece.pdx.edu(28):      1882  1 _boolean_not_q
+S 965.0.0 4039 31
+# mo.ece.pdx.edu(31):      1882  1 _boolean_not_q
+F 1999.0.0 8347 0
+F 1434.0.0 6065 4
+F 509.0.0 2074 9
+F 973.0.0 4076 22
+F 657.0.0 2711 27
+S 757.0.0 3145 0
+# mo.ece.pdx.edu(0):      1067  1 _copy
+S 975.0.0 4084 4
+# mo.ece.pdx.edu(4):      3927  1 _connect_q
+S 811.0.0 3375 9
+# mo.ece.pdx.edu(9):      1882  1 _boolean_not_q
+S 1426.0.0 6028 22
+# mo.ece.pdx.edu(22):      1882  1 _boolean_not_q
+S 1372.0.0 5797 27
+# mo.ece.pdx.edu(27):      1914  1 _boolean_not_q
+F 821.0.0 3420 2
+F 1282.0.0 5408 5
+F 667.0.0 2756 6
+F 699.0.0 2866 7
+F 700.0.0 2870 8
+F 355.0.0 1410 11
+F 820.0.0 3416 12
+F 686.0.0 2822 15
+F 684.0.0 2817 16
+F 1697.0.0 7134 17
+F 471.0.0 1919 19
+F 1949.0.0 8175 20
+F 1865.0.0 7828 21
+F 317.0.0 1255 23
+F 190.0.0 712 24
+F 1119.0.0 4703 28
+F 701.0.0 2874 30
+S 232.0.0 888 2
+# mo.ece.pdx.edu(2):      1312  1 _copy
+S 356.0.0 1417 5
+# mo.ece.pdx.edu(5):      1312  1 _copy
+S 510.0.0 2081 6
+# mo.ece.pdx.edu(6):      1312  1 _copy
+S 1436.0.0 6073 7
+# mo.ece.pdx.edu(7):      4046  1 _connect_q
+S 1129.0.0 4748 8
+# mo.ece.pdx.edu(8):      4046  1 _connect_q
+S 203.0.0 760 11
+# mo.ece.pdx.edu(11):      1257  1 _copy
+S 202.0.0 757 12
+# mo.ece.pdx.edu(12):      1260  1 _copy
+S 327.0.0 1287 15
+# mo.ece.pdx.edu(15):      1254  1 _copy
+S 326.0.0 1284 16
+# mo.ece.pdx.edu(16):      1258  1 _copy
+S 481.0.0 1951 17
+# mo.ece.pdx.edu(17):      1254  1 _copy
+S 480.0.0 1948 19
+# mo.ece.pdx.edu(19):      1258  1 _copy
+S 254.0.0 958 20
+# mo.ece.pdx.edu(20):      1270  1 _copy
+S 387.0.0 1524 21
+# mo.ece.pdx.edu(21):      1267  1 _copy
+S 386.0.0 1521 23
+# mo.ece.pdx.edu(23):      1268  1 _copy
+S 541.0.0 2188 24
+# mo.ece.pdx.edu(24):      1267  1 _copy
+S 540.0.0 2185 28
+# mo.ece.pdx.edu(28):      1268  1 _copy
+S 1219.0.0 5137 30
+# mo.ece.pdx.edu(30):      1067  1 _copy
+F 757.0.0 3145 0
+F 975.0.0 4084 4
+F 811.0.0 3375 9
+F 231.0.0 881 18
+F 1426.0.0 6028 22
+F 1781.0.0 7481 26
+F 1372.0.0 5797 27
+F 965.0.0 4039 31
+S 1065.0.0 4473 0
+# mo.ece.pdx.edu(0):      1067  1 _copy
+S 1526.0.0 6462 4
+# mo.ece.pdx.edu(4):      1067  1 _copy
+S 911.0.0 3809 9
+# mo.ece.pdx.edu(9):      1067  1 _copy
+S 1664.0.0 6962 18
+# mo.ece.pdx.edu(18):      1242  1 _copy
+S 1749.0.0 7315 22
+# mo.ece.pdx.edu(22):      1246  1 _copy
+S 1663.0.0 6959 26
+# mo.ece.pdx.edu(26):      1242  1 _copy
+S 204.0.0 763 27
+# mo.ece.pdx.edu(27):      1257  1 _copy
+S 325.0.0 1281 31
+# mo.ece.pdx.edu(31):      1258  1 _copy
+F 232.0.0 888 2
+F 356.0.0 1417 5
+F 510.0.0 2081 6
+F 1436.0.0 6073 7
+F 1129.0.0 4748 8
+F 203.0.0 760 11
+F 202.0.0 757 12
+F 327.0.0 1287 15
+F 326.0.0 1284 16
+F 481.0.0 1951 17
+F 480.0.0 1948 19
+F 254.0.0 958 20
+F 387.0.0 1524 21
+F 386.0.0 1521 23
+F 540.0.0 2185 28
+S 542.0.0 2191 2
+# mo.ece.pdx.edu(2):      1076  1 _copy
+S 388.0.0 1527 5
+# mo.ece.pdx.edu(5):      1076  1 _copy
+S 252.0.0 952 6
+# mo.ece.pdx.edu(6):      1075  1 _copy
+S 253.0.0 955 7
+# mo.ece.pdx.edu(7):      1073  1 _copy
+S 602.0.0 2478 8
+# mo.ece.pdx.edu(8):      1073  1 _copy
+S 448.0.0 1814 11
+# mo.ece.pdx.edu(11):      1073  1 _copy
+S 324.0.0 1278 12
+# mo.ece.pdx.edu(12):      1261  1 _copy
+S 479.0.0 1945 15
+# mo.ece.pdx.edu(15):      1258  1 _copy
+S 478.0.0 1942 16
+# mo.ece.pdx.edu(16):      1261  1 _copy
+S 205.0.0 766 17
+# mo.ece.pdx.edu(17):      1253  1 _copy
+S 198.0.0 742 19
+# mo.ece.pdx.edu(19):      1262  1 _copy
+S 191.0.0 716 20
+# mo.ece.pdx.edu(20):      1566  1 _copy
+S 318.0.0 1259 21
+# mo.ece.pdx.edu(21):      1566  1 _copy
+S 472.0.0 1923 23
+# mo.ece.pdx.edu(23):      1566  1 _copy
+S 511.0.0 2084 28
+# mo.ece.pdx.edu(28):      1915  1 _boolean_and_q
+F 1065.0.0 4473 0
+F 1526.0.0 6462 4
+F 911.0.0 3809 9
+F 1664.0.0 6962 18
+F 541.0.0 2188 24
+F 1663.0.0 6959 26
+F 1219.0.0 5137 30
+S 1747.0.0 7306 0
+# mo.ece.pdx.edu(0):      1049  1 _copy
+S 357.0.0 1420 4
+# mo.ece.pdx.edu(4):      1915  1 _boolean_and_q
+S 1130.0.0 4750 9
+# mo.ece.pdx.edu(9):      6344  1 _external_q
+S 1437.0.0 6075 18
+# mo.ece.pdx.edu(18):      6344  1 _external_q
+S 976.0.0 4086 24
+# mo.ece.pdx.edu(24):      6344  1 _external_q
+S 668.0.0 2758 26
+# mo.ece.pdx.edu(26):      6344  1 _external_q
+S 1283.0.0 5410 30
+# mo.ece.pdx.edu(30):      6344  1 _external_q
+F 542.0.0 2191 2
+F 388.0.0 1527 5
+F 252.0.0 952 6
+F 602.0.0 2478 8
+F 448.0.0 1814 11
+F 324.0.0 1278 12
+F 479.0.0 1945 15
+F 478.0.0 1942 16
+F 198.0.0 742 19
+F 191.0.0 716 20
+F 318.0.0 1259 21
+F 1749.0.0 7315 22
+F 204.0.0 763 27
+F 511.0.0 2084 28
+F 325.0.0 1281 31
+S 1831.0.0 7653 2
+# mo.ece.pdx.edu(2):      1060  1 _copy
+S 822.0.0 3422 5
+# mo.ece.pdx.edu(5):      6344  1 _external_q
+S 233.0.0 891 6
+# mo.ece.pdx.edu(6):      1915  1 _boolean_and_q
+S 513.0.0 2092 8
+# mo.ece.pdx.edu(8):      3927  1 _connect_q
+S 1782.0.0 7484 11
+# mo.ece.pdx.edu(11):      2259  1 _boolean_not_q
+S 1866.0.0 7831 12
+# mo.ece.pdx.edu(12):      2259  1 _boolean_not_q
+S 1950.0.0 8178 15
+# mo.ece.pdx.edu(15):      2259  1 _boolean_not_q
+S 206.0.0 769 16
+# mo.ece.pdx.edu(16):      1909  1 _boolean_not_q
+S 390.0.0 1534 19
+# mo.ece.pdx.edu(19):      1935  1 _boolean_not_q
+S 544.0.0 2198 20
+# mo.ece.pdx.edu(20):      1935  1 _boolean_not_q
+S 543.0.0 2194 21
+# mo.ece.pdx.edu(21):      1933  1 _boolean_not_q
+S 389.0.0 1530 22
+# mo.ece.pdx.edu(22):      1933  1 _boolean_not_q
+S 1316.0.0 5526 27
+# mo.ece.pdx.edu(27):      1914  1 _boolean_not_q
+S 1313.0.0 5514 28
+# mo.ece.pdx.edu(28):      1935  1 _boolean_not_q
+S 1009.0.0 4202 31
+# mo.ece.pdx.edu(31):      1914  1 _boolean_not_q
+F 1747.0.0 7306 0
+F 253.0.0 955 7
+F 1130.0.0 4750 9
+F 205.0.0 766 17
+F 1437.0.0 6075 18
+F 472.0.0 1923 23
+F 976.0.0 4086 24
+F 668.0.0 2758 26
+S 256.0.0 964 0
+# mo.ece.pdx.edu(0):      1935  1 _boolean_not_q
+S 1006.0.0 4190 7
+# mo.ece.pdx.edu(7):      1935  1 _boolean_not_q
+S 1007.0.0 4194 9
+# mo.ece.pdx.edu(9):      1908  1 _boolean_not_q
+S 1005.0.0 4186 17
+# mo.ece.pdx.edu(17):      1933  1 _boolean_not_q
+S 1161.0.0 4858 18
+# mo.ece.pdx.edu(18):      1908  1 _boolean_not_q
+S 1159.0.0 4850 23
+# mo.ece.pdx.edu(23):      1933  1 _boolean_not_q
+S 1162.0.0 4862 24
+# mo.ece.pdx.edu(24):      1912  1 _boolean_not_q
+S 1160.0.0 4854 26
+# mo.ece.pdx.edu(26):      1935  1 _boolean_not_q
+F 1831.0.0 7653 2
+F 357.0.0 1420 4
+F 822.0.0 3422 5
+F 233.0.0 891 6
+F 1782.0.0 7484 11
+F 1866.0.0 7831 12
+F 1950.0.0 8178 15
+F 206.0.0 769 16
+F 390.0.0 1534 19
+F 544.0.0 2198 20
+F 543.0.0 2194 21
+F 389.0.0 1530 22
+F 1316.0.0 5526 27
+F 1313.0.0 5514 28
+F 1283.0.0 5410 30
+S 255.0.0 961 2
+# mo.ece.pdx.edu(2):      1085  1 _copy
+S 235.0.0 899 4
+# mo.ece.pdx.edu(4):      3927  1 _connect_q
+S 359.0.0 1428 5
+# mo.ece.pdx.edu(5):      3927  1 _connect_q
+S 698.0.0 2862 6
+# mo.ece.pdx.edu(6):      1935  1 _boolean_not_q
+S 855.0.0 3538 11
+# mo.ece.pdx.edu(11):      1914  1 _boolean_not_q
+S 852.0.0 3526 12
+# mo.ece.pdx.edu(12):      1935  1 _boolean_not_q
+S 1163.0.0 4866 15
+# mo.ece.pdx.edu(15):      1914  1 _boolean_not_q
+S 1008.0.0 4198 16
+# mo.ece.pdx.edu(16):      1912  1 _boolean_not_q
+S 853.0.0 3530 19
+# mo.ece.pdx.edu(19):      1908  1 _boolean_not_q
+S 851.0.0 3522 20
+# mo.ece.pdx.edu(20):      1933  1 _boolean_not_q
+S 1314.0.0 5518 21
+# mo.ece.pdx.edu(21):      1908  1 _boolean_not_q
+S 1312.0.0 5510 22
+# mo.ece.pdx.edu(22):      1933  1 _boolean_not_q
+S 1315.0.0 5522 27
+# mo.ece.pdx.edu(27):      1912  1 _boolean_not_q
+S 1470.0.0 6191 28
+# mo.ece.pdx.edu(28):      1914  1 _boolean_not_q
+S 1467.0.0 6179 30
+# mo.ece.pdx.edu(30):      1935  1 _boolean_not_q
+F 513.0.0 2092 8
+F 1007.0.0 4194 9
+F 1005.0.0 4186 17
+F 1161.0.0 4858 18
+F 1159.0.0 4850 23
+F 1162.0.0 4862 24
+F 1160.0.0 4854 26
+F 1009.0.0 4202 31
+S 514.0.0 2094 8
+# mo.ece.pdx.edu(8):      6344  1 _external_q
+S 854.0.0 3534 9
+# mo.ece.pdx.edu(9):      1912  1 _boolean_not_q
+S 697.0.0 2858 17
+# mo.ece.pdx.edu(17):      1933  1 _boolean_not_q
+S 1468.0.0 6183 18
+# mo.ece.pdx.edu(18):      1908  1 _boolean_not_q
+S 1466.0.0 6175 23
+# mo.ece.pdx.edu(23):      1933  1 _boolean_not_q
+S 1469.0.0 6187 24
+# mo.ece.pdx.edu(24):      1912  1 _boolean_not_q
+S 329.0.0 1294 26
+# mo.ece.pdx.edu(26):      1905  1 _boolean_not_q
+S 328.0.0 1290 31
+# mo.ece.pdx.edu(31):      1909  1 _boolean_not_q
+F 256.0.0 964 0
+F 235.0.0 899 4
+F 359.0.0 1428 5
+F 698.0.0 2862 6
+F 1006.0.0 4190 7
+F 855.0.0 3538 11
+F 852.0.0 3526 12
+F 1163.0.0 4866 15
+F 1008.0.0 4198 16
+F 853.0.0 3530 19
+F 851.0.0 3522 20
+F 1314.0.0 5518 21
+F 1312.0.0 5510 22
+F 1315.0.0 5522 27
+F 1470.0.0 6191 28
+F 1467.0.0 6179 30
+S 236.0.0 901 0
+# mo.ece.pdx.edu(0):      6346  1 _external_q
+S 360.0.0 1430 4
+# mo.ece.pdx.edu(4):      6344  1 _external_q
+S 207.0.0 773 5
+# mo.ece.pdx.edu(5):      1905  1 _boolean_not_q
+S 482.0.0 1954 6
+# mo.ece.pdx.edu(6):      1909  1 _boolean_not_q
+S 483.0.0 1958 7
+# mo.ece.pdx.edu(7):      1905  1 _boolean_not_q
+S 484.0.0 1962 11
+# mo.ece.pdx.edu(11):      1901  1 _boolean_not_q
+S 330.0.0 1298 12
+# mo.ece.pdx.edu(12):      1901  1 _boolean_not_q
+S 1099.0.0 4614 15
+# mo.ece.pdx.edu(15):      1905  1 _boolean_not_q
+S 1098.0.0 4610 16
+# mo.ece.pdx.edu(16):      1909  1 _boolean_not_q
+S 1405.0.0 5935 19
+# mo.ece.pdx.edu(19):      1909  1 _boolean_not_q
+S 1406.0.0 5939 20
+# mo.ece.pdx.edu(20):      1905  1 _boolean_not_q
+S 944.0.0 3946 21
+# mo.ece.pdx.edu(21):      1909  1 _boolean_not_q
+S 945.0.0 3950 22
+# mo.ece.pdx.edu(22):      1905  1 _boolean_not_q
+S 790.0.0 3282 27
+# mo.ece.pdx.edu(27):      1909  1 _boolean_not_q
+S 791.0.0 3286 28
+# mo.ece.pdx.edu(28):      1905  1 _boolean_not_q
+S 636.0.0 2618 30
+# mo.ece.pdx.edu(30):      1909  1 _boolean_not_q
+F 255.0.0 961 2
+F 514.0.0 2094 8
+F 854.0.0 3534 9
+F 697.0.0 2858 17
+F 1468.0.0 6183 18
+F 1466.0.0 6175 23
+F 1469.0.0 6187 24
+S 637.0.0 2622 2
+# mo.ece.pdx.edu(2):      1905  1 _boolean_not_q
+S 1252.0.0 5274 8
+# mo.ece.pdx.edu(8):      1909  1 _boolean_not_q
+S 1253.0.0 5278 9
+# mo.ece.pdx.edu(9):      1905  1 _boolean_not_q
+S 1254.0.0 5282 17
+# mo.ece.pdx.edu(17):      1901  1 _boolean_not_q
+S 1100.0.0 4618 18
+# mo.ece.pdx.edu(18):      1901  1 _boolean_not_q
+S 946.0.0 3954 23
+# mo.ece.pdx.edu(23):      1901  1 _boolean_not_q
+S 792.0.0 3290 24
+# mo.ece.pdx.edu(24):      1901  1 _boolean_not_q
+F 236.0.0 901 0
+F 360.0.0 1430 4
+F 482.0.0 1954 6
+F 483.0.0 1958 7
+F 484.0.0 1962 11
+F 330.0.0 1298 12
+F 1099.0.0 4614 15
+F 1098.0.0 4610 16
+F 1405.0.0 5935 19
+F 1406.0.0 5939 20
+F 944.0.0 3946 21
+F 945.0.0 3950 22
+F 329.0.0 1294 26
+F 791.0.0 3286 28
+F 328.0.0 1290 31
+S 638.0.0 2626 0
+# mo.ece.pdx.edu(0):      1901  1 _boolean_not_q
+S 1407.0.0 5943 4
+# mo.ece.pdx.edu(4):      1901  1 _boolean_not_q
+S 2029.0.0 8507 6
+# mo.ece.pdx.edu(6):      1833  1 _rectangles_q
+S 799.0.0 3321 7
+# mo.ece.pdx.edu(7):      1892  1 _boolean_not_q
+S 953.0.0 3985 11
+# mo.ece.pdx.edu(11):      1892  1 _boolean_not_q
+S 947.0.0 3958 12
+# mo.ece.pdx.edu(12):      1896  1 _boolean_not_q
+S 1414.0.0 5974 15
+# mo.ece.pdx.edu(15):      1892  1 _boolean_not_q
+S 1408.0.0 5947 16
+# mo.ece.pdx.edu(16):      1896  1 _boolean_not_q
+S 1107.0.0 4649 19
+# mo.ece.pdx.edu(19):      1892  1 _boolean_not_q
+S 208.0.0 777 20
+# mo.ece.pdx.edu(20):      1901  1 _boolean_not_q
+S 974.0.0 4080 21
+# mo.ece.pdx.edu(21):      1932  1 _boolean_not_q
+S 1128.0.0 4744 22
+# mo.ece.pdx.edu(22):      1932  1 _boolean_not_q
+S 1281.0.0 5404 26
+# mo.ece.pdx.edu(26):      1932  1 _boolean_not_q
+S 1435.0.0 6069 28
+# mo.ece.pdx.edu(28):      1932  1 _boolean_not_q
+S 2170.0.0 9052 31
+# mo.ece.pdx.edu(31):      2017  1 _rectangles_q
+F 637.0.0 2622 2
+F 207.0.0 773 5
+F 1252.0.0 5274 8
+F 1253.0.0 5278 9
+F 1254.0.0 5282 17
+F 946.0.0 3954 23
+F 790.0.0 3282 27
+F 636.0.0 2618 30
+S 639.0.0 2630 2
+# mo.ece.pdx.edu(2):      1896  1 _boolean_not_q
+S 645.0.0 2657 5
+# mo.ece.pdx.edu(5):      1892  1 _boolean_not_q
+S 793.0.0 3294 8
+# mo.ece.pdx.edu(8):      1896  1 _boolean_not_q
+S 959.0.0 4012 9
+# mo.ece.pdx.edu(9):      1890  1 _boolean_not_q
+S 1255.0.0 5286 17
+# mo.ece.pdx.edu(17):      1896  1 _boolean_not_q
+S 687.0.0 2825 23
+# mo.ece.pdx.edu(23):      2097  1 _boolean_not_q
+S 2254.0.0 9375 27
+# mo.ece.pdx.edu(27):      2210  1 _rectangles_q
+S 2186.0.0 9110 30
+# mo.ece.pdx.edu(30):      2123  1 _boolean_not_q
+F 638.0.0 2626 0
+F 1407.0.0 5943 4
+F 2029.0.0 8507 6
+F 799.0.0 3321 7
+F 953.0.0 3985 11
+F 1414.0.0 5974 15
+F 1408.0.0 5947 16
+F 1100.0.0 4618 18
+F 1107.0.0 4649 19
+F 208.0.0 777 20
+F 974.0.0 4080 21
+F 1128.0.0 4744 22
+F 792.0.0 3290 24
+F 1281.0.0 5404 26
+F 1435.0.0 6069 28
+S 1113.0.0 4676 0
+# mo.ece.pdx.edu(0):      1568  1 _boolean_not_q
+S 2032.0.0 8519 4
+# mo.ece.pdx.edu(4):      1280  1 _copy
+S 2031.0.0 8516 6
+# mo.ece.pdx.edu(6):      1278  1 _copy
+S 2030.0.0 8513 7
+# mo.ece.pdx.edu(7):      1278  1 _copy
+S 1101.0.0 4622 11
+# mo.ece.pdx.edu(11):      1566  1 _boolean_not_q
+S 651.0.0 2684 15
+# mo.ece.pdx.edu(15):      1890  1 _boolean_not_q
+S 805.0.0 3348 16
+# mo.ece.pdx.edu(16):      1890  1 _boolean_not_q
+S 1420.0.0 6001 18
+# mo.ece.pdx.edu(18):      1890  1 _boolean_not_q
+S 2183.0.0 9102 19
+# mo.ece.pdx.edu(19):      2123  1 _boolean_not_q
+S 2167.0.0 9042 20
+# mo.ece.pdx.edu(20):      2321  1 _rectangles_q
+S 2064.0.0 8637 21
+# mo.ece.pdx.edu(21):      2127  1 _boolean_not_q
+S 2061.0.0 8629 22
+# mo.ece.pdx.edu(22):      2127  1 _boolean_not_q
+S 1980.0.0 8290 24
+# mo.ece.pdx.edu(24):      2127  1 _boolean_not_q
+S 1452.0.0 6130 26
+# mo.ece.pdx.edu(26):      2581  1 _level_one_q
+S 1298.0.0 5465 28
+# mo.ece.pdx.edu(28):      2581  1 _level_one_q
+F 639.0.0 2630 2
+F 645.0.0 2657 5
+F 793.0.0 3294 8
+F 959.0.0 4012 9
+F 947.0.0 3958 12
+F 1255.0.0 5286 17
+F 687.0.0 2825 23
+F 2254.0.0 9375 27
+F 2170.0.0 9052 31
+S 1267.0.0 5340 2
+# mo.ece.pdx.edu(2):      1562  1 _boolean_not_q
+S 1261.0.0 5313 5
+# mo.ece.pdx.edu(5):      1563  1 _boolean_not_q
+S 2171.0.0 9058 8
+# mo.ece.pdx.edu(8):      2080  1 _boolean_not_q
+S 1145.0.0 4805 9
+# mo.ece.pdx.edu(9):      2581  1 _level_one_q
+S 991.0.0 4141 12
+# mo.ece.pdx.edu(12):      2581  1 _level_one_q
+S 837.0.0 3477 17
+# mo.ece.pdx.edu(17):      2581  1 _level_one_q
+S 1992.0.0 8325 23
+# mo.ece.pdx.edu(23):      2606  1 _covered_by_q
+S 1989.0.0 8314 27
+# mo.ece.pdx.edu(27):      2604  1 _covered_by_q
+S 1909.0.0 7982 31
+# mo.ece.pdx.edu(31):      2606  1 _covered_by_q
+F 1113.0.0 4676 0
+F 2032.0.0 8519 4
+F 2031.0.0 8516 6
+F 2030.0.0 8513 7
+F 1101.0.0 4622 11
+F 651.0.0 2684 15
+F 805.0.0 3348 16
+F 1420.0.0 6001 18
+F 2183.0.0 9102 19
+F 2167.0.0 9042 20
+F 2061.0.0 8629 22
+F 1980.0.0 8290 24
+F 1298.0.0 5465 28
+F 2186.0.0 9110 30
+S 2033.0.0 8522 0
+# mo.ece.pdx.edu(0):      1140  1 _boolean_or_list
+S 1301.0.0 5474 4
+# mo.ece.pdx.edu(4):      1611  1 _select_donut_hole
+S 1299.0.0 5469 6
+# mo.ece.pdx.edu(6):      1622  1 _select_donut_hole
+S 1908.0.0 7978 7
+# mo.ece.pdx.edu(7):      2606  1 _covered_by_q
+S 1906.0.0 7971 11
+# mo.ece.pdx.edu(11):      2604  1 _covered_by_q
+S 1905.0.0 7967 15
+# mo.ece.pdx.edu(15):      2604  1 _covered_by_q
+S 1825.0.0 7635 16
+# mo.ece.pdx.edu(16):      2606  1 _covered_by_q
+S 1822.0.0 7624 18
+# mo.ece.pdx.edu(18):      2604  1 _covered_by_q
+S 1899.0.0 7951 19
+# mo.ece.pdx.edu(19):      3429  1 _covered_by_q
+S 1818.0.0 7612 20
+# mo.ece.pdx.edu(20):      3429  1 _covered_by_q
+S 2077.0.0 8676 22
+# mo.ece.pdx.edu(22):      2606  1 _covered_by_q
+S 2076.0.0 8672 24
+# mo.ece.pdx.edu(24):      2606  1 _covered_by_q
+S 2074.0.0 8665 28
+# mo.ece.pdx.edu(28):      2604  1 _covered_by_q
+S 2073.0.0 8661 30
+# mo.ece.pdx.edu(30):      2604  1 _covered_by_q
+F 1267.0.0 5340 2
+F 1261.0.0 5313 5
+F 2171.0.0 9058 8
+F 1145.0.0 4805 9
+F 991.0.0 4141 12
+F 2064.0.0 8637 21
+F 1992.0.0 8325 23
+F 1452.0.0 6130 26
+F 1989.0.0 8314 27
+S 1453.0.0 6134 2
+# mo.ece.pdx.edu(2):      1622  1 _select_donut_hole
+S 1455.0.0 6139 5
+# mo.ece.pdx.edu(5):      1611  1 _select_donut_hole
+S 994.0.0 4150 8
+# mo.ece.pdx.edu(8):      1611  1 _select_donut_hole
+S 992.0.0 4145 9
+# mo.ece.pdx.edu(9):      1622  1 _select_donut_hole
+S 1148.0.0 4814 12
+# mo.ece.pdx.edu(12):      1611  1 _select_donut_hole
+S 1146.0.0 4809 21
+# mo.ece.pdx.edu(21):      1622  1 _select_donut_hole
+S 1993.0.0 8329 23
+# mo.ece.pdx.edu(23):      2606  1 _covered_by_q
+S 1990.0.0 8318 26
+# mo.ece.pdx.edu(26):      2604  1 _covered_by_q
+S 2070.0.0 8653 27
+# mo.ece.pdx.edu(27):      3429  1 _covered_by_q
+F 1301.0.0 5474 4
+F 1299.0.0 5469 6
+F 1908.0.0 7978 7
+F 1906.0.0 7971 11
+F 1905.0.0 7967 15
+F 837.0.0 3477 17
+F 1822.0.0 7624 18
+F 1899.0.0 7951 19
+F 1818.0.0 7612 20
+F 2077.0.0 8676 22
+F 2076.0.0 8672 24
+F 2074.0.0 8665 28
+F 1909.0.0 7982 31
+S 840.0.0 3486 4
+# mo.ece.pdx.edu(4):      1611  1 _select_donut_hole
+S 838.0.0 3481 6
+# mo.ece.pdx.edu(6):      1622  1 _select_donut_hole
+S 1302.0.0 5477 7
+# mo.ece.pdx.edu(7):      2097  1 _boolean_not_q
+S 2067.0.0 8645 11
+# mo.ece.pdx.edu(11):      3429  1 _covered_by_q
+S 1986.0.0 8306 15
+# mo.ece.pdx.edu(15):      3429  1 _covered_by_q
+S 1983.0.0 8298 17
+# mo.ece.pdx.edu(17):      3429  1 _covered_by_q
+S 1902.0.0 7959 18
+# mo.ece.pdx.edu(18):      3429  1 _covered_by_q
+S 2192.0.0 9126 19
+# mo.ece.pdx.edu(19):      3414  1 _covered_by_q
+S 2189.0.0 9118 20
+# mo.ece.pdx.edu(20):      3414  1 _covered_by_q
+S 702.0.0 2878 22
+# mo.ece.pdx.edu(22):      3323  1 _select_q
+S 720.0.0 2966 24
+# mo.ece.pdx.edu(24):      3327  1 _select_q
+S 758.0.0 3148 28
+# mo.ece.pdx.edu(28):      3327  1 _select_q
+S 738.0.0 3054 31
+# mo.ece.pdx.edu(31):      3327  1 _select_q
+F 2033.0.0 8522 0
+F 1453.0.0 6134 2
+F 1455.0.0 6139 5
+F 994.0.0 4150 8
+F 992.0.0 4145 9
+F 1148.0.0 4814 12
+F 1825.0.0 7635 16
+F 1146.0.0 4809 21
+F 1993.0.0 8329 23
+F 1990.0.0 8318 26
+F 2070.0.0 8653 27
+F 2073.0.0 8661 30
+S 1557.0.0 6590 0
+# mo.ece.pdx.edu(0):      1080  1 _copy
+S 1149.0.0 4817 2
+# mo.ece.pdx.edu(2):      2097  1 _boolean_not_q
+S 995.0.0 4153 5
+# mo.ece.pdx.edu(5):      2097  1 _boolean_not_q
+S 1456.0.0 6142 8
+# mo.ece.pdx.edu(8):      2097  1 _boolean_not_q
+S 2034.0.0 8525 9
+# mo.ece.pdx.edu(9):      2259  1 _boolean_not_q
+S 1489.0.0 6283 12
+# mo.ece.pdx.edu(12):      3327  1 _select_q
+S 1471.0.0 6195 16
+# mo.ece.pdx.edu(16):      3323  1 _select_q
+S 874.0.0 3630 21
+# mo.ece.pdx.edu(21):      3327  1 _select_q
+S 1507.0.0 6371 23
+# mo.ece.pdx.edu(23):      3327  1 _select_q
+S 1335.0.0 5618 26
+# mo.ece.pdx.edu(26):      3327  1 _select_q
+S 1317.0.0 5530 27
+# mo.ece.pdx.edu(27):      3323  1 _select_q
+S 856.0.0 3542 30
+# mo.ece.pdx.edu(30):      3323  1 _select_q
+F 840.0.0 3486 4
+F 838.0.0 3481 6
+F 1302.0.0 5477 7
+F 2067.0.0 8645 11
+F 1983.0.0 8298 17
+F 1902.0.0 7959 18
+F 2192.0.0 9126 19
+F 2189.0.0 9118 20
+F 702.0.0 2878 22
+F 720.0.0 2966 24
+F 758.0.0 3148 28
+S 841.0.0 3489 4
+# mo.ece.pdx.edu(4):      2097  1 _boolean_not_q
+S 1028.0.0 4294 6
+# mo.ece.pdx.edu(6):      3327  1 _select_q
+S 1200.0.0 5046 7
+# mo.ece.pdx.edu(7):      3327  1 _select_q
+S 892.0.0 3718 11
+# mo.ece.pdx.edu(11):      3327  1 _select_q
+S 1046.0.0 4382 17
+# mo.ece.pdx.edu(17):      3327  1 _select_q
+S 1182.0.0 4958 18
+# mo.ece.pdx.edu(18):      3327  1 _select_q
+S 1164.0.0 4870 19
+# mo.ece.pdx.edu(19):      3323  1 _select_q
+S 1010.0.0 4206 20
+# mo.ece.pdx.edu(20):      3323  1 _select_q
+S 1353.0.0 5706 22
+# mo.ece.pdx.edu(22):      3327  1 _select_q
+S 1220.0.0 5140 24
+# mo.ece.pdx.edu(24):      3327  1 _select_q
+S 912.0.0 3812 28
+# mo.ece.pdx.edu(28):      3327  1 _select_q
+F 1557.0.0 6590 0
+F 1149.0.0 4817 2
+F 995.0.0 4153 5
+F 1456.0.0 6142 8
+F 2034.0.0 8525 9
+F 1489.0.0 6283 12
+F 1986.0.0 8306 15
+F 1471.0.0 6195 16
+F 874.0.0 3630 21
+F 1507.0.0 6371 23
+F 1335.0.0 5618 26
+F 738.0.0 3054 31
+S 1558.0.0 6593 0
+# mo.ece.pdx.edu(0):      2097  1 _boolean_not_q
+S 1527.0.0 6465 2
+# mo.ece.pdx.edu(2):      3327  1 _select_q
+S 1066.0.0 4476 5
+# mo.ece.pdx.edu(5):      3327  1 _select_q
+S 1373.0.0 5801 8
+# mo.ece.pdx.edu(8):      3327  1 _select_q
+S 1832.0.0 7656 9
+# mo.ece.pdx.edu(9):      3304  1 _select_q
+S 2000.0.0 8350 12
+# mo.ece.pdx.edu(12):      3304  1 _select_q
+S 1916.0.0 8003 15
+# mo.ece.pdx.edu(15):      3304  1 _select_q
+S 1918.0.0 8012 16
+# mo.ece.pdx.edu(16):      3304  1 _select_q
+S 2002.0.0 8359 21
+# mo.ece.pdx.edu(21):      3304  1 _select_q
+S 1834.0.0 7665 23
+# mo.ece.pdx.edu(23):      3304  1 _select_q
+S 1748.0.0 7309 26
+# mo.ece.pdx.edu(26):      3304  1 _select_q
+S 1750.0.0 7318 31
+# mo.ece.pdx.edu(31):      3304  1 _select_q
+F 841.0.0 3489 4
+F 1028.0.0 4294 6
+F 1200.0.0 5046 7
+F 892.0.0 3718 11
+F 1046.0.0 4382 17
+F 1182.0.0 4958 18
+F 1164.0.0 4870 19
+F 1010.0.0 4206 20
+F 1353.0.0 5706 22
+F 1220.0.0 5140 24
+F 1317.0.0 5530 27
+F 856.0.0 3542 30
+S 666.0.0 2752 4
+# mo.ece.pdx.edu(4):      1932  1 _boolean_not_q
+S 1609.0.0 6772 6
+# mo.ece.pdx.edu(6):      1833  1 _rectangles_q
+S 1698.0.0 7137 7
+# mo.ece.pdx.edu(7):      2259  1 _boolean_not_q
+S 680.0.0 2806 11
+# mo.ece.pdx.edu(11):      1667  1 _area_q
+S 2229.0.0 9280 17
+# mo.ece.pdx.edu(17):      1500  1 _area_q
+S 2240.0.0 9329 18
+# mo.ece.pdx.edu(18):      1500  1 _area_q
+S 1554.0.0 6583 19
+# mo.ece.pdx.edu(19):      1667  1 _area_q
+S 1449.0.0 6123 20
+# mo.ece.pdx.edu(20):      1667  1 _area_q
+S 1295.0.0 5458 22
+# mo.ece.pdx.edu(22):      1667  1 _area_q
+S 1142.0.0 4798 24
+# mo.ece.pdx.edu(24):      1667  1 _area_q
+S 988.0.0 4134 27
+# mo.ece.pdx.edu(27):      1667  1 _area_q
+S 834.0.0 3470 30
+# mo.ece.pdx.edu(30):      1667  1 _area_q
+F 1558.0.0 6593 0
+F 1527.0.0 6465 2
+F 1066.0.0 4476 5
+F 1373.0.0 5801 8
+F 1832.0.0 7656 9
+F 2000.0.0 8350 12
+F 1916.0.0 8003 15
+F 1918.0.0 8012 16
+F 2002.0.0 8359 21
+F 1834.0.0 7665 23
+F 1748.0.0 7309 26
+F 912.0.0 3812 28
+S 503.0.0 2047 0
+# mo.ece.pdx.edu(0):      1882  1 _boolean_not_q
+S 349.0.0 1383 2
+# mo.ece.pdx.edu(2):      1882  1 _boolean_not_q
+S 393.0.0 1546 5
+# mo.ece.pdx.edu(5):      1914  1 _boolean_not_q
+S 547.0.0 2210 8
+# mo.ece.pdx.edu(8):      1914  1 _boolean_not_q
+S 546.0.0 2206 9
+# mo.ece.pdx.edu(9):      1912  1 _boolean_not_q
+S 545.0.0 2202 12
+# mo.ece.pdx.edu(12):      1908  1 _boolean_not_q
+S 391.0.0 1538 15
+# mo.ece.pdx.edu(15):      1908  1 _boolean_not_q
+S 392.0.0 1542 16
+# mo.ece.pdx.edu(16):      1912  1 _boolean_not_q
+S 331.0.0 1302 21
+# mo.ece.pdx.edu(21):      1896  1 _boolean_not_q
+S 337.0.0 1329 23
+# mo.ece.pdx.edu(23):      1892  1 _boolean_not_q
+S 343.0.0 1356 26
+# mo.ece.pdx.edu(26):      1890  1 _boolean_not_q
+S 497.0.0 2020 28
+# mo.ece.pdx.edu(28):      1890  1 _boolean_not_q
+F 666.0.0 2752 4
+F 1609.0.0 6772 6
+F 1698.0.0 7137 7
+F 680.0.0 2806 11
+F 2240.0.0 9329 18
+F 1554.0.0 6583 19
+F 1449.0.0 6123 20
+F 1295.0.0 5458 22
+F 1142.0.0 4798 24
+F 988.0.0 4134 27
+F 1750.0.0 7318 31
+S 1611.0.0 6781 4
+# mo.ece.pdx.edu(4):      1278  1 _copy
+S 1610.0.0 6778 6
+# mo.ece.pdx.edu(6):      1278  1 _copy
+S 1612.0.0 6784 7
+# mo.ece.pdx.edu(7):      1280  1 _copy
+S 2241.0.0 9332 11
+# mo.ece.pdx.edu(11):      1896  1 _boolean_not_q
+S 491.0.0 1993 18
+# mo.ece.pdx.edu(18):      1892  1 _boolean_not_q
+S 485.0.0 1966 19
+# mo.ece.pdx.edu(19):      1896  1 _boolean_not_q
+S 529.0.0 2149 20
+# mo.ece.pdx.edu(20):      2581  1 _level_one_q
+S 375.0.0 1485 22
+# mo.ece.pdx.edu(22):      2581  1 _level_one_q
+S 1734.0.0 7265 24
+# mo.ece.pdx.edu(24):      3429  1 _covered_by_q
+S 1731.0.0 7257 27
+# mo.ece.pdx.edu(27):      3429  1 _covered_by_q
+S 1815.0.0 7604 31
+# mo.ece.pdx.edu(31):      3429  1 _covered_by_q
+F 503.0.0 2047 0
+F 349.0.0 1383 2
+F 393.0.0 1546 5
+F 547.0.0 2210 8
+F 546.0.0 2206 9
+F 392.0.0 1542 16
+F 2229.0.0 9280 17
+F 331.0.0 1302 21
+F 337.0.0 1329 23
+F 497.0.0 2020 28
+F 834.0.0 3470 30
+S 449.0.0 1817 0
+# mo.ece.pdx.edu(0):      1067  1 _copy
+S 603.0.0 2481 2
+# mo.ece.pdx.edu(2):      1067  1 _copy
+S 2230.0.0 9283 5
+# mo.ece.pdx.edu(5):      1896  1 _boolean_not_q
+S 2118.0.0 8824 8
+# mo.ece.pdx.edu(8):      2127  1 _boolean_not_q
+S 2115.0.0 8816 9
+# mo.ece.pdx.edu(9):      2127  1 _boolean_not_q
+S 1812.0.0 7596 16
+# mo.ece.pdx.edu(16):      2127  1 _boolean_not_q
+S 1728.0.0 7249 17
+# mo.ece.pdx.edu(17):      2127  1 _boolean_not_q
+S 1725.0.0 7241 21
+# mo.ece.pdx.edu(21):      2127  1 _boolean_not_q
+S 2083.0.0 8694 23
+# mo.ece.pdx.edu(23):      1833  1 _rectangles_q
+S 2131.0.0 8863 28
+# mo.ece.pdx.edu(28):      2606  1 _covered_by_q
+S 2130.0.0 8859 30
+# mo.ece.pdx.edu(30):      2606  1 _covered_by_q
+F 1611.0.0 6781 4
+F 1610.0.0 6778 6
+F 1612.0.0 6784 7
+F 2241.0.0 9332 11
+F 545.0.0 2202 12
+F 391.0.0 1538 15
+F 491.0.0 1993 18
+F 485.0.0 1966 19
+F 529.0.0 2149 20
+F 375.0.0 1485 22
+F 1734.0.0 7265 24
+F 343.0.0 1356 26
+F 1731.0.0 7257 27
+S 2242.0.0 9336 4
+# mo.ece.pdx.edu(4):      3315  1 _select_q
+S 1613.0.0 6787 6
+# mo.ece.pdx.edu(6):      1140  1 _boolean_or_list
+S 378.0.0 1494 7
+# mo.ece.pdx.edu(7):      1611  1 _select_donut_hole
+S 376.0.0 1489 11
+# mo.ece.pdx.edu(11):      1622  1 _select_donut_hole
+S 532.0.0 2158 12
+# mo.ece.pdx.edu(12):      1611  1 _select_donut_hole
+S 530.0.0 2153 15
+# mo.ece.pdx.edu(15):      1622  1 _select_donut_hole
+S 1650.0.0 6918 18
+# mo.ece.pdx.edu(18):      3429  1 _covered_by_q
+S 2128.0.0 8852 19
+# mo.ece.pdx.edu(19):      2604  1 _covered_by_q
+S 2127.0.0 8848 20
+# mo.ece.pdx.edu(20):      2604  1 _covered_by_q
+S 1824.0.0 7631 22
+# mo.ece.pdx.edu(22):      2606  1 _covered_by_q
+S 1821.0.0 7620 24
+# mo.ece.pdx.edu(24):      2604  1 _covered_by_q
+S 1741.0.0 7288 26
+# mo.ece.pdx.edu(26):      2606  1 _covered_by_q
+S 1738.0.0 7277 27
+# mo.ece.pdx.edu(27):      2604  1 _covered_by_q
+F 449.0.0 1817 0
+F 603.0.0 2481 2
+F 2230.0.0 9283 5
+F 2118.0.0 8824 8
+F 2115.0.0 8816 9
+F 1812.0.0 7596 16
+F 1728.0.0 7249 17
+F 1725.0.0 7241 21
+F 2083.0.0 8694 23
+F 2131.0.0 8863 28
+F 1815.0.0 7604 31
+S 2085.0.0 8703 0
+# mo.ece.pdx.edu(0):      1278  1 _copy
+S 2084.0.0 8700 2
+# mo.ece.pdx.edu(2):      1278  1 _copy
+S 2086.0.0 8706 5
+# mo.ece.pdx.edu(5):      1280  1 _copy
+S 2231.0.0 9287 8
+# mo.ece.pdx.edu(8):      3315  1 _select_q
+S 1740.0.0 7284 9
+# mo.ece.pdx.edu(9):      2606  1 _covered_by_q
+S 1737.0.0 7273 16
+# mo.ece.pdx.edu(16):      2604  1 _covered_by_q
+S 1644.0.0 6902 17
+# mo.ece.pdx.edu(17):      2123  1 _boolean_not_q
+S 358.0.0 1424 21
+# mo.ece.pdx.edu(21):      1932  1 _boolean_not_q
+S 512.0.0 2088 23
+# mo.ece.pdx.edu(23):      1932  1 _boolean_not_q
+S 1657.0.0 6941 28
+# mo.ece.pdx.edu(28):      2606  1 _covered_by_q
+S 1654.0.0 6930 31
+# mo.ece.pdx.edu(31):      2604  1 _covered_by_q
+F 2242.0.0 9336 4
+F 1613.0.0 6787 6
+F 378.0.0 1494 7
+F 376.0.0 1489 11
+F 532.0.0 2158 12
+F 2127.0.0 8848 20
+F 1824.0.0 7631 22
+F 1821.0.0 7620 24
+F 1738.0.0 7277 27
+F 2130.0.0 8859 30
+S 379.0.0 1497 1
+# mo.ece.pdx.edu(1):      2097  1 _boolean_not_q
+S 1614.0.0 6790 3
+# mo.ece.pdx.edu(3):      2255  1 _boolean_not_q
+S 1758.0.0 7367 4
+# mo.ece.pdx.edu(4):      5896  1 _external_q
+S 1752.0.0 7327 6
+# mo.ece.pdx.edu(6):      5897  1 _external_q
+S 652.0.0 2688 7
+# mo.ece.pdx.edu(7):      6830  1 _external_q
+S 646.0.0 2661 11
+# mo.ece.pdx.edu(11):      6833  1 _external_q
+S 640.0.0 2634 12
+# mo.ece.pdx.edu(12):      6839  1 _external_q
+S 658.0.0 2715 14
+# mo.ece.pdx.edu(14):      6820  1 _external_q
+S 1704.0.0 7157 20
+# mo.ece.pdx.edu(20):      7000  1 _external_q
+S 1701.0.0 7145 22
+# mo.ece.pdx.edu(22):      6177  1 _external_q
+S 629.0.0 2594 24
+# mo.ece.pdx.edu(24):      6129  1 _external_q
+S 1707.0.0 7169 27
+# mo.ece.pdx.edu(27):      6998  1 _external_q
+S 831.0.0 3458 30
+# mo.ece.pdx.edu(30):      6984  1 _external_q
+F 2085.0.0 8703 0
+F 2084.0.0 8700 2
+F 2086.0.0 8706 5
+F 2231.0.0 9287 8
+F 1740.0.0 7284 9
+F 530.0.0 2153 15
+F 1737.0.0 7273 16
+F 1650.0.0 6918 18
+F 2128.0.0 8852 19
+F 512.0.0 2088 23
+F 1741.0.0 7288 26
+F 1657.0.0 6941 28
+F 1654.0.0 6930 31
+S 533.0.0 2161 0
+# mo.ece.pdx.edu(0):      2097  1 _boolean_not_q
+S 2124.0.0 8840 2
+# mo.ece.pdx.edu(2):      3429  1 _covered_by_q
+S 2121.0.0 8832 5
+# mo.ece.pdx.edu(5):      3429  1 _covered_by_q
+S 2087.0.0 8709 8
+# mo.ece.pdx.edu(8):      1140  1 _boolean_or_list
+S 828.0.0 3446 9
+# mo.ece.pdx.edu(9):      6980  1 _external_q
+S 674.0.0 2782 10
+# mo.ece.pdx.edu(10):      6980  1 _external_q
+S 677.0.0 2794 15
+# mo.ece.pdx.edu(15):      6984  1 _external_q
+S 914.0.0 3824 16
+# mo.ece.pdx.edu(16):      5936  1 _external_q
+S 1375.0.0 5813 18
+# mo.ece.pdx.edu(18):      5936  1 _external_q
+S 1068.0.0 4488 19
+# mo.ece.pdx.edu(19):      5936  1 _external_q
+S 1529.0.0 6477 23
+# mo.ece.pdx.edu(23):      5936  1 _external_q
+S 858.0.0 3554 26
+# mo.ece.pdx.edu(26):      5936  1 _external_q
+S 1319.0.0 5542 28
+# mo.ece.pdx.edu(28):      5936  1 _external_q
+S 1222.0.0 5152 31
+# mo.ece.pdx.edu(31):      5936  1 _external_q
+F 379.0.0 1497 1
+F 1614.0.0 6790 3
+F 1758.0.0 7367 4
+F 1752.0.0 7327 6
+F 652.0.0 2688 7
+F 646.0.0 2661 11
+F 640.0.0 2634 12
+F 1644.0.0 6902 17
+F 1704.0.0 7157 20
+F 358.0.0 1424 21
+F 1701.0.0 7145 22
+F 629.0.0 2594 24
+F 1707.0.0 7169 27
+S 1753.0.0 7335 1
+# mo.ece.pdx.edu(1):      3308  1 _select_q
+S 1355.0.0 5718 3
+# mo.ece.pdx.edu(3):      5936  1 _external_q
+S 1012.0.0 4218 4
+# mo.ece.pdx.edu(4):      5936  1 _external_q
+S 1166.0.0 4882 6
+# mo.ece.pdx.edu(6):      5936  1 _external_q
+S 1184.0.0 4970 7
+# mo.ece.pdx.edu(7):      5936  1 _external_q
+S 1048.0.0 4394 11
+# mo.ece.pdx.edu(11):      5936  1 _external_q
+S 894.0.0 3730 12
+# mo.ece.pdx.edu(12):      5936  1 _external_q
+S 1202.0.0 5058 17
+# mo.ece.pdx.edu(17):      5936  1 _external_q
+S 1030.0.0 4306 20
+# mo.ece.pdx.edu(20):      5936  1 _external_q
+S 740.0.0 3066 21
+# mo.ece.pdx.edu(21):      5936  1 _external_q
+S 1337.0.0 5630 22
+# mo.ece.pdx.edu(22):      5936  1 _external_q
+S 1509.0.0 6383 24
+# mo.ece.pdx.edu(24):      5936  1 _external_q
+S 876.0.0 3642 27
+# mo.ece.pdx.edu(27):      5936  1 _external_q
+F 533.0.0 2161 0
+F 2124.0.0 8840 2
+F 2121.0.0 8832 5
+F 2087.0.0 8709 8
+F 828.0.0 3446 9
+F 658.0.0 2715 14
+F 677.0.0 2794 15
+F 914.0.0 3824 16
+F 1375.0.0 5813 18
+F 1068.0.0 4488 19
+F 1529.0.0 6477 23
+F 858.0.0 3554 26
+F 1319.0.0 5542 28
+F 831.0.0 3458 30
+S 1328.0.0 5591 0
+# mo.ece.pdx.edu(0):      3299  1 _select_q
+S 867.0.0 3603 2
+# mo.ece.pdx.edu(2):      3299  1 _select_q
+S 1538.0.0 6526 5
+# mo.ece.pdx.edu(5):      3299  1 _select_q
+S 1077.0.0 4537 8
+# mo.ece.pdx.edu(8):      3299  1 _select_q
+S 1384.0.0 5862 9
+# mo.ece.pdx.edu(9):      3299  1 _select_q
+S 923.0.0 3873 14
+# mo.ece.pdx.edu(14):      3299  1 _select_q
+S 2088.0.0 8712 15
+# mo.ece.pdx.edu(15):      2259  1 _boolean_not_q
+S 1473.0.0 6207 16
+# mo.ece.pdx.edu(16):      5936  1 _external_q
+S 1491.0.0 6295 18
+# mo.ece.pdx.edu(18):      5936  1 _external_q
+S 760.0.0 3160 19
+# mo.ece.pdx.edu(19):      5936  1 _external_q
+S 722.0.0 2978 23
+# mo.ece.pdx.edu(23):      5936  1 _external_q
+S 704.0.0 2890 26
+# mo.ece.pdx.edu(26):      5936  1 _external_q
+S 2148.0.0 8943 28
+# mo.ece.pdx.edu(28):      5896  1 _external_q
+S 1678.0.0 7043 30
+# mo.ece.pdx.edu(30):      5894  1 _external_q
+F 1753.0.0 7335 1
+F 1355.0.0 5718 3
+F 1012.0.0 4218 4
+F 1184.0.0 4970 7
+F 674.0.0 2782 10
+F 1048.0.0 4394 11
+F 894.0.0 3730 12
+F 1202.0.0 5058 17
+F 1030.0.0 4306 20
+F 740.0.0 3066 21
+F 1337.0.0 5630 22
+F 1509.0.0 6383 24
+F 1222.0.0 5152 31
+S 1754.0.0 7341 1
+# mo.ece.pdx.edu(1):      3301  1 _select_q
+S 1231.0.0 5201 3
+# mo.ece.pdx.edu(3):      3299  1 _select_q
+S 1518.0.0 6432 4
+# mo.ece.pdx.edu(4):      3299  1 _select_q
+S 1346.0.0 5679 7
+# mo.ece.pdx.edu(7):      3299  1 _select_q
+S 749.0.0 3115 10
+# mo.ece.pdx.edu(10):      3299  1 _select_q
+S 1039.0.0 4355 11
+# mo.ece.pdx.edu(11):      3299  1 _select_q
+S 1211.0.0 5107 12
+# mo.ece.pdx.edu(12):      3299  1 _select_q
+S 903.0.0 3779 17
+# mo.ece.pdx.edu(17):      3299  1 _select_q
+S 1057.0.0 4443 20
+# mo.ece.pdx.edu(20):      3299  1 _select_q
+S 1193.0.0 5019 21
+# mo.ece.pdx.edu(21):      3299  1 _select_q
+S 1021.0.0 4267 22
+# mo.ece.pdx.edu(22):      3299  1 _select_q
+S 1364.0.0 5767 24
+# mo.ece.pdx.edu(24):      3299  1 _select_q
+S 1926.0.0 8061 25
+# mo.ece.pdx.edu(25):      5896  1 _external_q
+S 1762.0.0 7390 31
+# mo.ece.pdx.edu(31):      5896  1 _external_q
+F 1328.0.0 5591 0
+F 867.0.0 3603 2
+F 1538.0.0 6526 5
+F 1166.0.0 4882 6
+F 1077.0.0 4537 8
+F 1384.0.0 5862 9
+F 923.0.0 3873 14
+F 2088.0.0 8712 15
+F 1473.0.0 6207 16
+F 1491.0.0 6295 18
+F 760.0.0 3160 19
+F 722.0.0 2978 23
+F 876.0.0 3642 27
+F 2148.0.0 8943 28
+S 924.0.0 3879 0
+# mo.ece.pdx.edu(0):      1930  1 _boolean_not_q
+S 1385.0.0 5868 2
+# mo.ece.pdx.edu(2):      1930  1 _boolean_not_q
+S 1078.0.0 4543 5
+# mo.ece.pdx.edu(5):      1930  1 _boolean_not_q
+S 1539.0.0 6532 6
+# mo.ece.pdx.edu(6):      1930  1 _boolean_not_q
+S 868.0.0 3609 8
+# mo.ece.pdx.edu(8):      1930  1 _boolean_not_q
+S 1329.0.0 5597 9
+# mo.ece.pdx.edu(9):      1930  1 _boolean_not_q
+S 885.0.0 3691 13
+# mo.ece.pdx.edu(13):      3299  1 _select_q
+S 731.0.0 3027 14
+# mo.ece.pdx.edu(14):      3299  1 _select_q
+S 769.0.0 3209 15
+# mo.ece.pdx.edu(15):      3299  1 _select_q
+S 1500.0.0 6344 16
+# mo.ece.pdx.edu(16):      3299  1 _select_q
+S 1482.0.0 6256 18
+# mo.ece.pdx.edu(18):      3299  1 _select_q
+S 1175.0.0 4931 19
+# mo.ece.pdx.edu(19):      3299  1 _select_q
+S 1930.0.0 8084 23
+# mo.ece.pdx.edu(23):      5896  1 _external_q
+S 2010.0.0 8408 27
+# mo.ece.pdx.edu(27):      5896  1 _external_q
+S 2014.0.0 8431 28
+# mo.ece.pdx.edu(28):      5896  1 _external_q
+F 1754.0.0 7341 1
+F 1231.0.0 5201 3
+F 1518.0.0 6432 4
+F 1346.0.0 5679 7
+F 749.0.0 3115 10
+F 1039.0.0 4355 11
+F 1211.0.0 5107 12
+F 903.0.0 3779 17
+F 1057.0.0 4443 20
+F 1193.0.0 5019 21
+F 1364.0.0 5767 24
+F 1926.0.0 8061 25
+F 704.0.0 2890 26
+F 1678.0.0 7043 30
+S 1365.0.0 5773 1
+# mo.ece.pdx.edu(1):      1930  1 _boolean_not_q
+S 1194.0.0 5025 3
+# mo.ece.pdx.edu(3):      1930  1 _boolean_not_q
+S 1058.0.0 4449 4
+# mo.ece.pdx.edu(4):      1930  1 _boolean_not_q
+S 904.0.0 3785 7
+# mo.ece.pdx.edu(7):      1930  1 _boolean_not_q
+S 1212.0.0 5113 10
+# mo.ece.pdx.edu(10):      1930  1 _boolean_not_q
+S 1040.0.0 4361 11
+# mo.ece.pdx.edu(11):      1930  1 _boolean_not_q
+S 750.0.0 3121 12
+# mo.ece.pdx.edu(12):      1930  1 _boolean_not_q
+S 1347.0.0 5685 17
+# mo.ece.pdx.edu(17):      1930  1 _boolean_not_q
+S 1519.0.0 6438 20
+# mo.ece.pdx.edu(20):      1930  1 _boolean_not_q
+S 1232.0.0 5207 21
+# mo.ece.pdx.edu(21):      1930  1 _boolean_not_q
+S 713.0.0 2939 24
+# mo.ece.pdx.edu(24):      3299  1 _select_q
+S 1842.0.0 7714 25
+# mo.ece.pdx.edu(25):      5896  1 _external_q
+S 1846.0.0 7737 26
+# mo.ece.pdx.edu(26):      5896  1 _external_q
+S 2204.0.0 9182 30
+# mo.ece.pdx.edu(30):      5893  1 _external_q
+F 1385.0.0 5868 2
+F 1078.0.0 4543 5
+F 1539.0.0 6532 6
+F 868.0.0 3609 8
+F 1329.0.0 5597 9
+F 885.0.0 3691 13
+F 731.0.0 3027 14
+F 769.0.0 3209 15
+F 1500.0.0 6344 16
+F 1482.0.0 6256 18
+F 1175.0.0 4931 19
+F 1021.0.0 4267 22
+S 1022.0.0 4273 2
+# mo.ece.pdx.edu(2):      1930  1 _boolean_not_q
+S 1176.0.0 4937 5
+# mo.ece.pdx.edu(5):      1930  1 _boolean_not_q
+S 1483.0.0 6262 6
+# mo.ece.pdx.edu(6):      1930  1 _boolean_not_q
+S 1501.0.0 6350 8
+# mo.ece.pdx.edu(8):      1930  1 _boolean_not_q
+S 770.0.0 3215 9
+# mo.ece.pdx.edu(9):      1930  1 _boolean_not_q
+S 732.0.0 3033 13
+# mo.ece.pdx.edu(13):      1930  1 _boolean_not_q
+S 886.0.0 3697 14
+# mo.ece.pdx.edu(14):      1930  1 _boolean_not_q
+S 2142.0.0 8903 15
+# mo.ece.pdx.edu(15):      5897  1 _external_q
+S 1671.0.0 7000 16
+# mo.ece.pdx.edu(16):      5895  1 _external_q
+S 1920.0.0 8021 18
+# mo.ece.pdx.edu(18):      5897  1 _external_q
+S 1755.0.0 7347 19
+# mo.ece.pdx.edu(19):      5897  1 _external_q
+S 1923.0.0 8041 22
+# mo.ece.pdx.edu(22):      5897  1 _external_q
+F 924.0.0 3879 0
+F 1365.0.0 5773 1
+F 1194.0.0 5025 3
+F 1058.0.0 4449 4
+F 904.0.0 3785 7
+F 1212.0.0 5113 10
+F 1040.0.0 4361 11
+F 750.0.0 3121 12
+F 1519.0.0 6438 20
+F 1232.0.0 5207 21
+F 713.0.0 2939 24
+F 1842.0.0 7714 25
+F 2010.0.0 8408 27
+S 714.0.0 2945 0
+# mo.ece.pdx.edu(0):      1930  1 _boolean_not_q
+S 2004.0.0 8368 1
+# mo.ece.pdx.edu(1):      5897  1 _external_q
+S 2007.0.0 8388 3
+# mo.ece.pdx.edu(3):      5897  1 _external_q
+S 1836.0.0 7674 4
+# mo.ece.pdx.edu(4):      5897  1 _external_q
+S 1839.0.0 7694 7
+# mo.ece.pdx.edu(7):      5897  1 _external_q
+S 2201.0.0 9162 10
+# mo.ece.pdx.edu(10):      5893  1 _external_q
+S 2232.0.0 9293 11
+# mo.ece.pdx.edu(11):      6751  1 _external_q
+S 1262.0.0 5317 12
+# mo.ece.pdx.edu(12):      6833  1 _external_q
+S 1268.0.0 5344 20
+# mo.ece.pdx.edu(20):      6830  1 _external_q
+S 1421.0.0 6005 21
+# mo.ece.pdx.edu(21):      6830  1 _external_q
+S 806.0.0 3352 24
+# mo.ece.pdx.edu(24):      6830  1 _external_q
+S 1102.0.0 4626 25
+# mo.ece.pdx.edu(25):      6839  1 _external_q
+S 1114.0.0 4680 27
+# mo.ece.pdx.edu(27):      6830  1 _external_q
+F 1022.0.0 4273 2
+F 1176.0.0 4937 5
+F 1483.0.0 6262 6
+F 1501.0.0 6350 8
+F 732.0.0 3033 13
+F 886.0.0 3697 14
+F 2142.0.0 8903 15
+F 1671.0.0 7000 16
+F 1347.0.0 5685 17
+F 1920.0.0 8021 18
+F 1755.0.0 7347 19
+F 1923.0.0 8041 22
+F 2204.0.0 9182 30
+F 1762.0.0 7390 31
+S 2218.0.0 9241 2
+# mo.ece.pdx.edu(2):      1075  1 _copy
+S 1921.0.0 8029 5
+# mo.ece.pdx.edu(5):      3308  1 _select_q
+S 1672.0.0 7008 6
+# mo.ece.pdx.edu(6):      3304  1 _select_q
+S 2143.0.0 8911 8
+# mo.ece.pdx.edu(8):      3308  1 _select_q
+S 2205.0.0 9190 13
+# mo.ece.pdx.edu(13):      3305  1 _select_q
+S 1256.0.0 5290 14
+# mo.ece.pdx.edu(14):      6839  1 _external_q
+S 948.0.0 3962 15
+# mo.ece.pdx.edu(15):      6839  1 _external_q
+S 960.0.0 4016 16
+# mo.ece.pdx.edu(16):      6830  1 _external_q
+S 794.0.0 3298 17
+# mo.ece.pdx.edu(17):      6839  1 _external_q
+S 807.0.0 3360 18
+# mo.ece.pdx.edu(18):      6011  1 _external_q
+S 222.0.0 843 19
+# mo.ece.pdx.edu(19):      6008  1 _external_q
+S 1108.0.0 4653 22
+# mo.ece.pdx.edu(22):      6833  1 _external_q
+S 1115.0.0 4688 30
+# mo.ece.pdx.edu(30):      6011  1 _external_q
+S 1409.0.0 5951 31
+# mo.ece.pdx.edu(31):      6839  1 _external_q
+F 714.0.0 2945 0
+F 2004.0.0 8368 1
+F 2007.0.0 8388 3
+F 1836.0.0 7674 4
+F 1839.0.0 7694 7
+F 770.0.0 3215 9
+F 2201.0.0 9162 10
+F 2232.0.0 9293 11
+F 1262.0.0 5317 12
+F 1268.0.0 5344 20
+F 1421.0.0 6005 21
+F 1930.0.0 8084 23
+F 806.0.0 3352 24
+F 1102.0.0 4626 25
+F 1114.0.0 4680 27
+F 2014.0.0 8431 28
+S 2215.0.0 9226 0
+# mo.ece.pdx.edu(0):      1075  1 _copy
+S 1837.0.0 7682 1
+# mo.ece.pdx.edu(1):      3308  1 _select_q
+S 2005.0.0 8376 3
+# mo.ece.pdx.edu(3):      3308  1 _select_q
+S 2202.0.0 9170 4
+# mo.ece.pdx.edu(4):      3305  1 _select_q
+S 2233.0.0 9301 7
+# mo.ece.pdx.edu(7):      3425  1 _select_q
+S 1415.0.0 5978 9
+# mo.ece.pdx.edu(9):      6833  1 _external_q
+S 954.0.0 3989 10
+# mo.ece.pdx.edu(10):      6833  1 _external_q
+S 800.0.0 3325 11
+# mo.ece.pdx.edu(11):      6833  1 _external_q
+S 1422.0.0 6013 12
+# mo.ece.pdx.edu(12):      6011  1 _external_q
+S 653.0.0 2696 20
+# mo.ece.pdx.edu(20):      6011  1 _external_q
+S 641.0.0 2642 21
+# mo.ece.pdx.edu(21):      6018  1 _external_q
+S 795.0.0 3306 23
+# mo.ece.pdx.edu(23):      6018  1 _external_q
+S 961.0.0 4024 24
+# mo.ece.pdx.edu(24):      6011  1 _external_q
+S 1269.0.0 5352 25
+# mo.ece.pdx.edu(25):      6011  1 _external_q
+S 1263.0.0 5325 27
+# mo.ece.pdx.edu(27):      6014  1 _external_q
+S 1257.0.0 5298 28
+# mo.ece.pdx.edu(28):      6018  1 _external_q
+F 2218.0.0 9241 2
+F 1921.0.0 8029 5
+F 1672.0.0 7008 6
+F 2143.0.0 8911 8
+F 2205.0.0 9190 13
+F 1256.0.0 5290 14
+F 948.0.0 3962 15
+F 960.0.0 4016 16
+F 794.0.0 3298 17
+F 807.0.0 3360 18
+F 222.0.0 843 19
+F 1108.0.0 4653 22
+F 1115.0.0 4688 30
+S 2144.0.0 8917 2
+# mo.ece.pdx.edu(2):      3301  1 _select_q
+S 1673.0.0 7014 5
+# mo.ece.pdx.edu(5):      3297  1 _select_q
+S 1922.0.0 8035 6
+# mo.ece.pdx.edu(6):      3301  1 _select_q
+S 2206.0.0 9196 8
+# mo.ece.pdx.edu(8):      3298  1 _select_q
+S 217.0.0 820 13
+# mo.ece.pdx.edu(13):      6010  1 _external_q
+S 647.0.0 2669 14
+# mo.ece.pdx.edu(14):      6014  1 _external_q
+S 333.0.0 1314 15
+# mo.ece.pdx.edu(15):      6018  1 _external_q
+S 801.0.0 3333 16
+# mo.ece.pdx.edu(16):      6014  1 _external_q
+S 339.0.0 1341 17
+# mo.ece.pdx.edu(17):      6014  1 _external_q
+S 955.0.0 3997 18
+# mo.ece.pdx.edu(18):      6014  1 _external_q
+S 949.0.0 3970 19
+# mo.ece.pdx.edu(19):      6018  1 _external_q
+S 1416.0.0 5986 22
+# mo.ece.pdx.edu(22):      6014  1 _external_q
+S 1410.0.0 5959 30
+# mo.ece.pdx.edu(30):      6018  1 _external_q
+F 2215.0.0 9226 0
+F 1837.0.0 7682 1
+F 2005.0.0 8376 3
+F 2202.0.0 9170 4
+F 2233.0.0 9301 7
+F 1415.0.0 5978 9
+F 954.0.0 3989 10
+F 800.0.0 3325 11
+F 1422.0.0 6013 12
+F 653.0.0 2696 20
+F 641.0.0 2642 21
+F 795.0.0 3306 23
+F 1269.0.0 5352 25
+F 1846.0.0 7737 26
+F 1263.0.0 5325 27
+F 1409.0.0 5951 31
+S 2006.0.0 8382 0
+# mo.ece.pdx.edu(0):      3301  1 _select_q
+S 1838.0.0 7688 1
+# mo.ece.pdx.edu(1):      3301  1 _select_q
+S 2216.0.0 9229 3
+# mo.ece.pdx.edu(3):      3305  1 _select_q
+S 2203.0.0 9176 4
+# mo.ece.pdx.edu(4):      3298  1 _select_q
+S 2243.0.0 9342 7
+# mo.ece.pdx.edu(7):      3321  1 _select_q
+S 2234.0.0 9307 9
+# mo.ece.pdx.edu(9):      3321  1 _select_q
+S 1103.0.0 4634 10
+# mo.ece.pdx.edu(10):      6018  1 _external_q
+S 1109.0.0 4661 11
+# mo.ece.pdx.edu(11):      6014  1 _external_q
+S 345.0.0 1368 12
+# mo.ece.pdx.edu(12):      6011  1 _external_q
+S 499.0.0 2032 20
+# mo.ece.pdx.edu(20):      6011  1 _external_q
+S 493.0.0 2005 21
+# mo.ece.pdx.edu(21):      6014  1 _external_q
+S 487.0.0 1978 23
+# mo.ece.pdx.edu(23):      6018  1 _external_q
+S 211.0.0 793 25
+# mo.ece.pdx.edu(25):      6014  1 _external_q
+S 227.0.0 866 26
+# mo.ece.pdx.edu(26):      6000  1 _external_q
+S 505.0.0 2059 27
+# mo.ece.pdx.edu(27):      6003  1 _external_q
+S 351.0.0 1395 31
+# mo.ece.pdx.edu(31):      6005  1 _external_q
+F 2144.0.0 8917 2
+F 1673.0.0 7014 5
+F 1922.0.0 8035 6
+F 2206.0.0 9196 8
+F 217.0.0 820 13
+F 647.0.0 2669 14
+F 333.0.0 1314 15
+F 801.0.0 3333 16
+F 339.0.0 1341 17
+F 955.0.0 3997 18
+F 949.0.0 3970 19
+F 1416.0.0 5986 22
+F 961.0.0 4024 24
+F 1257.0.0 5298 28
+S 966.0.0 4043 2
+# mo.ece.pdx.edu(2):      6820  1 _external_q
+S 1427.0.0 6032 5
+# mo.ece.pdx.edu(5):      6820  1 _external_q
+S 812.0.0 3379 6
+# mo.ece.pdx.edu(6):      6820  1 _external_q
+S 1120.0.0 4707 8
+# mo.ece.pdx.edu(8):      6820  1 _external_q
+S 1274.0.0 5375 13
+# mo.ece.pdx.edu(13):      6003  1 _external_q
+S 1273.0.0 5367 14
+# mo.ece.pdx.edu(14):      6817  1 _external_q
+S 1121.0.0 4715 15
+# mo.ece.pdx.edu(15):      6003  1 _external_q
+S 967.0.0 4051 16
+# mo.ece.pdx.edu(16):      6003  1 _external_q
+S 813.0.0 3387 17
+# mo.ece.pdx.edu(17):      6003  1 _external_q
+S 659.0.0 2723 18
+# mo.ece.pdx.edu(18):      6003  1 _external_q
+S 1428.0.0 6040 19
+# mo.ece.pdx.edu(19):      6003  1 _external_q
+S 363.0.0 1442 22
+# mo.ece.pdx.edu(22):      6285  1 _external_q
+S 517.0.0 2106 24
+# mo.ece.pdx.edu(24):      6285  1 _external_q
+S 2100.0.0 8756 28
+# mo.ece.pdx.edu(28):      6224  1 _external_q
+S 2094.0.0 8732 29
+# mo.ece.pdx.edu(29):      7000  1 _external_q
+F 2006.0.0 8382 0
+F 1838.0.0 7688 1
+F 2216.0.0 9229 3
+F 2203.0.0 9176 4
+F 2243.0.0 9342 7
+F 2234.0.0 9307 9
+F 1103.0.0 4634 10
+F 1109.0.0 4661 11
+F 345.0.0 1368 12
+F 493.0.0 2005 21
+F 487.0.0 1978 23
+F 211.0.0 793 25
+F 227.0.0 866 26
+F 505.0.0 2059 27
+F 1410.0.0 5959 30
+S 2217.0.0 9235 0
+# mo.ece.pdx.edu(0):      3298  1 _select_q
+S 2235.0.0 9313 1
+# mo.ece.pdx.edu(1):      2865  1 _select_q
+S 2244.0.0 9348 3
+# mo.ece.pdx.edu(3):      2865  1 _select_q
+S 2091.0.0 8720 4
+# mo.ece.pdx.edu(4):      6177  1 _external_q
+S 1632.0.0 6858 7
+# mo.ece.pdx.edu(7):      7045  1 _external_q
+S 1626.0.0 6834 9
+# mo.ece.pdx.edu(9):      6220  1 _external_q
+S 1629.0.0 6846 10
+# mo.ece.pdx.edu(10):      6222  1 _external_q
+S 671.0.0 2770 11
+# mo.ece.pdx.edu(11):      6285  1 _external_q
+S 2043.0.0 8557 12
+# mo.ece.pdx.edu(12):      6998  1 _external_q
+S 2040.0.0 8545 21
+# mo.ece.pdx.edu(21):      7000  1 _external_q
+S 2037.0.0 8533 23
+# mo.ece.pdx.edu(23):      6177  1 _external_q
+S 2052.0.0 8593 25
+# mo.ece.pdx.edu(25):      7045  1 _external_q
+S 2049.0.0 8581 26
+# mo.ece.pdx.edu(26):      6222  1 _external_q
+S 2046.0.0 8569 27
+# mo.ece.pdx.edu(27):      6224  1 _external_q
+S 1440.0.0 6087 30
+# mo.ece.pdx.edu(30):      6285  1 _external_q
+F 966.0.0 4043 2
+F 1427.0.0 6032 5
+F 812.0.0 3379 6
+F 1120.0.0 4707 8
+F 1274.0.0 5375 13
+F 1273.0.0 5367 14
+F 1121.0.0 4715 15
+F 967.0.0 4051 16
+F 813.0.0 3387 17
+F 659.0.0 2723 18
+F 499.0.0 2032 20
+F 363.0.0 1442 22
+F 517.0.0 2106 24
+F 2100.0.0 8756 28
+F 351.0.0 1395 31
+S 1286.0.0 5422 2
+# mo.ece.pdx.edu(2):      6285  1 _external_q
+S 1133.0.0 4762 5
+# mo.ece.pdx.edu(5):      6285  1 _external_q
+S 979.0.0 4098 6
+# mo.ece.pdx.edu(6):      6285  1 _external_q
+S 825.0.0 3434 8
+# mo.ece.pdx.edu(8):      6285  1 _external_q
+S 1566.0.0 6620 13
+# mo.ece.pdx.edu(13):      7096  1 _external_q
+S 1716.0.0 7205 14
+# mo.ece.pdx.edu(14):      7045  1 _external_q
+S 1710.0.0 7181 15
+# mo.ece.pdx.edu(15):      6224  1 _external_q
+S 1968.0.0 8246 16
+# mo.ece.pdx.edu(16):      7045  1 _external_q
+S 1962.0.0 8222 17
+# mo.ece.pdx.edu(17):      6224  1 _external_q
+S 1956.0.0 8198 18
+# mo.ece.pdx.edu(18):      7000  1 _external_q
+S 1884.0.0 7899 20
+# mo.ece.pdx.edu(20):      7045  1 _external_q
+S 1878.0.0 7875 22
+# mo.ece.pdx.edu(22):      6224  1 _external_q
+S 1872.0.0 7851 24
+# mo.ece.pdx.edu(24):      7000  1 _external_q
+S 1800.0.0 7552 28
+# mo.ece.pdx.edu(28):      7045  1 _external_q
+S 1794.0.0 7528 31
+# mo.ece.pdx.edu(31):      6224  1 _external_q
+F 2217.0.0 9235 0
+F 2235.0.0 9313 1
+F 2244.0.0 9348 3
+F 2091.0.0 8720 4
+F 1626.0.0 6834 9
+F 1629.0.0 6846 10
+F 671.0.0 2770 11
+F 2043.0.0 8557 12
+F 1428.0.0 6040 19
+F 2040.0.0 8545 21
+F 2037.0.0 8533 23
+F 2052.0.0 8593 25
+F 2094.0.0 8732 29
+S 2251.0.0 9368 0
+# mo.ece.pdx.edu(0):      1760  1 _copy
+S 2245.0.0 9354 1
+# mo.ece.pdx.edu(1):      1757  1 _copy
+S 2248.0.0 9361 3
+# mo.ece.pdx.edu(3):      1760  1 _copy
+S 2236.0.0 9319 4
+# mo.ece.pdx.edu(4):      1757  1 _copy
+S 1788.0.0 7504 9
+# mo.ece.pdx.edu(9):      7000  1 _external_q
+S 1875.0.0 7863 10
+# mo.ece.pdx.edu(10):      6998  1 _external_q
+S 1869.0.0 7839 11
+# mo.ece.pdx.edu(11):      6177  1 _external_q
+S 1713.0.0 7193 12
+# mo.ece.pdx.edu(12):      6222  1 _external_q
+S 1881.0.0 7887 19
+# mo.ece.pdx.edu(19):      6222  1 _external_q
+S 1959.0.0 8210 21
+# mo.ece.pdx.edu(21):      6998  1 _external_q
+S 1953.0.0 8186 23
+# mo.ece.pdx.edu(23):      6177  1 _external_q
+S 1965.0.0 8234 25
+# mo.ece.pdx.edu(25):      6222  1 _external_q
+S 1791.0.0 7516 29
+# mo.ece.pdx.edu(29):      6998  1 _external_q
+F 1286.0.0 5422 2
+F 1133.0.0 4762 5
+F 979.0.0 4098 6
+F 1632.0.0 6858 7
+F 825.0.0 3434 8
+F 1716.0.0 7205 14
+F 1710.0.0 7181 15
+F 1968.0.0 8246 16
+F 1962.0.0 8222 17
+F 1956.0.0 8198 18
+F 1884.0.0 7899 20
+F 1878.0.0 7875 22
+F 1872.0.0 7851 24
+F 2049.0.0 8581 26
+F 2046.0.0 8569 27
+F 1440.0.0 6087 30
+S 1785.0.0 7492 2
+# mo.ece.pdx.edu(2):      6177  1 _external_q
+S 1797.0.0 7540 5
+# mo.ece.pdx.edu(5):      6222  1 _external_q
+S 2266.0.0 9418 6
+# mo.ece.pdx.edu(6):      6091  1 _external_q
+S 2257.0.0 9385 7
+# mo.ece.pdx.edu(7):      6141  1 _external_q
+S 2174.0.0 9066 8
+# mo.ece.pdx.edu(8):      6146  1 _external_q
+S 1551.0.0 6571 14
+# mo.ece.pdx.edu(14):      6126  1 _external_q
+S 1443.0.0 6099 15
+# mo.ece.pdx.edu(15):      6980  1 _external_q
+S 1398.0.0 5911 16
+# mo.ece.pdx.edu(16):      6129  1 _external_q
+S 1289.0.0 5434 17
+# mo.ece.pdx.edu(17):      6980  1 _external_q
+S 1245.0.0 5250 18
+# mo.ece.pdx.edu(18):      6129  1 _external_q
+S 1139.0.0 4786 20
+# mo.ece.pdx.edu(20):      6982  1 _external_q
+S 1091.0.0 4586 22
+# mo.ece.pdx.edu(22):      6129  1 _external_q
+S 985.0.0 4122 24
+# mo.ece.pdx.edu(24):      6982  1 _external_q
+S 982.0.0 4110 26
+# mo.ece.pdx.edu(26):      6980  1 _external_q
+S 937.0.0 3922 27
+# mo.ece.pdx.edu(27):      6129  1 _external_q
+S 783.0.0 3258 30
+# mo.ece.pdx.edu(30):      6129  1 _external_q
+F 1566.0.0 6620 13
+F 1800.0.0 7552 28
+F 1794.0.0 7528 31
+S 258.0.0 972 13
+# mo.ece.pdx.edu(13):      1912  1 _boolean_not_q
+S 257.0.0 968 28
+# mo.ece.pdx.edu(28):      1908  1 _boolean_not_q
+S 259.0.0 976 31
+# mo.ece.pdx.edu(31):      1914  1 _boolean_not_q
+F 2248.0.0 9361 3
+S 215.0.0 808 3
+# mo.ece.pdx.edu(3):      1892  1 _boolean_not_q
+F 2245.0.0 9354 1
+S 234.0.0 895 1
+# mo.ece.pdx.edu(1):      1932  1 _boolean_not_q
+F 2251.0.0 9368 0
+F 2236.0.0 9319 4
+S 1641.0.0 6894 0
+# mo.ece.pdx.edu(0):      2123  1 _boolean_not_q
+S 1597.0.0 6735 4
+# mo.ece.pdx.edu(4):      2049  1 _boolean_not_q
+F 1965.0.0 8234 25
+S 245.0.0 932 25
+# mo.ece.pdx.edu(25):      2581  1 _level_one_q
+F 1713.0.0 7193 12
+S 1656.0.0 6937 12
+# mo.ece.pdx.edu(12):      2606  1 _covered_by_q
+F 2174.0.0 9066 8
+S 1653.0.0 6926 8
+# mo.ece.pdx.edu(8):      2604  1 _covered_by_q
+F 1869.0.0 7839 11
+S 1647.0.0 6910 11
+# mo.ece.pdx.edu(11):      3429  1 _covered_by_q
+F 1953.0.0 8186 23
+S 705.0.0 2898 23
+# mo.ece.pdx.edu(23):      2221  1 _interacting_edge_q
+F 1398.0.0 5911 16
+S 877.0.0 3650 16
+# mo.ece.pdx.edu(16):      2221  1 _interacting_edge_q
+F 258.0.0 972 13
+S 279.0.0 1074 13
+# mo.ece.pdx.edu(13):      2255  1 _interacting_edge_q
+F 1785.0.0 7492 2
+F 215.0.0 808 3
+F 1797.0.0 7540 5
+F 2266.0.0 9418 6
+F 2257.0.0 9385 7
+F 1788.0.0 7504 9
+F 1875.0.0 7863 10
+F 1551.0.0 6571 14
+F 1443.0.0 6099 15
+F 877.0.0 3650 16
+F 1289.0.0 5434 17
+F 1245.0.0 5250 18
+F 1881.0.0 7887 19
+F 1139.0.0 4786 20
+F 1959.0.0 8210 21
+F 1091.0.0 4586 22
+F 705.0.0 2898 23
+F 985.0.0 4122 24
+F 982.0.0 4110 26
+F 937.0.0 3922 27
+F 783.0.0 3258 30
+F 259.0.0 976 31
+S 297.0.0 1162 2
+# mo.ece.pdx.edu(2):      2255  1 _interacting_edge_q
+S 723.0.0 2986 3
+# mo.ece.pdx.edu(3):      2221  1 _interacting_edge_q
+S 761.0.0 3168 5
+# mo.ece.pdx.edu(5):      2221  1 _interacting_edge_q
+S 1492.0.0 6303 6
+# mo.ece.pdx.edu(6):      2221  1 _interacting_edge_q
+S 1474.0.0 6215 7
+# mo.ece.pdx.edu(7):      2221  1 _interacting_edge_q
+S 1167.0.0 4890 9
+# mo.ece.pdx.edu(9):      2221  1 _interacting_edge_q
+S 1223.0.0 5160 10
+# mo.ece.pdx.edu(10):      2221  1 _interacting_edge_q
+S 1510.0.0 6391 14
+# mo.ece.pdx.edu(14):      2221  1 _interacting_edge_q
+S 1338.0.0 5638 15
+# mo.ece.pdx.edu(15):      2221  1 _interacting_edge_q
+S 741.0.0 3074 16
+# mo.ece.pdx.edu(16):      2221  1 _interacting_edge_q
+S 1031.0.0 4314 17
+# mo.ece.pdx.edu(17):      2221  1 _interacting_edge_q
+S 1203.0.0 5066 18
+# mo.ece.pdx.edu(18):      2221  1 _interacting_edge_q
+S 895.0.0 3738 19
+# mo.ece.pdx.edu(19):      2221  1 _interacting_edge_q
+S 1049.0.0 4402 20
+# mo.ece.pdx.edu(20):      2221  1 _interacting_edge_q
+S 1185.0.0 4978 21
+# mo.ece.pdx.edu(21):      2221  1 _interacting_edge_q
+S 1013.0.0 4226 22
+# mo.ece.pdx.edu(22):      2221  1 _interacting_edge_q
+S 1356.0.0 5726 23
+# mo.ece.pdx.edu(23):      2221  1 _interacting_edge_q
+S 1320.0.0 5550 24
+# mo.ece.pdx.edu(24):      2221  1 _interacting_edge_q
+S 859.0.0 3562 26
+# mo.ece.pdx.edu(26):      2221  1 _interacting_edge_q
+S 1530.0.0 6485 27
+# mo.ece.pdx.edu(27):      2221  1 _interacting_edge_q
+S 1069.0.0 4496 30
+# mo.ece.pdx.edu(30):      2221  1 _interacting_edge_q
+S 1376.0.0 5821 31
+# mo.ece.pdx.edu(31):      2221  1 _interacting_edge_q
+F 1641.0.0 6894 0
+F 1653.0.0 6926 8
+F 1647.0.0 6910 11
+F 1656.0.0 6937 12
+F 245.0.0 932 25
+F 257.0.0 968 28
+F 1791.0.0 7516 29
+S 209.0.0 781 0
+# mo.ece.pdx.edu(0):      1571  1 _boolean_not_q
+S 248.0.0 941 8
+# mo.ece.pdx.edu(8):      1611  1 _select_donut_hole
+S 246.0.0 936 11
+# mo.ece.pdx.edu(11):      1622  1 _select_donut_hole
+S 261.0.0 986 12
+# mo.ece.pdx.edu(12):      2251  1 _interacting_edge_q
+S 915.0.0 3832 25
+# mo.ece.pdx.edu(25):      2221  1 _interacting_edge_q
+S 605.0.0 2490 28
+# mo.ece.pdx.edu(28):      2255  1 _interacting_edge_q
+S 451.0.0 1826 29
+# mo.ece.pdx.edu(29):      2255  1 _interacting_edge_q
+F 234.0.0 895 1
+F 297.0.0 1162 2
+F 723.0.0 2986 3
+F 1597.0.0 6735 4
+F 761.0.0 3168 5
+F 1492.0.0 6303 6
+F 1474.0.0 6215 7
+F 1167.0.0 4890 9
+F 1223.0.0 5160 10
+F 279.0.0 1074 13
+F 1510.0.0 6391 14
+F 1338.0.0 5638 15
+F 741.0.0 3074 16
+F 1031.0.0 4314 17
+F 1203.0.0 5066 18
+F 895.0.0 3738 19
+F 1049.0.0 4402 20
+F 1185.0.0 4978 21
+F 1013.0.0 4226 22
+F 1356.0.0 5726 23
+F 859.0.0 3562 26
+F 1530.0.0 6485 27
+F 1069.0.0 4496 30
+S 395.0.0 1556 1
+# mo.ece.pdx.edu(1):      2251  1 _interacting_edge_q
+S 549.0.0 2220 2
+# mo.ece.pdx.edu(2):      2251  1 _interacting_edge_q
+S 413.0.0 1644 3
+# mo.ece.pdx.edu(3):      2255  1 _interacting_edge_q
+S 567.0.0 2308 4
+# mo.ece.pdx.edu(4):      2255  1 _interacting_edge_q
+S 585.0.0 2396 5
+# mo.ece.pdx.edu(5):      2255  1 _interacting_edge_q
+S 431.0.0 1732 6
+# mo.ece.pdx.edu(6):      2255  1 _interacting_edge_q
+S 1490.0.0 6289 7
+# mo.ece.pdx.edu(7):      2255  1 _interacting_edge_q
+S 1472.0.0 6201 9
+# mo.ece.pdx.edu(9):      2251  1 _interacting_edge_q
+S 703.0.0 2884 10
+# mo.ece.pdx.edu(10):      2251  1 _interacting_edge_q
+S 875.0.0 3636 13
+# mo.ece.pdx.edu(13):      2255  1 _interacting_edge_q
+S 1508.0.0 6377 14
+# mo.ece.pdx.edu(14):      2255  1 _interacting_edge_q
+S 1336.0.0 5624 15
+# mo.ece.pdx.edu(15):      2255  1 _interacting_edge_q
+S 1318.0.0 5536 16
+# mo.ece.pdx.edu(16):      2251  1 _interacting_edge_q
+S 857.0.0 3548 17
+# mo.ece.pdx.edu(17):      2251  1 _interacting_edge_q
+S 1029.0.0 4300 18
+# mo.ece.pdx.edu(18):      2255  1 _interacting_edge_q
+S 1201.0.0 5052 19
+# mo.ece.pdx.edu(19):      2255  1 _interacting_edge_q
+S 893.0.0 3724 20
+# mo.ece.pdx.edu(20):      2255  1 _interacting_edge_q
+S 721.0.0 2972 21
+# mo.ece.pdx.edu(21):      2255  1 _interacting_edge_q
+S 1047.0.0 4388 22
+# mo.ece.pdx.edu(22):      2255  1 _interacting_edge_q
+S 1183.0.0 4964 23
+# mo.ece.pdx.edu(23):      2255  1 _interacting_edge_q
+S 1165.0.0 4876 26
+# mo.ece.pdx.edu(26):      2251  1 _interacting_edge_q
+S 1011.0.0 4212 27
+# mo.ece.pdx.edu(27):      2251  1 _interacting_edge_q
+S 1354.0.0 5712 30
+# mo.ece.pdx.edu(30):      2255  1 _interacting_edge_q
+F 209.0.0 781 0
+F 248.0.0 941 8
+F 246.0.0 936 11
+F 1320.0.0 5550 24
+F 915.0.0 3832 25
+F 605.0.0 2490 28
+F 451.0.0 1826 29
+F 1376.0.0 5821 31
+S 249.0.0 944 0
+# mo.ece.pdx.edu(0):      2097  1 _boolean_not_q
+S 1221.0.0 5146 8
+# mo.ece.pdx.edu(8):      2255  1 _interacting_edge_q
+S 913.0.0 3818 11
+# mo.ece.pdx.edu(11):      2255  1 _interacting_edge_q
+S 1528.0.0 6471 24
+# mo.ece.pdx.edu(24):      2255  1 _interacting_edge_q
+S 1067.0.0 4482 25
+# mo.ece.pdx.edu(25):      2255  1 _interacting_edge_q
+S 1374.0.0 5807 28
+# mo.ece.pdx.edu(28):      2255  1 _interacting_edge_q
+S 759.0.0 3154 29
+# mo.ece.pdx.edu(29):      2255  1 _interacting_edge_q
+S 739.0.0 3060 31
+# mo.ece.pdx.edu(31):      2255  1 _interacting_edge_q
+F 395.0.0 1556 1
+F 549.0.0 2220 2
+F 413.0.0 1644 3
+F 567.0.0 2308 4
+F 585.0.0 2396 5
+F 431.0.0 1732 6
+F 1490.0.0 6289 7
+F 1472.0.0 6201 9
+F 703.0.0 2884 10
+F 261.0.0 986 12
+F 875.0.0 3636 13
+F 1508.0.0 6377 14
+F 1336.0.0 5624 15
+F 1318.0.0 5536 16
+F 857.0.0 3548 17
+F 1029.0.0 4300 18
+F 893.0.0 3724 20
+F 721.0.0 2972 21
+F 1047.0.0 4388 22
+F 1183.0.0 4964 23
+F 1165.0.0 4876 26
+S 1168.0.0 4896 1
+# mo.ece.pdx.edu(1):      2096  1 _edge_size_q
+S 1186.0.0 4984 2
+# mo.ece.pdx.edu(2):      2096  1 _edge_size_q
+S 1050.0.0 4408 3
+# mo.ece.pdx.edu(3):      2096  1 _edge_size_q
+S 724.0.0 2992 4
+# mo.ece.pdx.edu(4):      2096  1 _edge_size_q
+S 896.0.0 3744 5
+# mo.ece.pdx.edu(5):      2096  1 _edge_size_q
+S 1032.0.0 4320 6
+# mo.ece.pdx.edu(6):      2096  1 _edge_size_q
+S 860.0.0 3568 7
+# mo.ece.pdx.edu(7):      2096  1 _edge_size_q
+S 1321.0.0 5556 9
+# mo.ece.pdx.edu(9):      2096  1 _edge_size_q
+S 1339.0.0 5644 10
+# mo.ece.pdx.edu(10):      2096  1 _edge_size_q
+S 1511.0.0 6397 12
+# mo.ece.pdx.edu(12):      2096  1 _edge_size_q
+S 878.0.0 3656 13
+# mo.ece.pdx.edu(13):      2096  1 _edge_size_q
+S 264.0.0 1006 14
+# mo.ece.pdx.edu(14):      2096  1 _edge_size_q
+S 706.0.0 2904 15
+# mo.ece.pdx.edu(15):      2096  1 _edge_size_q
+S 1475.0.0 6221 16
+# mo.ece.pdx.edu(16):      2096  1 _edge_size_q
+S 1493.0.0 6309 17
+# mo.ece.pdx.edu(17):      2096  1 _edge_size_q
+S 434.0.0 1752 18
+# mo.ece.pdx.edu(18):      2096  1 _edge_size_q
+S 588.0.0 2416 20
+# mo.ece.pdx.edu(20):      2096  1 _edge_size_q
+S 570.0.0 2328 21
+# mo.ece.pdx.edu(21):      2096  1 _edge_size_q
+S 416.0.0 1664 22
+# mo.ece.pdx.edu(22):      2096  1 _edge_size_q
+S 552.0.0 2240 23
+# mo.ece.pdx.edu(23):      2096  1 _edge_size_q
+S 398.0.0 1576 26
+# mo.ece.pdx.edu(26):      2096  1 _edge_size_q
+F 249.0.0 944 0
+F 1221.0.0 5146 8
+F 913.0.0 3818 11
+F 1201.0.0 5052 19
+F 1528.0.0 6471 24
+F 1067.0.0 4482 25
+F 1011.0.0 4212 27
+F 1374.0.0 5807 28
+F 759.0.0 3154 29
+F 1354.0.0 5712 30
+S 1357.0.0 5732 0
+# mo.ece.pdx.edu(0):      2096  1 _edge_size_q
+S 762.0.0 3174 8
+# mo.ece.pdx.edu(8):      2096  1 _edge_size_q
+S 1377.0.0 5827 11
+# mo.ece.pdx.edu(11):      2096  1 _edge_size_q
+S 1014.0.0 4232 19
+# mo.ece.pdx.edu(19):      2096  1 _edge_size_q
+S 1070.0.0 4502 24
+# mo.ece.pdx.edu(24):      2096  1 _edge_size_q
+S 1531.0.0 6491 25
+# mo.ece.pdx.edu(25):      2096  1 _edge_size_q
+S 1204.0.0 5072 27
+# mo.ece.pdx.edu(27):      2096  1 _edge_size_q
+S 916.0.0 3838 28
+# mo.ece.pdx.edu(28):      2096  1 _edge_size_q
+S 1224.0.0 5166 29
+# mo.ece.pdx.edu(29):      2096  1 _edge_size_q
+S 1378.0.0 5831 30
+# mo.ece.pdx.edu(30):      2094  1 _edge_size_q
+F 1186.0.0 4984 2
+F 1050.0.0 4408 3
+F 724.0.0 2992 4
+F 896.0.0 3744 5
+F 1032.0.0 4320 6
+F 860.0.0 3568 7
+F 1321.0.0 5556 9
+F 1339.0.0 5644 10
+F 1511.0.0 6397 12
+F 878.0.0 3656 13
+F 264.0.0 1006 14
+F 706.0.0 2904 15
+F 1475.0.0 6221 16
+F 1493.0.0 6309 17
+F 434.0.0 1752 18
+F 588.0.0 2416 20
+F 570.0.0 2328 21
+F 416.0.0 1664 22
+F 552.0.0 2240 23
+F 739.0.0 3060 31
+S 742.0.0 3080 2
+# mo.ece.pdx.edu(2):      2096  1 _edge_size_q
+S 454.0.0 1846 3
+# mo.ece.pdx.edu(3):      2096  1 _edge_size_q
+S 608.0.0 2510 4
+# mo.ece.pdx.edu(4):      2096  1 _edge_size_q
+S 917.0.0 3842 5
+# mo.ece.pdx.edu(5):      2094  1 _edge_size_q
+S 1322.0.0 5560 6
+# mo.ece.pdx.edu(6):      2094  1 _edge_size_q
+S 1071.0.0 4506 7
+# mo.ece.pdx.edu(7):      2094  1 _edge_size_q
+S 1532.0.0 6495 9
+# mo.ece.pdx.edu(9):      2094  1 _edge_size_q
+S 861.0.0 3572 10
+# mo.ece.pdx.edu(10):      2094  1 _edge_size_q
+S 1358.0.0 5736 12
+# mo.ece.pdx.edu(12):      2094  1 _edge_size_q
+S 1015.0.0 4236 13
+# mo.ece.pdx.edu(13):      2094  1 _edge_size_q
+S 1187.0.0 4988 14
+# mo.ece.pdx.edu(14):      2094  1 _edge_size_q
+S 1051.0.0 4412 15
+# mo.ece.pdx.edu(15):      2094  1 _edge_size_q
+S 897.0.0 3748 16
+# mo.ece.pdx.edu(16):      2094  1 _edge_size_q
+S 1205.0.0 5076 17
+# mo.ece.pdx.edu(17):      2094  1 _edge_size_q
+S 1033.0.0 4324 18
+# mo.ece.pdx.edu(18):      2094  1 _edge_size_q
+S 743.0.0 3084 20
+# mo.ece.pdx.edu(20):      2094  1 _edge_size_q
+S 1340.0.0 5648 21
+# mo.ece.pdx.edu(21):      2094  1 _edge_size_q
+S 1512.0.0 6401 22
+# mo.ece.pdx.edu(22):      2094  1 _edge_size_q
+S 282.0.0 1094 23
+# mo.ece.pdx.edu(23):      2096  1 _edge_size_q
+S 1225.0.0 5170 31
+# mo.ece.pdx.edu(31):      2094  1 _edge_size_q
+F 1357.0.0 5732 0
+F 1168.0.0 4896 1
+F 762.0.0 3174 8
+F 1377.0.0 5827 11
+F 1014.0.0 4232 19
+F 1070.0.0 4502 24
+F 1531.0.0 6491 25
+F 398.0.0 1576 26
+F 1204.0.0 5072 27
+F 916.0.0 3838 28
+F 1224.0.0 5166 29
+S 1169.0.0 4900 0
+# mo.ece.pdx.edu(0):      2094  1 _edge_size_q
+S 1476.0.0 6225 1
+# mo.ece.pdx.edu(1):      2094  1 _edge_size_q
+S 1494.0.0 6313 8
+# mo.ece.pdx.edu(8):      2094  1 _edge_size_q
+S 763.0.0 3178 11
+# mo.ece.pdx.edu(11):      2094  1 _edge_size_q
+S 725.0.0 2996 19
+# mo.ece.pdx.edu(19):      2094  1 _edge_size_q
+S 300.0.0 1182 24
+# mo.ece.pdx.edu(24):      2096  1 _edge_size_q
+S 707.0.0 2908 25
+# mo.ece.pdx.edu(25):      2094  1 _edge_size_q
+S 879.0.0 3660 26
+# mo.ece.pdx.edu(26):      2094  1 _edge_size_q
+S 1574.0.0 6650 27
+# mo.ece.pdx.edu(27):      5166  1 _internal_q
+S 1570.0.0 6635 28
+# mo.ece.pdx.edu(28):      5168  1 _internal_q
+S 2198.0.0 9148 29
+# mo.ece.pdx.edu(29):      5165  1 _internal_q
+F 1378.0.0 5831 30
+S 1379.0.0 5835 30
+# mo.ece.pdx.edu(30):      1863  1 _boolean_and_q
+F 1169.0.0 4900 0
+F 742.0.0 3080 2
+F 454.0.0 1846 3
+F 608.0.0 2510 4
+F 917.0.0 3842 5
+F 1322.0.0 5560 6
+F 1071.0.0 4506 7
+F 1494.0.0 6313 8
+F 1532.0.0 6495 9
+F 861.0.0 3572 10
+F 1358.0.0 5736 12
+F 1015.0.0 4236 13
+F 1187.0.0 4988 14
+F 1051.0.0 4412 15
+F 897.0.0 3748 16
+F 1205.0.0 5076 17
+F 1033.0.0 4324 18
+F 743.0.0 3084 20
+F 1340.0.0 5648 21
+F 1512.0.0 6401 22
+F 282.0.0 1094 23
+F 707.0.0 2908 25
+F 879.0.0 3660 26
+F 1225.0.0 5170 31
+S 1226.0.0 5174 0
+# mo.ece.pdx.edu(0):      1863  1 _boolean_and_q
+S 880.0.0 3664 2
+# mo.ece.pdx.edu(2):      1863  1 _boolean_and_q
+S 708.0.0 2912 3
+# mo.ece.pdx.edu(3):      1863  1 _boolean_and_q
+S 1513.0.0 6405 4
+# mo.ece.pdx.edu(4):      1863  1 _boolean_and_q
+S 1341.0.0 5652 5
+# mo.ece.pdx.edu(5):      1863  1 _boolean_and_q
+S 744.0.0 3088 6
+# mo.ece.pdx.edu(6):      1863  1 _boolean_and_q
+S 1034.0.0 4328 7
+# mo.ece.pdx.edu(7):      1863  1 _boolean_and_q
+S 1206.0.0 5080 8
+# mo.ece.pdx.edu(8):      1863  1 _boolean_and_q
+S 898.0.0 3752 9
+# mo.ece.pdx.edu(9):      1863  1 _boolean_and_q
+S 1052.0.0 4416 10
+# mo.ece.pdx.edu(10):      1863  1 _boolean_and_q
+S 1188.0.0 4992 12
+# mo.ece.pdx.edu(12):      1863  1 _boolean_and_q
+S 1016.0.0 4240 13
+# mo.ece.pdx.edu(13):      1863  1 _boolean_and_q
+S 1359.0.0 5740 14
+# mo.ece.pdx.edu(14):      1863  1 _boolean_and_q
+S 862.0.0 3576 15
+# mo.ece.pdx.edu(15):      1863  1 _boolean_and_q
+S 1533.0.0 6499 16
+# mo.ece.pdx.edu(16):      1863  1 _boolean_and_q
+S 1495.0.0 6317 17
+# mo.ece.pdx.edu(17):      1863  1 _boolean_and_q
+S 1072.0.0 4510 18
+# mo.ece.pdx.edu(18):      1863  1 _boolean_and_q
+S 1323.0.0 5564 20
+# mo.ece.pdx.edu(20):      1863  1 _boolean_and_q
+S 918.0.0 3846 21
+# mo.ece.pdx.edu(21):      1863  1 _boolean_and_q
+S 1170.0.0 4904 22
+# mo.ece.pdx.edu(22):      1863  1 _boolean_and_q
+S 2195.0.0 9134 23
+# mo.ece.pdx.edu(23):      5165  1 _internal_q
+S 771.0.0 3219 25
+# mo.ece.pdx.edu(25):      2270  1 _adjacent_edge_q
+S 715.0.0 2949 26
+# mo.ece.pdx.edu(26):      2271  1 _adjacent_edge_q
+S 1348.0.0 5689 31
+# mo.ece.pdx.edu(31):      2273  1 _adjacent_edge_q
+F 1476.0.0 6225 1
+F 763.0.0 3178 11
+F 725.0.0 2996 19
+F 300.0.0 1182 24
+F 1574.0.0 6650 27
+F 1570.0.0 6635 28
+F 2198.0.0 9148 29
+S 726.0.0 3000 1
+# mo.ece.pdx.edu(1):      1863  1 _boolean_and_q
+S 764.0.0 3182 11
+# mo.ece.pdx.edu(11):      1863  1 _boolean_and_q
+S 1477.0.0 6229 19
+# mo.ece.pdx.edu(19):      1863  1 _boolean_and_q
+S 2200.0.0 9158 24
+# mo.ece.pdx.edu(24):      1865  1 _boolean_and_q
+S 887.0.0 3701 27
+# mo.ece.pdx.edu(27):      2273  1 _adjacent_edge_q
+S 733.0.0 3037 28
+# mo.ece.pdx.edu(28):      2273  1 _adjacent_edge_q
+S 1502.0.0 6354 29
+# mo.ece.pdx.edu(29):      2273  1 _adjacent_edge_q
+F 880.0.0 3664 2
+F 708.0.0 2912 3
+F 1513.0.0 6405 4
+F 1341.0.0 5652 5
+F 744.0.0 3088 6
+F 1034.0.0 4328 7
+F 1206.0.0 5080 8
+F 1052.0.0 4416 10
+F 1188.0.0 4992 12
+F 1016.0.0 4240 13
+F 1359.0.0 5740 14
+F 862.0.0 3576 15
+F 1533.0.0 6499 16
+F 1495.0.0 6317 17
+F 1072.0.0 4510 18
+F 1323.0.0 5564 20
+F 918.0.0 3846 21
+F 1170.0.0 4904 22
+F 2195.0.0 9134 23
+F 771.0.0 3219 25
+F 715.0.0 2949 26
+F 1379.0.0 5835 30
+S 2197.0.0 9144 2
+# mo.ece.pdx.edu(2):      1865  1 _boolean_and_q
+S 716.0.0 2953 3
+# mo.ece.pdx.edu(3):      3413  1 _select_q
+S 772.0.0 3223 4
+# mo.ece.pdx.edu(4):      3412  1 _select_q
+S 1380.0.0 5839 5
+# mo.ece.pdx.edu(5):      2227  1 _interacting_edge_q
+S 1171.0.0 4908 6
+# mo.ece.pdx.edu(6):      2227  1 _interacting_edge_q
+S 919.0.0 3850 7
+# mo.ece.pdx.edu(7):      2227  1 _interacting_edge_q
+S 1324.0.0 5568 8
+# mo.ece.pdx.edu(8):      2227  1 _interacting_edge_q
+S 1073.0.0 4514 10
+# mo.ece.pdx.edu(10):      2227  1 _interacting_edge_q
+S 1496.0.0 6321 12
+# mo.ece.pdx.edu(12):      2227  1 _interacting_edge_q
+S 1534.0.0 6503 13
+# mo.ece.pdx.edu(13):      2227  1 _interacting_edge_q
+S 863.0.0 3580 14
+# mo.ece.pdx.edu(14):      2227  1 _interacting_edge_q
+S 1360.0.0 5744 15
+# mo.ece.pdx.edu(15):      2227  1 _interacting_edge_q
+S 1017.0.0 4244 16
+# mo.ece.pdx.edu(16):      2227  1 _interacting_edge_q
+S 1189.0.0 4996 17
+# mo.ece.pdx.edu(17):      2227  1 _interacting_edge_q
+S 1053.0.0 4420 18
+# mo.ece.pdx.edu(18):      2227  1 _interacting_edge_q
+S 1207.0.0 5084 20
+# mo.ece.pdx.edu(20):      2227  1 _interacting_edge_q
+S 1035.0.0 4332 21
+# mo.ece.pdx.edu(21):      2227  1 _interacting_edge_q
+S 745.0.0 3092 22
+# mo.ece.pdx.edu(22):      2227  1 _interacting_edge_q
+S 1342.0.0 5656 23
+# mo.ece.pdx.edu(23):      2227  1 _interacting_edge_q
+S 1514.0.0 6409 25
+# mo.ece.pdx.edu(25):      2227  1 _interacting_edge_q
+S 709.0.0 2916 26
+# mo.ece.pdx.edu(26):      2227  1 _interacting_edge_q
+S 881.0.0 3668 30
+# mo.ece.pdx.edu(30):      2227  1 _interacting_edge_q
+F 1226.0.0 5174 0
+F 898.0.0 3752 9
+F 764.0.0 3182 11
+F 1477.0.0 6229 19
+F 2200.0.0 9158 24
+F 887.0.0 3701 27
+F 733.0.0 3037 28
+F 1348.0.0 5689 31
+S 1349.0.0 5693 0
+# mo.ece.pdx.edu(0):      3415  1 _select_q
+S 734.0.0 3041 9
+# mo.ece.pdx.edu(9):      3415  1 _select_q
+S 888.0.0 3705 11
+# mo.ece.pdx.edu(11):      3415  1 _select_q
+S 1478.0.0 6233 19
+# mo.ece.pdx.edu(19):      2227  1 _interacting_edge_q
+S 765.0.0 3186 24
+# mo.ece.pdx.edu(24):      2227  1 _interacting_edge_q
+S 899.0.0 3756 27
+# mo.ece.pdx.edu(27):      2227  1 _interacting_edge_q
+S 1227.0.0 5178 28
+# mo.ece.pdx.edu(28):      2227  1 _interacting_edge_q
+S 1484.0.0 6266 31
+# mo.ece.pdx.edu(31):      2271  1 _adjacent_edge_q
+F 726.0.0 3000 1
+F 2197.0.0 9144 2
+F 716.0.0 2953 3
+F 772.0.0 3223 4
+F 1380.0.0 5839 5
+F 1171.0.0 4908 6
+F 919.0.0 3850 7
+F 1324.0.0 5568 8
+F 1073.0.0 4514 10
+F 1496.0.0 6321 12
+F 1534.0.0 6503 13
+F 863.0.0 3580 14
+F 1360.0.0 5744 15
+F 1017.0.0 4244 16
+F 1189.0.0 4996 17
+F 1053.0.0 4420 18
+F 1207.0.0 5084 20
+F 1035.0.0 4332 21
+F 745.0.0 3092 22
+F 1342.0.0 5656 23
+F 1514.0.0 6409 25
+F 1502.0.0 6354 29
+F 881.0.0 3668 30
+S 1503.0.0 6358 1
+# mo.ece.pdx.edu(1):      3415  1 _select_q
+S 727.0.0 3004 2
+# mo.ece.pdx.edu(2):      2227  1 _interacting_edge_q
+S 882.0.0 3674 3
+# mo.ece.pdx.edu(3):      1940  1 _length_edge_q
+S 1515.0.0 6415 4
+# mo.ece.pdx.edu(4):      1939  1 _length_edge_q
+S 1343.0.0 5662 5
+# mo.ece.pdx.edu(5):      1940  1 _length_edge_q
+S 746.0.0 3098 6
+# mo.ece.pdx.edu(6):      1939  1 _length_edge_q
+S 1036.0.0 4338 7
+# mo.ece.pdx.edu(7):      1940  1 _length_edge_q
+S 1208.0.0 5090 8
+# mo.ece.pdx.edu(8):      1939  1 _length_edge_q
+S 1054.0.0 4426 10
+# mo.ece.pdx.edu(10):      1939  1 _length_edge_q
+S 1190.0.0 5002 12
+# mo.ece.pdx.edu(12):      1940  1 _length_edge_q
+S 1018.0.0 4250 13
+# mo.ece.pdx.edu(13):      1939  1 _length_edge_q
+S 1361.0.0 5750 14
+# mo.ece.pdx.edu(14):      1939  1 _length_edge_q
+S 864.0.0 3586 15
+# mo.ece.pdx.edu(15):      1939  1 _length_edge_q
+S 1535.0.0 6509 16
+# mo.ece.pdx.edu(16):      1939  1 _length_edge_q
+S 1497.0.0 6327 17
+# mo.ece.pdx.edu(17):      1940  1 _length_edge_q
+S 1074.0.0 4520 18
+# mo.ece.pdx.edu(18):      1939  1 _length_edge_q
+S 1325.0.0 5574 20
+# mo.ece.pdx.edu(20):      1939  1 _length_edge_q
+S 920.0.0 3856 21
+# mo.ece.pdx.edu(21):      1939  1 _length_edge_q
+S 1172.0.0 4914 22
+# mo.ece.pdx.edu(22):      1939  1 _length_edge_q
+S 1381.0.0 5845 23
+# mo.ece.pdx.edu(23):      1939  1 _length_edge_q
+S 1177.0.0 4941 25
+# mo.ece.pdx.edu(25):      2271  1 _adjacent_edge_q
+S 1023.0.0 4277 29
+# mo.ece.pdx.edu(29):      2271  1 _adjacent_edge_q
+S 1233.0.0 5211 30
+# mo.ece.pdx.edu(30):      2270  1 _adjacent_edge_q
+F 1349.0.0 5693 0
+F 734.0.0 3041 9
+F 888.0.0 3705 11
+F 1478.0.0 6233 19
+F 765.0.0 3186 24
+F 709.0.0 2916 26
+F 899.0.0 3756 27
+F 1227.0.0 5178 28
+S 1228.0.0 5184 0
+# mo.ece.pdx.edu(0):      1939  1 _length_edge_q
+S 900.0.0 3762 9
+# mo.ece.pdx.edu(9):      1939  1 _length_edge_q
+S 710.0.0 2922 11
+# mo.ece.pdx.edu(11):      1939  1 _length_edge_q
+S 766.0.0 3192 19
+# mo.ece.pdx.edu(19):      1939  1 _length_edge_q
+S 1479.0.0 6239 24
+# mo.ece.pdx.edu(24):      1939  1 _length_edge_q
+S 1520.0.0 6442 26
+# mo.ece.pdx.edu(26):      2271  1 _adjacent_edge_q
+S 751.0.0 3125 27
+# mo.ece.pdx.edu(27):      2271  1 _adjacent_edge_q
+S 1041.0.0 4365 28
+# mo.ece.pdx.edu(28):      2273  1 _adjacent_edge_q
+F 1503.0.0 6358 1
+F 727.0.0 3004 2
+F 882.0.0 3674 3
+F 1515.0.0 6415 4
+F 1343.0.0 5662 5
+F 746.0.0 3098 6
+F 1036.0.0 4338 7
+F 1208.0.0 5090 8
+F 1054.0.0 4426 10
+F 1190.0.0 5002 12
+F 1018.0.0 4250 13
+F 1361.0.0 5750 14
+F 864.0.0 3586 15
+F 1497.0.0 6327 17
+F 1074.0.0 4520 18
+F 1325.0.0 5574 20
+F 920.0.0 3856 21
+F 1172.0.0 4914 22
+F 1381.0.0 5845 23
+F 1177.0.0 4941 25
+F 1023.0.0 4277 29
+F 1484.0.0 6266 31
+S 1382.0.0 5849 1
+# mo.ece.pdx.edu(1):      3407  1 _select_q
+S 1173.0.0 4918 2
+# mo.ece.pdx.edu(2):      3407  1 _select_q
+S 921.0.0 3860 3
+# mo.ece.pdx.edu(3):      3407  1 _select_q
+S 1326.0.0 5578 4
+# mo.ece.pdx.edu(4):      3407  1 _select_q
+S 1075.0.0 4524 5
+# mo.ece.pdx.edu(5):      3407  1 _select_q
+S 1498.0.0 6331 6
+# mo.ece.pdx.edu(6):      3408  1 _select_q
+S 865.0.0 3590 7
+# mo.ece.pdx.edu(7):      3407  1 _select_q
+S 1362.0.0 5754 8
+# mo.ece.pdx.edu(8):      3407  1 _select_q
+S 1019.0.0 4254 10
+# mo.ece.pdx.edu(10):      3407  1 _select_q
+S 1191.0.0 5006 12
+# mo.ece.pdx.edu(12):      3408  1 _select_q
+S 1055.0.0 4430 13
+# mo.ece.pdx.edu(13):      3407  1 _select_q
+S 1209.0.0 5094 14
+# mo.ece.pdx.edu(14):      3407  1 _select_q
+S 1037.0.0 4342 15
+# mo.ece.pdx.edu(15):      3408  1 _select_q
+S 747.0.0 3102 17
+# mo.ece.pdx.edu(17):      3407  1 _select_q
+S 1344.0.0 5666 18
+# mo.ece.pdx.edu(18):      3408  1 _select_q
+S 1516.0.0 6419 20
+# mo.ece.pdx.edu(20):      3407  1 _select_q
+S 883.0.0 3678 21
+# mo.ece.pdx.edu(21):      3408  1 _select_q
+S 1485.0.0 6270 22
+# mo.ece.pdx.edu(22):      3413  1 _select_q
+S 1024.0.0 4281 23
+# mo.ece.pdx.edu(23):      3413  1 _select_q
+S 1178.0.0 4945 25
+# mo.ece.pdx.edu(25):      3413  1 _select_q
+S 728.0.0 3010 29
+# mo.ece.pdx.edu(29):      1940  1 _length_edge_q
+S 1213.0.0 5117 31
+# mo.ece.pdx.edu(31):      2271  1 _adjacent_edge_q
+F 1228.0.0 5184 0
+F 900.0.0 3762 9
+F 1535.0.0 6509 16
+F 766.0.0 3192 19
+F 1479.0.0 6239 24
+F 1520.0.0 6442 26
+F 751.0.0 3125 27
+F 1233.0.0 5211 30
+S 1480.0.0 6243 0
+# mo.ece.pdx.edu(0):      3407  1 _select_q
+S 767.0.0 3196 9
+# mo.ece.pdx.edu(9):      3407  1 _select_q
+S 1536.0.0 6513 16
+# mo.ece.pdx.edu(16):      3407  1 _select_q
+S 901.0.0 3766 19
+# mo.ece.pdx.edu(19):      3407  1 _select_q
+S 1229.0.0 5188 24
+# mo.ece.pdx.edu(24):      3407  1 _select_q
+S 1234.0.0 5215 26
+# mo.ece.pdx.edu(26):      3412  1 _select_q
+S 752.0.0 3129 27
+# mo.ece.pdx.edu(27):      3413  1 _select_q
+S 1521.0.0 6446 30
+# mo.ece.pdx.edu(30):      3413  1 _select_q
+F 1382.0.0 5849 1
+F 1173.0.0 4918 2
+F 921.0.0 3860 3
+F 1075.0.0 4524 5
+F 1498.0.0 6331 6
+F 865.0.0 3590 7
+F 1362.0.0 5754 8
+F 1019.0.0 4254 10
+F 710.0.0 2922 11
+F 1191.0.0 5006 12
+F 1055.0.0 4430 13
+F 1209.0.0 5094 14
+F 1037.0.0 4342 15
+F 747.0.0 3102 17
+F 1344.0.0 5666 18
+F 1516.0.0 6419 20
+F 1485.0.0 6270 22
+F 1024.0.0 4281 23
+F 1178.0.0 4945 25
+F 1041.0.0 4365 28
+S 711.0.0 2926 1
+# mo.ece.pdx.edu(1):      3407  1 _select_q
+S 1042.0.0 4369 2
+# mo.ece.pdx.edu(2):      3415  1 _select_q
+S 905.0.0 3789 3
+# mo.ece.pdx.edu(3):      2271  1 _adjacent_edge_q
+S 1059.0.0 4453 5
+# mo.ece.pdx.edu(5):      2271  1 _adjacent_edge_q
+S 1195.0.0 5029 6
+# mo.ece.pdx.edu(6):      2273  1 _adjacent_edge_q
+S 1366.0.0 5777 7
+# mo.ece.pdx.edu(7):      2271  1 _adjacent_edge_q
+S 925.0.0 3883 8
+# mo.ece.pdx.edu(8):      2270  1 _adjacent_edge_q
+S 1330.0.0 5601 10
+# mo.ece.pdx.edu(10):      2271  1 _adjacent_edge_q
+S 869.0.0 3613 11
+# mo.ece.pdx.edu(11):      2271  1 _adjacent_edge_q
+S 1540.0.0 6536 12
+# mo.ece.pdx.edu(12):      2270  1 _adjacent_edge_q
+S 1079.0.0 4547 13
+# mo.ece.pdx.edu(13):      2270  1 _adjacent_edge_q
+S 1386.0.0 5872 14
+# mo.ece.pdx.edu(14):      2270  1 _adjacent_edge_q
+S 1604.0.0 6757 15
+# mo.ece.pdx.edu(15):      1786  1 _oversize_q
+S 1517.0.0 6425 17
+# mo.ece.pdx.edu(17):      5181  1 _internal_q
+S 1345.0.0 5672 18
+# mo.ece.pdx.edu(18):      5181  1 _internal_q
+S 748.0.0 3108 20
+# mo.ece.pdx.edu(20):      5181  1 _internal_q
+S 1038.0.0 4348 22
+# mo.ece.pdx.edu(22):      5181  1 _internal_q
+S 1210.0.0 5100 23
+# mo.ece.pdx.edu(23):      5181  1 _internal_q
+S 1056.0.0 4436 25
+# mo.ece.pdx.edu(25):      5181  1 _internal_q
+S 1192.0.0 5012 28
+# mo.ece.pdx.edu(28):      5181  1 _internal_q
+F 1480.0.0 6243 0
+F 1326.0.0 5578 4
+F 1536.0.0 6513 16
+F 901.0.0 3766 19
+F 883.0.0 3678 21
+F 1229.0.0 5188 24
+F 1234.0.0 5215 26
+F 752.0.0 3129 27
+F 728.0.0 3010 29
+F 1213.0.0 5117 31
+S 729.0.0 3014 0
+# mo.ece.pdx.edu(0):      3408  1 _select_q
+S 1214.0.0 5121 4
+# mo.ece.pdx.edu(4):      3413  1 _select_q
+S 1230.0.0 5194 16
+# mo.ece.pdx.edu(16):      5180  1 _internal_q
+S 884.0.0 3684 19
+# mo.ece.pdx.edu(19):      5181  1 _internal_q
+S 902.0.0 3772 21
+# mo.ece.pdx.edu(21):      5181  1 _internal_q
+S 1537.0.0 6519 24
+# mo.ece.pdx.edu(24):      5180  1 _internal_q
+S 1327.0.0 5584 26
+# mo.ece.pdx.edu(26):      5181  1 _internal_q
+S 1481.0.0 6249 27
+# mo.ece.pdx.edu(27):      5181  1 _internal_q
+S 1020.0.0 4260 29
+# mo.ece.pdx.edu(29):      5181  1 _internal_q
+S 1363.0.0 5760 31
+# mo.ece.pdx.edu(31):      5181  1 _internal_q
+F 711.0.0 2926 1
+F 1042.0.0 4369 2
+F 905.0.0 3789 3
+F 1059.0.0 4453 5
+F 1195.0.0 5029 6
+F 1366.0.0 5777 7
+F 925.0.0 3883 8
+F 767.0.0 3196 9
+F 1330.0.0 5601 10
+F 869.0.0 3613 11
+F 1540.0.0 6536 12
+F 1079.0.0 4547 13
+F 1386.0.0 5872 14
+F 1604.0.0 6757 15
+F 1517.0.0 6425 17
+F 748.0.0 3108 20
+F 1038.0.0 4348 22
+F 1210.0.0 5100 23
+F 1056.0.0 4436 25
+F 1521.0.0 6446 30
+S 1387.0.0 5876 1
+# mo.ece.pdx.edu(1):      3412  1 _select_q
+S 1080.0.0 4551 2
+# mo.ece.pdx.edu(2):      3412  1 _select_q
+S 1541.0.0 6540 3
+# mo.ece.pdx.edu(3):      3412  1 _select_q
+S 870.0.0 3617 5
+# mo.ece.pdx.edu(5):      3413  1 _select_q
+S 1331.0.0 5605 6
+# mo.ece.pdx.edu(6):      3413  1 _select_q
+S 926.0.0 3887 7
+# mo.ece.pdx.edu(7):      3412  1 _select_q
+S 1367.0.0 5781 8
+# mo.ece.pdx.edu(8):      3413  1 _select_q
+S 1196.0.0 5033 9
+# mo.ece.pdx.edu(9):      3415  1 _select_q
+S 1060.0.0 4457 10
+# mo.ece.pdx.edu(10):      3413  1 _select_q
+S 906.0.0 3793 11
+# mo.ece.pdx.edu(11):      3413  1 _select_q
+S 768.0.0 3202 12
+# mo.ece.pdx.edu(12):      5180  1 _internal_q
+S 712.0.0 2932 13
+# mo.ece.pdx.edu(13):      5181  1 _internal_q
+S 866.0.0 3596 14
+# mo.ece.pdx.edu(14):      5181  1 _internal_q
+S 1499.0.0 6337 15
+# mo.ece.pdx.edu(15):      5181  1 _internal_q
+S 1076.0.0 4530 17
+# mo.ece.pdx.edu(17):      5180  1 _internal_q
+S 922.0.0 3866 20
+# mo.ece.pdx.edu(20):      5180  1 _internal_q
+S 1174.0.0 4924 22
+# mo.ece.pdx.edu(22):      5181  1 _internal_q
+S 1383.0.0 5855 23
+# mo.ece.pdx.edu(23):      5180  1 _internal_q
+S 536.0.0 2169 25
+# mo.ece.pdx.edu(25):      1357  1 _size_chain_q
+S 382.0.0 1505 30
+# mo.ece.pdx.edu(30):      1357  1 _size_chain_q
+F 729.0.0 3014 0
+F 1230.0.0 5194 16
+F 1345.0.0 5672 18
+F 884.0.0 3684 19
+F 902.0.0 3772 21
+F 1537.0.0 6519 24
+F 1327.0.0 5584 26
+F 1481.0.0 6249 27
+F 1192.0.0 5012 28
+F 1020.0.0 4260 29
+S 730.0.0 3020 0
+# mo.ece.pdx.edu(0):      5181  1 _internal_q
+S 197.0.0 735 16
+# mo.ece.pdx.edu(16):      5198  1 _internal_q
+S 1561.0.0 6601 18
+# mo.ece.pdx.edu(18):      1356  1 _size_chain_q
+S 1459.0.0 6150 19
+# mo.ece.pdx.edu(19):      1357  1 _size_chain_q
+S 1305.0.0 5485 21
+# mo.ece.pdx.edu(21):      1357  1 _size_chain_q
+S 1152.0.0 4825 24
+# mo.ece.pdx.edu(24):      1357  1 _size_chain_q
+S 998.0.0 4161 26
+# mo.ece.pdx.edu(26):      1357  1 _size_chain_q
+S 844.0.0 3497 27
+# mo.ece.pdx.edu(27):      1357  1 _size_chain_q
+S 690.0.0 2833 28
+# mo.ece.pdx.edu(28):      1357  1 _size_chain_q
+S 2112.0.0 8804 29
+# mo.ece.pdx.edu(29):      6718  1 _enclose_q
+F 1387.0.0 5876 1
+F 1080.0.0 4551 2
+F 1541.0.0 6540 3
+F 1214.0.0 5121 4
+F 870.0.0 3617 5
+F 1331.0.0 5605 6
+F 926.0.0 3887 7
+F 1367.0.0 5781 8
+F 1060.0.0 4457 10
+F 906.0.0 3793 11
+F 768.0.0 3202 12
+F 712.0.0 2932 13
+F 866.0.0 3596 14
+F 1499.0.0 6337 15
+F 1076.0.0 4530 17
+F 922.0.0 3866 20
+F 1383.0.0 5855 23
+F 536.0.0 2169 25
+F 1363.0.0 5760 31
+S 2109.0.0 8792 1
+# mo.ece.pdx.edu(1):      6718  1 _enclose_q
+S 1638.0.0 6882 2
+# mo.ece.pdx.edu(2):      6714  1 _enclose_q
+S 1635.0.0 6870 3
+# mo.ece.pdx.edu(3):      6714  1 _enclose_q
+S 1806.0.0 7576 4
+# mo.ece.pdx.edu(4):      6718  1 _enclose_q
+S 1722.0.0 7229 5
+# mo.ece.pdx.edu(5):      6718  1 _enclose_q
+S 468.0.0 1908 6
+# mo.ece.pdx.edu(6):      5457  1 _internal_q
+S 1719.0.0 7217 7
+# mo.ece.pdx.edu(7):      6718  1 _enclose_q
+S 314.0.0 1244 8
+# mo.ece.pdx.edu(8):      5457  1 _internal_q
+S 187.0.0 701 10
+# mo.ece.pdx.edu(10):      3680  1 _internal_q
+S 2263.0.0 9407 11
+# mo.ece.pdx.edu(11):      5421  1 _internal_q
+S 2180.0.0 9090 12
+# mo.ece.pdx.edu(12):      6714  1 _enclose_q
+S 2177.0.0 9078 13
+# mo.ece.pdx.edu(13):      6714  1 _enclose_q
+S 2058.0.0 8617 14
+# mo.ece.pdx.edu(14):      6718  1 _enclose_q
+S 2055.0.0 8605 15
+# mo.ece.pdx.edu(15):      6718  1 _enclose_q
+S 1974.0.0 8270 17
+# mo.ece.pdx.edu(17):      6718  1 _enclose_q
+S 1971.0.0 8258 20
+# mo.ece.pdx.edu(20):      6718  1 _enclose_q
+S 1890.0.0 7923 23
+# mo.ece.pdx.edu(23):      6718  1 _enclose_q
+S 1887.0.0 7911 25
+# mo.ece.pdx.edu(25):      6718  1 _enclose_q
+S 1803.0.0 7564 31
+# mo.ece.pdx.edu(31):      6718  1 _enclose_q
+F 730.0.0 3020 0
+F 1196.0.0 5033 9
+F 1561.0.0 6601 18
+F 1459.0.0 6150 19
+F 1305.0.0 5485 21
+F 1174.0.0 4924 22
+F 1152.0.0 4825 24
+F 998.0.0 4161 26
+F 844.0.0 3497 27
+F 690.0.0 2833 28
+F 382.0.0 1505 30
+S 691.0.0 2837 0
+# mo.ece.pdx.edu(0):      7033  1 _external_q
+S 845.0.0 3501 9
+# mo.ece.pdx.edu(9):      7033  1 _external_q
+S 999.0.0 4165 18
+# mo.ece.pdx.edu(18):      7033  1 _external_q
+S 1153.0.0 4829 19
+# mo.ece.pdx.edu(19):      7033  1 _external_q
+S 1306.0.0 5489 21
+# mo.ece.pdx.edu(21):      7033  1 _external_q
+S 1460.0.0 6154 22
+# mo.ece.pdx.edu(22):      7033  1 _external_q
+S 1562.0.0 6605 24
+# mo.ece.pdx.edu(24):      7099  1 _external_q
+S 1545.0.0 6553 26
+# mo.ece.pdx.edu(26):      5454  1 _internal_q
+S 1391.0.0 5889 27
+# mo.ece.pdx.edu(27):      5457  1 _internal_q
+S 1238.0.0 5228 28
+# mo.ece.pdx.edu(28):      5457  1 _internal_q
+S 1084.0.0 4564 30
+# mo.ece.pdx.edu(30):      5457  1 _internal_q
+F 2109.0.0 8792 1
+F 1638.0.0 6882 2
+F 1635.0.0 6870 3
+F 1806.0.0 7576 4
+F 1722.0.0 7229 5
+F 1719.0.0 7217 7
+F 314.0.0 1244 8
+F 187.0.0 701 10
+F 2263.0.0 9407 11
+F 2180.0.0 9090 12
+F 2177.0.0 9078 13
+F 2058.0.0 8617 14
+F 2055.0.0 8605 15
+F 1974.0.0 8270 17
+F 1890.0.0 7923 23
+F 1887.0.0 7911 25
+F 2112.0.0 8804 29
+S 930.0.0 3900 1
+# mo.ece.pdx.edu(1):      5457  1 _internal_q
+S 776.0.0 3236 2
+# mo.ece.pdx.edu(2):      5457  1 _internal_q
+S 622.0.0 2572 3
+# mo.ece.pdx.edu(3):      5457  1 _internal_q
+S 210.0.0 785 4
+# mo.ece.pdx.edu(4):      6835  1 _external_q
+S 216.0.0 812 5
+# mo.ece.pdx.edu(5):      6829  1 _external_q
+S 221.0.0 835 7
+# mo.ece.pdx.edu(7):      6822  1 _external_q
+S 226.0.0 858 8
+# mo.ece.pdx.edu(8):      6814  1 _external_q
+S 194.0.0 723 10
+# mo.ece.pdx.edu(10):      6126  1 _external_q
+S 1840.0.0 7702 11
+# mo.ece.pdx.edu(11):      3308  1 _select_q
+S 2008.0.0 8396 12
+# mo.ece.pdx.edu(12):      3308  1 _select_q
+S 1924.0.0 8049 13
+# mo.ece.pdx.edu(13):      3308  1 _select_q
+S 1756.0.0 7355 14
+# mo.ece.pdx.edu(14):      3308  1 _select_q
+S 1665.0.0 6965 15
+# mo.ece.pdx.edu(15):      3300  1 _select_q
+S 1666.0.0 6971 17
+# mo.ece.pdx.edu(17):      3300  1 _select_q
+S 2152.0.0 8966 23
+# mo.ece.pdx.edu(23):      5896  1 _external_q
+S 2145.0.0 8923 25
+# mo.ece.pdx.edu(25):      5897  1 _external_q
+S 2106.0.0 8780 29
+# mo.ece.pdx.edu(29):      7045  1 _external_q
+F 468.0.0 1908 6
+F 1971.0.0 8258 20
+F 1803.0.0 7564 31
+S 2097.0.0 8744 6
+# mo.ece.pdx.edu(6):      6998  1 _external_q
+S 2103.0.0 8768 20
+# mo.ece.pdx.edu(20):      6222  1 _external_q
+S 1446.0.0 6111 31
+# mo.ece.pdx.edu(31):      6982  1 _external_q
+F 1545.0.0 6553 26
+S 1292.0.0 5446 26
+# mo.ece.pdx.edu(26):      6982  1 _external_q
+F 1562.0.0 6605 24
+S 1136.0.0 4774 24
+# mo.ece.pdx.edu(24):      6980  1 _external_q
+F 226.0.0 858 8
+S 523.0.0 2130 8
+# mo.ece.pdx.edu(8):      6984  1 _external_q
+F 691.0.0 2837 0
+F 216.0.0 812 5
+F 2097.0.0 8744 6
+F 221.0.0 835 7
+F 845.0.0 3501 9
+F 1665.0.0 6965 15
+F 999.0.0 4165 18
+F 1306.0.0 5489 21
+F 1460.0.0 6154 22
+F 1391.0.0 5889 27
+F 2106.0.0 8780 29
+F 1084.0.0 4564 30
+F 1446.0.0 6111 31
+S 520.0.0 2118 0
+# mo.ece.pdx.edu(0):      6980  1 _external_q
+S 369.0.0 1466 5
+# mo.ece.pdx.edu(5):      6984  1 _external_q
+S 239.0.0 913 6
+# mo.ece.pdx.edu(6):      6288  1 _external_q
+S 344.0.0 1360 7
+# mo.ece.pdx.edu(7):      6830  1 _external_q
+S 486.0.0 1970 9
+# mo.ece.pdx.edu(9):      6839  1 _external_q
+S 492.0.0 1997 15
+# mo.ece.pdx.edu(15):      6833  1 _external_q
+S 498.0.0 2024 18
+# mo.ece.pdx.edu(18):      6830  1 _external_q
+S 338.0.0 1333 21
+# mo.ece.pdx.edu(21):      6833  1 _external_q
+S 332.0.0 1306 22
+# mo.ece.pdx.edu(22):      6837  1 _external_q
+S 350.0.0 1387 27
+# mo.ece.pdx.edu(27):      6820  1 _external_q
+S 504.0.0 2051 29
+# mo.ece.pdx.edu(29):      6820  1 _external_q
+S 383.0.0 1509 30
+# mo.ece.pdx.edu(30):      7033  1 _external_q
+S 537.0.0 2173 31
+# mo.ece.pdx.edu(31):      7033  1 _external_q
+F 930.0.0 3900 1
+F 776.0.0 3236 2
+F 210.0.0 785 4
+F 1840.0.0 7702 11
+F 2008.0.0 8396 12
+F 1924.0.0 8049 13
+F 1756.0.0 7355 14
+F 1666.0.0 6971 17
+F 1153.0.0 4829 19
+F 2103.0.0 8768 20
+F 1136.0.0 4774 24
+F 1292.0.0 5446 26
+F 1238.0.0 5228 28
+S 1757.0.0 7361 1
+# mo.ece.pdx.edu(1):      3301  1 _select_q
+S 1925.0.0 8055 2
+# mo.ece.pdx.edu(2):      3301  1 _select_q
+S 2009.0.0 8402 4
+# mo.ece.pdx.edu(4):      3301  1 _select_q
+S 1841.0.0 7708 11
+# mo.ece.pdx.edu(11):      3301  1 _select_q
+S 475.0.0 1930 12
+# mo.ece.pdx.edu(12):      6129  1 _external_q
+S 321.0.0 1266 13
+# mo.ece.pdx.edu(13):      6129  1 _external_q
+S 1674.0.0 7020 14
+# mo.ece.pdx.edu(14):      5894  1 _external_q
+S 1668.0.0 6980 17
+# mo.ece.pdx.edu(17):      5895  1 _external_q
+S 1620.0.0 6810 19
+# mo.ece.pdx.edu(19):      6994  1 _external_q
+S 1623.0.0 6822 20
+# mo.ece.pdx.edu(20):      6998  1 _external_q
+S 1617.0.0 6798 24
+# mo.ece.pdx.edu(24):      6173  1 _external_q
+S 366.0.0 1454 26
+# mo.ece.pdx.edu(26):      6980  1 _external_q
+S 604.0.0 2484 28
+# mo.ece.pdx.edu(28):      3327  1 _select_q
+F 520.0.0 2118 0
+F 622.0.0 2572 3
+F 369.0.0 1466 5
+F 239.0.0 913 6
+F 344.0.0 1360 7
+F 523.0.0 2130 8
+F 486.0.0 1970 9
+F 492.0.0 1997 15
+F 498.0.0 2024 18
+F 338.0.0 1333 21
+F 350.0.0 1387 27
+F 504.0.0 2051 29
+F 383.0.0 1509 30
+S 450.0.0 1820 0
+# mo.ece.pdx.edu(0):      3327  1 _select_q
+S 394.0.0 1550 3
+# mo.ece.pdx.edu(3):      3323  1 _select_q
+S 548.0.0 2214 5
+# mo.ece.pdx.edu(5):      3323  1 _select_q
+S 412.0.0 1638 6
+# mo.ece.pdx.edu(6):      3327  1 _select_q
+S 566.0.0 2302 7
+# mo.ece.pdx.edu(7):      3327  1 _select_q
+S 584.0.0 2390 8
+# mo.ece.pdx.edu(8):      3327  1 _select_q
+S 430.0.0 1726 9
+# mo.ece.pdx.edu(9):      3327  1 _select_q
+S 526.0.0 2142 15
+# mo.ece.pdx.edu(15):      1667  1 _area_q
+S 372.0.0 1478 18
+# mo.ece.pdx.edu(18):      1667  1 _area_q
+S 242.0.0 925 21
+# mo.ece.pdx.edu(21):      1664  1 _area_q
+S 260.0.0 980 27
+# mo.ece.pdx.edu(27):      3323  1 _select_q
+S 296.0.0 1156 29
+# mo.ece.pdx.edu(29):      3327  1 _select_q
+S 278.0.0 1068 30
+# mo.ece.pdx.edu(30):      3327  1 _select_q
+F 1757.0.0 7361 1
+F 1925.0.0 8055 2
+F 2009.0.0 8402 4
+F 1841.0.0 7708 11
+F 475.0.0 1930 12
+F 321.0.0 1266 13
+F 1668.0.0 6980 17
+F 1620.0.0 6810 19
+F 1623.0.0 6822 20
+F 332.0.0 1306 22
+F 1617.0.0 6798 24
+F 366.0.0 1454 26
+F 537.0.0 2173 31
+S 2138.0.0 8884 1
+# mo.ece.pdx.edu(1):      3295  1 _select_q
+S 1669.0.0 6988 2
+# mo.ece.pdx.edu(2):      3304  1 _select_q
+S 2139.0.0 8890 4
+# mo.ece.pdx.edu(4):      3304  1 _select_q
+S 1600.0.0 6743 11
+# mo.ece.pdx.edu(11):      3416  1 _select_q
+S 1759.0.0 7375 12
+# mo.ece.pdx.edu(12):      1010  1 _boolean_or
+S 1605.0.0 6761 13
+# mo.ece.pdx.edu(13):      1021  1 _boolean_or
+S 1847.0.0 7745 17
+# mo.ece.pdx.edu(17):      1010  1 _boolean_or
+S 2015.0.0 8439 19
+# mo.ece.pdx.edu(19):      1010  1 _boolean_or
+S 1931.0.0 8092 20
+# mo.ece.pdx.edu(20):      1010  1 _boolean_or
+S 1763.0.0 7398 22
+# mo.ece.pdx.edu(22):      1010  1 _boolean_or
+S 1843.0.0 7722 24
+# mo.ece.pdx.edu(24):      1010  1 _boolean_or
+S 1658.0.0 6945 26
+# mo.ece.pdx.edu(26):      1040  1 _boolean_or
+S 1742.0.0 7292 31
+# mo.ece.pdx.edu(31):      1040  1 _boolean_or
+F 450.0.0 1820 0
+F 394.0.0 1550 3
+F 548.0.0 2214 5
+F 566.0.0 2302 7
+F 584.0.0 2390 8
+F 430.0.0 1726 9
+F 526.0.0 2142 15
+F 604.0.0 2484 28
+F 296.0.0 1156 29
+F 278.0.0 1068 30
+S 280.0.0 1080 0
+# mo.ece.pdx.edu(0):      5936  1 _external_q
+S 298.0.0 1168 3
+# mo.ece.pdx.edu(3):      5936  1 _external_q
+S 606.0.0 2496 5
+# mo.ece.pdx.edu(5):      5936  1 _external_q
+S 432.0.0 1738 7
+# mo.ece.pdx.edu(7):      5936  1 _external_q
+S 586.0.0 2402 8
+# mo.ece.pdx.edu(8):      5936  1 _external_q
+S 568.0.0 2314 9
+# mo.ece.pdx.edu(9):      5936  1 _external_q
+S 550.0.0 2226 15
+# mo.ece.pdx.edu(15):      5936  1 _external_q
+S 396.0.0 1562 28
+# mo.ece.pdx.edu(28):      5936  1 _external_q
+S 452.0.0 1832 29
+# mo.ece.pdx.edu(29):      5936  1 _external_q
+S 2011.0.0 8416 30
+# mo.ece.pdx.edu(30):      1010  1 _boolean_or
+F 2138.0.0 8884 1
+F 1669.0.0 6988 2
+F 2139.0.0 8890 4
+F 412.0.0 1638 6
+F 194.0.0 723 10
+F 1600.0.0 6743 11
+F 1759.0.0 7375 12
+F 1847.0.0 7745 17
+F 372.0.0 1478 18
+F 2015.0.0 8439 19
+F 1931.0.0 8092 20
+F 242.0.0 925 21
+F 1763.0.0 7398 22
+F 1843.0.0 7722 24
+F 1658.0.0 6945 26
+F 260.0.0 980 27
+F 1742.0.0 7292 31
+S 1844.0.0 7725 1
+# mo.ece.pdx.edu(1):      3314  1 _select_q
+S 1764.0.0 7401 2
+# mo.ece.pdx.edu(2):      3314  1 _select_q
+S 1932.0.0 8095 4
+# mo.ece.pdx.edu(4):      3314  1 _select_q
+S 2016.0.0 8442 6
+# mo.ece.pdx.edu(6):      3314  1 _select_q
+S 1848.0.0 7748 10
+# mo.ece.pdx.edu(10):      3314  1 _select_q
+S 262.0.0 992 11
+# mo.ece.pdx.edu(11):      5936  1 _external_q
+S 414.0.0 1650 12
+# mo.ece.pdx.edu(12):      5936  1 _external_q
+S 1601.0.0 6749 17
+# mo.ece.pdx.edu(17):      3249  1 _covered_by_q
+S 2140.0.0 8896 18
+# mo.ece.pdx.edu(18):      2130  1 _find_wide_q
+S 1760.0.0 7378 19
+# mo.ece.pdx.edu(19):      3314  1 _select_q
+S 1670.0.0 6994 20
+# mo.ece.pdx.edu(20):      3297  1 _select_q
+S 1679.0.0 7051 21
+# mo.ece.pdx.edu(21):      1006  1 _boolean_or
+S 1927.0.0 8069 22
+# mo.ece.pdx.edu(22):      1010  1 _boolean_or
+S 2149.0.0 8951 24
+# mo.ece.pdx.edu(24):      1010  1 _boolean_or
+S 2219.0.0 9244 26
+# mo.ece.pdx.edu(26):      1005  1 _boolean_or
+S 1667.0.0 6977 27
+# mo.ece.pdx.edu(27):      1012  1 _boolean_or
+S 1751.0.0 7324 31
+# mo.ece.pdx.edu(31):      1012  1 _boolean_or
+F 280.0.0 1080 0
+F 298.0.0 1168 3
+F 606.0.0 2496 5
+F 432.0.0 1738 7
+F 586.0.0 2402 8
+F 568.0.0 2314 9
+F 1605.0.0 6761 13
+F 550.0.0 2226 15
+F 396.0.0 1562 28
+F 452.0.0 1832 29
+S 461.0.0 1881 0
+# mo.ece.pdx.edu(0):      3299  1 _select_q
+S 405.0.0 1611 3
+# mo.ece.pdx.edu(3):      3299  1 _select_q
+S 559.0.0 2275 5
+# mo.ece.pdx.edu(5):      3299  1 _select_q
+S 577.0.0 2363 7
+# mo.ece.pdx.edu(7):      3299  1 _select_q
+S 595.0.0 2451 8
+# mo.ece.pdx.edu(8):      3299  1 _select_q
+S 441.0.0 1787 9
+# mo.ece.pdx.edu(9):      3299  1 _select_q
+S 615.0.0 2545 13
+# mo.ece.pdx.edu(13):      3299  1 _select_q
+S 307.0.0 1217 15
+# mo.ece.pdx.edu(15):      3299  1 _select_q
+S 289.0.0 1129 28
+# mo.ece.pdx.edu(28):      3299  1 _select_q
+S 453.0.0 1840 29
+# mo.ece.pdx.edu(29):      2221  1 _interacting_edge_q
+F 1844.0.0 7725 1
+F 1764.0.0 7401 2
+F 1932.0.0 8095 4
+F 2016.0.0 8442 6
+F 1848.0.0 7748 10
+F 262.0.0 992 11
+F 414.0.0 1650 12
+F 1674.0.0 7020 14
+F 197.0.0 735 16
+F 1601.0.0 6749 17
+F 2140.0.0 8896 18
+F 1760.0.0 7378 19
+F 1679.0.0 7051 21
+F 1927.0.0 8069 22
+F 2149.0.0 8951 24
+F 2219.0.0 9244 26
+F 1667.0.0 6977 27
+F 2011.0.0 8416 30
+S 2012.0.0 8419 1
+# mo.ece.pdx.edu(1):      3314  1 _select_q
+S 2150.0.0 8954 2
+# mo.ece.pdx.edu(2):      3314  1 _select_q
+S 1928.0.0 8072 4
+# mo.ece.pdx.edu(4):      3314  1 _select_q
+S 1680.0.0 7054 6
+# mo.ece.pdx.edu(6):      3310  1 _select_q
+S 2220.0.0 9247 10
+# mo.ece.pdx.edu(10):      3309  1 _select_q
+S 423.0.0 1699 11
+# mo.ece.pdx.edu(11):      3299  1 _select_q
+S 271.0.0 1041 12
+# mo.ece.pdx.edu(12):      3299  1 _select_q
+S 1849.0.0 7754 14
+# mo.ece.pdx.edu(14):      3301  1 _select_q
+S 2017.0.0 8448 16
+# mo.ece.pdx.edu(16):      3301  1 _select_q
+S 1933.0.0 8101 17
+# mo.ece.pdx.edu(17):      3301  1 _select_q
+S 1765.0.0 7407 18
+# mo.ece.pdx.edu(18):      3301  1 _select_q
+S 1845.0.0 7731 19
+# mo.ece.pdx.edu(19):      3301  1 _select_q
+S 1685.0.0 7084 21
+# mo.ece.pdx.edu(21):      3511  1 _select_q
+S 1683.0.0 7072 22
+# mo.ece.pdx.edu(22):      3514  1 _select_q
+S 415.0.0 1658 24
+# mo.ece.pdx.edu(24):      2221  1 _interacting_edge_q
+S 263.0.0 1000 26
+# mo.ece.pdx.edu(26):      2221  1 _interacting_edge_q
+S 397.0.0 1570 27
+# mo.ece.pdx.edu(27):      2221  1 _interacting_edge_q
+S 551.0.0 2234 30
+# mo.ece.pdx.edu(30):      2221  1 _interacting_edge_q
+F 405.0.0 1611 3
+F 559.0.0 2275 5
+F 577.0.0 2363 7
+F 595.0.0 2451 8
+F 441.0.0 1787 9
+F 615.0.0 2545 13
+F 307.0.0 1217 15
+F 1670.0.0 6994 20
+F 289.0.0 1129 28
+F 1751.0.0 7324 31
+S 290.0.0 1135 3
+# mo.ece.pdx.edu(3):      1930  1 _boolean_not_q
+S 308.0.0 1223 5
+# mo.ece.pdx.edu(5):      1930  1 _boolean_not_q
+S 616.0.0 2551 7
+# mo.ece.pdx.edu(7):      1930  1 _boolean_not_q
+S 442.0.0 1793 8
+# mo.ece.pdx.edu(8):      1930  1 _boolean_not_q
+S 596.0.0 2457 9
+# mo.ece.pdx.edu(9):      1930  1 _boolean_not_q
+S 578.0.0 2369 13
+# mo.ece.pdx.edu(13):      1930  1 _boolean_not_q
+S 560.0.0 2281 15
+# mo.ece.pdx.edu(15):      1930  1 _boolean_not_q
+S 406.0.0 1617 20
+# mo.ece.pdx.edu(20):      1930  1 _boolean_not_q
+S 1769.0.0 7431 28
+# mo.ece.pdx.edu(28):      3516  1 _select_q
+S 1768.0.0 7425 31
+# mo.ece.pdx.edu(31):      3516  1 _select_q
+F 461.0.0 1881 0
+F 2012.0.0 8419 1
+F 2150.0.0 8954 2
+F 1928.0.0 8072 4
+F 1680.0.0 7054 6
+F 2220.0.0 9247 10
+F 423.0.0 1699 11
+F 271.0.0 1041 12
+F 1849.0.0 7754 14
+F 2017.0.0 8448 16
+F 1933.0.0 8101 17
+F 1765.0.0 7407 18
+F 1845.0.0 7731 19
+F 1685.0.0 7084 21
+F 1683.0.0 7072 22
+F 415.0.0 1658 24
+F 2145.0.0 8923 25
+F 263.0.0 1000 26
+F 397.0.0 1570 27
+F 453.0.0 1840 29
+S 272.0.0 1047 0
+# mo.ece.pdx.edu(0):      1930  1 _boolean_not_q
+S 424.0.0 1705 1
+# mo.ece.pdx.edu(1):      1930  1 _boolean_not_q
+S 462.0.0 1887 2
+# mo.ece.pdx.edu(2):      1930  1 _boolean_not_q
+S 1681.0.0 7060 4
+# mo.ece.pdx.edu(4):      3297  1 _select_q
+S 1929.0.0 8078 6
+# mo.ece.pdx.edu(6):      3301  1 _select_q
+S 2151.0.0 8960 10
+# mo.ece.pdx.edu(10):      3301  1 _select_q
+S 2013.0.0 8425 11
+# mo.ece.pdx.edu(11):      3301  1 _select_q
+S 1771.0.0 7443 12
+# mo.ece.pdx.edu(12):      3516  1 _select_q
+S 2221.0.0 9253 14
+# mo.ece.pdx.edu(14):      3298  1 _select_q
+S 1767.0.0 7419 16
+# mo.ece.pdx.edu(16):      3518  1 _select_q
+S 1684.0.0 7078 17
+# mo.ece.pdx.edu(17):      3511  1 _select_q
+S 1766.0.0 7413 18
+# mo.ece.pdx.edu(18):      3516  1 _select_q
+S 569.0.0 2322 19
+# mo.ece.pdx.edu(19):      2221  1 _interacting_edge_q
+S 587.0.0 2410 21
+# mo.ece.pdx.edu(21):      2221  1 _interacting_edge_q
+S 433.0.0 1746 22
+# mo.ece.pdx.edu(22):      2221  1 _interacting_edge_q
+S 607.0.0 2504 24
+# mo.ece.pdx.edu(24):      2221  1 _interacting_edge_q
+S 299.0.0 1176 25
+# mo.ece.pdx.edu(25):      2221  1 _interacting_edge_q
+S 281.0.0 1088 26
+# mo.ece.pdx.edu(26):      2221  1 _interacting_edge_q
+S 455.0.0 1850 27
+# mo.ece.pdx.edu(27):      2094  1 _edge_size_q
+S 399.0.0 1580 29
+# mo.ece.pdx.edu(29):      2094  1 _edge_size_q
+F 290.0.0 1135 3
+F 308.0.0 1223 5
+F 616.0.0 2551 7
+F 442.0.0 1793 8
+F 596.0.0 2457 9
+F 578.0.0 2369 13
+F 560.0.0 2281 15
+F 406.0.0 1617 20
+F 1769.0.0 7431 28
+F 551.0.0 2234 30
+S 553.0.0 2244 3
+# mo.ece.pdx.edu(3):      2094  1 _edge_size_q
+S 265.0.0 1010 5
+# mo.ece.pdx.edu(5):      2094  1 _edge_size_q
+S 417.0.0 1668 7
+# mo.ece.pdx.edu(7):      2094  1 _edge_size_q
+S 407.0.0 1621 8
+# mo.ece.pdx.edu(8):      2271  1 _adjacent_edge_q
+S 561.0.0 2285 9
+# mo.ece.pdx.edu(9):      2271  1 _adjacent_edge_q
+S 579.0.0 2373 13
+# mo.ece.pdx.edu(13):      2273  1 _adjacent_edge_q
+S 597.0.0 2461 15
+# mo.ece.pdx.edu(15):      2271  1 _adjacent_edge_q
+S 443.0.0 1797 20
+# mo.ece.pdx.edu(20):      2271  1 _adjacent_edge_q
+S 617.0.0 2555 28
+# mo.ece.pdx.edu(28):      2270  1 _adjacent_edge_q
+S 309.0.0 1227 30
+# mo.ece.pdx.edu(30):      2271  1 _adjacent_edge_q
+F 272.0.0 1047 0
+F 424.0.0 1705 1
+F 462.0.0 1887 2
+F 1681.0.0 7060 4
+F 1929.0.0 8078 6
+F 2151.0.0 8960 10
+F 2013.0.0 8425 11
+F 1771.0.0 7443 12
+F 2221.0.0 9253 14
+F 1767.0.0 7419 16
+F 1684.0.0 7078 17
+F 1766.0.0 7413 18
+F 569.0.0 2322 19
+F 587.0.0 2410 21
+F 433.0.0 1746 22
+F 607.0.0 2504 24
+F 299.0.0 1176 25
+F 281.0.0 1088 26
+F 455.0.0 1850 27
+F 1768.0.0 7425 31
+S 456.0.0 1854 0
+# mo.ece.pdx.edu(0):      1863  1 _boolean_and_q
+S 1687.0.0 7096 1
+# mo.ece.pdx.edu(1):      3511  1 _select_q
+S 283.0.0 1098 2
+# mo.ece.pdx.edu(2):      2094  1 _edge_size_q
+S 301.0.0 1186 4
+# mo.ece.pdx.edu(4):      2094  1 _edge_size_q
+S 609.0.0 2514 6
+# mo.ece.pdx.edu(6):      2094  1 _edge_size_q
+S 435.0.0 1756 10
+# mo.ece.pdx.edu(10):      2094  1 _edge_size_q
+S 589.0.0 2420 11
+# mo.ece.pdx.edu(11):      2094  1 _edge_size_q
+S 571.0.0 2332 12
+# mo.ece.pdx.edu(12):      2094  1 _edge_size_q
+S 463.0.0 1891 14
+# mo.ece.pdx.edu(14):      2270  1 _adjacent_edge_q
+S 425.0.0 1709 16
+# mo.ece.pdx.edu(16):      2273  1 _adjacent_edge_q
+S 273.0.0 1051 17
+# mo.ece.pdx.edu(17):      2271  1 _adjacent_edge_q
+S 291.0.0 1139 18
+# mo.ece.pdx.edu(18):      2273  1 _adjacent_edge_q
+S 199.0.0 745 19
+# mo.ece.pdx.edu(19):      7065  1 _external_q
+S 1682.0.0 7066 21
+# mo.ece.pdx.edu(21):      3512  1 _select_q
+S 1606.0.0 6764 22
+# mo.ece.pdx.edu(22):      2118  1 _boolean_not_q
+S 2146.0.0 8931 24
+# mo.ece.pdx.edu(24):      3308  1 _select_q
+S 1761.0.0 7384 25
+# mo.ece.pdx.edu(25):      3301  1 _select_q
+S 1675.0.0 7028 26
+# mo.ece.pdx.edu(26):      1006  1 _boolean_or
+S 2141.0.0 8900 27
+# mo.ece.pdx.edu(27):      1012  1 _boolean_or
+S 1835.0.0 7671 31
+# mo.ece.pdx.edu(31):      1012  1 _boolean_or
+F 553.0.0 2244 3
+F 265.0.0 1010 5
+F 417.0.0 1668 7
+F 407.0.0 1621 8
+F 579.0.0 2373 13
+F 597.0.0 2461 15
+F 443.0.0 1797 20
+F 617.0.0 2555 28
+F 399.0.0 1580 29
+S 400.0.0 1584 3
+# mo.ece.pdx.edu(3):      1863  1 _boolean_and_q
+S 418.0.0 1672 5
+# mo.ece.pdx.edu(5):      1863  1 _boolean_and_q
+S 266.0.0 1014 7
+# mo.ece.pdx.edu(7):      1863  1 _boolean_and_q
+S 554.0.0 2248 8
+# mo.ece.pdx.edu(8):      1863  1 _boolean_and_q
+S 618.0.0 2559 13
+# mo.ece.pdx.edu(13):      3412  1 _select_q
+S 444.0.0 1801 15
+# mo.ece.pdx.edu(15):      3413  1 _select_q
+S 598.0.0 2465 20
+# mo.ece.pdx.edu(20):      3413  1 _select_q
+S 580.0.0 2377 28
+# mo.ece.pdx.edu(28):      3415  1 _select_q
+S 408.0.0 1625 29
+# mo.ece.pdx.edu(29):      3413  1 _select_q
+F 456.0.0 1854 0
+F 1687.0.0 7096 1
+F 283.0.0 1098 2
+F 301.0.0 1186 4
+F 609.0.0 2514 6
+F 561.0.0 2285 9
+F 435.0.0 1756 10
+F 589.0.0 2420 11
+F 571.0.0 2332 12
+F 463.0.0 1891 14
+F 425.0.0 1709 16
+F 291.0.0 1139 18
+F 199.0.0 745 19
+F 1682.0.0 7066 21
+F 1761.0.0 7384 25
+F 2141.0.0 8900 27
+F 309.0.0 1227 30
+S 572.0.0 2336 0
+# mo.ece.pdx.edu(0):      1863  1 _boolean_and_q
+S 590.0.0 2424 1
+# mo.ece.pdx.edu(1):      1863  1 _boolean_and_q
+S 436.0.0 1760 2
+# mo.ece.pdx.edu(2):      1863  1 _boolean_and_q
+S 610.0.0 2518 4
+# mo.ece.pdx.edu(4):      1863  1 _boolean_and_q
+S 302.0.0 1190 6
+# mo.ece.pdx.edu(6):      1863  1 _boolean_and_q
+S 284.0.0 1102 9
+# mo.ece.pdx.edu(9):      1863  1 _boolean_and_q
+S 2160.0.0 9013 10
+# mo.ece.pdx.edu(10):      3518  1 _select_q
+S 2158.0.0 9001 11
+# mo.ece.pdx.edu(11):      3518  1 _select_q
+S 2157.0.0 8995 12
+# mo.ece.pdx.edu(12):      3520  1 _select_q
+S 1770.0.0 7437 14
+# mo.ece.pdx.edu(14):      3516  1 _select_q
+S 310.0.0 1231 16
+# mo.ece.pdx.edu(16):      3413  1 _select_q
+S 292.0.0 1143 18
+# mo.ece.pdx.edu(18):      3415  1 _select_q
+S 426.0.0 1713 19
+# mo.ece.pdx.edu(19):      3415  1 _select_q
+S 464.0.0 1895 21
+# mo.ece.pdx.edu(21):      3412  1 _select_q
+S 562.0.0 2289 25
+# mo.ece.pdx.edu(25):      3413  1 _select_q
+S 457.0.0 1858 27
+# mo.ece.pdx.edu(27):      2227  1 _interacting_edge_q
+S 2156.0.0 8989 30
+# mo.ece.pdx.edu(30):      3518  1 _select_q
+F 400.0.0 1584 3
+F 418.0.0 1672 5
+F 266.0.0 1014 7
+F 554.0.0 2248 8
+F 444.0.0 1801 15
+F 273.0.0 1051 17
+F 598.0.0 2465 20
+F 1606.0.0 6764 22
+F 2146.0.0 8931 24
+F 1675.0.0 7028 26
+F 580.0.0 2377 28
+F 1835.0.0 7671 31
+S 1855.0.0 7790 3
+# mo.ece.pdx.edu(3):      3516  1 _select_q
+S 1854.0.0 7784 5
+# mo.ece.pdx.edu(5):      3516  1 _select_q
+S 1853.0.0 7778 7
+# mo.ece.pdx.edu(7):      3516  1 _select_q
+S 1852.0.0 7772 8
+# mo.ece.pdx.edu(8):      3516  1 _select_q
+S 1851.0.0 7766 15
+# mo.ece.pdx.edu(15):      3518  1 _select_q
+S 1850.0.0 7760 17
+# mo.ece.pdx.edu(17):      3516  1 _select_q
+S 274.0.0 1055 20
+# mo.ece.pdx.edu(20):      3413  1 _select_q
+S 555.0.0 2252 22
+# mo.ece.pdx.edu(22):      2227  1 _interacting_edge_q
+S 267.0.0 1018 24
+# mo.ece.pdx.edu(24):      2227  1 _interacting_edge_q
+S 419.0.0 1676 26
+# mo.ece.pdx.edu(26):      2227  1 _interacting_edge_q
+S 401.0.0 1588 28
+# mo.ece.pdx.edu(28):      2227  1 _interacting_edge_q
+S 1676.0.0 7031 31
+# mo.ece.pdx.edu(31):      3310  1 _select_q
+F 572.0.0 2336 0
+F 590.0.0 2424 1
+F 436.0.0 1760 2
+F 610.0.0 2518 4
+F 302.0.0 1190 6
+F 284.0.0 1102 9
+F 2160.0.0 9013 10
+F 2158.0.0 9001 11
+F 2157.0.0 8995 12
+F 618.0.0 2559 13
+F 310.0.0 1231 16
+F 292.0.0 1143 18
+F 426.0.0 1713 19
+F 464.0.0 1895 21
+F 562.0.0 2289 25
+F 457.0.0 1858 27
+F 408.0.0 1625 29
+S 285.0.0 1106 0
+# mo.ece.pdx.edu(0):      2227  1 _interacting_edge_q
+S 303.0.0 1194 1
+# mo.ece.pdx.edu(1):      2227  1 _interacting_edge_q
+S 611.0.0 2522 2
+# mo.ece.pdx.edu(2):      2227  1 _interacting_edge_q
+S 437.0.0 1764 4
+# mo.ece.pdx.edu(4):      2227  1 _interacting_edge_q
+S 591.0.0 2428 6
+# mo.ece.pdx.edu(6):      2227  1 _interacting_edge_q
+S 573.0.0 2340 9
+# mo.ece.pdx.edu(9):      2227  1 _interacting_edge_q
+S 458.0.0 1864 10
+# mo.ece.pdx.edu(10):      1939  1 _length_edge_q
+S 2147.0.0 8937 11
+# mo.ece.pdx.edu(11):      3301  1 _select_q
+S 2003.0.0 8365 12
+# mo.ece.pdx.edu(12):      1012  1 _boolean_or
+S 1919.0.0 8018 13
+# mo.ece.pdx.edu(13):      1012  1 _boolean_or
+S 2222.0.0 9259 16
+# mo.ece.pdx.edu(16):      1019  1 _boolean_or
+S 1655.0.0 6934 18
+# mo.ece.pdx.edu(18):      1040  1 _boolean_or
+S 2207.0.0 9202 19
+# mo.ece.pdx.edu(19):      1021  1 _boolean_or
+S 2129.0.0 8856 21
+# mo.ece.pdx.edu(21):      1040  1 _boolean_or
+S 1739.0.0 7281 25
+# mo.ece.pdx.edu(25):      1040  1 _boolean_or
+S 2132.0.0 8867 27
+# mo.ece.pdx.edu(27):      1040  1 _boolean_or
+S 1823.0.0 7628 29
+# mo.ece.pdx.edu(29):      1040  1 _boolean_or
+F 1855.0.0 7790 3
+F 1854.0.0 7784 5
+F 1853.0.0 7778 7
+F 1852.0.0 7772 8
+F 1770.0.0 7437 14
+F 1851.0.0 7766 15
+F 1850.0.0 7760 17
+F 274.0.0 1055 20
+F 555.0.0 2252 22
+F 267.0.0 1018 24
+F 419.0.0 1676 26
+F 401.0.0 1588 28
+F 2156.0.0 8989 30
+S 1856.0.0 7796 3
+# mo.ece.pdx.edu(3):      1416  1 _boolean_or_list
+S 1772.0.0 7449 5
+# mo.ece.pdx.edu(5):      1416  1 _boolean_or_list
+S 402.0.0 1594 7
+# mo.ece.pdx.edu(7):      1939  1 _length_edge_q
+S 420.0.0 1682 8
+# mo.ece.pdx.edu(8):      1940  1 _length_edge_q
+S 268.0.0 1024 14
+# mo.ece.pdx.edu(14):      1939  1 _length_edge_q
+S 556.0.0 2258 15
+# mo.ece.pdx.edu(15):      1939  1 _length_edge_q
+S 1826.0.0 7639 17
+# mo.ece.pdx.edu(17):      1040  1 _boolean_or
+S 2075.0.0 8669 20
+# mo.ece.pdx.edu(20):      1040  1 _boolean_or
+S 1991.0.0 8322 22
+# mo.ece.pdx.edu(22):      1040  1 _boolean_or
+S 1994.0.0 8333 24
+# mo.ece.pdx.edu(24):      1040  1 _boolean_or
+S 1910.0.0 7986 26
+# mo.ece.pdx.edu(26):      1040  1 _boolean_or
+S 2078.0.0 8680 28
+# mo.ece.pdx.edu(28):      1040  1 _boolean_or
+S 1907.0.0 7975 30
+# mo.ece.pdx.edu(30):      1040  1 _boolean_or
+F 285.0.0 1106 0
+F 303.0.0 1194 1
+F 611.0.0 2522 2
+F 437.0.0 1764 4
+F 591.0.0 2428 6
+F 573.0.0 2340 9
+F 458.0.0 1864 10
+F 2003.0.0 8365 12
+F 1919.0.0 8018 13
+F 2222.0.0 9259 16
+F 1655.0.0 6934 18
+F 2207.0.0 9202 19
+F 1739.0.0 7281 25
+F 1676.0.0 7031 31
+S 2208.0.0 9205 0
+# mo.ece.pdx.edu(0):      1900  1 _boolean_not_q
+S 2223.0.0 9262 1
+# mo.ece.pdx.edu(1):      1897  1 _boolean_not_q
+S 1743.0.0 7295 2
+# mo.ece.pdx.edu(2):      1867  1 _boolean_and_q
+S 1659.0.0 6948 4
+# mo.ece.pdx.edu(4):      1867  1 _boolean_and_q
+S 1939.0.0 8137 6
+# mo.ece.pdx.edu(6):      3516  1 _select_q
+S 1938.0.0 8131 9
+# mo.ece.pdx.edu(9):      3516  1 _select_q
+S 1937.0.0 8125 10
+# mo.ece.pdx.edu(10):      3516  1 _select_q
+S 1936.0.0 8119 12
+# mo.ece.pdx.edu(12):      3516  1 _select_q
+S 1935.0.0 8113 13
+# mo.ece.pdx.edu(13):      3518  1 _select_q
+S 2023.0.0 8484 16
+# mo.ece.pdx.edu(16):      3518  1 _select_q
+S 2022.0.0 8478 18
+# mo.ece.pdx.edu(18):      3518  1 _select_q
+S 2021.0.0 8472 19
+# mo.ece.pdx.edu(19):      3518  1 _select_q
+S 2020.0.0 8466 25
+# mo.ece.pdx.edu(25):      3518  1 _select_q
+S 2019.0.0 8460 31
+# mo.ece.pdx.edu(31):      3520  1 _select_q
+F 1856.0.0 7796 3
+F 1772.0.0 7449 5
+F 402.0.0 1594 7
+F 420.0.0 1682 8
+F 2147.0.0 8937 11
+F 268.0.0 1024 14
+F 556.0.0 2258 15
+F 1826.0.0 7639 17
+F 2075.0.0 8669 20
+F 2129.0.0 8856 21
+F 1991.0.0 8322 22
+F 1994.0.0 8333 24
+F 1910.0.0 7986 26
+F 2132.0.0 8867 27
+F 2078.0.0 8680 28
+F 1823.0.0 7628 29
+S 1827.0.0 7642 3
+# mo.ece.pdx.edu(3):      1867  1 _boolean_and_q
+S 2079.0.0 8683 5
+# mo.ece.pdx.edu(5):      1867  1 _boolean_and_q
+S 2133.0.0 8870 7
+# mo.ece.pdx.edu(7):      1867  1 _boolean_and_q
+S 1995.0.0 8336 8
+# mo.ece.pdx.edu(8):      1867  1 _boolean_and_q
+S 557.0.0 2262 11
+# mo.ece.pdx.edu(11):      3407  1 _select_q
+S 269.0.0 1028 14
+# mo.ece.pdx.edu(14):      3407  1 _select_q
+S 421.0.0 1686 15
+# mo.ece.pdx.edu(15):      3408  1 _select_q
+S 403.0.0 1598 17
+# mo.ece.pdx.edu(17):      3407  1 _select_q
+S 459.0.0 1868 20
+# mo.ece.pdx.edu(20):      3407  1 _select_q
+S 1857.0.0 7799 21
+# mo.ece.pdx.edu(21):      3517  1 _select_q
+S 1934.0.0 8107 22
+# mo.ece.pdx.edu(22):      3516  1 _select_q
+S 2018.0.0 8454 24
+# mo.ece.pdx.edu(24):      3518  1 _select_q
+S 1773.0.0 7452 26
+# mo.ece.pdx.edu(26):      3517  1 _select_q
+S 574.0.0 2346 27
+# mo.ece.pdx.edu(27):      1940  1 _length_edge_q
+S 592.0.0 2434 28
+# mo.ece.pdx.edu(28):      1939  1 _length_edge_q
+S 438.0.0 1770 29
+# mo.ece.pdx.edu(29):      1939  1 _length_edge_q
+F 2208.0.0 9205 0
+F 2223.0.0 9262 1
+F 1743.0.0 7295 2
+F 1659.0.0 6948 4
+F 1939.0.0 8137 6
+F 1938.0.0 8131 9
+F 1937.0.0 8125 10
+F 1936.0.0 8119 12
+F 1935.0.0 8113 13
+F 2023.0.0 8484 16
+F 2022.0.0 8478 18
+F 2021.0.0 8472 19
+F 2020.0.0 8466 25
+F 1907.0.0 7975 30
+S 1660.0.0 6952 0
+# mo.ece.pdx.edu(0):      1576  1 _copy
+S 1744.0.0 7299 1
+# mo.ece.pdx.edu(1):      1576  1 _copy
+S 1940.0.0 8143 2
+# mo.ece.pdx.edu(2):      1416  1 _boolean_or_list
+S 1911.0.0 7989 4
+# mo.ece.pdx.edu(4):      1867  1 _boolean_and_q
+S 612.0.0 2528 6
+# mo.ece.pdx.edu(6):      1939  1 _length_edge_q
+S 304.0.0 1200 9
+# mo.ece.pdx.edu(9):      1939  1 _length_edge_q
+S 286.0.0 1112 10
+# mo.ece.pdx.edu(10):      1940  1 _length_edge_q
+S 1677.0.0 7037 12
+# mo.ece.pdx.edu(12):      3297  1 _select_q
+S 2159.0.0 9007 13
+# mo.ece.pdx.edu(13):      3518  1 _select_q
+S 2209.0.0 9209 16
+# mo.ece.pdx.edu(16):      1026  1 _boolean_or
+S 2224.0.0 9266 18
+# mo.ece.pdx.edu(18):      1021  1 _boolean_or
+S 334.0.0 1322 19
+# mo.ece.pdx.edu(19):      1515  1 _boolean_or
+S 506.0.0 2067 25
+# mo.ece.pdx.edu(25):      1513  1 _boolean_or
+S 352.0.0 1403 30
+# mo.ece.pdx.edu(30):      1513  1 _boolean_or
+F 1827.0.0 7642 3
+F 2079.0.0 8683 5
+F 2133.0.0 8870 7
+F 1995.0.0 8336 8
+F 557.0.0 2262 11
+F 269.0.0 1028 14
+F 421.0.0 1686 15
+F 403.0.0 1598 17
+F 459.0.0 1868 20
+F 1857.0.0 7799 21
+F 1934.0.0 8107 22
+F 2018.0.0 8454 24
+F 1773.0.0 7452 26
+F 574.0.0 2346 27
+F 2019.0.0 8460 31
+S 1996.0.0 8340 3
+# mo.ece.pdx.edu(3):      1576  1 _copy
+S 2134.0.0 8874 5
+# mo.ece.pdx.edu(5):      1576  1 _copy
+S 2080.0.0 8687 7
+# mo.ece.pdx.edu(7):      1576  1 _copy
+S 1828.0.0 7646 8
+# mo.ece.pdx.edu(8):      1576  1 _copy
+S 2024.0.0 8490 11
+# mo.ece.pdx.edu(11):      1418  1 _boolean_or_list
+S 1774.0.0 7458 14
+# mo.ece.pdx.edu(14):      2629  1 _boolean_not_q
+S 1858.0.0 7805 15
+# mo.ece.pdx.edu(15):      2629  1 _boolean_not_q
+S 575.0.0 2350 17
+# mo.ece.pdx.edu(17):      3408  1 _select_q
+S 460.0.0 1874 20
+# mo.ece.pdx.edu(20):      5180  1 _internal_q
+S 404.0.0 1604 21
+# mo.ece.pdx.edu(21):      5181  1 _internal_q
+S 422.0.0 1692 22
+# mo.ece.pdx.edu(22):      5181  1 _internal_q
+S 270.0.0 1034 24
+# mo.ece.pdx.edu(24):      5181  1 _internal_q
+S 558.0.0 2268 26
+# mo.ece.pdx.edu(26):      5181  1 _internal_q
+S 340.0.0 1349 27
+# mo.ece.pdx.edu(27):      1515  1 _boolean_or
+S 500.0.0 2040 31
+# mo.ece.pdx.edu(31):      1513  1 _boolean_or
+F 1660.0.0 6952 0
+F 1744.0.0 7299 1
+F 1940.0.0 8143 2
+F 1911.0.0 7989 4
+F 612.0.0 2528 6
+F 304.0.0 1200 9
+F 286.0.0 1112 10
+F 2159.0.0 9007 13
+F 2209.0.0 9209 16
+F 2224.0.0 9266 18
+F 334.0.0 1322 19
+F 506.0.0 2067 25
+F 592.0.0 2434 28
+F 438.0.0 1770 29
+S 1912.0.0 7993 0
+# mo.ece.pdx.edu(0):      1576  1 _copy
+S 2225.0.0 9269 1
+# mo.ece.pdx.edu(1):      2080  1 _boolean_and_q
+S 2210.0.0 9212 2
+# mo.ece.pdx.edu(2):      2084  1 _boolean_and_q
+S 439.0.0 1774 4
+# mo.ece.pdx.edu(4):      3407  1 _select_q
+S 593.0.0 2438 6
+# mo.ece.pdx.edu(6):      3407  1 _select_q
+S 287.0.0 1116 9
+# mo.ece.pdx.edu(9):      3408  1 _select_q
+S 305.0.0 1204 10
+# mo.ece.pdx.edu(10):      3407  1 _select_q
+S 613.0.0 2532 13
+# mo.ece.pdx.edu(13):      3407  1 _select_q
+S 1941.0.0 8146 16
+# mo.ece.pdx.edu(16):      3517  1 _select_q
+S 494.0.0 2013 18
+# mo.ece.pdx.edu(18):      1515  1 _boolean_or
+S 488.0.0 1986 19
+# mo.ece.pdx.edu(19):      1517  1 _boolean_or
+S 346.0.0 1376 25
+# mo.ece.pdx.edu(25):      1513  1 _boolean_or
+S 212.0.0 801 28
+# mo.ece.pdx.edu(28):      1545  1 _boolean_or
+S 223.0.0 851 29
+# mo.ece.pdx.edu(29):      1539  1 _boolean_or
+F 1996.0.0 8340 3
+F 2134.0.0 8874 5
+F 2080.0.0 8687 7
+F 1828.0.0 7646 8
+F 2024.0.0 8490 11
+F 1677.0.0 7037 12
+F 1774.0.0 7458 14
+F 1858.0.0 7805 15
+F 575.0.0 2350 17
+F 460.0.0 1874 20
+F 422.0.0 1692 22
+F 270.0.0 1034 24
+F 558.0.0 2268 26
+F 340.0.0 1349 27
+F 352.0.0 1403 30
+S 2025.0.0 8493 3
+# mo.ece.pdx.edu(3):      3519  1 _select_q
+S 1686.0.0 7090 5
+# mo.ece.pdx.edu(5):      3511  1 _select_q
+S 576.0.0 2356 7
+# mo.ece.pdx.edu(7):      5181  1 _internal_q
+S 563.0.0 2295 8
+# mo.ece.pdx.edu(8):      1557  1 _boolean_or
+S 275.0.0 1061 11
+# mo.ece.pdx.edu(11):      1553  1 _boolean_or
+S 427.0.0 1719 12
+# mo.ece.pdx.edu(12):      1553  1 _boolean_or
+S 465.0.0 1901 14
+# mo.ece.pdx.edu(14):      1545  1 _boolean_or
+S 218.0.0 828 15
+# mo.ece.pdx.edu(15):      1543  1 _boolean_or
+S 228.0.0 874 17
+# mo.ece.pdx.edu(17):      1523  1 _boolean_or
+S 1179.0.0 4951 20
+# mo.ece.pdx.edu(20):      1553  1 _boolean_or
+S 1197.0.0 5039 22
+# mo.ece.pdx.edu(22):      1553  1 _boolean_or
+S 735.0.0 3047 24
+# mo.ece.pdx.edu(24):      1557  1 _boolean_or
+S 1368.0.0 5787 26
+# mo.ece.pdx.edu(26):      1551  1 _boolean_or
+S 1388.0.0 5882 27
+# mo.ece.pdx.edu(27):      1545  1 _boolean_or
+S 927.0.0 3893 30
+# mo.ece.pdx.edu(30):      1545  1 _boolean_or
+F 1912.0.0 7993 0
+F 2225.0.0 9269 1
+F 2210.0.0 9212 2
+F 439.0.0 1774 4
+F 593.0.0 2438 6
+F 287.0.0 1116 9
+F 305.0.0 1204 10
+F 613.0.0 2532 13
+F 1941.0.0 8146 16
+F 494.0.0 2013 18
+F 404.0.0 1604 21
+F 346.0.0 1376 25
+F 212.0.0 801 28
+F 500.0.0 2040 31
+S 1942.0.0 8152 0
+# mo.ece.pdx.edu(0):      2629  1 _boolean_not_q
+S 614.0.0 2538 1
+# mo.ece.pdx.edu(1):      5180  1 _internal_q
+S 306.0.0 1210 2
+# mo.ece.pdx.edu(2):      5181  1 _internal_q
+S 288.0.0 1122 4
+# mo.ece.pdx.edu(4):      5181  1 _internal_q
+S 594.0.0 2444 6
+# mo.ece.pdx.edu(6):      5181  1 _internal_q
+S 440.0.0 1780 9
+# mo.ece.pdx.edu(9):      5181  1 _internal_q
+S 409.0.0 1631 10
+# mo.ece.pdx.edu(10):      1553  1 _boolean_or
+S 1081.0.0 4557 13
+# mo.ece.pdx.edu(13):      1545  1 _boolean_or
+S 1504.0.0 6364 16
+# mo.ece.pdx.edu(16):      1553  1 _boolean_or
+S 871.0.0 3623 18
+# mo.ece.pdx.edu(18):      1557  1 _boolean_or
+S 717.0.0 2959 21
+# mo.ece.pdx.edu(21):      1557  1 _boolean_or
+S 773.0.0 3229 25
+# mo.ece.pdx.edu(25):      1549  1 _boolean_or
+S 907.0.0 3799 28
+# mo.ece.pdx.edu(28):      1555  1 _boolean_or
+S 1061.0.0 4463 31
+# mo.ece.pdx.edu(31):      1551  1 _boolean_or
+F 2025.0.0 8493 3
+F 1686.0.0 7090 5
+F 576.0.0 2356 7
+F 563.0.0 2295 8
+F 275.0.0 1061 11
+F 427.0.0 1719 12
+F 465.0.0 1901 14
+F 218.0.0 828 15
+F 488.0.0 1986 19
+F 1179.0.0 4951 20
+F 1197.0.0 5039 22
+F 735.0.0 3047 24
+F 1388.0.0 5882 27
+F 223.0.0 851 29
+S 1688.0.0 7102 3
+# mo.ece.pdx.edu(3):      1412  1 _boolean_or_list
+S 2026.0.0 8499 5
+# mo.ece.pdx.edu(5):      2631  1 _boolean_not_q
+S 581.0.0 2383 7
+# mo.ece.pdx.edu(7):      1557  1 _boolean_or
+S 1332.0.0 5611 8
+# mo.ece.pdx.edu(8):      1553  1 _boolean_or
+S 1215.0.0 5127 11
+# mo.ece.pdx.edu(11):      1551  1 _boolean_or
+S 1542.0.0 6546 12
+# mo.ece.pdx.edu(12):      1545  1 _boolean_or
+S 1025.0.0 4287 14
+# mo.ece.pdx.edu(14):      1553  1 _boolean_or
+S 1486.0.0 6276 15
+# mo.ece.pdx.edu(15):      1553  1 _boolean_or
+S 889.0.0 3711 19
+# mo.ece.pdx.edu(19):      1557  1 _boolean_or
+S 1350.0.0 5699 20
+# mo.ece.pdx.edu(20):      1553  1 _boolean_or
+S 1235.0.0 5221 22
+# mo.ece.pdx.edu(22):      1545  1 _boolean_or
+S 1522.0.0 6452 24
+# mo.ece.pdx.edu(24):      1551  1 _boolean_or
+S 1043.0.0 4375 27
+# mo.ece.pdx.edu(27):      1553  1 _boolean_or
+S 753.0.0 3135 29
+# mo.ece.pdx.edu(29):      1555  1 _boolean_or
+F 1942.0.0 8152 0
+F 614.0.0 2538 1
+F 306.0.0 1210 2
+F 288.0.0 1122 4
+F 594.0.0 2444 6
+F 440.0.0 1780 9
+F 409.0.0 1631 10
+F 1081.0.0 4557 13
+F 228.0.0 874 17
+F 871.0.0 3623 18
+F 717.0.0 2959 21
+F 773.0.0 3229 25
+F 1368.0.0 5787 26
+F 907.0.0 3799 28
+F 927.0.0 3893 30
+S 445.0.0 1807 0
+# mo.ece.pdx.edu(0):      1551  1 _boolean_or
+S 599.0.0 2471 1
+# mo.ece.pdx.edu(1):      1555  1 _boolean_or
+S 293.0.0 1149 2
+# mo.ece.pdx.edu(2):      1553  1 _boolean_or
+S 311.0.0 1237 4
+# mo.ece.pdx.edu(4):      1551  1 _boolean_or
+S 619.0.0 2565 6
+# mo.ece.pdx.edu(6):      1549  1 _boolean_or
+S 1429.0.0 6048 9
+# mo.ece.pdx.edu(9):      1513  1 _boolean_or
+S 660.0.0 2731 10
+# mo.ece.pdx.edu(10):      1513  1 _boolean_or
+S 814.0.0 3395 13
+# mo.ece.pdx.edu(13):      1513  1 _boolean_or
+S 968.0.0 4059 17
+# mo.ece.pdx.edu(17):      1513  1 _boolean_or
+S 1122.0.0 4723 18
+# mo.ece.pdx.edu(18):      1513  1 _boolean_or
+S 1275.0.0 5383 21
+# mo.ece.pdx.edu(21):      1513  1 _boolean_or
+S 1411.0.0 5967 25
+# mo.ece.pdx.edu(25):      1517  1 _boolean_or
+S 1110.0.0 4669 26
+# mo.ece.pdx.edu(26):      1515  1 _boolean_or
+S 1104.0.0 4642 28
+# mo.ece.pdx.edu(28):      1517  1 _boolean_or
+S 1258.0.0 5306 30
+# mo.ece.pdx.edu(30):      1517  1 _boolean_or
+F 1688.0.0 7102 3
+F 2026.0.0 8499 5
+F 581.0.0 2383 7
+F 1332.0.0 5611 8
+F 1542.0.0 6546 12
+F 1025.0.0 4287 14
+F 1486.0.0 6276 15
+F 1504.0.0 6364 16
+F 889.0.0 3711 19
+F 1350.0.0 5699 20
+F 1235.0.0 5221 22
+F 1522.0.0 6452 24
+F 1043.0.0 4375 27
+F 1061.0.0 4463 31
+S 1689.0.0 7105 3
+# mo.ece.pdx.edu(3):      2867  1 _select_q
+S 962.0.0 4032 5
+# mo.ece.pdx.edu(5):      1513  1 _boolean_or
+S 1417.0.0 5994 7
+# mo.ece.pdx.edu(7):      1515  1 _boolean_or
+S 950.0.0 3978 8
+# mo.ece.pdx.edu(8):      1517  1 _boolean_or
+S 956.0.0 4005 12
+# mo.ece.pdx.edu(12):      1515  1 _boolean_or
+S 802.0.0 3341 14
+# mo.ece.pdx.edu(14):      1515  1 _boolean_or
+S 648.0.0 2677 15
+# mo.ece.pdx.edu(15):      1515  1 _boolean_or
+S 1264.0.0 5333 16
+# mo.ece.pdx.edu(16):      1515  1 _boolean_or
+S 1270.0.0 5360 19
+# mo.ece.pdx.edu(19):      1513  1 _boolean_or
+S 796.0.0 3314 20
+# mo.ece.pdx.edu(20):      1517  1 _boolean_or
+S 642.0.0 2650 22
+# mo.ece.pdx.edu(22):      1517  1 _boolean_or
+S 654.0.0 2704 24
+# mo.ece.pdx.edu(24):      1513  1 _boolean_or
+S 1423.0.0 6021 27
+# mo.ece.pdx.edu(27):      1513  1 _boolean_or
+S 1116.0.0 4696 31
+# mo.ece.pdx.edu(31):      1513  1 _boolean_or
+F 445.0.0 1807 0
+F 599.0.0 2471 1
+F 293.0.0 1149 2
+F 311.0.0 1237 4
+F 619.0.0 2565 6
+F 1429.0.0 6048 9
+F 660.0.0 2731 10
+F 1215.0.0 5127 11
+F 814.0.0 3395 13
+F 1122.0.0 4723 18
+F 1275.0.0 5383 21
+F 1411.0.0 5967 25
+F 1110.0.0 4669 26
+F 1104.0.0 4642 28
+F 753.0.0 3135 29
+S 808.0.0 3368 0
+# mo.ece.pdx.edu(0):      1513  1 _boolean_or
+S 171.0.0 639 1
+# mo.ece.pdx.edu(1):      3935  1 _optimize_unmerged_layer_dp
+S 86.0.0 282 2
+# mo.ece.pdx.edu(2):      3935  1 _optimize_unmerged_layer_dp
+S 1944.0.0 8158 4
+# mo.ece.pdx.edu(4):      1846  1 _tag_violation
+S 151.0.0 555 6
+# mo.ece.pdx.edu(6):      3947  1 _optimize_unmerged_layer_dp
+S 96.0.0 324 9
+# mo.ece.pdx.edu(9):      3935  1 _optimize_unmerged_layer_dp
+S 106.0.0 366 10
+# mo.ece.pdx.edu(10):      3935  1 _optimize_unmerged_layer_dp
+S 1577.0.0 6663 11
+# mo.ece.pdx.edu(11):      1143  1 _merge_dirty_layer
+S 1571.0.0 6642 13
+# mo.ece.pdx.edu(13):      1143  1 _merge_dirty_layer
+S 1579.0.0 6669 18
+# mo.ece.pdx.edu(18):      1141  1 _merge_dirty_layer
+S 1575.0.0 6657 21
+# mo.ece.pdx.edu(21):      1141  1 _merge_dirty_layer
+S 91.0.0 303 25
+# mo.ece.pdx.edu(25):      3947  1 _optimize_unmerged_layer_dp
+S 2028.0.0 8505 26
+# mo.ece.pdx.edu(26):      1848  1 _tag_violation
+S 755.0.0 3140 28
+# mo.ece.pdx.edu(28):      1080  1 _tag_violation
+S 662.0.0 2736 29
+# mo.ece.pdx.edu(29):      1078  1 _tag_violation
+F 968.0.0 4059 17
+F 1258.0.0 5306 30
+S 775.0.0 3234 17
+# mo.ece.pdx.edu(17):      1080  1 _tag_violation
+S 719.0.0 2964 30
+# mo.ece.pdx.edu(30):      1080  1 _tag_violation
+F 1689.0.0 7105 3
+S 1690.0.0 7111 3
+# mo.ece.pdx.edu(3):      2625  1 _boolean_not_q
+F 808.0.0 3368 0
+F 962.0.0 4032 5
+F 1417.0.0 5994 7
+F 950.0.0 3978 8
+F 1577.0.0 6663 11
+F 956.0.0 4005 12
+F 1571.0.0 6642 13
+F 802.0.0 3341 14
+F 648.0.0 2677 15
+F 1264.0.0 5333 16
+F 1579.0.0 6669 18
+F 1270.0.0 5360 19
+F 796.0.0 3314 20
+F 1575.0.0 6657 21
+F 642.0.0 2650 22
+F 654.0.0 2704 24
+F 1423.0.0 6021 27
+F 1116.0.0 4696 31
+S 1576.0.0 6659 0
+# mo.ece.pdx.edu(0):      1960  1 _boolean_not_q
+S 1580.0.0 6671 5
+# mo.ece.pdx.edu(5):      1960  1 _boolean_not_q
+S 1572.0.0 6644 7
+# mo.ece.pdx.edu(7):      1962  1 _boolean_not_q
+S 1578.0.0 6665 8
+# mo.ece.pdx.edu(8):      1962  1 _boolean_not_q
+S 656.0.0 2709 11
+# mo.ece.pdx.edu(11):      1078  1 _tag_violation
+S 644.0.0 2655 12
+# mo.ece.pdx.edu(12):      1078  1 _tag_violation
+S 650.0.0 2682 13
+# mo.ece.pdx.edu(13):      1078  1 _tag_violation
+S 737.0.0 3052 14
+# mo.ece.pdx.edu(14):      1080  1 _tag_violation
+S 693.0.0 2847 15
+# mo.ece.pdx.edu(15):      2712  1 _tag_violation
+S 689.0.0 2831 16
+# mo.ece.pdx.edu(16):      1093  1 _tag_violation
+S 1914.0.0 7998 18
+# mo.ece.pdx.edu(18):      1169  1 _tag_violation
+S 1805.0.0 7574 19
+# mo.ece.pdx.edu(19):      2602  1 _tag_violation
+S 679.0.0 2804 20
+# mo.ece.pdx.edu(20):      2694  1 _tag_violation
+S 1820.0.0 7618 21
+# mo.ece.pdx.edu(21):      1958  1 _tag_violation
+S 1811.0.0 7594 22
+# mo.ece.pdx.edu(22):      1074  1 _tag_violation
+S 1892.0.0 7933 24
+# mo.ece.pdx.edu(24):      2602  1 _tag_violation
+S 676.0.0 2792 27
+# mo.ece.pdx.edu(27):      2694  1 _tag_violation
+S 1901.0.0 7957 31
+# mo.ece.pdx.edu(31):      1958  1 _tag_violation
+F 1944.0.0 8158 4
+F 775.0.0 3234 17
+F 2028.0.0 8505 26
+F 755.0.0 3140 28
+F 662.0.0 2736 29
+F 719.0.0 2964 30
+S 1898.0.0 7949 4
+# mo.ece.pdx.edu(4):      1074  1 _tag_violation
+S 1793.0.0 7526 17
+# mo.ece.pdx.edu(17):      2704  1 _tag_violation
+S 1790.0.0 7514 26
+# mo.ece.pdx.edu(26):      2705  1 _tag_violation
+S 1802.0.0 7562 28
+# mo.ece.pdx.edu(28):      2706  1 _tag_violation
+S 1784.0.0 7490 29
+# mo.ece.pdx.edu(29):      1105  1 _tag_violation
+S 1998.0.0 8345 30
+# mo.ece.pdx.edu(30):      1169  1 _tag_violation
+F 1690.0.0 7111 3
+S 1877.0.0 7873 3
+# mo.ece.pdx.edu(3):      2704  1 _tag_violation
+F 1898.0.0 7949 4
+S 1874.0.0 7861 4
+# mo.ece.pdx.edu(4):      2705  1 _tag_violation
+F 737.0.0 3052 14
+S 1886.0.0 7909 14
+# mo.ece.pdx.edu(14):      2706  1 _tag_violation
+F 693.0.0 2847 15
+S 1868.0.0 7837 15
+# mo.ece.pdx.edu(15):      1105  1 _tag_violation
+F 656.0.0 2709 11
+S 624.0.0 2581 11
+# mo.ece.pdx.edu(11):      2700  1 _tag_violation
+F 1874.0.0 7861 4
+F 679.0.0 2804 20
+S 673.0.0 2780 4
+# mo.ece.pdx.edu(4):      2360  1 _tag_violation
+S 631.0.0 2604 20
+# mo.ece.pdx.edu(20):      2286  1 _tag_violation
+F 650.0.0 2682 13
+F 1793.0.0 7526 17
+S 682.0.0 2811 13
+# mo.ece.pdx.edu(13):      1185  1 _tag_violation
+S 670.0.0 2768 17
+# mo.ece.pdx.edu(17):      2392  1 _tag_violation
+F 1576.0.0 6659 0
+S 1581.0.0 6675 0
+# mo.ece.pdx.edu(0):      2992  1 _copy
+F 1877.0.0 7873 3
+F 673.0.0 2780 4
+F 1580.0.0 6671 5
+F 1572.0.0 6644 7
+F 1578.0.0 6665 8
+F 624.0.0 2581 11
+F 644.0.0 2655 12
+F 682.0.0 2811 13
+F 1886.0.0 7909 14
+F 1868.0.0 7837 15
+F 689.0.0 2831 16
+F 670.0.0 2768 17
+F 1914.0.0 7998 18
+F 1805.0.0 7574 19
+F 631.0.0 2604 20
+F 1820.0.0 7618 21
+F 1811.0.0 7594 22
+F 1892.0.0 7933 24
+F 1790.0.0 7514 26
+F 676.0.0 2792 27
+F 1802.0.0 7562 28
+F 1784.0.0 7490 29
+F 1998.0.0 8345 30
+F 1901.0.0 7957 31
+S 1593.0.0 6720 3
+# mo.ece.pdx.edu(3):      2995  1 _copy
+S 1585.0.0 6690 4
+# mo.ece.pdx.edu(4):      2994  1 _copy
+S 1589.0.0 6705 5
+# mo.ece.pdx.edu(5):      2993  1 _copy
+S 628.0.0 2592 7
+# mo.ece.pdx.edu(7):      1086  1 _tag_violation
+S 1889.0.0 7921 8
+# mo.ece.pdx.edu(8):      2602  1 _tag_violation
+S 830.0.0 3456 11
+# mo.ece.pdx.edu(11):      2694  1 _tag_violation
+S 1904.0.0 7965 12
+# mo.ece.pdx.edu(12):      1958  1 _tag_violation
+S 1895.0.0 7941 13
+# mo.ece.pdx.edu(13):      1074  1 _tag_violation
+S 1961.0.0 8220 14
+# mo.ece.pdx.edu(14):      2704  1 _tag_violation
+S 1958.0.0 8208 15
+# mo.ece.pdx.edu(15):      2705  1 _tag_violation
+S 1970.0.0 8256 16
+# mo.ece.pdx.edu(16):      2706  1 _tag_violation
+S 1952.0.0 8184 17
+# mo.ece.pdx.edu(17):      1105  1 _tag_violation
+S 1976.0.0 8280 18
+# mo.ece.pdx.edu(18):      2602  1 _tag_violation
+S 833.0.0 3468 19
+# mo.ece.pdx.edu(19):      2694  1 _tag_violation
+S 1985.0.0 8304 20
+# mo.ece.pdx.edu(20):      1958  1 _tag_violation
+S 1979.0.0 8288 21
+# mo.ece.pdx.edu(21):      1074  1 _tag_violation
+S 798.0.0 3319 22
+# mo.ece.pdx.edu(22):      1078  1 _tag_violation
+S 804.0.0 3346 24
+# mo.ece.pdx.edu(24):      1078  1 _tag_violation
+S 810.0.0 3373 26
+# mo.ece.pdx.edu(26):      1078  1 _tag_violation
+S 816.0.0 3400 27
+# mo.ece.pdx.edu(27):      1078  1 _tag_violation
+S 891.0.0 3716 28
+# mo.ece.pdx.edu(28):      1080  1 _tag_violation
+S 929.0.0 3898 29
+# mo.ece.pdx.edu(29):      1080  1 _tag_violation
+S 909.0.0 3804 30
+# mo.ece.pdx.edu(30):      1080  1 _tag_violation
+S 873.0.0 3628 31
+# mo.ece.pdx.edu(31):      1080  1 _tag_violation
+F 1581.0.0 6675 0
+S 1582.0.0 6678 0
+# mo.ece.pdx.edu(0):      6315  1 _external_q
+F 1593.0.0 6720 3
+F 1585.0.0 6690 4
+F 1589.0.0 6705 5
+F 628.0.0 2592 7
+F 1889.0.0 7921 8
+F 830.0.0 3456 11
+F 1904.0.0 7965 12
+F 1895.0.0 7941 13
+F 1961.0.0 8220 14
+F 1958.0.0 8208 15
+F 1970.0.0 8256 16
+F 1952.0.0 8184 17
+F 1976.0.0 8280 18
+F 833.0.0 3468 19
+F 1985.0.0 8304 20
+F 1979.0.0 8288 21
+F 798.0.0 3319 22
+F 804.0.0 3346 24
+F 810.0.0 3373 26
+F 816.0.0 3400 27
+F 891.0.0 3716 28
+F 929.0.0 3898 29
+S 1590.0.0 6708 3
+# mo.ece.pdx.edu(3):      6318  1 _external_q
+S 1586.0.0 6693 4
+# mo.ece.pdx.edu(4):      6321  1 _external_q
+S 1594.0.0 6723 5
+# mo.ece.pdx.edu(5):      6324  1 _external_q
+S 847.0.0 3511 7
+# mo.ece.pdx.edu(7):      2712  1 _tag_violation
+S 843.0.0 3495 8
+# mo.ece.pdx.edu(8):      1093  1 _tag_violation
+S 2054.0.0 8603 11
+# mo.ece.pdx.edu(11):      2706  1 _tag_violation
+S 2042.0.0 8555 12
+# mo.ece.pdx.edu(12):      2705  1 _tag_violation
+S 2045.0.0 8567 13
+# mo.ece.pdx.edu(13):      2704  1 _tag_violation
+S 2036.0.0 8531 14
+# mo.ece.pdx.edu(14):      1105  1 _tag_violation
+S 1799.0.0 7550 15
+# mo.ece.pdx.edu(15):      2294  1 _tag_violation
+S 1787.0.0 7502 16
+# mo.ece.pdx.edu(16):      2293  1 _tag_violation
+S 1796.0.0 7538 17
+# mo.ece.pdx.edu(17):      2295  1 _tag_violation
+S 97.0.0 329 18
+# mo.ece.pdx.edu(18):      3939  1 _optimize_unmerged_layer_dp
+S 107.0.0 371 19
+# mo.ece.pdx.edu(19):      3939  1 _optimize_unmerged_layer_dp
+S 87.0.0 287 20
+# mo.ece.pdx.edu(20):      3939  1 _optimize_unmerged_layer_dp
+S 2082.0.0 8692 21
+# mo.ece.pdx.edu(21):      1169  1 _tag_violation
+S 1973.0.0 8268 22
+# mo.ece.pdx.edu(22):      2602  1 _tag_violation
+S 987.0.0 4132 24
+# mo.ece.pdx.edu(24):      2694  1 _tag_violation
+S 1988.0.0 8312 26
+# mo.ece.pdx.edu(26):      1958  1 _tag_violation
+S 1982.0.0 8296 27
+# mo.ece.pdx.edu(27):      1074  1 _tag_violation
+S 92.0.0 308 28
+# mo.ece.pdx.edu(28):      3951  1 _optimize_unmerged_layer_dp
+S 82.0.0 266 29
+# mo.ece.pdx.edu(29):      3939  1 _optimize_unmerged_layer_dp
+F 151.0.0 555 6
+F 96.0.0 324 9
+F 106.0.0 366 10
+F 91.0.0 303 25
+F 909.0.0 3804 30
+F 873.0.0 3628 31
+S 102.0.0 350 6
+# mo.ece.pdx.edu(6):      3951  1 _optimize_unmerged_layer_dp
+S 152.0.0 560 9
+# mo.ece.pdx.edu(9):      3951  1 _optimize_unmerged_layer_dp
+S 172.0.0 644 10
+# mo.ece.pdx.edu(10):      3939  1 _optimize_unmerged_layer_dp
+S 81.0.0 261 25
+# mo.ece.pdx.edu(25):      3935  1 _optimize_unmerged_layer_dp
+S 2057.0.0 8615 30
+# mo.ece.pdx.edu(30):      2602  1 _tag_violation
+S 984.0.0 4120 31
+# mo.ece.pdx.edu(31):      2694  1 _tag_violation
+F 1582.0.0 6678 0
+F 171.0.0 639 1
+F 1590.0.0 6708 3
+F 1586.0.0 6693 4
+F 1594.0.0 6723 5
+S 2072.0.0 8659 0
+# mo.ece.pdx.edu(0):      1958  1 _tag_violation
+S 2063.0.0 8635 1
+# mo.ece.pdx.edu(1):      1074  1 _tag_violation
+S 1883.0.0 7897 3
+# mo.ece.pdx.edu(3):      2294  1 _tag_violation
+S 1871.0.0 7849 4
+# mo.ece.pdx.edu(4):      2293  1 _tag_violation
+S 1880.0.0 7885 5
+# mo.ece.pdx.edu(5):      2295  1 _tag_violation
+F 86.0.0 282 2
+S 958.0.0 4010 2
+# mo.ece.pdx.edu(2):      1078  1 _tag_violation
+F 1988.0.0 8312 26
+S 952.0.0 3983 26
+# mo.ece.pdx.edu(26):      1078  1 _tag_violation
+F 2042.0.0 8555 12
+F 2045.0.0 8567 13
+F 1799.0.0 7550 15
+F 1787.0.0 7502 16
+S 964.0.0 4037 12
+# mo.ece.pdx.edu(12):      1078  1 _tag_violation
+S 970.0.0 4064 13
+# mo.ece.pdx.edu(13):      1078  1 _tag_violation
+S 1063.0.0 4468 15
+# mo.ece.pdx.edu(15):      1080  1 _tag_violation
+S 1045.0.0 4380 16
+# mo.ece.pdx.edu(16):      1080  1 _tag_violation
+F 2072.0.0 8659 0
+F 2063.0.0 8635 1
+F 958.0.0 4010 2
+F 1883.0.0 7897 3
+F 1871.0.0 7849 4
+F 1880.0.0 7885 5
+F 847.0.0 3511 7
+F 843.0.0 3495 8
+F 2054.0.0 8603 11
+F 2036.0.0 8531 14
+F 1796.0.0 7538 17
+F 2082.0.0 8692 21
+F 1973.0.0 8268 22
+F 987.0.0 4132 24
+F 1982.0.0 8296 27
+F 2057.0.0 8615 30
+S 1027.0.0 4292 0
+# mo.ece.pdx.edu(0):      1080  1 _tag_violation
+S 1083.0.0 4562 1
+# mo.ece.pdx.edu(1):      1080  1 _tag_violation
+S 1001.0.0 4175 2
+# mo.ece.pdx.edu(2):      2712  1 _tag_violation
+S 997.0.0 4159 3
+# mo.ece.pdx.edu(3):      1093  1 _tag_violation
+S 2060.0.0 8627 4
+# mo.ece.pdx.edu(4):      2602  1 _tag_violation
+S 1141.0.0 4796 5
+# mo.ece.pdx.edu(5):      2694  1 _tag_violation
+S 2069.0.0 8651 7
+# mo.ece.pdx.edu(7):      1958  1 _tag_violation
+S 2066.0.0 8643 8
+# mo.ece.pdx.edu(8):      1074  1 _tag_violation
+S 1955.0.0 8196 11
+# mo.ece.pdx.edu(11):      2293  1 _tag_violation
+S 1967.0.0 8244 14
+# mo.ece.pdx.edu(14):      2294  1 _tag_violation
+S 1964.0.0 8232 17
+# mo.ece.pdx.edu(17):      2295  1 _tag_violation
+S 778.0.0 3245 21
+# mo.ece.pdx.edu(21):      2700  1 _tag_violation
+S 785.0.0 3268 22
+# mo.ece.pdx.edu(22):      2286  1 _tag_violation
+S 827.0.0 3444 24
+# mo.ece.pdx.edu(24):      2360  1 _tag_violation
+S 836.0.0 3475 27
+# mo.ece.pdx.edu(27):      1185  1 _tag_violation
+S 824.0.0 3432 30
+# mo.ece.pdx.edu(30):      2392  1 _tag_violation
+F 952.0.0 3983 26
+F 984.0.0 4120 31
+S 782.0.0 3256 26
+# mo.ece.pdx.edu(26):      1086  1 _tag_violation
+S 2048.0.0 8579 31
+# mo.ece.pdx.edu(31):      2295  1 _tag_violation
+F 1027.0.0 4292 0
+S 2051.0.0 8591 0
+# mo.ece.pdx.edu(0):      2294  1 _tag_violation
+F 1964.0.0 8232 17
+S 2039.0.0 8543 17
+# mo.ece.pdx.edu(17):      2293  1 _tag_violation
+F 970.0.0 4064 13
+F 1967.0.0 8244 14
+F 827.0.0 3444 24
+S 932.0.0 3909 13
+# mo.ece.pdx.edu(13):      2700  1 _tag_violation
+S 939.0.0 3932 14
+# mo.ece.pdx.edu(14):      2286  1 _tag_violation
+S 981.0.0 4108 24
+# mo.ece.pdx.edu(24):      2360  1 _tag_violation
+F 2051.0.0 8591 0
+F 1083.0.0 4562 1
+F 964.0.0 4037 12
+F 1063.0.0 4468 15
+F 778.0.0 3245 21
+F 785.0.0 3268 22
+F 782.0.0 3256 26
+F 824.0.0 3432 30
+S 990.0.0 4139 0
+# mo.ece.pdx.edu(0):      1185  1 _tag_violation
+S 978.0.0 4096 1
+# mo.ece.pdx.edu(1):      2392  1 _tag_violation
+S 936.0.0 3920 12
+# mo.ece.pdx.edu(12):      1086  1 _tag_violation
+S 1272.0.0 5365 15
+# mo.ece.pdx.edu(15):      1078  1 _tag_violation
+S 1266.0.0 5338 21
+# mo.ece.pdx.edu(21):      1078  1 _tag_violation
+S 1260.0.0 5311 22
+# mo.ece.pdx.edu(22):      1078  1 _tag_violation
+S 1277.0.0 5388 26
+# mo.ece.pdx.edu(26):      1078  1 _tag_violation
+S 1352.0.0 5704 30
+# mo.ece.pdx.edu(30):      1080  1 _tag_violation
+F 997.0.0 4159 3
+F 1955.0.0 8196 11
+F 932.0.0 3909 13
+F 1045.0.0 4380 16
+F 981.0.0 4108 24
+F 836.0.0 3475 27
+S 1334.0.0 5616 3
+# mo.ece.pdx.edu(3):      1080  1 _tag_violation
+S 1370.0.0 5792 11
+# mo.ece.pdx.edu(11):      1080  1 _tag_violation
+S 1390.0.0 5887 13
+# mo.ece.pdx.edu(13):      1080  1 _tag_violation
+S 1308.0.0 5499 16
+# mo.ece.pdx.edu(16):      2712  1 _tag_violation
+S 1304.0.0 5483 24
+# mo.ece.pdx.edu(24):      1093  1 _tag_violation
+S 1118.0.0 4701 27
+# mo.ece.pdx.edu(27):      1078  1 _tag_violation
+F 990.0.0 4139 0
+F 978.0.0 4096 1
+F 936.0.0 3920 12
+S 1106.0.0 4647 0
+# mo.ece.pdx.edu(0):      1078  1 _tag_violation
+S 1112.0.0 4674 1
+# mo.ece.pdx.edu(1):      1078  1 _tag_violation
+S 1124.0.0 4728 12
+# mo.ece.pdx.edu(12):      1078  1 _tag_violation
+F 2066.0.0 8643 8
+F 2039.0.0 8543 17
+S 1217.0.0 5132 8
+# mo.ece.pdx.edu(8):      1080  1 _tag_violation
+S 1237.0.0 5226 17
+# mo.ece.pdx.edu(17):      1080  1 _tag_violation
+F 2060.0.0 8627 4
+S 1199.0.0 5044 4
+# mo.ece.pdx.edu(4):      1080  1 _tag_violation
+F 939.0.0 3932 14
+S 1181.0.0 4956 14
+# mo.ece.pdx.edu(14):      1080  1 _tag_violation
+F 1141.0.0 4796 5
+S 1155.0.0 4839 5
+# mo.ece.pdx.edu(5):      2712  1 _tag_violation
+F 1272.0.0 5365 15
+S 1151.0.0 4823 15
+# mo.ece.pdx.edu(15):      1093  1 _tag_violation
+F 1217.0.0 5132 8
+F 1266.0.0 5338 21
+S 2212.0.0 9218 8
+# mo.ece.pdx.edu(8):      1259  1 _tag_violation
+S 2227.0.0 9275 21
+# mo.ece.pdx.edu(21):      1256  1 _tag_violation
+F 1370.0.0 5792 11
+S 1240.0.0 5237 11
+# mo.ece.pdx.edu(11):      2700  1 _tag_violation
+F 1199.0.0 5044 4
+S 2182.0.0 9100 4
+# mo.ece.pdx.edu(4):      2602  1 _tag_violation
+F 1155.0.0 4839 5
+S 1247.0.0 5260 5
+# mo.ece.pdx.edu(5):      2286  1 _tag_violation
+F 1260.0.0 5311 22
+S 1291.0.0 5444 22
+# mo.ece.pdx.edu(22):      2694  1 _tag_violation
+F 2069.0.0 8651 7
+F 1240.0.0 5237 11
+F 1124.0.0 4728 12
+F 1308.0.0 5499 16
+S 2238.0.0 9324 7
+# mo.ece.pdx.edu(7):      1269  1 _tag_violation
+S 2253.0.0 9373 11
+# mo.ece.pdx.edu(11):      1402  1 _tag_violation
+S 2247.0.0 9359 12
+# mo.ece.pdx.edu(12):      1401  1 _tag_violation
+S 2250.0.0 9366 16
+# mo.ece.pdx.edu(16):      1270  1 _tag_violation
+F 1277.0.0 5388 26
+F 1118.0.0 4701 27
+S 1288.0.0 5432 26
+# mo.ece.pdx.edu(26):      2360  1 _tag_violation
+S 1297.0.0 5463 27
+# mo.ece.pdx.edu(27):      1185  1 _tag_violation
+F 1112.0.0 4674 1
+F 1334.0.0 5616 3
+S 2194.0.0 9132 1
+# mo.ece.pdx.edu(1):      1955  1 _tag_violation
+S 2185.0.0 9108 3
+# mo.ece.pdx.edu(3):      1074  1 _tag_violation
+F 1304.0.0 5483 24
+S 1285.0.0 5420 24
+# mo.ece.pdx.edu(24):      2392  1 _tag_violation
+F 1106.0.0 4647 0
+F 1390.0.0 5887 13
+S 1244.0.0 5248 0
+# mo.ece.pdx.edu(0):      1086  1 _tag_violation
+S 1086.0.0 4573 13
+# mo.ece.pdx.edu(13):      2700  1 _tag_violation
+F 1151.0.0 4823 15
+F 2250.0.0 9366 16
+F 1352.0.0 5704 30
+S 1093.0.0 4596 15
+# mo.ece.pdx.edu(15):      2286  1 _tag_violation
+S 1135.0.0 4772 16
+# mo.ece.pdx.edu(16):      2360  1 _tag_violation
+S 1144.0.0 4803 30
+# mo.ece.pdx.edu(30):      1185  1 _tag_violation
+F 1181.0.0 4956 14
+F 1288.0.0 5432 26
+S 1132.0.0 4760 14
+# mo.ece.pdx.edu(14):      2392  1 _tag_violation
+S 1090.0.0 4584 26
+# mo.ece.pdx.edu(26):      1086  1 _tag_violation
+F 1285.0.0 5420 24
+S 1596.0.0 6733 24
+# mo.ece.pdx.edu(24):      2410  1 _tag_violation
+F 1132.0.0 4760 14
+S 1588.0.0 6703 14
+# mo.ece.pdx.edu(14):      2409  1 _tag_violation
+F 1247.0.0 5260 5
+S 1592.0.0 6718 5
+# mo.ece.pdx.edu(5):      2408  1 _tag_violation
+F 1093.0.0 4596 15
+S 1584.0.0 6688 15
+# mo.ece.pdx.edu(15):      2407  1 _tag_violation
+F 2185.0.0 9108 3
+S 1425.0.0 6026 3
+# mo.ece.pdx.edu(3):      1078  1 _tag_violation
+F 1090.0.0 4584 26
+S 1419.0.0 5999 26
+# mo.ece.pdx.edu(26):      1078  1 _tag_violation
+F 1001.0.0 4175 2
+S 1413.0.0 5972 2
+# mo.ece.pdx.edu(2):      1078  1 _tag_violation
+F 1291.0.0 5444 22
+S 1431.0.0 6053 22
+# mo.ece.pdx.edu(22):      1078  1 _tag_violation
+F 2048.0.0 8579 31
+S 1524.0.0 6457 31
+# mo.ece.pdx.edu(31):      1080  1 _tag_violation
+F 2212.0.0 9218 8
+F 2253.0.0 9373 11
+F 1135.0.0 4772 16
+F 1237.0.0 5226 17
+S 1506.0.0 6369 8
+# mo.ece.pdx.edu(8):      1080  1 _tag_violation
+S 1488.0.0 6281 11
+# mo.ece.pdx.edu(11):      1080  1 _tag_violation
+S 1544.0.0 6551 16
+# mo.ece.pdx.edu(16):      1080  1 _tag_violation
+S 1393.0.0 5898 17
+# mo.ece.pdx.edu(17):      2700  1 _tag_violation
+F 1244.0.0 5248 0
+F 2182.0.0 9100 4
+F 1592.0.0 6718 5
+F 2238.0.0 9324 7
+F 2247.0.0 9359 12
+F 1086.0.0 4573 13
+F 1588.0.0 6703 14
+F 1584.0.0 6688 15
+F 2227.0.0 9275 21
+F 1431.0.0 6053 22
+F 1596.0.0 6733 24
+F 1297.0.0 5463 27
+F 1144.0.0 4803 30
+S 1462.0.0 6164 0
+# mo.ece.pdx.edu(0):      2712  1 _tag_violation
+S 1564.0.0 6615 4
+# mo.ece.pdx.edu(4):      2794  1 _tag_violation
+S 1547.0.0 6562 5
+# mo.ece.pdx.edu(5):      2699  1 _tag_violation
+S 2179.0.0 9088 7
+# mo.ece.pdx.edu(7):      2602  1 _tag_violation
+S 2265.0.0 9416 12
+# mo.ece.pdx.edu(12):      2676  1 _tag_violation
+S 1445.0.0 6109 13
+# mo.ece.pdx.edu(13):      2694  1 _tag_violation
+S 1553.0.0 6581 14
+# mo.ece.pdx.edu(14):      2285  1 _tag_violation
+S 2259.0.0 9395 15
+# mo.ece.pdx.edu(15):      2294  1 _tag_violation
+S 2268.0.0 9428 21
+# mo.ece.pdx.edu(21):      2262  1 _tag_violation
+S 1400.0.0 5921 22
+# mo.ece.pdx.edu(22):      2286  1 _tag_violation
+S 2176.0.0 9076 24
+# mo.ece.pdx.edu(24):      2291  1 _tag_violation
+S 1568.0.0 6630 27
+# mo.ece.pdx.edu(27):      2794  1 _tag_violation
+S 1442.0.0 6097 30
+# mo.ece.pdx.edu(30):      2360  1 _tag_violation
+F 2194.0.0 9132 1
+F 1413.0.0 5972 2
+F 1425.0.0 6026 3
+F 1506.0.0 6369 8
+F 1488.0.0 6281 11
+F 1419.0.0 5999 26
+S 1451.0.0 6128 1
+# mo.ece.pdx.edu(1):      1185  1 _tag_violation
+S 1556.0.0 6588 2
+# mo.ece.pdx.edu(2):      1185  1 _tag_violation
+S 1560.0.0 6599 3
+# mo.ece.pdx.edu(3):      1093  1 _tag_violation
+S 1458.0.0 6148 8
+# mo.ece.pdx.edu(8):      1093  1 _tag_violation
+S 2191.0.0 9124 11
+# mo.ece.pdx.edu(11):      1955  1 _tag_violation
+S 2173.0.0 9064 26
+# mo.ece.pdx.edu(26):      1108  1 _tag_violation
+F 1547.0.0 6562 5
+S 2188.0.0 9116 5
+# mo.ece.pdx.edu(5):      1074  1 _tag_violation
+F 1400.0.0 5921 22
+S 2169.0.0 9050 22
+# mo.ece.pdx.edu(22):      1356  1 _tag_violation
+F 1544.0.0 6551 16
+S 2256.0.0 9383 16
+# mo.ece.pdx.edu(16):      1303  1 _tag_violation
+F 1524.0.0 6457 31
+S 1439.0.0 6085 31
+# mo.ece.pdx.edu(31):      2392  1 _tag_violation
+F 1556.0.0 6588 2
+S 1397.0.0 5909 2
+# mo.ece.pdx.edu(2):      1086  1 _tag_violation
+F 1553.0.0 6581 14
+S 1550.0.0 6569 14
+# mo.ece.pdx.edu(14):      1087  1 _tag_violation
+F 1393.0.0 5898 17
+S 2262.0.0 9405 17
+# mo.ece.pdx.edu(17):      2637  1 _tag_violation
+F 1560.0.0 6599 3
+F 2191.0.0 9124 11
+F 2259.0.0 9395 15
+S 186.0.0 699 3
+# mo.ece.pdx.edu(3):      2988  1 _tag_violation
+S 184.0.0 694 11
+# mo.ece.pdx.edu(11):      2596  1 _tag_violation
+F 1439.0.0 6085 31
+F 0 0 15
+F 1550.0.0 6569 14
+F 0 0 31
+F 2169.0.0 9050 22
+F 0 0 14
+F 2268.0.0 9428 21
+F 2265.0.0 9416 12
+F 1462.0.0 6164 0
+F 0 0 22
+F 2176.0.0 9076 24
+F 1397.0.0 5909 2
+F 0 0 21
+F 0 0 12
+F 0 0 0
+F 0 0 24
+F 0 0 2
+F 1568.0.0 6630 27
+F 2179.0.0 9088 7
+F 0 0 27
+F 1442.0.0 6097 30
+F 1564.0.0 6615 4
+F 1445.0.0 6109 13
+F 2188.0.0 9116 5
+F 0 0 7
+F 2256.0.0 9383 16
+F 0 0 30
+F 1451.0.0 6128 1
+F 0 0 4
+F 0 0 5
+F 0 0 13
+F 0 0 16
+F 0 0 1
+F 2173.0.0 9064 26
+F 1458.0.0 6148 8
+F 0 0 26
+F 184.0.0 694 11
+F 186.0.0 699 3
+F 0 0 11
+F 2262.0.0 9405 17
+F 0 0 3
+F 0 0 17
+F 0 0 8
+F 81.0.0 261 25
+F 102.0.0 350 6
+S 1718.0.0 7215 0
+# mo.ece.pdx.edu(0):      2706  1 _tag_violation
+S 1709.0.0 7179 1
+# mo.ece.pdx.edu(1):      2704  1 _tag_violation
+S 1706.0.0 7167 2
+# mo.ece.pdx.edu(2):      2705  1 _tag_violation
+S 1700.0.0 7143 3
+# mo.ece.pdx.edu(3):      1105  1 _tag_violation
+S 1715.0.0 7203 4
+# mo.ece.pdx.edu(4):      2294  1 _tag_violation
+S 1712.0.0 7191 5
+# mo.ece.pdx.edu(5):      2295  1 _tag_violation
+S 1703.0.0 7155 6
+# mo.ece.pdx.edu(6):      2293  1 _tag_violation
+F 1718.0.0 7215 0
+F 0 0 0
+F 1709.0.0 7179 1
+F 1700.0.0 7143 3
+F 0 0 1
+F 1706.0.0 7167 2
+F 1712.0.0 7191 5
+F 0 0 3
+F 1715.0.0 7203 4
+F 0 0 2
+F 0 0 5
+F 1703.0.0 7155 6
+F 0 0 4
+F 0 0 6
+F 172.0.0 644 10
+F 152.0.0 560 9
+S 2108.0.0 8790 0
+# mo.ece.pdx.edu(0):      2706  1 _tag_violation
+S 2099.0.0 8754 1
+# mo.ece.pdx.edu(1):      2704  1 _tag_violation
+S 2096.0.0 8742 2
+# mo.ece.pdx.edu(2):      2705  1 _tag_violation
+S 2090.0.0 8718 3
+# mo.ece.pdx.edu(3):      1105  1 _tag_violation
+S 2136.0.0 8879 4
+# mo.ece.pdx.edu(4):      1169  1 _tag_violation
+S 2126.0.0 8846 5
+# mo.ece.pdx.edu(5):      1958  1 _tag_violation
+S 2117.0.0 8822 6
+# mo.ece.pdx.edu(6):      1074  1 _tag_violation
+S 2114.0.0 8814 7
+# mo.ece.pdx.edu(7):      2602  1 _tag_violation
+S 1294.0.0 5456 8
+# mo.ece.pdx.edu(8):      2694  1 _tag_violation
+S 2123.0.0 8838 9
+# mo.ece.pdx.edu(9):      1958  1 _tag_violation
+S 2120.0.0 8830 11
+# mo.ece.pdx.edu(11):      1074  1 _tag_violation
+S 2111.0.0 8802 12
+# mo.ece.pdx.edu(12):      2602  1 _tag_violation
+S 1138.0.0 4784 13
+# mo.ece.pdx.edu(13):      2694  1 _tag_violation
+S 2105.0.0 8778 14
+# mo.ece.pdx.edu(14):      2294  1 _tag_violation
+S 2102.0.0 8766 15
+# mo.ece.pdx.edu(15):      2295  1 _tag_violation
+S 2093.0.0 8730 16
+# mo.ece.pdx.edu(16):      2293  1 _tag_violation
+S 1448.0.0 6121 17
+# mo.ece.pdx.edu(17):      2694  1 _tag_violation
+F 2099.0.0 8754 1
+F 2126.0.0 8846 5
+F 2096.0.0 8742 2
+F 0 0 5
+F 0 0 1
+F 0 0 2
+F 2108.0.0 8790 0
+F 2117.0.0 8822 6
+F 2090.0.0 8718 3
+F 2111.0.0 8802 12
+F 0 0 0
+F 0 0 6
+F 0 0 3
+F 0 0 12
+F 2102.0.0 8766 15
+F 0 0 15
+F 1448.0.0 6121 17
+F 87.0.0 287 20
+S 1603.0.0 6755 0
+# mo.ece.pdx.edu(0):      1944  1 _tag_violation
+S 1599.0.0 6741 1
+# mo.ece.pdx.edu(1):      1068  1 _tag_violation
+S 313.0.0 1242 2
+# mo.ece.pdx.edu(2):      1080  1 _tag_violation
+S 295.0.0 1154 3
+# mo.ece.pdx.edu(3):      1080  1 _tag_violation
+S 277.0.0 1066 5
+# mo.ece.pdx.edu(5):      1080  1 _tag_violation
+S 251.0.0 950 6
+# mo.ece.pdx.edu(6):      1093  1 _tag_violation
+S 230.0.0 879 12
+# mo.ece.pdx.edu(12):      1076  1 _tag_violation
+S 225.0.0 856 15
+# mo.ece.pdx.edu(15):      1076  1 _tag_violation
+S 220.0.0 833 20
+# mo.ece.pdx.edu(20):      1076  1 _tag_violation
+S 214.0.0 806 21
+# mo.ece.pdx.edu(21):      1076  1 _tag_violation
+S 201.0.0 755 22
+# mo.ece.pdx.edu(22):      2675  1 _tag_violation
+S 244.0.0 930 24
+# mo.ece.pdx.edu(24):      1184  1 _tag_violation
+S 241.0.0 923 26
+# mo.ece.pdx.edu(26):      2361  1 _tag_violation
+S 238.0.0 911 27
+# mo.ece.pdx.edu(27):      2392  1 _tag_violation
+S 196.0.0 733 30
+# mo.ece.pdx.edu(30):      2285  1 _tag_violation
+S 193.0.0 721 31
+# mo.ece.pdx.edu(31):      1086  1 _tag_violation
+F 2136.0.0 8879 4
+F 2114.0.0 8814 7
+F 1294.0.0 5456 8
+F 2123.0.0 8838 9
+F 2120.0.0 8830 11
+F 1138.0.0 4784 13
+F 2105.0.0 8778 14
+F 2093.0.0 8730 16
+F 0 0 17
+S 189.0.0 710 4
+# mo.ece.pdx.edu(4):      1513  1 _tag_violation
+F 313.0.0 1242 2
+F 201.0.0 755 22
+F 251.0.0 950 6
+F 230.0.0 879 12
+F 295.0.0 1154 3
+F 0 0 7
+F 0 0 9
+F 225.0.0 856 15
+F 0 0 16
+F 1603.0.0 6755 0
+F 0 0 2
+F 0 0 8
+F 0 0 11
+F 0 0 12
+F 0 0 13
+F 0 0 14
+F 107.0.0 371 19
+F 214.0.0 806 21
+F 0 0 22
+F 92.0.0 308 28
+S 1649.0.0 6916 0
+# mo.ece.pdx.edu(0):      1958  1 _tag_violation
+S 1643.0.0 6900 2
+# mo.ece.pdx.edu(2):      1074  1 _tag_violation
+S 1637.0.0 6880 7
+# mo.ece.pdx.edu(7):      2602  1 _tag_violation
+S 1860.0.0 7811 8
+# mo.ece.pdx.edu(8):      1846  1 _tag_violation
+S 621.0.0 2570 9
+# mo.ece.pdx.edu(9):      1080  1 _tag_violation
+S 601.0.0 2476 11
+# mo.ece.pdx.edu(11):      1080  1 _tag_violation
+S 583.0.0 2388 12
+# mo.ece.pdx.edu(12):      1080  1 _tag_violation
+S 565.0.0 2300 13
+# mo.ece.pdx.edu(13):      1080  1 _tag_violation
+S 539.0.0 2183 14
+# mo.ece.pdx.edu(14):      2712  1 _tag_violation
+S 535.0.0 2167 16
+# mo.ece.pdx.edu(16):      1093  1 _tag_violation
+S 508.0.0 2072 17
+# mo.ece.pdx.edu(17):      1078  1 _tag_violation
+S 502.0.0 2045 19
+# mo.ece.pdx.edu(19):      1078  1 _tag_violation
+S 496.0.0 2018 21
+# mo.ece.pdx.edu(21):      1078  1 _tag_violation
+S 490.0.0 1991 22
+# mo.ece.pdx.edu(22):      1078  1 _tag_violation
+S 1830.0.0 7651 28
+# mo.ece.pdx.edu(28):      1169  1 _tag_violation
+F 0 0 3
+F 189.0.0 710 4
+F 0 0 6
+F 0 0 15
+F 97.0.0 329 18
+F 220.0.0 833 20
+F 244.0.0 930 24
+F 241.0.0 923 26
+F 238.0.0 911 27
+F 193.0.0 721 31
+S 1692.0.0 7117 3
+# mo.ece.pdx.edu(3):      1842  1 _tag_violation
+S 1776.0.0 7464 4
+# mo.ece.pdx.edu(4):      1846  1 _tag_violation
+S 1662.0.0 6957 6
+# mo.ece.pdx.edu(6):      1169  1 _tag_violation
+S 1746.0.0 7304 15
+# mo.ece.pdx.edu(15):      1169  1 _tag_violation
+S 467.0.0 1906 18
+# mo.ece.pdx.edu(18):      1080  1 _tag_violation
+S 447.0.0 1812 20
+# mo.ece.pdx.edu(20):      1080  1 _tag_violation
+S 429.0.0 1724 24
+# mo.ece.pdx.edu(24):      1080  1 _tag_violation
+S 411.0.0 1636 26
+# mo.ece.pdx.edu(26):      1080  1 _tag_violation
+S 385.0.0 1519 27
+# mo.ece.pdx.edu(27):      2712  1 _tag_violation
+S 381.0.0 1503 31
+# mo.ece.pdx.edu(31):      1093  1 _tag_violation
+F 1649.0.0 6916 0
+F 1643.0.0 6900 2
+F 621.0.0 2570 9
+F 601.0.0 2476 11
+F 583.0.0 2388 12
+F 565.0.0 2300 13
+F 535.0.0 2167 16
+F 508.0.0 2072 17
+F 502.0.0 2045 19
+F 496.0.0 2018 21
+F 490.0.0 1991 22
+S 354.0.0 1408 0
+# mo.ece.pdx.edu(0):      1078  1 _tag_violation
+S 348.0.0 1381 2
+# mo.ece.pdx.edu(2):      1078  1 _tag_violation
+S 342.0.0 1354 9
+# mo.ece.pdx.edu(9):      1078  1 _tag_violation
+S 336.0.0 1327 11
+# mo.ece.pdx.edu(11):      1077  1 _tag_violation
+S 1652.0.0 6924 12
+# mo.ece.pdx.edu(12):      1958  1 _tag_violation
+S 1646.0.0 6908 13
+# mo.ece.pdx.edu(13):      1074  1 _tag_violation
+S 1640.0.0 6892 16
+# mo.ece.pdx.edu(16):      2602  1 _tag_violation
+S 368.0.0 1464 17
+# mo.ece.pdx.edu(17):      2694  1 _tag_violation
+S 1733.0.0 7263 19
+# mo.ece.pdx.edu(19):      1958  1 _tag_violation
+S 1727.0.0 7247 21
+# mo.ece.pdx.edu(21):      1074  1 _tag_violation
+S 1721.0.0 7227 22
+# mo.ece.pdx.edu(22):      2602  1 _tag_violation
+F 1860.0.0 7811 8
+F 1830.0.0 7651 28
+S 371.0.0 1476 8
+# mo.ece.pdx.edu(8):      2694  1 _tag_violation
+S 1634.0.0 6868 28
+# mo.ece.pdx.edu(28):      2706  1 _tag_violation
+F 1662.0.0 6957 6
+F 447.0.0 1812 20
+F 381.0.0 1503 31
+S 1625.0.0 6832 6
+# mo.ece.pdx.edu(6):      2704  1 _tag_violation
+S 1622.0.0 6820 20
+# mo.ece.pdx.edu(20):      2705  1 _tag_violation
+S 1616.0.0 6796 31
+# mo.ece.pdx.edu(31):      1105  1 _tag_violation
+F 429.0.0 1724 24
+S 1736.0.0 7271 24
+# mo.ece.pdx.edu(24):      1958  1 _tag_violation
+F 196.0.0 733 30
+S 1730.0.0 7255 30
+# mo.ece.pdx.edu(30):      1074  1 _tag_violation
+F 411.0.0 1636 26
+S 1724.0.0 7239 26
+# mo.ece.pdx.edu(26):      2602  1 _tag_violation
+F 1637.0.0 6880 7
+S 522.0.0 2128 7
+# mo.ece.pdx.edu(7):      2694  1 _tag_violation
+F 277.0.0 1066 5
+S 374.0.0 1483 5
+# mo.ece.pdx.edu(5):      1185  1 _tag_violation
+F 82.0.0 266 29
+S 1608.0.0 6770 29
+# mo.ece.pdx.edu(29):      1204  1 _tag_violation
+F 1634.0.0 6868 28
+F 1616.0.0 6796 31
+S 365.0.0 1452 28
+# mo.ece.pdx.edu(28):      2360  1 _tag_violation
+S 362.0.0 1440 31
+# mo.ece.pdx.edu(31):      2392  1 _tag_violation
+F 354.0.0 1408 0
+F 1692.0.0 7117 3
+F 1776.0.0 7464 4
+F 1625.0.0 6832 6
+F 342.0.0 1354 9
+F 336.0.0 1327 11
+F 1640.0.0 6892 16
+F 368.0.0 1464 17
+F 467.0.0 1906 18
+F 1733.0.0 7263 19
+F 1622.0.0 6820 20
+F 1727.0.0 7247 21
+F 1721.0.0 7227 22
+F 1724.0.0 7239 26
+F 1730.0.0 7255 30
+S 323.0.0 1276 0
+# mo.ece.pdx.edu(0):      2286  1 _tag_violation
+S 320.0.0 1264 3
+# mo.ece.pdx.edu(3):      1086  1 _tag_violation
+S 316.0.0 1253 4
+# mo.ece.pdx.edu(4):      2700  1 _tag_violation
+S 1817.0.0 7610 6
+# mo.ece.pdx.edu(6):      1958  1 _tag_violation
+S 1814.0.0 7602 9
+# mo.ece.pdx.edu(9):      1074  1 _tag_violation
+S 1808.0.0 7586 11
+# mo.ece.pdx.edu(11):      2602  1 _tag_violation
+S 525.0.0 2140 16
+# mo.ece.pdx.edu(16):      2694  1 _tag_violation
+S 528.0.0 2147 17
+# mo.ece.pdx.edu(17):      1185  1 _tag_violation
+S 519.0.0 2116 18
+# mo.ece.pdx.edu(18):      2360  1 _tag_violation
+S 516.0.0 2104 19
+# mo.ece.pdx.edu(19):      2392  1 _tag_violation
+S 477.0.0 1940 20
+# mo.ece.pdx.edu(20):      2286  1 _tag_violation
+S 474.0.0 1928 21
+# mo.ece.pdx.edu(21):      1086  1 _tag_violation
+S 470.0.0 1917 22
+# mo.ece.pdx.edu(22):      2700  1 _tag_violation
+S 1631.0.0 6856 26
+# mo.ece.pdx.edu(26):      2294  1 _tag_violation
+S 1628.0.0 6844 30
+# mo.ece.pdx.edu(30):      2295  1 _tag_violation
+F 348.0.0 1381 2
+F 374.0.0 1483 5
+F 522.0.0 2128 7
+F 371.0.0 1476 8
+F 1652.0.0 6924 12
+F 1646.0.0 6908 13
+F 1746.0.0 7304 15
+F 1736.0.0 7271 24
+F 362.0.0 1440 31
+S 1619.0.0 6808 2
+# mo.ece.pdx.edu(2):      2293  1 _tag_violation
+F 1599.0.0 6741 1
+F 320.0.0 1264 3
+F 316.0.0 1253 4
+F 525.0.0 2140 16
+F 528.0.0 2147 17
+F 474.0.0 1928 21
+F 470.0.0 1917 22
+F 365.0.0 1452 28
+F 323.0.0 1276 0
+F 0 0 5
+F 0 0 7
+F 0 0 8
+F 0 0 12
+F 0 0 13
+F 0 0 15
+F 0 0 24
+F 0 0 3
+F 0 0 4
+F 0 0 16
+F 0 0 17
+F 0 0 21
+F 0 0 22
+F 0 0 28
+F 0 0 31
+F 0 0 1
+F 0 0 0
+F 1631.0.0 6856 26
+F 1817.0.0 7610 6
+F 1814.0.0 7602 9
+F 1808.0.0 7586 11
+F 519.0.0 2116 18
+F 516.0.0 2104 19
+F 477.0.0 1940 20
+F 1619.0.0 6808 2
+F 539.0.0 2183 14
+F 0 0 26
+F 1628.0.0 6844 30
+F 0 0 6
+F 0 0 9
+F 0 0 18
+F 0 0 19
+F 0 0 20
+F 0 0 2
+F 0 0 11
+F 0 0 14
+F 0 0 30
+F 0 0 25
+F 385.0.0 1519 27
+F 0 0 27
+F 0 0 10
+F 1608.0.0 6770 29
+F 0 0 29
+F 2152.0.0 8966 23
+S 2153.0.0 8974 0
+# mo.ece.pdx.edu(0):      1010  1 _boolean_or
+F 0 0 23
+F 2153.0.0 8974 0
+S 2154.0.0 8977 0
+# mo.ece.pdx.edu(0):      3314  1 _select_q
+F 2154.0.0 8977 0
+S 2155.0.0 8983 0
+# mo.ece.pdx.edu(0):      3301  1 _select_q
+F 2155.0.0 8983 0
+S 2161.0.0 9019 0
+# mo.ece.pdx.edu(0):      3518  1 _select_q
+F 2161.0.0 9019 0
+S 2162.0.0 9025 0
+# mo.ece.pdx.edu(0):      1418  1 _boolean_or_list
+F 2162.0.0 9025 0
+S 2163.0.0 9028 0
+# mo.ece.pdx.edu(0):      2873  1 _select_q
+F 2163.0.0 9028 0
+S 2164.0.0 9034 0
+# mo.ece.pdx.edu(0):      2631  1 _boolean_not_q
+F 2164.0.0 9034 0
+S 2166.0.0 9040 0
+# mo.ece.pdx.edu(0):      1848  1 _tag_violation
+F 2166.0.0 9040 0
+S 2270.0.0 9431 0
+# mo.ece.pdx.edu(0):       372  1 _accumulate_results
+F 0 0 28
+F 2270.0.0 9431 0
+}

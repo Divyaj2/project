@@ -1,0 +1,26 @@
+Turn off antenna since no rule is specified
+Cell Min-Routing-Layer = M2
+Cell Max-Routing-Layer = M7
+Warning: Cannot find a default contact code for layer CO. (ZRT-022)
+Warning: Ignore 3 top cell ports with no pins. (ZRT-027)
+Skipping 5 internal pins that are not physical. Set route.common.verbose_level to > 0 and run routing command to get skipped pin names.
+Info: number of net_type_blockage: 0 
+Found 1 voltage-areas.
+[ReportShielding: Start] Elapsed real time: 0:00:00 
+[ReportShielding: Start] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[ReportShielding: Start] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[ReportShielding: Start] Total (MB): Used  199  Alloctr  201  Proc 2125 
+Information: Shielded 51% side-wall of (I_BLENDER_0/n766) (ZRT-604)
+    Layer: M2  ratio: 46%
+    Layer: M3  ratio: 39%
+    Layer: M4  ratio: 72%
+Information: Shielded 79% side-wall of (I_BLENDER_0/n3357) (ZRT-604)
+    Layer: M2  ratio: 34%
+    Layer: M3  ratio: 100%
+Shielded 2 nets with average ratio as follows.
+	1) 65.00%		(total shield ratio/number of shielded nets)
+	2) 60.79%		(total shield length/total shielded net length)
+[ReportShielding: End] Elapsed real time: 0:00:05 
+[ReportShielding: End] Elapsed cpu  time: sys=0:00:00 usr=0:00:05 total=0:00:05
+[ReportShielding: End] Stage (MB): Used   17  Alloctr   16  Proc    0 
+[ReportShielding: End] Total (MB): Used  216  Alloctr  218  Proc 2125 

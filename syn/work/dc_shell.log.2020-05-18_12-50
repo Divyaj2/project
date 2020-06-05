@@ -1,0 +1,232 @@
+setting auto_restore_mw_cel_lib_setup true
+Initializing gui preferences from file  /u/divyaj2/.synopsys_dv_prefs.tcl
+dc_shell> f
+setting top_design to: 
+fifo1
+dc_shell> source -echo -verbose ../../$top_design.design_config.tcl
+set lib_dir /pkgs/synopsys/2020/32_28nm/SAED32_EDK
+/pkgs/synopsys/2020/32_28nm/SAED32_EDK
+# Decoder ring for the libraries
+# You will need to follow another example or look in the library directories to understand.
+# lib_types is used for the dc/dct linking variables and ICC2 NDM lcoations.
+# /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm
+# /          $lib_dir                   /lib/ $lib_type /db_nldm
+# link_library, Target_library use the sub_lib_types and corner variables. 
+# For sub_lib_types and corner:
+# Example:
+#     saed32hvt_ss0p75v125c.db
+#     |sub_lib  corner    .db
+# The current flow tries to find all sub_lib and all corners in all the search paths.  Any match will be put in the library list.
+# Wild cards can be used, but be careful.  Multiple matches can occur in ways you don't want.
+# For the target library, the same method is used as the link library except only HVT and RVT lib_types are used.
+# ICC2 NDM choosing also uses the sub_lib_types so that only the required libraries and extras are not loaded.
+# fifo1
+set top_design fifo1
+fifo1
+set add_ios 1
+1
+set pad_design 1
+1
+set design_size { 580 580  } 
+ 580 580  
+set design_io_border 310
+310
+set dc_floorplanning 1
+1
+set rtl_list [list ../rtl/$top_design.sv ]
+../rtl/fifo1.sv
+set slow_corner "ss0p75v125c ss0p95v125c_2p25v ss0p95v125c"
+ss0p75v125c ss0p95v125c_2p25v ss0p95v125c
+set fast_corner "ff0p95vn40c ff1p16vn40c_2p75v ff1p16vn40c"
+ff0p95vn40c ff1p16vn40c_2p75v ff1p16vn40c
+set synth_corners $slow_corner
+ss0p75v125c ss0p95v125c_2p25v ss0p95v125c
+set slow_metal Cmax_125
+Cmax_125
+set fast_metal Cmax_125
+Cmax_125
+set lib_types "stdcell_hvt stdcell_rvt stdcell_lvt io_std sram"
+stdcell_hvt stdcell_rvt stdcell_lvt io_std sram
+# Get just the main standard cells, srams and IOs
+set sub_lib_type "saed32?vt_ saed32sram_ saed32io_wb_"
+saed32?vt_ saed32sram_ saed32io_wb_
+#set topdir /u/$env(USER)/PSU_RTL2GDS
+set topdir [ lindex [ regexp -inline "(.*)\(syn\|pt\|apr\)" [pwd] ] 1 ]
+/u/divyaj2/ECE510-2020-SPRING/project/
+/u/divyaj2/ECE510-2020-SPRING/project/
+dc_shell> 
+dc_shell> 
+dc_shell> # List all current designs
+dc_shell> set this_design [ list_designs ]
+Warning: No designs to list. (UID-275)
+0
+dc_shell> 
+dc_shell> # If there are existing designs reset/remove them
+dc_shell> if { $this_design != 0 } {
+  # To reset the earlier designs
+  reset_design
+  remove_design -designs
+}
+dc_shell> 
+dc_shell> if { ! [ info exists top_design ] } {
+   set top_design fifo1
+}
+dc_shell> 
+dc_shell> source ../scripts/dc-get-timlibs.tcl
+dc_shell> 
+dc_shell> 
+dc_shell> # Analyzing the files for the design
+dc_shell> analyze $rtl_list -autoread -define SYNTHESIS
+== ANALYZE autoread all files ==
+
+Starting ANALYZE autoread mode...
+Warning: Defining design library 'WORK' at directory '/u/divyaj2/ECE510-2020-SPRING/project/syn/work/WORK_autoread'. (AUTOREAD-107)
+Information: Adding '/u/divyaj2/ECE510-2020-SPRING/project/syn/rtl/fifo1.sv'.  (AUTOREAD-100)
+Information: Scanning file { fifo1.sv }. (AUTOREAD-303)
+Compiling source file /u/divyaj2/ECE510-2020-SPRING/project/syn/rtl/fifo1.sv
+Presto compilation completed successfully.
+Autoread command completed successfully.
+1
+dc_shell> 
+dc_shell> Elaborate the FIFO design
+Error: unknown command 'Elaborate' (CMD-005)
+dc_shell> Elaborate the FIFO design
+Error: unknown command 'Elaborate' (CMD-005)
+dc_shell> elaborate the FIFO design
+Error: extra positional option 'FIFO' (CMD-012)
+Error: extra positional option 'design' (CMD-012)
+dc_shell> elaborate ${top_design}
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p95v125c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ss0p95v125c_2p25v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95v125c.db'
+Loading db file '/pkgs/synopsys/2019_06/syn/P-2019.03-SP1-1/libraries/syn/dw_foundation.sldb'
+Loading db file '/pkgs/synopsys/2019_06/syn/P-2019.03-SP1-1/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2019_06/syn/P-2019.03-SP1-1/libraries/syn/standard.sldb'
+  Loading link library 'saed32hvt_ss0p75v125c'
+  Loading link library 'saed32hvt_ss0p95v125c'
+  Loading link library 'saed32rvt_ss0p75v125c'
+  Loading link library 'saed32rvt_ss0p95v125c'
+  Loading link library 'saed32lvt_ss0p75v125c'
+  Loading link library 'saed32lvt_ss0p95v125c'
+  Loading link library 'saed32io_wb_ss0p95v125c_2p25v'
+  Loading link library 'saed32sram_ss0p95v125c'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+
+Inferred memory devices in process
+        in routine fifo1 line 14 in file
+                '/u/divyaj2/ECE510-2020-SPRING/project/syn/rtl/fifo1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      wdata_reg      | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (fifo1)
+Elaborated 1 design.
+Current design is now 'fifo1'.
+Information: Building the design 'sync_r2w' instantiated from design 'fifo1' with
+        the parameters "6". (HDL-193)
+
+Inferred memory devices in process
+        in routine sync_r2w_ADDRSIZE6 line 69 in file
+                '/u/divyaj2/ECE510-2020-SPRING/project/syn/rtl/fifo1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    wq2_rptr_reg     | Flip-flop |   7   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    wq1_rptr_reg     | Flip-flop |   7   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (sync_r2w_ADDRSIZE6)
+Information: Building the design 'sync_w2r' instantiated from design 'fifo1' with
+        the parameters "6". (HDL-193)
+
+Inferred memory devices in process
+        in routine sync_w2r_ADDRSIZE6 line 80 in file
+                '/u/divyaj2/ECE510-2020-SPRING/project/syn/rtl/fifo1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    rq2_wptr_reg     | Flip-flop |   7   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    rq1_wptr_reg     | Flip-flop |   7   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (sync_w2r_ADDRSIZE6)
+Information: Building the design 'fifomem' instantiated from design 'fifo1' with
+        the parameters "8,6". (HDL-193)
+
+Inferred memory devices in process
+        in routine fifomem_DATASIZE8_ADDRSIZE6 line 58 in file
+                '/u/divyaj2/ECE510-2020-SPRING/project/syn/rtl/fifo1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       mem_reg       | Flip-flop |  512  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+====================================================================
+|        block name/line         | Inputs | Outputs | # sel inputs |
+====================================================================
+| fifomem_DATASIZE8_ADDRSIZE6/57 |   64   |    8    |      6       |
+====================================================================
+Presto compilation completed successfully. (fifomem_DATASIZE8_ADDRSIZE6)
+Information: Building the design 'rptr_empty' instantiated from design 'fifo1' with
+        the parameters "6". (HDL-193)
+
+Inferred memory devices in process
+        in routine rptr_empty_ADDRSIZE6 line 99 in file
+                '/u/divyaj2/ECE510-2020-SPRING/project/syn/rtl/fifo1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      rbin_reg       | Flip-flop |   7   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      rptr_reg       | Flip-flop |   7   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine rptr_empty_ADDRSIZE6 line 110 in file
+                '/u/divyaj2/ECE510-2020-SPRING/project/syn/rtl/fifo1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     rempty_reg      | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (rptr_empty_ADDRSIZE6)
+Information: Building the design 'wptr_full' instantiated from design 'fifo1' with
+        the parameters "6". (HDL-193)
+
+Inferred memory devices in process
+        in routine wptr_full_ADDRSIZE6 line 127 in file
+                '/u/divyaj2/ECE510-2020-SPRING/project/syn/rtl/fifo1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      wbin_reg       | Flip-flop |   7   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      wptr_reg       | Flip-flop |   7   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine wptr_full_ADDRSIZE6 line 142 in file
+                '/u/divyaj2/ECE510-2020-SPRING/project/syn/rtl/fifo1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      wfull_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (wptr_full_ADDRSIZE6)
+1
+dc_shell> start_gui
+Current design is 'fifo1'.
+4.1
+Current design is 'fifo1'.
+dc_shell> get_ports
+{rdata[7] rdata[6] rdata[5] rdata[4] rdata[3] rdata[2] rdata[1] rdata[0] wdata_in[7] wdata_in[6] wdata_in[5] wdata_in[4] wdata_in[3] wdata_in[2] wdata_in[1] wdata_in[0] wfull rempty winc wclk wclk2x wrst_n rinc rclk rrst_n}
+dc_shell> 
+Loading db file '/pkgs/synopsys/2019_06/syn/P-2019.03-SP1-1/libraries/syn/generic.sdb'
+dc_shell> exit
+
+Thank you...
+

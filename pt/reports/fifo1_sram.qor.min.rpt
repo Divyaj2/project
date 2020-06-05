@@ -1,0 +1,72 @@
+****************************************
+Report : qor
+Design : fifo1_sram
+Version: O-2018.06
+Date   : Thu Apr  9 11:48:49 2020
+****************************************
+
+  Timing Path Group 'INPUTS' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            3
+  Critical Path Length:                   0.258
+  Critical Path Slack:                   -3.334
+  Total Negative Slack:                -259.744
+  No. of Violating Paths:                    96
+  ---------------------------------------------
+
+  Timing Path Group 'OUTPUTS' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            4
+  Critical Path Length:                   3.873
+  Critical Path Slack:                    3.878
+  Total Negative Slack:                   0.000
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'rclk' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            2
+  Critical Path Length:                   3.215
+  Critical Path Slack:                    0.034
+  Total Negative Slack:                   0.000
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'wclk' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            1
+  Critical Path Length:                   3.134
+  Critical Path Slack:                    0.076
+  Total Negative Slack:                   0.000
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Cell Count
+  ---------------------------------------------
+  Hierarchical Cell Count:                    5
+  Hierarchical Port Count:                  190
+  Leaf Cell Count:                          438
+  ---------------------------------------------
+
+
+  Area
+  ---------------------------------------------
+  Net Interconnect area:                616.044
+  Total cell area:                   371392.781
+  Design Area:                       372008.812
+  ---------------------------------------------
+
+
+  Design Rule Violations
+  ---------------------------------------------
+  Total No. of Pins in Design:             2001
+  max_capacitance Count:                     47
+  min_capacitance Count:                     64
+  max_transition Count:                       3
+  max_capacitance Cost:              -25449.232
+  min_capacitance Cost:                  -5.696
+  max_transition Cost:                   -7.846
+  Total DRC Cost:                    -25462.773
+  ---------------------------------------------
+
+1

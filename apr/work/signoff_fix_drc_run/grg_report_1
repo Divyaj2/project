@@ -1,0 +1,56 @@
+
+                            Generate_Route_Guidance 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 2009 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+Input PYDB Path ............... /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/signoff_check_drc_run/run_details/pydb
+Input PYDB Name ............... PYDB_ORCA_TOP
+Output Route Guidance File .... /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/Route_guidance_input1_tmp
+Limit to Cell ................. ORCA_TOP
+Unselect Violation Comments ... "USER_GUIDE.M*","USER_GUIDE.VIA*","*:*Density*of*","M*.DN.*:*","VIA*.DN.*:*","CSR*:*","DM*:*","Rule*DEN*:*","Rule:.*USER_GUIDE.M*","Rule:.*USER_GUIDE.VIA*","Rule:.*:*Density*of*","Rule:.*M*.DN.*:*","Rule:.*VIA*.DN.*:*","Rule:.*CSR*:*","Rule:.*DM*:*","*USER_GUIDE*","*:WARNING*","*:LOGO*","*NW.[A-Z].*","*NWRSTI.[A-Z].*","*NWROD.[A-Z].*","*OD[0-1].[A-Z].*","*OD.[A-Z].*","*Gate","*PP.[A-Z].*","*NP.[A-Z].*","*SSD.[A-Z].*","*DIODMY.[A-Z].*","*RH_OD.[A-Z].*","*RH_TN.[A-Z].*","*HV_N.[A-Z].*","*SR.[A-Z].*","*:*Density*of*","*ESD.[A-Z].*","*SRAM.[A-Z].[0-9]*","*ROM.[A-Z].[0-9]*","*LUP.[A-Z][0-9].*","*[0-9][A-Z]:HIADMY","*[A-Z][0-9]:BJTDMY*","*[A-Z][0-9]:BJTHDMY*","*AN.R.[0-9]*","*DOD.[A-Z].[0-9]*","*DIODMY.[A-Z].[0-9]*","*DTCD.[A-Z].[0-9]*","*GRMx.C.2_M1*","*GRMx.C.2_M2*","*GRMx.C.2_M3*","*GRMx.C.2_M4*","*GRV1.C.6*","*GRVx.C.6_V2*","*GRVx.C.6_V3*","*M1.G0.1__M1.G0.2__M1.G0.3*","*M2.G0.1__M2.G0.2__M2.G0.3*","*M3.G0.1__M3.G0.2__M3.G0.3*","*M4.G0.1__M4.G0.2__M4.G0.3*","*M5.G0.1__M5.G0.2__M5.G0.3*","*M6.G0.1__M6.G0.2__M6.G0.3*"
+Maximum Area (sq micron) ...... 1000000000
+Maximum Errors/Command ........ 1000
+
+
+IC Validator was run with error categorization enabled.
+Processing 40 of 40 errors for violation: CO.B.1: CO must be fully covered by M1, and by PO widened by 0.006
+  40 errors written
+Processing 40 of 40 errors for violation: CO.E.12: CONT is not enclosed by M1
+  40 errors written
+Processing 1000 of 2136 errors for violation: CO.E.9: Minimum enclosure of any contact by M1 must be 0.002um
+  0 errors written
+  1000 errors ignored; maximum count per check exceeded
+Processing 305 of 305 errors for violation: M1.S.1: Minimum M1 spacing must be 0.05
+  305 errors written
+Processing 1000 of 1026 errors for violation: M1.S.9: Minimum spacing when either metal line is wider than 0.15 must be 0.055
+  0 errors written
+  1000 errors ignored; maximum count per check exceeded
+Processing 1000 of 1957 errors for violation: M1.W.1: Minimum M1 width must be 0.05
+  0 errors written
+  1000 errors ignored; maximum count per check exceeded
+Processing 278 of 278 errors for violation: M1.W.2.1: Minimum width of thin wire with length less than 0.1, connected to fat wire with width larges than 0.15, must be 0.06
+  278 errors written
+Processing 228 of 228 errors for violation: M2.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06
+  228 errors written
+Processing 90 of 90 errors for violation: M3.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06
+  90 errors written
+Processing 21 of 21 errors for violation: M4.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06
+  21 errors written
+Processing 8 of 8 errors for violation: M5.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06
+  8 errors written
+Processing 4 of 4 errors for violation: M6.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06
+  4 errors written
+Processing 1 of 1 error for violation: M6.S.3.2: Minimum spacing depending on metal width of one of lines and their parallel run length must be 0.11
+  1 error written
+Processing 1000 of 3214 errors for violation: VIA6.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)
+  0 errors written
+  1000 errors ignored; maximum count per check exceeded
+Route Guidance Generation Successful.
+Generate_Route_Guidance is done.

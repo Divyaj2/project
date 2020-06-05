@@ -1,0 +1,7 @@
+
+icc2_shell> exit
+Maximum memory usage for this session: 159.95 MB
+CPU usage for this session:      9 seconds (  0.00 hours)
+Elapsed time for this session:     12 seconds (  0.00 hours)
+Thank you for using IC Compiler II.
+

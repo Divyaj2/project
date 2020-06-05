@@ -1,0 +1,10 @@
+#! /bin/sh
+total=0
+pathsize=`du -s --block-size=1 /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/run_details | awk '{print $1}'`
+total=$(($total+$pathsize))
+pathsize=`du -s --block-size=1 /dev/shm/8564 | awk '{print $1}'`
+total=$(($total+$pathsize))
+pathsize=`du -s --block-size=1 /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/ORCA_TOP.LAYOUT_ERRORS | awk '{print $1}'`
+total=$(($total+$pathsize))
+echo $total > /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/run_details/duse_master.tmp && \
+mv /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/run_details/duse_master.tmp /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/run_details/duse_master

@@ -1,0 +1,39 @@
+Warning: Neither event file or switching activity data present for power estimation. The command will propagate switching activity values for power calculation.  (PWR-246)
+Information: Running switching activity propagation with 4 threads!
+Information: Running averaged power analysis... (PWR-601)
+Information: Running power calculation with 4 threads. (PWR-602)
+****************************************
+Report : Averaged Power
+Design : fifo1_sram
+Version: O-2018.06
+Date   : Thu Apr  9 11:48:52 2020
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network           -2.437e-04
+                                  4.120e-05 5.134e-04 3.109e-04 ( 2.23%)  i
+register                -3.451e-05
+                                  1.037e-06 4.878e-04 4.543e-04 ( 3.26%)  
+combinational           -2.424e-05
+                                  4.236e-04 3.772e-03 4.171e-03 (29.89%)  
+sequential                 0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+memory                  6.094e-03 2.407e-05    0.0000 6.118e-03 (43.83%)  
+io_pad                  2.343e-03 1.020e-04 4.581e-04 2.903e-03 (20.80%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 5.919e-04   ( 4.24%)
+  Cell Internal Power  = 8.134e-03   (58.28%)
+  Cell Leakage Power   = 5.231e-03   (37.48%)
+                         ---------
+Total Power            =    0.0140  (100.00%)
+
+1

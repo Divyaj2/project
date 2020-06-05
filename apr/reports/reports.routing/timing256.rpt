@@ -1,0 +1,126 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+        -nets
+        -capacitance
+Design : ORCA_TOP
+Version: P-2019.03-SP1-VAL
+Date   : Thu Jun  4 01:20:33 2020
+****************************************
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+
+  Startpoint: I_BLENDER_0/R_97 (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Endpoint: I_BLENDER_0/R_384 (rising edge-triggered flip-flop clocked by SYS_CLK)
+  Mode: func
+  Corner: slow
+  Scenario: func_slow
+  Path Group: SYS_CLK
+  Path Type: max
+
+  Point                                          Fanout    Cap       Incr      Path  
+  ------------------------------------------------------------------------------------------
+  clock SYS_CLK (rise edge)                                          0.00      0.00
+  clock network delay (propagated)                                   1.44      1.44
+
+  I_BLENDER_0/R_97/CLK (SDFFX2_LVT)                                  0.00      1.44 r
+  I_BLENDER_0/R_97/Q (SDFFX2_LVT)                                    0.44      1.88 r
+  I_BLENDER_0/n443 (net)                           12     13.12
+  I_BLENDER_0/U1468/Y (NAND4X0_LVT)                                  0.11      1.99 f
+  I_BLENDER_0/n320 (net)                            1      2.01
+  I_BLENDER_0/SGI142_17737/Y (NAND2X0_LVT)                           0.18      2.17 r
+  I_BLENDER_0/copt_net_278 (net)                    1      2.19
+  I_BLENDER_0/SGI143_17738/Y (NAND2X4_LVT)                           0.15      2.33 f
+  I_BLENDER_0/n699 (net)                            3      3.99
+  I_BLENDER_0/U3199/Y (NAND3X2_LVT)                                  0.18      2.51 r
+  I_BLENDER_0/n536 (net)                            2      3.96
+  I_BLENDER_0/U3200/Y (NAND4X0_LVT)                                  0.12      2.63 f
+  I_BLENDER_0/n617 (net)                            1      2.25
+  I_BLENDER_0/U3227/Y (NAND3X0_LVT)                                  0.18      2.80 r
+  I_BLENDER_0/n555 (net)                            1      2.64
+  I_BLENDER_0/U3225/Y (NAND4X0_LVT)                                  0.22      3.02 f
+  I_BLENDER_0/n725 (net)                            3      4.92
+  I_BLENDER_0/U760/Y (XOR2X1_LVT)                                    0.28      3.30 r
+  I_BLENDER_0/n722 (net)                            2      2.10
+  I_BLENDER_0/U3118/Y (NAND2X0_LVT)                                  0.08      3.38 f
+  I_BLENDER_0/n483 (net)                            1      2.14
+  I_BLENDER_0/U3117/Y (NAND2X0_LVT)                                  0.14      3.52 r
+  I_BLENDER_0/n736 (net)                            2      1.99
+  I_BLENDER_0/U3116/Y (NAND2X0_LVT)                                  0.08      3.60 f
+  I_BLENDER_0/n524 (net)                            2      1.77
+  I_BLENDER_0/U1741/Y (OA21X1_LVT)                                   0.14      3.74 f
+  I_BLENDER_0/n762 (net)                            2      1.90
+  I_BLENDER_0/U1690/Y (NAND3X1_LVT)                                  0.15      3.89 r
+  I_BLENDER_0/n393 (net)                            1      1.20
+  I_BLENDER_0/U226/Y (NAND3X0_LVT)                                   0.08      3.97 f
+  I_BLENDER_0/n3738 (net)                           1      1.50
+  I_BLENDER_0/ZINV_inst_18651/Y (INVX2_LVT)                          0.09      4.06 r
+  I_BLENDER_0/ZINV_1311 (net)                       2      6.94
+  I_BLENDER_0/U198/Y (INVX4_LVT)                                     0.03      4.09 f
+  I_BLENDER_0/n81 (net)                             1      2.35
+  I_BLENDER_0/U1267/Y (NAND2X4_LVT) <-                               0.13      4.22 r
+  I_BLENDER_0/n256 (net)                            2      3.84
+  I_BLENDER_0/U1266/Y (NAND3X0_LVT)                                  0.08      4.30 f
+  I_BLENDER_0/n752 (net)                            2      2.07
+  I_BLENDER_0/U3379/Y (NAND4X0_LVT)                                  0.13      4.43 r
+  I_BLENDER_0/n799 (net)                            2      1.51
+  I_BLENDER_0/U3239/Y (AO22X2_LVT)                                   0.19      4.62 r
+  I_BLENDER_0/n791 (net)                            5      8.10
+  I_BLENDER_0/U3657/Y (NAND3X0_RVT)                                  0.15      4.77 f
+  I_BLENDER_0/n784 (net)                            1      0.96
+  I_BLENDER_0/U3661/Y (NAND4X0_LVT)                                  0.16      4.92 r
+  I_BLENDER_0/n823 (net)                            2      1.77
+  I_BLENDER_0/U3662/Y (AOI22X1_LVT)                                  0.16      5.09 f
+  I_BLENDER_0/n832 (net)                            5      4.12
+  I_BLENDER_0/U3676/Y (AND2X1_LVT)                                   0.09      5.18 f
+  I_BLENDER_0/n814 (net)                            1      1.18
+  I_BLENDER_0/U3677/Y (OA22X1_LVT)                                   0.13      5.31 f
+  I_BLENDER_0/n827 (net)                            3      2.94
+  I_BLENDER_0/U3679/Y (OA22X2_LVT)                                   0.15      5.45 f
+  I_BLENDER_0/n816 (net)                            1      1.33
+  I_BLENDER_0/U3680/Y (NAND2X0_LVT)                                  0.13      5.59 r
+  I_BLENDER_0/n818 (net)                            1      1.95
+  I_BLENDER_0/U3681/Y (AO22X1_RVT)                                   0.24      5.83 r
+  I_BLENDER_0/n820 (net)                            1      1.19
+  I_BLENDER_0/U3130/Y (AO22X2_LVT)                                   0.15      5.98 r
+  I_BLENDER_0/n851 (net)                            3      4.94
+  I_BLENDER_0/U3682/Y (OR2X1_LVT)                                    0.10      6.08 r
+  I_BLENDER_0/n838 (net)                            2      3.02
+  I_BLENDER_0/U1350/Y (AND2X1_LVT)                                   0.10      6.18 r
+  I_BLENDER_0/n283 (net)                            1      2.24
+  I_BLENDER_0/SGI75_18156/Y (AND2X1_LVT)                             0.10      6.28 r
+  I_BLENDER_0/copt_net_360 (net)                    1      2.87
+  I_BLENDER_0/SGI53_17956/Y (NAND3X0_LVT)                            0.10      6.38 f
+  I_BLENDER_0/n556 (net)                            2      2.24
+  I_BLENDER_0/SGI128_17708/Y (AND2X2_LVT)                            0.19      6.57 f
+  I_BLENDER_0/n857 (net)                           10     10.97
+  I_BLENDER_0/U294/Y (OR2X1_LVT)                                     0.11      6.67 f
+  I_BLENDER_0/n663 (net)                            1      1.33
+  I_BLENDER_0/U3386/Y (NAND2X0_LVT)                                  0.12      6.79 r
+  I_BLENDER_0/n3357 (net)                           2      2.87
+  I_BLENDER_0/SGI90_18265/Y (AND2X1_LVT)                             0.12      6.92 r
+  I_BLENDER_0/copt_net_481 (net)                    1      1.09
+  I_BLENDER_0/SGI91_18266/Y (NAND2X0_LVT)                            0.05      6.97 f
+  I_BLENDER_0/copt_net_285 (net)                    1      1.00
+  I_BLENDER_0/SGI145_17753/Y (NAND2X0_LVT)                           0.09      7.06 r
+  I_BLENDER_0/n3093 (net)                           1      0.95
+  I_BLENDER_0/R_384/D (SDFFX1_LVT)                                   0.00      7.06 r
+  data arrival time                                                            7.06
+
+  clock SYS_CLK (rise edge)                                          4.80      4.80
+  clock network delay (propagated)                                   1.21      6.01
+  clock reconvergence pessimism                                      0.14      6.15
+  I_BLENDER_0/R_384/CLK (SDFFX1_LVT)                                 0.00      6.15 r
+  clock uncertainty                                                 -0.06      6.09
+  library setup time                                                -0.18      5.90
+  data required time                                                           5.90
+  ------------------------------------------------------------------------------------------
+  data required time                                                           5.90
+  data arrival time                                                           -7.06
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -1.16
+
+
+1

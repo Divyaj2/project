@@ -1,0 +1,235 @@
+****************************************
+Report : constraint
+	-all_violators
+	-path slack_only
+Design : fifo1_sram
+Version: O-2018.06
+Date   : Sun Apr  5 13:09:37 2020
+****************************************
+
+
+   min_delay/hold ('INPUTS' group)
+
+   Endpoint                                                  Slack
+   -----------------------------------------------------------------
+   sync_w2r/rq1_wptr_reg_5_/RSTB                            -0.024  (VIOLATED)
+   sync_w2r/rq1_wptr_reg_4_/RSTB                            -0.024  (VIOLATED)
+   sync_w2r/rq1_wptr_reg_6_/RSTB                            -0.022  (VIOLATED)
+   rptr_empty/rptr_reg_5_/RSTB                              -0.022  (VIOLATED)
+   rptr_empty/rptr_reg_6_/RSTB                              -0.021  (VIOLATED)
+   sync_w2r/rq1_wptr_reg_9_/RSTB                            -0.020  (VIOLATED)
+   sync_w2r/rq1_wptr_reg_7_/RSTB                            -0.019  (VIOLATED)
+   rptr_empty/rptr_reg_9_/RSTB                              -0.019  (VIOLATED)
+   sync_w2r/rq1_wptr_reg_8_/RSTB                            -0.018  (VIOLATED)
+   rptr_empty/rptr_reg_7_/RSTB                              -0.018  (VIOLATED)
+   sync_w2r/rq1_wptr_reg_10_/RSTB                           -0.018  (VIOLATED)
+   rptr_empty/rptr_reg_8_/RSTB                              -0.017  (VIOLATED)
+   rptr_empty/rbin_reg_10_/RSTB                             -0.017  (VIOLATED)
+   rptr_empty/rbin_reg_9_/RSTB                              -0.016  (VIOLATED)
+   rptr_empty/rbin_reg_8_/RSTB                              -0.016  (VIOLATED)
+   wdata_reg_2_/D                                           -0.003  (VIOLATED)
+   wdata_reg_1_/D                                           -0.002  (VIOLATED)
+   wdata_reg_3_/D                                           -0.002  (VIOLATED)
+   wdata_reg_0_/D                                            0.000  (VIOLATED: increase significant digits)
+
+   min_delay/hold ('rclk' group)
+
+   Endpoint                                                  Slack
+   -----------------------------------------------------------------
+   fifomem/genblk1_3__U/A2[0]                               -0.006  (VIOLATED)
+   fifomem/genblk1_6__U/A2[0]                               -0.003  (VIOLATED)
+   fifomem/genblk1_2__U/A2[0]                               -0.002  (VIOLATED)
+
+
+   max_capacitance
+
+                             Required        Actual
+   Pin                      Capacitance    Capacitance       Slack
+   -----------------------------------------------------------------
+   fifomem/genblk1_0__U/O2[7]
+                              25.000         46.753        -21.753  (VIOLATED)
+   fifomem/genblk1_1__U/O2[3]
+                              25.000         46.016        -21.016  (VIOLATED)
+   fifomem/genblk1_0__U/O2[0]
+                              25.000         44.717        -19.717  (VIOLATED)
+   fifomem/genblk1_1__U/O2[4]
+                              25.000         42.293        -17.293  (VIOLATED)
+   fifomem/genblk1_0__U/O2[5]
+                              25.000         41.267        -16.267  (VIOLATED)
+   fifomem/genblk1_1__U/O2[1]
+                              25.000         41.099        -16.099  (VIOLATED)
+   fifomem/genblk1_0__U/O2[2]
+                              25.000         40.934        -15.934  (VIOLATED)
+   fifomem/genblk1_1__U/O2[6]
+                              25.000         40.607        -15.607  (VIOLATED)
+   fifomem/genblk1_6__U/O2[6]
+                              25.000         36.333        -11.333  (VIOLATED)
+   fifomem/genblk1_6__U/O2[3]
+                              25.000         34.747         -9.747  (VIOLATED)
+   fifomem/genblk1_7__U/O2[0]
+                              25.000         32.671         -7.671  (VIOLATED)
+   fifomem/genblk1_7__U/O2[5]
+                              25.000         31.448         -6.448  (VIOLATED)
+   fifomem/genblk1_6__U/O2[0]
+                              25.000         31.236         -6.236  (VIOLATED)
+   fifomem/genblk1_6__U/O2[2]
+                              25.000         31.144         -6.144  (VIOLATED)
+   fifomem/genblk1_7__U/O2[1]
+                              25.000         30.748         -5.748  (VIOLATED)
+   fifomem/genblk1_6__U/O2[7]
+                              25.000         30.713         -5.713  (VIOLATED)
+   fifomem/genblk1_7__U/O2[6]
+                              25.000         30.627         -5.627  (VIOLATED)
+   fifomem/genblk1_6__U/O2[1]
+                              25.000         29.597         -4.597  (VIOLATED)
+   fifomem/genblk1_7__U/O2[2]
+                              25.000         28.228         -3.228  (VIOLATED)
+   fifomem/genblk1_7__U/O2[3]
+                              25.000         27.463         -2.463  (VIOLATED)
+   fifomem/genblk1_6__U/O2[4]
+                              25.000         26.576         -1.576  (VIOLATED)
+   ZBUF_inst_82/Y             32.000         33.012         -1.012  (VIOLATED)
+   fifomem/genblk1_6__U/O2[5]
+                              25.000         25.897         -0.897  (VIOLATED)
+   ZBUF_inst_89/Y             32.000         32.572         -0.572  (VIOLATED)
+   ZBUF_inst_90/Y             32.000         32.481         -0.481  (VIOLATED)
+   ZBUF_inst_92/Y             32.000         32.323         -0.323  (VIOLATED)
+   wptr_full/wbin_reg_7_/Q     8.000          8.094         -0.094  (VIOLATED)
+
+
+   min_capacitance
+
+                             Required        Actual
+   Pin                      Capacitance    Capacitance       Slack
+   -----------------------------------------------------------------
+   fifomem/genblk1_0__U/O1[0]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_0__U/O1[1]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_0__U/O1[2]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_0__U/O1[3]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_0__U/O1[4]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_0__U/O1[5]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_0__U/O1[6]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_0__U/O1[7]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_1__U/O1[0]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_1__U/O1[1]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_1__U/O1[2]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_1__U/O1[3]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_1__U/O1[4]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_1__U/O1[5]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_1__U/O1[6]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_1__U/O1[7]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_2__U/O1[0]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_2__U/O1[1]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_2__U/O1[2]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_2__U/O1[3]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_2__U/O1[4]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_2__U/O1[5]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_2__U/O1[6]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_2__U/O1[7]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_3__U/O1[0]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_3__U/O1[1]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_3__U/O1[2]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_3__U/O1[3]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_3__U/O1[4]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_3__U/O1[5]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_3__U/O1[6]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_3__U/O1[7]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_4__U/O1[0]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_4__U/O1[1]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_4__U/O1[2]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_4__U/O1[3]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_4__U/O1[4]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_4__U/O1[5]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_4__U/O1[6]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_4__U/O1[7]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_5__U/O1[0]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_5__U/O1[1]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_5__U/O1[2]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_5__U/O1[3]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_5__U/O1[4]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_5__U/O1[5]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_5__U/O1[6]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_5__U/O1[7]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_6__U/O1[0]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_6__U/O1[1]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_6__U/O1[2]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_6__U/O1[3]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_6__U/O1[4]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_6__U/O1[5]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_6__U/O1[6]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_6__U/O1[7]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_7__U/O1[0]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_7__U/O1[1]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_7__U/O1[2]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_7__U/O1[3]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_7__U/O1[4]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_7__U/O1[5]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_7__U/O1[6]
+                               0.100          0.011         -0.089  (VIOLATED)
+   fifomem/genblk1_7__U/O1[7]
+                               0.100          0.011         -0.089  (VIOLATED)
+
+
+1

@@ -1,0 +1,124 @@
+Thu May 21 19:35:37 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+
+Runset file ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs
+Current Directory ................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill
+Hostname .........................  mo.ece.pdx.edu
+Platform type ....................  LINUX.64
+NDM input library path ...........  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/
+NDM input library name ...........  ORCA_TOP_lib
+NDM block name ...................  route2
+Run details ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/run_details
+Group file directory .............  /dev/shm/31773
+Check reference structures .......  yes
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.09 Sys=0.32 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:27:Layer creation
+M4_metal = assign({ { 17 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M4_metal.polygonlayer.0016, M4_metal.polygonlayer.0015, M4_metal.polygonlayer.0014, M4_metal.polygonlayer.0013, M4_metal.polygonlayer.0012, M4_metal.polygonlayer.0011, M4_metal.polygonlayer.0010, M4_metal.polygonlayer.0009, M4_metal.polygonlayer.0008, M4_metal.polygonlayer.0007, M4_metal.polygonlayer.0006, M4_metal.polygonlayer.0005, M4_metal.polygonlayer.0004, M4_metal.polygonlayer.0003, M4_metal.polygonlayer.0002, M4_metal.polygonlayer.0001, M4_metal.polygonlayer.0016, M4_metal.polygonlayer.0015, M4_metal.polygonlayer.0014, M4_metal.polygonlayer.0013, M4_metal.polygonlayer.0012, M4_metal.polygonlayer.0011, M4_metal.polygonlayer.0010, M4_metal.polygonlayer.0009, M4_metal.polygonlayer.0008, M4_metal.polygonlayer.0007, M4_metal.polygonlayer.0006, M4_metal.polygonlayer.0005, M4_metal.polygonlayer.0004, M4_metal.polygonlayer.0003, M4_metal.polygonlayer.0002, M4_metal.polygonlayer.0001
+  Outputs: M4_metal.polygonlayer.0017, M4_metal_assign.polygonlayer.0001, M4_metal_blockage.polygonlayer.0001
+0 non-45 violations found.
+0 non-90 violations found.
+60321 unique polygons written.
+180241 unique polygons written.
+693 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:02  User=1.38 Sys=0.78 Mem=0.067 GB
+
+Thu May 21 19:36:00 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.13 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:52:Layer creation
+MRDL_fill = assign({ { 41 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: MRDL_fill.polygonlayer.0017, MRDL_fill.polygonlayer.0017
+  Outputs: MRDL_fill.polygonlayer.0018, 
+No output written.
+Layer "MRDL_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:39:Layer creation
+M7_metal = assign({ { 23 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M7_metal_assign.polygonlayer.0001
+  Outputs: M7_metal.polygonlayer.0019, M7_metal.polygonlayer.0020
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M7_metal.polygonlayer.0019" is empty.
+18537 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.14 Sys=0.11 Mem=0.013 GB
+
+assign() at metalFillShortFinder.rs:60:Layer creation
+VIA6_fill = assign({ { 22 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA6_fill_blockage.polygonlayer.0001
+  Outputs: VIA6_fill.polygonlayer.0021, VIA6_fill.polygonlayer.0022
+No output written.
+Layer "VIA6_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "VIA6_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.06 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:43:Layer creation
+M8_metal = assign({ { 25 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M8_metal_blockage.polygonlayer.0001
+  Outputs: M8_metal.polygonlayer.0021, M8_metal.polygonlayer.0022
+No output written.
+Layer "M8_metal.polygonlayer.0021" is empty.
+No output written.
+Layer "M8_metal.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.12 Sys=0.07 Mem=0.012 GB
+
+Thu May 21 19:36:06 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+ Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.005 GB
+

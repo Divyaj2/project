@@ -1,0 +1,18 @@
+setting auto_restore_mw_cel_lib_setup true
+icc2_shell> source
+Error: Required argument 'file_name' was not found (CMD-007)
+icc2_shell> source ../scripts/ndr.tcl
+Error: Current block is not defined. (DES-001)
+Information: script '/u/divyaj2/ECE510-2020-SPRING/project/apr/scripts/ndr.tcl'
+                stopped at line 2 due to error. (CMD-081)
+Extended error info:
+
+    while executing
+"create_routing_rule {new} -default_reference_rule  -multiplier_width 2"
+ -- End Extended Error Info
+icc2_shell> exit
+Maximum memory usage for this session: 159.96 MB
+CPU usage for this session:     10 seconds (  0.00 hours)
+Elapsed time for this session:   5191 seconds (  1.44 hours)
+Thank you for using IC Compiler II.
+

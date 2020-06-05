@@ -1,0 +1,233 @@
+setting auto_restore_mw_cel_lib_setup true
+Initializing gui preferences from file  /u/divyaj2/.synopsys_dv_prefs.tcl
+dc_shell> o
+setting top_design to: 
+ORCA_TOP
+dc_shell> source -echo -verbose ../../$top_design.design_config.tcl
+set lib_dir /pkgs/synopsys/2020/32_28nm/SAED32_EDK
+/pkgs/synopsys/2020/32_28nm/SAED32_EDK
+# Decoder ring for the libraries
+# You will need to follow another example or look in the library directories to understand.
+# lib_types is used for the dc/dct linking variables and ICC2 NDM lcoations.
+# /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm
+# /          $lib_dir                   /lib/ $lib_type /db_nldm
+# link_library, Target_library use the sub_lib_types and corner variables. 
+# For sub_lib_types and corner:
+# Example:
+#     saed32hvt_ss0p75v125c.db
+#     |sub_lib  corner    .db
+# The current flow tries to find all sub_lib and all corners in all the search paths.  Any match will be put in the library list.
+# Wild cards can be used, but be careful.  Multiple matches can occur in ways you don't want.
+# For the target library, the same method is used as the link library except only HVT and RVT lib_types are used.
+# ICC2 NDM choosing also uses the sub_lib_types so that only the required libraries and extras are not loaded.
+# ORCA
+# The RTL version does not currently have macros
+# The one pulled from a lab does have macros, but no RTL.  Similar to the version with RTL.
+# Below is an effort to get the design pulled from a lap working for ICC2
+# Original lab had sram_lp memories, but the NDMs don't seem to be build correctly for the current libraries.  Converted code to regular SRAMs.
+set top_design ORCA_TOP
+ORCA_TOP
+set add_ios 0
+0
+set pad_design 0
+0
+set design_size {800 600}
+800 600
+set design_io_border 10
+10
+set dc_floorplanning 1
+1
+# This is the raw RTL without SRAMS
+#set rtl_list [list [glob /pkgs/synopsys/32_28nm/SAED_EDK32.28nm_REF_v_15032018/SAED32_EDK/references/orca/dc/rtl/*.vhd ] ../rtl/MUX21X2.sv ]
+# This is hacked P&R netlist with SRAMs and test and level shifters removed.
+set rtl_list [list ../rtl/$top_design.sv ]
+../rtl/ORCA_TOP.sv
+set slow_corner "ss0p75vn40c ss0p75vn40c_i0p95v ss0p75vn40c_i0p75v ss0p95vn40c ss0p95vn40c_i0p75v"
+ss0p75vn40c ss0p75vn40c_i0p95v ss0p75vn40c_i0p75v ss0p95vn40c ss0p95vn40c_i0p75v
+set fast_corner "ff0p95vn40c ff0p95vn40c_i1p16v ff0p95vn40c_i0p95v ff1p16vn40c ff1p16vn40c_i1p16v ff1p16vn40c_i0p95v"
+ff0p95vn40c ff0p95vn40c_i1p16v ff0p95vn40c_i0p95v ff1p16vn40c ff1p16vn40c_i1p16v ff1p16vn40c_i0p95v
+set slow_metal 1p9m_Cmax_-40
+1p9m_Cmax_-40
+set fast_metal 1p9m_Cmax_-40
+1p9m_Cmax_-40
+set synth_corners $slow_corner
+ss0p75vn40c ss0p75vn40c_i0p95v ss0p75vn40c_i0p75v ss0p95vn40c ss0p95vn40c_i0p75v
+set lib_types "stdcell_hvt stdcell_rvt stdcell_lvt sram"
+stdcell_hvt stdcell_rvt stdcell_lvt sram
+# Get just the main standard cells, srams
+set sub_lib_type "saed32?vt_ saed32sram_ saed32?vt_ulvl_ saed32?vt_dlvl_ "
+saed32?vt_ saed32sram_ saed32?vt_ulvl_ saed32?vt_dlvl_ 
+# Full MCMM Corners
+if { 0 } {
+    set corners ""
+    #Add Worst corners
+    set corners "$corners ss0p75vn40c ss0p75vn40c_i0p95v ss0p75vn40c_i0p75v ss0p95vn40c ss0p95vn40c_i0p75v"
+    #Add Best corners
+    set corners "$corners ff0p95vn40c ff0p95vn40c_i1p16v ff0p95vn40c_i0p95v ff1p16vn40c ff1p16vn40c_i1p16v ff1p16vn40c_i0p95v"
+    #Add Leakage corners
+    set corners "$corners ff0p95v125c f0p95v125c_i1p16v ff0p95v125c_i0p95v ff1p16v125c ff1p16v125c_i1p16v ff1p16v125c ff1p16v125c_i0p95v"
+    set lib_types "stdcell_hvt stdcell_rvt stdcell_lvt sram_lp"
+    # Get the main standard cells, and also the level shifters.  Plus srams.
+    set sub_lib_type "saed32?vt_ saed32?vt_ulvl_ saed32?vt_dlvl_ saed32sram_"
+}
+#set topdir /u/$env(USER)/PSU_RTL2GDS
+set topdir [ lindex [ regexp -inline "(.*)\(syn\|pt\|apr\)" [pwd] ] 1 ]
+/u/divyaj2/ECE510-2020-SPRING/orcaproj/
+/u/divyaj2/ECE510-2020-SPRING/orcaproj/
+dc_shell> 
+dc_shell> 
+dc_shell> # List all current designs
+dc_shell> set this_design [ list_designs ]
+Warning: No designs to list. (UID-275)
+0
+dc_shell> 
+dc_shell> # If there are existing designs reset/remove them
+dc_shell> if { $this_design != 0 } {
+  # To reset the earlier designs
+  reset_design
+  remove_design -designs
+}
+dc_shell> 
+dc_shell> if { ! [ info exists top_design ] } {
+   set top_design fifo1_sram
+}
+dc_shell> 
+dc_shell> source ../scripts/dc-get-timlibs.tcl
+dc_shell> 
+dc_shell> 
+dc_shell> # Analyzing the files for the design
+dc_shell> analyze $rtl_list -autoread -define SYNTHESIS
+== ANALYZE autoread all files ==
+
+Starting ANALYZE autoread mode...
+Warning: Defining design library 'WORK' at directory '/u/divyaj2/ECE510-2020-SPRING/orcaproj/syn/work/WORK_autoread'. (AUTOREAD-107)
+Information: Adding '/u/divyaj2/ECE510-2020-SPRING/orcaproj/syn/rtl/ORCA_TOP.sv'.  (AUTOREAD-100)
+Information: Scanning file { ORCA_TOP.sv }. (AUTOREAD-303)
+Compiling source file /u/divyaj2/ECE510-2020-SPRING/orcaproj/syn/rtl/ORCA_TOP.sv
+Presto compilation completed successfully.
+Autoread command completed successfully.
+1
+dc_shell> 
+dc_shell> #Elaborate the FIFO design
+dc_shell> elaborate ${top_design}
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75vn40c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_dlvl_ss0p75vn40c_i0p95v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ulvl_ss0p75vn40c_i0p75v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_dlvl_ss0p75vn40c_i0p75v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95vn40c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ulvl_ss0p95vn40c_i0p75v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p75vn40c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_dlvl_ss0p75vn40c_i0p95v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ulvl_ss0p75vn40c_i0p75v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_dlvl_ss0p75vn40c_i0p75v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95vn40c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ulvl_ss0p95vn40c_i0p75v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75vn40c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_dlvl_ss0p75vn40c_i0p95v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ulvl_ss0p75vn40c_i0p75v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_dlvl_ss0p75vn40c_i0p75v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p95vn40c.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ulvl_ss0p95vn40c_i0p75v.db'
+Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95vn40c.db'
+Loading db file '/pkgs/synopsys/2019_06/syn/P-2019.03-SP1-1/libraries/syn/dw_foundation.sldb'
+Loading db file '/pkgs/synopsys/2019_06/syn/P-2019.03-SP1-1/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2019_06/syn/P-2019.03-SP1-1/libraries/syn/standard.sldb'
+  Loading link library 'saed32hvt_ss0p75vn40c'
+  Loading link library 'saed32hvt_dlvl_ss0p75vn40c_i0p95v'
+  Loading link library 'saed32hvt_ulvl_ss0p75vn40c_i0p75v'
+  Loading link library 'saed32hvt_dlvl_ss0p75vn40c_i0p75v'
+  Loading link library 'saed32hvt_ss0p95vn40c'
+  Loading link library 'saed32hvt_ulvl_ss0p95vn40c_i0p75v'
+  Loading link library 'saed32rvt_ss0p75vn40c'
+  Loading link library 'saed32rvt_dlvl_ss0p75vn40c_i0p95v'
+  Loading link library 'saed32rvt_ulvl_ss0p75vn40c_i0p75v'
+  Loading link library 'saed32rvt_dlvl_ss0p75vn40c_i0p75v'
+  Loading link library 'saed32rvt_ss0p95vn40c'
+  Loading link library 'saed32rvt_ulvl_ss0p95vn40c_i0p75v'
+  Loading link library 'saed32lvt_ss0p75vn40c'
+  Loading link library 'saed32lvt_dlvl_ss0p75vn40c_i0p95v'
+  Loading link library 'saed32lvt_ulvl_ss0p75vn40c_i0p75v'
+  Loading link library 'saed32lvt_dlvl_ss0p75vn40c_i0p75v'
+  Loading link library 'saed32lvt_ss0p95vn40c'
+  Loading link library 'saed32lvt_ulvl_ss0p95vn40c_i0p75v'
+  Loading link library 'saed32sram_ss0p95vn40c'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Presto compilation completed successfully. (ORCA_TOP)
+Elaborated 1 design.
+Current design is now 'ORCA_TOP'.
+Information: Building the design 'SDRAM_TOP'. (HDL-193)
+Presto compilation completed successfully. (SDRAM_TOP)
+Information: Building the design 'BLENDER_1'. (HDL-193)
+Presto compilation completed successfully. (BLENDER_1)
+Information: Building the design 'BLENDER_0'. (HDL-193)
+Presto compilation completed successfully. (BLENDER_0)
+Information: Building the design 'RISC_CORE'. (HDL-193)
+Presto compilation completed successfully. (RISC_CORE)
+Information: Building the design 'CONTEXT_MEM'. (HDL-193)
+Presto compilation completed successfully. (CONTEXT_MEM)
+Information: Building the design 'PARSER'. (HDL-193)
+Presto compilation completed successfully. (PARSER)
+Information: Building the design 'PCI_TOP'. (HDL-193)
+Presto compilation completed successfully. (PCI_TOP)
+Information: Building the design 'CLOCKING'. (HDL-193)
+Presto compilation completed successfully. (CLOCKING)
+Information: Building the design 'SDRAM_IF'. (HDL-193)
+Presto compilation completed successfully. (SDRAM_IF)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_BLENDER_1'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_BLENDER_1)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_BLENDER_0'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_BLENDER_0)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_STACK_MEM_10'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_STACK_MEM_10)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_STACK_MEM_11'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_STACK_MEM_11)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_STACK_MEM_12'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_STACK_MEM_12)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_STACK_MEM_13'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_STACK_MEM_13)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_STACK_MEM_14'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_STACK_MEM_14)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_STACK_MEM_15'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_STACK_MEM_15)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_STACK_MEM_16'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_STACK_MEM_16)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_STACK_MEM_17'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_STACK_MEM_17)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_STACK_MEM_18'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_STACK_MEM_18)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_STACK_FSM'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_STACK_FSM)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_PRGRM_CNT'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_PRGRM_CNT)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_INSTRN_LAT'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_INSTRN_LAT)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_DATA_PATH_0'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_DATA_PATH_0)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_DATA_PATH_1'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_DATA_PATH_1)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_DATA_PATH_2'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_DATA_PATH_2)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_ALU_0'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_ALU_0)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_CONTEXT_MEM_1'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_CONTEXT_MEM_1)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_CONTEXT_MEM_0'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_CONTEXT_MEM_0)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_PCI_CORE'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_PCI_CORE)
+Information: Building the design 'SNPS_CLOCK_GATE_LOW_SDRAM_IF'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_LOW_SDRAM_IF)
+Information: Building the design 'SNPS_CLOCK_GATE_HIGH_SDRAM_IF'. (HDL-193)
+Presto compilation completed successfully. (SNPS_CLOCK_GATE_HIGH_SDRAM_IF)
+1
+dc_shell> 
+dc_shell> sizeof_collection [get_flat_cells *]
+48956
+dc_shell> 
+dc_shell> 48956
+[48956]
+dc_shell> exit
+
+Thank you...
+

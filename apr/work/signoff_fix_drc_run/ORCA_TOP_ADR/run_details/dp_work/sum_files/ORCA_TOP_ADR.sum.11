@@ -1,0 +1,734 @@
+Wed Jun  3 22:14:51 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+
+Runset file ......................  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs
+Current Directory ................  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/ORCA_TOP_ADR
+Hostname .........................  mo.ece.pdx.edu
+Platform type ....................  LINUX.64
+NDM input library path ...........  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/
+NDM input library name ...........  ORCA_TOP_lib
+NDM block name ...................  ORCA_TOP_ADR
+Run details ......................  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/ORCA_TOP_ADR/run_details
+Group file directory .............  /dev/shm/8564
+Check reference structures .......  yes
+
+   Read Library Time=0:00:00  User=0.01 Sys=0.06 Mem=0.006 GB
+
+Wed Jun  3 22:14:53 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+Wed Jun  3 22:14:54 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.01 Sys=0.01 Mem=0.007 GB
+
+assign() at saed32nm_1p9m_drc_rules.rs:79:Layer creation
+M8i = assign({ { 25, 0 } })
+  Function: assign
+  Inputs: M8i_assign.polygonlayer.0001
+  Outputs: M8i.polygonlayer.0019, M8i.polygonlayer.0020
+0 grid violations found.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M8i.polygonlayer.0019" is empty.
+725 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.05 Mem=0.009 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+enclose() at saed32nm_1p9m_drc_rules.rs:3922
+enclose(viardl, mrdl, distance < 0.5, extension = RADIAL, intersecting = { TOUCH }, relational = { POINT_TOUCH, INSIDE, OUTSIDE })
+  Comment: "VIARDL.E.1: Minimum VIARDL enclosure by MRDL must be 0.5"
+  Function: enclose
+  Inputs: MRDLi.polygonlayer.0018, VIARDLi.polygonlayer.0018
+Input layer "MRDLi.polygonlayer.0018" is empty.
+Input layer "VIARDLi.polygonlayer.0018" is empty.
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.01 Sys=0.01 Mem=0.007 GB
+
+assign() at saed32nm_1p9m_drc_rules.rs:58:Layer creation
+VIA2i = assign({ { 14, 0 } })
+  Function: assign
+  Inputs: VIA2i.polygonlayer.0017, VIA2i.polygonlayer.0017
+  Outputs: VIA2i.polygonlayer.0018, 
+0 grid violations found.
+0 non-45 violations found.
+0 non-90 violations found.
+8224 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.04 Sys=0.03 Mem=0.009 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+rectangles() at saed32nm_1p9m_drc_rules.rs:3222
+via3sq = rectangles(via3, { 0.05, 0.05 })
+  Function: rectangles
+  Inputs: VIA3i.polygonlayer.0018, empty_layer.associated.0001
+  Outputs: via3sq.polygonlayer.0001, via3sq.polygonlayer.0002, via3sq.polygonlayer.0003
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+2451 unique polygons written.
+2409 unique polygons written.
+No output written.
+Layer "via3sq.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.05 Mem=0.009 GB
+
+wide() at saed32nm_1p9m_drc_rules.rs:2418:Merged command, replaced with an internal copy command.
+m8_w_3 = wide(m8, distance >= 3)
+  Function: wide
+  Inputs: temp.polygonlayer.0041
+  Outputs: m8_w_3.polygonlayer.0001
+576 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+wide() at saed32nm_1p9m_drc_rules.rs:2560:Duplicate command replaced with an internal copy command.
+m8_fat_wire_4 = wide(m8, distance >= 3)
+  Function: wide
+  Inputs: m8_w_3.polygonlayer.0001
+  Outputs: m8_fat_wire_4.polygonlayer.0001
+576 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+rectangles() at saed32nm_1p9m_drc_rules.rs:3439:Merged command, replaced with an internal copy command.
+via5bar = rectangles(via5, { 0.05, 0.10 })
+  Function: rectangles
+  Inputs: via5sq.polygonlayer.0003
+  Outputs: via5bar.polygonlayer.0001
+Input layer "via5sq.polygonlayer.0003" is empty.
+No output written.
+Layer "via5bar.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+internal1() at saed32nm_1p9m_drc_rules.rs:1355
+m2_s_01 = and(internal1(m2, distance < 0.3, extension = NONE), wide(m2, distance >= 0.1))
+  Function: internal1
+  Inputs: M2i.polygonlayer.0018, empty_layer.associated.0001
+  Outputs: m2_s_01.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.11 Sys=0.02 Mem=0.011 GB
+7801 width violations found.
+   Check Time=0:00:00  User=0.12 Sys=0.02 Mem=0.011 GB
+
+wide() at saed32nm_1p9m_drc_rules.rs:1145:Merged command, replaced with an internal copy command.
+m1_w_03 = wide(m1, distance > 0.3)
+  Function: wide
+  Inputs: temp.polygonlayer.0065
+  Outputs: m1_w_03.polygonlayer.0001
+Input layer "temp.polygonlayer.0065" is empty.
+No output written.
+Layer "m1_w_03.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+wide() at saed32nm_1p9m_drc_rules.rs:1460:Duplicate command replaced with an internal copy command.
+m2_fat_wire_4 = wide(m2, distance >= 3)
+  Function: wide
+  Inputs: m2_w_3.polygonlayer.0001
+  Outputs: m2_fat_wire_4.polygonlayer.0001
+Input layer "m2_w_3.polygonlayer.0001" is empty.
+No output written.
+Layer "m2_fat_wire_4.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3227
+not(via3, (via3sq or via3lg or via3bar))
+  Comment: "R.VIA3.W: VIA3 must be square with 0.05 or 0.10 width and length or VIA3 must be rectangular with length 0.10 and width 0.05"
+  Function: not
+  Inputs: VIA3i.polygonlayer.0018, empty_layer.associated.0001, temp.polygonlayer.0090, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+No output written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1958
+m5_not_fat_3 = not(m5, m5_fat_wire_3)
+  Function: not
+  Inputs: M5i.polygonlayer.0018, empty_layer.associated.0001, m5_fat_wire_3.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: m5_not_fat_3.polygonlayer.0001
+Input layer "m5_fat_wire_3.polygonlayer.0001" is empty.
+1092 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1502
+m3_w_15_3 = m3_w_15 not m3_w_3
+  Function: not
+  Inputs: m3_w_15.polygonlayer.0001, empty_layer.associated.0001, m3_w_3.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: m3_w_15_3.polygonlayer.0001
+Input layer "m3_w_15.polygonlayer.0001" is empty.
+Input layer "m3_w_3.polygonlayer.0001" is empty.
+No output written.
+Layer "m3_w_15_3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:2070
+m6_03 = m6 not m6_w_03_15
+  Function: not
+  Inputs: M6i.polygonlayer.0018, empty_layer.associated.0001, m6_w_03_15.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: m6_03.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+977 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.010 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:2245:Duplicate command replaced at runtime with an internal copy command.
+m7_015 = m7 not m7_w_015_03
+  Function: not
+  Inputs: m7_03.polygonlayer.0001
+  Outputs: m7_015.polygonlayer.0001
+144 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+not_covered_by() at saed32nm_1p9m_drc_rules.rs:3392
+via4_e_2_m2 = not_covered_by(via4, m5, distances = { { { 0.005 }, { 0.03 }, { 0.005 }, { 0.03 } } })
+  Function: not_covered_by
+  Inputs: VIA4i.polygonlayer.0018, empty_layer.associated.0001, M5i.polygonlayer.0018, empty_layer.associated.0001
+  Outputs: via4_e_2_m2.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+No output written.
+Layer "via4_e_2_m2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+
+not_covered_by() at saed32nm_1p9m_drc_rules.rs:3601
+not_covered_by(via6bar, m7, distances = { { { 0.005, extension = NONE }, { 0, extension = NONE }, { 0.005, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.005, extension = NONE }, { 0, extension = NONE }, { 0.005, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA6.E.3: Minimum VIA6BAR enclosure by M7 and M6 at end-of-line must be 0.005"
+  Function: not_covered_by
+  Inputs: via6bar.polygonlayer.0001, empty_layer.associated.0001, M7i.polygonlayer.0018, empty_layer.associated.0001
+Input layer "via6bar.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:1998
+thin = interacting(m5_not_fat_3, m5_fat_wire_3)
+  Function: interacting
+  Inputs: m5_not_fat_3.polygonlayer.0001, empty_layer.associated.0001, m5_fat_wire_3.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: thin.polygonlayer.0014
+Input layer "m5_fat_wire_3.polygonlayer.0001" is empty.
+No output written.
+Layer "thin.polygonlayer.0014" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+area() at saed32nm_1p9m_drc_rules.rs:1752
+area(m4, value < 0.016)
+  Comment: "M4.A.1  M4 minimum area must be 0.016"
+  Function: area
+  Inputs: M4i.polygonlayer.0018, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.01 Mem=0.009 GB
+WARNING - 4 violations found.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.009 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3875
+mt_thin_1 = not(mt, mt_wide)
+  Function: not
+  Inputs: M9i.polygonlayer.0018, empty_layer.associated.0001, mt_wide.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: mt_thin_1.polygonlayer.0001
+Input layer "M9i.polygonlayer.0018" is empty.
+Input layer "mt_wide.polygonlayer.0001" is empty.
+No output written.
+Layer "mt_thin_1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+donut_holes() at saed32nm_1p9m_drc_rules.rs:1379
+m2_hole = donut_holes(m2, INNER, area > 0.2)
+  Function: donut_holes
+  Inputs: m2_hole.polygonlayer.0001
+  Outputs: m2_hole.polygonlayer.0002
+No output written.
+Layer "m2_hole.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.03 Sys=0.02 Mem=0.009 GB
+
+external2() at saed32nm_1p9m_drc_rules.rs:1709
+mLAYER_27 = external2(m4_w_03_15, m4_03, distance < 0.11, extension = NONE, projection_length >= 0.3, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Function: external2
+  Inputs: m4_w_03_15.polygonlayer.0001, empty_layer.associated.0001, m4_03.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: mLAYER_27.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+0 spacing violations found.
+Layer "mLAYER_27.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:2182
+exthin = external1(thin, distance < 0.001, extension = NONE, orientation = {  }, intersecting = { PERPENDICULAR })
+  Function: external1
+  Inputs: thin.polygonlayer.0012, empty_layer.associated.0001
+  Outputs: exthin.polygonlayer.0013
+Input layer "thin.polygonlayer.0012" is empty.
+0 spacing violations found.
+Layer "exthin.polygonlayer.0013" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:2172
+thin2 = interacting(thin, exthin)
+  Function: interacting
+  Inputs: thin.polygonlayer.0016, empty_layer.associated.0001, exthin.polygonlayer.0010, empty_layer.associated.0001
+  Outputs: thin2.polygonlayer.0013
+Input layer "exthin.polygonlayer.0010" is empty.
+No output written.
+Layer "thin2.polygonlayer.0013" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:2173
+thin3 = thin not thin2
+  Function: not
+  Inputs: thin.polygonlayer.0016, empty_layer.associated.0001, thin2.polygonlayer.0013, empty_layer.associated.0001
+  Outputs: thin3.polygonlayer.0011, thin3.associated.0011
+Input layer "thin2.polygonlayer.0013" is empty.
+No output written.
+Layer "thin3.associated.0011" is empty.
+8 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+Input layer "VIA8i.polygonlayer.0018" is empty.
+external2_edge() at saed32nm_1p9m_drc_rules.rs:3867
+ext_viat_1 = external2_edge(viat, m8_wide, distance < 3)
+  Function: external2_edge
+  Inputs: VIA8i.polygonlayer.0018, empty_layer.associated.0001, m8_wide.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: ext_viat_1.edgelayer.0001
+Input layer "VIA8i.polygonlayer.0018" is empty.
+0 spacing violations found.
+Layer "ext_viat_1.edgelayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+external2() at saed32nm_1p9m_drc_rules.rs:1890
+mLAYER_35 = external2(m5_w_03_15, m5_03, distance < 0.11, extension = NONE, projection_length >= 0.3, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Function: external2
+  Inputs: m5_w_03_15.polygonlayer.0001, empty_layer.associated.0001, m5_03.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: mLAYER_35.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+0 spacing violations found.
+Layer "mLAYER_35.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.011 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:2255
+mLAYER_52 = external1(m7_w_03_15, distance < 0.11, extension = NONE, projection_length >= 0.3, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Function: external1
+  Inputs: m7_w_03_15.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: mLAYER_52.polygonlayer.0001
+Input layer "m7_w_03_15.polygonlayer.0001" is empty.
+0 spacing violations found.
+Layer "mLAYER_52.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:1738
+external1(m4_s_03, distance < 0.14, extension = NONE, projection_length > 0.3, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Comment: "M4.S.7: Minimum spacing of M4 with span > 0.3 with parallel run length > 0.3 must be 0.14"
+  Function: external1
+  Inputs: m4_s_03.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.010 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.010 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:3334
+external1(via4sq, distance < 0.07, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.VIA4.S.1: Minimum  spacing of VIA4SQ to VIA4SQ must be 0.07"
+  Function: external1
+  Inputs: via4sq.polygonlayer.0004, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+
+not_covered_by() at saed32nm_1p9m_drc_rules.rs:3066
+not_covered_by(via1bar, m1, distances = { { { 0.005, extension = NONE }, { 0, extension = NONE }, { 0.005, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.005, extension = NONE }, { 0, extension = NONE }, { 0.005, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA1.E.3: Minimum VIA1BAR enclosure by M1 and M2 at end-of-line must be 0.005"
+  Function: not_covered_by
+  Inputs: via1bar.polygonlayer.0001, empty_layer.associated.0001, M1i.polygonlayer.0018, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.02 Sys=0.01 Mem=0.011 GB
+No output written.
+   Check Time=0:00:00  User=0.02 Sys=0.01 Mem=0.011 GB
+
+donut_holes() at saed32nm_1p9m_drc_rules.rs:1217
+m1_hole = donut_holes(m1, INNER, area > 0.2)
+  Function: donut_holes
+  Inputs: m1_hole.polygonlayer.0001
+  Outputs: m1_hole.polygonlayer.0002
+No output written.
+Layer "m1_hole.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.04 Sys=0.03 Mem=0.010 GB
+
+interacting_edge() at saed32nm_1p9m_drc_rules.rs:2019
+thin_edge = interacting_edge(m5_not_fat_4, m5_fat_wire_4)
+  Function: interacting_edge
+  Inputs: m5_not_fat_4.polygonlayer.0001, empty_layer.associated.0001, m5_fat_wire_4.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: thin_edge.edgelayer.0006
+Input layer "m5_fat_wire_4.polygonlayer.0001" is empty.
+No output written.
+Layer "thin_edge.edgelayer.0006" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+edge_size() at saed32nm_1p9m_drc_rules.rs:2566
+sizeedge = edge_size(thin_edge, outside = 0.001)
+  Function: edge_size
+  Inputs: thin_edge.edgelayer.0003, empty_layer.associated.0001
+  Outputs: sizeedge.polygonlayer.0032
+Input layer "thin_edge.edgelayer.0003" is empty.
+No output written.
+Layer "sizeedge.polygonlayer.0032" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+edge_size() at saed32nm_1p9m_drc_rules.rs:1842
+sizeedge1 = edge_size(intthin, outside = 0.001)
+  Function: edge_size
+  Inputs: intthin.edgelayer.0021, empty_layer.associated.0001
+  Outputs: sizeedge1.polygonlayer.0004
+Input layer "intthin.edgelayer.0021" is empty.
+No output written.
+Layer "sizeedge1.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+and() at saed32nm_1p9m_drc_rules.rs:1843
+andedge = and(sizeedge1, sizeedge)
+  Function: and
+  Inputs: sizeedge1.polygonlayer.0004, empty_layer.associated.0001, sizeedge.polygonlayer.0033, empty_layer.associated.0001
+  Outputs: andedge.polygonlayer.0023
+Input layer "sizeedge1.polygonlayer.0004" is empty.
+Input layer "sizeedge.polygonlayer.0033" is empty.
+No output written.
+Layer "andedge.polygonlayer.0023" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:1992
+thinlength = interacting(thin, adjacent_edge(thin3, length < 0.07, angle1 > 30, angle2 > 30, adjacent_length1 < 0.17, adjacent_length2 < 0.17))
+  Function: interacting
+  Inputs: thin.polygonlayer.0021, empty_layer.associated.0001, thinlength.edgelayer.0021, empty_layer.associated.0001
+  Outputs: thinlength.polygonlayer.0003
+Input layer "thin.polygonlayer.0021" is empty.
+Input layer "thinlength.edgelayer.0021" is empty.
+No output written.
+Layer "thinlength.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.008 GB
+
+length_edge() at saed32nm_1p9m_drc_rules.rs:1789
+minlength = interacting(thin, length_edge(forlength, distance < 0.1, corners = CONNECT))
+  Function: length_edge
+  Inputs: forlength.edgelayer.0002, empty_layer.associated.0001
+  Outputs: minlength.edgelayer.0021
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+No output written.
+Layer "minlength.edgelayer.0021" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+adjacent_edge() at saed32nm_1p9m_drc_rules.rs:1974
+thinlength = interacting(thin, adjacent_edge(thin3, length < 0.06, angle1 > 30, angle2 > 30, adjacent_length1 < 0.1, adjacent_length2 < 0.1))
+  Function: adjacent_edge
+  Inputs: thin3.polygonlayer.0002, thin3.associated.0002
+  Outputs: thinlength.edgelayer.0004
+Input layer "thin3.polygonlayer.0002" is empty.
+No output written.
+Layer "thinlength.edgelayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:2010
+thinlength = interacting(thin, adjacent_edge(thin3, length < 0.15, angle1 > 30, angle2 > 30, adjacent_length1 < 0.7, adjacent_length2 < 0.7))
+  Function: interacting
+  Inputs: thin.polygonlayer.0014, empty_layer.associated.0001, thinlength.edgelayer.0010, empty_layer.associated.0001
+  Outputs: thinlength.polygonlayer.0015
+Input layer "thin.polygonlayer.0014" is empty.
+Input layer "thinlength.edgelayer.0010" is empty.
+No output written.
+Layer "thinlength.polygonlayer.0015" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+internal1() at saed32nm_1p9m_drc_rules.rs:3956
+internal1(mrdl, distance < 2, extension = RADIAL)
+  Comment: "MRDL.W.1: Minimum width must be 2"
+  Function: internal1
+  Inputs: MRDLi.polygonlayer.0018, empty_layer.associated.0001
+Input layer "MRDLi.polygonlayer.0018" is empty.
+0 width violations found.
+    Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3306
+r33_e = interacting(r33, via3lg, count > 1)
+  Function: interacting
+  Inputs: r33.polygonlayer.0001, empty_layer.associated.0001, via3lg.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r33_e.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+All rectangles = 1
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.02 Sys=0.00 Mem=0.011 GB
+Alias input as the select result
+162 unique polygons written.
+   Check Time=0:00:00  User=0.02 Sys=0.01 Mem=0.011 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3307
+r33_v = interacting(via3lg, r33_e)
+  Function: interacting
+  Inputs: via3lg.polygonlayer.0001, empty_layer.associated.0001, r33_e.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r33_v.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+2409 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.011 GB
+
+inside() at saed32nm_1p9m_drc_rules.rs:2967
+co_m1 = co inside m1
+  Function: inside
+  Inputs: COi.polygonlayer.0018, empty_layer.associated.0001, M1i.polygonlayer.0018, empty_layer.associated.0001
+  Outputs: co_m1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.08 Sys=0.02 Mem=0.014 GB
+60656 unique polygons written.
+   Check Time=0:00:00  User=0.08 Sys=0.03 Mem=0.014 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:1246
+exthin = external1(thin, distance < 0.001, extension = NONE, orientation = {  }, intersecting = { PERPENDICULAR })
+  Function: external1
+  Inputs: thin.polygonlayer.0035, empty_layer.associated.0001
+  Outputs: exthin.polygonlayer.0035
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+212 spacing violations found.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.010 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:1434
+thin2 = interacting(thin, exthin)
+  Function: interacting
+  Inputs: thin.polygonlayer.0028, empty_layer.associated.0001, exthin.polygonlayer.0034, empty_layer.associated.0001
+  Outputs: thin2.polygonlayer.0035
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+59 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.010 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3536
+r45_v = interacting(via5sq, r45_e)
+  Function: interacting
+  Inputs: via5sq.polygonlayer.0004, empty_layer.associated.0001, r45_e.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r45_v.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+143 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.011 GB
+
+edge_size() at saed32nm_1p9m_drc_rules.rs:1642
+sizeedge1 = edge_size(intthin, outside = 0.001)
+  Function: edge_size
+  Inputs: intthin.edgelayer.0029, empty_layer.associated.0001
+  Outputs: sizeedge1.polygonlayer.0031
+Input layer "intthin.edgelayer.0029" is empty.
+No output written.
+Layer "sizeedge1.polygonlayer.0031" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3773
+not(interacting(via7, m78), (interacting(via7, ((interacting(m78, via7bar, count >= 1)) or (interacting(m78, r27_v, count >= 2)) or (interacting(m78, r37_v, count >= 2)) or (interacting(m78, r47_v, count >= 4)) or (interacting(m78, r57_v, count >= 4))))))
+  Function: interacting
+  Inputs: m78.polygonlayer.0001, empty_layer.associated.0001, r27_v.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0124
+Input layer "r27_v.polygonlayer.0001" is empty.
+No output written.
+Layer "temp.polygonlayer.0124" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3759
+r37_v = interacting(via7lg, r37_e)
+  Function: interacting
+  Inputs: via7lg.polygonlayer.0001, empty_layer.associated.0001, r37_e.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r37_v.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.06 Sys=0.01 Mem=0.013 GB
+20924 unique polygons written.
+   Check Time=0:00:00  User=0.07 Sys=0.03 Mem=0.013 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:1609
+minlength = interacting(thin, length_edge(forlength, distance < 0.1, corners = CONNECT))
+  Function: interacting
+  Inputs: thin.polygonlayer.0029, empty_layer.associated.0001, minlength.edgelayer.0026, empty_layer.associated.0001
+  Outputs: minlength.polygonlayer.0029, minlength.associated.0029
+Input layer "minlength.edgelayer.0026" is empty.
+No output written.
+Layer "minlength.associated.0029" is empty.
+No output written.
+Layer "minlength.polygonlayer.0029" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:3544:Boolean merge optimization replaced or commands with or_list
+not(interacting(via5, m56), (interacting(via5, ((interacting(m56, via5bar, count >= 1)) or (interacting(m56, r25_v, count >= 2)) or (interacting(m56, r35_v, count >= 2)) or (interacting(m56, r45_v, count >= 4)) or (interacting(m56, r55_v, count >= 4))))))
+  Function: or
+  Inputs: temp.polygonlayer.0135, temp.polygonlayer.0136, temp.polygonlayer.0137, temp.polygonlayer.0138, temp.polygonlayer.0139
+  Outputs: temp.polygonlayer.0150
+Input layer "temp.polygonlayer.0135" is empty.
+127 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.011 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:1257
+or(minwidth, thinlength)
+  Comment: "M1.W.2.1: Minimum width of thin wire with length less than 0.1, connected to fat wire with width larges than 0.15, must be 0.06"
+  Function: or
+  Inputs: minwidth.polygonlayer.0026, thinlength.polygonlayer.0035
+Input layer "minwidth.polygonlayer.0026" is empty.
+WARNING - 5 violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:2375
+or(minwidth, thinlength)
+  Comment: "M7.W.2.3: Minimum width of thin wire with length less than 0.7, connected to fat wire with width larges than 1.5, must be 0.15"
+  Function: or
+  Inputs: minwidth.polygonlayer.0011, thinlength.polygonlayer.0014
+Input layer "minwidth.polygonlayer.0011" is empty.
+Input layer "thinlength.polygonlayer.0014" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+internal1() at saed32nm_1p9m_drc_rules.rs:2802:Merged command, replaced with an internal copy command.
+mt_s_03_h = not(mt, internal1(mt, distance < 0.7, extension = NONE, direction = HORIZONTAL))
+  Function: internal1
+  Inputs: mt_s_01_h.polygonlayer.0003
+  Outputs: mt_s_03_h.polygonlayer.0001
+Input layer "mt_s_01_h.polygonlayer.0003" is empty.
+No output written.
+Layer "mt_s_03_h.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:1719
+mLAYER_29 or mLAYER_30
+  Function: or
+  Inputs: M4i.polygonlayer.0020, M4i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+internal1() at saed32nm_1p9m_drc_rules.rs:1678
+internal1(m4, distance < 0.056, extension = RADIAL, relational = POINT_TOUCH)
+  Function: internal1
+  Inputs: M4i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+external2() at saed32nm_1p9m_drc_rules.rs:1924
+external2(m5, via4, distance < 0.08, extension = RADIAL, relational = POINT_TOUCH)
+  Function: external2
+  Inputs: M5i.polygonlayer.0020, VIA4i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+external2() at saed32nm_1p9m_drc_rules.rs:3580
+external2(via6bar, via6lg, distance < 0.085, extension = RADIAL, relational = POINT_TOUCH)
+  Function: external2
+  Inputs: VIA6i.polygonlayer.0020, VIA6i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:3447
+external1(via5sq, distance < 0.07, extension = RADIAL, relational = POINT_TOUCH)
+  Function: external1
+  Inputs: VIA5i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:2555
+or(minwidth, thinlength)
+  Function: or
+  Inputs: M8i.polygonlayer.0020, M8i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+internal1() at saed32nm_1p9m_drc_rules.rs:2403
+internal1(m8, distance < 0.056, extension = RADIAL, relational = POINT_TOUCH)
+  Function: internal1
+  Inputs: M8i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3907
+interacting(mt_int_viata, viat, count <= 1)
+  Function: interacting
+  Inputs: VIA8i.polygonlayer.0020, M9i.polygonlayer.0020, M8i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:2699
+or(minwidth, thinlength)
+  Function: or
+  Inputs: M9i.polygonlayer.0020, M9i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not_covered_by() at saed32nm_1p9m_drc_rules.rs:3808
+not_covered_by(viat, mt, distances = { { { 0.005, extension = NONE }, { 0, extension = NONE }, { 0.005, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.005, extension = NONE }, { 0, extension = NONE }, { 0.005, extension = NONE } } }, intersecting = { TOUCH })
+  Function: not_covered_by
+  Inputs: VIA8i.polygonlayer.0020, M9i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+enclose() at saed32nm_1p9m_drc_rules.rs:674
+enclose(pad, mrdl, distance < 1, extension = RADIAL, relational = INSIDE, intersecting = TOUCH)
+  Function: enclose
+  Inputs: PADi.polygonlayer.0017, MRDLi.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3709
+not(via7, m7)
+  Function: not
+  Inputs: VIA7i.polygonlayer.0020, M7i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:1650
+or(minwidth, thinlength)
+  Function: or
+  Inputs: M3i.polygonlayer.0020, M3i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:1328
+mLAYER_9 or mLAYER_10
+  Function: or
+  Inputs: M2i.polygonlayer.0020, M2i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+enclose() at saed32nm_1p9m_drc_rules.rs:3257
+enclose(via3, m3, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Function: enclose
+  Inputs: VIA3i.polygonlayer.0020, M3i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+ Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+

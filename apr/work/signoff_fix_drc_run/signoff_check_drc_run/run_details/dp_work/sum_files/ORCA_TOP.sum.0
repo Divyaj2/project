@@ -1,0 +1,1288 @@
+Wed Jun  3 22:01:23 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+
+Runset file ......................  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs
+Current Directory ................  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/signoff_check_drc_run
+Hostname .........................  mo.ece.pdx.edu
+Platform type ....................  LINUX.64
+NDM input library path ...........  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/
+NDM input library name ...........  ORCA_TOP_lib
+NDM block name ...................  ORCA_TOP
+Run details ......................  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/signoff_check_drc_run/run_details
+Group file directory .............  /dev/shm/8564
+Check reference structures .......  yes
+
+hierarchy_options() at /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:18
+hierarchy_options(flatten = { "*" })
+
+error_options() at /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:22
+error_options(error_limit_per_check = 1000000)
+
+layout_grid_options() at /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:26
+layout_grid_options(resolution = 0.001, check_45 = { PATH, POLYGON })
+
+[Generated Command]
+run_options()
+
+[Generated Command]
+library(library_name = ".empty.gds", format = GDSII, cell = "BLOCK")
+
+[Generated Command]
+drc_black_box_options()
+
+[Generated Command]
+resolution_options()
+
+[Generated Command]
+incremental_options()
+
+[Generated Command]
+layout_drawn_options()
+
+[Generated Command]
+layout_integrity_options()
+
+[Generated Command]
+prototype_options()
+
+[Generated Command]
+hierarchy_auto_options()
+
+[Generated Command]
+text_options()
+
+[Generated Command]
+compatibility_options()
+
+   Prescan Library Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+NDM: Information: Loading library file '/u/divyaj2/ECE510-2020-SPRING/project/apr/work/ORCA_TOP_lib' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/ndm/saed32sram_c.ndm' (FILE-007)
+WARNING: Could not open CGLNPRX8_LVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_LVT.design, using frame view instead.
+WARNING: Could not open SDFFARX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFNX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFARX2_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX2_LVT.design, using frame view instead.
+WARNING: Could not open SDFFX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFX2_LVT.design, using frame view instead.
+WARNING: Could not open TIEH_HVT.design, using frame view instead.
+WARNING: Could not open TIEL_HVT.design, using frame view instead.
+WARNING: Could not open DFFNARX1_HVT.design, using frame view instead.
+WARNING: Could not open DFFX1_HVT.design, using frame view instead.
+WARNING: Could not open DFFX2_HVT.design, using frame view instead.
+WARNING: Could not open DFFX1_RVT.design, using frame view instead.
+WARNING: Could not open DFFARX1_LVT.design, using frame view instead.
+WARNING: Could not open AO22X1_LVT.design, using frame view instead.
+WARNING: Could not open AO22X1_RVT.design, using frame view instead.
+WARNING: Could not open AO22X2_LVT.design, using frame view instead.
+WARNING: Could not open DFFX1_LVT.design, using frame view instead.
+WARNING: Could not open XOR2X1_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX8_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX8_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX2_RVT.design, using frame view instead.
+WARNING: Could not open AO21X1_HVT.design, using frame view instead.
+WARNING: Could not open OA21X1_RVT.design, using frame view instead.
+WARNING: Could not open OR2X1_RVT.design, using frame view instead.
+WARNING: Could not open AND2X1_HVT.design, using frame view instead.
+WARNING: Could not open OR2X1_HVT.design, using frame view instead.
+WARNING: Could not open OR2X1_LVT.design, using frame view instead.
+WARNING: Could not open OR2X2_RVT.design, using frame view instead.
+WARNING: Could not open AND2X1_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX4_RVT.design, using frame view instead.
+WARNING: Could not open INVX4_HVT.design, using frame view instead.
+WARNING: Could not open AO22X1_HVT.design, using frame view instead.
+WARNING: Could not open OA22X1_RVT.design, using frame view instead.
+WARNING: Could not open INVX0_HVT.design, using frame view instead.
+WARNING: Could not open INVX0_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX2_HVT.design, using frame view instead.
+WARNING: Could not open NAND2X4_HVT.design, using frame view instead.
+WARNING: Could not open INVX32_HVT.design, using frame view instead.
+WARNING: Could not open AO22X2_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX8_LVT.design, using frame view instead.
+WARNING: Could not open INVX16_LVT.design, using frame view instead.
+WARNING: Could not open NBUFFX16_RVT.design, using frame view instead.
+WARNING: Could not open INVX8_HVT.design, using frame view instead.
+WARNING: Could not open INVX2_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX4_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX16_HVT.design, using frame view instead.
+WARNING: Could not open INVX1_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX4_LVT.design, using frame view instead.
+WARNING: Could not open OA22X1_HVT.design, using frame view instead.
+WARNING: Could not open AOI22X1_HVT.design, using frame view instead.
+WARNING: Could not open INVX0_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X0_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X0_HVT.design, using frame view instead.
+WARNING: Could not open NAND2X0_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X0_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X0_LVT.design, using frame view instead.
+WARNING: Could not open INVX16_HVT.design, using frame view instead.
+WARNING: Could not open INVX4_RVT.design, using frame view instead.
+WARNING: Could not open AO21X1_LVT.design, using frame view instead.
+WARNING: Could not open AND2X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X4_LVT.design, using frame view instead.
+WARNING: Could not open AO21X1_RVT.design, using frame view instead.
+WARNING: Could not open AND2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X1_RVT.design, using frame view instead.
+WARNING: Could not open OR2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X1_LVT.design, using frame view instead.
+WARNING: Could not open OR2X4_LVT.design, using frame view instead.
+WARNING: Could not open OA22X1_LVT.design, using frame view instead.
+WARNING: Could not open OA21X1_LVT.design, using frame view instead.
+WARNING: Could not open OA21X1_HVT.design, using frame view instead.
+WARNING: Could not open NAND4X0_LVT.design, using frame view instead.
+WARNING: Could not open NAND4X0_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X2_HVT.design, using frame view instead.
+WARNING: Could not open NAND2X1_RVT.design, using frame view instead.
+WARNING: Could not open NAND4X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND4X1_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X2_LVT.design, using frame view instead.
+WARNING: Could not open INVX2_LVT.design, using frame view instead.
+WARNING: Could not open OA21X2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X0_LVT.design, using frame view instead.
+WARNING: Could not open INVX2_RVT.design, using frame view instead.
+WARNING: Could not open AO222X1_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX32_RVT.design, using frame view instead.
+WARNING: Could not open INVX32_RVT.design, using frame view instead.
+WARNING: Could not open XOR2X1_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X0_RVT.design, using frame view instead.
+WARNING: Could not open XOR2X1_HVT.design, using frame view instead.
+WARNING: Could not open XOR2X2_HVT.design, using frame view instead.
+WARNING: Could not open MUX21X1_LVT.design, using frame view instead.
+WARNING: Could not open AO222X1_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX32_HVT.design, using frame view instead.
+WARNING: Could not open INVX1_LVT.design, using frame view instead.
+WARNING: Could not open NBUFFX32_LVT.design, using frame view instead.
+WARNING: Could not open XOR2X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X2_RVT.design, using frame view instead.
+WARNING: Could not open INVX16_RVT.design, using frame view instead.
+WARNING: Could not open AND2X4_LVT.design, using frame view instead.
+WARNING: Could not open NBUFFX16_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X4_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX2_LVT.design, using frame view instead.
+WARNING: Could not open INVX8_LVT.design, using frame view instead.
+WARNING: Could not open INVX4_LVT.design, using frame view instead.
+WARNING: Could not open AND2X2_RVT.design, using frame view instead.
+WARNING: Could not open OR2X4_HVT.design, using frame view instead.
+WARNING: Could not open OR2X4_RVT.design, using frame view instead.
+WARNING: Could not open AO22X2_HVT.design, using frame view instead.
+WARNING: Could not open AND2X4_HVT.design, using frame view instead.
+WARNING: Could not open OA22X2_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X4_LVT.design, using frame view instead.
+WARNING: Could not open INVX1_RVT.design, using frame view instead.
+WARNING: Could not open XNOR2X1_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X1_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X1_LVT.design, using frame view instead.
+WARNING: Could not open NOR4X1_LVT.design, using frame view instead.
+WARNING: Could not open MUX21X1_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X1_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X1_HVT.design, using frame view instead.
+WARNING: Could not open MUX21X2_RVT.design, using frame view instead.
+WARNING: Could not open OA221X1_RVT.design, using frame view instead.
+WARNING: Could not open OA21X2_RVT.design, using frame view instead.
+WARNING: Could not open MUX21X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X1_LVT.design, using frame view instead.
+WARNING: Could not open OA221X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X4_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X0_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X2_LVT.design, using frame view instead.
+WARNING: Could not open OAI22X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X1_RVT.design, using frame view instead.
+WARNING: Could not open HADDX1_LVT.design, using frame view instead.
+WARNING: Could not open NOR4X0_LVT.design, using frame view instead.
+WARNING: Could not open AND4X1_LVT.design, using frame view instead.
+WARNING: Could not open OR3X1_LVT.design, using frame view instead.
+WARNING: Could not open DFFARX1_HVT.design, using frame view instead.
+WARNING: Could not open DFFARX1_RVT.design, using frame view instead.
+WARNING: Could not open FADDX1_LVT.design, using frame view instead.
+WARNING: Could not open FADDX2_LVT.design, using frame view instead.
+WARNING: Could not open FADDX1_RVT.design, using frame view instead.
+WARNING: Could not open DFFSSRX1_LVT.design, using frame view instead.
+WARNING: Could not open XOR2X2_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X2_RVT.design, using frame view instead.
+WARNING: Could not open XOR3X2_HVT.design, using frame view instead.
+WARNING: Could not open OAI21X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X2_LVT.design, using frame view instead.
+WARNING: Could not open XNOR2X2_LVT.design, using frame view instead.
+WARNING: Could not open AO21X2_LVT.design, using frame view instead.
+WARNING: Could not open MUX21X2_LVT.design, using frame view instead.
+WARNING: Could not open XNOR2X1_LVT.design, using frame view instead.
+WARNING: Could not open AOI21X2_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X1_RVT.design, using frame view instead.
+WARNING: Could not open OAI21X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X1_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX2_HVT.design, using frame view instead.
+WARNING: Could not open AOI22X1_LVT.design, using frame view instead.
+WARNING: Could not open NOR3X0_LVT.design, using frame view instead.
+WARNING: Could not open OAI21X1_RVT.design, using frame view instead.
+WARNING: Could not open AND3X2_LVT.design, using frame view instead.
+WARNING: Could not open AO222X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X1_HVT.design, using frame view instead.
+WARNING: Could not open DELLN2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X4_LVT.design, using frame view instead.
+WARNING: Could not open AOI22X2_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX16_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX2_RVT.design, using frame view instead.
+WARNING: Could not open AND3X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI21X1_LVT.design, using frame view instead.
+WARNING: Could not open XNOR3X1_LVT.design, using frame view instead.
+WARNING: Could not open DELLN2X2_RVT.design, using frame view instead.
+WARNING: Could not open XNOR3X2_LVT.design, using frame view instead.
+WARNING: Could not open FADDX1_HVT.design, using frame view instead.
+WARNING: Could not open DELLN1X2_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X1_RVT.design, using frame view instead.
+WARNING: Could not open INVX8_RVT.design, using frame view instead.
+WARNING: Could not open NAND4X0_HVT.design, using frame view instead.
+WARNING: Could not open FADDX2_HVT.design, using frame view instead.
+WARNING: Could not open NOR2X1_HVT.design, using frame view instead.
+WARNING: Could not open AND2X4_RVT.design, using frame view instead.
+WARNING: Could not open DELLN1X2_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X1_LVT.design, using frame view instead.
+WARNING: Could not open SHFILL3_RVT.design, using frame view instead.
+WARNING: Could not open AO21X2_RVT.design, using frame view instead.
+WARNING: Could not open AND3X1_RVT.design, using frame view instead.
+WARNING: Could not open AO222X2_HVT.design, using frame view instead.
+WARNING: Could not open AND4X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI222X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI222X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI222X2_LVT.design, using frame view instead.
+WARNING: Could not open OA22X2_LVT.design, using frame view instead.
+WARNING: Could not open OAI22X2_RVT.design, using frame view instead.
+WARNING: Could not open DELLN1X2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X2_RVT.design, using frame view instead.
+WARNING: Could not open SHFILL1_RVT.design, using frame view instead.
+WARNING: Could not open OR3X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X2_HVT.design, using frame view instead.
+WARNING: Could not open OR2X2_HVT.design, using frame view instead.
+WARNING: Could not open NOR3X2_LVT.design, using frame view instead.
+WARNING: Could not open XNOR2X1_HVT.design, using frame view instead.
+WARNING: Could not open NAND3X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI22X1_RVT.design, using frame view instead.
+WARNING: Could not open AOI22X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI222X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI222X1_LVT.design, using frame view instead.
+WARNING: Could not open AOI22X2_RVT.design, using frame view instead.
+WARNING: Could not open SHFILL2_RVT.design, using frame view instead.
+WARNING: Could not open AND2X2_HVT.design, using frame view instead.
+WARNING: Could not open FADDX2_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X4_RVT.design, using frame view instead.
+WARNING: Could not open OR3X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI21X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X2_RVT.design, using frame view instead.
+WARNING: Could not open OAI21X2_RVT.design, using frame view instead.
+WARNING: Could not open NAND4X1_HVT.design, using frame view instead.
+WARNING: Could not open MUX21X2_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X2_HVT.design, using frame view instead.
+WARNING: Could not open XNOR2X2_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X4_HVT.design, using frame view instead.
+WARNING: Could not open OAI221X2_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX4_RVT.design, using frame view instead.
+WARNING: Could not open OAI221X1_LVT.design, using frame view instead.
+WARNING: Could not open AO222X2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X2_HVT.design, using frame view instead.
+WARNING: Could not open DELLN2X2_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX4_HVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_RVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX2_HVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX2_RVT.design, using frame view instead.
+WARNING: Could not open DCAP_HVT.design, using frame view instead.
+WARNING: Could not open LSUPX8_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX2_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX4_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX1_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX2_RVT.design, using frame view instead.
+WARNING: Could not open XOR3X1_HVT.design, using frame view instead.
+WARNING: Could not open NOR2X0_HVT.design, using frame view instead.
+WARNING: Could not open AND3X4_HVT.design, using frame view instead.
+WARNING: Could not open AO221X1_HVT.design, using frame view instead.
+WARNING: Could not open NOR4X1_RVT.design, using frame view instead.
+WARNING: Could not open OA221X2_HVT.design, using frame view instead.
+WARNING: Could not open OA222X2_HVT.design, using frame view instead.
+WARNING: Could not open AO221X1_RVT.design, using frame view instead.
+WARNING: Could not open NOR3X0_HVT.design, using frame view instead.
+WARNING: Could not open OR4X1_HVT.design, using frame view instead.
+WARNING: Could not open AND4X4_HVT.design, using frame view instead.
+WARNING: Could not open AND4X1_RVT.design, using frame view instead.
+WARNING: Could not open AND4X2_HVT.design, using frame view instead.
+WARNING: Could not open OA222X1_HVT.design, using frame view instead.
+WARNING: Could not open AO21X2_HVT.design, using frame view instead.
+WARNING: Could not open OA222X1_RVT.design, using frame view instead.
+WARNING: Could not open NAND3X4_HVT.design, using frame view instead.
+WARNING: Could not open OA21X2_HVT.design, using frame view instead.
+WARNING: Could not open OR3X2_RVT.design, using frame view instead.
+WARNING: Could not open NAND3X4_RVT.design, using frame view instead.
+WARNING: Could not open OR3X1_RVT.design, using frame view instead.
+WARNING: Could not open OA22X2_HVT.design, using frame view instead.
+WARNING: Could not open XNOR3X2_RVT.design, using frame view instead.
+WARNING: Could not open AND4X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI221X1_HVT.design, using frame view instead.
+WARNING: Could not open OA221X1_LVT.design, using frame view instead.
+WARNING: Could not open HADDX1_RVT.design, using frame view instead.
+WARNING: Could not open AO221X1_LVT.design, using frame view instead.
+WARNING: Could not open HADDX1_HVT.design, using frame view instead.
+WARNING: Could not open AND4X4_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX2_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX4_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX4_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX1_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX4_HVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX1_HVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX2_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX1_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX8_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX8_HVT.design, using frame view instead.
+WARNING: Could not open NOR3X4_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX32_HVT.design, using frame view instead.
+WARNING: Could not open INVX32_LVT.design, using frame view instead.
+WARNING: Could not open SHFILL128_RVT.design, using frame view instead.
+WARNING: Could not open SHFILL64_RVT.design, using frame view instead.
+WARNING: Could not open IBUFFX4_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX32_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX8_RVT.design, using frame view instead.
+WARNING: Could not open IBUFFX8_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX8_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX16_RVT.design, using frame view instead.
+WARNING: Could not open DELLN3X2_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX16_HVT.design, using frame view instead.
+
+ NDM memory usage: 46.107M
+   Scan Hierarchy Time=0:00:02  User=1.70 Sys=0.32 Mem=0.068 GB
+
+Wed Jun  3 22:01:26 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+   Read Library Time=0:00:00  User=0.01 Sys=0.03 Mem=0.006 GB
+
+Wed Jun  3 22:01:27 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+Wed Jun  3 22:01:27 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+     Find Top Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+[HA] Hierarchy : Cell Area =        0.539 M : Cell Flat Area =        1.052 M : Child Area Factor =  1.02 x
+    Create Hierarchy Tree Phase: 0 Time=0:00:00  User=0.10 Sys=0.08 Mem=0.014 GB
+
+Prototype Placement Pass 1
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB
+
+Find duplicate placements in cells
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.01 Sys=0.01 Mem=0.010 GB
+
+     Determine Region Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+      Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+      Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+      Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+      write_verbose_text Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+     Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+0 Total errors found.
+    Create Hierarchy Tree Phase: 2 Time=0:00:00  User=0.02 Sys=0.00 Mem=0.009 GB
+
+   Create Hierarchy Tree Time=0:00:00  User=0.18 Sys=0.12 Mem=0.014 GB
+
+assign() at saed32nm_1p9m_drc_rules.rs:40
+NWELLi = assign({ { 1, 0 } })
+  Function: assign
+  Outputs: empty_layer.associated.0001
+No output written.
+Layer "empty_layer.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+      Pairing Iteration 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+     Pairing Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+    Combined VCELL Time=0:00:00  User=0.08 Sys=0.04 Mem=0.008 GB
+
+Preprocess Step 11 : Post-VCell Explodes
+    Post VCell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+[HA] Hierarchy : Cell Area =        0.505 M : Cell Flat Area =        0.505 M : Child Area Factor =  0.00 x
+Top Cell Area =        0.505 M | Num_regions =    16 | Avg Region Area =        0.032 M | {(       25520,            0) (    16337420,     12371520)}
+     Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     Update inums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     Write Instance Name Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     End uniquify verbose names Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     write_verbose_text Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+    Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+    
+Hierarchy Cleanup Time=0:00:00  User=0.01 Sys=0.02 Mem=0.007 GB
+
+   Optimize Hierarchy Tree Time=0:00:00  User=0.16 Sys=0.14 Mem=0.009 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.02 Sys=0.01 Mem=0.007 GB
+
+Hierarchy Cleanup
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Wed Jun  3 22:01:39 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+wide() at saed32nm_1p9m_drc_rules.rs:1863
+wide(m5, distance > 5)
+  Function: wide
+  Inputs: M5i.polygonlayer.0018, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0043, temp.polygonlayer.0044, temp.polygonlayer.0045, temp.polygonlayer.0046, temp.polygonlayer.0047, temp.polygonlayer.0048, temp.polygonlayer.0049, temp.polygonlayer.0050, temp.polygonlayer.0051
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+    Large Cell Time=0:00:00  User=0.10 Sys=0.04 Mem=0.010 GB
+No output written.
+Layer "temp.polygonlayer.0043" is empty.
+13599 unique polygons written.
+9160 unique polygons written.
+No output written.
+Layer "temp.polygonlayer.0046" is empty.
+No output written.
+Layer "temp.polygonlayer.0047" is empty.
+14187 unique polygons written.
+13599 unique polygons written.
+4618 unique polygons written.
+11284 unique polygons written.
+   Check Time=0:00:00  User=0.21 Sys=0.13 Mem=0.010 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.01 Sys=0.00 Mem=0.008 GB
+
+assign() at saed32nm_1p9m_drc_rules.rs:58:Layer creation
+VIA2i = assign({ { 14, 0 } })
+  Function: assign
+  Inputs: VIA2i.polygonlayer.0017, VIA2i.polygonlayer.0017
+  Outputs: VIA2i.polygonlayer.0018, 
+0 grid violations found.
+0 non-45 violations found.
+0 non-90 violations found.
+291328 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:01  User=0.73 Sys=0.31 Mem=0.014 GB
+
+Input layer "m9_3.polygonlayer.0001" is empty.
+not() at saed32nm_1p9m_drc_rules.rs:2741:Duplicate command replaced with an internal copy command.
+m9_not_fat_4 = not(m9, m9_fat_wire_4)
+  Function: not
+  Inputs: m9_3.polygonlayer.0001
+  Outputs: m9_not_fat_4.polygonlayer.0001
+Input layer "m9_3.polygonlayer.0001" is empty.
+No output written.
+Layer "m9_not_fat_4.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+Input layer "m4_w_15.polygonlayer.0001" is empty.
+wide() at saed32nm_1p9m_drc_rules.rs:1771:Duplicate command replaced with an internal copy command.
+m4_fat_wire_3 = wide(m4, distance >= 1.5)
+  Function: wide
+  Inputs: m4_w_15.polygonlayer.0001
+  Outputs: m4_fat_wire_3.polygonlayer.0001
+Input layer "m4_w_15.polygonlayer.0001" is empty.
+No output written.
+Layer "m4_fat_wire_3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1773
+m4_fat_wire_2 = not(m4_fat_wire2, m4_fat_wire_3)
+  Function: not
+  Inputs: m4_fat_wire2.polygonlayer.0001, empty_layer.associated.0001, m4_fat_wire_3.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: m4_fat_wire_2.polygonlayer.0001
+Input layer "m4_fat_wire_3.polygonlayer.0001" is empty.
+4619 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.007 GB
+
+wide() at saed32nm_1p9m_drc_rules.rs:1550:Merged command, replaced with an internal copy command.
+m3_s_01 = and(internal1(m3, distance < 0.3, extension = NONE), wide(m3, distance >= 0.1))
+  Function: wide
+  Inputs: temp.polygonlayer.0069
+  Outputs: m3_s_01.polygonlayer.0002
+8076 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+wide() at saed32nm_1p9m_drc_rules.rs:1591:Duplicate command replaced with an internal copy command.
+m3_fat_wire_3 = wide(m3, distance >= 1.5)
+  Function: wide
+  Inputs: m3_w_15.polygonlayer.0001
+  Outputs: m3_fat_wire_3.polygonlayer.0001
+Input layer "m3_w_15.polygonlayer.0001" is empty.
+No output written.
+Layer "m3_fat_wire_3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1593
+m3_fat_wire_2 = not(m3_fat_wire2, m3_fat_wire_3)
+  Function: not
+  Inputs: m3_fat_wire2.polygonlayer.0001, empty_layer.associated.0001, m3_fat_wire_3.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: m3_fat_wire_2.polygonlayer.0001
+Input layer "m3_fat_wire_3.polygonlayer.0001" is empty.
+5006 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+internal1() at saed32nm_1p9m_drc_rules.rs:1355
+m2_s_01 = and(internal1(m2, distance < 0.3, extension = NONE), wide(m2, distance >= 0.1))
+  Function: internal1
+  Inputs: M2i.polygonlayer.0018, empty_layer.associated.0001
+  Outputs: m2_s_01.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:03  User=3.12 Sys=0.29 Mem=0.035 GB
+230371 width violations found.
+   Check Time=0:00:03  User=3.12 Sys=0.30 Mem=0.035 GB
+
+and() at saed32nm_1p9m_drc_rules.rs:1355
+m2_s_01 = and(internal1(m2, distance < 0.3, extension = NONE), wide(m2, distance >= 0.1))
+  Function: and
+  Inputs: m2_s_01.polygonlayer.0001, empty_layer.associated.0001, m2_s_01.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: m2_s_01.polygonlayer.0003
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.23 Sys=0.07 Mem=0.016 GB
+22084 unique polygons written.
+   Check Time=0:00:00  User=0.23 Sys=0.07 Mem=0.016 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:1359
+external1(m2_s_01, distance < 0.12, extension = NONE, projection_length > 0.2, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL, membership = DIFFERENT_POLYGON)
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.02 Sys=0.02 Mem=0.016 GB
+   Check Time=0:00:00  User=0.02 Sys=0.03 Mem=0.016 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:1359
+external1(m2_s_01, distance < 0.12, extension = NONE, projection_length > 0.2, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL, membership = DIFFERENT_POLYGON)
+  Comment: "M2.S.6: Minimum spacing of M2 with span > 0.1 with parallel run length > 0.2 must be 0.12"
+  Function: external1
+  Inputs: m2_s_01.polygonlayer.0003, empty_layer.associated.0001
+    Nodal Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=0.016 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.016 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:2734
+thinlength = interacting(thin, adjacent_edge(thin3, length < 0.15, angle1 > 30, angle2 > 30, adjacent_length1 < 0.7, adjacent_length2 < 0.7))
+  Function: interacting
+  Inputs: thin.polygonlayer.0011, empty_layer.associated.0001, thinlength.edgelayer.0010, empty_layer.associated.0001
+  Outputs: thinlength.polygonlayer.0010
+Input layer "thin.polygonlayer.0011" is empty.
+Input layer "thinlength.edgelayer.0010" is empty.
+No output written.
+Layer "thinlength.polygonlayer.0010" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:2532
+minlength = interacting(thin, length_edge(forlength, distance < 0.17, corners = CONNECT))
+  Function: interacting
+  Inputs: thin.polygonlayer.0005, empty_layer.associated.0001, minlength.edgelayer.0001, empty_layer.associated.0001
+  Outputs: minlength.polygonlayer.0005, minlength.associated.0005
+Input layer "thin.polygonlayer.0005" is empty.
+Input layer "minlength.edgelayer.0001" is empty.
+No output written.
+Layer "minlength.associated.0005" is empty.
+No output written.
+Layer "minlength.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+internal1() at saed32nm_1p9m_drc_rules.rs:2571
+minwidth = internal1(minlength, distance < 0.3, extension = SQUARE)
+  Function: internal1
+  Inputs: minlength.polygonlayer.0001, minlength.associated.0001
+  Outputs: minwidth.polygonlayer.0005
+Input layer "minlength.polygonlayer.0001" is empty.
+0 width violations found.
+Layer "minwidth.polygonlayer.0005" is empty.
+    Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+internal1() at saed32nm_1p9m_drc_rules.rs:1184
+m1_s_01 = and(internal1(m1, distance < 0.3, extension = NONE), wide(m1, distance >= 0.1))
+  Function: internal1
+  Inputs: M1i.polygonlayer.0018, empty_layer.associated.0001
+  Outputs: m1_s_01.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:15  User=14.10 Sys=1.43 Mem=0.073 GB
+1274932 width violations found.
+   Check Time=0:00:15  User=14.11 Sys=1.43 Mem=0.073 GB
+
+and() at saed32nm_1p9m_drc_rules.rs:1184
+m1_s_01 = and(internal1(m1, distance < 0.3, extension = NONE), wide(m1, distance >= 0.1))
+  Function: and
+  Inputs: m1_s_01.polygonlayer.0001, empty_layer.associated.0001, m1_s_01.polygonlayer.0002, empty_layer.associated.0001
+  Outputs: m1_s_01.polygonlayer.0003
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:01  User=1.51 Sys=0.38 Mem=0.038 GB
+182699 unique polygons written.
+   Check Time=0:00:01  User=1.51 Sys=0.38 Mem=0.038 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:1188
+external1(m1_s_01, distance < 0.06, extension = NONE, projection_length > 0.2, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL, membership = DIFFERENT_POLYGON)
+#max block size is set as 8388608, prev_max_block_size is = 1048576
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.10 Sys=0.04 Mem=0.021 GB
+   Check Time=0:00:00  User=0.12 Sys=0.06 Mem=0.021 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:1188
+external1(m1_s_01, distance < 0.06, extension = NONE, projection_length > 0.2, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL, membership = DIFFERENT_POLYGON)
+  Comment: "M1.S.6: Minimum spacing of M1 with span >= 0.1 with parallel run length > 0.2 must be 0.06"
+  Function: external1
+  Inputs: m1_s_01.polygonlayer.0003, empty_layer.associated.0001
+    Nodal Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.015 GB
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.016 GB
+    Large Cell Time=0:00:00  User=0.11 Sys=0.02 Mem=0.020 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.11 Sys=0.02 Mem=0.020 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:1188
+external1(m1_s_01, distance < 0.06, extension = NONE, projection_length > 0.2, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL, membership = DIFFERENT_POLYGON)
+  Function: external1
+  Inputs: M1i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:2994
+not(co, co_b_1)
+  Comment: "CO.B.1: CO must be fully covered by M1, and by PO widened by 0.006"
+  Function: not
+  Inputs: COi.polygonlayer.0018, empty_layer.associated.0001, co_b_1.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:05  User=4.82 Sys=0.68 Mem=0.065 GB
+WARNING - 40 violations found.
+   Check Time=0:00:05  User=4.83 Sys=0.69 Mem=0.065 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:2994
+not(co, co_b_1)
+  Function: not
+  Inputs: COi.polygonlayer.0020, M1i.polygonlayer.0020, POi.polygonlayer.0020
+
+  Additional Mask Layer: metal1
+   Tagging Time=0:00:03  User=2.14 Sys=1.01 Mem=0.320 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:3538
+r55_or = or(r55, via5lg)
+  Function: or
+  Inputs: r55.polygonlayer.0001, via5lg.polygonlayer.0001
+  Outputs: r55_or.polygonlayer.0001
+4069 unique polygons written.
+   Check Time=0:00:00  User=0.23 Sys=0.03 Mem=0.012 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3539
+r55_e = interacting(r55_or, via5lg, count > 3)
+  Function: interacting
+  Inputs: r55_or.polygonlayer.0001, empty_layer.associated.0001, via5lg.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r55_e.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.03 Sys=0.00 Mem=0.010 GB
+All rectangles = 1
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.05 Sys=0.02 Mem=0.012 GB
+4051 unique polygons written.
+   Check Time=0:00:00  User=0.08 Sys=0.03 Mem=0.012 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3540
+r55_v = interacting(via5lg, r55_e)
+  Function: interacting
+  Inputs: via5lg.polygonlayer.0001, empty_layer.associated.0001, r55_e.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r55_v.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.07 Sys=0.02 Mem=0.012 GB
+105021 unique polygons written.
+   Check Time=0:00:00  User=0.08 Sys=0.03 Mem=0.012 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3544
+not(interacting(via5, m56), (interacting(via5, ((interacting(m56, via5bar, count >= 1)) or (interacting(m56, r25_v, count >= 2)) or (interacting(m56, r35_v, count >= 2)) or (interacting(m56, r45_v, count >= 4)) or (interacting(m56, r55_v, count >= 4))))))
+  Function: interacting
+  Inputs: m56.polygonlayer.0001, empty_layer.associated.0001, r55_v.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0148
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.02 Sys=0.01 Mem=0.010 GB
+All rectangles = 1
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.04 Sys=0.01 Mem=0.012 GB
+5172 unique polygons written.
+   Check Time=0:00:00  User=0.07 Sys=0.03 Mem=0.012 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:3544:Boolean merge optimization replaced or commands with or_list
+not(interacting(via5, m56), (interacting(via5, ((interacting(m56, via5bar, count >= 1)) or (interacting(m56, r25_v, count >= 2)) or (interacting(m56, r35_v, count >= 2)) or (interacting(m56, r45_v, count >= 4)) or (interacting(m56, r55_v, count >= 4))))))
+  Function: or
+  Inputs: temp.polygonlayer.0117, temp.polygonlayer.0118, temp.polygonlayer.0130, temp.polygonlayer.0127, temp.polygonlayer.0148
+  Outputs: temp.polygonlayer.0149
+Input layer "temp.polygonlayer.0117" is empty.
+5305 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.012 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3544
+not(interacting(via5, m56), (interacting(via5, ((interacting(m56, via5bar, count >= 1)) or (interacting(m56, r25_v, count >= 2)) or (interacting(m56, r35_v, count >= 2)) or (interacting(m56, r45_v, count >= 4)) or (interacting(m56, r55_v, count >= 4))))))
+  Function: interacting
+  Inputs: VIA5i.polygonlayer.0018, empty_layer.associated.0001, temp.polygonlayer.0149, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0150
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.11 Sys=0.03 Mem=0.012 GB
+104526 unique polygons written.
+   Check Time=0:00:00  User=0.11 Sys=0.04 Mem=0.012 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3544
+not(interacting(via5, m56), (interacting(via5, ((interacting(m56, via5bar, count >= 1)) or (interacting(m56, r25_v, count >= 2)) or (interacting(m56, r35_v, count >= 2)) or (interacting(m56, r45_v, count >= 4)) or (interacting(m56, r55_v, count >= 4))))))
+  Comment: "VIA5.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)"
+  Function: not
+  Inputs: temp.polygonlayer.0116, empty_layer.associated.0001, temp.polygonlayer.0150, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.10 Sys=0.03 Mem=0.013 GB
+No output written.
+   Check Time=0:00:00  User=0.10 Sys=0.04 Mem=0.013 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3544
+not(interacting(via5, m56), (interacting(via5, ((interacting(m56, via5bar, count >= 1)) or (interacting(m56, r25_v, count >= 2)) or (interacting(m56, r35_v, count >= 2)) or (interacting(m56, r45_v, count >= 4)) or (interacting(m56, r55_v, count >= 4))))))
+  Function: not
+  Inputs: VIA5i.polygonlayer.0020, M6i.polygonlayer.0020, M5i.polygonlayer.0020, VIA5i.polygonlayer.0020, M6i.polygonlayer.0020, M5i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3425
+r54_e = interacting(r54_or, via4lg, count > 3)
+  Function: interacting
+  Inputs: r54_or.polygonlayer.0001, empty_layer.associated.0001, via4lg.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r54_e.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.03 Sys=0.01 Mem=0.011 GB
+All rectangles = 1
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.05 Sys=0.02 Mem=0.012 GB
+4051 unique polygons written.
+   Check Time=0:00:00  User=0.08 Sys=0.03 Mem=0.012 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3426
+r54_v = interacting(via4lg, r54_e)
+  Function: interacting
+  Inputs: via4lg.polygonlayer.0001, empty_layer.associated.0001, r54_e.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r54_v.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.08 Sys=0.02 Mem=0.012 GB
+105021 unique polygons written.
+   Check Time=0:00:00  User=0.08 Sys=0.03 Mem=0.012 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3431
+not(interacting(via4, m45), interacting(via4, ((interacting(m45, via4bar, count >= 1)) or (interacting(m45, r24_v, count >= 2)) or (interacting(m45, r34_v, count >= 2)) or (interacting(m45, r44_v, count >= 4)) or (interacting(m45, r54_v, count >= 4)))))
+  Function: interacting
+  Inputs: m45.polygonlayer.0001, empty_layer.associated.0001, r54_v.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0151
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.02 Sys=0.00 Mem=0.011 GB
+All rectangles = 1
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.03 Sys=0.02 Mem=0.012 GB
+Alias input as the select result
+5172 unique polygons written.
+   Check Time=0:00:00  User=0.07 Sys=0.03 Mem=0.012 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:3431:Boolean merge optimization replaced or commands with or_list
+not(interacting(via4, m45), interacting(via4, ((interacting(m45, via4bar, count >= 1)) or (interacting(m45, r24_v, count >= 2)) or (interacting(m45, r34_v, count >= 2)) or (interacting(m45, r44_v, count >= 4)) or (interacting(m45, r54_v, count >= 4)))))
+  Function: or
+  Inputs: temp.polygonlayer.0114, temp.polygonlayer.0115, temp.polygonlayer.0131, temp.polygonlayer.0119, temp.polygonlayer.0151
+  Outputs: temp.polygonlayer.0152
+Input layer "temp.polygonlayer.0114" is empty.
+Input layer "temp.polygonlayer.0115" is empty.
+Input layer "temp.polygonlayer.0119" is empty.
+5172 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3431:Duplicate command replaced at runtime with an internal copy command.
+not(interacting(via4, m45), interacting(via4, ((interacting(m45, via4bar, count >= 1)) or (interacting(m45, r24_v, count >= 2)) or (interacting(m45, r34_v, count >= 2)) or (interacting(m45, r44_v, count >= 4)) or (interacting(m45, r54_v, count >= 4)))))
+  Function: interacting
+  Inputs: temp.polygonlayer.0113
+  Outputs: temp.polygonlayer.0153
+103617 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3431
+not(interacting(via4, m45), interacting(via4, ((interacting(m45, via4bar, count >= 1)) or (interacting(m45, r24_v, count >= 2)) or (interacting(m45, r34_v, count >= 2)) or (interacting(m45, r44_v, count >= 4)) or (interacting(m45, r54_v, count >= 4)))))
+  Comment: "VIA4.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)"
+  Function: not
+  Inputs: temp.polygonlayer.0113, empty_layer.associated.0001, temp.polygonlayer.0153, empty_layer.associated.0001
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3431
+not(interacting(via4, m45), interacting(via4, ((interacting(m45, via4bar, count >= 1)) or (interacting(m45, r24_v, count >= 2)) or (interacting(m45, r34_v, count >= 2)) or (interacting(m45, r44_v, count >= 4)) or (interacting(m45, r54_v, count >= 4)))))
+  Function: not
+  Inputs: VIA4i.polygonlayer.0020, M5i.polygonlayer.0020, M4i.polygonlayer.0020, VIA4i.polygonlayer.0020, M5i.polygonlayer.0020, M4i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3317
+r53_v = interacting(via3lg, r53_e)
+  Function: interacting
+  Inputs: via3lg.polygonlayer.0001, empty_layer.associated.0001, r53_e.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r53_v.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.09 Sys=0.03 Mem=0.012 GB
+105021 unique polygons written.
+   Check Time=0:00:00  User=0.09 Sys=0.03 Mem=0.012 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3321
+not(interacting(via3, m34), interacting(via3, ((interacting(m34, via3bar, count >= 1)) or (interacting(m34, r23_v, count >= 2)) or (interacting(m34, r33_v, count >= 2)) or (interacting(m34, r43_v, count >= 4)) or (interacting(m34, r53_v, count >= 4)))))
+  Function: interacting
+  Inputs: m34.polygonlayer.0001, empty_layer.associated.0001, r53_v.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0154
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.02 Sys=0.01 Mem=0.011 GB
+All rectangles = 1
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.04 Sys=0.01 Mem=0.012 GB
+Alias input as the select result
+5172 unique polygons written.
+   Check Time=0:00:00  User=0.06 Sys=0.03 Mem=0.012 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:3321:Boolean merge optimization replaced or commands with or_list
+not(interacting(via3, m34), interacting(via3, ((interacting(m34, via3bar, count >= 1)) or (interacting(m34, r23_v, count >= 2)) or (interacting(m34, r33_v, count >= 2)) or (interacting(m34, r43_v, count >= 4)) or (interacting(m34, r53_v, count >= 4)))))
+  Function: or
+  Inputs: temp.polygonlayer.0125, temp.polygonlayer.0126, temp.polygonlayer.0129, temp.polygonlayer.0139, temp.polygonlayer.0154
+  Outputs: temp.polygonlayer.0155
+Input layer "temp.polygonlayer.0125" is empty.
+Input layer "temp.polygonlayer.0126" is empty.
+Input layer "temp.polygonlayer.0139" is empty.
+5172 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3321:Duplicate command replaced at runtime with an internal copy command.
+not(interacting(via3, m34), interacting(via3, ((interacting(m34, via3bar, count >= 1)) or (interacting(m34, r23_v, count >= 2)) or (interacting(m34, r33_v, count >= 2)) or (interacting(m34, r43_v, count >= 4)) or (interacting(m34, r53_v, count >= 4)))))
+  Function: interacting
+  Inputs: temp.polygonlayer.0124
+  Outputs: temp.polygonlayer.0156
+103617 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3321
+not(interacting(via3, m34), interacting(via3, ((interacting(m34, via3bar, count >= 1)) or (interacting(m34, r23_v, count >= 2)) or (interacting(m34, r33_v, count >= 2)) or (interacting(m34, r43_v, count >= 4)) or (interacting(m34, r53_v, count >= 4)))))
+  Comment: "VIA3.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)"
+  Function: not
+  Inputs: temp.polygonlayer.0124, empty_layer.associated.0001, temp.polygonlayer.0156, empty_layer.associated.0001
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3321
+not(interacting(via3, m34), interacting(via3, ((interacting(m34, via3bar, count >= 1)) or (interacting(m34, r23_v, count >= 2)) or (interacting(m34, r33_v, count >= 2)) or (interacting(m34, r43_v, count >= 4)) or (interacting(m34, r53_v, count >= 4)))))
+  Function: not
+  Inputs: VIA3i.polygonlayer.0020, M4i.polygonlayer.0020, M3i.polygonlayer.0020, VIA3i.polygonlayer.0020, M4i.polygonlayer.0020, M3i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3654
+r56_v = interacting(via6lg, r56_e)
+  Function: interacting
+  Inputs: via6lg.polygonlayer.0001, empty_layer.associated.0001, r56_e.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r56_v.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.07 Sys=0.02 Mem=0.012 GB
+106323 unique polygons written.
+   Check Time=0:00:00  User=0.07 Sys=0.03 Mem=0.012 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3658
+not(via6, interacting(via6, ((interacting(m67, via6bar, count >= 1)) or (interacting(m67, r26_v, count >= 2)) or (interacting(m67, r36_v, count >= 2)) or (interacting(m67, r46_v, count >= 4)) or (interacting(m67, r56_v, count >= 4)))))
+  Function: interacting
+  Inputs: m67.polygonlayer.0001, empty_layer.associated.0001, r56_v.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0157
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.02 Sys=0.01 Mem=0.011 GB
+All rectangles = 1
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.03 Sys=0.01 Mem=0.012 GB
+Alias input as the select result
+159 unique polygons written.
+   Check Time=0:00:00  User=0.06 Sys=0.03 Mem=0.012 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:3658:Boolean merge optimization replaced or commands with or_list
+not(via6, interacting(via6, ((interacting(m67, via6bar, count >= 1)) or (interacting(m67, r26_v, count >= 2)) or (interacting(m67, r36_v, count >= 2)) or (interacting(m67, r46_v, count >= 4)) or (interacting(m67, r56_v, count >= 4)))))
+  Function: or
+  Inputs: temp.polygonlayer.0111, temp.polygonlayer.0112, temp.polygonlayer.0128, temp.polygonlayer.0141, temp.polygonlayer.0157
+  Outputs: temp.polygonlayer.0158
+Input layer "temp.polygonlayer.0111" is empty.
+Input layer "temp.polygonlayer.0141" is empty.
+159 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.011 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3658
+not(via6, interacting(via6, ((interacting(m67, via6bar, count >= 1)) or (interacting(m67, r26_v, count >= 2)) or (interacting(m67, r36_v, count >= 2)) or (interacting(m67, r46_v, count >= 4)) or (interacting(m67, r56_v, count >= 4)))))
+  Function: interacting
+  Inputs: VIA6i.polygonlayer.0018, empty_layer.associated.0001, temp.polygonlayer.0158, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0159
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.08 Sys=0.05 Mem=0.015 GB
+106337 unique polygons written.
+   Check Time=0:00:00  User=0.08 Sys=0.06 Mem=0.015 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3658
+not(via6, interacting(via6, ((interacting(m67, via6bar, count >= 1)) or (interacting(m67, r26_v, count >= 2)) or (interacting(m67, r36_v, count >= 2)) or (interacting(m67, r46_v, count >= 4)) or (interacting(m67, r56_v, count >= 4)))))
+  Comment: "VIA6.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)"
+  Function: not
+  Inputs: VIA6i.polygonlayer.0018, empty_layer.associated.0001, temp.polygonlayer.0159, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.11 Sys=0.04 Mem=0.018 GB
+WARNING - 3214 violations found.
+   Check Time=0:00:00  User=0.13 Sys=0.05 Mem=0.018 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3658
+not(via6, interacting(via6, ((interacting(m67, via6bar, count >= 1)) or (interacting(m67, r26_v, count >= 2)) or (interacting(m67, r36_v, count >= 2)) or (interacting(m67, r46_v, count >= 4)) or (interacting(m67, r56_v, count >= 4)))))
+  Function: not
+  Inputs: VIA6i.polygonlayer.0020, VIA6i.polygonlayer.0020, M7i.polygonlayer.0020, M6i.polygonlayer.0020
+
+  Additional Mask Layer: metal7
+
+  Additional Mask Layer: metal6
+   Tagging Time=0:00:00  User=0.09 Sys=0.06 Mem=0.021 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3112
+r4_v = interacting(via1sq, r4_e)
+  Function: interacting
+  Inputs: via1sq.polygonlayer.0004, empty_layer.associated.0001, r4_e.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r4_v.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.90 Sys=0.29 Mem=0.057 GB
+415419 unique polygons written.
+   Check Time=0:00:00  User=0.91 Sys=0.31 Mem=0.057 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3119
+not(interacting(via1, m12), interacting(via1, ((interacting(m12, via1bar, count >= 1)) or (interacting(m12, r2_v, count >= 2)) or (interacting(m12, r3_v, count >= 2)) or (interacting(m12, r4_v, count >= 4)) or (interacting(m12, r5_v, count >= 4)))))
+  Function: interacting
+  Inputs: m12.polygonlayer.0001, empty_layer.associated.0001, r4_v.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0160
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.16 Sys=0.08 Mem=0.023 GB
+All rectangles = 1
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.20 Sys=0.09 Mem=0.026 GB
+1126 unique polygons written.
+   Check Time=0:00:00  User=0.36 Sys=0.18 Mem=0.026 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:3119:Boolean merge optimization replaced or commands with or_list
+not(interacting(via1, m12), interacting(via1, ((interacting(m12, via1bar, count >= 1)) or (interacting(m12, r2_v, count >= 2)) or (interacting(m12, r3_v, count >= 2)) or (interacting(m12, r4_v, count >= 4)) or (interacting(m12, r5_v, count >= 4)))))
+  Function: or
+  Inputs: temp.polygonlayer.0136, temp.polygonlayer.0142, temp.polygonlayer.0137, temp.polygonlayer.0160, temp.polygonlayer.0140
+  Outputs: temp.polygonlayer.0161
+Input layer "temp.polygonlayer.0136" is empty.
+Input layer "temp.polygonlayer.0137" is empty.
+Input layer "temp.polygonlayer.0140" is empty.
+1127 unique polygons written.
+   Check Time=0:00:00  User=0.02 Sys=0.01 Mem=0.012 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3119
+not(interacting(via1, m12), interacting(via1, ((interacting(m12, via1bar, count >= 1)) or (interacting(m12, r2_v, count >= 2)) or (interacting(m12, r3_v, count >= 2)) or (interacting(m12, r4_v, count >= 4)) or (interacting(m12, r5_v, count >= 4)))))
+  Function: interacting
+  Inputs: VIA1i.polygonlayer.0018, empty_layer.associated.0001, temp.polygonlayer.0161, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0162
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.38 Sys=0.14 Mem=0.025 GB
+60505 unique polygons written.
+   Check Time=0:00:00  User=0.38 Sys=0.15 Mem=0.025 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3119
+not(interacting(via1, m12), interacting(via1, ((interacting(m12, via1bar, count >= 1)) or (interacting(m12, r2_v, count >= 2)) or (interacting(m12, r3_v, count >= 2)) or (interacting(m12, r4_v, count >= 4)) or (interacting(m12, r5_v, count >= 4)))))
+  Comment: "VIA1.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)"
+  Function: not
+  Inputs: temp.polygonlayer.0135, empty_layer.associated.0001, temp.polygonlayer.0162, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.07 Sys=0.03 Mem=0.016 GB
+No output written.
+   Check Time=0:00:00  User=0.07 Sys=0.03 Mem=0.016 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3119
+not(interacting(via1, m12), interacting(via1, ((interacting(m12, via1bar, count >= 1)) or (interacting(m12, r2_v, count >= 2)) or (interacting(m12, r3_v, count >= 2)) or (interacting(m12, r4_v, count >= 4)) or (interacting(m12, r5_v, count >= 4)))))
+  Function: not
+  Inputs: VIA1i.polygonlayer.0020, M2i.polygonlayer.0020, M1i.polygonlayer.0020, VIA1i.polygonlayer.0020, M2i.polygonlayer.0020, M1i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3214
+r52_e = interacting(r52_or, via2lg, count > 3)
+  Function: interacting
+  Inputs: r52_or.polygonlayer.0001, empty_layer.associated.0001, via2lg.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r52_e.polygonlayer.0001
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.04 Sys=0.03 Mem=0.013 GB
+All rectangles = 1
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.07 Sys=0.03 Mem=0.015 GB
+4051 unique polygons written.
+   Check Time=0:00:00  User=0.13 Sys=0.07 Mem=0.015 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3215
+r52_v = interacting(via2lg, r52_e)
+  Function: interacting
+  Inputs: via2lg.polygonlayer.0001, empty_layer.associated.0001, r52_e.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r52_v.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.10 Sys=0.05 Mem=0.015 GB
+105114 unique polygons written.
+   Check Time=0:00:00  User=0.11 Sys=0.06 Mem=0.015 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3218
+not(interacting(via2, m23), interacting(via2, ((interacting(m23, via2bar, count >= 1)) or (interacting(m23, r22_v, count >= 2)) or (interacting(m23, r32_v, count >= 2)) or (interacting(m23, r42_v, count >= 4)) or (interacting(m23, r52_v, count >= 4)))))
+  Function: interacting
+  Inputs: m23.polygonlayer.0001, empty_layer.associated.0001, r52_v.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0163
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.03 Sys=0.02 Mem=0.014 GB
+All rectangles = 1
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.05 Sys=0.03 Mem=0.015 GB
+Alias input as the select result
+1114 unique polygons written.
+   Check Time=0:00:00  User=0.10 Sys=0.06 Mem=0.015 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:3218:Boolean merge optimization replaced or commands with or_list
+not(interacting(via2, m23), interacting(via2, ((interacting(m23, via2bar, count >= 1)) or (interacting(m23, r22_v, count >= 2)) or (interacting(m23, r32_v, count >= 2)) or (interacting(m23, r42_v, count >= 4)) or (interacting(m23, r52_v, count >= 4)))))
+  Function: or
+  Inputs: temp.polygonlayer.0121, temp.polygonlayer.0122, temp.polygonlayer.0123, temp.polygonlayer.0147, temp.polygonlayer.0163
+  Outputs: temp.polygonlayer.0164
+Input layer "temp.polygonlayer.0121" is empty.
+1114 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.012 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3218
+not(interacting(via2, m23), interacting(via2, ((interacting(m23, via2bar, count >= 1)) or (interacting(m23, r22_v, count >= 2)) or (interacting(m23, r32_v, count >= 2)) or (interacting(m23, r42_v, count >= 4)) or (interacting(m23, r52_v, count >= 4)))))
+  Function: interacting
+  Inputs: VIA2i.polygonlayer.0018, empty_layer.associated.0001, temp.polygonlayer.0164, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0165
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.23 Sys=0.08 Mem=0.023 GB
+105882 unique polygons written.
+   Check Time=0:00:00  User=0.23 Sys=0.10 Mem=0.023 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3218
+not(interacting(via2, m23), interacting(via2, ((interacting(m23, via2bar, count >= 1)) or (interacting(m23, r22_v, count >= 2)) or (interacting(m23, r32_v, count >= 2)) or (interacting(m23, r42_v, count >= 4)) or (interacting(m23, r52_v, count >= 4)))))
+  Comment: "VIA2.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)"
+  Function: not
+  Inputs: temp.polygonlayer.0120, empty_layer.associated.0001, temp.polygonlayer.0165, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.09 Sys=0.05 Mem=0.020 GB
+No output written.
+   Check Time=0:00:00  User=0.10 Sys=0.05 Mem=0.020 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3218
+not(interacting(via2, m23), interacting(via2, ((interacting(m23, via2bar, count >= 1)) or (interacting(m23, r22_v, count >= 2)) or (interacting(m23, r32_v, count >= 2)) or (interacting(m23, r42_v, count >= 4)) or (interacting(m23, r52_v, count >= 4)))))
+  Function: not
+  Inputs: VIA2i.polygonlayer.0020, M3i.polygonlayer.0020, M2i.polygonlayer.0020, VIA2i.polygonlayer.0020, M3i.polygonlayer.0020, M2i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:3767
+r57_or = or(r57, via7lg)
+  Function: or
+  Inputs: r57.polygonlayer.0001, via7lg.polygonlayer.0001
+  Outputs: r57_or.polygonlayer.0001
+7872 unique polygons written.
+   Check Time=0:00:01  User=5.84 Sys=0.85 Mem=0.168 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3768
+r57_e = interacting(r57_or, via7lg, count > 3)
+  Function: interacting
+  Inputs: r57_or.polygonlayer.0001, empty_layer.associated.0001, via7lg.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r57_e.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.69 Sys=0.45 Mem=0.084 GB
+All rectangles = 1
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.89 Sys=0.49 Mem=0.095 GB
+Alias input as the select result
+7872 unique polygons written.
+   Check Time=0:00:00  User=1.58 Sys=0.94 Mem=0.095 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3769
+r57_v = interacting(via7lg, r57_e)
+  Function: interacting
+  Inputs: via7lg.polygonlayer.0001, empty_layer.associated.0001, r57_e.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r57_v.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=1.49 Sys=0.61 Mem=0.101 GB
+1709064 unique polygons written.
+   Check Time=0:00:00  User=1.50 Sys=0.63 Mem=0.101 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3773
+not(interacting(via7, m78), (interacting(via7, ((interacting(m78, via7bar, count >= 1)) or (interacting(m78, r27_v, count >= 2)) or (interacting(m78, r37_v, count >= 2)) or (interacting(m78, r47_v, count >= 4)) or (interacting(m78, r57_v, count >= 4))))))
+  Function: interacting
+  Inputs: m78.polygonlayer.0001, empty_layer.associated.0001, r57_v.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0167
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.50 Sys=0.29 Mem=0.085 GB
+All rectangles = 1
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.77 Sys=0.32 Mem=0.094 GB
+Alias input as the select result
+16 unique polygons written.
+   Check Time=0:00:00  User=1.28 Sys=0.62 Mem=0.094 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:3773:Boolean merge optimization replaced or commands with or_list
+not(interacting(via7, m78), (interacting(via7, ((interacting(m78, via7bar, count >= 1)) or (interacting(m78, r27_v, count >= 2)) or (interacting(m78, r37_v, count >= 2)) or (interacting(m78, r47_v, count >= 4)) or (interacting(m78, r57_v, count >= 4))))))
+  Function: or
+  Inputs: temp.polygonlayer.0133, temp.polygonlayer.0134, temp.polygonlayer.0166, temp.polygonlayer.0138, temp.polygonlayer.0167
+  Outputs: temp.polygonlayer.0168
+Input layer "temp.polygonlayer.0133" is empty.
+Input layer "temp.polygonlayer.0134" is empty.
+Input layer "temp.polygonlayer.0138" is empty.
+16 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3773:Duplicate command replaced at runtime with an internal copy command.
+not(interacting(via7, m78), (interacting(via7, ((interacting(m78, via7bar, count >= 1)) or (interacting(m78, r27_v, count >= 2)) or (interacting(m78, r37_v, count >= 2)) or (interacting(m78, r47_v, count >= 4)) or (interacting(m78, r57_v, count >= 4))))))
+  Function: interacting
+  Inputs: temp.polygonlayer.0132
+  Outputs: temp.polygonlayer.0169
+1709064 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3773
+not(interacting(via7, m78), (interacting(via7, ((interacting(m78, via7bar, count >= 1)) or (interacting(m78, r27_v, count >= 2)) or (interacting(m78, r37_v, count >= 2)) or (interacting(m78, r47_v, count >= 4)) or (interacting(m78, r57_v, count >= 4))))))
+  Comment: "VIA7.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)"
+  Function: not
+  Inputs: temp.polygonlayer.0132, empty_layer.associated.0001, temp.polygonlayer.0169, empty_layer.associated.0001
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3773
+not(interacting(via7, m78), (interacting(via7, ((interacting(m78, via7bar, count >= 1)) or (interacting(m78, r27_v, count >= 2)) or (interacting(m78, r37_v, count >= 2)) or (interacting(m78, r47_v, count >= 4)) or (interacting(m78, r57_v, count >= 4))))))
+  Function: not
+  Inputs: VIA7i.polygonlayer.0020, M7i.polygonlayer.0020, M8i.polygonlayer.0020, VIA7i.polygonlayer.0020, M7i.polygonlayer.0020, M8i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+Reading error hierarchy error._hier.0001 ...
+ Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+Writing NDM Error View signoff_check_drc.err
+
+NDM: Information: Loading library file '/u/divyaj2/ECE510-2020-SPRING/project/apr/work/ORCA_TOP_lib' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/ndm/saed32sram_c.ndm' (FILE-007)
+  Error Output Time=0:00:02  User=1.74 Sys=0.26 Mem=0.696 GB
+
+
+ NDM memory usage: 702.246M
+  File Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.685 GB
+

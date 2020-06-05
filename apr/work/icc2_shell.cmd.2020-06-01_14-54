@@ -1,0 +1,10 @@
+#@ # 
+#@ # Running icc2_shell Version P-2019.03-SP1-VAL for linux64 -- Mar 31, 2019
+#@ # Date:   Mon Jun  1 14:54:06 2020
+#@ # Run by: divyaj2@mo.ece.pdx.edu
+#@ 
+
+source /u/divyaj2/ECE510-2020-SPRING/project/apr/work/.synopsys_icc2.setup
+source ../scripts/ndr.tcl
+exit
+exit

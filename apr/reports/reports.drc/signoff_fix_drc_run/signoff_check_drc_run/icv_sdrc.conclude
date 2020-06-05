@@ -1,0 +1,20 @@
+
+-------------------------------------------------------------------------------
+Rule: CO.B.1: CO must be fully covered by M1, and by PO widened by 0.006	             40 errors
+Rule:              CO.E.12: CONT is not enclosed by M1	             40 errors
+Rule: CO.E.9: Minimum enclosure of any contact by M1 must be 0.002um	           1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:          M1.S.1: Minimum M1 spacing must be 0.05	            300 errors
+Rule: M1.S.9: Minimum spacing when either metal line is wider than 0.15 must be 0.055	           1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:            M1.W.1: Minimum M1 width must be 0.05	           1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule: M1.W.2.1: Minimum width of thin wire with length less than 0.1, connected to fat wire with width larges than 0.15, must be 0.06	             15 errors
+Rule: M2.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06	             60 errors
+Rule: M3.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06	              9 errors
+Rule: M4.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06	              3 errors
+Rule: M6.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06	              4 errors
+Rule: VIA6.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)	           1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+-------------------------------------------------------------------------------
+NOTE: TRANSLATE_ERROR_INST is ON

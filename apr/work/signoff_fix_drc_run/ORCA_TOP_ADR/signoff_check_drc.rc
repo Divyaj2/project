@@ -1,0 +1,15 @@
+/* ============================================ */
+/*   Environment setup for signoff_check_drc   */
+/* ============================================ */
+#define SNPSINDESIGN 
+#define USE_ICC2 
+#define SNPSINDESIGN_DRC_RUN_DIRECTORY /u/divyaj2/ECE510-2020-SPRING/project/apr/work
+#define NDM_OPTIONS_LVS_BLACK_BOX_CELLS {"SRAM2RW128x16" , "SRAM2RW32x4" , "SRAM2RW64x32" , "SRAM2RW64x8"}
+#define NDM_OPTIONS_MISSING_CELL ABORT
+#define NDM_OPTIONS_INSTANCE_NAMES DISCARD
+#define NDM_OPTIONS_INTERNAL_DESIGNS {{use=FILL_USE,read_from=ALL,out_of_date=DISCARD}}
+#define NDM_OPTIONS_MERGE_BLOCKAGE_WITH_LAYER { views={DESIGN_VIEW,FRAME_VIEW}, cells={"*","!"+get_top_cell()} }
+#define NDM_OPTIONS_SEARCH_PATH "/u/divyaj2/ECE510-2020-SPRING/project/apr/work  ."
+#define INCREMENTAL_OPTIONS_WINDOW_AMBIT 1.0
+#define INCREMENTAL_OPTIONS_WINDOW_ERROR_FILTER KEEP_INTERACTING
+#define ERROR_OPTIONS_ERROR_LIMIT_PER_CHECK 1000

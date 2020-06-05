@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<errorData typeCount="8" majorVersion="1" minorVersion="8" name="__private_meta_data_:signoff_fix_drc_intermediate_1.err" designName="route2" info="IC Validator runset file /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs" checker="IC Validator" checkerVersion="RHEL64 Q-2019.12-SP2-4.5500898 2020/04/25" created="1591033431" createdDate="06:01:2020:10:43:51:PDT" modified="1591033700" modifiedDate="06:01:2020:10:48:20:PDT" interactive="false" internal="false" metaData="true" numTypes="8" numInsts="196"/>

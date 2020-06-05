@@ -1,0 +1,38 @@
+ 
+****************************************
+Report : area
+Design : ORCA_TOP
+Version: P-2019.03-SP1-1
+Date   : Tue May 19 16:00:34 2020
+****************************************
+
+Library(s) Used:
+
+    saed32hvt_ss0p75vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75vn40c.db)
+    saed32lvt_ss0p75vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75vn40c.db)
+    saed32hvt_dlvl_ss0p75vn40c_i0p95v (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_dlvl_ss0p75vn40c_i0p95v.db)
+    saed32lvt_dlvl_ss0p75vn40c_i0p95v (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_dlvl_ss0p75vn40c_i0p95v.db)
+    saed32sram_ss0p95vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95vn40c.db)
+    saed32hvt_ss0p95vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95vn40c.db)
+    saed32lvt_ss0p95vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p95vn40c.db)
+    saed32lvt_ulvl_ss0p95vn40c_i0p75v (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ulvl_ss0p95vn40c_i0p75v.db)
+    saed32hvt_ulvl_ss0p95vn40c_i0p75v (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ulvl_ss0p95vn40c_i0p75v.db)
+
+Number of ports:                         2178
+Number of nets:                         45906
+Number of cells:                        41834
+Number of combinational cells:          35842
+Number of sequential cells:              5108
+Number of macros/black boxes:             444
+Number of buf/inv:                       4076
+Number of references:                      31
+
+Combinational area:              89112.798446
+Buf/Inv area:                     5871.743009
+Noncombinational area:           46046.827316
+Macro/Black Box area:           232258.152132
+Net Interconnect area:           73203.309954
+
+Total cell area:                367417.777894
+Total area:                     440621.087849
+1

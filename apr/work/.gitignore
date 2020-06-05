@@ -1,0 +1,6 @@
+elab
+*.svf
+analyzed
+alib-52
+legalizer_debug_plots
+

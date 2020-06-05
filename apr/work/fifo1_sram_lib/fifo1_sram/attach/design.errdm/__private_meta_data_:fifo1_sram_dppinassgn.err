@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<errorData typeCount="0" majorVersion="1" minorVersion="8" name="__private_meta_data_:fifo1_sram_dppinassgn.err" designName="fifo1_sram" info="" checker="Pin Placement Check" checkerVersion="" created="1589996954" createdDate="05:20:2020:10:49:14:PDT" modified="1589997251" modifiedDate="05:20:2020:10:54:11:PDT" interactive="false" internal="false" metaData="true" numTypes="0" numInsts="0"/>

@@ -1,0 +1,49 @@
+#@ # 
+#@ # Running icc2_shell Version P-2019.03-SP1-VAL for linux64 -- Mar 31, 2019
+#@ # Date:   Mon Jun  1 09:45:17 2020
+#@ # Run by: divyaj2@mo.ece.pdx.edu
+#@ 
+
+source /u/divyaj2/ECE510-2020-SPRING/project/apr/work/.synopsys_icc2.setup
+source ../scripts/drc.tcl
+start_gui
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+win_set_filter -visible -class cell -filter {hard_macro_margin hard_margin route_blockage_margin soft_margin}
+win_set_filter -visible -class placement_blockage -filter {wiring} -layer {0-82}
+win_set_filter -expand_cell_types {soft_macro  }
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region pin_blockage block_shielding topology_node topology_edge topology_repeater core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_filter -class cell -filter {cell_array hard_macro_margin hard_margin route_blockage_margin soft_margin}
+win_set_filter -class placement_blockage -filter {wiring} -layer {0-82}
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region pin_blockage topology_node topology_edge topology_repeater edit_group shape via placement_blockage }
+gui_show_error_data
+gui_set_error_browser_option -show_mode all
+gui_set_error_browser_option -view_mode zoom
+gui_set_error_browser_option -zoom_factor 1.000000
+gui_set_error_browser_option -grouping type
+gui_error_browser -show
+gui_open_error_data -name {signoff_check_drc.err}
+gui_open_error_data -name {signoff_check_drc.err}
+gui_set_current_errors -data_name {signoff_check_drc.err}
+gui_set_selected_errors -replace [gui_get_errors -data_name {signoff_check_drc.err} -id {0}] -force
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPin -value true
+gui_error_browser -hide
+win_set_select_class -visible {cell pin port bound routing_blockage shaping_blockage pg_region pin_blockage block_shielding topology_node topology_edge topology_repeater core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_select_class {cell pin port bound routing_blockage shaping_blockage pg_region pin_blockage topology_node topology_edge topology_repeater edit_group shape via placement_blockage }
+gui_zoom -window [gui_get_current_window -view] -full
+gui_set_current_errors
+gui_set_selected_errors -replace [gui_get_errors -data_name {signoff_check_drc.err} -id {0}] -force
+gui_set_current_errors -data_name {signoff_check_drc.err}
+gui_set_selected_errors -replace [gui_get_errors -data_name {signoff_check_drc.err} -id {0}] -force
+gui_zoom -window [gui_get_current_window -view] -full
+copy_lib -no_designs -from ORCA_TOP_lib -to drc; save_block -as drc:drccheck.design
+list_blocks
+open_lib drc
+open_lib drc
+start_gui
+open_block /u/divyaj2/ECE510-2020-SPRING/project/apr/work/drc:drccheck.design
+gui_set_pref_value -category {showRelativeLocationConstraints} -key {macroOffsetX} -value {0.001}
+gui_set_pref_value -category {showRelativeLocationConstraints} -key {macroOffsetY} -value {0.001}
+link_block
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region pin_blockage block_shielding topology_node topology_edge topology_repeater core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region pin_blockage topology_node topology_edge topology_repeater edit_group shape via placement_blockage }
+exit

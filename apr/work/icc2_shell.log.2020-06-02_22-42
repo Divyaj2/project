@@ -1,0 +1,12 @@
+setting auto_restore_mw_cel_lib_setup true
+icc2_shell> open_block ORCA_TOP_lib:ORCA_TOP.design
+Information: User units loaded from library 'saed32hvt_c' (LNK-040)
+Opening block 'ORCA_TOP_lib:ORCA_TOP.design' in edit mode
+Information: loading PG routing via master rules, patterns, strategies and strategy via rules.
+{ORCA_TOP_lib:ORCA_TOP.design}
+icc2_shell> exit
+Maximum memory usage for this session: 455.06 MB
+CPU usage for this session:     11 seconds (  0.00 hours)
+Elapsed time for this session:    409 seconds (  0.11 hours)
+Thank you for using IC Compiler II.
+

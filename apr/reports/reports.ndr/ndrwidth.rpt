@@ -1,0 +1,28 @@
+Name     WidthMltplr SpacingMltplr TaperDist DriverTaperDist TaperOverPinLayers TaperUnderPinLayers DriverTaperOverPinLayers DriverTaperUnderPinLayers ParallelWireLayers
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+new      2           1
+
+         --------------------------------------------------------------------------------------
+         Layer     Width     ShieldWth ShieldSpc Snap2Trck RdlTaperDist RdlTaperWidth Mask
+         --------------------------------------------------------------------------------------
+
+         M1        0.10
+
+         M2        0.11
+
+         M3        0.11
+
+         M4        0.11
+
+         M5        0.11
+
+         M6        0.11
+
+         M7        0.11
+
+         M8        0.11
+
+         M9        0.32
+
+         MRDL      4.00
+1

@@ -1,0 +1,27 @@
+
+                                  ICV_Master 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -host_init mo.ece.pdx.edu -icc2 -f NDM -i ORCA_TOP_lib -p /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work -c route2 -icc_density_blockage -level1_no_explode -icc2_error_categories -icc2_error_browser INST -icc2_error_cell route2_short_fill -rc smfscd.rc -g /dev/shm/31773 -host_disk /dev/shm/31773_dp_cache -norscache -I /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+User name:        divyaj2
+Layout format:    NDM
+Input file name:  ORCA_TOP_lib
+Top cell name:    route2
+Time started:     2020/05/21 07:35:47PM
+
+--------------------------------------------------------------------------------
+                          Signoff Rules to be Executed                          
+--------------------------------------------------------------------------------
+
+@ "Metal fill shorts to metal"
+@ "via fill shorts to metal"

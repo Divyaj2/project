@@ -1,0 +1,154 @@
+Thu May 21 19:35:32 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+
+Runset file ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs
+Current Directory ................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill
+Hostname .........................  mo.ece.pdx.edu
+Platform type ....................  LINUX.64
+NDM input library path ...........  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/
+NDM input library name ...........  ORCA_TOP_lib
+NDM block name ...................  route2
+Run details ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/run_details
+Group file directory .............  /dev/shm/31773
+Check reference structures .......  yes
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.11 Sys=0.29 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:63:Layer creation
+VIARDL_fill = assign({ { 42 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIARDL_fill.polygonlayer.0016, VIARDL_fill.polygonlayer.0015, VIARDL_fill.polygonlayer.0014, VIARDL_fill.polygonlayer.0013, VIARDL_fill.polygonlayer.0012, VIARDL_fill.polygonlayer.0011, VIARDL_fill.polygonlayer.0010, VIARDL_fill.polygonlayer.0009, VIARDL_fill.polygonlayer.0008, VIARDL_fill.polygonlayer.0007, VIARDL_fill.polygonlayer.0006, VIARDL_fill.polygonlayer.0005, VIARDL_fill.polygonlayer.0004, VIARDL_fill.polygonlayer.0003, VIARDL_fill.polygonlayer.0002, VIARDL_fill.polygonlayer.0001, VIARDL_fill.polygonlayer.0016, VIARDL_fill.polygonlayer.0015, VIARDL_fill.polygonlayer.0014, VIARDL_fill.polygonlayer.0013, VIARDL_fill.polygonlayer.0012, VIARDL_fill.polygonlayer.0011, VIARDL_fill.polygonlayer.0010, VIARDL_fill.polygonlayer.0009, VIARDL_fill.polygonlayer.0008, VIARDL_fill.polygonlayer.0007, VIARDL_fill.polygonlayer.0006, VIARDL_fill.polygonlayer.0005, VIARDL_fill.polygonlayer.0004, VIARDL_fill.polygonlayer.0003, VIARDL_fill.polygonlayer.0002, VIARDL_fill.polygonlayer.0001
+  Outputs: VIARDL_fill.polygonlayer.0017, VIARDL_fill_assign.polygonlayer.0001, VIARDL_fill_blockage.polygonlayer.0001
+No output written.
+Layer "VIARDL_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "VIARDL_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "VIARDL_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.014 GB
+
+assign() at metalFillShortFinder.rs:59:Layer creation
+VIA5_fill = assign({ { 20 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA5_fill.polygonlayer.0016, VIA5_fill.polygonlayer.0015, VIA5_fill.polygonlayer.0014, VIA5_fill.polygonlayer.0013, VIA5_fill.polygonlayer.0012, VIA5_fill.polygonlayer.0011, VIA5_fill.polygonlayer.0010, VIA5_fill.polygonlayer.0009, VIA5_fill.polygonlayer.0008, VIA5_fill.polygonlayer.0007, VIA5_fill.polygonlayer.0006, VIA5_fill.polygonlayer.0005, VIA5_fill.polygonlayer.0004, VIA5_fill.polygonlayer.0003, VIA5_fill.polygonlayer.0002, VIA5_fill.polygonlayer.0001, VIA5_fill.polygonlayer.0016, VIA5_fill.polygonlayer.0015, VIA5_fill.polygonlayer.0014, VIA5_fill.polygonlayer.0013, VIA5_fill.polygonlayer.0012, VIA5_fill.polygonlayer.0011, VIA5_fill.polygonlayer.0010, VIA5_fill.polygonlayer.0009, VIA5_fill.polygonlayer.0008, VIA5_fill.polygonlayer.0007, VIA5_fill.polygonlayer.0006, VIA5_fill.polygonlayer.0005, VIA5_fill.polygonlayer.0004, VIA5_fill.polygonlayer.0003, VIA5_fill.polygonlayer.0002, VIA5_fill.polygonlayer.0001
+  Outputs: VIA5_fill.polygonlayer.0017, VIA5_fill_assign.polygonlayer.0001, VIA5_fill_blockage.polygonlayer.0001
+No output written.
+Layer "VIA5_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "VIA5_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "VIA5_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.07 Mem=0.014 GB
+
+assign() at metalFillShortFinder.rs:40:Layer creation
+M7_fill = assign({ { 23 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M7_fill.polygonlayer.0016, M7_fill.polygonlayer.0015, M7_fill.polygonlayer.0014, M7_fill.polygonlayer.0013, M7_fill.polygonlayer.0012, M7_fill.polygonlayer.0011, M7_fill.polygonlayer.0010, M7_fill.polygonlayer.0009, M7_fill.polygonlayer.0008, M7_fill.polygonlayer.0007, M7_fill.polygonlayer.0006, M7_fill.polygonlayer.0005, M7_fill.polygonlayer.0004, M7_fill.polygonlayer.0003, M7_fill.polygonlayer.0002, M7_fill.polygonlayer.0001, M7_fill.polygonlayer.0016, M7_fill.polygonlayer.0015, M7_fill.polygonlayer.0014, M7_fill.polygonlayer.0013, M7_fill.polygonlayer.0012, M7_fill.polygonlayer.0011, M7_fill.polygonlayer.0010, M7_fill.polygonlayer.0009, M7_fill.polygonlayer.0008, M7_fill.polygonlayer.0007, M7_fill.polygonlayer.0006, M7_fill.polygonlayer.0005, M7_fill.polygonlayer.0004, M7_fill.polygonlayer.0003, M7_fill.polygonlayer.0002, M7_fill.polygonlayer.0001
+  Outputs: M7_fill.polygonlayer.0017, M7_fill_assign.polygonlayer.0001, M7_fill_blockage.polygonlayer.0001
+No output written.
+Layer "M7_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "M7_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "M7_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.014 GB
+
+assign() at metalFillShortFinder.rs:24:Layer creation
+M3_fill = assign({ { 15 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M3_fill.polygonlayer.0016, M3_fill.polygonlayer.0015, M3_fill.polygonlayer.0014, M3_fill.polygonlayer.0013, M3_fill.polygonlayer.0012, M3_fill.polygonlayer.0011, M3_fill.polygonlayer.0010, M3_fill.polygonlayer.0009, M3_fill.polygonlayer.0008, M3_fill.polygonlayer.0007, M3_fill.polygonlayer.0006, M3_fill.polygonlayer.0005, M3_fill.polygonlayer.0004, M3_fill.polygonlayer.0003, M3_fill.polygonlayer.0002, M3_fill.polygonlayer.0001, M3_fill.polygonlayer.0016, M3_fill.polygonlayer.0015, M3_fill.polygonlayer.0014, M3_fill.polygonlayer.0013, M3_fill.polygonlayer.0012, M3_fill.polygonlayer.0011, M3_fill.polygonlayer.0010, M3_fill.polygonlayer.0009, M3_fill.polygonlayer.0008, M3_fill.polygonlayer.0007, M3_fill.polygonlayer.0006, M3_fill.polygonlayer.0005, M3_fill.polygonlayer.0004, M3_fill.polygonlayer.0003, M3_fill.polygonlayer.0002, M3_fill.polygonlayer.0001
+  Outputs: M3_fill.polygonlayer.0017, M3_fill_assign.polygonlayer.0001, M3_fill_blockage.polygonlayer.0001
+No output written.
+Layer "M3_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "M3_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "M3_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.014 GB
+
+Thu May 21 19:35:59 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.07 Sys=0.07 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:20:Layer creation
+M2_fill = assign({ { 13 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M2_fill.polygonlayer.0017, M2_fill.polygonlayer.0017
+  Outputs: M2_fill.polygonlayer.0018, 
+No output written.
+Layer "M2_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:57:Layer creation
+VIA3_fill = assign({ { 16 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA3_fill_blockage.polygonlayer.0001
+  Outputs: VIA3_fill.polygonlayer.0021, VIA3_fill.polygonlayer.0022
+No output written.
+Layer "VIA3_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "VIA3_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.12 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:24:Layer creation
+M3_fill = assign({ { 15 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M3_fill_blockage.polygonlayer.0001
+  Outputs: M3_fill.polygonlayer.0021, M3_fill.polygonlayer.0022
+No output written.
+Layer "M3_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "M3_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.10 Sys=0.06 Mem=0.012 GB
+
+Thu May 21 19:36:06 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+ Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.005 GB
+

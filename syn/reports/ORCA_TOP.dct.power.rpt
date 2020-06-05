@@ -1,0 +1,62 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : ORCA_TOP
+Version: P-2019.03-SP1-1
+Date   : Tue May 19 16:38:48 2020
+****************************************
+
+
+Library(s) Used:
+
+    saed32hvt_ss0p75vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75vn40c.db)
+    saed32lvt_ss0p75vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75vn40c.db)
+    saed32lvt_dlvl_ss0p75vn40c_i0p95v (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_dlvl_ss0p75vn40c_i0p95v.db)
+    saed32hvt_dlvl_ss0p75vn40c_i0p95v (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_dlvl_ss0p75vn40c_i0p95v.db)
+    saed32sram_ss0p95vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95vn40c.db)
+    saed32hvt_ss0p95vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95vn40c.db)
+    saed32lvt_ss0p95vn40c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p95vn40c.db)
+    saed32lvt_ulvl_ss0p95vn40c_i0p75v (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ulvl_ss0p95vn40c_i0p75v.db)
+    saed32hvt_ulvl_ss0p95vn40c_i0p75v (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ulvl_ss0p95vn40c_i0p75v.db)
+
+
+Global Operating Voltage = 0.75 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+Warning: Cannot report correlated power unless power prediction mode is set. (PWR-727)
+Power Breakdown
+---------------
+
+                             Cell        Driven Net  Tot Dynamic      Cell
+                             Internal    Switching   Power (uW)       Leakage
+Cell                         Power (uW)  Power (uW)  (% Cell/Tot)     Power (pW)
+--------------------------------------------------------------------------------
+Netlist Power                -1.311e+03  1.263e+03   -4.885e+01 (2684%)
+                                                                      2.233e+08
+Estimated Clock Tree Power   N/A         N/A          (N/A)           N/A
+--------------------------------------------------------------------------------
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory         -3.8221e+03           53.9457            0.0000        -3.7681e+03
+                                                                                 ( -2159.91%)
+black_box          0.0000            0.0000        7.0377e+06            7.0377  (   4.03%)
+clock_network     42.8450          533.7181        8.0857e+05          577.3716  ( 330.95%)
+register       2.1459e+03          122.0973        2.7414e+07        2.2954e+03  ( 1315.72%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational    321.9620          552.7687        1.8806e+08        1.0628e+03  ( 609.20%)
+--------------------------------------------------------------------------------------------------
+Total          -1.3114e+03 uW     1.2625e+03 uW     2.2332e+08 pW       174.4568 uW
+1

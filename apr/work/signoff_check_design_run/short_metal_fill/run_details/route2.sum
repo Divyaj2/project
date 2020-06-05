@@ -1,0 +1,2563 @@
+
+                                 IC Validator 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -host_init mo.ece.pdx.edu -icc2 -f NDM -i ORCA_TOP_lib -p /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work -c route2 -icc_density_blockage -level1_no_explode -icc2_error_categories -icc2_error_browser INST -icc2_error_cell route2_short_fill -rc smfscd.rc -g /dev/shm/31773 -host_disk /dev/shm/31773_dp_cache -norscache -I /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs
+
+Parsing finished
+Runset Compile Time=0:00:12 User=11.95 Sys=0.41 Mem=0.596 GB
+
+Virtual Machine Init Time=0:00:00 User=0.01 Sys=0.01 Mem=0.596 GB
+
+System Startup Time=0:00:01 User=0.01 Sys=0.12 Mem=0.596 GB
+
+Thu May 21 19:35:32 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 8 shared thread(s)
+
+Runset file ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs
+Current Directory ................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill
+Hostname .........................  mo.ece.pdx.edu
+Platform type ....................  LINUX.64
+NDM input library path ...........  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/
+NDM input library name ...........  ORCA_TOP_lib
+NDM block name ...................  route2
+Run details ......................  /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/run_details
+Group file directory .............  /dev/shm/31773
+Check reference structures .......  yes
+
+error_options() at /u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/signoff_check_design_run/short_metal_fill/metalFillShortFinder.rs:5
+error_options(error_limit_per_check = 2147483647)
+
+[Generated Command]
+run_options()
+
+[Generated Command]
+library(library_name = ".empty.gds", format = GDSII, cell = "BLOCK")
+
+[Generated Command]
+drc_black_box_options()
+
+[Generated Command]
+resolution_options()
+
+[Generated Command]
+incremental_options()
+
+[Generated Command]
+layout_drawn_options()
+
+[Generated Command]
+layout_grid_options()
+
+[Generated Command]
+layout_integrity_options()
+
+[Generated Command]
+hierarchy_options()
+
+[Generated Command]
+prototype_options()
+
+[Generated Command]
+hierarchy_auto_options()
+
+[Generated Command]
+text_options()
+
+[Generated Command]
+compatibility_options()
+
+   Prescan Library Time=0:00:00  User=0.00 Sys=0.01 Mem=0.005 GB
+
+NDM: Information: Loading library file '/u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/ORCA_TOP_lib' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/ndm/saed32sram_c.ndm' (FILE-007)
+WARNING: Could not open CGLNPRX8_LVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_LVT.design, using frame view instead.
+WARNING: Could not open SDFFARX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFNX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFARX2_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX2_LVT.design, using frame view instead.
+WARNING: Could not open SDFFX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFX2_LVT.design, using frame view instead.
+WARNING: Could not open TIEH_HVT.design, using frame view instead.
+WARNING: Could not open TIEL_HVT.design, using frame view instead.
+WARNING: Could not open DFFNARX1_HVT.design, using frame view instead.
+WARNING: Could not open DFFX1_HVT.design, using frame view instead.
+WARNING: Could not open DFFX2_HVT.design, using frame view instead.
+WARNING: Could not open DFFX1_RVT.design, using frame view instead.
+WARNING: Could not open DFFARX1_LVT.design, using frame view instead.
+WARNING: Could not open AO22X1_LVT.design, using frame view instead.
+WARNING: Could not open AO22X1_RVT.design, using frame view instead.
+WARNING: Could not open AO22X2_LVT.design, using frame view instead.
+WARNING: Could not open DFFX1_LVT.design, using frame view instead.
+WARNING: Could not open XOR2X1_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX8_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX8_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX2_RVT.design, using frame view instead.
+WARNING: Could not open AO21X1_HVT.design, using frame view instead.
+WARNING: Could not open OA21X1_RVT.design, using frame view instead.
+WARNING: Could not open OR2X1_RVT.design, using frame view instead.
+WARNING: Could not open AND2X1_HVT.design, using frame view instead.
+WARNING: Could not open OR2X1_HVT.design, using frame view instead.
+WARNING: Could not open OR2X1_LVT.design, using frame view instead.
+WARNING: Could not open OR2X2_RVT.design, using frame view instead.
+WARNING: Could not open AND2X1_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX4_RVT.design, using frame view instead.
+WARNING: Could not open INVX4_HVT.design, using frame view instead.
+WARNING: Could not open AO22X1_HVT.design, using frame view instead.
+WARNING: Could not open OA22X1_RVT.design, using frame view instead.
+WARNING: Could not open INVX0_HVT.design, using frame view instead.
+WARNING: Could not open INVX0_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX2_HVT.design, using frame view instead.
+WARNING: Could not open NAND2X4_HVT.design, using frame view instead.
+WARNING: Could not open INVX32_HVT.design, using frame view instead.
+WARNING: Could not open AO22X2_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX8_LVT.design, using frame view instead.
+WARNING: Could not open INVX16_LVT.design, using frame view instead.
+WARNING: Could not open NBUFFX16_RVT.design, using frame view instead.
+WARNING: Could not open INVX8_HVT.design, using frame view instead.
+WARNING: Could not open INVX2_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX4_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX16_HVT.design, using frame view instead.
+WARNING: Could not open INVX1_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX4_LVT.design, using frame view instead.
+WARNING: Could not open OA22X1_HVT.design, using frame view instead.
+WARNING: Could not open AOI22X1_HVT.design, using frame view instead.
+WARNING: Could not open INVX0_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X0_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X0_HVT.design, using frame view instead.
+WARNING: Could not open NAND2X0_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X0_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X0_LVT.design, using frame view instead.
+WARNING: Could not open INVX16_HVT.design, using frame view instead.
+WARNING: Could not open INVX4_RVT.design, using frame view instead.
+WARNING: Could not open AO21X1_LVT.design, using frame view instead.
+WARNING: Could not open AND2X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X4_LVT.design, using frame view instead.
+WARNING: Could not open AO21X1_RVT.design, using frame view instead.
+WARNING: Could not open AND2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X1_RVT.design, using frame view instead.
+WARNING: Could not open OR2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X1_LVT.design, using frame view instead.
+WARNING: Could not open OR2X4_LVT.design, using frame view instead.
+WARNING: Could not open OA22X1_LVT.design, using frame view instead.
+WARNING: Could not open OA21X1_LVT.design, using frame view instead.
+WARNING: Could not open OA21X1_HVT.design, using frame view instead.
+WARNING: Could not open NAND4X0_LVT.design, using frame view instead.
+WARNING: Could not open NAND4X0_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X2_HVT.design, using frame view instead.
+WARNING: Could not open NAND2X1_RVT.design, using frame view instead.
+WARNING: Could not open NAND4X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND4X1_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X2_LVT.design, using frame view instead.
+WARNING: Could not open INVX2_LVT.design, using frame view instead.
+WARNING: Could not open OA21X2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X0_LVT.design, using frame view instead.
+WARNING: Could not open INVX2_RVT.design, using frame view instead.
+WARNING: Could not open AO222X1_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX32_RVT.design, using frame view instead.
+WARNING: Could not open INVX32_RVT.design, using frame view instead.
+WARNING: Could not open XOR2X1_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X0_RVT.design, using frame view instead.
+WARNING: Could not open XOR2X1_HVT.design, using frame view instead.
+WARNING: Could not open XOR2X2_HVT.design, using frame view instead.
+WARNING: Could not open MUX21X1_LVT.design, using frame view instead.
+WARNING: Could not open AO222X1_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX32_HVT.design, using frame view instead.
+WARNING: Could not open INVX1_LVT.design, using frame view instead.
+WARNING: Could not open NBUFFX32_LVT.design, using frame view instead.
+WARNING: Could not open XOR2X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X2_RVT.design, using frame view instead.
+WARNING: Could not open INVX16_RVT.design, using frame view instead.
+WARNING: Could not open AND2X4_LVT.design, using frame view instead.
+WARNING: Could not open NBUFFX16_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X4_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX2_LVT.design, using frame view instead.
+WARNING: Could not open INVX8_LVT.design, using frame view instead.
+WARNING: Could not open INVX4_LVT.design, using frame view instead.
+WARNING: Could not open AND2X2_RVT.design, using frame view instead.
+WARNING: Could not open OR2X4_HVT.design, using frame view instead.
+WARNING: Could not open OR2X4_RVT.design, using frame view instead.
+WARNING: Could not open AO22X2_HVT.design, using frame view instead.
+WARNING: Could not open AND2X4_HVT.design, using frame view instead.
+WARNING: Could not open OA22X2_RVT.design, using frame view instead.
+WARNING: Could not open SRAM2RW64x32.design, using frame view instead.
+WARNING: Could not open NOR2X4_LVT.design, using frame view instead.
+WARNING: Could not open INVX1_RVT.design, using frame view instead.
+WARNING: Could not open XNOR2X1_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X1_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X1_LVT.design, using frame view instead.
+WARNING: Could not open NOR4X1_LVT.design, using frame view instead.
+WARNING: Could not open MUX21X1_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X1_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X1_HVT.design, using frame view instead.
+WARNING: Could not open MUX21X2_RVT.design, using frame view instead.
+WARNING: Could not open OA221X1_RVT.design, using frame view instead.
+WARNING: Could not open OA21X2_RVT.design, using frame view instead.
+WARNING: Could not open MUX21X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X1_LVT.design, using frame view instead.
+WARNING: Could not open OA221X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X4_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X0_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X2_LVT.design, using frame view instead.
+WARNING: Could not open OAI22X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X1_RVT.design, using frame view instead.
+WARNING: Could not open HADDX1_LVT.design, using frame view instead.
+WARNING: Could not open NOR4X0_LVT.design, using frame view instead.
+WARNING: Could not open AND4X1_LVT.design, using frame view instead.
+WARNING: Could not open OR3X1_LVT.design, using frame view instead.
+WARNING: Could not open DFFARX1_HVT.design, using frame view instead.
+WARNING: Could not open DFFARX1_RVT.design, using frame view instead.
+WARNING: Could not open FADDX1_LVT.design, using frame view instead.
+WARNING: Could not open FADDX2_LVT.design, using frame view instead.
+WARNING: Could not open FADDX1_RVT.design, using frame view instead.
+WARNING: Could not open DFFSSRX1_LVT.design, using frame view instead.
+WARNING: Could not open XOR2X2_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X2_RVT.design, using frame view instead.
+WARNING: Could not open XOR3X2_HVT.design, using frame view instead.
+WARNING: Could not open OAI21X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X2_LVT.design, using frame view instead.
+WARNING: Could not open XNOR2X2_LVT.design, using frame view instead.
+WARNING: Could not open AO21X2_LVT.design, using frame view instead.
+WARNING: Could not open MUX21X2_LVT.design, using frame view instead.
+WARNING: Could not open XNOR2X1_LVT.design, using frame view instead.
+WARNING: Could not open AOI21X2_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X1_RVT.design, using frame view instead.
+WARNING: Could not open OAI21X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X1_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX2_HVT.design, using frame view instead.
+WARNING: Could not open AOI22X1_LVT.design, using frame view instead.
+WARNING: Could not open NOR3X0_LVT.design, using frame view instead.
+WARNING: Could not open OAI21X1_RVT.design, using frame view instead.
+WARNING: Could not open AND3X2_LVT.design, using frame view instead.
+WARNING: Could not open AO222X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X1_HVT.design, using frame view instead.
+WARNING: Could not open DELLN2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X4_LVT.design, using frame view instead.
+WARNING: Could not open AOI22X2_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX16_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX2_RVT.design, using frame view instead.
+WARNING: Could not open AND3X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI21X1_LVT.design, using frame view instead.
+WARNING: Could not open XNOR3X1_LVT.design, using frame view instead.
+WARNING: Could not open DELLN2X2_RVT.design, using frame view instead.
+WARNING: Could not open XNOR3X2_LVT.design, using frame view instead.
+WARNING: Could not open FADDX1_HVT.design, using frame view instead.
+WARNING: Could not open DELLN1X2_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X1_RVT.design, using frame view instead.
+WARNING: Could not open INVX8_RVT.design, using frame view instead.
+WARNING: Could not open NAND4X0_HVT.design, using frame view instead.
+WARNING: Could not open FADDX2_HVT.design, using frame view instead.
+WARNING: Could not open NOR2X1_HVT.design, using frame view instead.
+WARNING: Could not open AND2X4_RVT.design, using frame view instead.
+WARNING: Could not open DELLN1X2_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X1_LVT.design, using frame view instead.
+WARNING: Could not open SHFILL3_RVT.design, using frame view instead.
+WARNING: Could not open AO21X2_RVT.design, using frame view instead.
+WARNING: Could not open AND3X1_RVT.design, using frame view instead.
+WARNING: Could not open AO222X2_HVT.design, using frame view instead.
+WARNING: Could not open AND4X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI222X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI222X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI222X2_LVT.design, using frame view instead.
+WARNING: Could not open OA22X2_LVT.design, using frame view instead.
+WARNING: Could not open OAI22X2_RVT.design, using frame view instead.
+WARNING: Could not open DELLN1X2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X2_RVT.design, using frame view instead.
+WARNING: Could not open SHFILL1_RVT.design, using frame view instead.
+WARNING: Could not open OR3X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X2_HVT.design, using frame view instead.
+WARNING: Could not open OR2X2_HVT.design, using frame view instead.
+WARNING: Could not open NOR3X2_LVT.design, using frame view instead.
+WARNING: Could not open XNOR2X1_HVT.design, using frame view instead.
+WARNING: Could not open NAND3X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI22X1_RVT.design, using frame view instead.
+WARNING: Could not open AOI22X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI222X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI222X1_LVT.design, using frame view instead.
+WARNING: Could not open AOI22X2_RVT.design, using frame view instead.
+WARNING: Could not open SHFILL2_RVT.design, using frame view instead.
+WARNING: Could not open AND2X2_HVT.design, using frame view instead.
+WARNING: Could not open FADDX2_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X4_RVT.design, using frame view instead.
+WARNING: Could not open OR3X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI21X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X2_RVT.design, using frame view instead.
+WARNING: Could not open OAI21X2_RVT.design, using frame view instead.
+WARNING: Could not open NAND4X1_HVT.design, using frame view instead.
+WARNING: Could not open MUX21X2_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X2_HVT.design, using frame view instead.
+WARNING: Could not open XNOR2X2_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X4_HVT.design, using frame view instead.
+WARNING: Could not open OAI221X2_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX4_RVT.design, using frame view instead.
+WARNING: Could not open OAI221X1_LVT.design, using frame view instead.
+WARNING: Could not open AO222X2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X2_HVT.design, using frame view instead.
+WARNING: Could not open DELLN2X2_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX4_HVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_RVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX2_HVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX2_RVT.design, using frame view instead.
+WARNING: Could not open SRAM2RW128x16.design, using frame view instead.
+WARNING: Could not open DCAP_HVT.design, using frame view instead.
+WARNING: Could not open LSUPX8_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX2_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX4_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX1_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX2_RVT.design, using frame view instead.
+WARNING: Could not open XOR3X1_HVT.design, using frame view instead.
+WARNING: Could not open NOR2X0_HVT.design, using frame view instead.
+WARNING: Could not open AND3X4_HVT.design, using frame view instead.
+WARNING: Could not open AO221X1_HVT.design, using frame view instead.
+WARNING: Could not open NOR4X1_RVT.design, using frame view instead.
+WARNING: Could not open OA221X2_HVT.design, using frame view instead.
+WARNING: Could not open OA222X2_HVT.design, using frame view instead.
+WARNING: Could not open AO221X1_RVT.design, using frame view instead.
+WARNING: Could not open NOR3X0_HVT.design, using frame view instead.
+WARNING: Could not open OR4X1_HVT.design, using frame view instead.
+WARNING: Could not open AND4X4_HVT.design, using frame view instead.
+WARNING: Could not open AND4X1_RVT.design, using frame view instead.
+WARNING: Could not open AND4X2_HVT.design, using frame view instead.
+WARNING: Could not open OA222X1_HVT.design, using frame view instead.
+WARNING: Could not open AO21X2_HVT.design, using frame view instead.
+WARNING: Could not open OA222X1_RVT.design, using frame view instead.
+WARNING: Could not open NAND3X4_HVT.design, using frame view instead.
+WARNING: Could not open OA21X2_HVT.design, using frame view instead.
+WARNING: Could not open SRAM2RW64x8.design, using frame view instead.
+WARNING: Could not open OR3X2_RVT.design, using frame view instead.
+WARNING: Could not open NAND3X4_RVT.design, using frame view instead.
+WARNING: Could not open OR3X1_RVT.design, using frame view instead.
+WARNING: Could not open SRAM2RW32x4.design, using frame view instead.
+WARNING: Could not open OA22X2_HVT.design, using frame view instead.
+WARNING: Could not open XNOR3X2_RVT.design, using frame view instead.
+WARNING: Could not open AND4X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI221X1_HVT.design, using frame view instead.
+WARNING: Could not open OA221X1_LVT.design, using frame view instead.
+WARNING: Could not open HADDX1_RVT.design, using frame view instead.
+WARNING: Could not open AO221X1_LVT.design, using frame view instead.
+WARNING: Could not open HADDX1_HVT.design, using frame view instead.
+WARNING: Could not open AND4X4_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX2_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX4_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX4_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX1_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX4_HVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX1_HVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX2_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX1_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX8_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX8_HVT.design, using frame view instead.
+WARNING: Could not open NOR3X4_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX32_HVT.design, using frame view instead.
+WARNING: Could not open INVX32_LVT.design, using frame view instead.
+WARNING: Could not open SHFILL128_RVT.design, using frame view instead.
+WARNING: Could not open SHFILL64_RVT.design, using frame view instead.
+WARNING: Could not open IBUFFX4_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX32_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX8_RVT.design, using frame view instead.
+WARNING: Could not open IBUFFX8_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX8_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX16_RVT.design, using frame view instead.
+WARNING: Could not open DELLN3X2_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX16_HVT.design, using frame view instead.
+
+ NDM memory usage: 46.158M
+   Scan Hierarchy Time=0:00:05  User=3.18 Sys=1.91 Mem=0.067 GB
+
+   Read Library Time=0:00:00  User=0.02 Sys=0.04 Mem=0.006 GB
+
+   Read Library Time=0:00:00  User=0.02 Sys=0.10 Mem=0.006 GB
+
+   Read Library Time=0:00:00  User=0.01 Sys=0.11 Mem=0.006 GB
+
+   Read Library Time=0:00:00  User=0.01 Sys=0.11 Mem=0.006 GB
+
+   Read Library Time=0:00:00  User=0.01 Sys=0.11 Mem=0.006 GB
+
+   Read Library Time=0:00:00  User=0.01 Sys=0.11 Mem=0.006 GB
+
+   Read Library Time=0:00:00  User=0.01 Sys=0.11 Mem=0.006 GB
+
+   Read Library Time=0:00:00  User=0.02 Sys=0.10 Mem=0.006 GB
+
+   Read Library Time=0:00:00  User=0.01 Sys=0.11 Mem=0.006 GB
+
+   Read Library Time=0:00:00  User=0.02 Sys=0.10 Mem=0.006 GB
+
+   Read Library Time=0:00:00  User=0.02 Sys=0.10 Mem=0.006 GB
+
+   Read Library Time=0:00:00  User=0.01 Sys=0.11 Mem=0.006 GB
+
+NDM: Information: Loading library file '/u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/ORCA_TOP_lib' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/ndm/saed32sram_c.ndm' (FILE-007)
+
+ NDM memory usage: 231.539M
+   Read Library Time=0:00:05  User=4.12 Sys=1.19 Mem=0.247 GB
+
+NDM: Information: Loading library file '/u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/ORCA_TOP_lib' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/ndm/saed32sram_c.ndm' (FILE-007)
+
+ NDM memory usage: 231.496M
+   Read Library Time=0:00:06  User=6.31 Sys=1.39 Mem=0.255 GB
+
+NDM: Information: Loading library file '/u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/ORCA_TOP_lib' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/ndm/saed32sram_c.ndm' (FILE-007)
+
+ NDM memory usage: 231.496M
+   Read Library Time=0:00:05  User=4.56 Sys=1.23 Mem=0.247 GB
+
+NDM: Information: Loading library file '/u/divyaj2/ECE510-2020-SPRING/orcaproj/apr/work/ORCA_TOP_lib' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/ndm/saed32sram_c.ndm' (FILE-007)
+
+ NDM memory usage: 231.496M
+   Read Library Time=0:00:05  User=4.12 Sys=0.74 Mem=0.247 GB
+
+     Find Top Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+[HA] Hierarchy : Cell Area =        0.539 M : Cell Flat Area =        0.984 M : Child Area Factor =  0.89 x
+    Create Hierarchy Tree Phase: 0 Time=0:00:01  User=1.10 Sys=0.71 Mem=0.032 GB
+
+Prototype Placement Pass 1
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.00 Sys=0.01 Mem=0.022 GB
+
+Find duplicate placements in cells
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.06 Sys=0.02 Mem=0.028 GB
+
+     Determine Region Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+      Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+      Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+      Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.021 GB
+
+      write_verbose_text Time=0:00:00  User=0.09 Sys=0.01 Mem=0.021 GB
+
+     Create Layer Setup Time=0:00:00  User=0.09 Sys=0.01 Mem=0.021 GB
+
+0 Total errors found.
+    Create Hierarchy Tree Phase: 2 Time=0:00:00  User=0.17 Sys=0.05 Mem=0.023 GB
+
+   Create Hierarchy Tree Time=0:00:02  User=1.38 Sys=0.86 Mem=0.032 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.11 Sys=0.17 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:15
+M1_metal = assign({ { 11 } }, ndm = { read_from = { VIEWS } })
+  Value of SPACE GRID is 16.42 micron
+A total of 233175 relations are recorded
+   Check Time=0:00:01  User=0.82 Sys=0.37 Mem=0.028 GB
+
+      Pairing Iteration 1 Time=0:00:00  User=1.30 Sys=0.42 Mem=0.064 GB
+
+      Pairing Iteration 2 Time=0:00:00  User=0.88 Sys=0.11 Mem=0.052 GB
+
+     Pairing Time=0:00:00  User=2.18 Sys=0.53 Mem=0.064 GB
+
+    Combined VCELL Time=0:00:00  User=2.41 Sys=0.62 Mem=0.064 GB
+
+Preprocess Step 12 : Post-VCell Explodes
+    Post VCell Time=0:00:00  User=0.04 Sys=0.01 Mem=0.027 GB
+
+[HA] Hierarchy : Cell Area =        0.539 M : Cell Flat Area =        1.050 M : Child Area Factor =  0.89 x
+Top Cell Area =        0.505 M | Num_regions =    16 | Avg Region Area =        0.032 M | {(       25520,            0) (    16337420,     12371520)}
+     Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+     Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+     Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+     Update inums Time=0:00:00  User=0.17 Sys=0.04 Mem=0.030 GB
+
+write_inst_name_data(): verbose_is_necessary
+     Write Instance Name Time=0:00:00  User=0.19 Sys=0.00 Mem=0.026 GB
+
+     End uniquify verbose names Time=0:00:00  User=0.00 Sys=0.00 Mem=0.026 GB
+
+     write_verbose_text Time=0:00:00  User=0.08 Sys=0.02 Mem=0.026 GB
+
+    Create Layer Setup Time=0:00:00  User=0.44 Sys=0.06 Mem=0.030 GB
+
+    
+Hierarchy Cleanup Time=0:00:00  User=0.13 Sys=0.04 Mem=0.026 GB
+
+   Optimize Hierarchy Tree Time=0:00:05  User=4.39 Sys=2.36 Mem=0.064 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+assign() at metalFillShortFinder.rs:15
+M1_metal = assign({ { 11 } }, ndm = { read_from = { VIEWS } })
+A total of 174826 relations are recorded
+   Check Time=0:00:01  User=0.63 Sys=0.11 Mem=0.026 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:01  User=0.09 Sys=0.24 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:15:Layer creation
+M1_metal = assign({ { 11 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M1_metal.polygonlayer.0016, M1_metal.polygonlayer.0015, M1_metal.polygonlayer.0014, M1_metal.polygonlayer.0013, M1_metal.polygonlayer.0012, M1_metal.polygonlayer.0011, M1_metal.polygonlayer.0010, M1_metal.polygonlayer.0009, M1_metal.polygonlayer.0008, M1_metal.polygonlayer.0007, M1_metal.polygonlayer.0006, M1_metal.polygonlayer.0005, M1_metal.polygonlayer.0004, M1_metal.polygonlayer.0003, M1_metal.polygonlayer.0002, M1_metal.polygonlayer.0001, M1_metal.polygonlayer.0016, M1_metal.polygonlayer.0015, M1_metal.polygonlayer.0014, M1_metal.polygonlayer.0013, M1_metal.polygonlayer.0012, M1_metal.polygonlayer.0011, M1_metal.polygonlayer.0010, M1_metal.polygonlayer.0009, M1_metal.polygonlayer.0008, M1_metal.polygonlayer.0007, M1_metal.polygonlayer.0006, M1_metal.polygonlayer.0005, M1_metal.polygonlayer.0004, M1_metal.polygonlayer.0003, M1_metal.polygonlayer.0002, M1_metal.polygonlayer.0001
+  Outputs: M1_metal.polygonlayer.0017, M1_metal_assign.polygonlayer.0001, M1_metal_blockage.polygonlayer.0001
+0 non-45 violations found.
+0 non-90 violations found.
+180512 unique polygons written.
+215002 unique polygons written.
+716 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:02  User=1.59 Sys=0.61 Mem=0.076 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.07 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:15:Layer creation
+M1_metal = assign({ { 11 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M1_metal.polygonlayer.0017, M1_metal.polygonlayer.0017
+  Outputs: M1_metal.polygonlayer.0018, 
+0 non-45 violations found.
+0 non-90 violations found.
+180512 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:02  User=1.32 Sys=0.59 Mem=0.018 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.12 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:15:Layer creation
+M1_metal = assign({ { 11 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M1_metal_assign.polygonlayer.0001
+  Outputs: M1_metal.polygonlayer.0019, M1_metal.polygonlayer.0020
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M1_metal.polygonlayer.0019" is empty.
+215002 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:01  User=0.83 Sys=0.50 Mem=0.021 GB
+
+assign() at metalFillShortFinder.rs:15:Layer creation
+M1_metal = assign({ { 11 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M1_metal_blockage.polygonlayer.0001
+  Outputs: M1_metal.polygonlayer.0021, M1_metal.polygonlayer.0022
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M1_metal.polygonlayer.0021" is empty.
+716 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.10 Sys=0.08 Mem=0.013 GB
+
+assign() at metalFillShortFinder.rs:16:Layer creation
+M1_fill = assign({ { 11 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M1_fill.polygonlayer.0016, M1_fill.polygonlayer.0015, M1_fill.polygonlayer.0014, M1_fill.polygonlayer.0013, M1_fill.polygonlayer.0012, M1_fill.polygonlayer.0011, M1_fill.polygonlayer.0010, M1_fill.polygonlayer.0009, M1_fill.polygonlayer.0008, M1_fill.polygonlayer.0007, M1_fill.polygonlayer.0006, M1_fill.polygonlayer.0005, M1_fill.polygonlayer.0004, M1_fill.polygonlayer.0003, M1_fill.polygonlayer.0002, M1_fill.polygonlayer.0001, M1_fill.polygonlayer.0016, M1_fill.polygonlayer.0015, M1_fill.polygonlayer.0014, M1_fill.polygonlayer.0013, M1_fill.polygonlayer.0012, M1_fill.polygonlayer.0011, M1_fill.polygonlayer.0010, M1_fill.polygonlayer.0009, M1_fill.polygonlayer.0008, M1_fill.polygonlayer.0007, M1_fill.polygonlayer.0006, M1_fill.polygonlayer.0005, M1_fill.polygonlayer.0004, M1_fill.polygonlayer.0003, M1_fill.polygonlayer.0002, M1_fill.polygonlayer.0001
+  Outputs: M1_fill.polygonlayer.0017, M1_fill_assign.polygonlayer.0001, M1_fill_blockage.polygonlayer.0001
+No output written.
+Layer "M1_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "M1_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "M1_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.03 Sys=0.06 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:16:Layer creation
+M1_fill = assign({ { 11 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M1_fill.polygonlayer.0017, M1_fill.polygonlayer.0017
+  Outputs: M1_fill.polygonlayer.0018, 
+No output written.
+Layer "M1_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:16:Layer creation
+M1_fill = assign({ { 11 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M1_fill_assign.polygonlayer.0001
+  Outputs: M1_fill.polygonlayer.0019, M1_fill.polygonlayer.0020
+No output written.
+Layer "M1_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "M1_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.08 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:16:Layer creation
+M1_fill = assign({ { 11 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M1_fill_blockage.polygonlayer.0001
+  Outputs: M1_fill.polygonlayer.0021, M1_fill.polygonlayer.0022
+No output written.
+Layer "M1_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "M1_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.06 Mem=0.012 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.10 Sys=0.15 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:19:Layer creation
+M2_metal = assign({ { 13 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M2_metal.polygonlayer.0016, M2_metal.polygonlayer.0015, M2_metal.polygonlayer.0014, M2_metal.polygonlayer.0013, M2_metal.polygonlayer.0012, M2_metal.polygonlayer.0011, M2_metal.polygonlayer.0010, M2_metal.polygonlayer.0009, M2_metal.polygonlayer.0008, M2_metal.polygonlayer.0007, M2_metal.polygonlayer.0006, M2_metal.polygonlayer.0005, M2_metal.polygonlayer.0004, M2_metal.polygonlayer.0003, M2_metal.polygonlayer.0002, M2_metal.polygonlayer.0001, M2_metal.polygonlayer.0016, M2_metal.polygonlayer.0015, M2_metal.polygonlayer.0014, M2_metal.polygonlayer.0013, M2_metal.polygonlayer.0012, M2_metal.polygonlayer.0011, M2_metal.polygonlayer.0010, M2_metal.polygonlayer.0009, M2_metal.polygonlayer.0008, M2_metal.polygonlayer.0007, M2_metal.polygonlayer.0006, M2_metal.polygonlayer.0005, M2_metal.polygonlayer.0004, M2_metal.polygonlayer.0003, M2_metal.polygonlayer.0002, M2_metal.polygonlayer.0001
+  Outputs: M2_metal.polygonlayer.0017, M2_metal_assign.polygonlayer.0001, M2_metal_blockage.polygonlayer.0001
+0 non-45 violations found.
+0 non-90 violations found.
+175333 unique polygons written.
+648438 unique polygons written.
+672 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:07  User=4.96 Sys=1.98 Mem=0.207 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.03 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:19:Layer creation
+M2_metal = assign({ { 13 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M2_metal.polygonlayer.0017, M2_metal.polygonlayer.0017
+  Outputs: M2_metal.polygonlayer.0018, 
+0 non-45 violations found.
+0 non-90 violations found.
+175333 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:02  User=1.65 Sys=0.67 Mem=0.020 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.04 Sys=0.02 Mem=0.013 GB
+
+assign() at metalFillShortFinder.rs:19:Layer creation
+M2_metal = assign({ { 13 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M2_metal_assign.polygonlayer.0001
+  Outputs: M2_metal.polygonlayer.0019, M2_metal.polygonlayer.0020
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M2_metal.polygonlayer.0019" is empty.
+648438 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:02  User=1.49 Sys=0.74 Mem=0.042 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.01 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:19:Layer creation
+M2_metal = assign({ { 13 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M2_metal_blockage.polygonlayer.0001
+  Outputs: M2_metal.polygonlayer.0021, M2_metal.polygonlayer.0022
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M2_metal.polygonlayer.0021" is empty.
+672 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.07 Sys=0.05 Mem=0.013 GB
+
+assign() at metalFillShortFinder.rs:20:Layer creation
+M2_fill = assign({ { 13 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M2_fill.polygonlayer.0016, M2_fill.polygonlayer.0015, M2_fill.polygonlayer.0014, M2_fill.polygonlayer.0013, M2_fill.polygonlayer.0012, M2_fill.polygonlayer.0011, M2_fill.polygonlayer.0010, M2_fill.polygonlayer.0009, M2_fill.polygonlayer.0008, M2_fill.polygonlayer.0007, M2_fill.polygonlayer.0006, M2_fill.polygonlayer.0005, M2_fill.polygonlayer.0004, M2_fill.polygonlayer.0003, M2_fill.polygonlayer.0002, M2_fill.polygonlayer.0001, M2_fill.polygonlayer.0016, M2_fill.polygonlayer.0015, M2_fill.polygonlayer.0014, M2_fill.polygonlayer.0013, M2_fill.polygonlayer.0012, M2_fill.polygonlayer.0011, M2_fill.polygonlayer.0010, M2_fill.polygonlayer.0009, M2_fill.polygonlayer.0008, M2_fill.polygonlayer.0007, M2_fill.polygonlayer.0006, M2_fill.polygonlayer.0005, M2_fill.polygonlayer.0004, M2_fill.polygonlayer.0003, M2_fill.polygonlayer.0002, M2_fill.polygonlayer.0001
+  Outputs: M2_fill.polygonlayer.0017, M2_fill_assign.polygonlayer.0001, M2_fill_blockage.polygonlayer.0001
+No output written.
+Layer "M2_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "M2_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "M2_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.07 Sys=0.07 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:20:Layer creation
+M2_fill = assign({ { 13 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M2_fill.polygonlayer.0017, M2_fill.polygonlayer.0017
+  Outputs: M2_fill.polygonlayer.0018, 
+No output written.
+Layer "M2_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:20:Layer creation
+M2_fill = assign({ { 13 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M2_fill_assign.polygonlayer.0001
+  Outputs: M2_fill.polygonlayer.0019, M2_fill.polygonlayer.0020
+No output written.
+Layer "M2_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "M2_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.10 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:20:Layer creation
+M2_fill = assign({ { 13 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M2_fill_blockage.polygonlayer.0001
+  Outputs: M2_fill.polygonlayer.0021, M2_fill.polygonlayer.0022
+No output written.
+Layer "M2_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "M2_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.05 Mem=0.012 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.12 Sys=0.31 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:23:Layer creation
+M3_metal = assign({ { 15 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M3_metal.polygonlayer.0016, M3_metal.polygonlayer.0015, M3_metal.polygonlayer.0014, M3_metal.polygonlayer.0013, M3_metal.polygonlayer.0012, M3_metal.polygonlayer.0011, M3_metal.polygonlayer.0010, M3_metal.polygonlayer.0009, M3_metal.polygonlayer.0008, M3_metal.polygonlayer.0007, M3_metal.polygonlayer.0006, M3_metal.polygonlayer.0005, M3_metal.polygonlayer.0004, M3_metal.polygonlayer.0003, M3_metal.polygonlayer.0002, M3_metal.polygonlayer.0001, M3_metal.polygonlayer.0016, M3_metal.polygonlayer.0015, M3_metal.polygonlayer.0014, M3_metal.polygonlayer.0013, M3_metal.polygonlayer.0012, M3_metal.polygonlayer.0011, M3_metal.polygonlayer.0010, M3_metal.polygonlayer.0009, M3_metal.polygonlayer.0008, M3_metal.polygonlayer.0007, M3_metal.polygonlayer.0006, M3_metal.polygonlayer.0005, M3_metal.polygonlayer.0004, M3_metal.polygonlayer.0003, M3_metal.polygonlayer.0002, M3_metal.polygonlayer.0001
+  Outputs: M3_metal.polygonlayer.0017, M3_metal_assign.polygonlayer.0001, M3_metal_blockage.polygonlayer.0001
+0 non-45 violations found.
+0 non-90 violations found.
+117310 unique polygons written.
+435105 unique polygons written.
+674 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:05  User=3.57 Sys=1.26 Mem=0.144 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.02 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:23:Layer creation
+M3_metal = assign({ { 15 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M3_metal.polygonlayer.0017, M3_metal.polygonlayer.0017
+  Outputs: M3_metal.polygonlayer.0018, 
+0 non-45 violations found.
+0 non-90 violations found.
+117310 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:02  User=1.54 Sys=0.62 Mem=0.020 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.03 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:23:Layer creation
+M3_metal = assign({ { 15 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M3_metal_assign.polygonlayer.0001
+  Outputs: M3_metal.polygonlayer.0019, M3_metal.polygonlayer.0020
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M3_metal.polygonlayer.0019" is empty.
+435105 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:02  User=1.23 Sys=0.59 Mem=0.032 GB
+
+assign() at metalFillShortFinder.rs:23:Layer creation
+M3_metal = assign({ { 15 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M3_metal_blockage.polygonlayer.0001
+  Outputs: M3_metal.polygonlayer.0021, M3_metal.polygonlayer.0022
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M3_metal.polygonlayer.0021" is empty.
+674 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.06 Mem=0.013 GB
+
+assign() at metalFillShortFinder.rs:24:Layer creation
+M3_fill = assign({ { 15 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M3_fill.polygonlayer.0016, M3_fill.polygonlayer.0015, M3_fill.polygonlayer.0014, M3_fill.polygonlayer.0013, M3_fill.polygonlayer.0012, M3_fill.polygonlayer.0011, M3_fill.polygonlayer.0010, M3_fill.polygonlayer.0009, M3_fill.polygonlayer.0008, M3_fill.polygonlayer.0007, M3_fill.polygonlayer.0006, M3_fill.polygonlayer.0005, M3_fill.polygonlayer.0004, M3_fill.polygonlayer.0003, M3_fill.polygonlayer.0002, M3_fill.polygonlayer.0001, M3_fill.polygonlayer.0016, M3_fill.polygonlayer.0015, M3_fill.polygonlayer.0014, M3_fill.polygonlayer.0013, M3_fill.polygonlayer.0012, M3_fill.polygonlayer.0011, M3_fill.polygonlayer.0010, M3_fill.polygonlayer.0009, M3_fill.polygonlayer.0008, M3_fill.polygonlayer.0007, M3_fill.polygonlayer.0006, M3_fill.polygonlayer.0005, M3_fill.polygonlayer.0004, M3_fill.polygonlayer.0003, M3_fill.polygonlayer.0002, M3_fill.polygonlayer.0001
+  Outputs: M3_fill.polygonlayer.0017, M3_fill_assign.polygonlayer.0001, M3_fill_blockage.polygonlayer.0001
+No output written.
+Layer "M3_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "M3_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "M3_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.06 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:24:Layer creation
+M3_fill = assign({ { 15 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M3_fill.polygonlayer.0017, M3_fill.polygonlayer.0017
+  Outputs: M3_fill.polygonlayer.0018, 
+No output written.
+Layer "M3_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:24:Layer creation
+M3_fill = assign({ { 15 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M3_fill_assign.polygonlayer.0001
+  Outputs: M3_fill.polygonlayer.0019, M3_fill.polygonlayer.0020
+No output written.
+Layer "M3_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "M3_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.13 Sys=0.08 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:24:Layer creation
+M3_fill = assign({ { 15 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M3_fill_blockage.polygonlayer.0001
+  Outputs: M3_fill.polygonlayer.0021, M3_fill.polygonlayer.0022
+No output written.
+Layer "M3_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "M3_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.10 Sys=0.06 Mem=0.012 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.09 Sys=0.32 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:27:Layer creation
+M4_metal = assign({ { 17 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M4_metal.polygonlayer.0016, M4_metal.polygonlayer.0015, M4_metal.polygonlayer.0014, M4_metal.polygonlayer.0013, M4_metal.polygonlayer.0012, M4_metal.polygonlayer.0011, M4_metal.polygonlayer.0010, M4_metal.polygonlayer.0009, M4_metal.polygonlayer.0008, M4_metal.polygonlayer.0007, M4_metal.polygonlayer.0006, M4_metal.polygonlayer.0005, M4_metal.polygonlayer.0004, M4_metal.polygonlayer.0003, M4_metal.polygonlayer.0002, M4_metal.polygonlayer.0001, M4_metal.polygonlayer.0016, M4_metal.polygonlayer.0015, M4_metal.polygonlayer.0014, M4_metal.polygonlayer.0013, M4_metal.polygonlayer.0012, M4_metal.polygonlayer.0011, M4_metal.polygonlayer.0010, M4_metal.polygonlayer.0009, M4_metal.polygonlayer.0008, M4_metal.polygonlayer.0007, M4_metal.polygonlayer.0006, M4_metal.polygonlayer.0005, M4_metal.polygonlayer.0004, M4_metal.polygonlayer.0003, M4_metal.polygonlayer.0002, M4_metal.polygonlayer.0001
+  Outputs: M4_metal.polygonlayer.0017, M4_metal_assign.polygonlayer.0001, M4_metal_blockage.polygonlayer.0001
+0 non-45 violations found.
+0 non-90 violations found.
+60321 unique polygons written.
+180241 unique polygons written.
+693 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:02  User=1.38 Sys=0.78 Mem=0.067 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.10 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:27:Layer creation
+M4_metal = assign({ { 17 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M4_metal.polygonlayer.0017, M4_metal.polygonlayer.0017
+  Outputs: M4_metal.polygonlayer.0018, 
+0 non-45 violations found.
+0 non-90 violations found.
+60321 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:01  User=0.75 Sys=0.38 Mem=0.015 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.07 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:27:Layer creation
+M4_metal = assign({ { 17 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M4_metal_assign.polygonlayer.0001
+  Outputs: M4_metal.polygonlayer.0019, M4_metal.polygonlayer.0020
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M4_metal.polygonlayer.0019" is empty.
+180241 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:01  User=0.65 Sys=0.39 Mem=0.021 GB
+
+assign() at metalFillShortFinder.rs:27:Layer creation
+M4_metal = assign({ { 17 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M4_metal_blockage.polygonlayer.0001
+  Outputs: M4_metal.polygonlayer.0021, M4_metal.polygonlayer.0022
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M4_metal.polygonlayer.0021" is empty.
+693 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.10 Mem=0.013 GB
+
+assign() at metalFillShortFinder.rs:28:Layer creation
+M4_fill = assign({ { 17 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M4_fill.polygonlayer.0016, M4_fill.polygonlayer.0015, M4_fill.polygonlayer.0014, M4_fill.polygonlayer.0013, M4_fill.polygonlayer.0012, M4_fill.polygonlayer.0011, M4_fill.polygonlayer.0010, M4_fill.polygonlayer.0009, M4_fill.polygonlayer.0008, M4_fill.polygonlayer.0007, M4_fill.polygonlayer.0006, M4_fill.polygonlayer.0005, M4_fill.polygonlayer.0004, M4_fill.polygonlayer.0003, M4_fill.polygonlayer.0002, M4_fill.polygonlayer.0001, M4_fill.polygonlayer.0016, M4_fill.polygonlayer.0015, M4_fill.polygonlayer.0014, M4_fill.polygonlayer.0013, M4_fill.polygonlayer.0012, M4_fill.polygonlayer.0011, M4_fill.polygonlayer.0010, M4_fill.polygonlayer.0009, M4_fill.polygonlayer.0008, M4_fill.polygonlayer.0007, M4_fill.polygonlayer.0006, M4_fill.polygonlayer.0005, M4_fill.polygonlayer.0004, M4_fill.polygonlayer.0003, M4_fill.polygonlayer.0002, M4_fill.polygonlayer.0001
+  Outputs: M4_fill.polygonlayer.0017, M4_fill_assign.polygonlayer.0001, M4_fill_blockage.polygonlayer.0001
+No output written.
+Layer "M4_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "M4_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "M4_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.04 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:28:Layer creation
+M4_fill = assign({ { 17 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M4_fill.polygonlayer.0017, M4_fill.polygonlayer.0017
+  Outputs: M4_fill.polygonlayer.0018, 
+No output written.
+Layer "M4_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:28:Layer creation
+M4_fill = assign({ { 17 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M4_fill_assign.polygonlayer.0001
+  Outputs: M4_fill.polygonlayer.0019, M4_fill.polygonlayer.0020
+No output written.
+Layer "M4_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "M4_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.10 Sys=0.07 Mem=0.012 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.03 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:28:Layer creation
+M4_fill = assign({ { 17 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M4_fill_blockage.polygonlayer.0001
+  Outputs: M4_fill.polygonlayer.0021, M4_fill.polygonlayer.0022
+No output written.
+Layer "M4_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "M4_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.09 Mem=0.014 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.15 Sys=0.37 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:31:Layer creation
+M5_metal = assign({ { 19 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M5_metal.polygonlayer.0016, M5_metal.polygonlayer.0015, M5_metal.polygonlayer.0014, M5_metal.polygonlayer.0013, M5_metal.polygonlayer.0012, M5_metal.polygonlayer.0011, M5_metal.polygonlayer.0010, M5_metal.polygonlayer.0009, M5_metal.polygonlayer.0008, M5_metal.polygonlayer.0007, M5_metal.polygonlayer.0006, M5_metal.polygonlayer.0005, M5_metal.polygonlayer.0004, M5_metal.polygonlayer.0003, M5_metal.polygonlayer.0002, M5_metal.polygonlayer.0001, M5_metal.polygonlayer.0016, M5_metal.polygonlayer.0015, M5_metal.polygonlayer.0014, M5_metal.polygonlayer.0013, M5_metal.polygonlayer.0012, M5_metal.polygonlayer.0011, M5_metal.polygonlayer.0010, M5_metal.polygonlayer.0009, M5_metal.polygonlayer.0008, M5_metal.polygonlayer.0007, M5_metal.polygonlayer.0006, M5_metal.polygonlayer.0005, M5_metal.polygonlayer.0004, M5_metal.polygonlayer.0003, M5_metal.polygonlayer.0002, M5_metal.polygonlayer.0001
+  Outputs: M5_metal.polygonlayer.0017, M5_metal_assign.polygonlayer.0001, M5_metal_blockage.polygonlayer.0001
+0 non-45 violations found.
+0 non-90 violations found.
+26306 unique polygons written.
+75298 unique polygons written.
+1270 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:01  User=0.60 Sys=0.52 Mem=0.038 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.07 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:31:Layer creation
+M5_metal = assign({ { 19 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M5_metal.polygonlayer.0017, M5_metal.polygonlayer.0017
+  Outputs: M5_metal.polygonlayer.0018, 
+0 non-45 violations found.
+0 non-90 violations found.
+26306 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.39 Sys=0.20 Mem=0.014 GB
+
+assign() at metalFillShortFinder.rs:31:Layer creation
+M5_metal = assign({ { 19 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M5_metal_assign.polygonlayer.0001
+  Outputs: M5_metal.polygonlayer.0019, M5_metal.polygonlayer.0020
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M5_metal.polygonlayer.0019" is empty.
+75298 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.29 Sys=0.22 Mem=0.017 GB
+
+assign() at metalFillShortFinder.rs:31:Layer creation
+M5_metal = assign({ { 19 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M5_metal_blockage.polygonlayer.0001
+  Outputs: M5_metal.polygonlayer.0021, M5_metal.polygonlayer.0022
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M5_metal.polygonlayer.0021" is empty.
+1270 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.08 Mem=0.013 GB
+
+assign() at metalFillShortFinder.rs:32:Layer creation
+M5_fill = assign({ { 19 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M5_fill.polygonlayer.0016, M5_fill.polygonlayer.0015, M5_fill.polygonlayer.0014, M5_fill.polygonlayer.0013, M5_fill.polygonlayer.0012, M5_fill.polygonlayer.0011, M5_fill.polygonlayer.0010, M5_fill.polygonlayer.0009, M5_fill.polygonlayer.0008, M5_fill.polygonlayer.0007, M5_fill.polygonlayer.0006, M5_fill.polygonlayer.0005, M5_fill.polygonlayer.0004, M5_fill.polygonlayer.0003, M5_fill.polygonlayer.0002, M5_fill.polygonlayer.0001, M5_fill.polygonlayer.0016, M5_fill.polygonlayer.0015, M5_fill.polygonlayer.0014, M5_fill.polygonlayer.0013, M5_fill.polygonlayer.0012, M5_fill.polygonlayer.0011, M5_fill.polygonlayer.0010, M5_fill.polygonlayer.0009, M5_fill.polygonlayer.0008, M5_fill.polygonlayer.0007, M5_fill.polygonlayer.0006, M5_fill.polygonlayer.0005, M5_fill.polygonlayer.0004, M5_fill.polygonlayer.0003, M5_fill.polygonlayer.0002, M5_fill.polygonlayer.0001
+  Outputs: M5_fill.polygonlayer.0017, M5_fill_assign.polygonlayer.0001, M5_fill_blockage.polygonlayer.0001
+No output written.
+Layer "M5_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "M5_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "M5_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.07 Sys=0.07 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:32:Layer creation
+M5_fill = assign({ { 19 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M5_fill.polygonlayer.0017, M5_fill.polygonlayer.0017
+  Outputs: M5_fill.polygonlayer.0018, 
+No output written.
+Layer "M5_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:32:Layer creation
+M5_fill = assign({ { 19 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M5_fill_assign.polygonlayer.0001
+  Outputs: M5_fill.polygonlayer.0019, M5_fill.polygonlayer.0020
+No output written.
+Layer "M5_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "M5_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.08 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:32:Layer creation
+M5_fill = assign({ { 19 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M5_fill_blockage.polygonlayer.0001
+  Outputs: M5_fill.polygonlayer.0021, M5_fill.polygonlayer.0022
+No output written.
+Layer "M5_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "M5_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.10 Sys=0.08 Mem=0.012 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.11 Sys=0.43 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:35:Layer creation
+M6_metal = assign({ { 21 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M6_metal.polygonlayer.0016, M6_metal.polygonlayer.0015, M6_metal.polygonlayer.0014, M6_metal.polygonlayer.0013, M6_metal.polygonlayer.0012, M6_metal.polygonlayer.0011, M6_metal.polygonlayer.0010, M6_metal.polygonlayer.0009, M6_metal.polygonlayer.0008, M6_metal.polygonlayer.0007, M6_metal.polygonlayer.0006, M6_metal.polygonlayer.0005, M6_metal.polygonlayer.0004, M6_metal.polygonlayer.0003, M6_metal.polygonlayer.0002, M6_metal.polygonlayer.0001, M6_metal.polygonlayer.0016, M6_metal.polygonlayer.0015, M6_metal.polygonlayer.0014, M6_metal.polygonlayer.0013, M6_metal.polygonlayer.0012, M6_metal.polygonlayer.0011, M6_metal.polygonlayer.0010, M6_metal.polygonlayer.0009, M6_metal.polygonlayer.0008, M6_metal.polygonlayer.0007, M6_metal.polygonlayer.0006, M6_metal.polygonlayer.0005, M6_metal.polygonlayer.0004, M6_metal.polygonlayer.0003, M6_metal.polygonlayer.0002, M6_metal.polygonlayer.0001
+  Outputs: M6_metal.polygonlayer.0017, M6_metal_assign.polygonlayer.0001, M6_metal_blockage.polygonlayer.0001
+0 non-45 violations found.
+0 non-90 violations found.
+19290 unique polygons written.
+40558 unique polygons written.
+No output written.
+Layer "M6_metal_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.32 Sys=0.40 Mem=0.026 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.09 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:35:Layer creation
+M6_metal = assign({ { 21 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M6_metal.polygonlayer.0017, M6_metal.polygonlayer.0017
+  Outputs: M6_metal.polygonlayer.0018, 
+0 non-45 violations found.
+0 non-90 violations found.
+19290 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.27 Sys=0.14 Mem=0.014 GB
+
+assign() at metalFillShortFinder.rs:35:Layer creation
+M6_metal = assign({ { 21 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M6_metal_assign.polygonlayer.0001
+  Outputs: M6_metal.polygonlayer.0019, M6_metal.polygonlayer.0020
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M6_metal.polygonlayer.0019" is empty.
+40558 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.24 Sys=0.11 Mem=0.015 GB
+
+assign() at metalFillShortFinder.rs:35:Layer creation
+M6_metal = assign({ { 21 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M6_metal_blockage.polygonlayer.0001
+  Outputs: M6_metal.polygonlayer.0021, M6_metal.polygonlayer.0022
+No output written.
+Layer "M6_metal.polygonlayer.0021" is empty.
+No output written.
+Layer "M6_metal.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.08 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:36:Layer creation
+M6_fill = assign({ { 21 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M6_fill.polygonlayer.0016, M6_fill.polygonlayer.0015, M6_fill.polygonlayer.0014, M6_fill.polygonlayer.0013, M6_fill.polygonlayer.0012, M6_fill.polygonlayer.0011, M6_fill.polygonlayer.0010, M6_fill.polygonlayer.0009, M6_fill.polygonlayer.0008, M6_fill.polygonlayer.0007, M6_fill.polygonlayer.0006, M6_fill.polygonlayer.0005, M6_fill.polygonlayer.0004, M6_fill.polygonlayer.0003, M6_fill.polygonlayer.0002, M6_fill.polygonlayer.0001, M6_fill.polygonlayer.0016, M6_fill.polygonlayer.0015, M6_fill.polygonlayer.0014, M6_fill.polygonlayer.0013, M6_fill.polygonlayer.0012, M6_fill.polygonlayer.0011, M6_fill.polygonlayer.0010, M6_fill.polygonlayer.0009, M6_fill.polygonlayer.0008, M6_fill.polygonlayer.0007, M6_fill.polygonlayer.0006, M6_fill.polygonlayer.0005, M6_fill.polygonlayer.0004, M6_fill.polygonlayer.0003, M6_fill.polygonlayer.0002, M6_fill.polygonlayer.0001
+  Outputs: M6_fill.polygonlayer.0017, M6_fill_assign.polygonlayer.0001, M6_fill_blockage.polygonlayer.0001
+No output written.
+Layer "M6_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "M6_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "M6_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.05 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:36:Layer creation
+M6_fill = assign({ { 21 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M6_fill.polygonlayer.0017, M6_fill.polygonlayer.0017
+  Outputs: M6_fill.polygonlayer.0018, 
+No output written.
+Layer "M6_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:36:Layer creation
+M6_fill = assign({ { 21 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M6_fill_assign.polygonlayer.0001
+  Outputs: M6_fill.polygonlayer.0019, M6_fill.polygonlayer.0020
+No output written.
+Layer "M6_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "M6_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.08 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:36:Layer creation
+M6_fill = assign({ { 21 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M6_fill_blockage.polygonlayer.0001
+  Outputs: M6_fill.polygonlayer.0021, M6_fill.polygonlayer.0022
+No output written.
+Layer "M6_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "M6_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.10 Sys=0.09 Mem=0.012 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.10 Sys=0.12 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:39:Layer creation
+M7_metal = assign({ { 23 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M7_metal.polygonlayer.0016, M7_metal.polygonlayer.0015, M7_metal.polygonlayer.0014, M7_metal.polygonlayer.0013, M7_metal.polygonlayer.0012, M7_metal.polygonlayer.0011, M7_metal.polygonlayer.0010, M7_metal.polygonlayer.0009, M7_metal.polygonlayer.0008, M7_metal.polygonlayer.0007, M7_metal.polygonlayer.0006, M7_metal.polygonlayer.0005, M7_metal.polygonlayer.0004, M7_metal.polygonlayer.0003, M7_metal.polygonlayer.0002, M7_metal.polygonlayer.0001, M7_metal.polygonlayer.0016, M7_metal.polygonlayer.0015, M7_metal.polygonlayer.0014, M7_metal.polygonlayer.0013, M7_metal.polygonlayer.0012, M7_metal.polygonlayer.0011, M7_metal.polygonlayer.0010, M7_metal.polygonlayer.0009, M7_metal.polygonlayer.0008, M7_metal.polygonlayer.0007, M7_metal.polygonlayer.0006, M7_metal.polygonlayer.0005, M7_metal.polygonlayer.0004, M7_metal.polygonlayer.0003, M7_metal.polygonlayer.0002, M7_metal.polygonlayer.0001
+  Outputs: M7_metal.polygonlayer.0017, M7_metal_assign.polygonlayer.0001, M7_metal_blockage.polygonlayer.0001
+0 non-45 violations found.
+0 non-90 violations found.
+1748 unique polygons written.
+18537 unique polygons written.
+No output written.
+Layer "M7_metal_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.13 Sys=0.39 Mem=0.021 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.10 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:39:Layer creation
+M7_metal = assign({ { 23 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M7_metal.polygonlayer.0017, M7_metal.polygonlayer.0017
+  Outputs: M7_metal.polygonlayer.0018, 
+0 non-45 violations found.
+0 non-90 violations found.
+1748 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.13 Sys=0.12 Mem=0.013 GB
+
+assign() at metalFillShortFinder.rs:39:Layer creation
+M7_metal = assign({ { 23 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M7_metal_assign.polygonlayer.0001
+  Outputs: M7_metal.polygonlayer.0019, M7_metal.polygonlayer.0020
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M7_metal.polygonlayer.0019" is empty.
+18537 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.14 Sys=0.11 Mem=0.013 GB
+
+assign() at metalFillShortFinder.rs:39:Layer creation
+M7_metal = assign({ { 23 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M7_metal_blockage.polygonlayer.0001
+  Outputs: M7_metal.polygonlayer.0021, M7_metal.polygonlayer.0022
+No output written.
+Layer "M7_metal.polygonlayer.0021" is empty.
+No output written.
+Layer "M7_metal.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:40:Layer creation
+M7_fill = assign({ { 23 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M7_fill.polygonlayer.0016, M7_fill.polygonlayer.0015, M7_fill.polygonlayer.0014, M7_fill.polygonlayer.0013, M7_fill.polygonlayer.0012, M7_fill.polygonlayer.0011, M7_fill.polygonlayer.0010, M7_fill.polygonlayer.0009, M7_fill.polygonlayer.0008, M7_fill.polygonlayer.0007, M7_fill.polygonlayer.0006, M7_fill.polygonlayer.0005, M7_fill.polygonlayer.0004, M7_fill.polygonlayer.0003, M7_fill.polygonlayer.0002, M7_fill.polygonlayer.0001, M7_fill.polygonlayer.0016, M7_fill.polygonlayer.0015, M7_fill.polygonlayer.0014, M7_fill.polygonlayer.0013, M7_fill.polygonlayer.0012, M7_fill.polygonlayer.0011, M7_fill.polygonlayer.0010, M7_fill.polygonlayer.0009, M7_fill.polygonlayer.0008, M7_fill.polygonlayer.0007, M7_fill.polygonlayer.0006, M7_fill.polygonlayer.0005, M7_fill.polygonlayer.0004, M7_fill.polygonlayer.0003, M7_fill.polygonlayer.0002, M7_fill.polygonlayer.0001
+  Outputs: M7_fill.polygonlayer.0017, M7_fill_assign.polygonlayer.0001, M7_fill_blockage.polygonlayer.0001
+No output written.
+Layer "M7_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "M7_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "M7_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.08 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:40:Layer creation
+M7_fill = assign({ { 23 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M7_fill.polygonlayer.0017, M7_fill.polygonlayer.0017
+  Outputs: M7_fill.polygonlayer.0018, 
+No output written.
+Layer "M7_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:40:Layer creation
+M7_fill = assign({ { 23 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M7_fill_assign.polygonlayer.0001
+  Outputs: M7_fill.polygonlayer.0019, M7_fill.polygonlayer.0020
+No output written.
+Layer "M7_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "M7_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.08 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:40:Layer creation
+M7_fill = assign({ { 23 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M7_fill_blockage.polygonlayer.0001
+  Outputs: M7_fill.polygonlayer.0021, M7_fill.polygonlayer.0022
+No output written.
+Layer "M7_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "M7_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.06 Mem=0.012 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.14 Sys=0.32 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:43:Layer creation
+M8_metal = assign({ { 25 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M8_metal.polygonlayer.0016, M8_metal.polygonlayer.0015, M8_metal.polygonlayer.0014, M8_metal.polygonlayer.0013, M8_metal.polygonlayer.0012, M8_metal.polygonlayer.0011, M8_metal.polygonlayer.0010, M8_metal.polygonlayer.0009, M8_metal.polygonlayer.0008, M8_metal.polygonlayer.0007, M8_metal.polygonlayer.0006, M8_metal.polygonlayer.0005, M8_metal.polygonlayer.0004, M8_metal.polygonlayer.0003, M8_metal.polygonlayer.0002, M8_metal.polygonlayer.0001, M8_metal.polygonlayer.0016, M8_metal.polygonlayer.0015, M8_metal.polygonlayer.0014, M8_metal.polygonlayer.0013, M8_metal.polygonlayer.0012, M8_metal.polygonlayer.0011, M8_metal.polygonlayer.0010, M8_metal.polygonlayer.0009, M8_metal.polygonlayer.0008, M8_metal.polygonlayer.0007, M8_metal.polygonlayer.0006, M8_metal.polygonlayer.0005, M8_metal.polygonlayer.0004, M8_metal.polygonlayer.0003, M8_metal.polygonlayer.0002, M8_metal.polygonlayer.0001
+  Outputs: M8_metal.polygonlayer.0017, M8_metal_assign.polygonlayer.0001, M8_metal_blockage.polygonlayer.0001
+0 non-45 violations found.
+0 non-90 violations found.
+1584 unique polygons written.
+9456 unique polygons written.
+No output written.
+Layer "M8_metal_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.04 Sys=0.18 Mem=0.019 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.07 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:43:Layer creation
+M8_metal = assign({ { 25 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M8_metal.polygonlayer.0017, M8_metal.polygonlayer.0017
+  Outputs: M8_metal.polygonlayer.0018, 
+0 non-45 violations found.
+0 non-90 violations found.
+1584 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.09 Mem=0.013 GB
+
+assign() at metalFillShortFinder.rs:43:Layer creation
+M8_metal = assign({ { 25 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M8_metal_assign.polygonlayer.0001
+  Outputs: M8_metal.polygonlayer.0019, M8_metal.polygonlayer.0020
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M8_metal.polygonlayer.0019" is empty.
+9456 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.15 Sys=0.09 Mem=0.013 GB
+
+assign() at metalFillShortFinder.rs:43:Layer creation
+M8_metal = assign({ { 25 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M8_metal_blockage.polygonlayer.0001
+  Outputs: M8_metal.polygonlayer.0021, M8_metal.polygonlayer.0022
+No output written.
+Layer "M8_metal.polygonlayer.0021" is empty.
+No output written.
+Layer "M8_metal.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.12 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:44:Layer creation
+M8_fill = assign({ { 25 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M8_fill.polygonlayer.0016, M8_fill.polygonlayer.0015, M8_fill.polygonlayer.0014, M8_fill.polygonlayer.0013, M8_fill.polygonlayer.0012, M8_fill.polygonlayer.0011, M8_fill.polygonlayer.0010, M8_fill.polygonlayer.0009, M8_fill.polygonlayer.0008, M8_fill.polygonlayer.0007, M8_fill.polygonlayer.0006, M8_fill.polygonlayer.0005, M8_fill.polygonlayer.0004, M8_fill.polygonlayer.0003, M8_fill.polygonlayer.0002, M8_fill.polygonlayer.0001, M8_fill.polygonlayer.0016, M8_fill.polygonlayer.0015, M8_fill.polygonlayer.0014, M8_fill.polygonlayer.0013, M8_fill.polygonlayer.0012, M8_fill.polygonlayer.0011, M8_fill.polygonlayer.0010, M8_fill.polygonlayer.0009, M8_fill.polygonlayer.0008, M8_fill.polygonlayer.0007, M8_fill.polygonlayer.0006, M8_fill.polygonlayer.0005, M8_fill.polygonlayer.0004, M8_fill.polygonlayer.0003, M8_fill.polygonlayer.0002, M8_fill.polygonlayer.0001
+  Outputs: M8_fill.polygonlayer.0017, M8_fill_assign.polygonlayer.0001, M8_fill_blockage.polygonlayer.0001
+No output written.
+Layer "M8_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "M8_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "M8_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.13 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:44:Layer creation
+M8_fill = assign({ { 25 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M8_fill.polygonlayer.0017, M8_fill.polygonlayer.0017
+  Outputs: M8_fill.polygonlayer.0018, 
+No output written.
+Layer "M8_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:44:Layer creation
+M8_fill = assign({ { 25 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M8_fill_assign.polygonlayer.0001
+  Outputs: M8_fill.polygonlayer.0019, M8_fill.polygonlayer.0020
+No output written.
+Layer "M8_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "M8_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:44:Layer creation
+M8_fill = assign({ { 25 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M8_fill_blockage.polygonlayer.0001
+  Outputs: M8_fill.polygonlayer.0021, M8_fill.polygonlayer.0022
+No output written.
+Layer "M8_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "M8_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.08 Sys=0.07 Mem=0.012 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.13 Sys=0.15 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:47:Layer creation
+M9_metal = assign({ { 27 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M9_metal.polygonlayer.0016, M9_metal.polygonlayer.0015, M9_metal.polygonlayer.0014, M9_metal.polygonlayer.0013, M9_metal.polygonlayer.0012, M9_metal.polygonlayer.0011, M9_metal.polygonlayer.0010, M9_metal.polygonlayer.0009, M9_metal.polygonlayer.0008, M9_metal.polygonlayer.0007, M9_metal.polygonlayer.0006, M9_metal.polygonlayer.0005, M9_metal.polygonlayer.0004, M9_metal.polygonlayer.0003, M9_metal.polygonlayer.0002, M9_metal.polygonlayer.0001, M9_metal.polygonlayer.0016, M9_metal.polygonlayer.0015, M9_metal.polygonlayer.0014, M9_metal.polygonlayer.0013, M9_metal.polygonlayer.0012, M9_metal.polygonlayer.0011, M9_metal.polygonlayer.0010, M9_metal.polygonlayer.0009, M9_metal.polygonlayer.0008, M9_metal.polygonlayer.0007, M9_metal.polygonlayer.0006, M9_metal.polygonlayer.0005, M9_metal.polygonlayer.0004, M9_metal.polygonlayer.0003, M9_metal.polygonlayer.0002, M9_metal.polygonlayer.0001
+  Outputs: M9_metal.polygonlayer.0017, M9_metal_assign.polygonlayer.0001, M9_metal_blockage.polygonlayer.0001
+No output written.
+Layer "M9_metal.polygonlayer.0017" is empty.
+No output written.
+Layer "M9_metal_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "M9_metal_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.03 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.10 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:47:Layer creation
+M9_metal = assign({ { 27 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M9_metal.polygonlayer.0017, M9_metal.polygonlayer.0017
+  Outputs: M9_metal.polygonlayer.0018, 
+No output written.
+Layer "M9_metal.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.04 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:47:Layer creation
+M9_metal = assign({ { 27 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M9_metal_assign.polygonlayer.0001
+  Outputs: M9_metal.polygonlayer.0019, M9_metal.polygonlayer.0020
+No output written.
+Layer "M9_metal.polygonlayer.0019" is empty.
+No output written.
+Layer "M9_metal.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.08 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:47:Layer creation
+M9_metal = assign({ { 27 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: M9_metal_blockage.polygonlayer.0001
+  Outputs: M9_metal.polygonlayer.0021, M9_metal.polygonlayer.0022
+No output written.
+Layer "M9_metal.polygonlayer.0021" is empty.
+No output written.
+Layer "M9_metal.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.06 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:48:Layer creation
+M9_fill = assign({ { 27 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M9_fill.polygonlayer.0016, M9_fill.polygonlayer.0015, M9_fill.polygonlayer.0014, M9_fill.polygonlayer.0013, M9_fill.polygonlayer.0012, M9_fill.polygonlayer.0011, M9_fill.polygonlayer.0010, M9_fill.polygonlayer.0009, M9_fill.polygonlayer.0008, M9_fill.polygonlayer.0007, M9_fill.polygonlayer.0006, M9_fill.polygonlayer.0005, M9_fill.polygonlayer.0004, M9_fill.polygonlayer.0003, M9_fill.polygonlayer.0002, M9_fill.polygonlayer.0001, M9_fill.polygonlayer.0016, M9_fill.polygonlayer.0015, M9_fill.polygonlayer.0014, M9_fill.polygonlayer.0013, M9_fill.polygonlayer.0012, M9_fill.polygonlayer.0011, M9_fill.polygonlayer.0010, M9_fill.polygonlayer.0009, M9_fill.polygonlayer.0008, M9_fill.polygonlayer.0007, M9_fill.polygonlayer.0006, M9_fill.polygonlayer.0005, M9_fill.polygonlayer.0004, M9_fill.polygonlayer.0003, M9_fill.polygonlayer.0002, M9_fill.polygonlayer.0001
+  Outputs: M9_fill.polygonlayer.0017, M9_fill_assign.polygonlayer.0001, M9_fill_blockage.polygonlayer.0001
+No output written.
+Layer "M9_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "M9_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "M9_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.09 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:48:Layer creation
+M9_fill = assign({ { 27 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M9_fill.polygonlayer.0017, M9_fill.polygonlayer.0017
+  Outputs: M9_fill.polygonlayer.0018, 
+No output written.
+Layer "M9_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:48:Layer creation
+M9_fill = assign({ { 27 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M9_fill_assign.polygonlayer.0001
+  Outputs: M9_fill.polygonlayer.0019, M9_fill.polygonlayer.0020
+No output written.
+Layer "M9_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "M9_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.10 Sys=0.08 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:48:Layer creation
+M9_fill = assign({ { 27 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: M9_fill_blockage.polygonlayer.0001
+  Outputs: M9_fill.polygonlayer.0021, M9_fill.polygonlayer.0022
+No output written.
+Layer "M9_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "M9_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.10 Sys=0.07 Mem=0.012 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.11 Sys=0.31 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:51:Layer creation
+MRDL_metal = assign({ { 41 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: MRDL_metal.polygonlayer.0016, MRDL_metal.polygonlayer.0015, MRDL_metal.polygonlayer.0014, MRDL_metal.polygonlayer.0013, MRDL_metal.polygonlayer.0012, MRDL_metal.polygonlayer.0011, MRDL_metal.polygonlayer.0010, MRDL_metal.polygonlayer.0009, MRDL_metal.polygonlayer.0008, MRDL_metal.polygonlayer.0007, MRDL_metal.polygonlayer.0006, MRDL_metal.polygonlayer.0005, MRDL_metal.polygonlayer.0004, MRDL_metal.polygonlayer.0003, MRDL_metal.polygonlayer.0002, MRDL_metal.polygonlayer.0001, MRDL_metal.polygonlayer.0016, MRDL_metal.polygonlayer.0015, MRDL_metal.polygonlayer.0014, MRDL_metal.polygonlayer.0013, MRDL_metal.polygonlayer.0012, MRDL_metal.polygonlayer.0011, MRDL_metal.polygonlayer.0010, MRDL_metal.polygonlayer.0009, MRDL_metal.polygonlayer.0008, MRDL_metal.polygonlayer.0007, MRDL_metal.polygonlayer.0006, MRDL_metal.polygonlayer.0005, MRDL_metal.polygonlayer.0004, MRDL_metal.polygonlayer.0003, MRDL_metal.polygonlayer.0002, MRDL_metal.polygonlayer.0001
+  Outputs: MRDL_metal.polygonlayer.0017, MRDL_metal_assign.polygonlayer.0001, MRDL_metal_blockage.polygonlayer.0001
+No output written.
+Layer "MRDL_metal.polygonlayer.0017" is empty.
+No output written.
+Layer "MRDL_metal_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "MRDL_metal_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.03 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.08 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:51:Layer creation
+MRDL_metal = assign({ { 41 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: MRDL_metal.polygonlayer.0017, MRDL_metal.polygonlayer.0017
+  Outputs: MRDL_metal.polygonlayer.0018, 
+No output written.
+Layer "MRDL_metal.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:51:Layer creation
+MRDL_metal = assign({ { 41 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: MRDL_metal_assign.polygonlayer.0001
+  Outputs: MRDL_metal.polygonlayer.0019, MRDL_metal.polygonlayer.0020
+No output written.
+Layer "MRDL_metal.polygonlayer.0019" is empty.
+No output written.
+Layer "MRDL_metal.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.10 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:51:Layer creation
+MRDL_metal = assign({ { 41 } }, ndm = { read_from = { VIEWS } })
+  Function: assign
+  Inputs: MRDL_metal_blockage.polygonlayer.0001
+  Outputs: MRDL_metal.polygonlayer.0021, MRDL_metal.polygonlayer.0022
+No output written.
+Layer "MRDL_metal.polygonlayer.0021" is empty.
+No output written.
+Layer "MRDL_metal.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:52:Layer creation
+MRDL_fill = assign({ { 41 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: MRDL_fill.polygonlayer.0016, MRDL_fill.polygonlayer.0015, MRDL_fill.polygonlayer.0014, MRDL_fill.polygonlayer.0013, MRDL_fill.polygonlayer.0012, MRDL_fill.polygonlayer.0011, MRDL_fill.polygonlayer.0010, MRDL_fill.polygonlayer.0009, MRDL_fill.polygonlayer.0008, MRDL_fill.polygonlayer.0007, MRDL_fill.polygonlayer.0006, MRDL_fill.polygonlayer.0005, MRDL_fill.polygonlayer.0004, MRDL_fill.polygonlayer.0003, MRDL_fill.polygonlayer.0002, MRDL_fill.polygonlayer.0001, MRDL_fill.polygonlayer.0016, MRDL_fill.polygonlayer.0015, MRDL_fill.polygonlayer.0014, MRDL_fill.polygonlayer.0013, MRDL_fill.polygonlayer.0012, MRDL_fill.polygonlayer.0011, MRDL_fill.polygonlayer.0010, MRDL_fill.polygonlayer.0009, MRDL_fill.polygonlayer.0008, MRDL_fill.polygonlayer.0007, MRDL_fill.polygonlayer.0006, MRDL_fill.polygonlayer.0005, MRDL_fill.polygonlayer.0004, MRDL_fill.polygonlayer.0003, MRDL_fill.polygonlayer.0002, MRDL_fill.polygonlayer.0001
+  Outputs: MRDL_fill.polygonlayer.0017, MRDL_fill_assign.polygonlayer.0001, MRDL_fill_blockage.polygonlayer.0001
+No output written.
+Layer "MRDL_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "MRDL_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "MRDL_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.03 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.13 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:52:Layer creation
+MRDL_fill = assign({ { 41 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: MRDL_fill.polygonlayer.0017, MRDL_fill.polygonlayer.0017
+  Outputs: MRDL_fill.polygonlayer.0018, 
+No output written.
+Layer "MRDL_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:52:Layer creation
+MRDL_fill = assign({ { 41 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: MRDL_fill_assign.polygonlayer.0001
+  Outputs: MRDL_fill.polygonlayer.0019, MRDL_fill.polygonlayer.0020
+No output written.
+Layer "MRDL_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "MRDL_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.08 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:52:Layer creation
+MRDL_fill = assign({ { 41 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: MRDL_fill_blockage.polygonlayer.0001
+  Outputs: MRDL_fill.polygonlayer.0021, MRDL_fill.polygonlayer.0022
+No output written.
+Layer "MRDL_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "MRDL_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.06 Sys=0.08 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:55:Layer creation
+VIA1_fill = assign({ { 12 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA1_fill.polygonlayer.0016, VIA1_fill.polygonlayer.0015, VIA1_fill.polygonlayer.0014, VIA1_fill.polygonlayer.0013, VIA1_fill.polygonlayer.0012, VIA1_fill.polygonlayer.0011, VIA1_fill.polygonlayer.0010, VIA1_fill.polygonlayer.0009, VIA1_fill.polygonlayer.0008, VIA1_fill.polygonlayer.0007, VIA1_fill.polygonlayer.0006, VIA1_fill.polygonlayer.0005, VIA1_fill.polygonlayer.0004, VIA1_fill.polygonlayer.0003, VIA1_fill.polygonlayer.0002, VIA1_fill.polygonlayer.0001, VIA1_fill.polygonlayer.0016, VIA1_fill.polygonlayer.0015, VIA1_fill.polygonlayer.0014, VIA1_fill.polygonlayer.0013, VIA1_fill.polygonlayer.0012, VIA1_fill.polygonlayer.0011, VIA1_fill.polygonlayer.0010, VIA1_fill.polygonlayer.0009, VIA1_fill.polygonlayer.0008, VIA1_fill.polygonlayer.0007, VIA1_fill.polygonlayer.0006, VIA1_fill.polygonlayer.0005, VIA1_fill.polygonlayer.0004, VIA1_fill.polygonlayer.0003, VIA1_fill.polygonlayer.0002, VIA1_fill.polygonlayer.0001
+  Outputs: VIA1_fill.polygonlayer.0017, VIA1_fill_assign.polygonlayer.0001, VIA1_fill_blockage.polygonlayer.0001
+No output written.
+Layer "VIA1_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "VIA1_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "VIA1_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.03 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.07 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:55:Layer creation
+VIA1_fill = assign({ { 12 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA1_fill.polygonlayer.0017, VIA1_fill.polygonlayer.0017
+  Outputs: VIA1_fill.polygonlayer.0018, 
+No output written.
+Layer "VIA1_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:55:Layer creation
+VIA1_fill = assign({ { 12 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA1_fill_assign.polygonlayer.0001
+  Outputs: VIA1_fill.polygonlayer.0019, VIA1_fill.polygonlayer.0020
+No output written.
+Layer "VIA1_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "VIA1_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.12 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:55:Layer creation
+VIA1_fill = assign({ { 12 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA1_fill_blockage.polygonlayer.0001
+  Outputs: VIA1_fill.polygonlayer.0021, VIA1_fill.polygonlayer.0022
+No output written.
+Layer "VIA1_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "VIA1_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.08 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:56:Layer creation
+VIA2_fill = assign({ { 14 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA2_fill.polygonlayer.0016, VIA2_fill.polygonlayer.0015, VIA2_fill.polygonlayer.0014, VIA2_fill.polygonlayer.0013, VIA2_fill.polygonlayer.0012, VIA2_fill.polygonlayer.0011, VIA2_fill.polygonlayer.0010, VIA2_fill.polygonlayer.0009, VIA2_fill.polygonlayer.0008, VIA2_fill.polygonlayer.0007, VIA2_fill.polygonlayer.0006, VIA2_fill.polygonlayer.0005, VIA2_fill.polygonlayer.0004, VIA2_fill.polygonlayer.0003, VIA2_fill.polygonlayer.0002, VIA2_fill.polygonlayer.0001, VIA2_fill.polygonlayer.0016, VIA2_fill.polygonlayer.0015, VIA2_fill.polygonlayer.0014, VIA2_fill.polygonlayer.0013, VIA2_fill.polygonlayer.0012, VIA2_fill.polygonlayer.0011, VIA2_fill.polygonlayer.0010, VIA2_fill.polygonlayer.0009, VIA2_fill.polygonlayer.0008, VIA2_fill.polygonlayer.0007, VIA2_fill.polygonlayer.0006, VIA2_fill.polygonlayer.0005, VIA2_fill.polygonlayer.0004, VIA2_fill.polygonlayer.0003, VIA2_fill.polygonlayer.0002, VIA2_fill.polygonlayer.0001
+  Outputs: VIA2_fill.polygonlayer.0017, VIA2_fill_assign.polygonlayer.0001, VIA2_fill_blockage.polygonlayer.0001
+No output written.
+Layer "VIA2_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "VIA2_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "VIA2_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.03 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:56:Layer creation
+VIA2_fill = assign({ { 14 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA2_fill.polygonlayer.0017, VIA2_fill.polygonlayer.0017
+  Outputs: VIA2_fill.polygonlayer.0018, 
+No output written.
+Layer "VIA2_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:56:Layer creation
+VIA2_fill = assign({ { 14 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA2_fill_assign.polygonlayer.0001
+  Outputs: VIA2_fill.polygonlayer.0019, VIA2_fill.polygonlayer.0020
+No output written.
+Layer "VIA2_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "VIA2_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.12 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:56:Layer creation
+VIA2_fill = assign({ { 14 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA2_fill_blockage.polygonlayer.0001
+  Outputs: VIA2_fill.polygonlayer.0021, VIA2_fill.polygonlayer.0022
+No output written.
+Layer "VIA2_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "VIA2_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.05 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:57:Layer creation
+VIA3_fill = assign({ { 16 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA3_fill.polygonlayer.0016, VIA3_fill.polygonlayer.0015, VIA3_fill.polygonlayer.0014, VIA3_fill.polygonlayer.0013, VIA3_fill.polygonlayer.0012, VIA3_fill.polygonlayer.0011, VIA3_fill.polygonlayer.0010, VIA3_fill.polygonlayer.0009, VIA3_fill.polygonlayer.0008, VIA3_fill.polygonlayer.0007, VIA3_fill.polygonlayer.0006, VIA3_fill.polygonlayer.0005, VIA3_fill.polygonlayer.0004, VIA3_fill.polygonlayer.0003, VIA3_fill.polygonlayer.0002, VIA3_fill.polygonlayer.0001, VIA3_fill.polygonlayer.0016, VIA3_fill.polygonlayer.0015, VIA3_fill.polygonlayer.0014, VIA3_fill.polygonlayer.0013, VIA3_fill.polygonlayer.0012, VIA3_fill.polygonlayer.0011, VIA3_fill.polygonlayer.0010, VIA3_fill.polygonlayer.0009, VIA3_fill.polygonlayer.0008, VIA3_fill.polygonlayer.0007, VIA3_fill.polygonlayer.0006, VIA3_fill.polygonlayer.0005, VIA3_fill.polygonlayer.0004, VIA3_fill.polygonlayer.0003, VIA3_fill.polygonlayer.0002, VIA3_fill.polygonlayer.0001
+  Outputs: VIA3_fill.polygonlayer.0017, VIA3_fill_assign.polygonlayer.0001, VIA3_fill_blockage.polygonlayer.0001
+No output written.
+Layer "VIA3_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "VIA3_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "VIA3_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.06 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:57:Layer creation
+VIA3_fill = assign({ { 16 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA3_fill.polygonlayer.0017, VIA3_fill.polygonlayer.0017
+  Outputs: VIA3_fill.polygonlayer.0018, 
+No output written.
+Layer "VIA3_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:57:Layer creation
+VIA3_fill = assign({ { 16 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA3_fill_assign.polygonlayer.0001
+  Outputs: VIA3_fill.polygonlayer.0019, VIA3_fill.polygonlayer.0020
+No output written.
+Layer "VIA3_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "VIA3_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:57:Layer creation
+VIA3_fill = assign({ { 16 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA3_fill_blockage.polygonlayer.0001
+  Outputs: VIA3_fill.polygonlayer.0021, VIA3_fill.polygonlayer.0022
+No output written.
+Layer "VIA3_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "VIA3_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.12 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:58:Layer creation
+VIA4_fill = assign({ { 18 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA4_fill.polygonlayer.0016, VIA4_fill.polygonlayer.0015, VIA4_fill.polygonlayer.0014, VIA4_fill.polygonlayer.0013, VIA4_fill.polygonlayer.0012, VIA4_fill.polygonlayer.0011, VIA4_fill.polygonlayer.0010, VIA4_fill.polygonlayer.0009, VIA4_fill.polygonlayer.0008, VIA4_fill.polygonlayer.0007, VIA4_fill.polygonlayer.0006, VIA4_fill.polygonlayer.0005, VIA4_fill.polygonlayer.0004, VIA4_fill.polygonlayer.0003, VIA4_fill.polygonlayer.0002, VIA4_fill.polygonlayer.0001, VIA4_fill.polygonlayer.0016, VIA4_fill.polygonlayer.0015, VIA4_fill.polygonlayer.0014, VIA4_fill.polygonlayer.0013, VIA4_fill.polygonlayer.0012, VIA4_fill.polygonlayer.0011, VIA4_fill.polygonlayer.0010, VIA4_fill.polygonlayer.0009, VIA4_fill.polygonlayer.0008, VIA4_fill.polygonlayer.0007, VIA4_fill.polygonlayer.0006, VIA4_fill.polygonlayer.0005, VIA4_fill.polygonlayer.0004, VIA4_fill.polygonlayer.0003, VIA4_fill.polygonlayer.0002, VIA4_fill.polygonlayer.0001
+  Outputs: VIA4_fill.polygonlayer.0017, VIA4_fill_assign.polygonlayer.0001, VIA4_fill_blockage.polygonlayer.0001
+No output written.
+Layer "VIA4_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "VIA4_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "VIA4_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.04 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.16 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:58:Layer creation
+VIA4_fill = assign({ { 18 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA4_fill.polygonlayer.0017, VIA4_fill.polygonlayer.0017
+  Outputs: VIA4_fill.polygonlayer.0018, 
+No output written.
+Layer "VIA4_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:58:Layer creation
+VIA4_fill = assign({ { 18 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA4_fill_assign.polygonlayer.0001
+  Outputs: VIA4_fill.polygonlayer.0019, VIA4_fill.polygonlayer.0020
+No output written.
+Layer "VIA4_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "VIA4_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:58:Layer creation
+VIA4_fill = assign({ { 18 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA4_fill_blockage.polygonlayer.0001
+  Outputs: VIA4_fill.polygonlayer.0021, VIA4_fill.polygonlayer.0022
+No output written.
+Layer "VIA4_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "VIA4_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.06 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:59:Layer creation
+VIA5_fill = assign({ { 20 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA5_fill.polygonlayer.0016, VIA5_fill.polygonlayer.0015, VIA5_fill.polygonlayer.0014, VIA5_fill.polygonlayer.0013, VIA5_fill.polygonlayer.0012, VIA5_fill.polygonlayer.0011, VIA5_fill.polygonlayer.0010, VIA5_fill.polygonlayer.0009, VIA5_fill.polygonlayer.0008, VIA5_fill.polygonlayer.0007, VIA5_fill.polygonlayer.0006, VIA5_fill.polygonlayer.0005, VIA5_fill.polygonlayer.0004, VIA5_fill.polygonlayer.0003, VIA5_fill.polygonlayer.0002, VIA5_fill.polygonlayer.0001, VIA5_fill.polygonlayer.0016, VIA5_fill.polygonlayer.0015, VIA5_fill.polygonlayer.0014, VIA5_fill.polygonlayer.0013, VIA5_fill.polygonlayer.0012, VIA5_fill.polygonlayer.0011, VIA5_fill.polygonlayer.0010, VIA5_fill.polygonlayer.0009, VIA5_fill.polygonlayer.0008, VIA5_fill.polygonlayer.0007, VIA5_fill.polygonlayer.0006, VIA5_fill.polygonlayer.0005, VIA5_fill.polygonlayer.0004, VIA5_fill.polygonlayer.0003, VIA5_fill.polygonlayer.0002, VIA5_fill.polygonlayer.0001
+  Outputs: VIA5_fill.polygonlayer.0017, VIA5_fill_assign.polygonlayer.0001, VIA5_fill_blockage.polygonlayer.0001
+No output written.
+Layer "VIA5_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "VIA5_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "VIA5_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.07 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.06 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:59:Layer creation
+VIA5_fill = assign({ { 20 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA5_fill.polygonlayer.0017, VIA5_fill.polygonlayer.0017
+  Outputs: VIA5_fill.polygonlayer.0018, 
+No output written.
+Layer "VIA5_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:59:Layer creation
+VIA5_fill = assign({ { 20 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA5_fill_assign.polygonlayer.0001
+  Outputs: VIA5_fill.polygonlayer.0019, VIA5_fill.polygonlayer.0020
+No output written.
+Layer "VIA5_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "VIA5_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.10 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:59:Layer creation
+VIA5_fill = assign({ { 20 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA5_fill_blockage.polygonlayer.0001
+  Outputs: VIA5_fill.polygonlayer.0021, VIA5_fill.polygonlayer.0022
+No output written.
+Layer "VIA5_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "VIA5_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.07 Sys=0.08 Mem=0.012 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.09 Sys=0.16 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:60:Layer creation
+VIA6_fill = assign({ { 22 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA6_fill.polygonlayer.0016, VIA6_fill.polygonlayer.0015, VIA6_fill.polygonlayer.0014, VIA6_fill.polygonlayer.0013, VIA6_fill.polygonlayer.0012, VIA6_fill.polygonlayer.0011, VIA6_fill.polygonlayer.0010, VIA6_fill.polygonlayer.0009, VIA6_fill.polygonlayer.0008, VIA6_fill.polygonlayer.0007, VIA6_fill.polygonlayer.0006, VIA6_fill.polygonlayer.0005, VIA6_fill.polygonlayer.0004, VIA6_fill.polygonlayer.0003, VIA6_fill.polygonlayer.0002, VIA6_fill.polygonlayer.0001, VIA6_fill.polygonlayer.0016, VIA6_fill.polygonlayer.0015, VIA6_fill.polygonlayer.0014, VIA6_fill.polygonlayer.0013, VIA6_fill.polygonlayer.0012, VIA6_fill.polygonlayer.0011, VIA6_fill.polygonlayer.0010, VIA6_fill.polygonlayer.0009, VIA6_fill.polygonlayer.0008, VIA6_fill.polygonlayer.0007, VIA6_fill.polygonlayer.0006, VIA6_fill.polygonlayer.0005, VIA6_fill.polygonlayer.0004, VIA6_fill.polygonlayer.0003, VIA6_fill.polygonlayer.0002, VIA6_fill.polygonlayer.0001
+  Outputs: VIA6_fill.polygonlayer.0017, VIA6_fill_assign.polygonlayer.0001, VIA6_fill_blockage.polygonlayer.0001
+No output written.
+Layer "VIA6_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "VIA6_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "VIA6_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.03 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.08 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:60:Layer creation
+VIA6_fill = assign({ { 22 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA6_fill.polygonlayer.0017, VIA6_fill.polygonlayer.0017
+  Outputs: VIA6_fill.polygonlayer.0018, 
+No output written.
+Layer "VIA6_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:60:Layer creation
+VIA6_fill = assign({ { 22 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA6_fill_assign.polygonlayer.0001
+  Outputs: VIA6_fill.polygonlayer.0019, VIA6_fill.polygonlayer.0020
+No output written.
+Layer "VIA6_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "VIA6_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.11 Sys=0.09 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:60:Layer creation
+VIA6_fill = assign({ { 22 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA6_fill_blockage.polygonlayer.0001
+  Outputs: VIA6_fill.polygonlayer.0021, VIA6_fill.polygonlayer.0022
+No output written.
+Layer "VIA6_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "VIA6_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.06 Mem=0.012 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.10 Sys=0.15 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:61:Layer creation
+VIA7_fill = assign({ { 24 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA7_fill.polygonlayer.0016, VIA7_fill.polygonlayer.0015, VIA7_fill.polygonlayer.0014, VIA7_fill.polygonlayer.0013, VIA7_fill.polygonlayer.0012, VIA7_fill.polygonlayer.0011, VIA7_fill.polygonlayer.0010, VIA7_fill.polygonlayer.0009, VIA7_fill.polygonlayer.0008, VIA7_fill.polygonlayer.0007, VIA7_fill.polygonlayer.0006, VIA7_fill.polygonlayer.0005, VIA7_fill.polygonlayer.0004, VIA7_fill.polygonlayer.0003, VIA7_fill.polygonlayer.0002, VIA7_fill.polygonlayer.0001, VIA7_fill.polygonlayer.0016, VIA7_fill.polygonlayer.0015, VIA7_fill.polygonlayer.0014, VIA7_fill.polygonlayer.0013, VIA7_fill.polygonlayer.0012, VIA7_fill.polygonlayer.0011, VIA7_fill.polygonlayer.0010, VIA7_fill.polygonlayer.0009, VIA7_fill.polygonlayer.0008, VIA7_fill.polygonlayer.0007, VIA7_fill.polygonlayer.0006, VIA7_fill.polygonlayer.0005, VIA7_fill.polygonlayer.0004, VIA7_fill.polygonlayer.0003, VIA7_fill.polygonlayer.0002, VIA7_fill.polygonlayer.0001
+  Outputs: VIA7_fill.polygonlayer.0017, VIA7_fill_assign.polygonlayer.0001, VIA7_fill_blockage.polygonlayer.0001
+No output written.
+Layer "VIA7_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "VIA7_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "VIA7_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.03 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.05 Sys=0.11 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:61:Layer creation
+VIA7_fill = assign({ { 24 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA7_fill.polygonlayer.0017, VIA7_fill.polygonlayer.0017
+  Outputs: VIA7_fill.polygonlayer.0018, 
+No output written.
+Layer "VIA7_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:61:Layer creation
+VIA7_fill = assign({ { 24 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA7_fill_assign.polygonlayer.0001
+  Outputs: VIA7_fill.polygonlayer.0019, VIA7_fill.polygonlayer.0020
+No output written.
+Layer "VIA7_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "VIA7_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.10 Sys=0.08 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:61:Layer creation
+VIA7_fill = assign({ { 24 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA7_fill_blockage.polygonlayer.0001
+  Outputs: VIA7_fill.polygonlayer.0021, VIA7_fill.polygonlayer.0022
+No output written.
+Layer "VIA7_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "VIA7_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.08 Mem=0.012 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.13 Sys=0.19 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:62:Layer creation
+VIA8_fill = assign({ { 26 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA8_fill.polygonlayer.0016, VIA8_fill.polygonlayer.0015, VIA8_fill.polygonlayer.0014, VIA8_fill.polygonlayer.0013, VIA8_fill.polygonlayer.0012, VIA8_fill.polygonlayer.0011, VIA8_fill.polygonlayer.0010, VIA8_fill.polygonlayer.0009, VIA8_fill.polygonlayer.0008, VIA8_fill.polygonlayer.0007, VIA8_fill.polygonlayer.0006, VIA8_fill.polygonlayer.0005, VIA8_fill.polygonlayer.0004, VIA8_fill.polygonlayer.0003, VIA8_fill.polygonlayer.0002, VIA8_fill.polygonlayer.0001, VIA8_fill.polygonlayer.0016, VIA8_fill.polygonlayer.0015, VIA8_fill.polygonlayer.0014, VIA8_fill.polygonlayer.0013, VIA8_fill.polygonlayer.0012, VIA8_fill.polygonlayer.0011, VIA8_fill.polygonlayer.0010, VIA8_fill.polygonlayer.0009, VIA8_fill.polygonlayer.0008, VIA8_fill.polygonlayer.0007, VIA8_fill.polygonlayer.0006, VIA8_fill.polygonlayer.0005, VIA8_fill.polygonlayer.0004, VIA8_fill.polygonlayer.0003, VIA8_fill.polygonlayer.0002, VIA8_fill.polygonlayer.0001
+  Outputs: VIA8_fill.polygonlayer.0017, VIA8_fill_assign.polygonlayer.0001, VIA8_fill_blockage.polygonlayer.0001
+No output written.
+Layer "VIA8_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "VIA8_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "VIA8_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.03 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.03 Sys=0.11 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:62:Layer creation
+VIA8_fill = assign({ { 26 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA8_fill.polygonlayer.0017, VIA8_fill.polygonlayer.0017
+  Outputs: VIA8_fill.polygonlayer.0018, 
+No output written.
+Layer "VIA8_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:62:Layer creation
+VIA8_fill = assign({ { 26 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA8_fill_assign.polygonlayer.0001
+  Outputs: VIA8_fill.polygonlayer.0019, VIA8_fill.polygonlayer.0020
+No output written.
+Layer "VIA8_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "VIA8_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.12 Sys=0.06 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:62:Layer creation
+VIA8_fill = assign({ { 26 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIA8_fill_blockage.polygonlayer.0001
+  Outputs: VIA8_fill.polygonlayer.0021, VIA8_fill.polygonlayer.0022
+No output written.
+Layer "VIA8_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "VIA8_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.05 Mem=0.012 GB
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.11 Sys=0.29 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:63:Layer creation
+VIARDL_fill = assign({ { 42 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIARDL_fill.polygonlayer.0016, VIARDL_fill.polygonlayer.0015, VIARDL_fill.polygonlayer.0014, VIARDL_fill.polygonlayer.0013, VIARDL_fill.polygonlayer.0012, VIARDL_fill.polygonlayer.0011, VIARDL_fill.polygonlayer.0010, VIARDL_fill.polygonlayer.0009, VIARDL_fill.polygonlayer.0008, VIARDL_fill.polygonlayer.0007, VIARDL_fill.polygonlayer.0006, VIARDL_fill.polygonlayer.0005, VIARDL_fill.polygonlayer.0004, VIARDL_fill.polygonlayer.0003, VIARDL_fill.polygonlayer.0002, VIARDL_fill.polygonlayer.0001, VIARDL_fill.polygonlayer.0016, VIARDL_fill.polygonlayer.0015, VIARDL_fill.polygonlayer.0014, VIARDL_fill.polygonlayer.0013, VIARDL_fill.polygonlayer.0012, VIARDL_fill.polygonlayer.0011, VIARDL_fill.polygonlayer.0010, VIARDL_fill.polygonlayer.0009, VIARDL_fill.polygonlayer.0008, VIARDL_fill.polygonlayer.0007, VIARDL_fill.polygonlayer.0006, VIARDL_fill.polygonlayer.0005, VIARDL_fill.polygonlayer.0004, VIARDL_fill.polygonlayer.0003, VIARDL_fill.polygonlayer.0002, VIARDL_fill.polygonlayer.0001
+  Outputs: VIARDL_fill.polygonlayer.0017, VIARDL_fill_assign.polygonlayer.0001, VIARDL_fill_blockage.polygonlayer.0001
+No output written.
+Layer "VIARDL_fill.polygonlayer.0017" is empty.
+No output written.
+Layer "VIARDL_fill_assign.polygonlayer.0001" is empty.
+No output written.
+Layer "VIARDL_fill_blockage.polygonlayer.0001" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.014 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.06 Sys=0.07 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:63:Layer creation
+VIARDL_fill = assign({ { 42 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIARDL_fill.polygonlayer.0017, VIARDL_fill.polygonlayer.0017
+  Outputs: VIARDL_fill.polygonlayer.0018, 
+No output written.
+Layer "VIARDL_fill.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+assign() at metalFillShortFinder.rs:63:Layer creation
+VIARDL_fill = assign({ { 42 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIARDL_fill_assign.polygonlayer.0001
+  Outputs: VIARDL_fill.polygonlayer.0019, VIARDL_fill.polygonlayer.0020
+No output written.
+Layer "VIARDL_fill.polygonlayer.0019" is empty.
+No output written.
+Layer "VIARDL_fill.polygonlayer.0020" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.07 Mem=0.012 GB
+
+assign() at metalFillShortFinder.rs:63:Layer creation
+VIARDL_fill = assign({ { 42 } }, ndm = { read_from = { INTERNAL_DESIGNS }, internal_designs = { FILL_USE } })
+  Function: assign
+  Inputs: VIARDL_fill_blockage.polygonlayer.0001
+  Outputs: VIARDL_fill.polygonlayer.0021, VIARDL_fill.polygonlayer.0022
+No output written.
+Layer "VIARDL_fill.polygonlayer.0021" is empty.
+No output written.
+Layer "VIARDL_fill.polygonlayer.0022" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.09 Sys=0.07 Mem=0.012 GB
+
+for(loop 1 out of 10, i=0) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M1_fill.polygonlayer.0018, temp.associated.0025, M1_metal.polygonlayer.0018, temp.associated.0026
+Input layer "M1_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+for(loop 1 out of 10, i=0) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M1_fill.polygonlayer.0020, M1_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+for(loop 2 out of 10, i=1) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M2_fill.polygonlayer.0018, temp.associated.0031, M2_metal.polygonlayer.0018, temp.associated.0032
+Input layer "M2_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+for(loop 2 out of 10, i=1) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M2_fill.polygonlayer.0020, M2_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+for(loop 3 out of 10, i=2) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M3_fill.polygonlayer.0018, temp.associated.0029, M3_metal.polygonlayer.0018, temp.associated.0030
+Input layer "M3_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+for(loop 3 out of 10, i=2) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M3_fill.polygonlayer.0020, M3_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+for(loop 4 out of 10, i=3) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M4_fill.polygonlayer.0018, temp.associated.0001, M4_metal.polygonlayer.0018, temp.associated.0002
+Input layer "M4_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+for(loop 4 out of 10, i=3) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M4_fill.polygonlayer.0020, M4_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+for(loop 5 out of 10, i=4) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M5_fill.polygonlayer.0018, temp.associated.0003, M5_metal.polygonlayer.0018, temp.associated.0004
+Input layer "M5_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+for(loop 5 out of 10, i=4) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M5_fill.polygonlayer.0020, M5_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+for(loop 6 out of 10, i=5) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M6_fill.polygonlayer.0018, temp.associated.0005, M6_metal.polygonlayer.0018, temp.associated.0006
+Input layer "M6_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+for(loop 6 out of 10, i=5) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M6_fill.polygonlayer.0020, M6_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+for(loop 7 out of 10, i=6) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M7_fill.polygonlayer.0018, temp.associated.0007, M7_metal.polygonlayer.0018, temp.associated.0008
+Input layer "M7_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.006 GB
+
+for(loop 7 out of 10, i=6) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M7_fill.polygonlayer.0020, M7_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+for(loop 8 out of 10, i=7) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M8_fill.polygonlayer.0018, temp.associated.0009, M8_metal.polygonlayer.0018, temp.associated.0010
+Input layer "M8_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+for(loop 8 out of 10, i=7) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M8_fill.polygonlayer.0020, M8_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.01 Sys=0.00 Mem=0.006 GB
+
+for(loop 9 out of 10, i=8) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: M9_fill.polygonlayer.0018, temp.associated.0011, M9_metal.polygonlayer.0018, temp.associated.0012
+Input layer "M9_fill.polygonlayer.0018" is empty.
+Input layer "M9_metal.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.007 GB
+
+for(loop 9 out of 10, i=8) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: M9_fill.polygonlayer.0020, M9_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+for(loop 10 out of 10, i=9) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Comment: "Metal fill shorts to metal"
+  Function: interacting
+  Inputs: MRDL_fill.polygonlayer.0018, temp.associated.0013, MRDL_metal.polygonlayer.0018, temp.associated.0014
+Input layer "MRDL_fill.polygonlayer.0018" is empty.
+Input layer "MRDL_metal.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+for(loop 10 out of 10, i=9) at metalFillShortFinder.rs:64
+  interacting() at metalFillShortFinder.rs:66
+interacting(metal_data_list[i].fill, metal_data_list[i].metal)
+  Function: interacting
+  Inputs: MRDL_fill.polygonlayer.0020, MRDL_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+or() at metalFillShortFinder.rs:70
+interacting(VIA1_fill, or(M1_metal, M2_metal))
+  Function: or
+  Inputs: M1_metal.polygonlayer.0018, M2_metal.polygonlayer.0018
+  Outputs: temp.polygonlayer.0008
+91270 unique polygons written.
+   Check Time=0:00:01  User=1.41 Sys=0.26 Mem=0.018 GB
+
+interacting() at metalFillShortFinder.rs:70
+interacting(VIA1_fill, or(M1_metal, M2_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIA1_fill.polygonlayer.0018, temp.associated.0035, temp.polygonlayer.0008, temp.associated.0036
+Input layer "VIA1_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+interacting() at metalFillShortFinder.rs:70
+interacting(VIA1_fill, or(M1_metal, M2_metal))
+  Function: interacting
+  Inputs: VIA1_fill.polygonlayer.0020, M1_metal.polygonlayer.0020, M2_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+or() at metalFillShortFinder.rs:73
+interacting(VIA2_fill, or(M2_metal, M3_metal))
+  Function: or
+  Inputs: M2_metal.polygonlayer.0018, M3_metal.polygonlayer.0018
+  Outputs: temp.polygonlayer.0009
+12659 unique polygons written.
+   Check Time=0:00:02  User=2.60 Sys=0.39 Mem=0.021 GB
+
+interacting() at metalFillShortFinder.rs:73
+interacting(VIA2_fill, or(M2_metal, M3_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIA2_fill.polygonlayer.0018, temp.associated.0037, temp.polygonlayer.0009, temp.associated.0038
+Input layer "VIA2_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+interacting() at metalFillShortFinder.rs:73
+interacting(VIA2_fill, or(M2_metal, M3_metal))
+  Function: interacting
+  Inputs: VIA2_fill.polygonlayer.0020, M2_metal.polygonlayer.0020, M3_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+or() at metalFillShortFinder.rs:76
+interacting(VIA3_fill, or(M3_metal, M4_metal))
+  Function: or
+  Inputs: M3_metal.polygonlayer.0018, M4_metal.polygonlayer.0018
+  Outputs: temp.polygonlayer.0007
+13622 unique polygons written.
+   Check Time=0:00:02  User=1.66 Sys=0.33 Mem=0.016 GB
+
+interacting() at metalFillShortFinder.rs:76
+interacting(VIA3_fill, or(M3_metal, M4_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIA3_fill.polygonlayer.0018, temp.associated.0033, temp.polygonlayer.0007, temp.associated.0034
+Input layer "VIA3_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+interacting() at metalFillShortFinder.rs:76
+interacting(VIA3_fill, or(M3_metal, M4_metal))
+  Function: interacting
+  Inputs: VIA3_fill.polygonlayer.0020, M3_metal.polygonlayer.0020, M4_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+or() at metalFillShortFinder.rs:79
+interacting(VIA4_fill, or(M4_metal, M5_metal))
+  Function: or
+  Inputs: M4_metal.polygonlayer.0018, M5_metal.polygonlayer.0018
+  Outputs: temp.polygonlayer.0006
+12037 unique polygons written.
+   Check Time=0:00:00  User=0.74 Sys=0.15 Mem=0.013 GB
+
+interacting() at metalFillShortFinder.rs:79
+interacting(VIA4_fill, or(M4_metal, M5_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIA4_fill.polygonlayer.0018, temp.associated.0027, temp.polygonlayer.0006, temp.associated.0028
+Input layer "VIA4_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+interacting() at metalFillShortFinder.rs:79
+interacting(VIA4_fill, or(M4_metal, M5_metal))
+  Function: interacting
+  Inputs: VIA4_fill.polygonlayer.0020, M4_metal.polygonlayer.0020, M5_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+or() at metalFillShortFinder.rs:82
+interacting(VIA5_fill, or(M5_metal, M6_metal))
+  Function: or
+  Inputs: M5_metal.polygonlayer.0018, M6_metal.polygonlayer.0018
+  Outputs: temp.polygonlayer.0005
+11318 unique polygons written.
+   Check Time=0:00:00  User=0.35 Sys=0.11 Mem=0.010 GB
+
+interacting() at metalFillShortFinder.rs:82
+interacting(VIA5_fill, or(M5_metal, M6_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIA5_fill.polygonlayer.0018, temp.associated.0015, temp.polygonlayer.0005, temp.associated.0016
+Input layer "VIA5_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+interacting() at metalFillShortFinder.rs:82
+interacting(VIA5_fill, or(M5_metal, M6_metal))
+  Function: interacting
+  Inputs: VIA5_fill.polygonlayer.0020, M5_metal.polygonlayer.0020, M6_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+or() at metalFillShortFinder.rs:85
+interacting(VIA6_fill, or(M6_metal, M7_metal))
+  Function: or
+  Inputs: M6_metal.polygonlayer.0018, M7_metal.polygonlayer.0018
+  Outputs: temp.polygonlayer.0004
+134 unique polygons written.
+   Check Time=0:00:00  User=0.16 Sys=0.06 Mem=0.009 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.005 GB
+
+interacting() at metalFillShortFinder.rs:85
+interacting(VIA6_fill, or(M6_metal, M7_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIA6_fill.polygonlayer.0018, temp.associated.0017, temp.polygonlayer.0004, temp.associated.0018
+Input layer "VIA6_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.006 GB
+
+interacting() at metalFillShortFinder.rs:85
+interacting(VIA6_fill, or(M6_metal, M7_metal))
+  Function: interacting
+  Inputs: VIA6_fill.polygonlayer.0020, M6_metal.polygonlayer.0020, M7_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+or() at metalFillShortFinder.rs:88
+interacting(VIA7_fill, or(M7_metal, M8_metal))
+  Function: or
+  Inputs: M7_metal.polygonlayer.0018, M8_metal.polygonlayer.0018
+  Outputs: temp.polygonlayer.0003
+109 unique polygons written.
+   Check Time=0:00:00  User=0.04 Sys=0.03 Mem=0.008 GB
+
+interacting() at metalFillShortFinder.rs:88
+interacting(VIA7_fill, or(M7_metal, M8_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIA7_fill.polygonlayer.0018, temp.associated.0019, temp.polygonlayer.0003, temp.associated.0020
+Input layer "VIA7_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+interacting() at metalFillShortFinder.rs:88
+interacting(VIA7_fill, or(M7_metal, M8_metal))
+  Function: interacting
+  Inputs: VIA7_fill.polygonlayer.0020, M7_metal.polygonlayer.0020, M8_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+or() at metalFillShortFinder.rs:91
+interacting(VIA8_fill, or(M8_metal, M9_metal))
+  Function: or
+  Inputs: M8_metal.polygonlayer.0018, M9_metal.polygonlayer.0018
+  Outputs: temp.polygonlayer.0002
+Input layer "M9_metal.polygonlayer.0018" is empty.
+1584 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+interacting() at metalFillShortFinder.rs:91
+interacting(VIA8_fill, or(M8_metal, M9_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIA8_fill.polygonlayer.0018, temp.associated.0021, temp.polygonlayer.0002, temp.associated.0022
+Input layer "VIA8_fill.polygonlayer.0018" is empty.
+No output written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.006 GB
+
+interacting() at metalFillShortFinder.rs:91
+interacting(VIA8_fill, or(M8_metal, M9_metal))
+  Function: interacting
+  Inputs: VIA8_fill.polygonlayer.0020, M8_metal.polygonlayer.0020, M9_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+or() at metalFillShortFinder.rs:94
+interacting(VIARDL_fill, or(M9_metal, MRDL_metal))
+  Function: or
+  Inputs: M9_metal.polygonlayer.0018, MRDL_metal.polygonlayer.0018
+  Outputs: temp.polygonlayer.0001
+Input layer "M9_metal.polygonlayer.0018" is empty.
+Input layer "MRDL_metal.polygonlayer.0018" is empty.
+No output written.
+Layer "temp.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+interacting() at metalFillShortFinder.rs:94
+interacting(VIARDL_fill, or(M9_metal, MRDL_metal))
+  Comment: "via fill shorts to metal"
+  Function: interacting
+  Inputs: VIARDL_fill.polygonlayer.0018, temp.associated.0023, temp.polygonlayer.0001, temp.associated.0024
+Input layer "VIARDL_fill.polygonlayer.0018" is empty.
+Input layer "temp.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.007 GB
+
+interacting() at metalFillShortFinder.rs:94
+interacting(VIARDL_fill, or(M9_metal, MRDL_metal))
+  Function: interacting
+  Inputs: VIARDL_fill.polygonlayer.0020, M9_metal.polygonlayer.0020, MRDL_metal.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating route2.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+
+
+IC Validator Machine Memory Report
+mo.ece.pdx.edu : Average = 1.765 GB, Peak = 4.677 GB
+
+Overall Disk Usage Disk=0.152 GB
+Overall Design Hierarchy Mem=0.004 GB
+Overall engine Time=0:01:02 Highest command Mem=0.693 GB
+
+Overall Master Mem=3.376 GB

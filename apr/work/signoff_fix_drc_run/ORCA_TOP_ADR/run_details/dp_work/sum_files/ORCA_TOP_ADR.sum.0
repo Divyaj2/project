@@ -1,0 +1,1282 @@
+Wed Jun  3 22:14:50 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+
+Runset file ......................  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs
+Current Directory ................  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/ORCA_TOP_ADR
+Hostname .........................  mo.ece.pdx.edu
+Platform type ....................  LINUX.64
+NDM input library path ...........  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/
+NDM input library name ...........  ORCA_TOP_lib
+NDM block name ...................  ORCA_TOP_ADR
+Run details ......................  /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/ORCA_TOP_ADR/run_details
+Group file directory .............  /dev/shm/8564
+Check reference structures .......  yes
+
+hierarchy_options() at /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:18
+hierarchy_options(flatten = { "*" })
+
+error_options() at /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:22
+error_options(error_limit_per_check = 1000000)
+
+layout_grid_options() at /u/divyaj2/ECE510-2020-SPRING/project/apr/work/saed32nm_1p9m_drc_rules.rs:26
+layout_grid_options(resolution = 0.001, check_45 = { PATH, POLYGON })
+
+[Generated Command]
+run_options()
+
+[Generated Command]
+library(library_name = ".empty.gds", format = GDSII, cell = "BLOCK")
+
+[Generated Command]
+drc_black_box_options()
+
+[Generated Command]
+resolution_options()
+
+[Generated Command]
+incremental_options()
+
+[Generated Command]
+layout_drawn_options()
+
+[Generated Command]
+layout_integrity_options()
+
+[Generated Command]
+prototype_options()
+
+[Generated Command]
+hierarchy_auto_options()
+
+[Generated Command]
+text_options()
+
+[Generated Command]
+compatibility_options()
+
+   Prescan Library Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+NDM: Information: Loading library file '/u/divyaj2/ECE510-2020-SPRING/project/apr/work/ORCA_TOP_lib' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/ndm/saed32sram_c.ndm' (FILE-007)
+WARNING: Could not open CGLNPRX8_LVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_LVT.design, using frame view instead.
+WARNING: Could not open SDFFARX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFNX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFARX2_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFARX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX2_LVT.design, using frame view instead.
+WARNING: Could not open SDFFX1_RVT.design, using frame view instead.
+WARNING: Could not open SDFFX2_RVT.design, using frame view instead.
+WARNING: Could not open SDFFX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFNARX2_HVT.design, using frame view instead.
+WARNING: Could not open SDFFX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFX2_LVT.design, using frame view instead.
+WARNING: Could not open TIEH_HVT.design, using frame view instead.
+WARNING: Could not open TIEL_HVT.design, using frame view instead.
+WARNING: Could not open DFFNARX1_HVT.design, using frame view instead.
+WARNING: Could not open DFFX1_HVT.design, using frame view instead.
+WARNING: Could not open DFFX2_HVT.design, using frame view instead.
+WARNING: Could not open DFFX1_RVT.design, using frame view instead.
+WARNING: Could not open DFFARX1_LVT.design, using frame view instead.
+WARNING: Could not open AO22X1_LVT.design, using frame view instead.
+WARNING: Could not open AO22X1_RVT.design, using frame view instead.
+WARNING: Could not open AO22X2_LVT.design, using frame view instead.
+WARNING: Could not open DFFX1_LVT.design, using frame view instead.
+WARNING: Could not open XOR2X1_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX8_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX8_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX2_RVT.design, using frame view instead.
+WARNING: Could not open AO21X1_HVT.design, using frame view instead.
+WARNING: Could not open OA21X1_RVT.design, using frame view instead.
+WARNING: Could not open OR2X1_RVT.design, using frame view instead.
+WARNING: Could not open AND2X1_HVT.design, using frame view instead.
+WARNING: Could not open OR2X1_HVT.design, using frame view instead.
+WARNING: Could not open OR2X1_LVT.design, using frame view instead.
+WARNING: Could not open OR2X2_RVT.design, using frame view instead.
+WARNING: Could not open AND2X1_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX4_RVT.design, using frame view instead.
+WARNING: Could not open INVX4_HVT.design, using frame view instead.
+WARNING: Could not open AO22X1_HVT.design, using frame view instead.
+WARNING: Could not open OA22X1_RVT.design, using frame view instead.
+WARNING: Could not open INVX0_HVT.design, using frame view instead.
+WARNING: Could not open INVX0_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX2_HVT.design, using frame view instead.
+WARNING: Could not open NAND2X4_HVT.design, using frame view instead.
+WARNING: Could not open INVX32_HVT.design, using frame view instead.
+WARNING: Could not open AO22X2_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX8_LVT.design, using frame view instead.
+WARNING: Could not open INVX16_LVT.design, using frame view instead.
+WARNING: Could not open NBUFFX16_RVT.design, using frame view instead.
+WARNING: Could not open INVX8_HVT.design, using frame view instead.
+WARNING: Could not open INVX2_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX4_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX16_HVT.design, using frame view instead.
+WARNING: Could not open INVX1_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX4_LVT.design, using frame view instead.
+WARNING: Could not open OA22X1_HVT.design, using frame view instead.
+WARNING: Could not open AOI22X1_HVT.design, using frame view instead.
+WARNING: Could not open INVX0_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X0_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X0_HVT.design, using frame view instead.
+WARNING: Could not open NAND2X0_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X0_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X0_LVT.design, using frame view instead.
+WARNING: Could not open INVX16_HVT.design, using frame view instead.
+WARNING: Could not open INVX4_RVT.design, using frame view instead.
+WARNING: Could not open AO21X1_LVT.design, using frame view instead.
+WARNING: Could not open AND2X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X4_LVT.design, using frame view instead.
+WARNING: Could not open AO21X1_RVT.design, using frame view instead.
+WARNING: Could not open AND2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X1_RVT.design, using frame view instead.
+WARNING: Could not open OR2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X1_LVT.design, using frame view instead.
+WARNING: Could not open OR2X4_LVT.design, using frame view instead.
+WARNING: Could not open OA22X1_LVT.design, using frame view instead.
+WARNING: Could not open OA21X1_LVT.design, using frame view instead.
+WARNING: Could not open OA21X1_HVT.design, using frame view instead.
+WARNING: Could not open NAND4X0_LVT.design, using frame view instead.
+WARNING: Could not open NAND4X0_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X2_HVT.design, using frame view instead.
+WARNING: Could not open NAND2X1_RVT.design, using frame view instead.
+WARNING: Could not open NAND4X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND4X1_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X2_LVT.design, using frame view instead.
+WARNING: Could not open INVX2_LVT.design, using frame view instead.
+WARNING: Could not open OA21X2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X0_LVT.design, using frame view instead.
+WARNING: Could not open INVX2_RVT.design, using frame view instead.
+WARNING: Could not open AO222X1_HVT.design, using frame view instead.
+WARNING: Could not open NBUFFX32_RVT.design, using frame view instead.
+WARNING: Could not open INVX32_RVT.design, using frame view instead.
+WARNING: Could not open XOR2X1_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X0_RVT.design, using frame view instead.
+WARNING: Could not open XOR2X1_HVT.design, using frame view instead.
+WARNING: Could not open XOR2X2_HVT.design, using frame view instead.
+WARNING: Could not open MUX21X1_LVT.design, using frame view instead.
+WARNING: Could not open AO222X1_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX32_HVT.design, using frame view instead.
+WARNING: Could not open INVX1_LVT.design, using frame view instead.
+WARNING: Could not open NBUFFX32_LVT.design, using frame view instead.
+WARNING: Could not open XOR2X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X2_RVT.design, using frame view instead.
+WARNING: Could not open INVX16_RVT.design, using frame view instead.
+WARNING: Could not open AND2X4_LVT.design, using frame view instead.
+WARNING: Could not open NBUFFX16_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X4_RVT.design, using frame view instead.
+WARNING: Could not open NBUFFX2_LVT.design, using frame view instead.
+WARNING: Could not open INVX8_LVT.design, using frame view instead.
+WARNING: Could not open INVX4_LVT.design, using frame view instead.
+WARNING: Could not open AND2X2_RVT.design, using frame view instead.
+WARNING: Could not open OR2X4_HVT.design, using frame view instead.
+WARNING: Could not open OR2X4_RVT.design, using frame view instead.
+WARNING: Could not open AO22X2_HVT.design, using frame view instead.
+WARNING: Could not open AND2X4_HVT.design, using frame view instead.
+WARNING: Could not open OA22X2_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X4_LVT.design, using frame view instead.
+WARNING: Could not open INVX1_RVT.design, using frame view instead.
+WARNING: Could not open XNOR2X1_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X1_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X1_LVT.design, using frame view instead.
+WARNING: Could not open NOR4X1_LVT.design, using frame view instead.
+WARNING: Could not open MUX21X1_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X1_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X1_HVT.design, using frame view instead.
+WARNING: Could not open MUX21X2_RVT.design, using frame view instead.
+WARNING: Could not open OA221X1_RVT.design, using frame view instead.
+WARNING: Could not open OA21X2_RVT.design, using frame view instead.
+WARNING: Could not open MUX21X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X1_LVT.design, using frame view instead.
+WARNING: Could not open OA221X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X4_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X0_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X2_LVT.design, using frame view instead.
+WARNING: Could not open OAI22X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X1_RVT.design, using frame view instead.
+WARNING: Could not open HADDX1_LVT.design, using frame view instead.
+WARNING: Could not open NOR4X0_LVT.design, using frame view instead.
+WARNING: Could not open AND4X1_LVT.design, using frame view instead.
+WARNING: Could not open OR3X1_LVT.design, using frame view instead.
+WARNING: Could not open DFFARX1_HVT.design, using frame view instead.
+WARNING: Could not open DFFARX1_RVT.design, using frame view instead.
+WARNING: Could not open FADDX1_LVT.design, using frame view instead.
+WARNING: Could not open FADDX2_LVT.design, using frame view instead.
+WARNING: Could not open FADDX1_RVT.design, using frame view instead.
+WARNING: Could not open DFFSSRX1_LVT.design, using frame view instead.
+WARNING: Could not open XOR2X2_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X2_RVT.design, using frame view instead.
+WARNING: Could not open XOR3X2_HVT.design, using frame view instead.
+WARNING: Could not open OAI21X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X2_LVT.design, using frame view instead.
+WARNING: Could not open XNOR2X2_LVT.design, using frame view instead.
+WARNING: Could not open AO21X2_LVT.design, using frame view instead.
+WARNING: Could not open MUX21X2_LVT.design, using frame view instead.
+WARNING: Could not open XNOR2X1_LVT.design, using frame view instead.
+WARNING: Could not open AOI21X2_LVT.design, using frame view instead.
+WARNING: Could not open XOR3X1_RVT.design, using frame view instead.
+WARNING: Could not open OAI21X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X1_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX2_HVT.design, using frame view instead.
+WARNING: Could not open AOI22X1_LVT.design, using frame view instead.
+WARNING: Could not open NOR3X0_LVT.design, using frame view instead.
+WARNING: Could not open OAI21X1_RVT.design, using frame view instead.
+WARNING: Could not open AND3X2_LVT.design, using frame view instead.
+WARNING: Could not open AO222X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X1_HVT.design, using frame view instead.
+WARNING: Could not open DELLN2X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X4_LVT.design, using frame view instead.
+WARNING: Could not open AOI22X2_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX16_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX2_RVT.design, using frame view instead.
+WARNING: Could not open AND3X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI21X1_LVT.design, using frame view instead.
+WARNING: Could not open XNOR3X1_LVT.design, using frame view instead.
+WARNING: Could not open DELLN2X2_RVT.design, using frame view instead.
+WARNING: Could not open XNOR3X2_LVT.design, using frame view instead.
+WARNING: Could not open FADDX1_HVT.design, using frame view instead.
+WARNING: Could not open DELLN1X2_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X1_RVT.design, using frame view instead.
+WARNING: Could not open INVX8_RVT.design, using frame view instead.
+WARNING: Could not open NAND4X0_HVT.design, using frame view instead.
+WARNING: Could not open FADDX2_HVT.design, using frame view instead.
+WARNING: Could not open NOR2X1_HVT.design, using frame view instead.
+WARNING: Could not open AND2X4_RVT.design, using frame view instead.
+WARNING: Could not open DELLN1X2_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X1_LVT.design, using frame view instead.
+WARNING: Could not open SHFILL3_RVT.design, using frame view instead.
+WARNING: Could not open AO21X2_RVT.design, using frame view instead.
+WARNING: Could not open AND3X1_RVT.design, using frame view instead.
+WARNING: Could not open AO222X2_HVT.design, using frame view instead.
+WARNING: Could not open AND4X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI222X1_LVT.design, using frame view instead.
+WARNING: Could not open NAND2X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI222X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI222X2_LVT.design, using frame view instead.
+WARNING: Could not open OA22X2_LVT.design, using frame view instead.
+WARNING: Could not open OAI22X2_RVT.design, using frame view instead.
+WARNING: Could not open DELLN1X2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X2_RVT.design, using frame view instead.
+WARNING: Could not open SHFILL1_RVT.design, using frame view instead.
+WARNING: Could not open OR3X2_LVT.design, using frame view instead.
+WARNING: Could not open NAND3X2_HVT.design, using frame view instead.
+WARNING: Could not open OR2X2_HVT.design, using frame view instead.
+WARNING: Could not open NOR3X2_LVT.design, using frame view instead.
+WARNING: Could not open XNOR2X1_HVT.design, using frame view instead.
+WARNING: Could not open NAND3X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI22X1_RVT.design, using frame view instead.
+WARNING: Could not open AOI22X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI222X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI222X1_LVT.design, using frame view instead.
+WARNING: Could not open AOI22X2_RVT.design, using frame view instead.
+WARNING: Could not open SHFILL2_RVT.design, using frame view instead.
+WARNING: Could not open AND2X2_HVT.design, using frame view instead.
+WARNING: Could not open FADDX2_RVT.design, using frame view instead.
+WARNING: Could not open NAND2X4_RVT.design, using frame view instead.
+WARNING: Could not open OR3X1_HVT.design, using frame view instead.
+WARNING: Could not open OAI21X1_HVT.design, using frame view instead.
+WARNING: Could not open AND3X2_RVT.design, using frame view instead.
+WARNING: Could not open OAI21X2_RVT.design, using frame view instead.
+WARNING: Could not open NAND4X1_HVT.design, using frame view instead.
+WARNING: Could not open MUX21X2_HVT.design, using frame view instead.
+WARNING: Could not open OAI22X2_HVT.design, using frame view instead.
+WARNING: Could not open XNOR2X2_RVT.design, using frame view instead.
+WARNING: Could not open NOR2X4_HVT.design, using frame view instead.
+WARNING: Could not open OAI221X2_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX4_RVT.design, using frame view instead.
+WARNING: Could not open OAI221X1_LVT.design, using frame view instead.
+WARNING: Could not open AO222X2_LVT.design, using frame view instead.
+WARNING: Could not open NOR2X2_HVT.design, using frame view instead.
+WARNING: Could not open DELLN2X2_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX4_HVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_RVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX2_HVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX2_RVT.design, using frame view instead.
+WARNING: Could not open DCAP_HVT.design, using frame view instead.
+WARNING: Could not open LSUPX8_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX2_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX4_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX1_LVT.design, using frame view instead.
+WARNING: Could not open LSUPX2_RVT.design, using frame view instead.
+WARNING: Could not open XOR3X1_HVT.design, using frame view instead.
+WARNING: Could not open NOR2X0_HVT.design, using frame view instead.
+WARNING: Could not open AND3X4_HVT.design, using frame view instead.
+WARNING: Could not open AO221X1_HVT.design, using frame view instead.
+WARNING: Could not open NOR4X1_RVT.design, using frame view instead.
+WARNING: Could not open OA221X2_HVT.design, using frame view instead.
+WARNING: Could not open OA222X2_HVT.design, using frame view instead.
+WARNING: Could not open AO221X1_RVT.design, using frame view instead.
+WARNING: Could not open NOR3X0_HVT.design, using frame view instead.
+WARNING: Could not open OR4X1_HVT.design, using frame view instead.
+WARNING: Could not open AND4X4_HVT.design, using frame view instead.
+WARNING: Could not open AND4X1_RVT.design, using frame view instead.
+WARNING: Could not open AND4X2_HVT.design, using frame view instead.
+WARNING: Could not open OA222X1_HVT.design, using frame view instead.
+WARNING: Could not open AO21X2_HVT.design, using frame view instead.
+WARNING: Could not open OA222X1_RVT.design, using frame view instead.
+WARNING: Could not open NAND3X4_HVT.design, using frame view instead.
+WARNING: Could not open OA21X2_HVT.design, using frame view instead.
+WARNING: Could not open OR3X2_RVT.design, using frame view instead.
+WARNING: Could not open NAND3X4_RVT.design, using frame view instead.
+WARNING: Could not open OR3X1_RVT.design, using frame view instead.
+WARNING: Could not open OA22X2_HVT.design, using frame view instead.
+WARNING: Could not open XNOR3X2_RVT.design, using frame view instead.
+WARNING: Could not open AND4X2_RVT.design, using frame view instead.
+WARNING: Could not open AOI21X2_HVT.design, using frame view instead.
+WARNING: Could not open AOI221X1_HVT.design, using frame view instead.
+WARNING: Could not open OA221X1_LVT.design, using frame view instead.
+WARNING: Could not open HADDX1_RVT.design, using frame view instead.
+WARNING: Could not open AO221X1_LVT.design, using frame view instead.
+WARNING: Could not open HADDX1_HVT.design, using frame view instead.
+WARNING: Could not open AND4X4_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX2_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX4_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX4_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX1_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX4_HVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX1_HVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX2_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX1_RVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX8_LVT.design, using frame view instead.
+WARNING: Could not open LSDNSSX8_HVT.design, using frame view instead.
+WARNING: Could not open NOR3X4_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX32_HVT.design, using frame view instead.
+WARNING: Could not open INVX32_LVT.design, using frame view instead.
+WARNING: Could not open SHFILL128_RVT.design, using frame view instead.
+WARNING: Could not open SHFILL64_RVT.design, using frame view instead.
+WARNING: Could not open IBUFFX4_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX32_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX8_RVT.design, using frame view instead.
+WARNING: Could not open IBUFFX8_HVT.design, using frame view instead.
+WARNING: Could not open IBUFFX8_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX16_RVT.design, using frame view instead.
+WARNING: Could not open DELLN3X2_LVT.design, using frame view instead.
+WARNING: Could not open IBUFFX16_HVT.design, using frame view instead.
+
+ NDM memory usage: 46.127M
+   Scan Hierarchy Time=0:00:02  User=1.66 Sys=0.26 Mem=0.068 GB
+
+Wed Jun  3 22:14:53 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+   Read Library Time=0:00:00  User=0.00 Sys=0.02 Mem=0.006 GB
+
+Wed Jun  3 22:14:53 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+Wed Jun  3 22:14:54 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+     Find Top Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.013 GB
+
+[HA] Hierarchy : Cell Area =        0.539 M : Cell Flat Area =        1.052 M : Child Area Factor =  1.02 x
+    Create Hierarchy Tree Phase: 0 Time=0:00:00  User=0.12 Sys=0.09 Mem=0.014 GB
+
+Prototype Placement Pass 1
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.03 Sys=0.01 Mem=0.013 GB
+
+Find duplicate placements in cells
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.014 GB
+
+     Determine Region Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+      Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+      Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+      Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+      write_verbose_text Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+     Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+0 Total errors found.
+    Create Hierarchy Tree Phase: 2 Time=0:00:00  User=0.01 Sys=0.01 Mem=0.009 GB
+
+   Create Hierarchy Tree Time=0:00:00  User=0.19 Sys=0.15 Mem=0.014 GB
+
+assign() at saed32nm_1p9m_drc_rules.rs:40
+NWELLi = assign({ { 1, 0 } })
+  Function: assign
+  Outputs: empty_layer.associated.0001
+No output written.
+Layer "empty_layer.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+      Pairing Iteration 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+     Pairing Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+    Combined VCELL Time=0:00:00  User=0.07 Sys=0.05 Mem=0.008 GB
+
+Preprocess Step 11 : Post-VCell Explodes
+    Post VCell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+[HA] Hierarchy : Cell Area =        0.505 M : Cell Flat Area =        0.505 M : Child Area Factor =  0.00 x
+Top Cell Area =        0.505 M | Num_regions =    16 | Avg Region Area =        0.032 M | {(       25520,            0) (    16337420,     12371520)}
+     Compress struct nums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     Init regions Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     Highest text setup for instances Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     Update inums Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     Write Instance Name Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     End uniquify verbose names Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+     write_verbose_text Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+    Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+    
+Hierarchy Cleanup Time=0:00:00  User=0.02 Sys=0.02 Mem=0.007 GB
+
+   Optimize Hierarchy Tree Time=0:00:00  User=0.15 Sys=0.13 Mem=0.009 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.02 Sys=0.00 Mem=0.007 GB
+
+Hierarchy Cleanup
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+Wed Jun  3 22:15:06 2020
+
+                                  ICV_Engine 
+
+         Version Q-2019.12-SP2-4 for linux64 - Apr 25, 2020 cl#5500898
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+ICV_REVERT variables set:
+  NDM_DESIGN_ATTACHED_ERROR_DATA: revert back to external file for NDM error data
+Running Multi-Threaded code with 8 shared thread(s)
+Input layer "temp.polygonlayer.0053" is empty.
+wide() at saed32nm_1p9m_drc_rules.rs:2635:Merged command, replaced with an internal copy command.
+m9_s_01 = and(internal1(m9, distance < 0.3, extension = NONE), wide(m9, distance >= 0.1))
+  Function: wide
+  Inputs: temp.polygonlayer.0053
+  Outputs: m9_s_01.polygonlayer.0002
+Input layer "temp.polygonlayer.0053" is empty.
+No output written.
+Layer "m9_s_01.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.006 GB
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.01 Sys=0.01 Mem=0.007 GB
+
+assign() at saed32nm_1p9m_drc_rules.rs:78:Layer creation
+VIA7i = assign({ { 24, 0 } })
+  Function: assign
+  Inputs: VIA7i.polygonlayer.0017, VIA7i.polygonlayer.0017
+  Outputs: VIA7i.polygonlayer.0018, 
+0 grid violations found.
+0 non-45 violations found.
+0 non-90 violations found.
+20924 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.05 Sys=0.03 Mem=0.009 GB
+
+wide() at saed32nm_1p9m_drc_rules.rs:3861:Merged command, replaced with an internal copy command.
+m8_wide_1 = wide(m8, distance > 3)
+  Function: wide
+  Inputs: temp.polygonlayer.0047
+  Outputs: m8_wide_1.polygonlayer.0001
+576 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+wide() at saed32nm_1p9m_drc_rules.rs:3519:Duplicate command replaced with an internal copy command.
+m1_v_5 = wide(m5, > 0.2)
+  Function: wide
+  Inputs: m2_v_4.polygonlayer.0001
+  Outputs: m1_v_5.polygonlayer.0001
+134 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1836:Duplicate command replaced with an internal copy command.
+m4_not_fat_4 = not(m4, m4_fat_wire_4)
+  Function: not
+  Inputs: m4_3.polygonlayer.0001
+  Outputs: m4_not_fat_4.polygonlayer.0001
+2564 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:2199:Duplicate command replaced with an internal copy command.
+m6_not_fat_4 = not(m6, m6_fat_wire_4)
+  Function: not
+  Inputs: m6_3.polygonlayer.0001
+  Outputs: m6_not_fat_4.polygonlayer.0001
+1090 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+wide() at saed32nm_1p9m_drc_rules.rs:3194:Duplicate command replaced with an internal copy command.
+m1_v_1 = wide(m2, > 0.2)
+  Function: wide
+  Inputs: m2_v.polygonlayer.0001
+  Outputs: m1_v_1.polygonlayer.0001
+231 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1236
+m1_fat_wire_2 = not(m1_fat_wire2, m1_fat_wire_3)
+  Function: not
+  Inputs: m1_fat_wire2.polygonlayer.0001, empty_layer.associated.0001, m1_fat_wire_3.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: m1_fat_wire_2.polygonlayer.0001
+Input layer "m1_fat_wire2.polygonlayer.0001" is empty.
+Input layer "m1_fat_wire_3.polygonlayer.0001" is empty.
+No output written.
+Layer "m1_fat_wire_2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.007 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:1188
+external1(m1_s_01, distance < 0.06, extension = NONE, projection_length > 0.2, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL, membership = DIFFERENT_POLYGON)
+  Comment: "M1.S.6: Minimum spacing of M1 with span >= 0.1 with parallel run length > 0.2 must be 0.06"
+  Function: external1
+  Inputs: m1_s_01.polygonlayer.0003, empty_layer.associated.0001
+    Nodal Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=0.013 GB
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.013 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.014 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=0.014 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1696
+m4_w_15_3 = m4_w_15 not m4_w_3
+  Function: not
+  Inputs: m4_w_15.polygonlayer.0001, empty_layer.associated.0001, m4_w_3.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: m4_w_15_3.polygonlayer.0001
+Input layer "m4_w_15.polygonlayer.0001" is empty.
+Input layer "m4_w_3.polygonlayer.0001" is empty.
+No output written.
+Layer "m4_w_15_3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:2261:Duplicate command replaced at runtime with an internal copy command.
+m7_15 = m7 not m7_w_15_3
+  Function: not
+  Inputs: m7_not_fat_3.polygonlayer.0001
+  Outputs: m7_15.polygonlayer.0001
+69 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:3555:Boolean merge optimization replaced or commands with or_list
+not(via6, (via6sq or via6lg or via6bar))
+  Function: or
+  Inputs: via6sq.polygonlayer.0004, via6lg.polygonlayer.0001, via6bar.polygonlayer.0001
+  Outputs: temp.polygonlayer.0095
+Input layer "via6bar.polygonlayer.0001" is empty.
+2500 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.010 GB
+
+donut_holes() at saed32nm_1p9m_drc_rules.rs:2779:Duplicate command replaced with an internal copy command.
+mt_hole = donut_holes(mt, INNER, area > 0.2)
+  Function: donut_holes
+  Inputs: m9_hole.polygonlayer.0002
+  Outputs: mt_hole.polygonlayer.0001
+Input layer "m9_hole.polygonlayer.0002" is empty.
+No output written.
+Layer "mt_hole.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:2782
+not(donut_holes(mt, INNER), mt_hole)
+  Comment: "MT.A.2: MT minimum enclosed area must be 0.2"
+  Function: not
+  Inputs: temp.polygonlayer.0099, empty_layer.associated.0001, mt_hole.polygonlayer.0001, empty_layer.associated.0001
+Input layer "temp.polygonlayer.0099" is empty.
+Input layer "mt_hole.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1544
+m3_3 = m3 not m3_w_3
+  Function: not
+  Inputs: M3i.polygonlayer.0018, empty_layer.associated.0001, m3_w_3.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: m3_3.polygonlayer.0001
+Input layer "m3_w_3.polygonlayer.0001" is empty.
+4242 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1461:Duplicate command replaced with an internal copy command.
+m2_not_fat_4 = not(m2, m2_fat_wire_4)
+  Function: not
+  Inputs: m2_3.polygonlayer.0001
+  Outputs: m2_not_fat_4.polygonlayer.0001
+6227 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+rectangles() at saed32nm_1p9m_drc_rules.rs:3666:Merged command, replaced with an internal copy command.
+via7lg = rectangles(via7, { 0.10, 0.10 })
+  Function: rectangles
+  Inputs: via7sq.polygonlayer.0002
+  Outputs: via7lg.polygonlayer.0001
+20924 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1578
+not(donut_holes(m3, INNER), m3_hole)
+  Comment: "M3.A.2: M3 minimum enclosed area must be 0.2"
+  Function: not
+  Inputs: temp.polygonlayer.0102, empty_layer.associated.0001, m3_hole.polygonlayer.0002, empty_layer.associated.0001
+Input layer "temp.polygonlayer.0102" is empty.
+Input layer "m3_hole.polygonlayer.0002" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:2516
+thin2 = interacting(thin, exthin)
+  Function: interacting
+  Inputs: thin.polygonlayer.0018, empty_layer.associated.0001, exthin.polygonlayer.0019, empty_layer.associated.0001
+  Outputs: thin2.polygonlayer.0006
+Input layer "thin.polygonlayer.0018" is empty.
+Input layer "exthin.polygonlayer.0019" is empty.
+No output written.
+Layer "thin2.polygonlayer.0006" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:2029
+thin3 = thin not thin2
+  Function: not
+  Inputs: thin.polygonlayer.0006, empty_layer.associated.0001, thin2.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: thin3.polygonlayer.0006, thin3.associated.0006
+Input layer "thin.polygonlayer.0006" is empty.
+Input layer "thin2.polygonlayer.0001" is empty.
+No output written.
+Layer "thin3.polygonlayer.0006" is empty.
+No output written.
+Layer "thin3.associated.0006" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1792
+thin3 = thin not thin2
+  Function: not
+  Inputs: thin.polygonlayer.0022, empty_layer.associated.0001, thin2.polygonlayer.0024, empty_layer.associated.0001
+  Outputs: thin3.polygonlayer.0024, thin3.associated.0024
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+No output written.
+Layer "thin3.polygonlayer.0024" is empty.
+No output written.
+Layer "thin3.associated.0024" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.010 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:3844:Duplicate command replaced with an internal copy command.
+r21 = external1(viat, <= 0.2, extension = RADIAL)
+  Function: external1
+  Inputs: r2k.polygonlayer.0001
+  Outputs: r21.polygonlayer.0001
+Input layer "r2k.polygonlayer.0001" is empty.
+No output written.
+Layer "r21.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3527
+r25_v = interacting(via5sq, r25_e)
+  Function: interacting
+  Inputs: via5sq.polygonlayer.0004, empty_layer.associated.0001, r25_e.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r25_v.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+140 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.010 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3846
+r21_v = interacting(viat, r21_e)
+  Function: interacting
+  Inputs: VIA8i.polygonlayer.0018, empty_layer.associated.0001, r21_e.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r21_v.polygonlayer.0001
+Input layer "VIA8i.polygonlayer.0018" is empty.
+Input layer "r21_e.polygonlayer.0001" is empty.
+No output written.
+Layer "r21_v.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3907:Merged command, replaced with an internal copy command.
+interacting(mt_int_viata, viat, count <= 1)
+  Comment: "VIAT.B.4: At least two VIAT are required when connection distance is <5, from fat wire with WxL=5x10"
+  Function: interacting
+  Inputs: temp.polygonlayer.0106
+Input layer "temp.polygonlayer.0106" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3058
+not(via1, m1)
+  Comment: "VIA1.B.2: VIA1 must be covered by M1 and M2, min. enclosure is 0.005um"
+  Function: not
+  Inputs: VIA1i.polygonlayer.0018, empty_layer.associated.0001, M1i.polygonlayer.0018, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.03 Sys=0.01 Mem=0.012 GB
+No output written.
+   Check Time=0:00:00  User=0.03 Sys=0.01 Mem=0.012 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1154:Duplicate command replaced at runtime with an internal copy command.
+m1_015 = m1 not m1_w_015_03
+  Function: not
+  Inputs: m1_not_fat.polygonlayer.0001
+  Outputs: m1_015.polygonlayer.0001
+11167 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1220
+not(donut_holes(m1, INNER), m1_hole)
+  Comment: "M1.A.2: M1 minimum enclosed area must be 0.2"
+  Function: not
+  Inputs: temp.polygonlayer.0109, empty_layer.associated.0001, m1_hole.polygonlayer.0002, empty_layer.associated.0001
+Input layer "temp.polygonlayer.0109" is empty.
+Input layer "m1_hole.polygonlayer.0002" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+edge_size() at saed32nm_1p9m_drc_rules.rs:2546
+sizeedge = edge_size(thin_edge, outside = 0.001)
+  Function: edge_size
+  Inputs: thin_edge.edgelayer.0008, empty_layer.associated.0001
+  Outputs: sizeedge.polygonlayer.0034
+Input layer "thin_edge.edgelayer.0008" is empty.
+No output written.
+Layer "sizeedge.polygonlayer.0034" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+edge_size() at saed32nm_1p9m_drc_rules.rs:2331
+sizeedge1 = edge_size(intthin, outside = 0.001)
+  Function: edge_size
+  Inputs: intthin.edgelayer.0018, empty_layer.associated.0001
+  Outputs: sizeedge1.polygonlayer.0007
+Input layer "intthin.edgelayer.0018" is empty.
+No output written.
+Layer "sizeedge1.polygonlayer.0007" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+and() at saed32nm_1p9m_drc_rules.rs:2388
+andedge = and(sizeedge1, sizeedge)
+  Function: and
+  Inputs: sizeedge1.polygonlayer.0008, empty_layer.associated.0001, sizeedge.polygonlayer.0026, empty_layer.associated.0001
+  Outputs: andedge.polygonlayer.0021
+Input layer "sizeedge1.polygonlayer.0008" is empty.
+Input layer "sizeedge.polygonlayer.0026" is empty.
+No output written.
+Layer "andedge.polygonlayer.0021" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:2536
+thinlength = interacting(thin, adjacent_edge(thin3, length < 0.07, angle1 > 30, angle2 > 30, adjacent_length1 < 0.17, adjacent_length2 < 0.17))
+  Function: interacting
+  Inputs: thin.polygonlayer.0019, empty_layer.associated.0001, thinlength.edgelayer.0022, empty_layer.associated.0001
+  Outputs: thinlength.polygonlayer.0005
+Input layer "thin.polygonlayer.0019" is empty.
+Input layer "thinlength.edgelayer.0022" is empty.
+No output written.
+Layer "thinlength.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+length_edge() at saed32nm_1p9m_drc_rules.rs:2390
+minlength = interacting(thin, length_edge(forlength, distance < 1.5, corners = CONNECT))
+  Function: length_edge
+  Inputs: forlength.edgelayer.0020, empty_layer.associated.0001
+  Outputs: minlength.edgelayer.0023
+Input layer "forlength.edgelayer.0020" is empty.
+No output written.
+Layer "minlength.edgelayer.0023" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:2694
+minlength = interacting(thin, length_edge(forlength, distance < 0.1, corners = CONNECT))
+  Function: interacting
+  Inputs: thin.polygonlayer.0023, empty_layer.associated.0001, minlength.edgelayer.0019, empty_layer.associated.0001
+  Outputs: minlength.polygonlayer.0022, minlength.associated.0022
+Input layer "thin.polygonlayer.0023" is empty.
+Input layer "minlength.edgelayer.0019" is empty.
+No output written.
+Layer "minlength.associated.0022" is empty.
+No output written.
+Layer "minlength.polygonlayer.0022" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:1807
+minlength = interacting(thin, length_edge(forlength, distance < 0.17, corners = CONNECT))
+  Function: interacting
+  Inputs: thin.polygonlayer.0013, empty_layer.associated.0001, minlength.edgelayer.0024, empty_layer.associated.0001
+  Outputs: minlength.polygonlayer.0024, minlength.associated.0024
+Input layer "thin.polygonlayer.0013" is empty.
+Input layer "minlength.edgelayer.0024" is empty.
+No output written.
+Layer "minlength.associated.0024" is empty.
+No output written.
+Layer "minlength.polygonlayer.0024" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+internal1() at saed32nm_1p9m_drc_rules.rs:1808
+minwidth = internal1(minlength, distance < 0.07, extension = SQUARE)
+  Function: internal1
+  Inputs: minlength.polygonlayer.0024, minlength.associated.0024
+  Outputs: minwidth.polygonlayer.0024
+Input layer "minlength.polygonlayer.0024" is empty.
+0 width violations found.
+Layer "minwidth.polygonlayer.0024" is empty.
+    Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+external2() at saed32nm_1p9m_drc_rules.rs:1766
+external2(m4, m4wide, distance < 0.06, extension = RADIAL, look_thru = COINCIDENT, intersecting = TOUCH)
+  Comment: "M4.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06"
+  Function: external2
+  Inputs: M4i.polygonlayer.0018, empty_layer.associated.0001, m4wide.polygonlayer.0001, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.01 Mem=0.011 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.02 Sys=0.01 Mem=0.011 GB
+
+external2() at saed32nm_1p9m_drc_rules.rs:1563
+external2(m3, via2, distance < 0.08, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "M3.S.8: Minimum spacing to neighboring  VIAx must be 0.08"
+  Function: external2
+  Inputs: M3i.polygonlayer.0018, empty_layer.associated.0001, VIA2i.polygonlayer.0018, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.04 Sys=0.01 Mem=0.011 GB
+0 spacing violations found.
+   Check Time=0:00:00  User=0.04 Sys=0.01 Mem=0.011 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:1462
+thin = interacting(m2_not_fat_4, m2_fat_wire_4)
+  Function: interacting
+  Inputs: m2_not_fat_4.polygonlayer.0001, empty_layer.associated.0001, m2_fat_wire_4.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: thin.polygonlayer.0031
+Input layer "m2_fat_wire_4.polygonlayer.0001" is empty.
+No output written.
+Layer "thin.polygonlayer.0031" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:1264
+exthin = external1(thin, distance < 0.001, extension = NONE, orientation = {  }, intersecting = { PERPENDICULAR })
+  Function: external1
+  Inputs: thin.polygonlayer.0033, empty_layer.associated.0001
+  Outputs: exthin.polygonlayer.0033
+Input layer "thin.polygonlayer.0033" is empty.
+0 spacing violations found.
+Layer "exthin.polygonlayer.0033" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:1472
+thin2 = interacting(thin, exthin)
+  Function: interacting
+  Inputs: thin.polygonlayer.0031, empty_layer.associated.0001, exthin.polygonlayer.0025, empty_layer.associated.0001
+  Outputs: thin2.polygonlayer.0033
+Input layer "thin.polygonlayer.0031" is empty.
+Input layer "exthin.polygonlayer.0025" is empty.
+No output written.
+Layer "thin2.polygonlayer.0033" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:1255
+thin3 = thin not thin2
+  Function: not
+  Inputs: thin.polygonlayer.0035, empty_layer.associated.0001, thin2.polygonlayer.0034, empty_layer.associated.0001
+  Outputs: thin3.polygonlayer.0035, thin3.associated.0035
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.01 Mem=0.011 GB
+No output written.
+Layer "thin3.associated.0035" is empty.
+88 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=0.011 GB
+
+and() at saed32nm_1p9m_drc_rules.rs:1468
+andedge = and(sizeedge1, sizeedge)
+  Function: and
+  Inputs: sizeedge1.polygonlayer.0028, empty_layer.associated.0001, sizeedge.polygonlayer.0004, empty_layer.associated.0001
+  Outputs: andedge.polygonlayer.0025
+Input layer "sizeedge1.polygonlayer.0028" is empty.
+Input layer "sizeedge.polygonlayer.0004" is empty.
+No output written.
+Layer "andedge.polygonlayer.0025" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+and() at saed32nm_1p9m_drc_rules.rs:1625
+andedge = and(sizeedge1, sizeedge)
+  Function: and
+  Inputs: sizeedge1.polygonlayer.0030, empty_layer.associated.0001, sizeedge.polygonlayer.0008, empty_layer.associated.0001
+  Outputs: andedge.polygonlayer.0035
+Input layer "sizeedge1.polygonlayer.0030" is empty.
+Input layer "sizeedge.polygonlayer.0008" is empty.
+No output written.
+Layer "andedge.polygonlayer.0035" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+interacting_edge() at saed32nm_1p9m_drc_rules.rs:1269
+forlength = interacting_edge(thin, andedge)
+  Function: interacting_edge
+  Inputs: thin.polygonlayer.0033, empty_layer.associated.0001, andedge.polygonlayer.0030, empty_layer.associated.0001
+  Outputs: forlength.edgelayer.0035
+Input layer "thin.polygonlayer.0033" is empty.
+Input layer "andedge.polygonlayer.0030" is empty.
+No output written.
+Layer "forlength.edgelayer.0035" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3837
+via049 = viat not (r2k_v or r4k_v)
+  Function: not
+  Inputs: VIA8i.polygonlayer.0018, empty_layer.associated.0001, via049.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: via049.polygonlayer.0002
+Input layer "VIA8i.polygonlayer.0018" is empty.
+Input layer "via049.polygonlayer.0001" is empty.
+No output written.
+Layer "via049.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+copy() at saed32nm_1p9m_drc_rules.rs:3091
+copy(via1_e_2_4)
+  Comment: "VIA1.E.2/VIA1.E.4: Minimum VIA1 enclosure by M1 and M2 at least two opposite sides if other two sides >= 0.005 must be 0.03, or must be 0.012 if one side is >=0.005"
+  Function: copy
+  Inputs: via1_e_2_4.polygonlayer.0001
+Input layer "via1_e_2_4.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+copy() at saed32nm_1p9m_drc_rules.rs:3402
+copy(via4_e_2_4)
+  Comment: "VIA4.E.2/VIA4.E.4: Minimum VIA4 enclosure by M4 and M5 at least two opposite sides if other two sides >= 0.005 must be 0.03, or must be 0.012 if one side is >=0.005"
+  Function: copy
+  Inputs: via4_e_2_4.polygonlayer.0001
+Input layer "via4_e_2_4.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3431
+not(interacting(via4, m45), interacting(via4, ((interacting(m45, via4bar, count >= 1)) or (interacting(m45, r24_v, count >= 2)) or (interacting(m45, r34_v, count >= 2)) or (interacting(m45, r44_v, count >= 4)) or (interacting(m45, r54_v, count >= 4)))))
+  Comment: "VIA4.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)"
+  Function: not
+  Inputs: temp.polygonlayer.0140, empty_layer.associated.0001, temp.polygonlayer.0151, empty_layer.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.011 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:1455
+or(minwidth, thinlength)
+  Comment: "M2.W.2.3: Minimum width of thin wire with length less than 0.7, connected to fat wire with width larges than 1.5, must be 0.15"
+  Function: or
+  Inputs: minwidth.polygonlayer.0031, thinlength.polygonlayer.0028
+Input layer "minwidth.polygonlayer.0031" is empty.
+Input layer "thinlength.polygonlayer.0028" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:1900
+mLAYER_37 or mLAYER_38
+  Comment: "M5.S.3.3: Minimum spacing depending on metal width of one of lines and their parallel run length must be 0.6"
+  Function: or
+  Inputs: mLAYER_37.polygonlayer.0001, mLAYER_38.polygonlayer.0001
+Input layer "mLAYER_37.polygonlayer.0001" is empty.
+Input layer "mLAYER_38.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:2801
+mt_s_01_v = not(mt, internal1(mt, distance < 0.3, extension = NONE, direction = VERTICAL))
+  Function: not
+  Inputs: M9i.polygonlayer.0018, empty_layer.associated.0001, mt_s_01_v.polygonlayer.0003, empty_layer.associated.0001
+  Outputs: mt_s_01_v.polygonlayer.0004
+Input layer "M9i.polygonlayer.0018" is empty.
+Input layer "mt_s_01_v.polygonlayer.0003" is empty.
+No output written.
+Layer "mt_s_01_v.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.008 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:2807:command replaced with an internal copy command.
+external1(mt_s_01_v, distance < 0.2, extension = NONE, direction = VERTICAL, projection_length > 0.4, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Function: external1
+  Inputs: mt_s_01_v.polygonlayer.0004
+  Outputs: temp.polygonlayer.0156
+Input layer "mt_s_01_v.polygonlayer.0004" is empty.
+No output written.
+Layer "temp.polygonlayer.0156" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:2807
+external1(mt_s_01_v, distance < 0.2, extension = NONE, direction = VERTICAL, projection_length > 0.4, orientation = PARALLEL, intersecting = {  }, projection = IN, orthogonal = ALL, look_thru = ALL)
+  Comment: "MT.S.4: Minimum spacing of MT with span > 0.3 with parallel run length > 0.4 must be 0.2"
+  Function: external1
+  Inputs: temp.polygonlayer.0156, empty_layer.associated.0001
+Input layer "temp.polygonlayer.0156" is empty.
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not_covered_by() at saed32nm_1p9m_drc_rules.rs:3608
+not_covered_by(via6bar, m6, distances = { { { 0.005, extension = NONE }, { 0, extension = NONE }, { 0.005, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.005, extension = NONE }, { 0, extension = NONE }, { 0.005, extension = NONE } } }, intersecting = { TOUCH })
+  Function: not_covered_by
+  Inputs: VIA6i.polygonlayer.0020, M6i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:2157
+or(minwidth, thinlength)
+  Function: or
+  Inputs: M6i.polygonlayer.0020, M6i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:3576
+external1(via6lg, distance < 0.085, extension = RADIAL, relational = POINT_TOUCH)
+  Function: external1
+  Inputs: VIA6i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.01 Sys=0.00 Mem=0.008 GB
+
+area() at saed32nm_1p9m_drc_rules.rs:2115
+area(m6, value < 0.016)
+  Function: area
+  Inputs: M6i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:2248
+mLAYER_49 or mLAYER_50
+  Function: or
+  Inputs: M7i.polygonlayer.0020, M7i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+wide() at saed32nm_1p9m_drc_rules.rs:2407
+wide(m8, distance > 5)
+  Function: wide
+  Inputs: M8i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+external2() at saed32nm_1p9m_drc_rules.rs:2671
+external2(m9, m9wide, distance < 0.06, extension = RADIAL, look_thru = COINCIDENT, intersecting = TOUCH)
+  Function: external2
+  Inputs: M9i.polygonlayer.0020, M9i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+external2() at saed32nm_1p9m_drc_rules.rs:3154
+external2(via2bar, via2lg, distance < 0.085, extension = RADIAL, relational = POINT_TOUCH)
+  Function: external2
+  Inputs: VIA2i.polygonlayer.0020, VIA2i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+external2() at saed32nm_1p9m_drc_rules.rs:3695
+external2(via7bar, via7lg, distance < 0.085, extension = RADIAL, relational = POINT_TOUCH)
+  Function: external2
+  Inputs: VIA7i.polygonlayer.0020, VIA7i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not_covered_by() at saed32nm_1p9m_drc_rules.rs:2971
+not_covered_by(co_m1, m1, distances = { { { 0.0 }, { 0.02 }, { 0.0 }, { 0.02 } }, { { 0.02 }, { 0.0 }, { 0.02 }, { 0.0 } } }, intersecting = { TOUCH })
+  Function: not_covered_by
+  Inputs: COi.polygonlayer.0020, M1i.polygonlayer.0020, M1i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+not_covered_by() at saed32nm_1p9m_drc_rules.rs:3066
+not_covered_by(via1bar, m1, distances = { { { 0.005, extension = NONE }, { 0, extension = NONE }, { 0.005, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.005, extension = NONE }, { 0, extension = NONE }, { 0.005, extension = NONE } } }, intersecting = { TOUCH })
+  Function: not_covered_by
+  Inputs: VIA1i.polygonlayer.0020, M1i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:1352
+mLAYER_15 or mLAYER_16
+  Function: or
+  Inputs: M2i.polygonlayer.0020, M2i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+external1() at saed32nm_1p9m_drc_rules.rs:1311
+external1(m2, distance < 0.056, extension = RADIAL, relational = POINT_TOUCH)
+  Function: external1
+  Inputs: M2i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.008 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:3767
+r57_or = or(r57, via7lg)
+  Function: or
+  Inputs: r57.polygonlayer.0001, via7lg.polygonlayer.0001
+  Outputs: r57_or.polygonlayer.0001
+149 unique polygons written.
+   Check Time=0:00:00  User=0.08 Sys=0.03 Mem=0.014 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3768
+r57_e = interacting(r57_or, via7lg, count > 3)
+  Function: interacting
+  Inputs: r57_or.polygonlayer.0001, empty_layer.associated.0001, via7lg.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r57_e.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.01 Mem=0.013 GB
+All rectangles = 1
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.02 Sys=0.01 Mem=0.014 GB
+Alias input as the select result
+149 unique polygons written.
+   Check Time=0:00:00  User=0.03 Sys=0.03 Mem=0.014 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3769
+r57_v = interacting(via7lg, r57_e)
+  Function: interacting
+  Inputs: via7lg.polygonlayer.0001, empty_layer.associated.0001, r57_e.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: r57_v.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.03 Sys=0.02 Mem=0.015 GB
+20924 unique polygons written.
+   Check Time=0:00:00  User=0.04 Sys=0.03 Mem=0.015 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3773
+not(interacting(via7, m78), (interacting(via7, ((interacting(m78, via7bar, count >= 1)) or (interacting(m78, r27_v, count >= 2)) or (interacting(m78, r37_v, count >= 2)) or (interacting(m78, r47_v, count >= 4)) or (interacting(m78, r57_v, count >= 4))))))
+  Function: interacting
+  Inputs: m78.polygonlayer.0001, empty_layer.associated.0001, r57_v.polygonlayer.0001, empty_layer.associated.0001
+  Outputs: temp.polygonlayer.0160
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=0.010 GB
+All rectangles = 1
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=0.010 GB
+    Large Cell Time=0:00:00  User=0.01 Sys=0.01 Mem=0.015 GB
+Alias input as the select result
+196 unique polygons written.
+   Check Time=0:00:00  User=0.02 Sys=0.02 Mem=0.015 GB
+
+or() at saed32nm_1p9m_drc_rules.rs:3773:Boolean merge optimization replaced or commands with or_list
+not(interacting(via7, m78), (interacting(via7, ((interacting(m78, via7bar, count >= 1)) or (interacting(m78, r27_v, count >= 2)) or (interacting(m78, r37_v, count >= 2)) or (interacting(m78, r47_v, count >= 4)) or (interacting(m78, r57_v, count >= 4))))))
+  Function: or
+  Inputs: temp.polygonlayer.0123, temp.polygonlayer.0124, temp.polygonlayer.0148, temp.polygonlayer.0125, temp.polygonlayer.0160
+  Outputs: temp.polygonlayer.0161
+Input layer "temp.polygonlayer.0123" is empty.
+Input layer "temp.polygonlayer.0124" is empty.
+Input layer "temp.polygonlayer.0125" is empty.
+196 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.009 GB
+
+interacting() at saed32nm_1p9m_drc_rules.rs:3773:Duplicate command replaced at runtime with an internal copy command.
+not(interacting(via7, m78), (interacting(via7, ((interacting(m78, via7bar, count >= 1)) or (interacting(m78, r27_v, count >= 2)) or (interacting(m78, r37_v, count >= 2)) or (interacting(m78, r47_v, count >= 4)) or (interacting(m78, r57_v, count >= 4))))))
+  Function: interacting
+  Inputs: temp.polygonlayer.0122
+  Outputs: temp.polygonlayer.0162
+20924 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3773
+not(interacting(via7, m78), (interacting(via7, ((interacting(m78, via7bar, count >= 1)) or (interacting(m78, r27_v, count >= 2)) or (interacting(m78, r37_v, count >= 2)) or (interacting(m78, r47_v, count >= 4)) or (interacting(m78, r57_v, count >= 4))))))
+  Comment: "VIA7.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)"
+  Function: not
+  Inputs: temp.polygonlayer.0122, empty_layer.associated.0001, temp.polygonlayer.0162, empty_layer.associated.0001
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+not() at saed32nm_1p9m_drc_rules.rs:3773
+not(interacting(via7, m78), (interacting(via7, ((interacting(m78, via7bar, count >= 1)) or (interacting(m78, r27_v, count >= 2)) or (interacting(m78, r37_v, count >= 2)) or (interacting(m78, r47_v, count >= 4)) or (interacting(m78, r57_v, count >= 4))))))
+  Function: not
+  Inputs: VIA7i.polygonlayer.0020, M7i.polygonlayer.0020, M8i.polygonlayer.0020, VIA7i.polygonlayer.0020, M7i.polygonlayer.0020, M8i.polygonlayer.0020
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+Reading error hierarchy error._hier.0001 ...
+ Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+
+Writing NDM Error View signoff_check_drc.err
+
+NDM: Information: Loading library file '/u/divyaj2/ECE510-2020-SPRING/project/apr/work/ORCA_TOP_lib' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_c.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_ulvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_dlvl_v.ndm' (FILE-007)
+NDM: Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/ndm/saed32sram_c.ndm' (FILE-007)
+  Error Output Time=0:00:02  User=1.69 Sys=0.25 Mem=0.695 GB
+
+
+ NDM memory usage: 702.336M
+  File Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=0.684 GB
+

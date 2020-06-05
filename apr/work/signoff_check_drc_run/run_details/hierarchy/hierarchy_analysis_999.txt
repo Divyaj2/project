@@ -1,0 +1,309 @@
+* Description of frequently used terms in hierarchy_analysis files*
+M indicates that the value of that column is in millions
+Hier Plc Count(Hierarchical Placement Count) : Number of unique instances of the cell in another cell (Parent)
+Flat Plc Count(Flat Placement Count)         : Total number of instances of the cell in the layout
+
+Example : 
+                               A                     
+                              / \                   Cell  Hier Plc Count Flat Plc Count 
+                             /   \                     A               1              1 
+                            B     B                    B               2              2 
+                           / \  /  \                   C               2              4 
+                          C   C C   C                
+------------------------------------------------------------------------------------------------------ 
+
+
+* Cells with flat area > 0.01 of top cell *
+Reports cells with flat area > 0.01 of top cell
+
+Flat A(Flat Area) : Total area covered by this cell in the layout(cell area * flat placement count)
+Cell A(Cell Area) : Area of this cell
+Percent of top    : Percentage of area of this cell w.r.t area of top cell
+This table contains a single entry
+
+ Name                                          | Flat A (M um^2), Cell A (M um^2), Flat Plc Count, Hier Plc Count, Percent of top
+-----------------------------------------------
+ ORCA_TOP                                      |           0.505,           0.505,              1,              1,       100.00 %
+===============================================
+
+* Large-Area cells and child area ratio *
+This table reports cells with large areas and ratio of its area with total area covered by its children
+
+Num Inst(Number of instances) : Total Number of instances of the cell
+Child A(Child Area)           : Total area covered by all the children of the cell
+Pct of parent(Percent of area): Percentage of total area covered by its childern w.r.t area of this cell
+This table contains a single entry
+
+ Name                                          | Flat A (M um^2), Cell A (M um^2), Num Inst (M), Child A (M um^2), Pct of parent
+-----------------------------------------------
+ ORCA_TOP                                      |           0.505,           0.505,        0.000,           0.000,        0.00 %
+===============================================
+
+* Exploded Cell Information *
+Displays information of exploded cells
+
+Parent cell           : Name of the parent cell the cell has exploded into
+Exploded Inst Count   : Total number of instances of the cell that has expldoed to the parent cell
+Parent Flat Plc Count : Parent cell flat placement count
+Parent Hier Plc Count : Parent cell hierarchical placement count
+This table contains 200 entries
+
+ Exploded Cell                                 | Parent Cell                                   | Exploded Inst Count, Parent Flat Plc Count, Parent Hier Plc Count
+----------------------------------------------- -----------------------------------------------
+ SHFILL3_RVT                                   | ORCA_TOP                                      |               65743,                     1,                     1
+ SHFILL1_RVT                                   | ORCA_TOP                                      |                9297,                     1,                     1
+ SHFILL2_RVT                                   | ORCA_TOP                                      |                8808,                     1,                     1
+ AO22X1_HVT                                    | ORCA_TOP                                      |                8163,                     1,                     1
+ DCAP_HVT                                      | ORCA_TOP                                      |                4576,                     1,                     1
+ OR2X1_HVT                                     | ORCA_TOP                                      |                2487,                     1,                     1
+ AND2X1_HVT                                    | ORCA_TOP                                      |                2388,                     1,                     1
+ NAND2X0_LVT                                   | ORCA_TOP                                      |                2153,                     1,                     1
+ INVX0_HVT                                     | ORCA_TOP                                      |                1804,                     1,                     1
+ AO22X1_RVT                                    | ORCA_TOP                                      |                1341,                     1,                     1
+ FADDX1_LVT                                    | ORCA_TOP                                      |                1192,                     1,                     1
+ NAND2X0_HVT                                   | ORCA_TOP                                      |                1148,                     1,                     1
+ AND2X1_LVT                                    | ORCA_TOP                                      |                1098,                     1,                     1
+ SDFFARX1_RVT                                  | ORCA_TOP                                      |                1047,                     1,                     1
+ INVX0_LVT                                     | ORCA_TOP                                      |                 759,                     1,                     1
+ AO22X1_LVT                                    | ORCA_TOP                                      |                 729,                     1,                     1
+ SDFFNARX1_HVT                                 | ORCA_TOP                                      |                 717,                     1,                     1
+ OA22X1_HVT                                    | ORCA_TOP                                      |                 687,                     1,                     1
+ SDFFARX1_LVT                                  | ORCA_TOP                                      |                 655,                     1,                     1
+ FADDX1_HVT                                    | ORCA_TOP                                      |                 635,                     1,                     1
+ OR2X1_LVT                                     | ORCA_TOP                                      |                 603,                     1,                     1
+ SHFILL128_RVT                                 | ORCA_TOP                                      |                 599,                     1,                     1
+ INVX1_LVT                                     | ORCA_TOP                                      |                 566,                     1,                     1
+ FADDX1_RVT                                    | ORCA_TOP                                      |                 561,                     1,                     1
+ AND2X1_RVT                                    | ORCA_TOP                                      |                 526,                     1,                     1
+ OR2X1_RVT                                     | ORCA_TOP                                      |                 511,                     1,                     1
+ NAND3X0_LVT                                   | ORCA_TOP                                      |                 500,                     1,                     1
+ SDFFARX1_HVT                                  | ORCA_TOP                                      |                 488,                     1,                     1
+ NBUFFX4_RVT                                   | ORCA_TOP                                      |                 478,                     1,                     1
+ INVX2_LVT                                     | ORCA_TOP                                      |                 465,                     1,                     1
+ SDFFX1_LVT                                    | ORCA_TOP                                      |                 448,                     1,                     1
+ SHFILL64_RVT                                  | ORCA_TOP                                      |                 441,                     1,                     1
+ NBUFFX2_HVT                                   | ORCA_TOP                                      |                 417,                     1,                     1
+ NBUFFX2_RVT                                   | ORCA_TOP                                      |                 400,                     1,                     1
+ XOR2X1_LVT                                    | ORCA_TOP                                      |                 390,                     1,                     1
+ INVX4_LVT                                     | ORCA_TOP                                      |                 384,                     1,                     1
+ INVX0_RVT                                     | ORCA_TOP                                      |                 355,                     1,                     1
+ OA21X1_LVT                                    | ORCA_TOP                                      |                 354,                     1,                     1
+ AO21X1_LVT                                    | ORCA_TOP                                      |                 334,                     1,                     1
+ NBUFFX8_RVT                                   | ORCA_TOP                                      |                 333,                     1,                     1
+ NAND2X0_RVT                                   | ORCA_TOP                                      |                 329,                     1,                     1
+ INVX1_HVT                                     | ORCA_TOP                                      |                 311,                     1,                     1
+ SDFFARX2_RVT                                  | ORCA_TOP                                      |                 292,                     1,                     1
+ XOR3X1_LVT                                    | ORCA_TOP                                      |                 283,                     1,                     1
+ SDFFNARX1_RVT                                 | ORCA_TOP                                      |                 266,                     1,                     1
+ INVX4_HVT                                     | ORCA_TOP                                      |                 249,                     1,                     1
+ XOR2X2_LVT                                    | ORCA_TOP                                      |                 246,                     1,                     1
+ NAND2X2_LVT                                   | ORCA_TOP                                      |                 228,                     1,                     1
+ NAND2X4_LVT                                   | ORCA_TOP                                      |                 223,                     1,                     1
+ INVX2_HVT                                     | ORCA_TOP                                      |                 217,                     1,                     1
+ INVX8_LVT                                     | ORCA_TOP                                      |                 210,                     1,                     1
+ NAND4X0_LVT                                   | ORCA_TOP                                      |                 189,                     1,                     1
+ XOR3X1_RVT                                    | ORCA_TOP                                      |                 182,                     1,                     1
+ XOR3X2_LVT                                    | ORCA_TOP                                      |                 163,                     1,                     1
+ XNOR2X2_LVT                                   | ORCA_TOP                                      |                 162,                     1,                     1
+ XOR2X1_HVT                                    | ORCA_TOP                                      |                 161,                     1,                     1
+ OA22X1_RVT                                    | ORCA_TOP                                      |                 152,                     1,                     1
+ SDFFARX2_HVT                                  | ORCA_TOP                                      |                 150,                     1,                     1
+ SDFFNARX2_HVT                                 | ORCA_TOP                                      |                 141,                     1,                     1
+ AND3X1_LVT                                    | ORCA_TOP                                      |                 139,                     1,                     1
+ SDFFX1_HVT                                    | ORCA_TOP                                      |                 139,                     1,                     1
+ SDFFNARX2_RVT                                 | ORCA_TOP                                      |                 136,                     1,                     1
+ NOR2X0_LVT                                    | ORCA_TOP                                      |                 134,                     1,                     1
+ OA22X1_LVT                                    | ORCA_TOP                                      |                 131,                     1,                     1
+ AOI22X1_HVT                                   | ORCA_TOP                                      |                 127,                     1,                     1
+ XOR2X1_RVT                                    | ORCA_TOP                                      |                 126,                     1,                     1
+ INVX1_RVT                                     | ORCA_TOP                                      |                 122,                     1,                     1
+ NBUFFX2_LVT                                   | ORCA_TOP                                      |                 114,                     1,                     1
+ AO21X1_HVT                                    | ORCA_TOP                                      |                 113,                     1,                     1
+ NBUFFX8_HVT                                   | ORCA_TOP                                      |                 108,                     1,                     1
+ OR2X2_LVT                                     | ORCA_TOP                                      |                  99,                     1,                     1
+ TIEH_HVT                                      | ORCA_TOP                                      |                  99,                     1,                     1
+ NBUFFX4_HVT                                   | ORCA_TOP                                      |                  95,                     1,                     1
+ AO222X1_HVT                                   | ORCA_TOP                                      |                  92,                     1,                     1
+ AO22X2_LVT                                    | ORCA_TOP                                      |                  90,                     1,                     1
+ SDFFARX2_LVT                                  | ORCA_TOP                                      |                  89,                     1,                     1
+ OA21X1_HVT                                    | ORCA_TOP                                      |                  86,                     1,                     1
+ INVX8_HVT                                     | ORCA_TOP                                      |                  83,                     1,                     1
+ NBUFFX8_LVT                                   | ORCA_TOP                                      |                  82,                     1,                     1
+ NAND3X2_LVT                                   | ORCA_TOP                                      |                  81,                     1,                     1
+ NAND3X0_HVT                                   | ORCA_TOP                                      |                  79,                     1,                     1
+ OA21X1_RVT                                    | ORCA_TOP                                      |                  79,                     1,                     1
+ DFFARX1_HVT                                   | ORCA_TOP                                      |                  77,                     1,                     1
+ NOR2X1_HVT                                    | ORCA_TOP                                      |                  74,                     1,                     1
+ INVX4_RVT                                     | ORCA_TOP                                      |                  73,                     1,                     1
+ INVX2_RVT                                     | ORCA_TOP                                      |                  72,                     1,                     1
+ AND2X2_LVT                                    | ORCA_TOP                                      |                  71,                     1,                     1
+ OAI21X1_LVT                                   | ORCA_TOP                                      |                  69,                     1,                     1
+ SDFFX2_LVT                                    | ORCA_TOP                                      |                  69,                     1,                     1
+ AO21X1_RVT                                    | ORCA_TOP                                      |                  67,                     1,                     1
+ MUX21X1_HVT                                   | ORCA_TOP                                      |                  67,                     1,                     1
+ NAND3X0_RVT                                   | ORCA_TOP                                      |                  65,                     1,                     1
+ NBUFFX4_LVT                                   | ORCA_TOP                                      |                  65,                     1,                     1
+ AOI22X1_LVT                                   | ORCA_TOP                                      |                  64,                     1,                     1
+ XNOR2X1_LVT                                   | ORCA_TOP                                      |                  54,                     1,                     1
+ MUX21X1_LVT                                   | ORCA_TOP                                      |                  53,                     1,                     1
+ INVX32_HVT                                    | ORCA_TOP                                      |                  52,                     1,                     1
+ AO22X2_HVT                                    | ORCA_TOP                                      |                  51,                     1,                     1
+ DFFARX1_RVT                                   | ORCA_TOP                                      |                  51,                     1,                     1
+ INVX16_LVT                                    | ORCA_TOP                                      |                  51,                     1,                     1
+ NBUFFX32_HVT                                  | ORCA_TOP                                      |                  51,                     1,                     1
+ NAND3X1_LVT                                   | ORCA_TOP                                      |                  50,                     1,                     1
+ NAND4X0_RVT                                   | ORCA_TOP                                      |                  49,                     1,                     1
+ NBUFFX16_HVT                                  | ORCA_TOP                                      |                  49,                     1,                     1
+ SDFFNARX1_LVT                                 | ORCA_TOP                                      |                  49,                     1,                     1
+ AND3X1_HVT                                    | ORCA_TOP                                      |                  48,                     1,                     1
+ FADDX2_LVT                                    | ORCA_TOP                                      |                  47,                     1,                     1
+ AOI21X1_LVT                                   | ORCA_TOP                                      |                  46,                     1,                     1
+ DFFX1_LVT                                     | ORCA_TOP                                      |                  43,                     1,                     1
+ MUX21X2_LVT                                   | ORCA_TOP                                      |                  43,                     1,                     1
+ NAND2X1_LVT                                   | ORCA_TOP                                      |                  42,                     1,                     1
+ AND4X1_LVT                                    | ORCA_TOP                                      |                  41,                     1,                     1
+ AOI21X1_HVT                                   | ORCA_TOP                                      |                  41,                     1,                     1
+ NBUFFX32_LVT                                  | ORCA_TOP                                      |                  41,                     1,                     1
+ INVX8_RVT                                     | ORCA_TOP                                      |                  40,                     1,                     1
+ NBUFFX16_LVT                                  | ORCA_TOP                                      |                  40,                     1,                     1
+ OA21X2_LVT                                    | ORCA_TOP                                      |                  38,                     1,                     1
+ AO22X2_RVT                                    | ORCA_TOP                                      |                  35,                     1,                     1
+ XOR3X2_RVT                                    | ORCA_TOP                                      |                  35,                     1,                     1
+ AND3X1_RVT                                    | ORCA_TOP                                      |                  34,                     1,                     1
+ AOI22X1_RVT                                   | ORCA_TOP                                      |                  34,                     1,                     1
+ MUX21X1_RVT                                   | ORCA_TOP                                      |                  34,                     1,                     1
+ AO222X1_LVT                                   | ORCA_TOP                                      |                  33,                     1,                     1
+ TIEL_HVT                                      | ORCA_TOP                                      |                  33,                     1,                     1
+ DFFARX1_LVT                                   | ORCA_TOP                                      |                  32,                     1,                     1
+ DFFNARX1_HVT                                  | ORCA_TOP                                      |                  32,                     1,                     1
+ SDFFX2_HVT                                    | ORCA_TOP                                      |                  32,                     1,                     1
+ AND4X1_RVT                                    | ORCA_TOP                                      |                  28,                     1,                     1
+ DFFX1_HVT                                     | ORCA_TOP                                      |                  27,                     1,                     1
+ NBUFFX16_RVT                                  | ORCA_TOP                                      |                  27,                     1,                     1
+ IBUFFX2_LVT                                   | ORCA_TOP                                      |                  25,                     1,                     1
+ NAND3X4_LVT                                   | ORCA_TOP                                      |                  25,                     1,                     1
+ SDFFX1_RVT                                    | ORCA_TOP                                      |                  25,                     1,                     1
+ IBUFFX2_RVT                                   | ORCA_TOP                                      |                  24,                     1,                     1
+ AOI21X1_RVT                                   | ORCA_TOP                                      |                  23,                     1,                     1
+ INVX32_LVT                                    | ORCA_TOP                                      |                  23,                     1,                     1
+ NAND2X1_HVT                                   | ORCA_TOP                                      |                  23,                     1,                     1
+ AND4X1_HVT                                    | ORCA_TOP                                      |                  22,                     1,                     1
+ DELLN1X2_HVT                                  | ORCA_TOP                                      |                  22,                     1,                     1
+ NOR2X1_RVT                                    | ORCA_TOP                                      |                  22,                     1,                     1
+ NAND4X1_LVT                                   | ORCA_TOP                                      |                  21,                     1,                     1
+ NBUFFX32_RVT                                  | ORCA_TOP                                      |                  21,                     1,                     1
+ IBUFFX2_HVT                                   | ORCA_TOP                                      |                  20,                     1,                     1
+ AND2X4_LVT                                    | ORCA_TOP                                      |                  19,                     1,                     1
+ DELLN1X2_RVT                                  | ORCA_TOP                                      |                  19,                     1,                     1
+ IBUFFX32_LVT                                  | ORCA_TOP                                      |                  19,                     1,                     1
+ NAND2X1_RVT                                   | ORCA_TOP                                      |                  19,                     1,                     1
+ OA221X1_HVT                                   | ORCA_TOP                                      |                  19,                     1,                     1
+ XNOR3X1_LVT                                   | ORCA_TOP                                      |                  19,                     1,                     1
+ OR2X4_LVT                                     | ORCA_TOP                                      |                  18,                     1,                     1
+ LSDNSSX1_LVT                                  | ORCA_TOP                                      |                  17,                     1,                     1
+ OAI21X2_LVT                                   | ORCA_TOP                                      |                  17,                     1,                     1
+ OAI22X2_LVT                                   | ORCA_TOP                                      |                  17,                     1,                     1
+ OR3X1_LVT                                     | ORCA_TOP                                      |                  17,                     1,                     1
+ SDFFX2_RVT                                    | ORCA_TOP                                      |                  17,                     1,                     1
+ AND2X4_RVT                                    | ORCA_TOP                                      |                  16,                     1,                     1
+ AO222X1_RVT                                   | ORCA_TOP                                      |                  16,                     1,                     1
+ OR2X2_RVT                                     | ORCA_TOP                                      |                  16,                     1,                     1
+ SRAM2RW32x4                                   | ORCA_TOP                                      |                  16,                     1,                     1
+ SRAM2RW64x8                                   | ORCA_TOP                                      |                  16,                     1,                     1
+ NOR2X2_LVT                                    | ORCA_TOP                                      |                  15,                     1,                     1
+ OAI22X1_LVT                                   | ORCA_TOP                                      |                  15,                     1,                     1
+ DELLN1X2_LVT                                  | ORCA_TOP                                      |                  14,                     1,                     1
+ FADDX2_HVT                                    | ORCA_TOP                                      |                  14,                     1,                     1
+ FADDX2_RVT                                    | ORCA_TOP                                      |                  14,                     1,                     1
+ OAI22X1_HVT                                   | ORCA_TOP                                      |                  14,                     1,                     1
+ OR2X2_HVT                                     | ORCA_TOP                                      |                  14,                     1,                     1
+ XNOR2X1_RVT                                   | ORCA_TOP                                      |                  14,                     1,                     1
+ AO21X2_LVT                                    | ORCA_TOP                                      |                  13,                     1,                     1
+ LSUPX2_LVT                                    | ORCA_TOP                                      |                  13,                     1,                     1
+ NAND3X1_RVT                                   | ORCA_TOP                                      |                  13,                     1,                     1
+ SDFFNX2_RVT                                   | ORCA_TOP                                      |                  13,                     1,                     1
+ CGLPPRX8_RVT                                  | ORCA_TOP                                      |                  12,                     1,                     1
+ IBUFFX16_LVT                                  | ORCA_TOP                                      |                  12,                     1,                     1
+ LSDNSSX1_HVT                                  | ORCA_TOP                                      |                  12,                     1,                     1
+ NAND4X0_HVT                                   | ORCA_TOP                                      |                  12,                     1,                     1
+ AND3X2_LVT                                    | ORCA_TOP                                      |                  11,                     1,                     1
+ AOI21X2_LVT                                   | ORCA_TOP                                      |                  11,                     1,                     1
+ LSDNSSX4_RVT                                  | ORCA_TOP                                      |                  11,                     1,                     1
+ NAND2X2_HVT                                   | ORCA_TOP                                      |                  11,                     1,                     1
+ NAND3X1_HVT                                   | ORCA_TOP                                      |                  11,                     1,                     1
+ NOR2X0_HVT                                    | ORCA_TOP                                      |                  11,                     1,                     1
+ NOR2X0_RVT                                    | ORCA_TOP                                      |                  11,                     1,                     1
+ NOR2X2_HVT                                    | ORCA_TOP                                      |                  11,                     1,                     1
+ XOR2X2_RVT                                    | ORCA_TOP                                      |                  11,                     1,                     1
+ XOR3X1_HVT                                    | ORCA_TOP                                      |                  11,                     1,                     1
+ AOI22X2_LVT                                   | ORCA_TOP                                      |                  10,                     1,                     1
+ DELLN2X2_LVT                                  | ORCA_TOP                                      |                  10,                     1,                     1
+ NOR2X4_LVT                                    | ORCA_TOP                                      |                  10,                     1,                     1
+ OA22X2_LVT                                    | ORCA_TOP                                      |                  10,                     1,                     1
+ SDFFNX1_HVT                                   | ORCA_TOP                                      |                  10,                     1,                     1
+ XOR2X2_HVT                                    | ORCA_TOP                                      |                  10,                     1,                     1
+ NAND2X2_RVT                                   | ORCA_TOP                                      |                   9,                     1,                     1
+ NAND3X2_HVT                                   | ORCA_TOP                                      |                   9,                     1,                     1
+ OR3X1_HVT                                     | ORCA_TOP                                      |                   9,                     1,                     1
+ XOR3X2_HVT                                    | ORCA_TOP                                      |                   9,                     1,                     1
+ HADDX1_LVT                                    | ORCA_TOP                                      |                   8,                     1,                     1
+ LSUPX8_LVT                                    | ORCA_TOP                                      |                   8,                     1,                     1
+ NAND4X1_RVT                                   | ORCA_TOP                                      |                   8,                     1,                     1
+ OAI222X1_LVT                                  | ORCA_TOP                                      |                   8,                     1,                     1
+=============================================== ===============================================
+
+* Region Report *
+Reports information about different regions present in the layout
+Area      : Total area of the cell
+Num Reg   : Number of regions
+MaxR MinR : Area of maximum and minimum region
+Est Trap  : Average number of trapezoids present in a single region
+Est Plc   : Average number of instances present in a single region 
+Large inst wrt Region: Number of instances with area larger than Max Region Area
+Min/Avg/Max ratio : Minimum, average and maximum ratio of child cell area to Max Region Area for large instances
+This table contains a single entry
+
+ Name                                          | Area (M um^2), Num Reg, MaxR (M um^2), MinR (M um^2), Est Trap (M), Est Plc (M), Large inst wrt Region: Num, Min ratio, Avg ratio, Max ratio
+-----------------------------------------------
+ ORCA_TOP                                      |         0.505,      16,         0.032,         0.032,        0.754,       0.000,                          0,      0.00,      0.00,      0.00
+===============================================
+
+* Layer Report with Estimated Data *
+Reports information of layers present in the layout
+
+Trap        : Number of hierarchical trapezoids in the layer
+Poly        : Number of hierarchical polygons in the layer
+Text        : Number of hierarchical text primitives in the layer
+Flat Trap   : Number of flat trapezoids 
+Flat Poly   : Number of flat polygons
+Flat Text   : Number of flat text primitives 
+Trap F/H    : Ratio of flat and hierarchical placements of the trapezoids
+Base, Metal, Via, Fill, Colored : Indicates layer intent
+This table contains 22 entries
+
+ Name                                          | Trap (M), Poly (M), Text (M), Flat Trap (M), Flat Poly (M), Flat Text (M), Trap F/H, Base, Metal, Via, Fill, Colored
+-----------------------------------------------
+ COi                                           |    3.359,    3.359,    0.000,         3.359,         3.359,         0.000,     1.00,    0,     0,   0,    0,       0
+ M1i                                           |    3.182,    1.981,    0.000,         3.182,         1.981,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA7i                                         |    1.704,    1.704,    0.000,         1.704,         1.704,         0.000,     1.00,    0,     0,   0,    0,       0
+ POi                                           |    0.967,    0.967,    0.000,         0.967,         0.967,         0.000,     1.00,    0,     0,   0,    0,       0
+ M2i                                           |    0.645,    0.645,    0.000,         0.645,         0.645,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA1i                                         |    0.463,    0.463,    0.000,         0.463,         0.463,         0.000,     1.00,    0,     0,   0,    0,       0
+ M3i                                           |    0.441,    0.441,    0.000,         0.441,         0.441,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA2i                                         |    0.291,    0.291,    0.000,         0.291,         0.291,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA3i                                         |    0.181,    0.181,    0.000,         0.181,         0.181,         0.000,     1.00,    0,     0,   0,    0,       0
+ M4i                                           |    0.179,    0.179,    0.000,         0.179,         0.179,         0.000,     1.00,    0,     0,   0,    0,       0
+ NWELLi                                        |    0.137,    0.135,    0.000,         0.137,         0.135,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA4i                                         |    0.137,    0.137,    0.000,         0.137,         0.137,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA5i                                         |    0.119,    0.119,    0.000,         0.119,         0.119,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA6i                                         |    0.109,    0.109,    0.000,         0.109,         0.109,         0.000,     1.00,    0,     0,   0,    0,       0
+ M5i                                           |    0.092,    0.092,    0.000,         0.092,         0.092,         0.000,     1.00,    0,     0,   0,    0,       0
+ M6i                                           |    0.034,    0.034,    0.000,         0.034,         0.034,         0.000,     1.00,    0,     0,   0,    0,       0
+ M7i                                           |    0.018,    0.018,    0.000,         0.018,         0.018,         0.000,     1.00,    0,     0,   0,    0,       0
+ M8i                                           |    0.007,    0.007,    0.000,         0.007,         0.007,         0.000,     1.00,    0,     0,   0,    0,       0
+ M4i_text                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ M2i_text                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ M6i_text                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ DNWi                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+===============================================
+

@@ -1,0 +1,774 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type min
+	-input_pins
+	-nets
+	-slack_lesser_than 0.0000
+	-max_paths 10000
+	-transition_time
+	-capacitance
+	-crosstalk_delta
+	-derate
+	-sort_by slack
+Design : fifo1_sram
+Version: O-2018.06
+Date   : Sun Apr  5 13:09:37 2020
+****************************************
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: sync_w2r/rq1_wptr_reg_5_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  sync_w2r/rq1_wptr_reg_5_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0979   1.0000   0.0000   0.0103 &   2.0094 r
+  data arrival time                                                                        2.0094
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8957     1.8957
+  clock reconvergence pessimism                                                 0.0000     1.8957
+  clock uncertainty                                                             0.0100     1.9057
+  sync_w2r/rq1_wptr_reg_5_/CLK (SDFFARX2_HVT)                                              1.9057 r
+  library removal time                                        1.0000            0.1276     2.0333
+  data required time                                                                       2.0333
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0333
+  data arrival time                                                                       -2.0094
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0239
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: sync_w2r/rq1_wptr_reg_4_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  sync_w2r/rq1_wptr_reg_4_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0979   1.0000   0.0000   0.0103 &   2.0094 r
+  data arrival time                                                                        2.0094
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8957     1.8957
+  clock reconvergence pessimism                                                 0.0000     1.8957
+  clock uncertainty                                                             0.0100     1.9057
+  sync_w2r/rq1_wptr_reg_4_/CLK (SDFFARX2_HVT)                                              1.9057 r
+  library removal time                                        1.0000            0.1276     2.0333
+  data required time                                                                       2.0333
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0333
+  data arrival time                                                                       -2.0094
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0239
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: sync_w2r/rq1_wptr_reg_6_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  sync_w2r/rq1_wptr_reg_6_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0979   1.0000   0.0000   0.0102 &   2.0093 r
+  data arrival time                                                                        2.0093
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8935     1.8935
+  clock reconvergence pessimism                                                 0.0000     1.8935
+  clock uncertainty                                                             0.0100     1.9035
+  sync_w2r/rq1_wptr_reg_6_/CLK (SDFFARX2_HVT)                                              1.9035 r
+  library removal time                                        1.0000            0.1275     2.0310
+  data required time                                                                       2.0310
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0310
+  data arrival time                                                                       -2.0093
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0217
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: rptr_empty/rptr_reg_5_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  rptr_empty/rptr_reg_5_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0979   1.0000   0.0000   0.0099 &   2.0091 r
+  data arrival time                                                                        2.0091
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8931     1.8931
+  clock reconvergence pessimism                                                 0.0000     1.8931
+  clock uncertainty                                                             0.0100     1.9031
+  rptr_empty/rptr_reg_5_/CLK (SDFFARX2_HVT)                                                1.9031 r
+  library removal time                                        1.0000            0.1275     2.0306
+  data required time                                                                       2.0306
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0306
+  data arrival time                                                                       -2.0091
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0215
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: rptr_empty/rptr_reg_6_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  rptr_empty/rptr_reg_6_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0979   1.0000   0.0000   0.0103 &   2.0094 r
+  data arrival time                                                                        2.0094
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8930     1.8930
+  clock reconvergence pessimism                                                 0.0000     1.8930
+  clock uncertainty                                                             0.0100     1.9030
+  rptr_empty/rptr_reg_6_/CLK (SDFFARX2_HVT)                                                1.9030 r
+  library removal time                                        1.0000            0.1275     2.0305
+  data required time                                                                       2.0305
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0305
+  data arrival time                                                                       -2.0094
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0210
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: sync_w2r/rq1_wptr_reg_9_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  sync_w2r/rq1_wptr_reg_9_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0979   1.0000   0.0000   0.0104 &   2.0095 r
+  data arrival time                                                                        2.0095
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8918     1.8918
+  clock reconvergence pessimism                                                 0.0000     1.8918
+  clock uncertainty                                                             0.0100     1.9018
+  sync_w2r/rq1_wptr_reg_9_/CLK (SDFFARX2_HVT)                                              1.9018 r
+  library removal time                                        1.0000            0.1274     2.0292
+  data required time                                                                       2.0292
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0292
+  data arrival time                                                                       -2.0095
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0197
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: sync_w2r/rq1_wptr_reg_7_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  sync_w2r/rq1_wptr_reg_7_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0981   1.0000   0.0000   0.0109 &   2.0100 r
+  data arrival time                                                                        2.0100
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8918     1.8918
+  clock reconvergence pessimism                                                 0.0000     1.8918
+  clock uncertainty                                                             0.0100     1.9018
+  sync_w2r/rq1_wptr_reg_7_/CLK (SDFFARX2_HVT)                                              1.9018 r
+  library removal time                                        1.0000            0.1275     2.0292
+  data required time                                                                       2.0292
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0292
+  data arrival time                                                                       -2.0100
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0193
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: rptr_empty/rptr_reg_9_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  rptr_empty/rptr_reg_9_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0979   1.0000   0.0000   0.0107 &   2.0098 r
+  data arrival time                                                                        2.0098
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8916     1.8916
+  clock reconvergence pessimism                                                 0.0000     1.8916
+  clock uncertainty                                                             0.0100     1.9016
+  rptr_empty/rptr_reg_9_/CLK (SDFFARX2_HVT)                                                1.9016 r
+  library removal time                                        1.0000            0.1274     2.0290
+  data required time                                                                       2.0290
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0290
+  data arrival time                                                                       -2.0098
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0191
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: sync_w2r/rq1_wptr_reg_8_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  sync_w2r/rq1_wptr_reg_8_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0981   1.0000   0.0000   0.0110 &   2.0102 r
+  data arrival time                                                                        2.0102
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8909     1.8909
+  clock reconvergence pessimism                                                 0.0000     1.8909
+  clock uncertainty                                                             0.0100     1.9009
+  sync_w2r/rq1_wptr_reg_8_/CLK (SDFFARX2_HVT)                                              1.9009 r
+  library removal time                                        1.0000            0.1274     2.0283
+  data required time                                                                       2.0283
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0283
+  data arrival time                                                                       -2.0102
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0182
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: rptr_empty/rptr_reg_7_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  rptr_empty/rptr_reg_7_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0981   1.0000   0.0000   0.0111 &   2.0102 r
+  data arrival time                                                                        2.0102
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8909     1.8909
+  clock reconvergence pessimism                                                 0.0000     1.8909
+  clock uncertainty                                                             0.0100     1.9009
+  rptr_empty/rptr_reg_7_/CLK (SDFFARX2_HVT)                                                1.9009 r
+  library removal time                                        1.0000            0.1274     2.0283
+  data required time                                                                       2.0283
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0283
+  data arrival time                                                                       -2.0102
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0181
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: sync_w2r/rq1_wptr_reg_10_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  sync_w2r/rq1_wptr_reg_10_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0981   1.0000   0.0000   0.0112 &   2.0103 r
+  data arrival time                                                                        2.0103
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8909     1.8909
+  clock reconvergence pessimism                                                 0.0000     1.8909
+  clock uncertainty                                                             0.0100     1.9009
+  sync_w2r/rq1_wptr_reg_10_/CLK (SDFFARX2_HVT)                                             1.9009 r
+  library removal time                                        1.0000            0.1274     2.0284
+  data required time                                                                       2.0284
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0284
+  data arrival time                                                                       -2.0103
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0181
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: rptr_empty/rptr_reg_8_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  rptr_empty/rptr_reg_8_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0981   1.0000   0.0000   0.0112 &   2.0103 r
+  data arrival time                                                                        2.0103
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8902     1.8902
+  clock reconvergence pessimism                                                 0.0000     1.8902
+  clock uncertainty                                                             0.0100     1.9002
+  rptr_empty/rptr_reg_8_/CLK (SDFFARX2_HVT)                                                1.9002 r
+  library removal time                                        1.0000            0.1274     2.0276
+  data required time                                                                       2.0276
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0276
+  data arrival time                                                                       -2.0103
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0173
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: rptr_empty/rbin_reg_10_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  rptr_empty/rbin_reg_10_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0981   1.0000   0.0000   0.0112 &   2.0103 r
+  data arrival time                                                                        2.0103
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8897     1.8897
+  clock reconvergence pessimism                                                 0.0000     1.8897
+  clock uncertainty                                                             0.0100     1.8997
+  rptr_empty/rbin_reg_10_/CLK (SDFFARX2_HVT)                                               1.8997 r
+  library removal time                                        1.0000            0.1274     2.0271
+  data required time                                                                       2.0271
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0271
+  data arrival time                                                                       -2.0103
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0168
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: rptr_empty/rbin_reg_9_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  rptr_empty/rbin_reg_9_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0981   1.0000   0.0000   0.0113 &   2.0104 r
+  data arrival time                                                                        2.0104
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8894     1.8894
+  clock reconvergence pessimism                                                 0.0000     1.8894
+  clock uncertainty                                                             0.0100     1.8994
+  rptr_empty/rbin_reg_9_/CLK (SDFFARX2_HVT)                                                1.8994 r
+  library removal time                                        1.0000            0.1273     2.0267
+  data required time                                                                       2.0267
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0267
+  data arrival time                                                                       -2.0104
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0163
+
+
+  Startpoint: rrst_n (input port clocked by wclk2x)
+  Endpoint: rptr_empty/rbin_reg_8_
+               (removal check against rising-edge clock rclk)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.1600     0.1600 r
+  rrst_n (in)                                        3.1086                     1.5543 &   1.7143 r
+  rrst_n (net)                 1 2242.3477 
+  io_b_rrst_n/PADIO (I1025_NS)              0.0000   3.1086   1.0000   0.0000   0.0000 &   1.7143 r
+  io_b_rrst_n/DOUT (I1025_NS)                        0.1246   1.0000            0.2848 &   1.9991 r
+  io_b_rrst_n_net (net)       39  71.2605 
+  rptr_empty/rbin_reg_8_/RSTB (SDFFARX2_HVT)
+                                            0.0000   0.0981   1.0000   0.0000   0.0113 &   2.0104 r
+  data arrival time                                                                        2.0104
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8889     1.8889
+  clock reconvergence pessimism                                                 0.0000     1.8889
+  clock uncertainty                                                             0.0100     1.8989
+  rptr_empty/rbin_reg_8_/CLK (SDFFARX2_HVT)                                                1.8989 r
+  library removal time                                        1.0000            0.1273     2.0262
+  data required time                                                                       2.0262
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0262
+  data arrival time                                                                       -2.0104
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0158
+
+
+  Startpoint: rptr_empty/rbin_reg_0_
+               (rising edge-triggered flip-flop clocked by rclk)
+  Endpoint: fifomem/genblk1_3__U
+               (rising edge-triggered flip-flop clocked by rclk)
+  Last common pin: io_b_rclk/DOUT
+  Path Group: rclk
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8814     1.8814
+  rptr_empty/rbin_reg_0_/CLK (SDFFARX2_LVT)          0.0401                     0.0000     1.8814 r
+  rptr_empty/rbin_reg_0_/Q (SDFFARX2_LVT)            0.0199   1.0000            0.0732 &   1.9546 f
+  rptr_empty/raddr[0] (net)    1   3.6145 
+  HFSBUF_561_51/A (NBUFFX32_LVT)            0.0000   0.0199   1.0000   0.0000   0.0001 &   1.9546 f
+  HFSBUF_561_51/Y (NBUFFX32_LVT)                     0.0208   1.0000            0.0257 &   1.9803 f
+  HFSNET_44 (net)             10 115.8195 
+  fifomem/genblk1_3__U/A2[0] (SRAM2RW128x8)
+                                           -0.0048   0.0254   1.0000  -0.0037   0.0236 &   2.0039 f
+  data arrival time                                                                        2.0039
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.9497     1.9497
+  clock reconvergence pessimism                                                -0.0003     1.9494
+  clock uncertainty                                                             0.0100     1.9594
+  fifomem/genblk1_3__U/CE2 (SRAM2RW128x8)                                                  1.9594 r
+  library hold time                                           1.0000            0.0502     2.0097
+  data required time                                                                       2.0097
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0097
+  data arrival time                                                                       -2.0039
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0057
+
+
+  Startpoint: rptr_empty/rbin_reg_0_
+               (rising edge-triggered flip-flop clocked by rclk)
+  Endpoint: fifomem/genblk1_6__U
+               (rising edge-triggered flip-flop clocked by rclk)
+  Last common pin: io_b_rclk/DOUT
+  Path Group: rclk
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8814     1.8814
+  rptr_empty/rbin_reg_0_/CLK (SDFFARX2_LVT)          0.0401                     0.0000     1.8814 r
+  rptr_empty/rbin_reg_0_/Q (SDFFARX2_LVT)            0.0199   1.0000            0.0732 &   1.9546 f
+  rptr_empty/raddr[0] (net)    1   3.6145 
+  HFSBUF_561_51/A (NBUFFX32_LVT)            0.0000   0.0199   1.0000   0.0000   0.0001 &   1.9546 f
+  HFSBUF_561_51/Y (NBUFFX32_LVT)                     0.0208   1.0000            0.0257 &   1.9803 f
+  HFSNET_44 (net)             10 115.8195 
+  fifomem/genblk1_6__U/A2[0] (SRAM2RW128x8)
+                                           -0.0048   0.0254   1.0000  -0.0037   0.0236 &   2.0039 f
+  data arrival time                                                                        2.0039
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.9470     1.9470
+  clock reconvergence pessimism                                                -0.0003     1.9468
+  clock uncertainty                                                             0.0100     1.9568
+  fifomem/genblk1_6__U/CE2 (SRAM2RW128x8)                                                  1.9568 r
+  library hold time                                           1.0000            0.0502     2.0070
+  data required time                                                                       2.0070
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0070
+  data arrival time                                                                       -2.0039
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0031
+
+
+  Startpoint: wdata_in[2]
+               (input port clocked by wclk2x)
+  Endpoint: wdata_reg_2_
+               (rising edge-triggered flip-flop clocked by wclk2x)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.0110     0.0110 r
+  wdata_in[2] (in)                                   3.1086                     1.5543 &   1.5653 r
+  wdata_in[2] (net)            1 2242.3477 
+  io_r_wdata_in_2_/PADIO (I1025_NS)         0.0000   3.1086   1.0000   0.0000   0.0000 &   1.5653 r
+  io_r_wdata_in_2_/DOUT (I1025_NS)                   0.0951   1.0000            0.2755 &   1.8408 r
+  io_r_wdata_in_2__net (net)   1  10.3447 
+  wdata_reg_2_/D (SDFFARX1_HVT)             0.0000   0.0709   1.0000   0.0000  -0.0106 &   1.8302 r
+  data arrival time                                                                        1.8302
+
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              1.8556     1.8556
+  clock reconvergence pessimism                                                 0.0000     1.8556
+  clock uncertainty                                                             0.0100     1.8656
+  wdata_reg_2_/CLK (SDFFARX1_HVT)                                                          1.8656 r
+  library hold time                                           1.0000           -0.0324     1.8331
+  data required time                                                                       1.8331
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       1.8331
+  data arrival time                                                                       -1.8302
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0029
+
+
+  Startpoint: wdata_in[1]
+               (input port clocked by wclk2x)
+  Endpoint: wdata_reg_1_
+               (rising edge-triggered flip-flop clocked by wclk2x)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.0110     0.0110 r
+  wdata_in[1] (in)                                   3.1086                     1.5543 &   1.5653 r
+  wdata_in[1] (net)            1 2242.3477 
+  io_r_wdata_in_1_/PADIO (I1025_NS)         0.0000   3.1086   1.0000   0.0000   0.0000 &   1.5653 r
+  io_r_wdata_in_1_/DOUT (I1025_NS)                   0.0958   1.0000            0.2757 &   1.8410 r
+  io_r_wdata_in_1__net (net)   1  12.4304 
+  wdata_reg_1_/D (SDFFARX1_HVT)             0.0000   0.0713   1.0000   0.0000  -0.0099 &   1.8311 r
+  data arrival time                                                                        1.8311
+
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              1.8557     1.8557
+  clock reconvergence pessimism                                                 0.0000     1.8557
+  clock uncertainty                                                             0.0100     1.8657
+  wdata_reg_1_/CLK (SDFFARX1_HVT)                                                          1.8657 r
+  library hold time                                           1.0000           -0.0325     1.8333
+  data required time                                                                       1.8333
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       1.8333
+  data arrival time                                                                       -1.8311
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0022
+
+
+  Startpoint: rptr_empty/rbin_reg_0_
+               (rising edge-triggered flip-flop clocked by rclk)
+  Endpoint: fifomem/genblk1_2__U
+               (rising edge-triggered flip-flop clocked by rclk)
+  Last common pin: io_b_rclk/DOUT
+  Path Group: rclk
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.8814     1.8814
+  rptr_empty/rbin_reg_0_/CLK (SDFFARX2_LVT)          0.0401                     0.0000     1.8814 r
+  rptr_empty/rbin_reg_0_/Q (SDFFARX2_LVT)            0.0199   1.0000            0.0732 &   1.9546 f
+  rptr_empty/raddr[0] (net)    1   3.6145 
+  HFSBUF_561_51/A (NBUFFX32_LVT)            0.0000   0.0199   1.0000   0.0000   0.0001 &   1.9546 f
+  HFSBUF_561_51/Y (NBUFFX32_LVT)                     0.0208   1.0000            0.0257 &   1.9803 f
+  HFSNET_44 (net)             10 115.8195 
+  fifomem/genblk1_2__U/A2[0] (SRAM2RW128x8)
+                                           -0.0070   0.0254   1.0000  -0.0054   0.0276 &   2.0079 f
+  data arrival time                                                                        2.0079
+
+  clock rclk (rise edge)                                                        0.0000     0.0000
+  clock network delay (propagated)                                              1.9498     1.9498
+  clock reconvergence pessimism                                                -0.0003     1.9496
+  clock uncertainty                                                             0.0100     1.9596
+  fifomem/genblk1_2__U/CE2 (SRAM2RW128x8)                                                  1.9596 r
+  library hold time                                           1.0000            0.0502     2.0098
+  data required time                                                                       2.0098
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       2.0098
+  data arrival time                                                                       -2.0079
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0019
+
+
+  Startpoint: wdata_in[3]
+               (input port clocked by wclk2x)
+  Endpoint: wdata_reg_3_
+               (rising edge-triggered flip-flop clocked by wclk2x)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.0110     0.0110 r
+  wdata_in[3] (in)                                   3.1086                     1.5543 &   1.5653 r
+  wdata_in[3] (net)            1 2242.3477 
+  io_r_wdata_in_3_/PADIO (I1025_NS)         0.0000   3.1086   1.0000   0.0000   0.0000 &   1.5653 r
+  io_r_wdata_in_3_/DOUT (I1025_NS)                   0.0951   1.0000            0.2756 &   1.8409 r
+  io_r_wdata_in_3__net (net)   1  10.6225 
+  wdata_reg_3_/D (SDFFARX1_HVT)             0.0000   0.0709   1.0000   0.0000  -0.0107 &   1.8302 r
+  data arrival time                                                                        1.8302
+
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              1.8545     1.8545
+  clock reconvergence pessimism                                                 0.0000     1.8545
+  clock uncertainty                                                             0.0100     1.8645
+  wdata_reg_3_/CLK (SDFFARX1_HVT)                                                          1.8645 r
+  library hold time                                           1.0000           -0.0324     1.8320
+  data required time                                                                       1.8320
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       1.8320
+  data arrival time                                                                       -1.8302
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0018
+
+
+  Startpoint: wdata_in[0]
+               (input port clocked by wclk2x)
+  Endpoint: wdata_reg_0_
+               (rising edge-triggered flip-flop clocked by wclk2x)
+  Path Group: INPUTS
+  Path Type: min
+
+  Point                      Fanout   Cap    DTrans   Trans    Derate   Delta     Incr       Path
+  --------------------------------------------------------------------------------------------------
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              0.0000     0.0000
+  input external delay                                                          0.0110     0.0110 r
+  wdata_in[0] (in)                                   3.1086                     1.5543 &   1.5653 r
+  wdata_in[0] (net)            1 2242.3477 
+  io_r_wdata_in_0_/PADIO (I1025_NS)         0.0000   3.1086   1.0000   0.0000   0.0000 &   1.5653 r
+  io_r_wdata_in_0_/DOUT (I1025_NS)                   0.0976   1.0000            0.2760 &   1.8413 r
+  io_r_wdata_in_0__net (net)   1  16.9548 
+  wdata_reg_0_/D (SDFFARX1_HVT)             0.0000   0.0724   1.0000   0.0000  -0.0082 &   1.8331 r
+  data arrival time                                                                        1.8331
+
+  clock wclk2x (rise edge)                                                      0.0000     0.0000
+  clock network delay (propagated)                                              1.8557     1.8557
+  clock reconvergence pessimism                                                 0.0000     1.8557
+  clock uncertainty                                                             0.0100     1.8657
+  wdata_reg_0_/CLK (SDFFARX1_HVT)                                                          1.8657 r
+  library hold time                                           1.0000           -0.0325     1.8332
+  data required time                                                                       1.8332
+  --------------------------------------------------------------------------------------------------
+  data required time                                                                       1.8332
+  data arrival time                                                                       -1.8331
+  --------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -0.0001
+
+
+1

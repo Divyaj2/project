@@ -1,0 +1,1494 @@
+setting auto_restore_mw_cel_lib_setup true
+icc2_shell> source ../scripts/drc.tcl
+Information: Loading library file '/u/divyaj2/ECE510-2020-SPRING/project/apr/work/ORCA_TOP_lib/' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_c.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_ulvl_v.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm/saed32hvt_dlvl_v.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_ulvl_v.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_dlvl_v.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_c.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_ulvl_v.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_lvt/ndm/saed32lvt_dlvl_v.ndm' (FILE-007)
+Information: Loading library file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/ndm/saed32sram_c.ndm' (FILE-007)
+Lib ORCA_TOP_lib /u/divyaj2/ECE510-2020-SPRING/project/apr/work/ORCA_TOP_lib tech current
+  ->  0 ORCA_TOP.design May-30-15:48
+  ->  0 floorplan.design May-30-14:25
+  ->  0 place2.design May-30-14:55
+  ->  0 postcts2.design May-30-15:24
+  ->  0 route2.design Jun-01-10:00
+Information: User units loaded from library 'saed32hvt_c' (LNK-040)
+Opening block 'ORCA_TOP_lib:route2.design' in edit mode
+Information: loading PG routing via master rules, patterns, strategies and strategy via rules.
+Using libraries: ORCA_TOP_lib saed32hvt_c saed32hvt_ulvl_v saed32hvt_dlvl_v saed32rvt_c saed32rvt_ulvl_v saed32rvt_dlvl_v saed32lvt_c saed32lvt_ulvl_v saed32lvt_dlvl_v saed32sram_c
+Visiting block ORCA_TOP_lib:route2.design
+Information: The lower_domain_boundary design attribute will be made obsolete in future. Consider using -applies_to_boundary option of set_isolation/set_level_shifter/set_repeater strategy commands. (UPF-355)
+Design 'ORCA_TOP' was successfully linked.
+
+Start to run ICV ...
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+...............................................Updated tech file has been written at: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/tech.tf
+
+ICV is done!
+ICV messages:
+WARNING: Could not open CGLNPRX8_LVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_RVT.design, using frame view instead.
+For more details see /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/signoff_check_drc.log
+Overall engine Time=0:06:39 Highest command Mem=6.624 GB
+
+-------------------------------------------------------------------------------
+Rule: CO.B.1: CO must be fully covered by M1, and by PO widened by 0.006                     40 errors
+Rule:              CO.E.12: CONT is not enclosed by M1               40 errors
+Rule: CO.E.9: Minimum enclosure of any contact by M1 must be 0.002um               1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:          M1.S.1: Minimum M1 spacing must be 0.05              305 errors
+Rule: M1.S.9: Minimum spacing when either metal line is wider than 0.15 must be 0.055              1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:            M1.W.1: Minimum M1 width must be 0.05             1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule: M1.W.2.1: Minimum width of thin wire with length less than 0.1, connected to fat wire with width larges than 0.15, must be 0.06               278 errors
+Rule: M2.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                228 errors
+Rule: M3.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                 90 errors
+Rule: M4.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                 21 errors
+Rule: M5.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  8 errors
+Rule: M6.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  4 errors
+Rule: M6.S.3.2: Minimum spacing depending on metal width of one of lines and their parallel run length must be 0.11                   1 error
+Rule: VIA6.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)                  1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+-------------------------------------------------------------------------------
+
+signoff_check_drc is finished.
+
+Create error data signoff_check_drc.err ...
+Information: Running the advanced guidance based ADR flow.
+User-specified unselected rule patterns: { USER_GUIDE.M* USER_GUIDE.VIA* *:*Density*of* M*.DN.*:* VIA*.DN.*:* CSR*:* DM*:* Rule*DEN*:* Rule:.*USER_GUIDE.M* Rule:.*USER_GUIDE.VIA* Rule:.*:*Density*of* Rule:.*M*.DN.*:* Rule:.*VIA*.DN.*:* Rule:.*CSR*:* Rule:.*DM*:* *USER_GUIDE* *:WARNING* *:LOGO* *NW.[A-Z].* *NWRSTI.[A-Z].* *NWROD.[A-Z].* *OD[0-1].[A-Z].* *OD.[A-Z].* *Gate *PP.[A-Z].* *NP.[A-Z].* *SSD.[A-Z].* *DIODMY.[A-Z].* *RH_OD.[A-Z].* *RH_TN.[A-Z].* *HV_N.[A-Z].* *SR.[A-Z].* *:*Density*of* *ESD.[A-Z].* *SRAM.[A-Z].[0-9]* *ROM.[A-Z].[0-9]* *LUP.[A-Z][0-9].* *[0-9][A-Z]:HIADMY *[A-Z][0-9]:BJTDMY* *[A-Z][0-9]:BJTHDMY* *AN.R.[0-9]* *DOD.[A-Z].[0-9]* *DIODMY.[A-Z].[0-9]* *DTCD.[A-Z].[0-9]* *GRMx.C.2_M1* *GRMx.C.2_M2* *GRMx.C.2_M3* *GRMx.C.2_M4* *GRV1.C.6* *GRVx.C.6_V2* *GRVx.C.6_V3* *M1.G0.1__M1.G0.2__M1.G0.3* *M2.G0.1__M2.G0.2__M2.G0.3* *M3.G0.1__M3.G0.2__M3.G0.3* *M4.G0.1__M4.G0.2__M4.G0.3* *M5.G0.1__M5.G0.2__M5.G0.3* *M6.G0.1__M6.G0.2__M6.G0.3*}
+
+Start to run ICV ...
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+...........................................Updated tech file has been written at: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/signoff_check_drc_run/tech.tf
+
+ICV is done!
+ICV messages:
+WARNING: Could not open CGLNPRX8_LVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_RVT.design, using frame view instead.
+For more details see /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/signoff_check_drc_run/signoff_check_drc.log
+Overall engine Time=0:07:26 Highest command Mem=7.308 GB
+
+-------------------------------------------------------------------------------
+Rule: CO.B.1: CO must be fully covered by M1, and by PO widened by 0.006                     40 errors
+Rule:              CO.E.12: CONT is not enclosed by M1               40 errors
+Rule: CO.E.9: Minimum enclosure of any contact by M1 must be 0.002um               1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:          M1.S.1: Minimum M1 spacing must be 0.05              305 errors
+Rule: M1.S.9: Minimum spacing when either metal line is wider than 0.15 must be 0.055              1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:            M1.W.1: Minimum M1 width must be 0.05             1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule: M1.W.2.1: Minimum width of thin wire with length less than 0.1, connected to fat wire with width larges than 0.15, must be 0.06               278 errors
+Rule: M2.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                228 errors
+Rule: M3.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                 90 errors
+Rule: M4.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                 21 errors
+Rule: M5.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  8 errors
+Rule: M6.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  4 errors
+Rule: M6.S.3.2: Minimum spacing depending on metal width of one of lines and their parallel run length must be 0.11                   1 error
+Rule: VIA6.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)                  1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+-------------------------------------------------------------------------------
+
+signoff_check_drc is finished.
+
+Create error data signoff_check_drc.err ...
+Information: Metal2 is horizontal. Switching all the directional adr advanced guidances.
+Begin building search trees for block ORCA_TOP_lib:route2.design
+Done building search trees for block ORCA_TOP_lib:route2.design (time 1s)
+Turn off antenna since no rule is specified
+Cell Min-Routing-Layer = M2
+Cell Max-Routing-Layer = M7
+Warning: Cannot find a default contact code for layer CO. (ZRT-022)
+Warning: Ignore 3 top cell ports with no pins. (ZRT-027)
+Skipping 5 internal pins that are not physical. Set route.common.verbose_level to > 0 and run routing command to get skipped pin names.
+Info: number of net_type_blockage: 0 
+Found 1 voltage-areas.
+Printing options for 'route.common.*'
+common.debug_remove_extension_floating_shapes           :        false               
+common.verbose_level                                    :        0                   
+
+Printing options for 'route.detail.*'
+detail.eco_route_use_soft_spacing_for_timing_optimization:       true                
+detail.force_end_on_preferred_grid                      :        true                
+
+Printing options for 'route.auto_via_ladder.*'
+
+[Dr init] Elapsed real time: 0:00:14 
+[Dr init] Elapsed cpu  time: sys=0:00:00 usr=0:00:14 total=0:00:14
+[Dr init] Stage (MB): Used  228  Alloctr  229  Proc  237 
+[Dr init] Total (MB): Used  229  Alloctr  230  Proc 1850 
+Opened the error data successfully.
+Loaded the guidance data successfully.
+
+Begin Route Guidance Fixing ...
+
+Routed  1/244 Partitions, Violations =  588
+Routed  2/244 Partitions, Violations =  590
+Routed  3/244 Partitions, Violations =  592
+Routed  4/244 Partitions, Violations =  592
+Routed  5/244 Partitions, Violations =  592
+Routed  6/244 Partitions, Violations =  592
+Routed  7/244 Partitions, Violations =  594
+Routed  8/244 Partitions, Violations =  594
+Routed  9/244 Partitions, Violations =  597
+Routed  10/244 Partitions, Violations = 602
+Routed  11/244 Partitions, Violations = 602
+Routed  12/244 Partitions, Violations = 607
+Routed  13/244 Partitions, Violations = 607
+Routed  14/244 Partitions, Violations = 610
+Routed  15/244 Partitions, Violations = 610
+Routed  16/244 Partitions, Violations = 610
+Routed  17/244 Partitions, Violations = 615
+Routed  18/244 Partitions, Violations = 618
+Routed  19/244 Partitions, Violations = 618
+Routed  20/244 Partitions, Violations = 618
+Routed  21/244 Partitions, Violations = 618
+Routed  22/244 Partitions, Violations = 618
+Routed  23/244 Partitions, Violations = 618
+Routed  24/244 Partitions, Violations = 620
+Routed  25/244 Partitions, Violations = 620
+Routed  26/244 Partitions, Violations = 620
+Routed  27/244 Partitions, Violations = 620
+Routed  28/244 Partitions, Violations = 620
+Routed  29/244 Partitions, Violations = 620
+Routed  30/244 Partitions, Violations = 620
+Routed  31/244 Partitions, Violations = 623
+Routed  32/244 Partitions, Violations = 623
+Routed  33/244 Partitions, Violations = 627
+Routed  34/244 Partitions, Violations = 628
+Routed  35/244 Partitions, Violations = 633
+Routed  36/244 Partitions, Violations = 636
+Routed  37/244 Partitions, Violations = 636
+Routed  38/244 Partitions, Violations = 636
+Routed  39/244 Partitions, Violations = 636
+Routed  40/244 Partitions, Violations = 641
+Routed  41/244 Partitions, Violations = 641
+Routed  42/244 Partitions, Violations = 641
+Routed  43/244 Partitions, Violations = 644
+Routed  44/244 Partitions, Violations = 644
+Routed  45/244 Partitions, Violations = 645
+Routed  46/244 Partitions, Violations = 645
+Routed  47/244 Partitions, Violations = 645
+Routed  48/244 Partitions, Violations = 651
+Routed  49/244 Partitions, Violations = 654
+Routed  50/244 Partitions, Violations = 654
+Routed  51/244 Partitions, Violations = 654
+Routed  52/244 Partitions, Violations = 654
+Routed  53/244 Partitions, Violations = 654
+Routed  54/244 Partitions, Violations = 654
+Routed  55/244 Partitions, Violations = 654
+Routed  56/244 Partitions, Violations = 654
+Routed  57/244 Partitions, Violations = 660
+Routed  58/244 Partitions, Violations = 661
+Routed  59/244 Partitions, Violations = 668
+Routed  60/244 Partitions, Violations = 671
+Routed  61/244 Partitions, Violations = 671
+Routed  62/244 Partitions, Violations = 676
+Routed  63/244 Partitions, Violations = 676
+Routed  64/244 Partitions, Violations = 676
+Routed  65/244 Partitions, Violations = 676
+Routed  66/244 Partitions, Violations = 676
+Routed  67/244 Partitions, Violations = 676
+Routed  68/244 Partitions, Violations = 676
+Routed  69/244 Partitions, Violations = 676
+Routed  70/244 Partitions, Violations = 676
+Routed  71/244 Partitions, Violations = 676
+Routed  72/244 Partitions, Violations = 676
+Routed  73/244 Partitions, Violations = 679
+Routed  74/244 Partitions, Violations = 679
+Routed  75/244 Partitions, Violations = 679
+Routed  76/244 Partitions, Violations = 679
+Routed  77/244 Partitions, Violations = 679
+Routed  78/244 Partitions, Violations = 679
+Routed  79/244 Partitions, Violations = 679
+Routed  80/244 Partitions, Violations = 679
+Routed  81/244 Partitions, Violations = 682
+Routed  82/244 Partitions, Violations = 682
+Routed  83/244 Partitions, Violations = 682
+Routed  84/244 Partitions, Violations = 682
+Routed  85/244 Partitions, Violations = 683
+Routed  86/244 Partitions, Violations = 683
+Routed  87/244 Partitions, Violations = 687
+Routed  88/244 Partitions, Violations = 687
+Routed  89/244 Partitions, Violations = 687
+Routed  90/244 Partitions, Violations = 687
+Routed  91/244 Partitions, Violations = 687
+Routed  92/244 Partitions, Violations = 687
+Routed  93/244 Partitions, Violations = 687
+Routed  94/244 Partitions, Violations = 687
+Routed  95/244 Partitions, Violations = 687
+Routed  96/244 Partitions, Violations = 687
+Routed  97/244 Partitions, Violations = 691
+Routed  98/244 Partitions, Violations = 691
+Routed  99/244 Partitions, Violations = 691
+Routed  100/244 Partitions, Violations =        691
+Routed  101/244 Partitions, Violations =        692
+Routed  102/244 Partitions, Violations =        692
+Routed  103/244 Partitions, Violations =        692
+Routed  104/244 Partitions, Violations =        693
+Routed  105/244 Partitions, Violations =        693
+Routed  106/244 Partitions, Violations =        697
+Routed  107/244 Partitions, Violations =        698
+Routed  108/244 Partitions, Violations =        699
+Routed  109/244 Partitions, Violations =        699
+Routed  110/244 Partitions, Violations =        699
+Routed  111/244 Partitions, Violations =        699
+Routed  112/244 Partitions, Violations =        701
+Routed  113/244 Partitions, Violations =        701
+Routed  114/244 Partitions, Violations =        701
+Routed  115/244 Partitions, Violations =        701
+Routed  116/244 Partitions, Violations =        701
+Routed  117/244 Partitions, Violations =        701
+Routed  118/244 Partitions, Violations =        702
+Routed  119/244 Partitions, Violations =        702
+Routed  120/244 Partitions, Violations =        702
+Routed  121/244 Partitions, Violations =        702
+Routed  122/244 Partitions, Violations =        705
+Routed  123/244 Partitions, Violations =        705
+Routed  124/244 Partitions, Violations =        706
+Routed  125/244 Partitions, Violations =        708
+Routed  126/244 Partitions, Violations =        708
+Routed  127/244 Partitions, Violations =        708
+Routed  128/244 Partitions, Violations =        708
+Routed  129/244 Partitions, Violations =        708
+Routed  130/244 Partitions, Violations =        708
+Routed  131/244 Partitions, Violations =        708
+Routed  132/244 Partitions, Violations =        708
+Routed  133/244 Partitions, Violations =        708
+Routed  134/244 Partitions, Violations =        708
+Routed  135/244 Partitions, Violations =        708
+Routed  136/244 Partitions, Violations =        708
+Routed  137/244 Partitions, Violations =        708
+Routed  138/244 Partitions, Violations =        708
+Routed  139/244 Partitions, Violations =        708
+Routed  140/244 Partitions, Violations =        708
+Routed  141/244 Partitions, Violations =        708
+Routed  142/244 Partitions, Violations =        708
+Routed  143/244 Partitions, Violations =        708
+Routed  144/244 Partitions, Violations =        708
+Routed  145/244 Partitions, Violations =        708
+Routed  146/244 Partitions, Violations =        708
+Routed  147/244 Partitions, Violations =        708
+Routed  148/244 Partitions, Violations =        708
+Routed  149/244 Partitions, Violations =        708
+Routed  150/244 Partitions, Violations =        708
+Routed  151/244 Partitions, Violations =        708
+Routed  152/244 Partitions, Violations =        708
+Routed  153/244 Partitions, Violations =        708
+Routed  154/244 Partitions, Violations =        708
+Routed  155/244 Partitions, Violations =        708
+Routed  156/244 Partitions, Violations =        708
+Routed  157/244 Partitions, Violations =        708
+Routed  158/244 Partitions, Violations =        708
+Routed  159/244 Partitions, Violations =        708
+Routed  160/244 Partitions, Violations =        708
+Routed  161/244 Partitions, Violations =        709
+Routed  162/244 Partitions, Violations =        709
+Routed  163/244 Partitions, Violations =        709
+Routed  164/244 Partitions, Violations =        709
+Routed  165/244 Partitions, Violations =        709
+Routed  166/244 Partitions, Violations =        710
+Routed  167/244 Partitions, Violations =        712
+Routed  168/244 Partitions, Violations =        712
+Routed  169/244 Partitions, Violations =        713
+Routed  170/244 Partitions, Violations =        714
+Routed  171/244 Partitions, Violations =        714
+Routed  172/244 Partitions, Violations =        714
+Routed  173/244 Partitions, Violations =        716
+Routed  174/244 Partitions, Violations =        716
+Routed  175/244 Partitions, Violations =        716
+Routed  176/244 Partitions, Violations =        716
+Routed  177/244 Partitions, Violations =        719
+Routed  178/244 Partitions, Violations =        719
+Routed  179/244 Partitions, Violations =        720
+Routed  180/244 Partitions, Violations =        722
+Routed  181/244 Partitions, Violations =        722
+Routed  182/244 Partitions, Violations =        722
+Routed  183/244 Partitions, Violations =        722
+Routed  184/244 Partitions, Violations =        722
+Routed  185/244 Partitions, Violations =        722
+Routed  186/244 Partitions, Violations =        722
+Routed  187/244 Partitions, Violations =        722
+Routed  188/244 Partitions, Violations =        722
+Routed  189/244 Partitions, Violations =        722
+Routed  190/244 Partitions, Violations =        722
+Routed  191/244 Partitions, Violations =        722
+Routed  192/244 Partitions, Violations =        722
+Routed  193/244 Partitions, Violations =        722
+Routed  194/244 Partitions, Violations =        722
+Routed  195/244 Partitions, Violations =        722
+Routed  196/244 Partitions, Violations =        722
+Routed  197/244 Partitions, Violations =        722
+Routed  198/244 Partitions, Violations =        722
+Routed  199/244 Partitions, Violations =        722
+Routed  200/244 Partitions, Violations =        722
+Routed  201/244 Partitions, Violations =        722
+Routed  202/244 Partitions, Violations =        722
+Routed  203/244 Partitions, Violations =        726
+Routed  204/244 Partitions, Violations =        726
+Routed  205/244 Partitions, Violations =        726
+Routed  206/244 Partitions, Violations =        726
+Routed  207/244 Partitions, Violations =        726
+Routed  208/244 Partitions, Violations =        726
+Routed  209/244 Partitions, Violations =        726
+Routed  210/244 Partitions, Violations =        726
+Routed  211/244 Partitions, Violations =        726
+Routed  212/244 Partitions, Violations =        726
+Routed  213/244 Partitions, Violations =        726
+Routed  214/244 Partitions, Violations =        726
+Routed  215/244 Partitions, Violations =        726
+Routed  216/244 Partitions, Violations =        726
+Routed  217/244 Partitions, Violations =        729
+Routed  218/244 Partitions, Violations =        729
+Routed  219/244 Partitions, Violations =        729
+Routed  220/244 Partitions, Violations =        729
+Routed  221/244 Partitions, Violations =        729
+Routed  222/244 Partitions, Violations =        729
+Routed  223/244 Partitions, Violations =        729
+Routed  224/244 Partitions, Violations =        729
+Routed  225/244 Partitions, Violations =        729
+Routed  226/244 Partitions, Violations =        731
+Routed  227/244 Partitions, Violations =        731
+Routed  228/244 Partitions, Violations =        731
+Routed  229/244 Partitions, Violations =        731
+Routed  230/244 Partitions, Violations =        731
+Routed  231/244 Partitions, Violations =        731
+Routed  232/244 Partitions, Violations =        731
+Routed  233/244 Partitions, Violations =        733
+Routed  234/244 Partitions, Violations =        733
+Routed  235/244 Partitions, Violations =        733
+Routed  236/244 Partitions, Violations =        733
+Routed  237/244 Partitions, Violations =        733
+Routed  238/244 Partitions, Violations =        733
+Routed  239/244 Partitions, Violations =        733
+Routed  240/244 Partitions, Violations =        733
+Routed  241/244 Partitions, Violations =        733
+Routed  242/244 Partitions, Violations =        734
+Routed  243/244 Partitions, Violations =        734
+Routed  244/244 Partitions, Violations =        735
+
+FIXING-ROUTE-GUIDANCE-SUMMARY:
+Fixed 0 out of total 588 route guidances.
+
+FixRouteGuidance finished with 735 violations
+
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      735
+        Diff net spacing : 57
+        Less than minimum area : 3
+        Route guidance : 630
+        Same net spacing : 4
+        Short : 41
+
+
+Total Wire Length =                    1495053 micron
+Total Number of Contacts =             474949
+Total Number of Wires =                482671
+Total Number of PtConns =              64538
+Total Number of Routed Wires =       482671
+Total Routed Wire Length =           1487043 micron
+Total Number of Routed Contacts =       474949
+        Layer                 M1 :       7590 micron
+        Layer                 M2 :     338983 micron
+        Layer                 M3 :     386316 micron
+        Layer                 M4 :     287949 micron
+        Layer                 M5 :     173485 micron
+        Layer                 M6 :     255437 micron
+        Layer                 M7 :      45294 micron
+        Layer                 M8 :          0 micron
+        Layer                 M9 :          0 micron
+        Layer               MRDL :          0 micron
+        Via       VIA67SQ_C(rot) :       3214
+        Via   VIA67SQ_C(rot)_1x2 :          7
+        Via            VIA56SQ_C :      11278
+        Via            VIA45SQ_C :         57
+        Via       VIA45SQ_C(rot) :      28459
+        Via            VIA34SQ_C :      72293
+        Via       VIA34SQ_C(rot) :        417
+        Via        VIA34SQ_C_2x1 :          2
+        Via            VIA23SQ_C :       2797
+        Via       VIA23SQ_C(rot) :     179811
+        Via            VIA12SQ_C :     154444
+        Via       VIA12SQ_C(rot) :      17352
+        Via           VIA12BAR_C :       3935
+        Via      VIA12BAR_C(rot) :         29
+        Via             VIA12BAR :         21
+        Via        VIA12BAR(rot) :        143
+        Via        VIA12SQ_C_2x1 :        686
+        Via   VIA12SQ_C(rot)_1x2 :          1
+        Via   VIA12SQ_C(rot)_2x1 :          1
+        Via          VIA12SQ_2x1 :          2
+
+ 
+Redundant via conversion report:
+--------------------------------
+
+  Total optimized via conversion rate =  0.15% (699 / 474949 vias)
+ 
+    Layer VIA1       =  0.39% (690    / 176614  vias)
+        Weight 1     =  0.39% (690     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.61% (175924  vias)
+    Layer VIA2       =  0.00% (0      / 182608  vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (182608  vias)
+    Layer VIA3       =  0.00% (2      / 72712   vias)
+        Weight 1     =  0.00% (2       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (72710   vias)
+    Layer VIA4       =  0.00% (0      / 28516   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (28516   vias)
+    Layer VIA5       =  0.00% (0      / 11278   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (11278   vias)
+    Layer VIA6       =  0.22% (7      / 3221    vias)
+        Weight 1     =  0.22% (7       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.78% (3214    vias)
+ 
+  Total double via conversion rate    =  0.15% (699 / 474949 vias)
+ 
+    Layer VIA1       =  0.39% (690    / 176614  vias)
+    Layer VIA2       =  0.00% (0      / 182608  vias)
+    Layer VIA3       =  0.00% (2      / 72712   vias)
+    Layer VIA4       =  0.00% (0      / 28516   vias)
+    Layer VIA5       =  0.00% (0      / 11278   vias)
+    Layer VIA6       =  0.22% (7      / 3221    vias)
+ 
+  The optimized via conversion rate based on total routed via count =  0.15% (699 / 474949 vias)
+ 
+    Layer VIA1       =  0.39% (690    / 176614  vias)
+        Weight 1     =  0.39% (690     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.61% (175924  vias)
+    Layer VIA2       =  0.00% (0      / 182608  vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (182608  vias)
+    Layer VIA3       =  0.00% (2      / 72712   vias)
+        Weight 1     =  0.00% (2       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (72710   vias)
+    Layer VIA4       =  0.00% (0      / 28516   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (28516   vias)
+    Layer VIA5       =  0.00% (0      / 11278   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (11278   vias)
+    Layer VIA6       =  0.22% (7      / 3221    vias)
+        Weight 1     =  0.22% (7       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.78% (3214    vias)
+ 
+
+[FixRouteGuidance] Elapsed real time: 0:00:28 
+[FixRouteGuidance] Elapsed cpu  time: sys=0:00:00 usr=0:00:27 total=0:00:28
+[FixRouteGuidance] Stage (MB): Used  246  Alloctr  247  Proc  310 
+[FixRouteGuidance] Total (MB): Used  247  Alloctr  248  Proc 1924 
+
+Begin DRC fixing ...
+
+[Dr init] Elapsed real time: 0:00:28 
+[Dr init] Elapsed cpu  time: sys=0:00:00 usr=0:00:27 total=0:00:28
+[Dr init] Stage (MB): Used  246  Alloctr  247  Proc  310 
+[Dr init] Total (MB): Used  247  Alloctr  248  Proc 1924 
+Total number of nets = 49142, of which 0 are not extracted
+Total number of open nets = 0, of which 0 are frozen
+Information: Using 1 threads for routing. (ZRT-444)
+Start DR iteration 1: non-uniform partition
+Routed  1/33 Partitions, Violations =   99
+Routed  2/33 Partitions, Violations =   94
+Routed  3/33 Partitions, Violations =   89
+Routed  4/33 Partitions, Violations =   83
+Routed  5/33 Partitions, Violations =   79
+Routed  6/33 Partitions, Violations =   74
+Routed  7/33 Partitions, Violations =   69
+Routed  8/33 Partitions, Violations =   66
+Routed  9/33 Partitions, Violations =   63
+Routed  10/33 Partitions, Violations =  60
+Routed  11/33 Partitions, Violations =  57
+Routed  12/33 Partitions, Violations =  54
+Routed  13/33 Partitions, Violations =  49
+Routed  14/33 Partitions, Violations =  46
+Routed  15/33 Partitions, Violations =  43
+Routed  16/33 Partitions, Violations =  38
+Routed  17/33 Partitions, Violations =  35
+Routed  18/33 Partitions, Violations =  32
+Routed  19/33 Partitions, Violations =  28
+Routed  20/33 Partitions, Violations =  26
+Routed  21/33 Partitions, Violations =  24
+Routed  22/33 Partitions, Violations =  24
+Routed  23/33 Partitions, Violations =  23
+Routed  24/33 Partitions, Violations =  22
+Routed  25/33 Partitions, Violations =  21
+Routed  26/33 Partitions, Violations =  20
+Routed  27/33 Partitions, Violations =  13
+Routed  28/33 Partitions, Violations =  10
+Routed  29/33 Partitions, Violations =  7
+Routed  30/33 Partitions, Violations =  10
+Routed  31/33 Partitions, Violations =  9
+Routed  32/33 Partitions, Violations =  8
+Routed  33/33 Partitions, Violations =  7
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      7
+        Diff net spacing : 1
+        Short : 6
+
+[Iter 1] Elapsed real time: 0:00:30 
+[Iter 1] Elapsed cpu  time: sys=0:00:00 usr=0:00:29 total=0:00:29
+[Iter 1] Stage (MB): Used  262  Alloctr  264  Proc  322 
+[Iter 1] Total (MB): Used  264  Alloctr  265  Proc 1935 
+
+End DR iteration 1 with 33 parts
+
+Start DR iteration 2: non-uniform partition
+Routed  1/2 Partitions, Violations =    7
+Routed  2/2 Partitions, Violations =    5
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      5
+        Diff net spacing : 1
+        Short : 4
+
+[Iter 2] Elapsed real time: 0:00:30 
+[Iter 2] Elapsed cpu  time: sys=0:00:00 usr=0:00:29 total=0:00:30
+[Iter 2] Stage (MB): Used  262  Alloctr  264  Proc  322 
+[Iter 2] Total (MB): Used  264  Alloctr  265  Proc 1935 
+
+End DR iteration 2 with 2 parts
+
+Start DR iteration 3: non-uniform partition
+Routed  1/2 Partitions, Violations =    5
+Routed  2/2 Partitions, Violations =    4
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      4
+        Diff net spacing : 1
+        Short : 3
+
+[Iter 3] Elapsed real time: 0:00:30 
+[Iter 3] Elapsed cpu  time: sys=0:00:00 usr=0:00:30 total=0:00:30
+[Iter 3] Stage (MB): Used  262  Alloctr  264  Proc  325 
+[Iter 3] Total (MB): Used  264  Alloctr  265  Proc 1938 
+
+End DR iteration 3 with 2 parts
+
+Start DR iteration 4: non-uniform partition
+Routed  1/2 Partitions, Violations =    4
+Routed  2/2 Partitions, Violations =    6
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      6
+        Diff net spacing : 1
+        Same net spacing : 1
+        Short : 4
+
+[Iter 4] Elapsed real time: 0:00:31 
+[Iter 4] Elapsed cpu  time: sys=0:00:00 usr=0:00:30 total=0:00:31
+[Iter 4] Stage (MB): Used  262  Alloctr  264  Proc  325 
+[Iter 4] Total (MB): Used  264  Alloctr  265  Proc 1938 
+
+End DR iteration 4 with 2 parts
+
+Start DR iteration 5: non-uniform partition
+Routed  1/2 Partitions, Violations =    6
+Routed  2/2 Partitions, Violations =    6
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      6
+        Diff net spacing : 3
+        Short : 3
+
+[Iter 5] Elapsed real time: 0:00:31 
+[Iter 5] Elapsed cpu  time: sys=0:00:00 usr=0:00:31 total=0:00:31
+[Iter 5] Stage (MB): Used  262  Alloctr  264  Proc  325 
+[Iter 5] Total (MB): Used  264  Alloctr  265  Proc 1938 
+
+End DR iteration 5 with 2 parts
+
+Stop DR since reached max number of iterations
+
+[DBOUT: Write Incremental File] Elapsed real time: 0:00:00 
+[DBOUT: Write Incremental File] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[DBOUT: Write Incremental File] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[DBOUT: Write Incremental File] Total (MB): Used  247  Alloctr  248  Proc 1938 
+[DR] Elapsed real time: 0:00:31 
+[DR] Elapsed cpu  time: sys=0:00:00 usr=0:00:31 total=0:00:31
+[DR] Stage (MB): Used  238  Alloctr  240  Proc  325 
+[DR] Total (MB): Used  239  Alloctr  241  Proc 1938 
+
+Route Guidance Fixing finished with 0 open nets, of which 0 are frozen
+Information: Merged away 3 aligned/redundant DRCs. (ZRT-305)
+
+Route Guidance Fixing finished with 3 violations
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      3
+        Diff net spacing : 1
+        Short : 2
+
+
+
+Total Wire Length =                    1495056 micron
+Total Number of Contacts =             474954
+Total Number of Wires =                482680
+Total Number of PtConns =              64538
+Total Number of Routed Wires =       482680
+Total Routed Wire Length =           1487047 micron
+Total Number of Routed Contacts =       474954
+        Layer                 M1 :       7590 micron
+        Layer                 M2 :     338987 micron
+        Layer                 M3 :     386324 micron
+        Layer                 M4 :     287945 micron
+        Layer                 M5 :     173480 micron
+        Layer                 M6 :     255438 micron
+        Layer                 M7 :      45294 micron
+        Layer                 M8 :          0 micron
+        Layer                 M9 :          0 micron
+        Layer               MRDL :          0 micron
+        Via       VIA67SQ_C(rot) :       3214
+        Via   VIA67SQ_C(rot)_1x2 :          7
+        Via            VIA56SQ_C :      11278
+        Via            VIA45SQ_C :         57
+        Via       VIA45SQ_C(rot) :      28457
+        Via            VIA34SQ_C :      72294
+        Via       VIA34SQ_C(rot) :        414
+        Via        VIA34SQ_C_2x1 :          2
+        Via            VIA23SQ_C :       2797
+        Via       VIA23SQ_C(rot) :     179818
+        Via            VIA12SQ_C :     154438
+        Via       VIA12SQ_C(rot) :      17361
+        Via           VIA12BAR_C :       3933
+        Via      VIA12BAR_C(rot) :         29
+        Via             VIA12BAR :         21
+        Via        VIA12BAR(rot) :        143
+        Via        VIA12SQ_C_2x1 :        687
+        Via   VIA12SQ_C(rot)_1x2 :          1
+        Via   VIA12SQ_C(rot)_2x1 :          1
+        Via          VIA12SQ_2x1 :          2
+
+ 
+Redundant via conversion report:
+--------------------------------
+
+  Total optimized via conversion rate =  0.15% (700 / 474954 vias)
+ 
+    Layer VIA1       =  0.39% (691    / 176616  vias)
+        Weight 1     =  0.39% (691     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.61% (175925  vias)
+    Layer VIA2       =  0.00% (0      / 182615  vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (182615  vias)
+    Layer VIA3       =  0.00% (2      / 72710   vias)
+        Weight 1     =  0.00% (2       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (72708   vias)
+    Layer VIA4       =  0.00% (0      / 28514   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (28514   vias)
+    Layer VIA5       =  0.00% (0      / 11278   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (11278   vias)
+    Layer VIA6       =  0.22% (7      / 3221    vias)
+        Weight 1     =  0.22% (7       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.78% (3214    vias)
+ 
+  Total double via conversion rate    =  0.15% (700 / 474954 vias)
+ 
+    Layer VIA1       =  0.39% (691    / 176616  vias)
+    Layer VIA2       =  0.00% (0      / 182615  vias)
+    Layer VIA3       =  0.00% (2      / 72710   vias)
+    Layer VIA4       =  0.00% (0      / 28514   vias)
+    Layer VIA5       =  0.00% (0      / 11278   vias)
+    Layer VIA6       =  0.22% (7      / 3221    vias)
+ 
+  The optimized via conversion rate based on total routed via count =  0.15% (700 / 474954 vias)
+ 
+    Layer VIA1       =  0.39% (691    / 176616  vias)
+        Weight 1     =  0.39% (691     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.61% (175925  vias)
+    Layer VIA2       =  0.00% (0      / 182615  vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (182615  vias)
+    Layer VIA3       =  0.00% (2      / 72710   vias)
+        Weight 1     =  0.00% (2       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (72708   vias)
+    Layer VIA4       =  0.00% (0      / 28514   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (28514   vias)
+    Layer VIA5       =  0.00% (0      / 11278   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (11278   vias)
+    Layer VIA6       =  0.22% (7      / 3221    vias)
+        Weight 1     =  0.22% (7       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.78% (3214    vias)
+ 
+
+Total number of nets = 49142
+0 open nets, of which 0 are frozen
+Total number of excluded ports = 0 ports of 0 unplaced cells connected to 0 nets
+                                 0 ports without pins of 0 cells connected to 0 nets
+                                 0 ports of 0 cover cells connected to 0 non-pg nets
+Total number of DRCs = 3
+Total number of antenna violations = antenna checking not active
+Information: Routes in non-preferred voltage areas = 0 (ZRT-559)
+
+Updating the database ...
+Begin building search trees for block ORCA_TOP_lib:route2.design
+Done building search trees for block ORCA_TOP_lib:route2.design (time 1s)
+Information: Saving 'ORCA_TOP_lib:route2.design' to 'ORCA_TOP_lib:route2_ADR.design'. (DES-028)
+Opening block 'ORCA_TOP_lib:route2_ADR.design' in edit mode
+Information: loading PG routing via master rules, patterns, strategies and strategy via rules.
+Information: Automatically running signoff_check_drc as part of ADR flow.
+Using libraries: ORCA_TOP_lib saed32hvt_c saed32hvt_ulvl_v saed32hvt_dlvl_v saed32rvt_c saed32rvt_ulvl_v saed32rvt_dlvl_v saed32lvt_c saed32lvt_ulvl_v saed32lvt_dlvl_v saed32sram_c
+Visiting block ORCA_TOP_lib:route2_ADR.design
+Information: The lower_domain_boundary design attribute will be made obsolete in future. Consider using -applies_to_boundary option of set_isolation/set_level_shifter/set_repeater strategy commands. (UPF-355)
+Information: Clearing abstracted power annotation ... 
+Design 'ORCA_TOP' was successfully linked.
+User-specified unselected rule patterns: { USER_GUIDE.M* USER_GUIDE.VIA* *:*Density*of* M*.DN.*:* VIA*.DN.*:* CSR*:* DM*:* Rule*DEN*:* Rule:.*USER_GUIDE.M* Rule:.*USER_GUIDE.VIA* Rule:.*:*Density*of* Rule:.*M*.DN.*:* Rule:.*VIA*.DN.*:* Rule:.*CSR*:* Rule:.*DM*:* *USER_GUIDE* *:WARNING* *:LOGO* *NW.[A-Z].* *NWRSTI.[A-Z].* *NWROD.[A-Z].* *OD[0-1].[A-Z].* *OD.[A-Z].* *Gate *PP.[A-Z].* *NP.[A-Z].* *SSD.[A-Z].* *DIODMY.[A-Z].* *RH_OD.[A-Z].* *RH_TN.[A-Z].* *HV_N.[A-Z].* *SR.[A-Z].* *:*Density*of* *ESD.[A-Z].* *SRAM.[A-Z].[0-9]* *ROM.[A-Z].[0-9]* *LUP.[A-Z][0-9].* *[0-9][A-Z]:HIADMY *[A-Z][0-9]:BJTDMY* *[A-Z][0-9]:BJTHDMY* *AN.R.[0-9]* *DOD.[A-Z].[0-9]* *DIODMY.[A-Z].[0-9]* *DTCD.[A-Z].[0-9]* *GRMx.C.2_M1* *GRMx.C.2_M2* *GRMx.C.2_M3* *GRMx.C.2_M4* *GRV1.C.6* *GRVx.C.6_V2* *GRVx.C.6_V3* *M1.G0.1__M1.G0.2__M1.G0.3* *M2.G0.1__M2.G0.2__M2.G0.3* *M3.G0.1__M3.G0.2__M3.G0.3* *M4.G0.1__M4.G0.2__M4.G0.3* *M5.G0.1__M5.G0.2__M5.G0.3* *M6.G0.1__M6.G0.2__M6.G0.3*}
+
+Start to run ICV ...
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+......................Updated tech file has been written at: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/route2_ADR/tech.tf
+
+ICV is done!
+ICV messages:
+WARNING: Could not open CGLNPRX8_LVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_RVT.design, using frame view instead.
+For more details see /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/route2_ADR/signoff_check_drc.log
+Overall engine Time=0:02:25 Highest command Mem=1.628 GB
+
+-------------------------------------------------------------------------------
+Rule: CO.B.1: CO must be fully covered by M1, and by PO widened by 0.006                     27 errors
+Rule:              CO.E.12: CONT is not enclosed by M1               27 errors
+Rule:          M1.S.1: Minimum M1 spacing must be 0.05               47 errors
+Rule: M1.W.2.1: Minimum width of thin wire with length less than 0.1, connected to fat wire with width larges than 0.15, must be 0.06                10 errors
+Rule: M2.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                 66 errors
+Rule: M3.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  9 errors
+Rule: M4.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  6 errors
+Rule: M6.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  4 errors
+-------------------------------------------------------------------------------
+
+signoff_check_drc is finished.
+
+Create error data signoff_check_drc.err ...
+Closing block 'ORCA_TOP_lib:route2_ADR.design'
+Information: Metal2 is horizontal. Switching all the directional adr advanced guidances.
+Turn off antenna since no rule is specified
+Cell Min-Routing-Layer = M2
+Cell Max-Routing-Layer = M7
+Warning: Cannot find a default contact code for layer CO. (ZRT-022)
+Warning: Ignore 3 top cell ports with no pins. (ZRT-027)
+Skipping 5 internal pins that are not physical. Set route.common.verbose_level to > 0 and run routing command to get skipped pin names.
+Info: number of net_type_blockage: 0 
+Found 1 voltage-areas.
+Printing options for 'route.common.*'
+common.debug_remove_extension_floating_shapes           :        false               
+common.verbose_level                                    :        0                   
+
+Printing options for 'route.detail.*'
+detail.eco_route_use_soft_spacing_for_timing_optimization:       true                
+detail.force_end_on_preferred_grid                      :        true                
+
+Printing options for 'route.auto_via_ladder.*'
+
+[Dr init] Elapsed real time: 0:00:15 
+[Dr init] Elapsed cpu  time: sys=0:00:00 usr=0:00:15 total=0:00:15
+[Dr init] Stage (MB): Used  228  Alloctr  229  Proc    0 
+[Dr init] Total (MB): Used  229  Alloctr  230  Proc 1938 
+Opened the error data successfully.
+Loaded the guidance data successfully.
+
+Begin Route Guidance Fixing ...
+
+Routed  1/25 Partitions, Violations =   68
+Routed  2/25 Partitions, Violations =   68
+Routed  3/25 Partitions, Violations =   68
+Routed  4/25 Partitions, Violations =   71
+Routed  5/25 Partitions, Violations =   73
+Routed  6/25 Partitions, Violations =   75
+Routed  7/25 Partitions, Violations =   75
+Routed  8/25 Partitions, Violations =   79
+Routed  9/25 Partitions, Violations =   79
+Routed  10/25 Partitions, Violations =  80
+Routed  11/25 Partitions, Violations =  84
+Routed  12/25 Partitions, Violations =  88
+Routed  13/25 Partitions, Violations =  93
+Routed  14/25 Partitions, Violations =  99
+Routed  15/25 Partitions, Violations =  104
+Routed  16/25 Partitions, Violations =  109
+Routed  17/25 Partitions, Violations =  109
+Routed  18/25 Partitions, Violations =  114
+Routed  19/25 Partitions, Violations =  114
+Routed  20/25 Partitions, Violations =  114
+Routed  21/25 Partitions, Violations =  118
+Routed  22/25 Partitions, Violations =  119
+Routed  23/25 Partitions, Violations =  119
+Routed  24/25 Partitions, Violations =  119
+Routed  25/25 Partitions, Violations =  119
+
+FIXING-ROUTE-GUIDANCE-SUMMARY:
+Fixed 0 out of total 66 route guidances.
+
+FixRouteGuidance finished with 119 violations
+
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      119
+        Diff net spacing : 18
+        Route guidance : 70
+        Same net spacing : 2
+        Short : 29
+
+
+Total Wire Length =                    1495052 micron
+Total Number of Contacts =             474946
+Total Number of Wires =                482622
+Total Number of PtConns =              64536
+Total Number of Routed Wires =       482622
+Total Routed Wire Length =           1487043 micron
+Total Number of Routed Contacts =       474946
+        Layer                 M1 :       7589 micron
+        Layer                 M2 :     338987 micron
+        Layer                 M3 :     386324 micron
+        Layer                 M4 :     287943 micron
+        Layer                 M5 :     173483 micron
+        Layer                 M6 :     255433 micron
+        Layer                 M7 :      45293 micron
+        Layer                 M8 :          0 micron
+        Layer                 M9 :          0 micron
+        Layer               MRDL :          0 micron
+        Via       VIA67SQ_C(rot) :       3214
+        Via   VIA67SQ_C(rot)_1x2 :          7
+        Via            VIA56SQ_C :      11278
+        Via            VIA45SQ_C :         57
+        Via       VIA45SQ_C(rot) :      28457
+        Via            VIA34SQ_C :      72289
+        Via       VIA34SQ_C(rot) :        414
+        Via        VIA34SQ_C_2x1 :          2
+        Via            VIA23SQ_C :       2798
+        Via       VIA23SQ_C(rot) :     179816
+        Via            VIA12SQ_C :     154446
+        Via       VIA12SQ_C(rot) :      17351
+        Via           VIA12BAR_C :       3934
+        Via      VIA12BAR_C(rot) :         29
+        Via             VIA12BAR :         21
+        Via        VIA12BAR(rot) :        143
+        Via        VIA12SQ_C_2x1 :        686
+        Via   VIA12SQ_C(rot)_1x2 :          1
+        Via   VIA12SQ_C(rot)_2x1 :          1
+        Via          VIA12SQ_2x1 :          2
+
+ 
+Redundant via conversion report:
+--------------------------------
+
+  Total optimized via conversion rate =  0.15% (699 / 474946 vias)
+ 
+    Layer VIA1       =  0.39% (690    / 176614  vias)
+        Weight 1     =  0.39% (690     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.61% (175924  vias)
+    Layer VIA2       =  0.00% (0      / 182614  vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (182614  vias)
+    Layer VIA3       =  0.00% (2      / 72705   vias)
+        Weight 1     =  0.00% (2       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (72703   vias)
+    Layer VIA4       =  0.00% (0      / 28514   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (28514   vias)
+    Layer VIA5       =  0.00% (0      / 11278   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (11278   vias)
+    Layer VIA6       =  0.22% (7      / 3221    vias)
+        Weight 1     =  0.22% (7       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.78% (3214    vias)
+ 
+  Total double via conversion rate    =  0.15% (699 / 474946 vias)
+ 
+    Layer VIA1       =  0.39% (690    / 176614  vias)
+    Layer VIA2       =  0.00% (0      / 182614  vias)
+    Layer VIA3       =  0.00% (2      / 72705   vias)
+    Layer VIA4       =  0.00% (0      / 28514   vias)
+    Layer VIA5       =  0.00% (0      / 11278   vias)
+    Layer VIA6       =  0.22% (7      / 3221    vias)
+ 
+  The optimized via conversion rate based on total routed via count =  0.15% (699 / 474946 vias)
+ 
+    Layer VIA1       =  0.39% (690    / 176614  vias)
+        Weight 1     =  0.39% (690     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.61% (175924  vias)
+    Layer VIA2       =  0.00% (0      / 182614  vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (182614  vias)
+    Layer VIA3       =  0.00% (2      / 72705   vias)
+        Weight 1     =  0.00% (2       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (72703   vias)
+    Layer VIA4       =  0.00% (0      / 28514   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (28514   vias)
+    Layer VIA5       =  0.00% (0      / 11278   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (11278   vias)
+    Layer VIA6       =  0.22% (7      / 3221    vias)
+        Weight 1     =  0.22% (7       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.78% (3214    vias)
+ 
+
+[FixRouteGuidance] Elapsed real time: 0:00:16 
+[FixRouteGuidance] Elapsed cpu  time: sys=0:00:00 usr=0:00:16 total=0:00:16
+[FixRouteGuidance] Stage (MB): Used  251  Alloctr  252  Proc    0 
+[FixRouteGuidance] Total (MB): Used  252  Alloctr  254  Proc 1938 
+
+Begin DRC fixing ...
+
+[Dr init] Elapsed real time: 0:00:16 
+[Dr init] Elapsed cpu  time: sys=0:00:00 usr=0:00:16 total=0:00:16
+[Dr init] Stage (MB): Used  251  Alloctr  252  Proc    0 
+[Dr init] Total (MB): Used  252  Alloctr  254  Proc 1938 
+Total number of nets = 49142, of which 0 are not extracted
+Total number of open nets = 0, of which 0 are frozen
+Information: Using 1 threads for routing. (ZRT-444)
+Start DR iteration 1: non-uniform partition
+Routed  1/14 Partitions, Violations =   44
+Routed  2/14 Partitions, Violations =   39
+Routed  3/14 Partitions, Violations =   34
+Routed  4/14 Partitions, Violations =   28
+Routed  5/14 Partitions, Violations =   24
+Routed  6/14 Partitions, Violations =   20
+Routed  7/14 Partitions, Violations =   16
+Routed  8/14 Partitions, Violations =   14
+Routed  9/14 Partitions, Violations =   12
+Routed  10/14 Partitions, Violations =  11
+Routed  11/14 Partitions, Violations =  6
+Routed  12/14 Partitions, Violations =  3
+Routed  13/14 Partitions, Violations =  1
+Routed  14/14 Partitions, Violations =  0
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      0
+
+[Iter 1] Elapsed real time: 0:00:17 
+[Iter 1] Elapsed cpu  time: sys=0:00:00 usr=0:00:17 total=0:00:17
+[Iter 1] Stage (MB): Used  268  Alloctr  269  Proc    4 
+[Iter 1] Total (MB): Used  269  Alloctr  270  Proc 1943 
+
+End DR iteration 1 with 14 parts
+
+Finish DR since reached 0 DRC
+
+[DBOUT: Write Incremental File] Elapsed real time: 0:00:00 
+[DBOUT: Write Incremental File] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[DBOUT: Write Incremental File] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[DBOUT: Write Incremental File] Total (MB): Used  252  Alloctr  254  Proc 1943 
+[DR] Elapsed real time: 0:00:17 
+[DR] Elapsed cpu  time: sys=0:00:00 usr=0:00:17 total=0:00:17
+[DR] Stage (MB): Used  238  Alloctr  238  Proc    4 
+[DR] Total (MB): Used  239  Alloctr  240  Proc 1943 
+
+Route Guidance Fixing finished with 0 open nets, of which 0 are frozen
+
+Route Guidance Fixing finished with 0 violations
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      0
+
+
+
+Total Wire Length =                    1495058 micron
+Total Number of Contacts =             474953
+Total Number of Wires =                482640
+Total Number of PtConns =              64539
+Total Number of Routed Wires =       482640
+Total Routed Wire Length =           1487049 micron
+Total Number of Routed Contacts =       474953
+        Layer                 M1 :       7589 micron
+        Layer                 M2 :     338990 micron
+        Layer                 M3 :     386325 micron
+        Layer                 M4 :     287945 micron
+        Layer                 M5 :     173481 micron
+        Layer                 M6 :     255435 micron
+        Layer                 M7 :      45293 micron
+        Layer                 M8 :          0 micron
+        Layer                 M9 :          0 micron
+        Layer               MRDL :          0 micron
+        Via       VIA67SQ_C(rot) :       3214
+        Via   VIA67SQ_C(rot)_1x2 :          7
+        Via            VIA56SQ_C :      11278
+        Via            VIA45SQ_C :         57
+        Via       VIA45SQ_C(rot) :      28457
+        Via            VIA34SQ_C :      72291
+        Via       VIA34SQ_C(rot) :        414
+        Via        VIA34SQ_C_2x1 :          2
+        Via            VIA23SQ_C :       2798
+        Via       VIA23SQ_C(rot) :     179819
+        Via            VIA12SQ_C :     154442
+        Via       VIA12SQ_C(rot) :      17357
+        Via           VIA12BAR_C :       3933
+        Via      VIA12BAR_C(rot) :         29
+        Via             VIA12BAR :         21
+        Via        VIA12BAR(rot) :        143
+        Via        VIA12SQ_C_2x1 :        687
+        Via   VIA12SQ_C(rot)_1x2 :          1
+        Via   VIA12SQ_C(rot)_2x1 :          1
+        Via          VIA12SQ_2x1 :          2
+
+ 
+Redundant via conversion report:
+--------------------------------
+
+  Total optimized via conversion rate =  0.15% (700 / 474953 vias)
+ 
+    Layer VIA1       =  0.39% (691    / 176616  vias)
+        Weight 1     =  0.39% (691     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.61% (175925  vias)
+    Layer VIA2       =  0.00% (0      / 182617  vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (182617  vias)
+    Layer VIA3       =  0.00% (2      / 72707   vias)
+        Weight 1     =  0.00% (2       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (72705   vias)
+    Layer VIA4       =  0.00% (0      / 28514   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (28514   vias)
+    Layer VIA5       =  0.00% (0      / 11278   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (11278   vias)
+    Layer VIA6       =  0.22% (7      / 3221    vias)
+        Weight 1     =  0.22% (7       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.78% (3214    vias)
+ 
+  Total double via conversion rate    =  0.15% (700 / 474953 vias)
+ 
+    Layer VIA1       =  0.39% (691    / 176616  vias)
+    Layer VIA2       =  0.00% (0      / 182617  vias)
+    Layer VIA3       =  0.00% (2      / 72707   vias)
+    Layer VIA4       =  0.00% (0      / 28514   vias)
+    Layer VIA5       =  0.00% (0      / 11278   vias)
+    Layer VIA6       =  0.22% (7      / 3221    vias)
+ 
+  The optimized via conversion rate based on total routed via count =  0.15% (700 / 474953 vias)
+ 
+    Layer VIA1       =  0.39% (691    / 176616  vias)
+        Weight 1     =  0.39% (691     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.61% (175925  vias)
+    Layer VIA2       =  0.00% (0      / 182617  vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (182617  vias)
+    Layer VIA3       =  0.00% (2      / 72707   vias)
+        Weight 1     =  0.00% (2       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (72705   vias)
+    Layer VIA4       =  0.00% (0      / 28514   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (28514   vias)
+    Layer VIA5       =  0.00% (0      / 11278   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (11278   vias)
+    Layer VIA6       =  0.22% (7      / 3221    vias)
+        Weight 1     =  0.22% (7       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.78% (3214    vias)
+ 
+
+Total number of nets = 49142
+0 open nets, of which 0 are frozen
+Total number of excluded ports = 0 ports of 0 unplaced cells connected to 0 nets
+                                 0 ports without pins of 0 cells connected to 0 nets
+                                 0 ports of 0 cover cells connected to 0 non-pg nets
+Total number of DRCs = 0
+Total number of antenna violations = antenna checking not active
+Information: Routes in non-preferred voltage areas = 0 (ZRT-559)
+
+Updating the database ...
+Begin building search trees for block ORCA_TOP_lib:route2.design
+Done building search trees for block ORCA_TOP_lib:route2.design (time 1s)
+Information: Removed design 'ORCA_TOP_lib:route2_ADR.design' from memory and disk. (NDMUI-064)
+Information: Saving 'ORCA_TOP_lib:route2.design' to 'ORCA_TOP_lib:route2_ADR.design'. (DES-028)
+Opening block 'ORCA_TOP_lib:route2_ADR.design' in edit mode
+Information: loading PG routing via master rules, patterns, strategies and strategy via rules.
+Information: Automatically running signoff_check_drc as part of ADR flow.
+Using libraries: ORCA_TOP_lib saed32hvt_c saed32hvt_ulvl_v saed32hvt_dlvl_v saed32rvt_c saed32rvt_ulvl_v saed32rvt_dlvl_v saed32lvt_c saed32lvt_ulvl_v saed32lvt_dlvl_v saed32sram_c
+Visiting block ORCA_TOP_lib:route2_ADR.design
+Information: The lower_domain_boundary design attribute will be made obsolete in future. Consider using -applies_to_boundary option of set_isolation/set_level_shifter/set_repeater strategy commands. (UPF-355)
+Information: Clearing abstracted power annotation ... 
+Design 'ORCA_TOP' was successfully linked.
+User-specified unselected rule patterns: { USER_GUIDE.M* USER_GUIDE.VIA* *:*Density*of* M*.DN.*:* VIA*.DN.*:* CSR*:* DM*:* Rule*DEN*:* Rule:.*USER_GUIDE.M* Rule:.*USER_GUIDE.VIA* Rule:.*:*Density*of* Rule:.*M*.DN.*:* Rule:.*VIA*.DN.*:* Rule:.*CSR*:* Rule:.*DM*:* *USER_GUIDE* *:WARNING* *:LOGO* *NW.[A-Z].* *NWRSTI.[A-Z].* *NWROD.[A-Z].* *OD[0-1].[A-Z].* *OD.[A-Z].* *Gate *PP.[A-Z].* *NP.[A-Z].* *SSD.[A-Z].* *DIODMY.[A-Z].* *RH_OD.[A-Z].* *RH_TN.[A-Z].* *HV_N.[A-Z].* *SR.[A-Z].* *:*Density*of* *ESD.[A-Z].* *SRAM.[A-Z].[0-9]* *ROM.[A-Z].[0-9]* *LUP.[A-Z][0-9].* *[0-9][A-Z]:HIADMY *[A-Z][0-9]:BJTDMY* *[A-Z][0-9]:BJTHDMY* *AN.R.[0-9]* *DOD.[A-Z].[0-9]* *DIODMY.[A-Z].[0-9]* *DTCD.[A-Z].[0-9]* *GRMx.C.2_M1* *GRMx.C.2_M2* *GRMx.C.2_M3* *GRMx.C.2_M4* *GRV1.C.6* *GRVx.C.6_V2* *GRVx.C.6_V3* *M1.G0.1__M1.G0.2__M1.G0.3* *M2.G0.1__M2.G0.2__M2.G0.3* *M3.G0.1__M3.G0.2__M3.G0.3* *M4.G0.1__M4.G0.2__M4.G0.3* *M5.G0.1__M5.G0.2__M5.G0.3* *M6.G0.1__M6.G0.2__M6.G0.3*}
+
+Start to run ICV ...
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+............................................................................Updated tech file has been written at: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/route2_ADR/tech.tf
+
+ICV is done!
+ICV messages:
+WARNING: Could not open CGLNPRX8_LVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_RVT.design, using frame view instead.
+For more details see /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/route2_ADR/signoff_check_drc.log
+Overall engine Time=0:01:16 Highest command Mem=0.695 GB
+
+-------------------------------------------------------------------------------
+Rule: CO.B.1: CO must be fully covered by M1, and by PO widened by 0.006                      5 errors
+Rule:              CO.E.12: CONT is not enclosed by M1                5 errors
+Rule:          M1.S.1: Minimum M1 spacing must be 0.05                6 errors
+Rule: M1.W.2.1: Minimum width of thin wire with length less than 0.1, connected to fat wire with width larges than 0.15, must be 0.06                 7 errors
+Rule: M2.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                 24 errors
+Rule: M3.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  6 errors
+Rule: M4.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  3 errors
+Rule: M6.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  4 errors
+-------------------------------------------------------------------------------
+
+signoff_check_drc is finished.
+
+Create error data signoff_check_drc.err ...
+Closing block 'ORCA_TOP_lib:route2_ADR.design'
+Information: Metal2 is horizontal. Switching all the directional adr advanced guidances.
+Information: Removed design 'ORCA_TOP_lib:route2_ADR.design' from memory and disk. (NDMUI-064)
+
+Start to run ICV ...
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+................................................Updated tech file has been written at: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/tech.tf
+
+ICV is done!
+ICV messages:
+WARNING: Could not open CGLNPRX8_LVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_RVT.design, using frame view instead.
+For more details see /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_check_drc_run/signoff_check_drc.log
+Overall engine Time=0:02:09 Highest command Mem=0.791 GB
+
+-------------------------------------------------------------------------------
+Rule: CO.B.1: CO must be fully covered by M1, and by PO widened by 0.006                      3 errors
+Rule:              CO.E.12: CONT is not enclosed by M1                3 errors
+Rule: CO.E.9: Minimum enclosure of any contact by M1 must be 0.002um                204 errors
+Rule: M1.S.9: Minimum spacing when either metal line is wider than 0.15 must be 0.055               196 errors
+Rule:            M1.W.1: Minimum M1 width must be 0.05               30 errors
+Rule: M1.W.2.1: Minimum width of thin wire with length less than 0.1, connected to fat wire with width larges than 0.15, must be 0.06                 2 errors
+Rule: M2.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  6 errors
+Rule: M3.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                 11 errors
+Rule: M5.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  3 errors
+Rule: VIA6.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)                   221 errors
+-------------------------------------------------------------------------------
+
+signoff_check_drc is finished.
+
+Create error data signoff_check_drc.err ...
+Information: Running the advanced guidance based ADR flow.
+User-specified unselected rule patterns: { USER_GUIDE.M* USER_GUIDE.VIA* *:*Density*of* M*.DN.*:* VIA*.DN.*:* CSR*:* DM*:* Rule*DEN*:* Rule:.*USER_GUIDE.M* Rule:.*USER_GUIDE.VIA* Rule:.*:*Density*of* Rule:.*M*.DN.*:* Rule:.*VIA*.DN.*:* Rule:.*CSR*:* Rule:.*DM*:* *USER_GUIDE* *:WARNING* *:LOGO* *NW.[A-Z].* *NWRSTI.[A-Z].* *NWROD.[A-Z].* *OD[0-1].[A-Z].* *OD.[A-Z].* *Gate *PP.[A-Z].* *NP.[A-Z].* *SSD.[A-Z].* *DIODMY.[A-Z].* *RH_OD.[A-Z].* *RH_TN.[A-Z].* *HV_N.[A-Z].* *SR.[A-Z].* *:*Density*of* *ESD.[A-Z].* *SRAM.[A-Z].[0-9]* *ROM.[A-Z].[0-9]* *LUP.[A-Z][0-9].* *[0-9][A-Z]:HIADMY *[A-Z][0-9]:BJTDMY* *[A-Z][0-9]:BJTHDMY* *AN.R.[0-9]* *DOD.[A-Z].[0-9]* *DIODMY.[A-Z].[0-9]* *DTCD.[A-Z].[0-9]* *GRMx.C.2_M1* *GRMx.C.2_M2* *GRMx.C.2_M3* *GRMx.C.2_M4* *GRV1.C.6* *GRVx.C.6_V2* *GRVx.C.6_V3* *M1.G0.1__M1.G0.2__M1.G0.3* *M2.G0.1__M2.G0.2__M2.G0.3* *M3.G0.1__M3.G0.2__M3.G0.3* *M4.G0.1__M4.G0.2__M4.G0.3* *M5.G0.1__M5.G0.2__M5.G0.3* *M6.G0.1__M6.G0.2__M6.G0.3*}
+
+Start to run ICV ...
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+..............................................................................
+....................................................Updated tech file has been written at: /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/signoff_check_drc_run/tech.tf
+
+ICV is done!
+ICV messages:
+WARNING: Could not open CGLNPRX8_LVT.design, using frame view instead.
+WARNING: Could not open CGLPPRX8_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_HVT.design, using frame view instead.
+WARNING: Could not open SDFFASX1_LVT.design, using frame view instead.
+WARNING: Could not open SDFFASX2_RVT.design, using frame view instead.
+For more details see /u/divyaj2/ECE510-2020-SPRING/project/apr/work/signoff_fix_drc_run/signoff_check_drc_run/signoff_check_drc.log
+Overall engine Time=0:06:43 Highest command Mem=6.623 GB
+
+-------------------------------------------------------------------------------
+Rule: CO.B.1: CO must be fully covered by M1, and by PO widened by 0.006                     40 errors
+Rule:              CO.E.12: CONT is not enclosed by M1               40 errors
+Rule: CO.E.9: Minimum enclosure of any contact by M1 must be 0.002um               1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:          M1.S.1: Minimum M1 spacing must be 0.05              300 errors
+Rule: M1.S.9: Minimum spacing when either metal line is wider than 0.15 must be 0.055              1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule:            M1.W.1: Minimum M1 width must be 0.05             1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+Rule: M1.W.2.1: Minimum width of thin wire with length less than 0.1, connected to fat wire with width larges than 0.15, must be 0.06                15 errors
+Rule: M2.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                 60 errors
+Rule: M3.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  9 errors
+Rule: M4.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  3 errors
+Rule: M6.S.2: Minimum spacing when either metal line is wider than 0.15 must be 0.06                  4 errors
+Rule: VIA6.B.1: When Mx or MX+1 width > 0.2, it is a must to have redundant VIAs (At least one rectangular VIAx, At least two  square VIAx with spacing <=0.15umn,At least four square VIAx with spacing <=0.7um)                  1000 errors
+  WARNING: Runset error limit exceeded for this rule, some errors omitted.
+-------------------------------------------------------------------------------
+
+signoff_check_drc is finished.
+
+Create error data signoff_check_drc.err ...
+Information: Metal2 is horizontal. Switching all the directional adr advanced guidances.
+Information: Coordinates are a guide for verification area, errors may be flagged outside of them. (ZRT-462)
+Information: Certain net based DRC checks are not performed with area based DRC check. (ZRT-463)
+Cell Min-Routing-Layer = M2
+Cell Max-Routing-Layer = M7
+Warning: Cannot find a default contact code for layer CO. (ZRT-022)
+Warning: Ignore 3 top cell ports with no pins. (ZRT-027)
+Skipping 5 internal pins that are not physical. Set route.common.verbose_level to > 0 and run routing command to get skipped pin names.
+Info: number of net_type_blockage: 0 
+Found 1 voltage-areas.
+Warning: A specified rectangular area extends outside the design boundary. (ZRT-467)
+Printing options for 'route.common.*'
+common.debug_remove_extension_floating_shapes           :        false               
+common.verbose_level                                    :        0                   
+
+Printing options for 'route.detail.*'
+detail.antenna                                          :        false               
+detail.eco_route_use_soft_spacing_for_timing_optimization:       true                
+detail.force_end_on_preferred_grid                      :        true                
+
+Printing options for 'route.auto_via_ladder.*'
+
+
+Begin area based DRC check ...
+
+Information: Using 1 threads for routing. (ZRT-444)
+Checked 1/130 Partitions, Violations =  0
+Checked 5/130 Partitions, Violations =  0
+Checked 10/130 Partitions, Violations = 0
+Checked 15/130 Partitions, Violations = 0
+Checked 20/130 Partitions, Violations = 0
+Checked 25/130 Partitions, Violations = 0
+Checked 30/130 Partitions, Violations = 0
+Checked 35/130 Partitions, Violations = 0
+Checked 41/130 Partitions, Violations = 0
+Checked 45/130 Partitions, Violations = 0
+Checked 50/130 Partitions, Violations = 0
+Checked 55/130 Partitions, Violations = 0
+Checked 60/130 Partitions, Violations = 0
+Checked 65/130 Partitions, Violations = 0
+Checked 70/130 Partitions, Violations = 0
+Checked 75/130 Partitions, Violations = 0
+Checked 80/130 Partitions, Violations = 0
+Checked 85/130 Partitions, Violations = 0
+Checked 90/130 Partitions, Violations = 0
+Checked 95/130 Partitions, Violations = 0
+Checked 100/130 Partitions, Violations =        14
+Checked 105/130 Partitions, Violations =        40
+Checked 110/130 Partitions, Violations =        40
+Checked 115/130 Partitions, Violations =        81
+Checked 120/130 Partitions, Violations =        81
+Checked 125/130 Partitions, Violations =        81
+Checked 130/130 Partitions, Violations =        83
+[DRC CHECK] Elapsed real time: 0:00:02 
+[DRC CHECK] Elapsed cpu  time: sys=0:00:00 usr=0:00:02 total=0:00:02
+[DRC CHECK] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[DRC CHECK] Total (MB): Used  216  Alloctr  218  Proc 1943 
+Information: Merged away 22 aligned/redundant DRCs. (ZRT-305)
+
+DRC-SUMMARY:
+        @@@@@@@ TOTAL VIOLATIONS =      44
+        Short : 44
+
+
+
+
+Verify Summary:
+
+Total number of open nets = not checked
+Total number of excluded ports = 0 ports of 0 unplaced cells connected to 0 nets
+                                 0 ports without pins of 0 cells connected to 0 nets
+                                 0 ports of 0 cover cells connected to 0 non-pg nets
+Total number of DRCs = 44
+Total number of antenna violations = not checked
+Information: Routes in non-preferred voltage areas = 0 (ZRT-559)
+Total number of tie to rail violations = not checked
+Total number of tie to rail directly violations = not checked
+
+
+Information: -coordinates option is specified with the command check_routes. -nets, -open_net, -report_all_open_nets and -antenna options will be ignored. (ZRT-464)
+icc2_shell> start_gui
+icc2_shell> gui_show_error_data
+icc2_shell> gui_show_error_data
+icc2_shell> exit
+Maximum memory usage for this session: 893.26 MB
+CPU usage for this session:    172 seconds (  0.05 hours)
+Elapsed time for this session:   4577 seconds (  1.27 hours)
+Thank you for using IC Compiler II.
+

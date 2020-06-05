@@ -1,0 +1,223 @@
+* Description of frequently used terms in hierarchy_analysis files*
+M indicates that the value of that column is in millions
+Hier Plc Count(Hierarchical Placement Count) : Number of unique instances of the cell in another cell (Parent)
+Flat Plc Count(Flat Placement Count)         : Total number of instances of the cell in the layout
+
+Example : 
+                               A                     
+                              / \                   Cell  Hier Plc Count Flat Plc Count 
+                             /   \                     A               1              1 
+                            B     B                    B               2              2 
+                           / \  /  \                   C               2              4 
+                          C   C C   C                
+------------------------------------------------------------------------------------------------------ 
+
+
+* Cells with flat area > 0.01 of top cell *
+Reports cells with flat area > 0.01 of top cell
+
+Flat A(Flat Area) : Total area covered by this cell in the layout(cell area * flat placement count)
+Cell A(Cell Area) : Area of this cell
+Percent of top    : Percentage of area of this cell w.r.t area of top cell
+This table contains a single entry
+
+ Name                                          | Flat A (M um^2), Cell A (M um^2), Flat Plc Count, Hier Plc Count, Percent of top
+-----------------------------------------------
+ route2                                        |           0.505,           0.505,              1,              1,       100.00 %
+===============================================
+
+* Large-Area cells and child area ratio *
+This table reports cells with large areas and ratio of its area with total area covered by its children
+
+Num Inst(Number of instances) : Total Number of instances of the cell
+Child A(Child Area)           : Total area covered by all the children of the cell
+Pct of parent(Percent of area): Percentage of total area covered by its childern w.r.t area of this cell
+This table contains a single entry
+
+ Name                                          | Flat A (M um^2), Cell A (M um^2), Num Inst (M), Child A (M um^2), Pct of parent
+-----------------------------------------------
+ route2                                        |           0.505,           0.505,        0.000,           0.000,        0.00 %
+===============================================
+
+* Exploded Cell Information *
+Displays information of exploded cells
+
+Parent cell           : Name of the parent cell the cell has exploded into
+Exploded Inst Count   : Total number of instances of the cell that has expldoed to the parent cell
+Parent Flat Plc Count : Parent cell flat placement count
+Parent Hier Plc Count : Parent cell hierarchical placement count
+This table contains 114 entries
+
+ Exploded Cell                                 | Parent Cell                                   | Exploded Inst Count, Parent Flat Plc Count, Parent Hier Plc Count
+----------------------------------------------- -----------------------------------------------
+ SHFILL3_RVT                                   | route2                                        |                1019,                     1,                     1
+ DCAP_HVT                                      | route2                                        |                 264,                     1,                     1
+ SHFILL2_RVT                                   | route2                                        |                 171,                     1,                     1
+ SHFILL1_RVT                                   | route2                                        |                 135,                     1,                     1
+ AO22X1_HVT                                    | route2                                        |                  45,                     1,                     1
+ INVX0_HVT                                     | route2                                        |                  36,                     1,                     1
+ SDFFARX1_HVT                                  | route2                                        |                  24,                     1,                     1
+ SDFFARX2_HVT                                  | route2                                        |                  24,                     1,                     1
+ SDFFARX2_RVT                                  | route2                                        |                  24,                     1,                     1
+ NAND2X0_HVT                                   | route2                                        |                  19,                     1,                     1
+ SDFFX1_RVT                                    | route2                                        |                  19,                     1,                     1
+ AO22X1_RVT                                    | route2                                        |                  18,                     1,                     1
+ SDFFARX1_RVT                                  | route2                                        |                  18,                     1,                     1
+ NBUFFX8_RVT                                   | route2                                        |                  15,                     1,                     1
+ SDFFARX2_LVT                                  | route2                                        |                  15,                     1,                     1
+ XOR2X1_LVT                                    | route2                                        |                  15,                     1,                     1
+ XOR2X1_RVT                                    | route2                                        |                  15,                     1,                     1
+ NBUFFX2_RVT                                   | route2                                        |                  14,                     1,                     1
+ SDFFNARX2_HVT                                 | route2                                        |                  13,                     1,                     1
+ SDFFNX2_RVT                                   | route2                                        |                  12,                     1,                     1
+ OR2X1_HVT                                     | route2                                        |                  10,                     1,                     1
+ TIEH_HVT                                      | route2                                        |                  10,                     1,                     1
+ INVX0_RVT                                     | route2                                        |                   9,                     1,                     1
+ SDFFNX1_HVT                                   | route2                                        |                   9,                     1,                     1
+ MUX21X1_RVT                                   | route2                                        |                   8,                     1,                     1
+ NBUFFX2_HVT                                   | route2                                        |                   8,                     1,                     1
+ NBUFFX4_RVT                                   | route2                                        |                   8,                     1,                     1
+ SDFFNARX1_HVT                                 | route2                                        |                   8,                     1,                     1
+ XOR2X1_HVT                                    | route2                                        |                   8,                     1,                     1
+ INVX0_LVT                                     | route2                                        |                   7,                     1,                     1
+ INVX2_LVT                                     | route2                                        |                   7,                     1,                     1
+ INVX4_HVT                                     | route2                                        |                   6,                     1,                     1
+ NBUFFX4_HVT                                   | route2                                        |                   6,                     1,                     1
+ OA21X1_HVT                                    | route2                                        |                   6,                     1,                     1
+ OR2X1_LVT                                     | route2                                        |                   6,                     1,                     1
+ SDFFNARX2_RVT                                 | route2                                        |                   6,                     1,                     1
+ AND2X1_RVT                                    | route2                                        |                   5,                     1,                     1
+ INVX1_LVT                                     | route2                                        |                   5,                     1,                     1
+ INVX8_HVT                                     | route2                                        |                   5,                     1,                     1
+ NAND2X0_LVT                                   | route2                                        |                   5,                     1,                     1
+ NAND2X0_RVT                                   | route2                                        |                   5,                     1,                     1
+ OAI22X1_HVT                                   | route2                                        |                   5,                     1,                     1
+ SDFFARX1_LVT                                  | route2                                        |                   5,                     1,                     1
+ SDFFNX2_HVT                                   | route2                                        |                   5,                     1,                     1
+ AND2X1_LVT                                    | route2                                        |                   4,                     1,                     1
+ AO21X1_HVT                                    | route2                                        |                   4,                     1,                     1
+ INVX4_LVT                                     | route2                                        |                   4,                     1,                     1
+ NBUFFX8_HVT                                   | route2                                        |                   4,                     1,                     1
+ OR2X1_RVT                                     | route2                                        |                   4,                     1,                     1
+ SDFFNARX1_RVT                                 | route2                                        |                   4,                     1,                     1
+ SHFILL64_RVT                                  | route2                                        |                   4,                     1,                     1
+ XOR3X1_LVT                                    | route2                                        |                   4,                     1,                     1
+ AO22X1_LVT                                    | route2                                        |                   3,                     1,                     1
+ INVX2_HVT                                     | route2                                        |                   3,                     1,                     1
+ MUX21X1_LVT                                   | route2                                        |                   3,                     1,                     1
+ NAND3X0_LVT                                   | route2                                        |                   3,                     1,                     1
+ OA22X1_HVT                                    | route2                                        |                   3,                     1,                     1
+ OA22X1_RVT                                    | route2                                        |                   3,                     1,                     1
+ SDFFNX1_LVT                                   | route2                                        |                   3,                     1,                     1
+ SDFFX2_HVT                                    | route2                                        |                   3,                     1,                     1
+ SDFFX2_RVT                                    | route2                                        |                   3,                     1,                     1
+ SRAM2RW64x32                                  | route2                                        |                   3,                     1,                     1
+ TIEL_HVT                                      | route2                                        |                   3,                     1,                     1
+ XNOR2X1_RVT                                   | route2                                        |                   3,                     1,                     1
+ AO21X1_RVT                                    | route2                                        |                   2,                     1,                     1
+ INVX4_RVT                                     | route2                                        |                   2,                     1,                     1
+ NAND3X0_HVT                                   | route2                                        |                   2,                     1,                     1
+ NAND4X0_LVT                                   | route2                                        |                   2,                     1,                     1
+ NBUFFX16_HVT                                  | route2                                        |                   2,                     1,                     1
+ NBUFFX4_LVT                                   | route2                                        |                   2,                     1,                     1
+ OA21X2_RVT                                    | route2                                        |                   2,                     1,                     1
+ SDFFX1_HVT                                    | route2                                        |                   2,                     1,                     1
+ SDFFX1_LVT                                    | route2                                        |                   2,                     1,                     1
+ AND3X1_LVT                                    | route2                                        |                   1,                     1,                     1
+ AND3X4_LVT                                    | route2                                        |                   1,                     1,                     1
+ AND4X1_LVT                                    | route2                                        |                   1,                     1,                     1
+ AO21X1_LVT                                    | route2                                        |                   1,                     1,                     1
+ AOI21X1_HVT                                   | route2                                        |                   1,                     1,                     1
+ AOI21X1_RVT                                   | route2                                        |                   1,                     1,                     1
+ AOI22X1_HVT                                   | route2                                        |                   1,                     1,                     1
+ HADDX1_LVT                                    | route2                                        |                   1,                     1,                     1
+ IBUFFX16_LVT                                  | route2                                        |                   1,                     1,                     1
+ IBUFFX2_HVT                                   | route2                                        |                   1,                     1,                     1
+ INVX1_HVT                                     | route2                                        |                   1,                     1,                     1
+ INVX32_HVT                                    | route2                                        |                   1,                     1,                     1
+ INVX32_RVT                                    | route2                                        |                   1,                     1,                     1
+ INVX8_RVT                                     | route2                                        |                   1,                     1,                     1
+ MUX21X1_HVT                                   | route2                                        |                   1,                     1,                     1
+ MUX21X2_RVT                                   | route2                                        |                   1,                     1,                     1
+ NAND2X4_LVT                                   | route2                                        |                   1,                     1,                     1
+ NAND3X0_RVT                                   | route2                                        |                   1,                     1,                     1
+ NAND4X0_RVT                                   | route2                                        |                   1,                     1,                     1
+ NBUFFX16_LVT                                  | route2                                        |                   1,                     1,                     1
+ NBUFFX32_HVT                                  | route2                                        |                   1,                     1,                     1
+ NBUFFX32_LVT                                  | route2                                        |                   1,                     1,                     1
+ NBUFFX32_RVT                                  | route2                                        |                   1,                     1,                     1
+ NOR2X0_LVT                                    | route2                                        |                   1,                     1,                     1
+ NOR2X1_LVT                                    | route2                                        |                   1,                     1,                     1
+ NOR2X2_LVT                                    | route2                                        |                   1,                     1,                     1
+ NOR2X4_LVT                                    | route2                                        |                   1,                     1,                     1
+ NOR4X0_LVT                                    | route2                                        |                   1,                     1,                     1
+ NOR4X1_LVT                                    | route2                                        |                   1,                     1,                     1
+ OA21X1_RVT                                    | route2                                        |                   1,                     1,                     1
+ OA221X1_HVT                                   | route2                                        |                   1,                     1,                     1
+ OA221X1_RVT                                   | route2                                        |                   1,                     1,                     1
+ OAI22X1_RVT                                   | route2                                        |                   1,                     1,                     1
+ OAI22X2_LVT                                   | route2                                        |                   1,                     1,                     1
+ OR2X4_HVT                                     | route2                                        |                   1,                     1,                     1
+ OR2X4_RVT                                     | route2                                        |                   1,                     1,                     1
+ OR3X1_LVT                                     | route2                                        |                   1,                     1,                     1
+ SDFFNARX1_LVT                                 | route2                                        |                   1,                     1,                     1
+ SDFFNX1_RVT                                   | route2                                        |                   1,                     1,                     1
+ SDFFX2_LVT                                    | route2                                        |                   1,                     1,                     1
+ XOR2X2_RVT                                    | route2                                        |                   1,                     1,                     1
+=============================================== ===============================================
+
+* Region Report *
+Reports information about different regions present in the layout
+Area      : Total area of the cell
+Num Reg   : Number of regions
+MaxR MinR : Area of maximum and minimum region
+Est Trap  : Average number of trapezoids present in a single region
+Est Plc   : Average number of instances present in a single region 
+Large inst wrt Region: Number of instances with area larger than Max Region Area
+Min/Avg/Max ratio : Minimum, average and maximum ratio of child cell area to Max Region Area for large instances
+This table contains a single entry
+
+ Name                                          | Area (M um^2), Num Reg, MaxR (M um^2), MinR (M um^2), Est Trap (M), Est Plc (M), Large inst wrt Region: Num, Min ratio, Avg ratio, Max ratio
+-----------------------------------------------
+ route2                                        |         0.505,      16,         0.032,         0.032,        0.298,       0.000,                          0,      0.00,      0.00,      0.00
+===============================================
+
+* Layer Report with Estimated Data *
+Reports information of layers present in the layout
+
+Trap        : Number of hierarchical trapezoids in the layer
+Poly        : Number of hierarchical polygons in the layer
+Text        : Number of hierarchical text primitives in the layer
+Flat Trap   : Number of flat trapezoids 
+Flat Poly   : Number of flat polygons
+Flat Text   : Number of flat text primitives 
+Trap F/H    : Ratio of flat and hierarchical placements of the trapezoids
+Base, Metal, Via, Fill, Colored : Indicates layer intent
+This table contains 22 entries
+
+ Name                                          | Trap (M), Poly (M), Text (M), Flat Trap (M), Flat Poly (M), Flat Text (M), Trap F/H, Base, Metal, Via, Fill, Colored
+-----------------------------------------------
+ VIA7i                                         |    1.704,    1.704,    0.000,         1.704,         1.704,         0.000,     1.00,    0,     0,   0,    0,       0
+ M2i                                           |    0.639,    0.639,    0.000,         0.639,         0.639,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA1i                                         |    0.463,    0.463,    0.000,         0.463,         0.463,         0.000,     1.00,    0,     0,   0,    0,       0
+ M3i                                           |    0.435,    0.435,    0.000,         0.435,         0.435,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA2i                                         |    0.291,    0.291,    0.000,         0.291,         0.291,         0.000,     1.00,    0,     0,   0,    0,       0
+ M1i                                           |    0.276,    0.253,    0.000,         0.276,         0.253,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA3i                                         |    0.181,    0.181,    0.000,         0.181,         0.181,         0.000,     1.00,    0,     0,   0,    0,       0
+ M4i                                           |    0.173,    0.173,    0.000,         0.173,         0.173,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA4i                                         |    0.137,    0.137,    0.000,         0.137,         0.137,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA5i                                         |    0.119,    0.119,    0.000,         0.119,         0.119,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA6i                                         |    0.109,    0.109,    0.000,         0.109,         0.109,         0.000,     1.00,    0,     0,   0,    0,       0
+ COi                                           |    0.081,    0.081,    0.000,         0.081,         0.081,         0.000,     1.00,    0,     0,   0,    0,       0
+ M5i                                           |    0.077,    0.077,    0.000,         0.077,         0.077,         0.000,     1.00,    0,     0,   0,    0,       0
+ M6i                                           |    0.034,    0.034,    0.000,         0.034,         0.034,         0.000,     1.00,    0,     0,   0,    0,       0
+ POi                                           |    0.018,    0.018,    0.000,         0.018,         0.018,         0.000,     1.00,    0,     0,   0,    0,       0
+ M7i                                           |    0.018,    0.018,    0.000,         0.018,         0.018,         0.000,     1.00,    0,     0,   0,    0,       0
+ M8i                                           |    0.007,    0.007,    0.000,         0.007,         0.007,         0.000,     1.00,    0,     0,   0,    0,       0
+ NWELLi                                        |    0.002,    0.002,    0.000,         0.002,         0.002,         0.000,     1.00,    0,     0,   0,    0,       0
+ M4i_text                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ M2i_text                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ M6i_text                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ DNWi                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+===============================================
+
